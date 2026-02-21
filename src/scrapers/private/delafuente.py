@@ -22,43 +22,23 @@ class DelaFuenteScraper(BaseScraper):
         """Scrape all auction listings."""
         all_listings = []
 
-        # Main pages to check
-        pages = [
-            "/",
-            "/remates",
-            "/subastas",
-            "/proximos-remates",
-        ]
+        # Main page
+        url = self.BASE_URL
+        logger.info(f"Scraping De la Fuente: {url}")
 
-        for path in pages:
-            url = f"{self.BASE_URL}{path}"
-            logger.info(f"Scraping De la Fuente: {url}")
-
-            html = await self.fetch_html(url)
-            if not html:
-                continue
-
+        html = await self.fetch_html(url)
+        if html:
             soup = self.parse_html(html)
-            listings = self._parse_listings_page(soup)
+            listings = self._parse_listings_page(soup, html)
             all_listings.extend(listings)
 
-        # Also try to enumerate recent IDs
-        # Pattern: /remate/[ID]
-        known_ids = set()
-        for listing in all_listings:
-            match = re.search(r'/remate/(\d+)', listing.source_url)
-            if match:
-                known_ids.add(int(match.group(1)))
-
-        if known_ids:
-            max_id = max(known_ids)
-            # Try nearby IDs
-            for auction_id in range(max(1, max_id - 20), max_id + 10):
-                if auction_id in known_ids:
-                    continue
-                listing = await self._fetch_detail(auction_id)
-                if listing:
-                    all_listings.append(listing)
+        # Subastas page
+        url2 = f"{self.BASE_URL}/subastas"
+        html2 = await self.fetch_html(url2)
+        if html2:
+            soup2 = self.parse_html(html2)
+            listings2 = self._parse_listings_page(soup2, html2)
+            all_listings.extend(listings2)
 
         # Deduplicate
         seen = set()
@@ -71,149 +51,134 @@ class DelaFuenteScraper(BaseScraper):
         logger.info(f"Found {len(unique)} De la Fuente listings")
         return unique
 
-    def _parse_listings_page(self, soup) -> list[AuctionListing]:
+    def _parse_listings_page(self, soup, html: str) -> list[AuctionListing]:
         """Parse listings from page."""
         listings = []
 
         # Find auction links - pattern: /remate/[id]
+        # Only accept links that stay on this domain
         auction_links = soup.find_all("a", href=re.compile(r'/remate/\d+'))
 
-        seen_urls = set()
+        seen_ids = set()
         for link in auction_links:
             href = link.get("href", "")
-            if href in seen_urls:
-                continue
-            seen_urls.add(href)
 
-            listing = self._parse_auction_link(link, href)
+            # Skip external domains
+            if "rural.com" in href or "rural-" in href:
+                continue
+
+            # Extract ID
+            id_match = re.search(r'/remate/(\d+)', href)
+            if not id_match:
+                continue
+
+            auction_id = id_match.group(1)
+            if auction_id in seen_ids:
+                continue
+            seen_ids.add(auction_id)
+
+            listing = self._parse_auction_card(link, auction_id)
             if listing:
                 listings.append(listing)
 
         return listings
 
-    def _parse_auction_link(self, link, href: str) -> Optional[AuctionListing]:
-        """Parse auction from a link element."""
+    def _parse_auction_card(self, link, auction_id: str) -> Optional[AuctionListing]:
+        """Parse auction from a link/card element."""
         try:
-            id_match = re.search(r'/remate/(\d+)', href)
-            if not id_match:
-                return None
-            auction_id = id_match.group(1)
+            source_url = f"{self.BASE_URL}/remate/{auction_id}"
 
-            if href.startswith("/"):
-                source_url = f"{self.BASE_URL}{href}"
-            else:
-                source_url = href
-
-            # Get title
-            title = link.get_text(strip=True)
-            if not title or len(title) < 3:
+            # Find parent container (card/article)
+            parent = link.find_parent(["div", "article", "li"])
+            if not parent:
                 parent = link.find_parent()
-                if parent:
-                    title = parent.get_text(strip=True)[:100]
 
-            if not title:
-                title = f"Remate #{auction_id}"
+            # Extract title - look for heading elements
+            title = ""
+            if parent:
+                # Look for actual title in headings
+                title_elem = parent.find(["h1", "h2", "h3", "h4", "h5"])
+                if title_elem:
+                    title = title_elem.get_text(strip=True)
 
-            # Image
+                # If no heading, try to find meaningful text
+                if not title or len(title) < 5:
+                    # Get text but clean it
+                    for text_elem in parent.find_all(["strong", "b", "span"]):
+                        text = text_elem.get_text(strip=True)
+                        # Skip dates, locations, etc
+                        if len(text) > 10 and not text.startswith("Fecha") and not text.startswith("Ubicación"):
+                            title = text
+                            break
+
+            # Clean up title - remove common noise
+            if title:
+                # Remove "SUBASTA DD/MM/YYYY HH:MMhs" pattern
+                title = re.sub(r'^SUBASTA\s+\d{1,2}/\d{1,2}/\d{4}\s+\d{1,2}:\d{2}\s*HS?\s*', '', title, flags=re.I)
+                # Remove date info
+                title = re.sub(r'Fecha:.*?(?=Categoría|Ubicación|$)', '', title, flags=re.I)
+                # Remove category info
+                title = re.sub(r'Categoría:.*?(?=Ubicación|$)', '', title, flags=re.I)
+                # Remove location info
+                title = re.sub(r'Ubicación:.*', '', title, flags=re.I)
+                # Clean up whitespace
+                title = re.sub(r'\s+', ' ', title).strip()
+
+            # If still no good title, create descriptive one
+            if not title or len(title) < 5:
+                title = f"Subasta De la Fuente #{auction_id}"
+
+            # Extract image
             images = []
-            img = link.find("img")
-            if not img:
-                parent = link.find_parent()
-                if parent:
-                    img = parent.find("img")
-            if img:
-                src = img.get("src") or img.get("data-src")
-                if src:
-                    if src.startswith("/"):
-                        src = f"{self.BASE_URL}{src}"
-                    images.append(src)
+            if parent:
+                img = parent.find("img")
+                if img:
+                    src = img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+                    if src:
+                        # Accept thumbs2.rural-ftp.com images (they host the actual photos)
+                        if src.startswith("//"):
+                            src = "https:" + src
+                        elif src.startswith("/"):
+                            src = f"{self.BASE_URL}{src}"
+                        # Skip logos/icons
+                        if not any(x in src.lower() for x in ['logo', 'icon', 'favicon']):
+                            images.append(src)
 
-            category = detect_category(title, "")
+            # Extract date if available
+            date_text = ""
+            if parent:
+                date_match = re.search(r'(\d{1,2})\s+de\s+(\w+),?\s*(\d{1,2}:\d{2})', parent.get_text(), re.I)
+                if date_match:
+                    date_text = date_match.group(0)
+
+            # Extract category from text
+            category = "other"
+            text_lower = parent.get_text().lower() if parent else ""
+            if "activo" in text_lower or "inmueble" in text_lower:
+                category = "real_estate"
+            elif "vehículo" in text_lower or "auto" in text_lower:
+                category = "vehicles"
+            elif "maquinaria" in text_lower or "equipo" in text_lower:
+                category = "machinery"
+
+            description = f"Subasta en Córdoba. {date_text}" if date_text else "Subasta en Córdoba."
 
             return AuctionListing(
                 id=self.generate_id(auction_id),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
                 title=title,
-                description="",
+                description=description,
                 category=category,
                 base_price=0.0,
                 currency="ARS",
                 status="published",
+                location={"province": "Córdoba", "city": "Córdoba"},
                 images=images,
             )
         except Exception as e:
-            logger.error(f"Error parsing De la Fuente link: {e}")
+            logger.error(f"Error parsing De la Fuente card: {e}")
             return None
-
-    async def _fetch_detail(self, auction_id: int) -> Optional[AuctionListing]:
-        """Fetch detail page to extract full info."""
-        url = f"{self.BASE_URL}/remate/{auction_id}"
-        html = await self.fetch_html(url)
-        if not html:
-            return None
-
-        # Check if it's a valid auction page
-        if "remate" not in html.lower() and "subasta" not in html.lower():
-            return None
-
-        soup = self.parse_html(html)
-        page_text = soup.get_text()
-
-        # Extract title
-        title_elem = soup.find(["h1", "h2"])
-        title = title_elem.get_text(strip=True) if title_elem else f"Remate #{auction_id}"
-
-        if len(title) < 5:
-            return None
-
-        # Extract price
-        base_price = 0.0
-        currency = "ARS"
-        price_patterns = [
-            r'(?:base|precio)[:\s]*\$?\s*([\d.,]+)',
-            r'(?:USD|U\$S)\s*([\d.,]+)',
-            r'\$\s*([\d.,]+)',
-        ]
-        for pattern in price_patterns:
-            match = re.search(pattern, page_text, re.I)
-            if match:
-                price_str = match.group(1).replace('.', '').replace(',', '.')
-                try:
-                    base_price = float(price_str)
-                    break
-                except ValueError:
-                    continue
-
-        if "USD" in page_text or "dólar" in page_text.lower():
-            currency = "USD"
-
-        # Extract images
-        images = []
-        for img in soup.find_all("img"):
-            src = img.get("src") or img.get("data-src")
-            if src and not any(x in src.lower() for x in ['logo', 'icon', 'avatar']):
-                if src.startswith("/"):
-                    src = f"{self.BASE_URL}{src}"
-                if src not in images:
-                    images.append(src)
-                if len(images) >= 5:
-                    break
-
-        category = detect_category(title, page_text[:500])
-
-        return AuctionListing(
-            id=self.generate_id(auction_id),
-            source=self.SOURCE_NAME,
-            source_url=url,
-            title=title,
-            description=page_text[:300] if page_text else "",
-            category=category,
-            base_price=base_price,
-            currency=currency,
-            status="published",
-            images=images,
-        )
 
     def parse_listing(self, element, status: str = "published") -> Optional[AuctionListing]:
         """Required by base class."""

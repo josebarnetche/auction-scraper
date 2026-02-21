@@ -1,0 +1,547 @@
+{
+  "generated_at": "2026-02-21T03:42:23.901790+00:00",
+  "count": 12,
+  "flagged_count": 9,
+  "opportunities": [
+    {
+      "listing": {
+        "id": "adrian_mercado:46734470",
+        "source": "adrian_mercado",
+        "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
+        "title": "Asegurá tu participación en la subasta",
+        "description": "Recordá acreditar tu garantía, podrás hacerlo durante la subasta pero recomendamos realizarlo antes para evitar demoras.",
+        "category": "other",
+        "base_price": 5411.0,
+        "currency": "ARS",
+        "status": "published",
+        "starts_at": null,
+        "ends_at": null,
+        "location": {
+          "province": "",
+          "city": ""
+        },
+        "images": [
+          "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
+        ],
+        "scraped_at": "2026-02-21T03:40:58.788104+00:00",
+        "extra": {}
+      },
+      "market_median_usd": 4973.5921984561655,
+      "auction_price_usd": 3.783916083916084,
+      "discount_percentage": 99.91,
+      "confidence_score": 0.5,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by text similarity",
+      "analyzed_at": "2026-02-21T03:42:23.901700+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:15",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/15",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM6AUTOMOTOR- MARCA VOLKSWAGEN- MODELO CROSSFOX 1.6 -AÑO 2009 - ESTADO  REGULARLa inscripción cierra en:Descripción del bienAutomotor marca Volkswagen,  Modelo Crossfox 1.6, año: 2009,  Motor N° BAH391641, Chasis N° 9BWKB45Z084149424, Dominio HUR-238. Estado regular, con motor aparentemente completo y neumáticos en buen estado. No cuenta con rueda de auxilio. Su aspecto exterior es regular, con algunos rayones y pequeños hundimientos, en ",
+        "category": "vehicles",
+        "base_price": 2870000.0,
+        "currency": "ARS",
+        "status": "published",
+        "starts_at": "2026-03-04T09:00:00",
+        "ends_at": "2026-03-20T09:00:00",
+        "location": {
+          "province": "CABA",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.774027.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.789669.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.805300.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.820924.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:09.368892+00:00",
+        "extra": {
+          "auction_code": "15",
+          "lot_id": "17"
+        }
+      },
+      "market_median_usd": 16984.909357589564,
+      "auction_price_usd": 2006.993006993007,
+      "discount_percentage": 86.1,
+      "confidence_score": 0.36,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by text similarity",
+      "analyzed_at": "2026-02-21T03:42:23.900458+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:23",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/23",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM9AUTOMOTOR  - MARCA FORD- MODELO  WZ FOCUS 1.6 L N MT S 4 P- AÑO 2017- COLOR GRIS- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca FORD; Modelo WZ Focus 4 P 1.6 N MT S, tipo sedan, 4 Pts; Motor Ford N°PNDAJJ021759, Chasis Ford N° 8AFNZZFFCJJ021759, color GRIS, año 2017; Dominio AB528AW.  Según tacómetro, al 01/09/2025: 167.950 km. Estado de la unidad: BUENO. Deuda por patentes: $ 909.942,25.\r\nLugar y fecha de e",
+        "category": "vehicles",
+        "base_price": 6500000.0,
+        "currency": "ARS",
+        "status": "published",
+        "starts_at": "2026-03-05T11:00:00",
+        "ends_at": "2026-03-25T11:00:00",
+        "location": {
+          "province": "CABA",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.148670.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.164313.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.179941.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.195570.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:21.467040+00:00",
+        "extra": {
+          "auction_code": "23",
+          "lot_id": "25"
+        }
+      },
+      "market_median_usd": 16500.7497877401,
+      "auction_price_usd": 4545.454545454545,
+      "discount_percentage": 67.59,
+      "confidence_score": 0.36,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by text similarity",
+      "analyzed_at": "2026-02-21T03:42:23.901028+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:16",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/16",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.CIV7EN DÓLARES- CASA- 4 AMBIENTES - 2 BAÑOS- GENERAL RODRIGUEZ- PCIA. BUENOS AIRES-La inscripción cierra en:Descripción del bienInmueble en la calle Cramer Nro. 137, Partido de General Rodríguez, Provincia de Buenos Aires. Deshabitado. 4 ambientes. Casa con entrada por garaje descubierto y puerta principal con acceso por portón, con jardín en el frente. Recibidor, comedor o sala de estar, 2 dormitorios con placard, ambos con vista al frente y estufa a",
+        "category": "real_estate",
+        "base_price": 32250.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-03-02T09:00:00",
+        "ends_at": "2026-03-18T09:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.573572.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.589209.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.604838.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.620471.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:11.923812+00:00",
+        "extra": {
+          "auction_code": "16",
+          "lot_id": "18"
+        }
+      },
+      "market_median_usd": 71762.3078781533,
+      "auction_price_usd": 32250.0,
+      "discount_percentage": 47.13,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: rooms",
+      "analyzed_at": "2026-02-21T03:42:23.900647+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:48",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/48",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM14AUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca TOYOTA; modelo: ETIOS XLS 1.5 4A/T, SEDAN 5 puertas; motor: TOYOTA; N° de motor: 2NR4187168; marca de Chasis TOYOTA; número de chasis; 9BRK29BT5J0152932; dominio: AC393KQ; año 2018; color gris. El estado general es bueno, excepto algún rayón o golpe en la carrocería. Tapizado en buenas condiciones y con ",
+        "category": "vehicles",
+        "base_price": 13000000.0,
+        "currency": "ARS",
+        "status": "published",
+        "starts_at": "2026-02-26T09:00:00",
+        "ends_at": "2026-03-16T09:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.777314.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.730433.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.746074.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.761695.jpeg"
+        ],
+        "scraped_at": "2026-02-21T03:41:59.195392+00:00",
+        "extra": {
+          "auction_code": "48",
+          "lot_id": "50"
+        }
+      },
+      "market_median_usd": 20012.660464206692,
+      "auction_price_usd": 9090.90909090909,
+      "discount_percentage": 46.56,
+      "confidence_score": 0.36,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by text similarity",
+      "analyzed_at": "2026-02-21T03:42:23.901290+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:28",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/28",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.COM13EN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-La inscripción cierra en:Descripción del bienInmueble sito en el Barrio Ciudad General Belgrano, hoy Ciudad Martín Miguel de Güemes, del Partido de La Matanza, Pcia. de Buenos Aires, Finca designada bajo el N°2701, con frente sobre calle sin nombre, designada según Plano 70-152-64 que cita su título como Lote 14,  Nomenclatura catastral: Circ. VII, ",
+        "category": "real_estate",
+        "base_price": 37500.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-02-23T11:00:00",
+        "ends_at": "2026-03-11T11:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/28/30/photo.11_32_31.389360.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/28/30/photo.11_32_31.404998.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:29.686914+00:00",
+        "extra": {
+          "auction_code": "28",
+          "lot_id": "30"
+        }
+      },
+      "market_median_usd": 77551.56825046412,
+      "auction_price_usd": 37500.0,
+      "discount_percentage": 43.11,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: area_m2",
+      "analyzed_at": "2026-02-21T03:42:23.901131+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:55",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/55",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.COM17EN DÓLARES- INMUEBLE EN LOTE PROPIO CON DOS UNIDADES- OCUPADO- BANFIELD- LOMAS DE ZAMORA-PCIA. BS.ASLa inscripción cierra en:Descripción del bienInmueble ocupado, ubicado en Miguel Cané 917, entre Palacios y Campos, Banfield, Partido de Lomas de Zamora, Provincia de Buenos Aires. Posee dos construcciones, en lote de 233,91 m2, a las cuales se accede por un pasillo común. \r\nConstrucción ubicada al frente del lote: hall de ingreso, tres ambientes, ",
+        "category": "real_estate",
+        "base_price": 33333.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-03-25T11:00:00",
+        "ends_at": "2026-04-14T11:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.12_03_16.964876.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.186173.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.201786.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.217414.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:42:10.605237+00:00",
+        "extra": {
+          "auction_code": "55",
+          "lot_id": "57"
+        }
+      },
+      "market_median_usd": 68676.79143261252,
+      "auction_price_usd": 33333.0,
+      "discount_percentage": 42.9,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: area_m2",
+      "analyzed_at": "2026-02-21T03:42:23.901580+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:53",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/53",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.CIV13EN DÓLARES- OCUPADO - DEPARTAMENTO - 3 AMBIENTES - BALVANERA - C.A.B.A.La inscripción cierra en:Descripción del bienDepartamento ocupado, sito en la calle Moreno  2562/64/66/72, U.F. N°34, Piso 2 'M'. Tres ambientes, destinado a vivienda, con una superficie aproximada de 50,39 m2: living comedor, cocina, lavadero, dos dormitorios y un baño completo. Presenta disposición interna, con ventilación hacia pulmón del edificio mediante balcón tipo franc",
+        "category": "real_estate",
+        "base_price": 41000.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-03-13T11:00:00",
+        "ends_at": "2026-04-06T11:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.962208.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.977835.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.993477.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg"
+        ],
+        "scraped_at": "2026-02-21T03:42:07.879860+00:00",
+        "extra": {
+          "auction_code": "53",
+          "lot_id": "55"
+        }
+      },
+      "market_median_usd": 75423.28298213519,
+      "auction_price_usd": 41000.0,
+      "discount_percentage": 36.05,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: area_m2, rooms",
+      "analyzed_at": "2026-02-21T03:42:23.901483+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:17",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/17",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.CIV8EN DÓLARES- DEPARTAMENTO -2 AMBIENTES- BALVANERA- C.AB.A-La inscripción cierra en:Descripción del bienInmueble sobre calle Catamarca 486/88/92, UF17. Ubicado en el barrio de Balvanera CABA. Desocupado. Departamento interno, de dos ambientes, de 31 m2, luminoso, en buen estado de conservación. No cuenta con servicio de gas, motivo por el cual cuenta con un termotanque eléctrico en la cocina de época, con ventana, la que se encuentra tapada. No tien",
+        "category": "real_estate",
+        "base_price": 37600.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-03-03T09:00:00",
+        "ends_at": "2026-03-19T09:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.355148.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.370774.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.386406.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.402028.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:13.166039+00:00",
+        "extra": {
+          "auction_code": "17",
+          "lot_id": "19"
+        }
+      },
+      "market_median_usd": 68450.0129592927,
+      "auction_price_usd": 37600.0,
+      "discount_percentage": 35.38,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": true,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: area_m2, rooms",
+      "analyzed_at": "2026-02-21T03:42:23.900754+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:18",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/18",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.CIV9EN DÓLARES - OCUPADO- CASA EN LOTE PROPIO- ING. MASCHWITZ- PILAR- PCIA. BUENOS AIRES-La inscripción cierra en:Descripción del bienInmueble ocupado, ubicado en la calle Castelli, entre las calles Jujuy y San Juan, designado con el número 21 de la Manzana 108, Ingeniero Maschwitz, Partido de Escobar, Provincia de Buenos Aires.  La  propiedad posee una superficie total de 236m2,  de los cuales 147 m2, aproximadamente, son cubiertos. Planta baja: coci",
+        "category": "real_estate",
+        "base_price": 56250.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-03-05T09:00:00",
+        "ends_at": "2026-03-25T09:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.143264.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.158890.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:14.604549+00:00",
+        "extra": {
+          "auction_code": "18",
+          "lot_id": "20"
+        }
+      },
+      "market_median_usd": 73571.91630795591,
+      "auction_price_usd": 56250.0,
+      "discount_percentage": 10.05,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": false,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: area_m2",
+      "analyzed_at": "2026-02-21T03:42:23.900859+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:49",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/49",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.COM15EN DÓLARES- 50% INDIVISO- OCUPADO - DEPARTAMENTO 4 AMBIENTES AL FRENTE CON BALCÓN TERRAZA- RECOLETALa inscripción cierra en:Descripción del bien50% INDIVISO. Departamento sobre calle Agüero 2012, 9°piso, UF9, esquina French, último piso. Edificio en buenas condiciones generales, con ascensor de servicio y principal, por donde se accede a las entradas privadas de cada unidad. Las medidas que se informan son aproximadas. El departamento cuenta con ",
+        "category": "real_estate",
+        "base_price": 110000.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-03-17T09:00:00",
+        "ends_at": "2026-04-08T09:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.542224.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.495338.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.510977.jpeg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg"
+        ],
+        "scraped_at": "2026-02-21T03:42:01.399493+00:00",
+        "extra": {
+          "auction_code": "49",
+          "lot_id": "51"
+        }
+      },
+      "market_median_usd": 81734.84437100831,
+      "auction_price_usd": 110000.0,
+      "discount_percentage": -58.33,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": false,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: rooms",
+      "analyzed_at": "2026-02-21T03:42:23.901387+00:00"
+    },
+    {
+      "listing": {
+        "id": "csjn:12",
+        "source": "csjn",
+        "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/12",
+        "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+        "description": "Subasta\r\n                        InmuebleCód.CIV6EN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.La inscripción cierra en:Descripción del bienInmueble ubicado en la calle Sarmiento N° 1971/1973, entre Campichuelo y Cangallo, Cuartel III, Paraje Villa Ideal, de la Localidad de Avellaneda, Provincia de Buenos Aires.  Está construido sobre terreno propio y cuenta, en planta baja, con entrada individual por la calle Sarmiento (sin número visible) y dos (2) departame",
+        "category": "real_estate",
+        "base_price": 160000.0,
+        "currency": "USD",
+        "status": "published",
+        "starts_at": "2026-02-26T11:00:00",
+        "ends_at": "2026-03-16T11:00:00",
+        "location": {
+          "province": "Buenos Aires",
+          "city": ""
+        },
+        "images": [
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.417129.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.432763.jpg",
+          "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.448394.jpg"
+        ],
+        "scraped_at": "2026-02-21T03:41:05.536170+00:00",
+        "extra": {
+          "auction_code": "12",
+          "lot_id": "14"
+        }
+      },
+      "market_median_usd": 69055.83160630592,
+      "auction_price_usd": 160000.0,
+      "discount_percentage": -172.58,
+      "confidence_score": 0.3,
+      "comparables_count": 5,
+      "is_flagged": false,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ],
+      "analysis_notes": "Matched by: location",
+      "analyzed_at": "2026-02-21T03:42:23.516753+00:00"
+    }
+  ]
+}

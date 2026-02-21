@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:subastaselectronicasjudiciales.csjn.gov.ar)",
+      "WebSearch",
+      "WebFetch(domain:here.now)",
+      "WebFetch(domain:developers.mercadolibre.com.ar)",
+      "WebFetch(domain:dolarapi.com)",
+      "Bash(python scripts/generate_site.py:*)",
+      "Bash(dir:*)",
+      "Bash(python scripts/run_scraper.py:*)",
+      "Bash(python:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(findstr:*)",
+      "Bash(del:*)"
+    ]
+  }
+}

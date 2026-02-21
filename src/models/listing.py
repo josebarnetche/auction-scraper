@@ -1,0 +1,85 @@
+"""Auction listing data model."""
+
+from dataclasses import dataclass, field, asdict
+from datetime import datetime, timezone
+from typing import Optional
+import json
+
+
+def _utcnow():
+    return datetime.now(timezone.utc)
+
+
+@dataclass
+class AuctionListing:
+    """Represents a single auction listing."""
+
+    id: str
+    source: str  # csjn, scba, comprar, adrian_mercado, etc.
+    source_url: str
+    title: str
+    description: str
+    category: str  # vehicles, real_estate, machinery, other
+    base_price: float
+    currency: str  # ARS or USD
+    status: str  # published, ongoing, finalized
+    starts_at: Optional[datetime] = None
+    ends_at: Optional[datetime] = None
+    location: dict = field(default_factory=lambda: {"province": "", "city": ""})
+    images: list[str] = field(default_factory=list)
+    scraped_at: datetime = field(default_factory=_utcnow)
+    extra: dict = field(default_factory=dict)
+
+    def to_dict(self) -> dict:
+        """Convert to dictionary for JSON serialization."""
+        data = asdict(self)
+        # Convert datetime fields to ISO format strings
+        for key in ["starts_at", "ends_at", "scraped_at"]:
+            if data[key] is not None:
+                data[key] = data[key].isoformat()
+        return data
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "AuctionListing":
+        """Create instance from dictionary."""
+        # Convert ISO strings back to datetime
+        for key in ["starts_at", "ends_at", "scraped_at"]:
+            if data.get(key) and isinstance(data[key], str):
+                data[key] = datetime.fromisoformat(data[key])
+        return cls(**data)
+
+    def to_json(self) -> str:
+        """Serialize to JSON string."""
+        return json.dumps(self.to_dict(), ensure_ascii=False, indent=2)
+
+
+def detect_category(title: str, description: str = "") -> str:
+    """Detect auction category from title and description."""
+    text = f"{title} {description}".lower()
+
+    vehicle_keywords = [
+        "auto", "automóvil", "vehículo", "vehiculo", "camioneta", "camión",
+        "moto", "motocicleta", "pickup", "sedan", "ford", "chevrolet",
+        "toyota", "volkswagen", "renault", "fiat", "peugeot", "citroen",
+        "mercedes", "bmw", "audi", "honda", "nissan", "rodado"
+    ]
+
+    real_estate_keywords = [
+        "inmueble", "casa", "departamento", "terreno", "lote", "local",
+        "oficina", "galpón", "galpon", "campo", "propiedad", "edificio",
+        "cochera", "ph", "dúplex", "duplex", "monoambiente", "hectáreas"
+    ]
+
+    machinery_keywords = [
+        "maquinaria", "máquina", "maquina", "tractor", "cosechadora",
+        "herramienta", "equipo", "industrial", "agrícola", "agricola"
+    ]
+
+    if any(kw in text for kw in vehicle_keywords):
+        return "vehicles"
+    elif any(kw in text for kw in real_estate_keywords):
+        return "real_estate"
+    elif any(kw in text for kw in machinery_keywords):
+        return "machinery"
+
+    return "other"

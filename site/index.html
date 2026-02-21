@@ -169,17 +169,6 @@ html {
         <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40"></div>
     </div>
 
-    <!-- FLOATING CURRENCY SELECTOR -->
-    <div class="fixed bottom-6 right-6 z-50">
-        <div class="glass rounded-full px-4 py-2 flex items-center gap-2 shadow-lg">
-            <span class="text-white/60 text-xs uppercase tracking-wider">Currency</span>
-            <div class="flex bg-black/30 rounded-full p-0.5">
-                <button id="currency-ars" onclick="setCurrency('ARS')" class="px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn">ARS</button>
-                <button id="currency-usd" onclick="setCurrency('USD')" class="px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn bg-yellow-500 text-black">USD</button>
-            </div>
-        </div>
-    </div>
-
     <!-- NAVIGATION -->
     <nav class="fixed z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0">
         <div class="flex glass max-w-[1400px] rounded-full mx-auto px-6 py-3 items-center justify-between">
@@ -269,17 +258,39 @@ html {
                     Subasto<span class="font-light text-yellow-500">.com.ar</span>
                 </span>
             </a>
+            <!-- Desktop Navigation -->
             <div class="hidden md:flex items-center gap-8">
                 <a href="#auctions" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Auctions</a>
                 <a href="#calendar" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Calendar</a>
                 <a href="#dashboard" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Dashboard</a>
                 <a href="#sources" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Sources</a>
             </div>
-            <div class="flex items-center gap-3 text-xs">
-                <span class="text-white/60 font-mono hidden sm:inline" id="gmt3-time">--:--</span>
-                <span class="text-white/40 hidden sm:inline">GMT-3</span>
-                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                <span class="text-white/60 uppercase tracking-wider hidden sm:inline">Live</span>
+            <div class="flex items-center gap-2 sm:gap-3 text-xs">
+                <!-- Currency Selector -->
+                <div class="flex bg-black/30 rounded-full p-0.5 border border-white/10">
+                    <button id="currency-ars" onclick="setCurrency('ARS')" class="px-2 sm:px-3 py-1 text-[10px] sm:text-xs font-medium rounded-full transition-all currency-btn text-white/60 hover:text-white">ARS</button>
+                    <button id="currency-usd" onclick="setCurrency('USD')" class="px-2 sm:px-3 py-1 text-[10px] sm:text-xs font-medium rounded-full transition-all currency-btn bg-yellow-500 text-black">USD</button>
+                </div>
+                <!-- Live indicator -->
+                <div class="flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    <span class="text-white/60 uppercase tracking-wider text-[10px] sm:text-xs hidden sm:inline">Live</span>
+                </div>
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden p-2 text-white/60 hover:text-white">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden mt-2 glass rounded-2xl p-4 mx-auto max-w-[1400px]">
+            <div class="flex flex-col gap-3">
+                <a href="#auctions" onclick="toggleMobileMenu()" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2 border-b border-white/10">Auctions</a>
+                <a href="#calendar" onclick="toggleMobileMenu()" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2 border-b border-white/10">Calendar</a>
+                <a href="#dashboard" onclick="toggleMobileMenu()" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2 border-b border-white/10">Dashboard</a>
+                <a href="#sources" onclick="toggleMobileMenu()" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2">Sources</a>
             </div>
         </div>
     </nav>
@@ -877,12 +888,18 @@ html {
         // Currency display preference
         let displayCurrency = 'USD';
 
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
         function setCurrency(currency) {
             displayCurrency = currency;
             // Update button styles
-            document.getElementById('currency-ars').className = 'px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn ' +
+            document.getElementById('currency-ars').className = 'px-2 sm:px-3 py-1 text-[10px] sm:text-xs font-medium rounded-full transition-all currency-btn ' +
                 (currency === 'ARS' ? 'bg-yellow-500 text-black' : 'text-white/60 hover:text-white');
-            document.getElementById('currency-usd').className = 'px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn ' +
+            document.getElementById('currency-usd').className = 'px-2 sm:px-3 py-1 text-[10px] sm:text-xs font-medium rounded-full transition-all currency-btn ' +
                 (currency === 'USD' ? 'bg-yellow-500 text-black' : 'text-white/60 hover:text-white');
             // Re-render current view
             renderAuctions();

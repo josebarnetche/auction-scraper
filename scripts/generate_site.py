@@ -365,16 +365,22 @@ def generate_site():
                 "is_premium": True,
             })
 
-    # Sort opportunities: before_march first, then by discount (highest first)
-    # Prioritize machinery and premium, but don't let premium override actual value
+    # Sort opportunities: judicial first, then by discount (highest first)
+    # Prioritize judicial sources, machinery and premium
     def opportunity_score(opp):
         score = opp["discount"]
+        # Source type: judicial sources get priority
+        source = opp["listing"].get("source", "")
+        if source in JUDICIAL_SOURCES:
+            score += 100  # Judicial sources ranked higher
+        elif source in PRIORITY_PRIVATE_SOURCES:
+            score += 40  # Priority private sources
         if opp.get("is_premium"):
-            score += 50  # Reduced from 200 - premium is a bonus, not override
+            score += 50  # Premium is a bonus
         if opp["before_march"]:
-            score += 30  # Reduced from 100 - time urgency bonus
+            score += 30  # Time urgency bonus
         if opp["category"] == "machinery":
-            score += 20  # Reduced from 50 - category bonus
+            score += 20  # Category bonus
         return score
 
     opportunities.sort(key=opportunity_score, reverse=True)

@@ -54,7 +54,12 @@ MACHINERY_PRICES = {
     # Industrial generators (larger units 10kW+)
     "grupo electrogeno": {"min": 3000, "max": 100000, "typical": 20000},
     "soldadora": {"min": 500, "max": 15000, "typical": 3000},
-    "torno": {"min": 5000, "max": 80000, "typical": 20000},
+    # Tornos - specific types first
+    "torno automatico": {"min": 1500, "max": 6000, "typical": 3500},  # Small bar lathes (HA 25, etc.)
+    "torno revolver": {"min": 2000, "max": 8000, "typical": 4000},
+    "torno paralelo": {"min": 3000, "max": 15000, "typical": 6000},
+    "torno cnc": {"min": 15000, "max": 80000, "typical": 35000},
+    "torno": {"min": 3000, "max": 40000, "typical": 8000},  # Generic - smaller range
     "fresadora": {"min": 8000, "max": 100000, "typical": 30000},
     "cnc": {"min": 15000, "max": 200000, "typical": 50000},
     # Presses - specific types FIRST (more specific keywords must come before generic)

@@ -17,26 +17,56 @@
     "zarate": 2,
     "curated": 21
   },
-  "generated_at": "2026-02-21T21:38:52.732660+00:00",
+  "generated_at": "2026-02-21T21:51:38.926744+00:00",
   "blue_dollar_rate": 1430.0,
   "with_market_data": 75,
   "opportunity_count": 72,
   "premium_count": 12,
   "top_opportunities": [
     {
-      "id": "curated:mecalux_robot_warehouse",
-      "title": "Mecalux Programmable Robot + Automated Warehouse System + Forklift",
-      "discount_percent": 75.0,
+      "id": "cordoba:26092",
+      "title": "BERLINGO FURGON - 2018",
+      "discount_percent": 70.4,
       "before_march": true,
       "category": "vehicles",
-      "source": "curated",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
-      "base_price": 52500,
-      "currency": "USD",
-      "market_typical_usd": 150000,
-      "is_premium": true,
-      "premium_type": "automation",
-      "why_premium": "Mecalux automation equipment extremely rare at auction. 70-80% below replacement cost."
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26092/",
+      "base_price": 7630910.0,
+      "currency": "ARS",
+      "market_typical_usd": 18000,
+      "is_premium": false,
+      "premium_type": "",
+      "why_premium": ""
+    },
+    {
+      "id": "cordoba:25577",
+      "title": "Nissan Frontier NP300 4x2D",
+      "discount_percent": 66.4,
+      "before_march": true,
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25577/",
+      "base_price": 12000000.0,
+      "currency": "ARS",
+      "market_typical_usd": 25000,
+      "is_premium": false,
+      "premium_type": "",
+      "why_premium": ""
+    },
+    {
+      "id": "cordoba:25986",
+      "title": "GRUPO ELECTROGENO HONDA",
+      "discount_percent": 36.5,
+      "before_march": true,
+      "category": "machinery",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25986/",
+      "base_price": 1090000.0,
+      "currency": "ARS",
+      "market_typical_usd": 1200,
+      "is_premium": false,
+      "premium_type": "",
+      "why_premium": ""
     },
     {
       "id": "global_remates:lot_41549",
@@ -54,49 +84,19 @@
       "why_premium": ""
     },
     {
-      "id": "global_remates:lot_41499",
-      "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
-      "discount_percent": 92.3,
+      "id": "cordoba:25587",
+      "title": "PEUGEOT 208 ALURE 1.6 2016",
+      "discount_percent": 52.0,
       "before_march": true,
-      "category": "machinery",
-      "source": "global_remates",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41499",
-      "base_price": 2200000.0,
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25587/",
+      "base_price": 9600000.0,
       "currency": "ARS",
-      "market_typical_usd": 20000,
+      "market_typical_usd": 14000,
       "is_premium": false,
       "premium_type": "",
       "why_premium": ""
-    },
-    {
-      "id": "global_remates:lot_41502",
-      "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB TD 42, CANTIDAD: ...",
-      "discount_percent": 89.5,
-      "before_march": true,
-      "category": "machinery",
-      "source": "global_remates",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41502",
-      "base_price": 3000000.0,
-      "currency": "ARS",
-      "market_typical_usd": 20000,
-      "is_premium": false,
-      "premium_type": "",
-      "why_premium": ""
-    },
-    {
-      "id": "curated:scania_20ton_press",
-      "title": "Prensa de Temple Rolop RGT 2x20 (Ex-Scania) - 20 Toneladas - USD $3,500",
-      "discount_percent": 30.1,
-      "before_march": true,
-      "category": "machinery",
-      "source": "curated",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
-      "base_price": 5000000.0,
-      "currency": "ARS",
-      "market_typical_usd": 5000,
-      "is_premium": true,
-      "premium_type": "industrial_machinery",
-      "why_premium": "Quality Scania equipment. Rolop brand with Rexroth hydraulics. Fair price at $3.5k for $5-7k typical market value. Operational condition."
     }
   ],
   "lot_stats": {
@@ -761,119 +761,123 @@
   "top_lots": [],
   "listings": [
     {
-      "id": "curated:mecalux_robot_warehouse",
-      "source": "curated",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
-      "title": "Mecalux Programmable Robot + Automated Warehouse System + Forklift",
-      "description": "Logistics company liquidation in Libertad, Buenos Aires. Mecalux programmable warehouse robot, complete Mecalux storage rack/shelving systems, forklift. Automated warehouse systems cost $50-200k new. Exhibition Feb 24, 10:00-16:00.",
-      "category": "vehicles",
-      "base_price": 52500,
-      "currency": "USD",
-      "status": "upcoming",
-      "starts_at": null,
-      "ends_at": "2026-02-25T14:00:00-03:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": "Libertad"
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-desktop.jpg",
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-mobile.jpg"
-      ],
-      "scraped_at": "2026-02-21T10:24:02.580954+00:00",
-      "extra": {
-        "is_premium": true,
-        "premium_type": "automation",
-        "estimated_value_usd": 150000,
-        "discount_estimate": "70-80%",
-        "why_premium": "Mecalux automation equipment extremely rare at auction. 70-80% below replacement cost."
-      },
-      "is_premium": true,
-      "visibility": "main",
-      "quality_score": 100,
-      "source_type": "private",
-      "base_price_usd": 52500,
-      "base_price_ars": 75075000.0,
-      "is_top_opportunity": true,
-      "opportunity_rank": 1
-    },
-    {
-      "id": "global_remates:lot_41549",
-      "source": "global_remates",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41549",
-      "title": "DOMEC GUILLOTINA, MARCA ITURROSPE CS-400, ...",
+      "id": "cordoba:26092",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26092/",
+      "title": "BERLINGO FURGON - 2018",
       "description": "",
-      "category": "machinery",
-      "base_price": 1500000.0,
+      "category": "other",
+      "base_price": 7630910.0,
       "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": "2026-02-27T11:05:00",
+      "status": "ongoing",
+      "starts_at": "2026-02-18T14:00:00+00:00",
+      "ends_at": "2026-02-25T14:00:00.900000+00:00",
       "location": {
-        "province": "",
+        "province": "Córdoba",
         "city": ""
       },
       "images": [
-        "https://www.globalremates.com.ar/Register/Auctions/3221/41549/3221_Lote_05.jpg"
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26092_09-02-2026_12-38-1770651534-109875_mini.webp?temp_url_sig=0e5c8d83990e6696b204b75743d344fdebee43b1c3633375514c0eab629c1195&temp_url_expires=1771793696"
       ],
-      "scraped_at": "2026-02-21T20:55:44.209800+00:00",
+      "scraped_at": "2026-02-21T20:54:56.243143+00:00",
       "extra": {},
       "lots": [],
       "lot_count": 0,
       "visibility": "main",
       "quality_score": 100,
-      "source_type": "private",
-      "base_price_usd": 1048.95,
+      "source_type": "judicial",
+      "base_price_usd": 5336.3,
       "market_data": {
         "source": "market_reference",
-        "keyword_match": "guillotina",
-        "min_usd": 5000,
-        "max_usd": 50000,
+        "keyword_match": "furgon",
+        "min_usd": 8000,
+        "max_usd": 45000,
         "typical_usd": 18000,
-        "category": "machinery",
-        "auction_price_usd": 1048.95,
-        "discount_percent": 94.2,
+        "category": "vehicles",
+        "auction_price_usd": 5336.3,
+        "discount_percent": 70.4,
+        "is_opportunity": true
+      },
+      "is_top_opportunity": true,
+      "opportunity_rank": 1
+    },
+    {
+      "id": "cordoba:25577",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25577/",
+      "title": "Nissan Frontier NP300 4x2D",
+      "description": "",
+      "category": "vehicles",
+      "base_price": 12000000.0,
+      "currency": "ARS",
+      "status": "ongoing",
+      "starts_at": "2026-02-19T13:00:00+00:00",
+      "ends_at": "2026-02-26T13:00:00.900000+00:00",
+      "location": {
+        "province": "Córdoba",
+        "city": ""
+      },
+      "images": [
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25577_20-12-2025_22-41-1766281293-792872_mini.webp?temp_url_sig=0f4926788c7dd102286c05aa240274cfaeee9850ee776346e7427e884cecd52e&temp_url_expires=1771793696"
+      ],
+      "scraped_at": "2026-02-21T20:54:56.243168+00:00",
+      "extra": {},
+      "lots": [],
+      "lot_count": 0,
+      "visibility": "main",
+      "quality_score": 100,
+      "source_type": "judicial",
+      "base_price_usd": 8391.61,
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "frontier",
+        "min_usd": 12000,
+        "max_usd": 45000,
+        "typical_usd": 25000,
+        "category": "vehicles",
+        "auction_price_usd": 8391.61,
+        "discount_percent": 66.4,
         "is_opportunity": true
       },
       "is_top_opportunity": true,
       "opportunity_rank": 2
     },
     {
-      "id": "global_remates:lot_41499",
-      "source": "global_remates",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41499",
-      "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
+      "id": "cordoba:25986",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25986/",
+      "title": "GRUPO ELECTROGENO HONDA",
       "description": "",
       "category": "machinery",
-      "base_price": 2200000.0,
+      "base_price": 1090000.0,
       "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": "2026-02-26T11:02:00",
+      "status": "ongoing",
+      "starts_at": "2026-02-18T14:00:00+00:00",
+      "ends_at": "2026-02-25T15:00:00.900000+00:00",
       "location": {
-        "province": "",
+        "province": "Córdoba",
         "city": ""
       },
       "images": [
-        "https://www.globalremates.com.ar/Register/Auctions/3213/41499/3195_Lote_02.jpg"
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25986_07-02-2026_01-16-1770437761-543662_mini.webp?temp_url_sig=61b9ce61cffbe0e7f45239a9017f348854918048a955f28625e52c05b6f3a31d&temp_url_expires=1771793699"
       ],
-      "scraped_at": "2026-02-21T20:55:44.207654+00:00",
+      "scraped_at": "2026-02-21T20:54:59.740311+00:00",
       "extra": {},
       "lots": [],
       "lot_count": 0,
       "visibility": "main",
       "quality_score": 100,
-      "source_type": "private",
-      "base_price_usd": 1538.46,
+      "source_type": "judicial",
+      "base_price_usd": 762.24,
       "market_data": {
         "source": "market_reference",
-        "keyword_match": "torno",
-        "min_usd": 5000,
-        "max_usd": 80000,
-        "typical_usd": 20000,
+        "keyword_match": "grupo electrogeno honda",
+        "min_usd": 300,
+        "max_usd": 3000,
+        "typical_usd": 1200,
         "category": "machinery",
-        "auction_price_usd": 1538.46,
-        "discount_percent": 92.3,
+        "auction_price_usd": 762.24,
+        "discount_percent": 36.5,
         "is_opportunity": true
       },
       "is_top_opportunity": true,
@@ -4123,45 +4127,6 @@
       "base_price_usd": 58.04
     },
     {
-      "id": "cordoba:25986",
-      "source": "cordoba",
-      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25986/",
-      "title": "GRUPO ELECTROGENO HONDA",
-      "description": "",
-      "category": "machinery",
-      "base_price": 1090000.0,
-      "currency": "ARS",
-      "status": "ongoing",
-      "starts_at": "2026-02-18T14:00:00+00:00",
-      "ends_at": "2026-02-25T15:00:00.900000+00:00",
-      "location": {
-        "province": "Córdoba",
-        "city": ""
-      },
-      "images": [
-        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25986_07-02-2026_01-16-1770437761-543662_mini.webp?temp_url_sig=61b9ce61cffbe0e7f45239a9017f348854918048a955f28625e52c05b6f3a31d&temp_url_expires=1771793699"
-      ],
-      "scraped_at": "2026-02-21T20:54:59.740311+00:00",
-      "extra": {},
-      "lots": [],
-      "lot_count": 0,
-      "visibility": "main",
-      "quality_score": 100,
-      "source_type": "judicial",
-      "base_price_usd": 762.24,
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "grupo electrogeno honda",
-        "min_usd": 300,
-        "max_usd": 3000,
-        "typical_usd": 1200,
-        "category": "machinery",
-        "auction_price_usd": 762.24,
-        "discount_percent": 36.5,
-        "is_opportunity": true
-      }
-    },
-    {
       "id": "cordoba:25984",
       "source": "cordoba",
       "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25984/",
@@ -6458,45 +6423,6 @@
       "base_price_usd": 13986.01
     },
     {
-      "id": "cordoba:25577",
-      "source": "cordoba",
-      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25577/",
-      "title": "Nissan Frontier NP300 4x2D",
-      "description": "",
-      "category": "vehicles",
-      "base_price": 12000000.0,
-      "currency": "ARS",
-      "status": "ongoing",
-      "starts_at": "2026-02-19T13:00:00+00:00",
-      "ends_at": "2026-02-26T13:00:00.900000+00:00",
-      "location": {
-        "province": "Córdoba",
-        "city": ""
-      },
-      "images": [
-        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25577_20-12-2025_22-41-1766281293-792872_mini.webp?temp_url_sig=0f4926788c7dd102286c05aa240274cfaeee9850ee776346e7427e884cecd52e&temp_url_expires=1771793696"
-      ],
-      "scraped_at": "2026-02-21T20:54:56.243168+00:00",
-      "extra": {},
-      "lots": [],
-      "lot_count": 0,
-      "visibility": "main",
-      "quality_score": 100,
-      "source_type": "judicial",
-      "base_price_usd": 8391.61,
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "frontier",
-        "min_usd": 12000,
-        "max_usd": 45000,
-        "typical_usd": 25000,
-        "category": "vehicles",
-        "auction_price_usd": 8391.61,
-        "discount_percent": 66.4,
-        "is_opportunity": true
-      }
-    },
-    {
       "id": "cordoba:26106",
       "source": "cordoba",
       "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26106/",
@@ -6579,45 +6505,6 @@
       "quality_score": 100,
       "source_type": "judicial",
       "base_price_usd": 1328.67
-    },
-    {
-      "id": "cordoba:26092",
-      "source": "cordoba",
-      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26092/",
-      "title": "BERLINGO FURGON - 2018",
-      "description": "",
-      "category": "other",
-      "base_price": 7630910.0,
-      "currency": "ARS",
-      "status": "ongoing",
-      "starts_at": "2026-02-18T14:00:00+00:00",
-      "ends_at": "2026-02-25T14:00:00.900000+00:00",
-      "location": {
-        "province": "Córdoba",
-        "city": ""
-      },
-      "images": [
-        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26092_09-02-2026_12-38-1770651534-109875_mini.webp?temp_url_sig=0e5c8d83990e6696b204b75743d344fdebee43b1c3633375514c0eab629c1195&temp_url_expires=1771793696"
-      ],
-      "scraped_at": "2026-02-21T20:54:56.243143+00:00",
-      "extra": {},
-      "lots": [],
-      "lot_count": 0,
-      "visibility": "main",
-      "quality_score": 100,
-      "source_type": "judicial",
-      "base_price_usd": 5336.3,
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "furgon",
-        "min_usd": 8000,
-        "max_usd": 45000,
-        "typical_usd": 18000,
-        "category": "vehicles",
-        "auction_price_usd": 5336.3,
-        "discount_percent": 70.4,
-        "is_opportunity": true
-      }
     },
     {
       "id": "cordoba:25816",
@@ -21060,6 +20947,45 @@
       }
     },
     {
+      "id": "global_remates:lot_41549",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41549",
+      "title": "DOMEC GUILLOTINA, MARCA ITURROSPE CS-400, ...",
+      "description": "",
+      "category": "machinery",
+      "base_price": 1500000.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": "2026-02-27T11:05:00",
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3221/41549/3221_Lote_05.jpg"
+      ],
+      "scraped_at": "2026-02-21T20:55:44.209800+00:00",
+      "extra": {},
+      "lots": [],
+      "lot_count": 0,
+      "visibility": "main",
+      "quality_score": 100,
+      "source_type": "private",
+      "base_price_usd": 1048.95,
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "guillotina",
+        "min_usd": 5000,
+        "max_usd": 50000,
+        "typical_usd": 18000,
+        "category": "machinery",
+        "auction_price_usd": 1048.95,
+        "discount_percent": 94.2,
+        "is_opportunity": true
+      }
+    },
+    {
       "id": "global_remates:lot_41547",
       "source": "global_remates",
       "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41547",
@@ -21229,12 +21155,51 @@
       "market_data": {
         "source": "market_reference",
         "keyword_match": "torno",
-        "min_usd": 5000,
-        "max_usd": 80000,
-        "typical_usd": 20000,
+        "min_usd": 3000,
+        "max_usd": 40000,
+        "typical_usd": 8000,
         "category": "machinery",
         "auction_price_usd": 2097.9,
-        "discount_percent": 89.5,
+        "discount_percent": 73.8,
+        "is_opportunity": true
+      }
+    },
+    {
+      "id": "global_remates:lot_41499",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41499",
+      "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
+      "description": "",
+      "category": "machinery",
+      "base_price": 2200000.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": "2026-02-26T11:02:00",
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3213/41499/3195_Lote_02.jpg"
+      ],
+      "scraped_at": "2026-02-21T20:55:44.207654+00:00",
+      "extra": {},
+      "lots": [],
+      "lot_count": 0,
+      "visibility": "main",
+      "quality_score": 100,
+      "source_type": "private",
+      "base_price_usd": 1538.46,
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "torno",
+        "min_usd": 3000,
+        "max_usd": 40000,
+        "typical_usd": 8000,
+        "category": "machinery",
+        "auction_price_usd": 1538.46,
+        "discount_percent": 80.8,
         "is_opportunity": true
       }
     },
@@ -26499,6 +26464,41 @@
       "base_price_ars": 600600000.0
     },
     {
+      "id": "curated:mecalux_robot_warehouse",
+      "source": "curated",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
+      "title": "Mecalux Programmable Robot + Automated Warehouse System + Forklift",
+      "description": "Logistics company liquidation in Libertad, Buenos Aires. Mecalux programmable warehouse robot, complete Mecalux storage rack/shelving systems, forklift. Automated warehouse systems cost $50-200k new. Exhibition Feb 24, 10:00-16:00.",
+      "category": "vehicles",
+      "base_price": 52500,
+      "currency": "USD",
+      "status": "upcoming",
+      "starts_at": null,
+      "ends_at": "2026-02-25T14:00:00-03:00",
+      "location": {
+        "province": "Buenos Aires",
+        "city": "Libertad"
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-desktop.jpg",
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-mobile.jpg"
+      ],
+      "scraped_at": "2026-02-21T10:24:02.580954+00:00",
+      "extra": {
+        "is_premium": true,
+        "premium_type": "automation",
+        "estimated_value_usd": 150000,
+        "discount_estimate": "70-80%",
+        "why_premium": "Mecalux automation equipment extremely rare at auction. 70-80% below replacement cost."
+      },
+      "is_premium": true,
+      "visibility": "main",
+      "quality_score": 100,
+      "source_type": "private",
+      "base_price_usd": 52500,
+      "base_price_ars": 75075000.0
+    },
+    {
       "id": "curated:xcmg_70t_crane",
       "source": "curated",
       "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
@@ -27306,12 +27306,12 @@
       "market_data": {
         "source": "market_reference",
         "keyword_match": "torno",
-        "min_usd": 5000,
-        "max_usd": 80000,
-        "typical_usd": 20000,
+        "min_usd": 3000,
+        "max_usd": 40000,
+        "typical_usd": 8000,
         "category": "machinery",
         "auction_price_usd": 524.48,
-        "discount_percent": 97.4,
+        "discount_percent": 93.4,
         "is_opportunity": true
       }
     },
@@ -27357,12 +27357,12 @@
       "market_data": {
         "source": "market_reference",
         "keyword_match": "torno",
-        "min_usd": 5000,
-        "max_usd": 80000,
-        "typical_usd": 20000,
+        "min_usd": 3000,
+        "max_usd": 40000,
+        "typical_usd": 8000,
         "category": "machinery",
         "auction_price_usd": 524.48,
-        "discount_percent": 97.4,
+        "discount_percent": 93.4,
         "is_opportunity": true
       }
     },

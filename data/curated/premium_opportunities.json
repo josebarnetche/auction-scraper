@@ -11,7 +11,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": null,
-    "location": {"province": "Buenos Aires", "city": "San Fernando"},
+    "location": {
+      "province": "Buenos Aires",
+      "city": "San Fernando"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -26,18 +29,24 @@
   {
     "id": "curated:sacde_fleet_crane",
     "source": "curated",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/tipificados/camiones",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-sacde-s-a-por-renovacion-de-flota-4114",
     "title": "SACDE S.A. Fleet - Terex RT555-1 Crane + 6x Dumper ART 6x6 + Iveco 380T38",
     "description": "Fleet renewal auction from SACDE S.A. Includes Terex RT555-1 crane (market value $150-250k), 6 Dumper ART 6x6 off-road trucks, and Iveco 380T38 trucks. Complete fleet lot for construction/mining operations.",
     "category": "machinery",
-    "base_price": 0,
+    "base_price": 140000,
     "currency": "USD",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-26T14:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": ""},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4114/170771b2cd6937de9b3df7a8e15b582c-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4114/170771b2cd6937de9b3df7a8e15b582c-mobile.jpg"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890221+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "heavy_equipment",
@@ -49,18 +58,24 @@
   {
     "id": "curated:techint_cat_d8t",
     "source": "curated",
-    "source_url": "https://www.adrianmercado.com.ar/",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-tecsesi-s-a-por-renovacion-de-equipos-4105",
     "title": "Tecsesi S.A. (Techint) - CAT D8T Bulldozer + 3 Wheel Loaders + Aggregate Plants",
     "description": "Techint Group company liquidating heavy equipment. CAT D8T Bulldozer (market $200-350k), 3 wheel loaders ($80-150k each), 3 aggregate plants, 2 trucks, utility vehicles. 10+ units total. Techint equipment typically well-maintained.",
     "category": "machinery",
-    "base_price": 0,
+    "base_price": 244999,
     "currency": "USD",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-26T14:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": ""},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4105/6ad22b1733e4d96cc9de1c25dd5f541b-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4105/6ad22b1733e4d96cc9de1c25dd5f541b-mobile.jpg"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890254+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "heavy_equipment",
@@ -72,18 +87,24 @@
   {
     "id": "curated:xcmg_70t_crane",
     "source": "curated",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/tipificados/camiones",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
     "title": "XCMG 70-Ton Crane + Scania 8x4 Hydraulic Crane + Scania 6x4 Fleet",
     "description": "Heavy transport company liquidation. XCMG 70-ton mobile crane (market value $300-500k), Scania 8x4 with hydraulic crane ($80-120k), Volkswagen with hydraulic crane, Scania 6x4. Premium crane opportunity.",
     "category": "machinery",
-    "base_price": 0,
+    "base_price": 192500,
     "currency": "USD",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-26T14:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": ""},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-mobile.jpg"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890292+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "heavy_equipment",
@@ -99,14 +120,20 @@
     "title": "Mecalux Programmable Robot + Automated Warehouse System + Forklift",
     "description": "Logistics company liquidation in Libertad, Buenos Aires. Mecalux programmable warehouse robot, complete Mecalux storage rack/shelving systems, forklift. Automated warehouse systems cost $50-200k new. Exhibition Feb 24, 10:00-16:00.",
     "category": "machinery",
-    "base_price": 0,
+    "base_price": 52500,
     "currency": "USD",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-25T14:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": "Libertad"},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Libertad"
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-mobile.jpg"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890301+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "automation",
@@ -127,7 +154,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-03-21T13:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": "Capital Federal"},
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Capital Federal"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -141,18 +171,24 @@
   {
     "id": "curated:telecom_70_vehicles",
     "source": "curated",
-    "source_url": "https://www.bidbit.ar/",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/importante-flota-de-vehiculos-por-renovacion-4126",
     "title": "Telecom Argentina Fleet Renewal - 70+ Vehicles (Pickups, Utility, Sedans)",
     "description": "Corporate fleet renewal from Telecom Argentina. 70+ vehicles including pickups, utility vehicles, and sedans. Well-maintained corporate fleet. Perfect for fleet buyers or dealers.",
     "category": "vehicles",
-    "base_price": 0,
-    "currency": "ARS",
+    "base_price": 420000,
+    "currency": "USD",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-03-11T15:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": ""},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4126/a91da23aa446de7ee13a908d08c57380-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4126/a91da23aa446de7ee13a908d08c57380-mobile.jpg"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890348+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "corporate_fleet",
@@ -173,7 +209,10 @@
     "status": "ongoing",
     "starts_at": null,
     "ends_at": null,
-    "location": {"province": "Córdoba", "city": "Córdoba"},
+    "location": {
+      "province": "Córdoba",
+      "city": "Córdoba"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -196,7 +235,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-19T12:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": "Punta Alta"},
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Punta Alta"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -219,7 +261,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": null,
-    "location": {"province": "Buenos Aires", "city": "Bahía Blanca"},
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Bahía Blanca"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -233,18 +278,24 @@
   {
     "id": "curated:cordoba_road_fleet",
     "source": "curated",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/tipificados/camiones",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
     "title": "Cordoba Provincial Road Company - Iveco 6x4 Fleet (2014-2017) + Scania G380",
     "description": "Government fleet renewal. Iveco 6x4 trucks 2014-2017 with box and spreader, Scania G380, Sprinter ambulance. Provincial road company = maintained vehicles at government surplus prices.",
     "category": "vehicles",
-    "base_price": 0,
-    "currency": "ARS",
+    "base_price": 87500,
+    "currency": "USD",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-03-13T14:00:00-03:00",
-    "location": {"province": "Córdoba", "city": ""},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-mobile.jpg"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890388+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "government_surplus",
@@ -256,18 +307,27 @@
   {
     "id": "curated:scania_20ton_press",
     "source": "curated",
-    "source_url": "https://www.globalremates.com.ar/",
+    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3164&lid=1",
     "title": "Scania Argentina - 20-Ton Industrial Press - USD $4,170 (75-85% OFF)",
     "description": "Industrial press from Scania Argentina. 20-ton capacity. Base ARS $5,000,000 (~USD $4,170). 20-ton hydraulic presses typically $15-25k used. Closing Feb 27.",
     "category": "machinery",
-    "base_price": 5000000,
+    "base_price": 7000000.0,
     "currency": "ARS",
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-27T11:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": ""},
-    "images": [],
-    "scraped_at": "2026-02-21T12:00:00+00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_5.png",
+      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_1.png",
+      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_2.png",
+      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_3.png",
+      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_4.png"
+    ],
+    "scraped_at": "2026-02-21T09:58:47.890620+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "industrial_machinery",
@@ -288,7 +348,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-28T23:59:00-03:00",
-    "location": {"province": "Córdoba", "city": "Córdoba"},
+    "location": {
+      "province": "Córdoba",
+      "city": "Córdoba"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -311,7 +374,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-03-26T14:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": ""},
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -334,7 +400,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-02-05T14:00:00-03:00",
-    "location": {"province": "Buenos Aires", "city": "Pinamar"},
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Pinamar"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {
@@ -357,7 +426,10 @@
     "status": "upcoming",
     "starts_at": null,
     "ends_at": "2026-09-25T09:30:00-03:00",
-    "location": {"province": "Buenos Aires", "city": "Capital Federal"},
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Capital Federal"
+    },
     "images": [],
     "scraped_at": "2026-02-21T12:00:00+00:00",
     "extra": {

@@ -46,7 +46,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4114/170771b2cd6937de9b3df7a8e15b582c-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4114/170771b2cd6937de9b3df7a8e15b582c-mobile.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890221+00:00",
+    "scraped_at": "2026-02-21T10:24:02.580866+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "heavy_equipment",
@@ -75,7 +75,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4105/6ad22b1733e4d96cc9de1c25dd5f541b-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4105/6ad22b1733e4d96cc9de1c25dd5f541b-mobile.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890254+00:00",
+    "scraped_at": "2026-02-21T10:24:02.580901+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "heavy_equipment",
@@ -104,7 +104,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-mobile.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890292+00:00",
+    "scraped_at": "2026-02-21T10:24:02.580942+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "heavy_equipment",
@@ -133,7 +133,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-mobile.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890301+00:00",
+    "scraped_at": "2026-02-21T10:24:02.580954+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "automation",
@@ -188,7 +188,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4126/a91da23aa446de7ee13a908d08c57380-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4126/a91da23aa446de7ee13a908d08c57380-mobile.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890348+00:00",
+    "scraped_at": "2026-02-21T10:24:02.581003+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "corporate_fleet",
@@ -295,7 +295,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-mobile.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890388+00:00",
+    "scraped_at": "2026-02-21T10:24:02.581046+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "government_surplus",
@@ -307,11 +307,11 @@
   {
     "id": "curated:scania_20ton_press",
     "source": "curated",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3164&lid=1",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
     "title": "Scania Argentina - 20-Ton Industrial Press - USD $4,170 (75-85% OFF)",
     "description": "Industrial press from Scania Argentina. 20-ton capacity. Base ARS $5,000,000 (~USD $4,170). 20-ton hydraulic presses typically $15-25k used. Closing Feb 27.",
     "category": "machinery",
-    "base_price": 7000000.0,
+    "base_price": 5000000.0,
     "currency": "ARS",
     "status": "upcoming",
     "starts_at": null,
@@ -321,13 +321,9 @@
       "city": ""
     },
     "images": [
-      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_5.png",
-      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_1.png",
-      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_2.png",
-      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_3.png",
-      "https://www.agustisubastas.com.ar/./Agusti Subastas_files/home_agusti_subastas_4.png"
+      "https://www.globalremates.com.ar/Register/Auctions/3220/41544/3220_Lote_01.jpg"
     ],
-    "scraped_at": "2026-02-21T09:58:47.890620+00:00",
+    "scraped_at": "2026-02-21T10:24:02.581091+00:00",
     "extra": {
       "is_premium": true,
       "premium_type": "industrial_machinery",

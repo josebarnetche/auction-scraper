@@ -25,9 +25,13 @@ def load_all_scraped():
     return all_listings
 
 
-def find_match(scraped, keywords, require_images=True):
+def find_match(scraped, keywords, require_images=True, source_filter=None):
     """Find a scraped listing matching any of the keywords."""
     for listing in scraped:
+        # Filter by source if specified
+        if source_filter and listing.get("_source_file") != source_filter:
+            continue
+
         title = listing.get("title", "").lower()
         desc = listing.get("description", "").lower()
         url = listing.get("source_url", "").lower()
@@ -36,7 +40,10 @@ def find_match(scraped, keywords, require_images=True):
             if kw in title or kw in desc or kw in url:
                 if require_images:
                     images = listing.get("images", [])
-                    if images and len(images) > 0:
+                    # Filter out logo/placeholder images
+                    real_images = [img for img in images if not any(x in img.lower() for x in ['logo', 'home_', 'placeholder', 'icon'])]
+                    if real_images and len(real_images) > 0:
+                        listing["images"] = real_images  # Replace with filtered
                         return listing
                 else:
                     return listing
@@ -74,8 +81,9 @@ def main():
             "update_url": True,
         },
         "curated:scania_20ton_press": {
-            "keywords": ["scania", "prensa 20", "20 toneladas"],
+            "keywords": ["scania argentina", "prensa de 20 toneladas"],
             "update_url": True,
+            "source_filter": "global_remates",  # Only match from Global Remates
         },
         "curated:cordoba_road_fleet": {
             "keywords": ["empresa vial", "vial cordoba", "constructora y vial", "camiones con batea"],
@@ -96,7 +104,8 @@ def main():
         # Check if we have matching rules
         if listing_id in matching_rules:
             rules = matching_rules[listing_id]
-            match = find_match(scraped, rules["keywords"])
+            source_filter = rules.get("source_filter")
+            match = find_match(scraped, rules["keywords"], source_filter=source_filter)
 
             if match:
                 # Update with real data

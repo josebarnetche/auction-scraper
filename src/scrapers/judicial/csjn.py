@@ -431,14 +431,20 @@ class CSJNScraper(BaseScraper):
     def _extract_images(self, soup: BeautifulSoup, auction_id: int, lot_id: Optional[str]) -> list[str]:
         """Extract image URLs from page, prioritizing actual product photos."""
         product_images = []
-        other_images = []
 
-        # Patterns to skip (UI elements, not products)
-        skip_patterns = ['logo', 'icon', 'avatar', 'placeholder', 'ribbon', 'ajax-loader', 'loader']
+        # Patterns to skip (UI elements, badges, not actual products)
+        skip_patterns = [
+            'logo', 'icon', 'avatar', 'placeholder', 'ribbon', 'ajax-loader',
+            'loader', 'badge', 'banner', 'button', 'arrow', 'close', 'menu',
+            '/images/ribbon', '/images/logo', 'favicon', '.gif', 'spinner'
+        ]
 
-        # Find all images
-        for img in soup.find_all('img'):
-            src = img.get('src') or img.get('data-src')
+        # First, look for actual auction/lot images in carousel or gallery
+        # These are usually in specific containers
+        image_containers = soup.select('.carousel img, .gallery img, .slider img, [class*="photo"] img, [class*="image"] img')
+
+        for img in image_containers:
+            src = img.get('src') or img.get('data-src') or img.get('data-lazy')
             if not src:
                 continue
 
@@ -452,16 +458,54 @@ class CSJNScraper(BaseScraper):
             elif not src.startswith('http'):
                 src = f"{self.BASE_URL}/{src}"
 
-            if src not in product_images and src not in other_images:
-                # Prioritize AuctionImages (actual product photos)
-                if '/AuctionImages/' in src:
-                    product_images.append(src)
-                else:
-                    other_images.append(src)
+            if src not in product_images:
+                product_images.append(src)
 
-        # Return product images first, then others
-        all_images = product_images + other_images
-        return all_images[:5]  # Limit to 5 images
+        # If no images found in containers, try all images but filter strictly
+        if not product_images:
+            for img in soup.find_all('img'):
+                src = img.get('src') or img.get('data-src') or img.get('data-lazy')
+                if not src:
+                    continue
+
+                # Skip UI elements - be very strict
+                if any(x in src.lower() for x in skip_patterns):
+                    continue
+
+                # Only accept images that look like product photos
+                # Must be from AuctionImages folder OR have auction/lot in path
+                is_product_image = (
+                    '/AuctionImages/' in src or
+                    '/Auction' in src or
+                    '/Lot' in src or
+                    '/uploads/' in src.lower() or
+                    '/fotos/' in src.lower() or
+                    '/photos/' in src.lower()
+                )
+
+                if not is_product_image:
+                    continue
+
+                # Make absolute URL
+                if src.startswith('/'):
+                    src = f"{self.BASE_URL}{src}"
+                elif not src.startswith('http'):
+                    src = f"{self.BASE_URL}/{src}"
+
+                if src not in product_images:
+                    product_images.append(src)
+
+        # Try to construct image URL from lot ID if we have it and no images found
+        if not product_images and lot_id:
+            # Common CSJN image URL patterns
+            possible_urls = [
+                f"{self.BASE_URL}/AuctionImages/{lot_id}/1.jpg",
+                f"{self.BASE_URL}/AuctionImages/{lot_id}/main.jpg",
+                f"{self.BASE_URL}/AuctionImages/Lot{lot_id}/1.jpg",
+            ]
+            product_images.extend(possible_urls[:1])  # Just try the first pattern
+
+        return product_images[:5]  # Limit to 5 images
 
     def parse_listing(self, element, status: str = "published") -> Optional[AuctionListing]:
         """Required by base class - delegates to detail page parser."""

@@ -1,9 +1,60 @@
 # Changelog
 
-All notable changes to Argentina Auction Radar are documented in this file.
+All notable changes to **Subasto** (formerly Argentina Auction Radar) are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+**Website:** [subasto.com.ar](https://subasto.com.ar)
+
+---
+
+## [1.4.0] - 2026-02-21
+
+### Rebranding
+- **New Name:** Subasto (formerly Argentina Auction Radar)
+- **New Domain:** subasto.com.ar (nameservers pending)
+
+### Added
+- **Lot-Level Data Architecture** - Browse individual lots within auctions
+  - New `LotItem` dataclass with full lot details
+  - Banco Ciudad scraper extracts 31 lots across 8 auctions
+  - Flat `lots[]` array in API for easy browsing
+  - `lot_stats` metadata in listings.json
+
+- **AI Analysis Pipeline** (optional, requires Anthropic API key)
+  - `scripts/analyze_lots.py` - Batch analyze lots with Claude Haiku
+  - `src/analysis/lot_analyzer.py` - Extract specs, market value, opportunity score
+  - `src/analysis/lot_filter.py` - Filter lots worth analyzing (price range, category)
+
+- **Currency Utilities**
+  - `src/utils/currency.py` - Blue dollar rate fetching from dolarapi.com
+  - `base_price_usd` field on all listings for USD comparison
+  - `base_price_ars` field on USD listings for ARS display
+
+- **Source Ranking**
+  - Judicial sources (CSJN, SCBA, Córdoba, Entre Ríos) ranked first (+500 points)
+  - Priority private sources (Banco Ciudad, Global Remates, Adrian Mercado) ranked second (+300 points)
+  - `source_type` field: "judicial" or "private" for frontend filtering
+
+- **New Scrapers**
+  - Córdoba Judicial (508 listings via REST API)
+  - Entre Ríos Judicial (13 listings)
+  - Agusti Subastas (106 listings with 43 opportunities)
+
+### Changed
+- Total listings: 227 → 873 (+285%)
+- Judicial listings now represent 71% of total (621/873)
+- Banco Ciudad scraper enhanced with lot-level extraction
+
+### Technical
+- New files:
+  - `scripts/explore_banco_ciudad.py` - API discovery for BC endpoints
+  - `scripts/analyze_lots.py` - Batch AI analysis runner
+  - `src/analysis/__init__.py`, `lot_filter.py`, `lot_analyzer.py`
+  - `src/utils/__init__.py`, `currency.py`
+- Modified `src/scrapers/base.py` to preserve lots in `analyze_opportunity()`
+- Modified `scripts/generate_site.py` for dual-view output (auctions + lots)
 
 ---
 
@@ -276,7 +327,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.3.0** | 2026-02-21 | **Curated premium opportunities via AI agent research** |
+| **1.4.0** | 2026-02-21 | **Rebrand to Subasto, lot-level architecture, 873 listings, AI analysis pipeline** |
+| 1.3.0 | 2026-02-21 | Curated premium opportunities via AI agent research |
 | 1.2.0 | 2026-02-21 | Real market prices from Autocosmos/ZonaProp, no fake estimates |
 | 1.1.0 | 2026-02-21 | UnicornStudio animated background, smooth scroll, SCBA 100% dates |
 | 1.0.0 | 2026-02-21 | Stable release, date extraction, 227 listings |

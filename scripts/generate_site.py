@@ -118,18 +118,33 @@ def generate_site():
 
     # Load curated premium opportunities
     curated_file = curated_dir / "premium_opportunities.json"
+    coming_soon_count = 0
     if curated_file.exists():
         try:
             with open(curated_file, encoding="utf-8") as f:
                 curated = json.load(f)
                 for listing in curated:
                     if listing.get("extra", {}).get("is_premium"):
-                        listing["is_premium"] = True
-                        premium_listings.append(listing)
+                        has_price = listing.get("base_price", 0) > 0
+                        has_images = len(listing.get("images", [])) > 0
+
+                        if has_price and has_images:
+                            # Complete premium listing - highlight it
+                            listing["is_premium"] = True
+                            premium_listings.append(listing)
+                        else:
+                            # Incomplete premium - mark as coming_soon, hide from main
+                            listing["is_premium"] = False
+                            listing["coming_soon"] = True
+                            listing["visibility"] = "search_only"
+                            coming_soon_count += 1
+
                         all_listings.append(listing)
                         source = listing.get("source", "curated")
                         by_source[source] = by_source.get(source, 0) + 1
-            print(f"Loaded {len(premium_listings)} curated premium opportunities")
+            print(f"Loaded {len(premium_listings)} complete premium opportunities")
+            if coming_soon_count > 0:
+                print(f"  ({coming_soon_count} premium listings marked as coming_soon - missing price/images)")
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not read curated file: {e}")
 
@@ -295,15 +310,15 @@ def generate_site():
             })
 
     # Sort opportunities: before_march first, then by discount (highest first)
-    # Prioritize machinery and premium
+    # Prioritize machinery and premium, but don't let premium override actual value
     def opportunity_score(opp):
         score = opp["discount"]
         if opp.get("is_premium"):
-            score += 200  # Premium opportunities always on top
+            score += 50  # Reduced from 200 - premium is a bonus, not override
         if opp["before_march"]:
-            score += 100  # Big boost for before March
+            score += 30  # Reduced from 100 - time urgency bonus
         if opp["category"] == "machinery":
-            score += 50  # Boost machinery
+            score += 20  # Reduced from 50 - category bonus
         return score
 
     opportunities.sort(key=opportunity_score, reverse=True)

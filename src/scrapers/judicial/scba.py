@@ -76,7 +76,7 @@ class SCBAScraper(BaseScraper):
         except ImportError:
             return []
 
-        listings = []
+        auction_ids = set()
 
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
@@ -88,7 +88,6 @@ class SCBAScraper(BaseScraper):
             # Find all auction links with pattern /Auctions/Details/[id]
             links = await page.query_selector_all('a[href*="/Auctions/Details/"]')
 
-            seen_ids = set()
             for link in links:
                 try:
                     href = await link.get_attribute("href")
@@ -96,69 +95,29 @@ class SCBAScraper(BaseScraper):
                         continue
 
                     match = re.search(r'/Auctions/Details/(\d+)', href)
-                    if not match:
-                        continue
-
-                    auction_id = match.group(1)
-                    if auction_id in seen_ids:
-                        continue
-                    seen_ids.add(auction_id)
-
-                    # Get parent card for more info
-                    parent_text = await link.evaluate("el => el.closest('.card, article, [class*=\"subasta\"], li, tr')?.textContent || ''")
-
-                    title = await link.text_content() or ""
-                    title = title.strip()
-
-                    if len(title) < 5:
-                        # Try to get more text from parent
-                        text = await link.evaluate("el => el.parentElement?.textContent || ''")
-                        title = text.strip()[:150] if text else f"Subasta #{auction_id}"
-
-                    source_url = f"{self.BASE_URL}/Auctions/Details/{auction_id}"
-
-                    # Extract "Inicio de inscripcion" date from parent text
-                    starts_at = None
-                    text_to_search = parent_text or title
-
-                    # Look for "Inicio de inscripcion" pattern first
-                    inicio_match = re.search(r'[Ii]nicio\s+de\s+inscripci[oó]n[:\s]*(\d{2})/(\d{2})/(\d{4})', text_to_search)
-                    if inicio_match:
-                        try:
-                            starts_at = datetime.strptime(f"{inicio_match.group(1)}/{inicio_match.group(2)}/{inicio_match.group(3)}", "%d/%m/%Y")
-                        except ValueError:
-                            pass
-
-                    # Fallback to first date found
-                    if not starts_at:
-                        date_match = re.search(r'(\d{2})/(\d{2})/(\d{4})', text_to_search)
-                        if date_match:
-                            try:
-                                starts_at = datetime.strptime(f"{date_match.group(1)}/{date_match.group(2)}/{date_match.group(3)}", "%d/%m/%Y")
-                            except ValueError:
-                                pass
-
-                    listings.append(AuctionListing(
-                        id=self.generate_id(auction_id),
-                        source=self.SOURCE_NAME,
-                        source_url=source_url,
-                        title=title[:200],
-                        description="",
-                        category=detect_category(title, ""),
-                        base_price=0.0,
-                        currency="ARS",
-                        status="published",
-                        starts_at=starts_at,
-                        location={"province": "Buenos Aires", "city": ""},
-                        images=[],
-                    ))
+                    if match:
+                        auction_ids.add(int(match.group(1)))
                 except Exception as e:
                     logger.debug(f"Error parsing link: {e}")
                     continue
 
             await browser.close()
 
-        logger.info(f"Playwright found {len(listings)} SCBA listings")
+        logger.info(f"Playwright found {len(auction_ids)} SCBA auction IDs")
+
+        # Fetch detail pages for actual "Inicio de inscripción" dates
+        listings = []
+        for auction_id in auction_ids:
+            try:
+                listing = await self._fetch_detail(auction_id)
+                if listing:
+                    listings.append(listing)
+                await asyncio.sleep(self.RATE_LIMIT_SECONDS)
+            except Exception as e:
+                logger.debug(f"Error fetching detail {auction_id}: {e}")
+                continue
+
+        logger.info(f"Fetched {len(listings)} SCBA listings with details")
         return listings
 
     async def _fetch_detail(self, auction_id: int) -> Optional[AuctionListing]:
@@ -185,6 +144,9 @@ class SCBAScraper(BaseScraper):
         page_text = soup.get_text()
         base_price, currency = self._parse_price(page_text)
 
+        # Extract "Inicio de inscripción" date with time
+        starts_at = self._parse_inscription_date(page_text)
+
         # Extract images
         images = []
         for img in soup.find_all("img"):
@@ -208,6 +170,7 @@ class SCBAScraper(BaseScraper):
             base_price=base_price,
             currency=currency,
             status="published",
+            starts_at=starts_at,
             location={"province": "Buenos Aires", "city": ""},
             images=images,
         )
@@ -273,6 +236,47 @@ class SCBAScraper(BaseScraper):
 
     def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
         """Parse a single auction element."""
+        return None
+
+    def _parse_inscription_date(self, text: str) -> Optional[datetime]:
+        """Parse 'Inicio de inscripción' date with time from text."""
+        # Pattern: "Inicio de inscripción: 03/02/2026 - 09:00 AM" or similar variants
+        patterns = [
+            # With time: "Inicio de inscripción 03/02/2026 - 09:00 AM"
+            r'[Ii]nicio\s+de\s+inscripci[oó]n[:\s]*(\d{2})/(\d{2})/(\d{4})\s*[-–]\s*(\d{1,2}):(\d{2})\s*(AM|PM|am|pm|hs)?',
+            # With time no separator: "Inicio de inscripción 03/02/2026 09:00"
+            r'[Ii]nicio\s+de\s+inscripci[oó]n[:\s]*(\d{2})/(\d{2})/(\d{4})\s+(\d{1,2}):(\d{2})\s*(AM|PM|am|pm|hs)?',
+            # Date only: "Inicio de inscripción: 03/02/2026"
+            r'[Ii]nicio\s+de\s+inscripci[oó]n[:\s]*(\d{2})/(\d{2})/(\d{4})',
+            # Alternative: "Inscripción desde 03/02/2026"
+            r'[Ii]nscripci[oó]n\s+desde[:\s]*(\d{2})/(\d{2})/(\d{4})',
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, text)
+            if match:
+                try:
+                    groups = match.groups()
+                    day, month, year = int(groups[0]), int(groups[1]), int(groups[2])
+
+                    # Check if time is captured
+                    if len(groups) >= 5 and groups[3] and groups[4]:
+                        hour = int(groups[3])
+                        minute = int(groups[4])
+                        am_pm = groups[5] if len(groups) > 5 else None
+
+                        # Convert 12-hour to 24-hour format
+                        if am_pm and am_pm.upper() == 'PM' and hour < 12:
+                            hour += 12
+                        elif am_pm and am_pm.upper() == 'AM' and hour == 12:
+                            hour = 0
+
+                        return datetime(year, month, day, hour, minute)
+                    else:
+                        return datetime(year, month, day)
+                except (ValueError, IndexError):
+                    continue
+
         return None
 
     def _parse_price(self, text: str) -> tuple[float, str]:

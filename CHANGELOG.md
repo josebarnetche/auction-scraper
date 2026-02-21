@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] - 2026-02-21
+
+### Changed
+- **Market prices now use real data** - No more fake multipliers
+- Market prices scraped from Autocosmos (vehicles) and ZonaProp (real estate)
+- Discount/market value only shown when real comparable data exists
+- If no market data found, comparison section is hidden (not fake estimates)
+
+### Added
+- `src/market/autocosmos.py` - Vehicle price scraper
+- `src/market/zonaprop.py` - Real estate price scraper
+- `src/market/price_manager.py` - Manages price fetching and caching
+- `data/market_prices.json` - Cached market prices
+
+### Fixed
+- Removed hardcoded `MARKET_MULTIPLIERS` that showed unrealistic discounts
+- Frontend now checks for `auction.market_data` before showing comparisons
+- "Best Deals" section only shows items with real market data
+
+### Technical
+- Market price fetching runs during daily scrape at 00:00 GMT-3
+- Best-effort fetching - scraper continues if external sites unavailable
+- Price confidence scoring based on sample size and variance
+
+---
+
 ## [1.1.0] - 2026-02-21
 
 ### Added
@@ -21,6 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - SCBA dates now use "Inicio de inscripción" (registration start) instead of end date
+- SCBA date extraction now fetches detail pages for 100% date coverage (90/90 listings)
+- Dates include time component (e.g., "2026-02-03T09:00:00")
 
 ### Technical
 - UnicornStudio project: `FixNvEwvWwbu3QX9qC3F`
@@ -206,7 +234,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.1.0** | 2026-02-21 | **Cursor-reactive yellow background, smooth scroll** |
+| **1.2.0** | 2026-02-21 | **Real market prices from Autocosmos/ZonaProp, no fake estimates** |
+| 1.1.0 | 2026-02-21 | UnicornStudio animated background, smooth scroll, SCBA 100% dates |
 | 1.0.0 | 2026-02-21 | Stable release, date extraction, 227 listings |
 | 0.12.0 | 2026-02-21 | Fix Global Remates titles |
 | 0.11.0 | 2026-02-21 | Video background |

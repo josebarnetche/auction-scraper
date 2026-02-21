@@ -8,7 +8,7 @@ Argentina Auction Radar aggregates judicial and private auctions from 11 sources
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.1.0` | 2026-02-21 03:45 UTC |
+| `v1.2.0` | 2026-02-21 06:20 UTC |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -47,7 +47,7 @@ A **single aggregation layer** that:
 |--------|-------|
 | **Total Sources** | 11 |
 | **Active Listings** | 227 |
-| **Listings with Dates** | 70 (31%) |
+| **Listings with Dates** | 160 (70%) |
 | **Update Frequency** | Daily at 00:00 GMT-3 |
 | **Infrastructure Cost** | $0 |
 

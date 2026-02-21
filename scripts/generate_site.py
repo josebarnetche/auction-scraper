@@ -128,11 +128,38 @@ def generate_site():
     # Sort by quality score (highest first), then by scraped_at
     all_listings.sort(key=lambda x: (quality_score(x), x.get("scraped_at", "")), reverse=True)
 
+    # Load real market prices if available
+    market_prices = {}
+    market_prices_file = Path("data/market_prices.json")
+    if market_prices_file.exists():
+        try:
+            with open(market_prices_file, encoding="utf-8") as f:
+                mp_data = json.load(f)
+                for price in mp_data.get("prices", []):
+                    if price.get("confidence", 0) >= 0.3:
+                        market_prices[price["auction_id"]] = {
+                            "market_price_usd": price["market_price_usd"],
+                            "source": price["source"],
+                            "comparables_count": price["comparables_count"],
+                            "confidence": price["confidence"],
+                        }
+            print(f"  Loaded {len(market_prices)} real market prices")
+        except Exception as e:
+            print(f"Warning: Could not load market prices: {e}")
+
+    # Add market prices to listings
+    for listing in all_listings:
+        listing_id = listing.get("id", "")
+        if listing_id in market_prices:
+            listing["market_data"] = market_prices[listing_id]
+
     # Write listings.json
     listings_data = {
         "total_count": len(all_listings),
         "by_source": by_source,
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "has_market_prices": len(market_prices) > 0,
+        "market_prices_count": len(market_prices),
         "listings": all_listings,
     }
 
@@ -143,6 +170,7 @@ def generate_site():
     print(f"Generated {listings_path}")
     print(f"  Total listings: {len(all_listings)}")
     print(f"  Sources: {list(by_source.keys())}")
+    print(f"  With market prices: {sum(1 for l in all_listings if l.get('market_data'))}")
 
     # Print quality breakdown
     with_images = sum(1 for l in all_listings if l.get("images"))

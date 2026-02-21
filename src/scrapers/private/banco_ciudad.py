@@ -44,77 +44,40 @@ class BancoCiudadScraper(BaseScraper):
                 await page.goto(self.BASE_URL, wait_until="networkidle", timeout=60000)
                 await asyncio.sleep(4)  # Wait for Angular to render
 
-                # Find all auction cards - look for the main container with auction items
-                # Banco Ciudad typically shows cards with auction info
-                cards = await page.query_selector_all('.card, .subasta-card, [class*="auction"], [class*="subasta"], .item-subasta')
+                # Find all auction links with /subasta/ pattern
+                auction_links = await page.query_selector_all('a[href*="/subasta/"]')
+                logger.info(f"Found {len(auction_links)} auction links")
 
-                if not cards or len(cards) < 3:
-                    # Try alternative selectors
-                    cards = await page.query_selector_all('.carousel-item, .slide, .swiper-slide')
+                seen_ids = set()
 
-                logger.info(f"Found {len(cards)} potential auction cards")
-
-                for i, card in enumerate(cards[:50]):
-                    try:
-                        listing = await self._parse_card_v2(card, page, i)
-                        if listing:
-                            all_listings.append(listing)
-                    except Exception as e:
-                        logger.debug(f"Error parsing card {i}: {e}")
-                        continue
-
-                # Also try to find auction links directly
-                auction_links = await page.query_selector_all('a[href*="/subasta/"], a[href*="/auction/"], a[href*="id="]')
-                seen_ids = set(l.id for l in all_listings)
-
-                for link in auction_links[:30]:
+                # Collect all auction IDs first
+                for link in auction_links:
                     try:
                         href = await link.get_attribute("href")
                         if not href:
                             continue
 
-                        # Extract auction ID
-                        id_match = re.search(r'[/=](\d{4,})', href)
-                        if not id_match:
-                            continue
+                        id_match = re.search(r'/subasta/(\d+)', href)
+                        if id_match:
+                            seen_ids.add(id_match.group(1))
+                    except Exception:
+                        pass
 
-                        auction_id = id_match.group(1)
-                        listing_id = self.generate_id(auction_id)
+                logger.info(f"Found {len(seen_ids)} unique auction IDs")
 
-                        if listing_id in seen_ids:
-                            continue
-                        seen_ids.add(listing_id)
+                # Fetch each detail page in a fresh page for accurate titles
+                for auction_id in seen_ids:
+                    try:
+                        # Create a new page for each auction to avoid Angular caching issues
+                        detail_page = await context.new_page()
+                        listing = await self._fetch_detail_page(detail_page, auction_id)
+                        await detail_page.close()
 
-                        # Get link text and parent info
-                        text = await link.text_content() or ""
-                        text = text.strip()
-
-                        if len(text) < 5:
-                            continue
-
-                        # Build URL
-                        if href.startswith("/"):
-                            source_url = f"{self.BASE_URL}{href}"
-                        elif href.startswith("http"):
-                            source_url = href
-                        else:
-                            source_url = f"{self.BASE_URL}/{href}"
-
-                        all_listings.append(AuctionListing(
-                            id=listing_id,
-                            source=self.SOURCE_NAME,
-                            source_url=source_url,
-                            title=text[:200],
-                            description="",
-                            category="real_estate",
-                            base_price=0.0,
-                            currency="USD",
-                            status="published",
-                            location={"province": "CABA", "city": "Buenos Aires"},
-                            images=[],
-                        ))
+                        if listing:
+                            all_listings.append(listing)
+                        await asyncio.sleep(0.3)  # Rate limit
                     except Exception as e:
-                        logger.debug(f"Error parsing link: {e}")
+                        logger.debug(f"Error fetching detail {auction_id}: {e}")
 
                 await browser.close()
 
@@ -122,16 +85,210 @@ class BancoCiudadScraper(BaseScraper):
             logger.error(f"Playwright scraping failed: {e}")
             return []
 
-        # Deduplicate
-        seen = set()
-        unique = []
-        for listing in all_listings:
-            if listing.id not in seen:
-                seen.add(listing.id)
-                unique.append(listing)
+        logger.info(f"Found {len(all_listings)} Banco Ciudad listings")
+        return all_listings
 
-        logger.info(f"Found {len(unique)} Banco Ciudad listings")
-        return unique
+    async def _fetch_detail_page(self, page, auction_id: str) -> Optional[AuctionListing]:
+        """Fetch auction detail page for accurate title."""
+        url = f"{self.BASE_URL}/subasta/{auction_id}"
+
+        try:
+            await page.goto(url, wait_until="networkidle", timeout=30000)
+            await asyncio.sleep(3)  # Wait for Angular to fully render
+
+            # Get full page text
+            page_text = await page.evaluate("document.body.innerText") or ""
+
+            # Try to find the title - appears between "Compartir" and "Sujeta a aprobación"
+            title = ""
+
+            # Primary pattern: Title is after "Compartir\n" and before "\nSujeta"
+            compartir_match = re.search(r'Compartir\s*\n\s*(.+?)\s*\n\s*Sujeta', page_text, re.DOTALL)
+            if compartir_match:
+                title = compartir_match.group(1).strip()
+                # Clean up any extra whitespace/newlines
+                title = re.sub(r'\s+', ' ', title).strip()
+
+            # Fallback: Extract from "Subasta N°XXXX | ORG\nCompartir\nTITLE"
+            if not title or len(title) < 5:
+                alt_match = re.search(r'Subasta\s+N[°º]?\d+\s*\|\s*[^\n]+\n\s*Compartir\s*\n\s*(.+?)\s*\n', page_text)
+                if alt_match:
+                    title = alt_match.group(1).strip()
+
+            if not title or len(title) < 5:
+                title = f"Subasta #{auction_id}"
+
+            # Clean the title
+            title = self._clean_title_text(title)
+
+            # Extract date
+            ends_at = None
+            page_text = await page.evaluate("document.body.innerText") or ""
+            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', page_text)
+            if date_match:
+                try:
+                    ends_at = datetime.strptime(date_match.group(1), "%d/%m/%Y")
+                except ValueError:
+                    pass
+
+            # Get image
+            images = []
+            img = await page.query_selector('img[src*="imagen"], img[src*="subasta"]')
+            if img:
+                src = await img.get_attribute("src")
+                if src:
+                    if src.startswith("/"):
+                        src = f"{self.BASE_URL}{src}"
+                    images.append(src)
+
+            if not images:
+                images.append(f"{self.BASE_URL}/subastas_rest/subastas/imagen/{auction_id}/1")
+
+            # Detect category
+            category = detect_category(title, page_text[:500])
+
+            return AuctionListing(
+                id=self.generate_id(auction_id),
+                source=self.SOURCE_NAME,
+                source_url=url,
+                title=title[:200],
+                description="",
+                category=category,
+                base_price=0.0,
+                currency="USD",
+                status="published",
+                ends_at=ends_at,
+                location={"province": "CABA", "city": "Buenos Aires"},
+                images=images,
+            )
+
+        except Exception as e:
+            logger.debug(f"Error fetching detail page {auction_id}: {e}")
+            return None
+
+    def _clean_title_text(self, title: str) -> str:
+        """Clean title text from common artifacts."""
+        if not title:
+            return ""
+
+        # Remove common prefixes/suffixes
+        cleaned = re.sub(r'^(Subasta|Lote|Detalle)[:\s]*', '', title, flags=re.I)
+        cleaned = re.sub(r'\s*(Subasta|Lote)\s*#?\d+\s*$', '', cleaned, flags=re.I)
+
+        # Remove dates and times
+        cleaned = re.sub(r'\d{2}/\d{2}/\d{4}', '', cleaned)
+        cleaned = re.sub(r'\d{2}:\d{2}', '', cleaned)
+
+        # Clean whitespace
+        cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+
+        return cleaned[:200]
+
+    def _parse_auction_text(self, auction_id: str, text: str, href: str) -> Optional[AuctionListing]:
+        """Parse auction info from card text."""
+        if not text or len(text) < 10:
+            return None
+
+        # Extract title - find the item description
+        title = self._extract_item_title(text)
+
+        if not title or len(title) < 5:
+            return None
+
+        # Build URL
+        if href.startswith("/"):
+            source_url = f"{self.BASE_URL}{href}"
+        elif href.startswith("http"):
+            source_url = href
+        else:
+            source_url = f"{self.BASE_URL}/{href}"
+
+        # Extract date
+        ends_at = None
+        date_match = re.search(r'(\d{2}/\d{2}/\d{4})', text)
+        if date_match:
+            try:
+                ends_at = datetime.strptime(date_match.group(1), "%d/%m/%Y")
+            except ValueError:
+                pass
+
+        # Detect category from clean title
+        category = detect_category(title, text)
+
+        # Extract image URL if present
+        images = []
+        if auction_id:
+            # Banco Ciudad image pattern
+            images.append(f"{self.BASE_URL}/subastas_rest/subastas/imagen/{auction_id}/1")
+
+        return AuctionListing(
+            id=self.generate_id(auction_id),
+            source=self.SOURCE_NAME,
+            source_url=source_url,
+            title=title,
+            description="",
+            category=category,
+            base_price=0.0,
+            currency="USD",
+            status="published",
+            ends_at=ends_at,
+            location={"province": "CABA", "city": "Buenos Aires"},
+            images=images,
+        )
+
+    def _extract_item_title(self, text: str) -> str:
+        """Extract the item/product title from auction text.
+
+        Input examples:
+        - "Subasta 382511 Lotes7.291 Suscribite antes del 25/03/2026 11:00 Hs BANCO CIUDAD DE BUENOS AIRESCELULARES SAMSUNG27/03/2026De 11:00 a 12:50 (GMT-3)"
+        - Should extract: "CELULARES SAMSUNG"
+        """
+        if not text:
+            return ""
+
+        # Organization names that precede the item title
+        org_patterns = [
+            r'BANCO CIUDAD DE BUENOS AIRES',
+            r'BANCO CIUDAD',
+            r'BANCO NACION(?:AL)?',
+            r'AUTOPISTAS URBANAS S\.?A\.?',
+            r'INSTITUTO NACIONAL[^A-Z]+',
+            r'MUNICIPALIDAD DE [A-Z\s]+?(?=[A-Z]{2})',
+            r'PROCURACION [A-Z\.]+',
+            r'A\.?R\.?C\.?A\.?',
+        ]
+
+        # Try to find org name + item pattern
+        for org in org_patterns:
+            pattern = org + r'\s*([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑa-záéíóúñ\s,\.\-0-9]+?)(?:\d{2}/\d{2}/|\d{2}:\d{2}|$)'
+            match = re.search(pattern, text)
+            if match:
+                item = match.group(1).strip()
+                # Clean trailing artifacts
+                item = re.sub(r'[\d/:\s]+$', '', item).strip()
+                if len(item) >= 5:
+                    return item[:150]
+
+        # Fallback: extract uppercase sequences after "Hs" marker
+        hs_pattern = r'Hs\.?\s+[A-Z][^a-z]+?([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑa-záéíóúñ\s,\.\-0-9]+?)(?:\d{2}/|\d{2}:|$)'
+        match = re.search(hs_pattern, text)
+        if match:
+            item = match.group(1).strip()
+            item = re.sub(r'[\d/:\s]+$', '', item).strip()
+            if len(item) >= 5:
+                return item[:150]
+
+        # Last resort: find any meaningful uppercase sequence
+        # Skip known noise words
+        noise = {'SUBASTA', 'LOTES', 'SUSCRIBITE', 'ANTES', 'BANCO', 'CIUDAD', 'AIRES', 'GMT'}
+        matches = re.findall(r'[A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ\s]{4,}', text)
+        for m in matches:
+            words = m.strip().split()
+            clean_words = [w for w in words if w.upper() not in noise]
+            if clean_words and len(' '.join(clean_words)) >= 5:
+                return ' '.join(clean_words)[:150]
+
+        return ""
 
     async def _parse_card_v2(self, card, page, index: int) -> Optional[AuctionListing]:
         """Parse a property card element with better field extraction."""
@@ -175,45 +332,8 @@ class BancoCiudadScraper(BaseScraper):
             if not auction_id:
                 auction_id = str(hash(text_content[:100]) % 10**8)
 
-            # Extract title - look for the main description
-            title = ""
-
-            # Pattern 1: Look for company name + item description
-            # e.g., "BANCO CIUDAD DE BUENOS AIRES CELULARES SAMSUNG"
-            company_match = re.search(r'(?:BANCO CIUDAD[^A-Z]*|[A-Z]{2,}(?:\s+[A-Z]+){1,5})\s*([A-Z][A-Za-z0-9\s,]+)', text_content)
-            if company_match:
-                title = company_match.group(1).strip()
-
-            # Pattern 2: Extract what's being auctioned
-            if not title or len(title) < 10:
-                # Look for item description patterns
-                item_patterns = [
-                    r'(?:Hs\s+)([A-Z][A-Z\s]+?)(?:\d{2}/\d{2}/\d{4})',
-                    r'(?:AIRES|S\.A\.|S\.R\.L\.|INC\.)[\s]*([A-Z][A-Z\s,]+?)(?:\d{2}/)',
-                    r'([A-Z][A-Z\s]{10,50})(?:\d{2}/\d{2}/\d{4})',
-                ]
-                for pattern in item_patterns:
-                    match = re.search(pattern, text_content)
-                    if match:
-                        title = match.group(1).strip()
-                        break
-
-            # Pattern 3: Fallback - extract meaningful text
-            if not title or len(title) < 10:
-                # Remove common noise and extract remaining
-                cleaned = text_content
-                cleaned = re.sub(r'Previous\s*Next', '', cleaned)
-                cleaned = re.sub(r'Suscripci[oó]n\s*(?:CERRADA|ABIERTA)', '', cleaned, flags=re.I)
-                cleaned = re.sub(r'Subasta\s*\d+', '', cleaned)
-                cleaned = re.sub(r'Lotes?\s*[\d.,]+', '', cleaned)
-                cleaned = re.sub(r'En\s+d[oó]lar\s*[\d.,]*', '', cleaned, flags=re.I)
-                cleaned = re.sub(r'Suscribite\s+antes\s+del\s+\d{2}/\d{2}/\d{4}\s+\d{2}:\d{2}\s*Hs?', '', cleaned, flags=re.I)
-                cleaned = re.sub(r'\d{2}/\d{2}/\d{4}', '', cleaned)
-                cleaned = re.sub(r'De\s+\d{2}:\d{2}\s+a\s+\d{2}:\d{2}\s*\(GMT[^)]*\)', '', cleaned, flags=re.I)
-                cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-
-                if len(cleaned) > 10:
-                    title = cleaned[:150]
+            # Extract title using comprehensive cleaning
+            title = self._clean_banco_ciudad_title(text_content)
 
             if not title or len(title) < 5:
                 title = f"Subasta Banco Ciudad #{auction_id}"
@@ -273,6 +393,92 @@ class BancoCiudadScraper(BaseScraper):
         except Exception as e:
             logger.debug(f"Error parsing card: {e}")
             return None
+
+    def _clean_banco_ciudad_title(self, text: str) -> str:
+        """Extract clean title from Banco Ciudad card text."""
+        if not text:
+            return ""
+
+        # Normalize the text first
+        cleaned = text.strip()
+
+        # List of patterns to remove (order matters)
+        remove_patterns = [
+            r'Previous\s*Next',
+            r'Previous',
+            r'Next',
+            r'Próximas\s+subastas',
+            r'Proximas\s+subastas',
+            r'Pr.ximas\s+subastas',  # Handle encoding issues
+            r'Suscripci[oóÓ]n\s*(?:CERRADA|ABIERTA)',
+            r'Suscribite\s+antes\s+del[^A-Z]*',
+            r'Subasta\s*\d+',
+            r'Lotes?\s*[\d.,]+',
+            r'[\d.,]+\s*Lotes?',
+            r'En\s+d[oóÓ]lar[es]*',
+            r'\d{1,2}/\d{1,2}/\d{2,4}',  # Dates
+            r'\d{1,2}:\d{2}\s*(?:a\.?m\.?|p\.?m\.?)?',  # Times
+            r'De\s+:\s+a\s+:\s*\(?GMT[^)]*\)?',  # Empty time ranges
+            r'De\s+\d+:\d+\s+a\s+\d+:\d+[^A-Z]*',
+            r'\(GMT[^)]*\)',
+            r'Hs\.?',
+            r'A\s+consultar',
+            r'Ver\s+detalle',
+            r'Ver\s+más',
+        ]
+
+        for pattern in remove_patterns:
+            cleaned = re.sub(pattern, ' ', cleaned, flags=re.I)
+
+        # Remove standalone special chars and empty date/time artifacts
+        cleaned = re.sub(r'[/:\-]{2,}', ' ', cleaned)
+        cleaned = re.sub(r'\(\s*\)', '', cleaned)
+
+        # Known organization names to remove
+        org_patterns = [
+            r'BANCO CIUDAD DE BUENOS AIRES',
+            r'BANCO CIUDAD',
+            r'BANCO NACION(?:AL)?',
+            r'AUTOPISTAS URBANAS S\.?A\.?',
+            r'INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS',
+            r'MUNICIPALIDAD DE [A-Z\s]+',
+            r'A\.?R\.?C\.?A\.?(?:\s|$)',
+            r'AFIP',
+            r'ANSES',
+            r'PAMI',
+        ]
+
+        for pattern in org_patterns:
+            cleaned = re.sub(pattern, ' ', cleaned, flags=re.I)
+
+        # Remove standalone numbers
+        cleaned = re.sub(r'(?<![A-Za-z])[\d.,]+(?![A-Za-z])', ' ', cleaned)
+
+        # Clean up whitespace
+        cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+
+        # Remove leading/trailing punctuation
+        cleaned = re.sub(r'^[\s,.\-:()]+', '', cleaned)
+        cleaned = re.sub(r'[\s,.\-:()]+$', '', cleaned)
+
+        # If result is too short, try to extract uppercase item descriptions
+        if len(cleaned) < 8:
+            # Find sequences of uppercase words that look like item descriptions
+            matches = re.findall(r'[A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ\s,]{8,}', text)
+            for match in matches:
+                match = match.strip()
+                # Skip if it looks like an organization
+                skip_words = ['BANCO', 'INSTITUTO', 'MUNICIPALIDAD', 'AUTOPISTAS', 'NACIONAL']
+                if any(word in match for word in skip_words):
+                    continue
+                if len(match) >= 8:
+                    cleaned = match
+                    break
+
+        # Final cleanup
+        cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+
+        return cleaned[:150] if cleaned else ""
 
     def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
         """Required by base class."""

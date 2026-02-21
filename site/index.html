@@ -499,7 +499,7 @@ html {
                         </svg>
                     </div>
                     <h3 class="text-lg font-display font-medium text-white mb-2">Price Comparison</h3>
-                    <p class="text-white/60 text-sm">Estimated market value comparison to spot the best deals</p>
+                    <p class="text-white/60 text-sm">Real market prices from DeAutos, Kavak & ZonaProp</p>
                 </div>
                 <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
                     <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mb-4">
@@ -862,13 +862,8 @@ html {
         // Update countdowns every second
         setInterval(updateCountdowns, 1000);
 
-        // Estimated market values by category (rough multipliers vs auction base)
-        const MARKET_MULTIPLIERS = {
-            vehicles: 1.4,      // Auction vehicles typically 30-40% below market
-            real_estate: 1.25,  // Real estate typically 20-30% below
-            machinery: 1.35,    // Machinery typically 25-40% below
-            other: 1.3
-        };
+        // Market prices are now fetched from real sources (DeAutos, Kavak, ZonaProp)
+        // Only show market comparison when real data exists in auction.market_data
 
         // GMT-3 Time (Argentina)
         function updateGMT3Time() {
@@ -899,20 +894,33 @@ html {
             return price / BLUE_DOLLAR_RATE;
         }
 
-        // Estimate market value
-        function estimateMarketValue(auction) {
-            if (!auction.base_price || auction.base_price === 0) return null;
-            const priceUSD = toUSD(auction.base_price, auction.currency);
-            const multiplier = MARKET_MULTIPLIERS[auction.category] || 1.3;
-            return Math.round(priceUSD * multiplier);
+        // Get real market value from scraped data (DeAutos, Kavak, ZonaProp)
+        function getMarketValue(auction) {
+            // Only return market value if we have REAL scraped data
+            if (!auction.market_data) return null;
+            if (!auction.market_data.market_price_usd) return null;
+            if (auction.market_data.confidence < 0.3) return null;
+            return Math.round(auction.market_data.market_price_usd);
         }
 
-        // Calculate discount percentage
+        // Calculate discount percentage (only with real market data)
         function calculateDiscount(auction) {
-            const marketValue = estimateMarketValue(auction);
+            const marketValue = getMarketValue(auction);
             if (!marketValue) return null;
+            if (!auction.base_price || auction.base_price === 0) return null;
+
             const priceUSD = toUSD(auction.base_price, auction.currency);
-            return Math.round(((marketValue - priceUSD) / marketValue) * 100);
+            if (priceUSD <= 0) return null;
+
+            const discount = Math.round(((marketValue - priceUSD) / marketValue) * 100);
+            // Only return meaningful discounts (positive and reasonable)
+            if (discount < 0 || discount > 90) return null;
+            return discount;
+        }
+
+        // Legacy function for compatibility
+        function estimateMarketValue(auction) {
+            return getMarketValue(auction);
         }
 
         // Refresh button
@@ -1273,24 +1281,28 @@ html {
             document.getElementById('category-breakdown').innerHTML = catHtml || '<p class="text-white/40 text-sm">No data</p>';
         }
 
-        // Render top opportunities (best deals with price comparison)
+        // Render top opportunities (best deals with REAL price comparison)
         function renderOpportunities() {
             const grid = document.getElementById('opportunities-grid');
 
-            // Filter auctions with prices and sort by discount
+            // Only show items with REAL market data (not estimates)
             const opportunities = allAuctions
-                .filter(a => a.base_price > 0)
+                .filter(a => a.base_price > 0 && a.market_data)
                 .map(a => ({
                     ...a,
                     discount: calculateDiscount(a),
-                    marketValue: estimateMarketValue(a)
+                    marketValue: getMarketValue(a)
                 }))
-                .filter(a => a.discount !== null)
+                .filter(a => a.discount !== null && a.discount >= 10)
                 .sort((a, b) => b.discount - a.discount)
                 .slice(0, 6);
 
             if (opportunities.length === 0) {
-                grid.innerHTML = '<div class="col-span-full text-center py-10"><p class="text-white/40">No featured opportunities yet.</p></div>';
+                grid.innerHTML = `
+                    <div class="col-span-full text-center py-10">
+                        <p class="text-white/40">No market comparisons available yet.</p>
+                        <p class="text-white/30 text-sm mt-2">Market prices are fetched daily from DeAutos, Kavak, and ZonaProp.</p>
+                    </div>`;
                 return;
             }
 
@@ -1339,6 +1351,7 @@ html {
                                     <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Valor Mercado</div>
                                     <span class="text-sm text-white/40 line-through">USD ${auction.marketValue.toLocaleString()}</span>
                                     <div class="text-[10px] text-green-400 font-semibold">Ahorras ${auction.discount}%</div>
+                                    <div class="text-[8px] text-white/30 mt-1">Fuente: ${auction.market_data?.source || 'mercado'}</div>
                                 </div>
                             </div>
                         </div>

@@ -88,6 +88,55 @@ async def run_all_scrapers(sources: list[str], store: JSONStore):
     return all_listings
 
 
+async def fetch_market_prices(listings: list):
+    """Fetch real market prices for auction items.
+
+    This is best-effort - if external sites are unavailable,
+    the scraper continues without market prices.
+    """
+    try:
+        from src.market.price_manager import MarketPriceManager
+    except ImportError as e:
+        logger.warning(f"Market price module not available: {e}")
+        return
+
+    logger.info("Fetching real market prices (best-effort)...")
+
+    # Convert listings to dict format if needed
+    listings_data = []
+    for listing in listings:
+        if hasattr(listing, "__dict__"):
+            listings_data.append({
+                "id": listing.id,
+                "title": listing.title,
+                "description": getattr(listing, "description", ""),
+                "category": listing.category,
+                "location": getattr(listing, "location", {}),
+            })
+        elif isinstance(listing, dict):
+            listings_data.append(listing)
+
+    # Only fetch for items that might have market comparables
+    items_to_price = [
+        l for l in listings_data
+        if l.get("category") in ["vehicles", "real_estate"]
+    ]
+
+    if not items_to_price:
+        logger.info("No vehicles or real estate to price")
+        return
+
+    logger.info(f"Attempting to fetch prices for {len(items_to_price)} items...")
+
+    try:
+        manager = MarketPriceManager()
+        new_prices = await manager.fetch_prices_for_listings(items_to_price[:20])  # Limit to avoid timeouts
+        logger.info(f"Successfully fetched {len(new_prices)} market prices")
+    except Exception as e:
+        logger.warning(f"Market price fetching failed (non-critical): {e}")
+        logger.info("Continuing without market prices - site will not show comparisons")
+
+
 async def main():
     parser = argparse.ArgumentParser(description="Argentina Auction Scraper")
     parser.add_argument(
@@ -101,6 +150,11 @@ async def main():
         "--test",
         action="store_true",
         help="Test mode - only scrape first source"
+    )
+    parser.add_argument(
+        "--skip-market-prices",
+        action="store_true",
+        help="Skip fetching market prices"
     )
 
     args = parser.parse_args()
@@ -120,6 +174,13 @@ async def main():
     # Run scrapers
     all_listings = await run_all_scrapers(sources, store)
     logger.info(f"Total listings scraped: {len(all_listings)}")
+
+    # Fetch real market prices (unless skipped)
+    if not args.skip_market_prices and not args.test:
+        try:
+            await fetch_market_prices(all_listings)
+        except Exception as e:
+            logger.error(f"Market price fetching failed: {e}")
 
     # Generate site files
     from scripts.generate_site import generate_site

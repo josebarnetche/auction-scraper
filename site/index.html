@@ -1295,17 +1295,23 @@ html {
 
         // Initialize calendar
         function initCalendar() {
-            // Group auctions by date - use ends_at, falls back to starts_at
+            // Group auctions by closing date - only show future auctions
             auctionsByDate = {};
+            const now = new Date();
+            const todayKey = now.toISOString().split('T')[0];
+
             allAuctions.forEach(auction => {
-                // Try ends_at first, then starts_at
+                // Use ends_at (closing date), fall back to starts_at
                 const dateStr = auction.ends_at || auction.starts_at;
                 if (!dateStr) return;
 
                 const date = new Date(dateStr);
                 if (isNaN(date.getTime())) return; // Invalid date
 
+                // Skip past dates (before today)
                 const dateKey = date.toISOString().split('T')[0];
+                if (dateKey < todayKey) return;
+
                 if (!auctionsByDate[dateKey]) auctionsByDate[dateKey] = [];
                 auctionsByDate[dateKey].push(auction);
             });
@@ -1439,8 +1445,9 @@ html {
             }
 
             container.innerHTML = auctions.map(auction => {
-                const dateStr = auction.ends_at || auction.starts_at;
-                const time = dateStr ? new Date(dateStr).toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit' }) : '';
+                // Show closing time
+                const endDateStr = auction.ends_at;
+                const closeTime = endDateStr ? new Date(endDateStr).toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit' }) : '';
                 const categoryClass = `category-${auction.category || 'other'}`;
                 const hasImage = auction.images && auction.images.length > 0;
                 const imageUrl = hasImage ? auction.images[0] : '';
@@ -1456,7 +1463,7 @@ html {
                             <div class="flex-1 min-w-0">
                                 <div class="flex items-start justify-between gap-2 mb-2">
                                     <h4 class="text-white font-medium text-sm group-hover:text-yellow-400 transition-colors line-clamp-2">${auction.title}</h4>
-                                    ${time ? `<span class="text-yellow-500 text-xs whitespace-nowrap">${time}</span>` : ''}
+                                    ${closeTime ? `<span class="text-yellow-500 text-xs whitespace-nowrap">Cierra: ${closeTime}</span>` : ''}
                                 </div>
                                 <div class="flex items-center gap-2 flex-wrap">
                                     <span class="category-badge ${categoryClass}">${auction.category || 'other'}</span>

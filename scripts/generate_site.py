@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.market.price_reference import get_market_price, calculate_discount, is_opportunity
 from src.utils.currency import get_blue_dollar_rate, convert_to_usd
+from src.models.listing import detect_category
 
 
 def fetch_blue_dollar_rate() -> float:
@@ -227,6 +228,11 @@ def generate_site():
         # Source type for filtering (judicial vs private)
         source = listing.get("source", "")
         listing["source_type"] = "judicial" if source in JUDICIAL_SOURCES else "private"
+
+        # Recalculate category using updated detect_category (fixes machinery vs vehicle)
+        title = listing.get("title", "")
+        description = listing.get("description", "")
+        listing["category"] = detect_category(title, description)
 
         # Ensure currency is set and add USD equivalent for filtering
         currency = listing.get("currency", "ARS")

@@ -131,14 +131,17 @@ def detect_category(title: str, description: str = "") -> str:
 
     machinery_keywords = [
         "maquinaria", "máquina", "maquina", "tractor", "cosechadora",
-        "herramienta", "equipo", "industrial", "agrícola", "agricola"
+        "herramienta", "equipo", "industrial", "agrícola", "agricola",
+        "generador", "grupo electrogeno", "electrógeno", "compresor",
+        "soldadora", "torno", "fresadora", "guillotina", "autoelevador"
     ]
 
-    if any(kw in text for kw in vehicle_keywords):
+    # Check machinery FIRST (before vehicles to avoid brand name conflicts like "honda")
+    if any(kw in text for kw in machinery_keywords):
+        return "machinery"
+    elif any(kw in text for kw in vehicle_keywords):
         return "vehicles"
     elif any(kw in text for kw in real_estate_keywords):
         return "real_estate"
-    elif any(kw in text for kw in machinery_keywords):
-        return "machinery"
 
     return "other"

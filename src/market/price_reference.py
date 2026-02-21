@@ -48,6 +48,10 @@ MACHINERY_PRICES = {
     # Industrial
     "compresor industrial": {"min": 3000, "max": 50000, "typical": 12000},
     "generador": {"min": 2000, "max": 80000, "typical": 15000},
+    # Portable generators (Honda, etc.) - small units 1-10kW
+    "grupo electrogeno honda": {"min": 300, "max": 3000, "typical": 1200},
+    "grupo electrogeno portatil": {"min": 200, "max": 2000, "typical": 800},
+    # Industrial generators (larger units 10kW+)
     "grupo electrogeno": {"min": 3000, "max": 100000, "typical": 20000},
     "soldadora": {"min": 500, "max": 15000, "typical": 3000},
     "torno": {"min": 5000, "max": 80000, "typical": 20000},

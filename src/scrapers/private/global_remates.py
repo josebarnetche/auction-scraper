@@ -23,20 +23,31 @@ class GlobalRematesScraper(BaseScraper):
         """Scrape all auction listings."""
         all_listings = []
 
-        # Try common paths
-        paths = ["/", "/remates", "/subastas", "/proximos-remates"]
+        # Main page has the listings
+        url = self.BASE_URL
+        logger.info(f"Scraping Global Remates: {url}")
 
-        for path in paths:
-            url = f"{self.BASE_URL}{path}"
-            logger.info(f"Scraping Global Remates: {url}")
-
-            html = await self.fetch_html(url)
-            if not html:
-                continue
-
+        html = await self.fetch_html(url)
+        if html:
             soup = self.parse_html(html)
             listings = self._parse_listings_page(soup)
             all_listings.extend(listings)
+
+        # Also try the default.aspx page
+        url2 = f"{self.BASE_URL}/default.aspx"
+        html2 = await self.fetch_html(url2)
+        if html2:
+            soup2 = self.parse_html(html2)
+            listings2 = self._parse_listings_page(soup2)
+            all_listings.extend(listings2)
+
+        # Try auction catalog page
+        url3 = f"{self.BASE_URL}/AuctionCatalog.aspx"
+        html3 = await self.fetch_html(url3)
+        if html3:
+            soup3 = self.parse_html(html3)
+            listings3 = self._parse_listings_page(soup3)
+            all_listings.extend(listings3)
 
         # Deduplicate
         seen = set()
@@ -53,72 +64,243 @@ class GlobalRematesScraper(BaseScraper):
         """Parse listings from page."""
         listings = []
 
-        cards = soup.select(".remate, .auction, .card, .item, article")
+        # Find all auction links with pattern AuctionDetails.aspx?id=XXX
+        auction_links = soup.find_all("a", href=re.compile(r'AuctionDetails\.aspx\?id=\d+', re.I))
 
-        for card in cards:
-            listing = self.parse_listing(card)
+        seen_ids = set()
+        for link in auction_links:
+            href = link.get("href", "")
+            match = re.search(r'id=(\d+)', href, re.I)
+            if not match:
+                continue
+
+            auction_id = match.group(1)
+            if auction_id in seen_ids:
+                continue
+            seen_ids.add(auction_id)
+
+            listing = self._parse_auction_link(link, auction_id)
+            if listing:
+                listings.append(listing)
+
+        # Also find lot links
+        lot_links = soup.find_all("a", href=re.compile(r'LotDetails\.aspx\?id=\d+', re.I))
+        for link in lot_links:
+            href = link.get("href", "")
+            match = re.search(r'id=(\d+)', href, re.I)
+            if not match:
+                continue
+
+            lot_id = match.group(1)
+            lot_key = f"lot_{lot_id}"
+            if lot_key in seen_ids:
+                continue
+            seen_ids.add(lot_key)
+
+            listing = self._parse_lot_link(link, lot_id)
+            if listing:
+                listings.append(listing)
+
+        # Also look for li items with auction data
+        li_items = soup.find_all("li")
+        for li in li_items:
+            # Check if it looks like an auction item
+            link = li.find("a", href=re.compile(r'(AuctionDetails|LotDetails)\.aspx', re.I))
+            if not link:
+                continue
+
+            href = link.get("href", "")
+            match = re.search(r'id=(\d+)', href)
+            if not match:
+                continue
+
+            item_id = match.group(1)
+            item_key = f"li_{item_id}"
+            if item_key in seen_ids:
+                continue
+            seen_ids.add(item_key)
+
+            listing = self._parse_li_item(li, item_id, href)
             if listing:
                 listings.append(listing)
 
         return listings
 
-    def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
-        """Parse a single auction element."""
+    def _parse_auction_link(self, link, auction_id: str) -> Optional[AuctionListing]:
+        """Parse an auction link."""
         try:
-            link = element.find("a", href=True)
-            if not link:
+            source_url = f"{self.BASE_URL}/AuctionDetails.aspx?id={auction_id}"
+
+            # Get title from link or parent
+            title = link.get_text(strip=True)
+            if len(title) < 5:
+                parent = link.find_parent()
+                if parent:
+                    title = parent.get_text(strip=True)[:150]
+
+            if not title or len(title) < 5:
                 return None
 
-            href = link.get("href", "")
-            id_match = re.search(r"(\d+)", href)
-            auction_id = id_match.group(1) if id_match else str(hash(href) % 10**8)
-
-            if href.startswith("http"):
-                source_url = href
-            elif href.startswith("/"):
-                source_url = f"{self.BASE_URL}{href}"
-            else:
-                source_url = f"{self.BASE_URL}/{href}"
-
-            title_elem = element.find(["h2", "h3", "h4", ".title"])
-            title = title_elem.get_text(strip=True) if title_elem else link.get_text(strip=True)
-
-            if not title or len(title) < 3:
-                return None
-
-            desc_elem = element.find([".description", "p"])
-            description = desc_elem.get_text(strip=True) if desc_elem else ""
-
-            price_text = element.get_text()
-            base_price, currency = self._parse_price(price_text)
-
+            # Try to find image
             images = []
-            img = element.find("img")
-            if img:
-                src = img.get("src") or img.get("data-src")
-                if src:
-                    if src.startswith("/"):
-                        src = f"{self.BASE_URL}{src}"
-                    images.append(src)
+            parent = link.find_parent("li") or link.find_parent("div")
+            if parent:
+                img = parent.find("img")
+                if img:
+                    src = img.get("src") or img.get("data-src")
+                    if src:
+                        if src.startswith("/"):
+                            src = f"{self.BASE_URL}{src}"
+                        elif not src.startswith("http"):
+                            src = f"{self.BASE_URL}/{src}"
+                        if "status" not in src.lower():
+                            images.append(src)
 
-            category = detect_category(title, description)
+            category = detect_category(title, "")
 
             return AuctionListing(
-                id=self.generate_id(auction_id),
+                id=self.generate_id(f"auction_{auction_id}"),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
-                title=title,
-                description=description,
+                title=title[:200],
+                description="",
                 category=category,
-                base_price=base_price,
-                currency=currency,
-                status=status,
+                base_price=0.0,
+                currency="ARS",
+                status="published",
                 images=images,
             )
-
         except Exception as e:
-            logger.error(f"Error parsing Global Remates listing: {e}")
+            logger.error(f"Error parsing Global Remates auction link: {e}")
             return None
+
+    def _parse_lot_link(self, link, lot_id: str) -> Optional[AuctionListing]:
+        """Parse a lot link."""
+        try:
+            source_url = f"{self.BASE_URL}/LotDetails.aspx?id={lot_id}"
+
+            title = link.get_text(strip=True)
+            if len(title) < 5:
+                parent = link.find_parent()
+                if parent:
+                    title = parent.get_text(strip=True)[:150]
+
+            if not title or len(title) < 5:
+                return None
+
+            # Try to find image
+            images = []
+            parent = link.find_parent("li") or link.find_parent("div")
+            if parent:
+                img = parent.find("img")
+                if img:
+                    src = img.get("src") or img.get("data-src")
+                    if src:
+                        if src.startswith("/"):
+                            src = f"{self.BASE_URL}{src}"
+                        elif not src.startswith("http"):
+                            src = f"{self.BASE_URL}/{src}"
+                        if "status" not in src.lower():
+                            images.append(src)
+
+            # Try to extract price
+            price = 0.0
+            if parent:
+                text = parent.get_text()
+                price_match = re.search(r'\$\s*([\d.,]+)', text)
+                if price_match:
+                    price_str = price_match.group(1).replace('.', '').replace(',', '.')
+                    try:
+                        price = float(price_str)
+                    except ValueError:
+                        pass
+
+            category = detect_category(title, "")
+
+            return AuctionListing(
+                id=self.generate_id(f"lot_{lot_id}"),
+                source=self.SOURCE_NAME,
+                source_url=source_url,
+                title=title[:200],
+                description="",
+                category=category,
+                base_price=price,
+                currency="ARS",
+                status="published",
+                images=images,
+            )
+        except Exception as e:
+            logger.error(f"Error parsing Global Remates lot link: {e}")
+            return None
+
+    def _parse_li_item(self, li, item_id: str, href: str) -> Optional[AuctionListing]:
+        """Parse an li item containing auction data."""
+        try:
+            # Build URL
+            if "AuctionDetails" in href:
+                source_url = f"{self.BASE_URL}/AuctionDetails.aspx?id={item_id}"
+                id_prefix = "auction"
+            else:
+                source_url = f"{self.BASE_URL}/LotDetails.aspx?id={item_id}"
+                id_prefix = "lot"
+
+            # Get all text
+            text = li.get_text(" ", strip=True)
+            if len(text) < 10:
+                return None
+
+            # Extract title - usually first significant text
+            lines = [l.strip() for l in text.split('\n') if len(l.strip()) > 5]
+            title = lines[0] if lines else text[:100]
+
+            # Clean title
+            title = re.sub(r'\s+', ' ', title).strip()
+            if len(title) < 5:
+                return None
+
+            # Extract price
+            price = 0.0
+            price_match = re.search(r'\$\s*([\d.,]+)', text)
+            if price_match:
+                price_str = price_match.group(1).replace('.', '').replace(',', '.')
+                try:
+                    price = float(price_str)
+                except ValueError:
+                    pass
+
+            # Extract image
+            images = []
+            img = li.find("img")
+            if img:
+                src = img.get("src") or img.get("data-src")
+                if src and "status" not in src.lower():
+                    if src.startswith("/"):
+                        src = f"{self.BASE_URL}{src}"
+                    elif not src.startswith("http"):
+                        src = f"{self.BASE_URL}/{src}"
+                    images.append(src)
+
+            category = detect_category(title, text)
+
+            return AuctionListing(
+                id=self.generate_id(f"{id_prefix}_{item_id}"),
+                source=self.SOURCE_NAME,
+                source_url=source_url,
+                title=title[:200],
+                description=text[:300] if len(text) > 200 else "",
+                category=category,
+                base_price=price,
+                currency="ARS",
+                status="published",
+                images=images,
+            )
+        except Exception as e:
+            logger.error(f"Error parsing Global Remates li item: {e}")
+            return None
+
+    def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
+        """Parse a single auction element."""
+        return None
 
     def _parse_price(self, text: str) -> tuple[float, str]:
         """Parse price from text."""

@@ -2,6 +2,7 @@
 
 import re
 import logging
+import asyncio
 from datetime import datetime
 from typing import Optional
 from bs4 import Tag
@@ -23,112 +24,234 @@ class SCBAScraper(BaseScraper):
         """Scrape all auction listings from SCBA."""
         all_listings = []
 
-        # Main listings page
-        url = f"{self.BASE_URL}/subastas"
+        # Try Playwright first for JS-rendered content
+        try:
+            listings = await self._scrape_with_playwright()
+            if listings:
+                return listings
+        except Exception as e:
+            logger.warning(f"Playwright scraping failed: {e}, trying fallback")
+
+        # Fallback: try main page
+        url = self.BASE_URL
         logger.info(f"Scraping SCBA auctions: {url}")
 
         html = await self.fetch_html(url)
         if not html:
-            logger.warning(f"Failed to fetch {url}")
+            # Try alternative URL
+            html = await self.fetch_html(f"{self.BASE_URL}/Home")
+
+        if not html:
+            logger.warning(f"Failed to fetch SCBA")
             return all_listings
 
         soup = self.parse_html(html)
         listings = self._parse_listings_page(soup)
         all_listings.extend(listings)
 
+        # Also enumerate IDs if we found some
+        if all_listings:
+            known_ids = set()
+            for listing in all_listings:
+                match = re.search(r'/Auctions/Details/(\d+)', listing.source_url)
+                if match:
+                    known_ids.add(int(match.group(1)))
+
+            if known_ids:
+                max_id = max(known_ids)
+                for auction_id in range(max(1, max_id - 30), max_id + 10):
+                    if auction_id in known_ids:
+                        continue
+                    listing = await self._fetch_detail(auction_id)
+                    if listing:
+                        all_listings.append(listing)
+
         logger.info(f"Found {len(all_listings)} SCBA listings")
         return all_listings
+
+    async def _scrape_with_playwright(self) -> list[AuctionListing]:
+        """Scrape using Playwright for JS content."""
+        try:
+            from playwright.async_api import async_playwright
+        except ImportError:
+            return []
+
+        listings = []
+
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            page = await browser.new_page()
+
+            await page.goto(self.BASE_URL, wait_until="networkidle", timeout=30000)
+            await asyncio.sleep(2)
+
+            # Find all auction links with pattern /Auctions/Details/[id]
+            links = await page.query_selector_all('a[href*="/Auctions/Details/"]')
+
+            seen_ids = set()
+            for link in links:
+                try:
+                    href = await link.get_attribute("href")
+                    if not href:
+                        continue
+
+                    match = re.search(r'/Auctions/Details/(\d+)', href)
+                    if not match:
+                        continue
+
+                    auction_id = match.group(1)
+                    if auction_id in seen_ids:
+                        continue
+                    seen_ids.add(auction_id)
+
+                    # Get parent card for more info
+                    parent = await link.evaluate("el => el.closest('.card, article, [class*=\"subasta\"], li')")
+
+                    title = await link.text_content() or ""
+                    title = title.strip()
+
+                    if len(title) < 5:
+                        # Try to get more text from parent
+                        text = await link.evaluate("el => el.parentElement?.textContent || ''")
+                        title = text.strip()[:150] if text else f"Subasta #{auction_id}"
+
+                    source_url = f"{self.BASE_URL}/Auctions/Details/{auction_id}"
+
+                    listings.append(AuctionListing(
+                        id=self.generate_id(auction_id),
+                        source=self.SOURCE_NAME,
+                        source_url=source_url,
+                        title=title[:200],
+                        description="",
+                        category=detect_category(title, ""),
+                        base_price=0.0,
+                        currency="ARS",
+                        status="published",
+                        location={"province": "Buenos Aires", "city": ""},
+                        images=[],
+                    ))
+                except Exception as e:
+                    logger.debug(f"Error parsing link: {e}")
+                    continue
+
+            await browser.close()
+
+        logger.info(f"Playwright found {len(listings)} SCBA listings")
+        return listings
+
+    async def _fetch_detail(self, auction_id: int) -> Optional[AuctionListing]:
+        """Fetch auction detail page."""
+        url = f"{self.BASE_URL}/Auctions/Details/{auction_id}"
+        html = await self.fetch_html(url)
+        if not html:
+            return None
+
+        # Check if valid page
+        if "subasta" not in html.lower() and "auction" not in html.lower():
+            return None
+
+        soup = self.parse_html(html)
+
+        # Extract title
+        title_elem = soup.find(["h1", "h2"])
+        title = title_elem.get_text(strip=True) if title_elem else f"Subasta #{auction_id}"
+
+        if len(title) < 5:
+            return None
+
+        # Extract price
+        page_text = soup.get_text()
+        base_price, currency = self._parse_price(page_text)
+
+        # Extract images
+        images = []
+        for img in soup.find_all("img"):
+            src = img.get("src") or img.get("data-src")
+            if src and not any(x in src.lower() for x in ['logo', 'icon', 'avatar']):
+                if src.startswith("/"):
+                    src = f"{self.BASE_URL}{src}"
+                images.append(src)
+                if len(images) >= 5:
+                    break
+
+        category = detect_category(title, page_text[:500])
+
+        return AuctionListing(
+            id=self.generate_id(auction_id),
+            source=self.SOURCE_NAME,
+            source_url=url,
+            title=title,
+            description=page_text[:300] if page_text else "",
+            category=category,
+            base_price=base_price,
+            currency=currency,
+            status="published",
+            location={"province": "Buenos Aires", "city": ""},
+            images=images,
+        )
 
     def _parse_listings_page(self, soup) -> list[AuctionListing]:
         """Parse the listings page."""
         listings = []
 
-        # Look for auction cards
-        cards = soup.select(".subasta, .auction-item, .card, [class*='subasta']")
+        # Find all auction links
+        links = soup.find_all("a", href=re.compile(r'/Auctions/Details/\d+'))
 
-        if not cards:
-            # Try table rows
-            rows = soup.select("table tr, .list-item")
-            cards = rows
+        seen_ids = set()
+        for link in links:
+            href = link.get("href", "")
+            match = re.search(r'/Auctions/Details/(\d+)', href)
+            if not match:
+                continue
 
-        for card in cards:
-            listing = self.parse_listing(card)
+            auction_id = match.group(1)
+            if auction_id in seen_ids:
+                continue
+            seen_ids.add(auction_id)
+
+            listing = self._parse_link(link, auction_id)
             if listing:
                 listings.append(listing)
 
         return listings
 
-    def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
-        """Parse a single auction element."""
+    def _parse_link(self, link, auction_id: str) -> Optional[AuctionListing]:
+        """Parse a single auction link."""
         try:
-            # Find link to detail page
-            link = element.find("a", href=True)
-            if not link:
-                return None
+            source_url = f"{self.BASE_URL}/Auctions/Details/{auction_id}"
 
-            href = link.get("href", "")
-            if not href:
-                return None
-
-            # Extract auction ID
-            id_match = re.search(r"(\d+)", href)
-            if not id_match:
-                return None
-
-            auction_id = id_match.group(1)
-
-            # Build source URL
-            if href.startswith("http"):
-                source_url = href
-            elif href.startswith("/"):
-                source_url = f"{self.BASE_URL}{href}"
-            else:
-                source_url = f"{self.BASE_URL}/{href}"
-
-            # Extract title
-            title_elem = element.find(["h2", "h3", "h4", "strong", ".title"])
-            title = title_elem.get_text(strip=True) if title_elem else link.get_text(strip=True)
+            # Get title from link or parent
+            title = link.get_text(strip=True)
+            if len(title) < 5:
+                parent = link.find_parent()
+                if parent:
+                    title = parent.get_text(strip=True)[:150]
 
             if not title or len(title) < 5:
                 return None
 
-            # Extract description
-            desc_elem = element.find(["p", ".description"])
-            description = desc_elem.get_text(strip=True) if desc_elem else ""
-
-            # Extract price
-            text = element.get_text()
-            base_price, currency = self._parse_price(text)
-
-            # Detect category
-            category = detect_category(title, description)
-
-            # Determine status from text
-            text_lower = text.lower()
-            if "finaliz" in text_lower:
-                status = "finalized"
-            elif "curso" in text_lower or "activ" in text_lower:
-                status = "ongoing"
-            else:
-                status = "published"
+            category = detect_category(title, "")
 
             return AuctionListing(
                 id=self.generate_id(auction_id),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
-                title=title,
-                description=description,
+                title=title[:200],
+                description="",
                 category=category,
-                base_price=base_price,
-                currency=currency,
-                status=status,
+                base_price=0.0,
+                currency="ARS",
+                status="published",
                 location={"province": "Buenos Aires", "city": ""},
-                images=self._parse_images(element),
+                images=[],
             )
-
         except Exception as e:
-            logger.error(f"Error parsing SCBA listing: {e}")
+            logger.error(f"Error parsing SCBA link: {e}")
             return None
+
+    def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
+        """Parse a single auction element."""
+        return None
 
     def _parse_price(self, text: str) -> tuple[float, str]:
         """Parse price from text."""
@@ -136,14 +259,11 @@ class SCBAScraper(BaseScraper):
         if "USD" in text.upper() or "U$S" in text.upper():
             currency = "USD"
 
-        # Find price pattern
         price_match = re.search(r"[\$]?\s*([\d.,]+)", text)
         if not price_match:
             return 0.0, currency
 
         price_str = price_match.group(1)
-
-        # Handle Argentine number format
         if "," in price_str:
             price_str = price_str.replace(".", "").replace(",", ".")
         else:
@@ -153,14 +273,3 @@ class SCBAScraper(BaseScraper):
             return float(price_str), currency
         except ValueError:
             return 0.0, currency
-
-    def _parse_images(self, element: Tag) -> list[str]:
-        """Extract image URLs."""
-        images = []
-        for img in element.find_all("img"):
-            src = img.get("src") or img.get("data-src")
-            if src:
-                if src.startswith("/"):
-                    src = f"{self.BASE_URL}{src}"
-                images.append(src)
-        return images

@@ -91,6 +91,31 @@ class AdrianMercadoScraper(BaseScraper):
         logger.info(f"Found {len(listings)} auction links on page")
         return listings
 
+    def _extract_date(self, text: str) -> Optional[datetime]:
+        """Extract date from text using common patterns."""
+        # Pattern: dd/mm/yyyy or dd-mm-yyyy
+        match = re.search(r'(\d{1,2})[/-](\d{1,2})[/-](\d{4})', text)
+        if match:
+            try:
+                day, month, year = int(match.group(1)), int(match.group(2)), int(match.group(3))
+                return datetime(year, month, day)
+            except ValueError:
+                pass
+
+        # Pattern: "15 de marzo de 2026"
+        months = {'enero': 1, 'febrero': 2, 'marzo': 3, 'abril': 4, 'mayo': 5, 'junio': 6,
+                  'julio': 7, 'agosto': 8, 'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12}
+        match = re.search(r'(\d{1,2})\s+de\s+(\w+)\s+(?:de\s+)?(\d{4})', text, re.I)
+        if match:
+            month = months.get(match.group(2).lower())
+            if month:
+                try:
+                    return datetime(int(match.group(3)), month, int(match.group(1)))
+                except ValueError:
+                    pass
+
+        return None
+
     def _parse_auction_link(self, link, href: str) -> Optional[AuctionListing]:
         """Parse auction from a link element."""
         try:
@@ -106,12 +131,15 @@ class AdrianMercadoScraper(BaseScraper):
             else:
                 source_url = href
 
+            # Get parent for context
+            parent = link.find_parent(["div", "article", "li", "td"])
+            parent_text = parent.get_text(" ", strip=True) if parent else ""
+
             # Get title from link text or parent
             title = link.get_text(strip=True)
             if not title or len(title) < 5:
-                parent = link.find_parent()
                 if parent:
-                    title = parent.get_text(strip=True)[:100]
+                    title = parent_text[:100]
 
             if not title or len(title) < 5:
                 return None
@@ -119,10 +147,8 @@ class AdrianMercadoScraper(BaseScraper):
             # Try to find image
             images = []
             img = link.find("img")
-            if not img:
-                parent = link.find_parent()
-                if parent:
-                    img = parent.find("img")
+            if not img and parent:
+                img = parent.find("img")
             if img:
                 src = img.get("src") or img.get("data-src") or img.get("data-lazy")
                 if src:
@@ -130,6 +156,9 @@ class AdrianMercadoScraper(BaseScraper):
                         src = f"{self.BASE_URL}{src}"
                     if not any(skip in src.lower() for skip in ['logo', 'icon', 'avatar']):
                         images.append(src)
+
+            # Extract date
+            ends_at = self._extract_date(parent_text or title)
 
             category = detect_category(title, "")
 
@@ -143,6 +172,7 @@ class AdrianMercadoScraper(BaseScraper):
                 base_price=0.0,  # Price on detail page
                 currency="ARS",
                 status="published",
+                ends_at=ends_at,
                 images=images,
             )
 

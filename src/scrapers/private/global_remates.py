@@ -19,6 +19,35 @@ class GlobalRematesScraper(BaseScraper):
     BASE_URL = "https://www.globalremates.com.ar"
     RATE_LIMIT_SECONDS = 2.0
 
+    def _extract_date(self, text: str) -> Optional[datetime]:
+        """Extract date from text."""
+        if not text:
+            return None
+
+        # Pattern: dd/mm/yyyy HH:MM a.m./p.m.
+        match = re.search(r'(\d{2})/(\d{2})/(\d{4})\s+(\d{1,2}):(\d{2})\s*(a\.m\.|p\.m\.)?', text, re.I)
+        if match:
+            try:
+                day, month, year = int(match.group(1)), int(match.group(2)), int(match.group(3))
+                hour, minute = int(match.group(4)), int(match.group(5))
+                ampm = match.group(6)
+                if ampm and 'p.m.' in ampm.lower() and hour < 12:
+                    hour += 12
+                return datetime(year, month, day, hour, minute)
+            except ValueError:
+                pass
+
+        # Pattern: dd/mm/yyyy
+        match = re.search(r'(\d{2})/(\d{2})/(\d{4})', text)
+        if match:
+            try:
+                day, month, year = int(match.group(1)), int(match.group(2)), int(match.group(3))
+                return datetime(year, month, day)
+            except ValueError:
+                pass
+
+        return None
+
     def _clean_title(self, title: str) -> str:
         """Clean title by removing dates, noise patterns."""
         if not title:
@@ -214,6 +243,9 @@ class GlobalRematesScraper(BaseScraper):
                         if "status" not in src.lower():
                             images.append(src)
 
+            # Extract date before cleaning title
+            ends_at = self._extract_date(title)
+
             category = detect_category(title, "")
 
             return AuctionListing(
@@ -226,6 +258,7 @@ class GlobalRematesScraper(BaseScraper):
                 base_price=0.0,
                 currency="ARS",
                 status="published",
+                ends_at=ends_at,
                 images=images,
             )
         except Exception as e:
@@ -309,6 +342,9 @@ class GlobalRematesScraper(BaseScraper):
                     except ValueError:
                         pass
 
+            # Extract date before cleaning title
+            ends_at = self._extract_date(title)
+
             category = detect_category(title, "")
 
             return AuctionListing(
@@ -321,6 +357,7 @@ class GlobalRematesScraper(BaseScraper):
                 base_price=price,
                 currency="ARS",
                 status="published",
+                ends_at=ends_at,
                 images=images,
             )
         except Exception as e:
@@ -374,6 +411,9 @@ class GlobalRematesScraper(BaseScraper):
                         src = f"{self.BASE_URL}/{src}"
                     images.append(src)
 
+            # Extract date before cleaning title
+            ends_at = self._extract_date(text) or self._extract_date(title)
+
             category = detect_category(title, text)
 
             return AuctionListing(
@@ -386,6 +426,7 @@ class GlobalRematesScraper(BaseScraper):
                 base_price=price,
                 currency="ARS",
                 status="published",
+                ends_at=ends_at,
                 images=images,
             )
         except Exception as e:

@@ -275,3 +275,5 @@ MIT License - See [LICENSE](LICENSE)
 Developed by **[Memola Medios S.A.S.](https://www.memola.com.ar)**
 
 CUIT: 30-71863222-2 | Contact: [agencia@memola.com.ar](mailto:agencia@memola.com.ar)
+
+Follow on X: **[@hernan__cc](https://x.com/hernan__cc)**

@@ -20,6 +20,7 @@ from src.scrapers.private.bidbit import BidBitScraper
 from src.scrapers.private.manucha import ManuchaScraper
 from src.scrapers.private.delafuente import DelaFuenteScraper
 from src.scrapers.private.zarate import ZarateScraper
+from src.scrapers.private.sitiodetiendas import SitioDeTiendasScraper
 from src.storage.json_store import JSONStore
 
 logging.basicConfig(
@@ -43,6 +44,7 @@ SCRAPERS = {
     "manucha": ManuchaScraper,
     "delafuente": DelaFuenteScraper,
     "zarate": ZarateScraper,
+    "sitiodetiendas": SitioDeTiendasScraper,
 }
 
 

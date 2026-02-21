@@ -547,8 +547,8 @@ body {
                         </svg>
                     </div>
                     <h3 class="text-xl font-display font-medium text-white mb-2">Private Auctions</h3>
-                    <p class="text-white/60 text-sm mb-4">Adrian Mercado, Banco Ciudad, Global Remates</p>
-                    <div class="text-blue-400 text-xs uppercase tracking-wider">5 Sources</div>
+                    <p class="text-white/60 text-sm mb-4">Adrian Mercado, Banco Ciudad, Global Remates, Sitio de Tiendas & more</p>
+                    <div class="text-blue-400 text-xs uppercase tracking-wider">8 Sources</div>
                 </div>
 
                 <div class="glass rounded-2xl p-8 text-center hover:bg-white/5 transition-colors">
@@ -567,26 +567,67 @@ body {
 
     <!-- FOOTER -->
     <footer class="py-12 px-4 border-t border-white/5">
-        <div class="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-            <div class="flex items-center gap-3">
-                <div class="w-8 h-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
-                        <g id="core3">
-                            <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
-                            <circle cx="256" cy="256" r="14" fill="#eab308"/>
-                        </g>
+        <div class="max-w-[1400px] mx-auto">
+            <!-- Solana Donation -->
+            <div class="glass rounded-2xl p-6 mb-8 text-center">
+                <div class="flex items-center justify-center gap-3 mb-3">
+                    <svg class="w-6 h-6" viewBox="0 0 397.7 311.7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <linearGradient id="solana-grad" x1="360.879" y1="351.455" x2="141.213" y2="-69.294" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#00FFA3"/>
+                            <stop offset="1" stop-color="#DC1FFF"/>
+                        </linearGradient>
+                        <path fill="url(#solana-grad)" d="M64.6,237.9c2.4-2.4,5.7-3.8,9.2-3.8h317.4c5.8,0,8.7,7,4.6,11.1l-62.7,62.7c-2.4,2.4-5.7,3.8-9.2,3.8H6.5c-5.8,0-8.7-7-4.6-11.1L64.6,237.9z"/>
+                        <path fill="url(#solana-grad)" d="M64.6,3.8C67.1,1.4,70.4,0,73.8,0h317.4c5.8,0,8.7,7,4.6,11.1l-62.7,62.7c-2.4,2.4-5.7,3.8-9.2,3.8H6.5c-5.8,0-8.7-7-4.6-11.1L64.6,3.8z"/>
+                        <path fill="url(#solana-grad)" d="M333.1,120.1c-2.4-2.4-5.7-3.8-9.2-3.8H6.5c-5.8,0-8.7,7-4.6,11.1l62.7,62.7c2.4,2.4,5.7,3.8,9.2,3.8h317.4c5.8,0,8.7-7,4.6-11.1L333.1,120.1z"/>
+                    </svg>
+                    <span class="text-lg font-display font-medium text-white">Support this project</span>
+                </div>
+                <p class="text-white/60 text-sm mb-4">Donate SOL to help keep AuctionRadar running</p>
+                <div class="inline-flex items-center gap-2 glass rounded-lg px-4 py-2 cursor-pointer hover:bg-white/10 transition-colors" onclick="copyWallet()" title="Click to copy">
+                    <code class="text-xs md:text-sm text-yellow-500 font-mono break-all" id="wallet-address">Cjz2ZPXXzThdUJp894BUDVykt1Ap9hXxuBRTcso17By2</code>
+                    <svg class="w-4 h-4 text-white/40 hover:text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="copy-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
                 </div>
-                <span class="text-white font-display">Auction<span class="text-yellow-500 font-light">Radar</span></span>
+                <p class="text-white/30 text-xs mt-2" id="copy-status"></p>
             </div>
-            <div class="text-white/40 text-sm text-center">
-                done with claude code by memola 30-71863222-2 memola medios s.a.s.
+
+            <!-- Footer Links -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                            <g id="core3">
+                                <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                                <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <span class="text-white font-display">Auction<span class="text-yellow-500 font-light">Radar</span></span>
+                </div>
+                <div class="text-white/40 text-sm text-center">
+                    done with claude code by memola 30-71863222-2 memola medios s.a.s.
+                </div>
+                <a href="https://github.com/josebarnetche/auction-scraper" target="_blank" class="text-yellow-500 hover:text-white text-sm transition-colors">
+                    GitHub
+                </a>
             </div>
-            <a href="https://github.com/josebarnetche/auction-scraper" target="_blank" class="text-yellow-500 hover:text-white text-sm transition-colors">
-                GitHub
-            </a>
         </div>
     </footer>
+
+    <script>
+        function copyWallet() {
+            const wallet = document.getElementById('wallet-address').textContent;
+            navigator.clipboard.writeText(wallet).then(() => {
+                document.getElementById('copy-status').textContent = 'Copied to clipboard!';
+                document.getElementById('copy-icon').innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>';
+                setTimeout(() => {
+                    document.getElementById('copy-status').textContent = '';
+                    document.getElementById('copy-icon').innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>';
+                }, 2000);
+            });
+        }
+    </script>
 
     <script>
         let allAuctions = [];

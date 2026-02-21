@@ -27,6 +27,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          playwright install chromium --with-deps
 
       - name: Run scrapers
         run: python scripts/run_scraper.py

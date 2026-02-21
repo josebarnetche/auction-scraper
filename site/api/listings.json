@@ -1,14 +1,15 @@
 {
-  "total_count": 114,
+  "total_count": 118,
   "by_source": {
     "adrian_mercado": 32,
     "bidbit": 9,
     "csjn": 10,
     "delafuente": 60,
     "manucha": 1,
+    "sitiodetiendas": 4,
     "zarate": 2
   },
-  "generated_at": "2026-02-21T04:29:27.450249+00:00",
+  "generated_at": "2026-02-21T04:46:14.127699+00:00",
   "listings": [
     {
       "id": "csjn:55",
@@ -33,7 +34,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.217414.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.233029.jpg"
       ],
-      "scraped_at": "2026-02-21T04:29:14.824441+00:00",
+      "scraped_at": "2026-02-21T04:46:01.517402+00:00",
       "extra": {
         "auction_code": "55",
         "lot_id": "57",
@@ -68,7 +69,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.024720.jpeg"
       ],
-      "scraped_at": "2026-02-21T04:29:11.681855+00:00",
+      "scraped_at": "2026-02-21T04:45:58.519665+00:00",
       "extra": {
         "auction_code": "53",
         "lot_id": "55",
@@ -100,30 +101,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:29:07.932682+00:00",
-      "extra": {}
-    },
-    {
-      "id": "delafuente:30059",
-      "source": "delafuente",
-      "source_url": "https://delafuentesubastas.com.ar/remate/30059",
-      "title": "Remate #30059",
-      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "category": "real_estate",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
-        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
-      ],
-      "scraped_at": "2026-02-21T04:29:05.923913+00:00",
+      "scraped_at": "2026-02-21T04:45:53.722365+00:00",
       "extra": {}
     },
     {
@@ -149,7 +127,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.557848.jpeg"
       ],
-      "scraped_at": "2026-02-21T04:29:05.675958+00:00",
+      "scraped_at": "2026-02-21T04:45:52.489463+00:00",
       "extra": {
         "auction_code": "49",
         "lot_id": "51",
@@ -162,10 +140,10 @@
       }
     },
     {
-      "id": "delafuente:30058",
+      "id": "delafuente:30059",
       "source": "delafuente",
-      "source_url": "https://delafuentesubastas.com.ar/remate/30058",
-      "title": "Remate #30058",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30059",
+      "title": "Remate #30059",
       "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
       "category": "real_estate",
       "base_price": 0.0,
@@ -181,7 +159,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:29:03.899140+00:00",
+      "scraped_at": "2026-02-21T04:45:51.689685+00:00",
       "extra": {}
     },
     {
@@ -207,7 +185,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.761695.jpeg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.792950.jpeg"
       ],
-      "scraped_at": "2026-02-21T04:29:03.509943+00:00",
+      "scraped_at": "2026-02-21T04:45:50.276574+00:00",
       "extra": {
         "auction_code": "48",
         "lot_id": "50",
@@ -218,6 +196,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 14605500.0
       }
+    },
+    {
+      "id": "delafuente:30058",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30058",
+      "title": "Remate #30058",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:45:49.707806+00:00",
+      "extra": {}
     },
     {
       "id": "delafuente:30057",
@@ -239,7 +240,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:29:01.886419+00:00",
+      "scraped_at": "2026-02-21T04:45:47.683291+00:00",
       "extra": {}
     },
     {
@@ -262,7 +263,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:59.898196+00:00",
+      "scraped_at": "2026-02-21T04:45:45.686309+00:00",
       "extra": {}
     },
     {
@@ -285,7 +286,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:57.858322+00:00",
+      "scraped_at": "2026-02-21T04:45:43.670383+00:00",
       "extra": {}
     },
     {
@@ -308,7 +309,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:55.869903+00:00",
+      "scraped_at": "2026-02-21T04:45:41.655880+00:00",
       "extra": {}
     },
     {
@@ -331,7 +332,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:53.845032+00:00",
+      "scraped_at": "2026-02-21T04:45:39.708088+00:00",
       "extra": {}
     },
     {
@@ -354,7 +355,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:51.879627+00:00",
+      "scraped_at": "2026-02-21T04:45:37.669948+00:00",
       "extra": {}
     },
     {
@@ -377,7 +378,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:49.937342+00:00",
+      "scraped_at": "2026-02-21T04:45:35.653278+00:00",
       "extra": {}
     },
     {
@@ -400,7 +401,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:47.934476+00:00",
+      "scraped_at": "2026-02-21T04:45:33.663165+00:00",
       "extra": {}
     },
     {
@@ -423,7 +424,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:45.904584+00:00",
+      "scraped_at": "2026-02-21T04:45:31.634955+00:00",
       "extra": {}
     },
     {
@@ -446,7 +447,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:43.916373+00:00",
+      "scraped_at": "2026-02-21T04:45:29.655598+00:00",
       "extra": {}
     },
     {
@@ -469,7 +470,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:41.908242+00:00",
+      "scraped_at": "2026-02-21T04:45:27.613024+00:00",
       "extra": {}
     },
     {
@@ -492,7 +493,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:40.108562+00:00",
+      "scraped_at": "2026-02-21T04:45:25.612764+00:00",
       "extra": {}
     },
     {
@@ -515,7 +516,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:37.879817+00:00",
+      "scraped_at": "2026-02-21T04:45:23.602500+00:00",
       "extra": {}
     },
     {
@@ -538,7 +539,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:35.886658+00:00",
+      "scraped_at": "2026-02-21T04:45:21.618406+00:00",
       "extra": {}
     },
     {
@@ -561,7 +562,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:33.879135+00:00",
+      "scraped_at": "2026-02-21T04:45:19.593649+00:00",
       "extra": {}
     },
     {
@@ -584,7 +585,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:31.853188+00:00",
+      "scraped_at": "2026-02-21T04:45:17.585668+00:00",
       "extra": {}
     },
     {
@@ -607,7 +608,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:29.830176+00:00",
+      "scraped_at": "2026-02-21T04:45:15.575840+00:00",
       "extra": {}
     },
     {
@@ -630,30 +631,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:27.847645+00:00",
-      "extra": {}
-    },
-    {
-      "id": "delafuente:30038",
-      "source": "delafuente",
-      "source_url": "https://delafuentesubastas.com.ar/remate/30038",
-      "title": "Remate #30038",
-      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
-      "category": "real_estate",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
-        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
-      ],
-      "scraped_at": "2026-02-21T04:28:25.846944+00:00",
+      "scraped_at": "2026-02-21T04:45:13.567250+00:00",
       "extra": {}
     },
     {
@@ -679,7 +657,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.195570.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.211187.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:25.807966+00:00",
+      "scraped_at": "2026-02-21T04:45:12.434037+00:00",
       "extra": {
         "auction_code": "23",
         "lot_id": "25",
@@ -690,6 +668,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 7166250.0
       }
+    },
+    {
+      "id": "delafuente:30038",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30038",
+      "title": "Remate #30038",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:45:11.554620+00:00",
+      "extra": {}
     },
     {
       "id": "delafuente:30037",
@@ -711,7 +712,87 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:23.830280+00:00",
+      "scraped_at": "2026-02-21T04:45:09.561719+00:00",
+      "extra": {}
+    },
+    {
+      "id": "sitiodetiendas:3_48581687",
+      "source": "sitiodetiendas",
+      "source_url": "https://sitiodetiendas.com/negocios-disponibles",
+      "title": "ECOMMERCE - CHILE - GASTRONOMIA",
+      "description": "SIN INTERMEDIACIÓNVisualizaciones: 651ECOMMERCE - CHILE - GASTRONOMIACASTA BRAVA es una empresa que produce y comercializa aliños y condimentos inspirados en las cocinas internacionales más reconocidas del mundo. 100% naturales, sin químicos ni preservantes. Marca posicionada lista para escalar. 🔥OFERTA IMPERDIBLE: RECUPERO EN SOLO 18 MESES 🔥TipoTienda onlineGanancia anualCLP 16.200.000CategoríaGastronomíaAntiguedad4 añosPrecioCLP 25.000.780PaísChileVER DETALLES",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:45:07.635955+00:00",
+      "extra": {}
+    },
+    {
+      "id": "sitiodetiendas:2_33982783",
+      "source": "sitiodetiendas",
+      "source_url": "https://sitiodetiendas.com/negocios-disponibles",
+      "title": "NEGOCIO EN VENTA - CHILE - IMPORTADORA Y E-COMMERCE DE FUNDAS PARA SOFAS Y ROPA DE CAMA",
+      "description": "CON INTERMEDIACIÓNVisualizaciones: 1548NEGOCIO EN VENTA - CHILE - IMPORTADORA Y E-COMMERCE DE FUNDAS PARA SOFAS Y ROPA DE CAMAE-commerce Importador de fundas. Exclusividad de marca italiana en Chile, Argentina y Brasil. Facilidad de ABONAR 50% AL INICIO Y 50% \n A LOS 6 MESES meses sujeto a resultados de ventasTipoTienda onlineGanancia anualCLP 83.000.000CategoríaHogar y DecoAntiguedad6 añosPrecioCLP 84.999.160PaísChileVER DETALLES",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:45:07.612912+00:00",
+      "extra": {}
+    },
+    {
+      "id": "sitiodetiendas:1_94734958",
+      "source": "sitiodetiendas",
+      "source_url": "https://sitiodetiendas.com/negocios-disponibles",
+      "title": "EMPRESA EN VENTA- CHILE- MUEBLES PARA EL  HOGAR. 🛍️ Opción de compra total o del 50% de la empresa 🛍️",
+      "description": "CON INTERMEDIACIÓNVisualizaciones: 2392EMPRESA EN VENTA- CHILE- MUEBLES PARA EL  HOGAR. 🛍️ Opción de compra total o del 50% de la empresa 🛍️ Empresa importadora de muebles para el hogar y oficina, con desarrollo de marca propia. Púbico B2B y B2C a través de su tienda Online y Marketplace.TipoTienda onlineGanancia anualCLP 477.000.000CategoríaHogar y DecoAntiguedad5 añosPrecioCLP 1.040.000.050PaísChileVER DETALLES",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:45:07.590117+00:00",
+      "extra": {}
+    },
+    {
+      "id": "sitiodetiendas:0_96418908",
+      "source": "sitiodetiendas",
+      "source_url": "https://sitiodetiendas.com/negocios-disponibles",
+      "title": "EMPRESA EN VENTA - ARGENTINA- ILUMINACIÓN\n✨Increíble recupero 24 meses✨\nAcompañamiento del vendedor 6 mese. Anticipo  60% al inicio, 20% 3 meses 20% 6 meses.",
+      "description": "CON INTERMEDIACIÓNVisualizaciones: 9677EMPRESA EN VENTA - ARGENTINA- ILUMINACIÓN\n✨Increíble recupero 24 meses✨\nAcompañamiento del vendedor 6 mese. Anticipo  60% al inicio, 20% 3 meses 20% 6 meses.Empresa consolidad con 10 años de antiguedad. SRL activa sin deuda. Marca registrada. Canales de Venta a través de MERCADO LIBRE platinum, Venta directa y red de subdistribuidores. Se entega con cláusula de protección de facturación.TipoTienda onlineGanancia anualARS 634.400.000CategoríaHogar y DecoAnti",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:45:07.564519+00:00",
       "extra": {}
     },
     {
@@ -734,30 +815,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:21.816687+00:00",
-      "extra": {}
-    },
-    {
-      "id": "delafuente:30035",
-      "source": "delafuente",
-      "source_url": "https://delafuentesubastas.com.ar/remate/30035",
-      "title": "Remate #30035",
-      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
-      "category": "real_estate",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
-        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
-      ],
-      "scraped_at": "2026-02-21T04:28:19.837456+00:00",
+      "scraped_at": "2026-02-21T04:45:07.548837+00:00",
       "extra": {}
     },
     {
@@ -780,7 +838,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.143264.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.158890.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:19.005026+00:00",
+      "scraped_at": "2026-02-21T04:45:05.597075+00:00",
       "extra": {
         "auction_code": "18",
         "lot_id": "20",
@@ -793,10 +851,10 @@
       }
     },
     {
-      "id": "delafuente:30034",
+      "id": "delafuente:30035",
       "source": "delafuente",
-      "source_url": "https://delafuentesubastas.com.ar/remate/30034",
-      "title": "Remate #30034",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30035",
+      "title": "Remate #30035",
       "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
       "category": "real_estate",
       "base_price": 0.0,
@@ -812,7 +870,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:17.816177+00:00",
+      "scraped_at": "2026-02-21T04:45:05.528183+00:00",
       "extra": {}
     },
     {
@@ -838,7 +896,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.402028.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.417647.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:17.404405+00:00",
+      "scraped_at": "2026-02-21T04:45:04.060270+00:00",
       "extra": {
         "auction_code": "17",
         "lot_id": "19",
@@ -849,6 +907,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 38822.0
       }
+    },
+    {
+      "id": "delafuente:30034",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30034",
+      "title": "Remate #30034",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:45:03.540609+00:00",
+      "extra": {}
     },
     {
       "id": "delafuente:30033",
@@ -870,30 +951,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:15.971667+00:00",
-      "extra": {}
-    },
-    {
-      "id": "delafuente:30032",
-      "source": "delafuente",
-      "source_url": "https://delafuentesubastas.com.ar/remate/30032",
-      "title": "Remate #30032",
-      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
-      "category": "real_estate",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
-        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
-      ],
-      "scraped_at": "2026-02-21T04:28:13.818090+00:00",
+      "scraped_at": "2026-02-21T04:45:01.503272+00:00",
       "extra": {}
     },
     {
@@ -919,7 +977,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.820924.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.836547.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:13.809859+00:00",
+      "scraped_at": "2026-02-21T04:45:00.382017+00:00",
       "extra": {
         "auction_code": "15",
         "lot_id": "17",
@@ -930,6 +988,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 3164175.0
       }
+    },
+    {
+      "id": "delafuente:30032",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30032",
+      "title": "Remate #30032",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:44:59.495204+00:00",
+      "extra": {}
     },
     {
       "id": "delafuente:30031",
@@ -951,7 +1032,7 @@
         "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
         "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
       ],
-      "scraped_at": "2026-02-21T04:28:11.786824+00:00",
+      "scraped_at": "2026-02-21T04:44:57.494718+00:00",
       "extra": {}
     },
     {
@@ -975,7 +1056,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.432763.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.448394.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:09.805166+00:00",
+      "scraped_at": "2026-02-21T04:44:56.554230+00:00",
       "extra": {
         "auction_code": "12",
         "lot_id": "14",
@@ -1004,7 +1085,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837942+00:00",
+      "scraped_at": "2026-02-21T04:44:54.381099+00:00",
       "extra": {}
     },
     {
@@ -1024,7 +1105,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837892+00:00",
+      "scraped_at": "2026-02-21T04:44:54.381047+00:00",
       "extra": {}
     },
     {
@@ -1044,7 +1125,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837841+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380995+00:00",
       "extra": {}
     },
     {
@@ -1064,7 +1145,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837789+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380943+00:00",
       "extra": {}
     },
     {
@@ -1084,7 +1165,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837736+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380892+00:00",
       "extra": {}
     },
     {
@@ -1104,7 +1185,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837686+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380839+00:00",
       "extra": {}
     },
     {
@@ -1124,7 +1205,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837635+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380787+00:00",
       "extra": {}
     },
     {
@@ -1144,7 +1225,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837584+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380733+00:00",
       "extra": {}
     },
     {
@@ -1164,7 +1245,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837534+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380679+00:00",
       "extra": {}
     },
     {
@@ -1184,7 +1265,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837484+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380627+00:00",
       "extra": {}
     },
     {
@@ -1204,7 +1285,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837434+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380572+00:00",
       "extra": {}
     },
     {
@@ -1224,7 +1305,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837383+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380520+00:00",
       "extra": {}
     },
     {
@@ -1244,7 +1325,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837333+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380466+00:00",
       "extra": {}
     },
     {
@@ -1264,7 +1345,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837282+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380413+00:00",
       "extra": {}
     },
     {
@@ -1284,7 +1365,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837231+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380360+00:00",
       "extra": {}
     },
     {
@@ -1304,7 +1385,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837180+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380308+00:00",
       "extra": {}
     },
     {
@@ -1324,7 +1405,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837128+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380256+00:00",
       "extra": {}
     },
     {
@@ -1344,7 +1425,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837076+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380203+00:00",
       "extra": {}
     },
     {
@@ -1364,7 +1445,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.837025+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380151+00:00",
       "extra": {}
     },
     {
@@ -1384,7 +1465,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836972+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380098+00:00",
       "extra": {}
     },
     {
@@ -1404,7 +1485,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836921+00:00",
+      "scraped_at": "2026-02-21T04:44:54.380044+00:00",
       "extra": {}
     },
     {
@@ -1424,7 +1505,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836869+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379991+00:00",
       "extra": {}
     },
     {
@@ -1444,7 +1525,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836817+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379939+00:00",
       "extra": {}
     },
     {
@@ -1464,7 +1545,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836767+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379887+00:00",
       "extra": {}
     },
     {
@@ -1484,7 +1565,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836716+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379832+00:00",
       "extra": {}
     },
     {
@@ -1504,7 +1585,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836666+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379780+00:00",
       "extra": {}
     },
     {
@@ -1524,7 +1605,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836615+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379727+00:00",
       "extra": {}
     },
     {
@@ -1544,7 +1625,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836563+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379674+00:00",
       "extra": {}
     },
     {
@@ -1564,7 +1645,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836511+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379621+00:00",
       "extra": {}
     },
     {
@@ -1584,7 +1665,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:06.836452+00:00",
+      "scraped_at": "2026-02-21T04:44:54.379568+00:00",
       "extra": {}
     },
     {
@@ -1610,7 +1691,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.993612.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_43.009237.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:05.338431+00:00",
+      "scraped_at": "2026-02-21T04:44:52.034837+00:00",
       "extra": {
         "auction_code": "9",
         "lot_id": "11",
@@ -1623,47 +1704,7 @@
       }
     },
     {
-      "id": "zarate:5491134772836",
-      "source": "zarate",
-      "source_url": "https://wa.me/5491134772836",
-      "title": "Ingresá aquí para comenzar",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [],
-      "scraped_at": "2026-02-21T04:28:05.185941+00:00",
-      "extra": {}
-    },
-    {
-      "id": "zarate:61074122",
-      "source": "zarate",
-      "source_url": "https://remateszarate.com.ar/subastas-en-curso-v2/",
-      "title": "Próximas Subastas",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [],
-      "scraped_at": "2026-02-21T04:28:05.185808+00:00",
-      "extra": {}
-    },
-    {
-      "id": "manucha:70359949",
+      "id": "manucha:91242332",
       "source": "manucha",
       "source_url": "https://manuchasubastas.com.ar/#servicios",
       "title": "EL VALOR DE LA EXPERIENCIA",
@@ -1681,7 +1722,7 @@
       "images": [
         "https://manuchasubastas.com.ar/wp-content/uploads/2025/06/notary-system-icon-4.png"
       ],
-      "scraped_at": "2026-02-21T04:28:04.088224+00:00",
+      "scraped_at": "2026-02-21T04:44:51.062536+00:00",
       "extra": {}
     },
     {
@@ -1703,7 +1744,7 @@
       "images": [
         "https://thumbs2.rural-ftp.com/upload/w_300,q_60,o_input/https://ftp.rural-server.com/remates/images/HXQQcI2nSEXnllns.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:03.726371+00:00",
+      "scraped_at": "2026-02-21T04:44:50.475944+00:00",
       "extra": {}
     },
     {
@@ -1723,7 +1764,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178633+00:00",
+      "scraped_at": "2026-02-21T04:44:49.961282+00:00",
       "extra": {}
     },
     {
@@ -1743,7 +1784,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178592+00:00",
+      "scraped_at": "2026-02-21T04:44:49.961118+00:00",
       "extra": {}
     },
     {
@@ -1763,7 +1804,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178549+00:00",
+      "scraped_at": "2026-02-21T04:44:49.961073+00:00",
       "extra": {}
     },
     {
@@ -1783,7 +1824,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178509+00:00",
+      "scraped_at": "2026-02-21T04:44:49.961029+00:00",
       "extra": {}
     },
     {
@@ -1803,7 +1844,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178464+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960984+00:00",
       "extra": {}
     },
     {
@@ -1823,7 +1864,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178424+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960935+00:00",
       "extra": {}
     },
     {
@@ -1843,7 +1884,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178379+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960754+00:00",
       "extra": {}
     },
     {
@@ -1863,7 +1904,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178334+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960712+00:00",
       "extra": {}
     },
     {
@@ -1883,7 +1924,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178201+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960582+00:00",
       "extra": {}
     },
     {
@@ -1903,7 +1944,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178114+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960501+00:00",
       "extra": {}
     },
     {
@@ -1923,7 +1964,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178077+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960463+00:00",
       "extra": {}
     },
     {
@@ -1943,7 +1984,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.178035+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960420+00:00",
       "extra": {}
     },
     {
@@ -1963,7 +2004,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177993+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960377+00:00",
       "extra": {}
     },
     {
@@ -1983,7 +2024,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177950+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960333+00:00",
       "extra": {}
     },
     {
@@ -2003,7 +2044,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177906+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960291+00:00",
       "extra": {}
     },
     {
@@ -2023,7 +2064,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177861+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960247+00:00",
       "extra": {}
     },
     {
@@ -2043,7 +2084,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177816+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960206+00:00",
       "extra": {}
     },
     {
@@ -2063,7 +2104,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177769+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960157+00:00",
       "extra": {}
     },
     {
@@ -2083,7 +2124,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177643+00:00",
+      "scraped_at": "2026-02-21T04:44:49.960031+00:00",
       "extra": {}
     },
     {
@@ -2103,7 +2144,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177516+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959903+00:00",
       "extra": {}
     },
     {
@@ -2123,7 +2164,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177473+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959861+00:00",
       "extra": {}
     },
     {
@@ -2143,7 +2184,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177428+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959818+00:00",
       "extra": {}
     },
     {
@@ -2163,7 +2204,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177340+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959729+00:00",
       "extra": {}
     },
     {
@@ -2183,7 +2224,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177246+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959636+00:00",
       "extra": {}
     },
     {
@@ -2203,7 +2244,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177194+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959583+00:00",
       "extra": {}
     },
     {
@@ -2223,7 +2264,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177157+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959545+00:00",
       "extra": {}
     },
     {
@@ -2245,7 +2286,7 @@
       "images": [
         "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-480x413.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:03.177096+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959475+00:00",
       "extra": {}
     },
     {
@@ -2265,7 +2306,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177051+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959424+00:00",
       "extra": {}
     },
     {
@@ -2285,7 +2326,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.177006+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959378+00:00",
       "extra": {}
     },
     {
@@ -2305,7 +2346,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:03.176959+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959331+00:00",
       "extra": {}
     },
     {
@@ -2327,7 +2368,7 @@
       "images": [
         "https://amercado.azureedge.net/cms/resources/images/subastas/4102/8f55b43c2c4e3bcc46c986d5e2edf9b0-480x413.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:03.176911+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959284+00:00",
       "extra": {}
     },
     {
@@ -2349,7 +2390,47 @@
       "images": [
         "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-480x413.jpg"
       ],
-      "scraped_at": "2026-02-21T04:28:03.176848+00:00",
+      "scraped_at": "2026-02-21T04:44:49.959226+00:00",
+      "extra": {}
+    },
+    {
+      "id": "zarate:5491134772836",
+      "source": "zarate",
+      "source_url": "https://wa.me/5491134772836",
+      "title": "Ingresá aquí para comenzar",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:44:49.796537+00:00",
+      "extra": {}
+    },
+    {
+      "id": "zarate:83347592",
+      "source": "zarate",
+      "source_url": "https://remateszarate.com.ar/subastas-en-curso-v2/",
+      "title": "Próximas Subastas",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:44:49.796404+00:00",
       "extra": {}
     },
     {
@@ -2371,7 +2452,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/1d01a64a-6def-4176-837a-d64c596ee0cb/medium_14b3352b-3857-4571-ade2-0a91b52510db.webp?b=AwC%m-bE%%jY"
       ],
-      "scraped_at": "2026-02-21T04:28:02.973077+00:00",
+      "scraped_at": "2026-02-21T04:44:49.773001+00:00",
       "extra": {}
     },
     {
@@ -2393,7 +2474,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/3613b4c8-ec36-484e-bc9b-347f20c108d4/medium_6d34916e-8d44-45ee-9916-9b696a5d9c8e.webp?b=A+HLxV%L~qxa"
       ],
-      "scraped_at": "2026-02-21T04:28:02.972808+00:00",
+      "scraped_at": "2026-02-21T04:44:49.772759+00:00",
       "extra": {}
     },
     {
@@ -2415,7 +2496,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/86570a65-5eff-4486-a6ac-d3ae2a4d8780/medium_73aae86f-e73f-489b-adf7-61975fbad131.webp?b=AvFPpWj]?wof"
       ],
-      "scraped_at": "2026-02-21T04:28:02.972567+00:00",
+      "scraped_at": "2026-02-21T04:44:49.772507+00:00",
       "extra": {}
     },
     {
@@ -2437,7 +2518,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/a75bec53-556c-4757-b55e-65ae6d98748e/medium_862b7363-a527-4acf-bf69-665803f8ca9a.webp?b=AQEV$xRM~qIT"
       ],
-      "scraped_at": "2026-02-21T04:28:02.972321+00:00",
+      "scraped_at": "2026-02-21T04:44:49.772261+00:00",
       "extra": {}
     },
     {
@@ -2459,7 +2540,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/c2f3d5bf-a922-431d-bbb9-6f8f06de190d/medium_a06c1a54-a8fc-418f-abaa-acfa99d203d7.webp?b=AQEV$xRM~qIT"
       ],
-      "scraped_at": "2026-02-21T04:28:02.972079+00:00",
+      "scraped_at": "2026-02-21T04:44:49.772014+00:00",
       "extra": {}
     },
     {
@@ -2481,7 +2562,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/ed991dd4-b8da-4cc1-8a2f-61ab8d8fe257/medium_6a1e0438-8984-4f9f-b36d-81d1b263b999.webp?b=ATEex;VZ~qIn"
       ],
-      "scraped_at": "2026-02-21T04:28:02.971831+00:00",
+      "scraped_at": "2026-02-21T04:44:49.771723+00:00",
       "extra": {}
     },
     {
@@ -2503,7 +2584,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/4e28b8a1-4e62-4977-a228-7df21e27eb1c/medium_f4d362f1-53f3-49c2-b61a-bef93e7316fd.webp?b=AlHdHB=^}=kC"
       ],
-      "scraped_at": "2026-02-21T04:28:02.971582+00:00",
+      "scraped_at": "2026-02-21T04:44:49.771469+00:00",
       "extra": {}
     },
     {
@@ -2525,7 +2606,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/b8769d2e-e870-4f20-a912-ebbaafa3e6ba/medium_8093de3f-c872-4a77-b3fa-25e60d0e8bf6.webp?b=AXE2nYNa?wt7"
       ],
-      "scraped_at": "2026-02-21T04:28:02.971127+00:00",
+      "scraped_at": "2026-02-21T04:44:49.771006+00:00",
       "extra": {}
     },
     {
@@ -2545,7 +2626,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:28:02.970858+00:00",
+      "scraped_at": "2026-02-21T04:44:49.770729+00:00",
       "extra": {}
     }
   ]

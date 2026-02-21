@@ -19,11 +19,13 @@ BLUE_DOLLAR_RATE = 1250  # ARS per USD
 def generate_site():
     """Generate the site API files from raw scraped data."""
     data_dir = Path("data/raw")
+    curated_dir = Path("data/curated")
     site_dir = Path("site")
     api_dir = site_dir / "api"
     api_dir.mkdir(parents=True, exist_ok=True)
 
     all_listings = []
+    premium_listings = []
     by_source = {}
 
     # Non-auction titles/patterns to filter out
@@ -90,6 +92,23 @@ def generate_site():
                         by_source[source] = by_source.get(source, 0) + 1
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not read {json_file}: {e}")
+
+    # Load curated premium opportunities
+    curated_file = curated_dir / "premium_opportunities.json"
+    if curated_file.exists():
+        try:
+            with open(curated_file, encoding="utf-8") as f:
+                curated = json.load(f)
+                for listing in curated:
+                    if listing.get("extra", {}).get("is_premium"):
+                        listing["is_premium"] = True
+                        premium_listings.append(listing)
+                        all_listings.append(listing)
+                        source = listing.get("source", "curated")
+                        by_source[source] = by_source.get(source, 0) + 1
+            print(f"Loaded {len(premium_listings)} curated premium opportunities")
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not read curated file: {e}")
 
     # Calculate quality score for ranking
     def quality_score(listing):
@@ -199,12 +218,50 @@ def generate_site():
                             "discount": discount,
                             "before_march": before_march,
                             "category": market_data.get("category", "other"),
+                            "is_premium": listing.get("is_premium", False),
                         })
 
+    # Add premium curated opportunities (they may not have automatic market data)
+    for listing in premium_listings:
+        extra = listing.get("extra", {})
+        discount_str = extra.get("discount_estimate", "0%")
+        # Parse discount estimate (e.g., "45-55%" -> 50)
+        try:
+            if "-" in discount_str:
+                parts = discount_str.replace("%", "").split("-")
+                discount = (float(parts[0]) + float(parts[1])) / 2
+            else:
+                discount = float(discount_str.replace("%", ""))
+        except:
+            discount = 40  # Default for premium items
+
+        # Check if before March
+        date_str = listing.get("ends_at")
+        before_march = False
+        if date_str:
+            try:
+                if "2026-02" in str(date_str) or "2026-03-0" in str(date_str):
+                    before_march = True
+            except:
+                pass
+
+        # Only add if not already in opportunities
+        listing_id = listing.get("id")
+        if not any(o["listing"].get("id") == listing_id for o in opportunities):
+            opportunities.append({
+                "listing": listing,
+                "discount": discount,
+                "before_march": before_march,
+                "category": listing.get("category", "other"),
+                "is_premium": True,
+            })
+
     # Sort opportunities: before_march first, then by discount (highest first)
-    # Prioritize machinery
+    # Prioritize machinery and premium
     def opportunity_score(opp):
         score = opp["discount"]
+        if opp.get("is_premium"):
+            score += 200  # Premium opportunities always on top
         if opp["before_march"]:
             score += 100  # Big boost for before March
         if opp["category"] == "machinery":
@@ -231,10 +288,11 @@ def generate_site():
 
     all_listings.sort(key=final_sort_key)
 
-    # Build top opportunities summary
+    # Build top opportunities summary (top 5 for premium content)
     top_opportunities = []
-    for opp in opportunities[:3]:
+    for opp in opportunities[:5]:
         listing = opp["listing"]
+        extra = listing.get("extra", {})
         top_opportunities.append({
             "id": listing["id"],
             "title": listing["title"][:100],
@@ -245,12 +303,16 @@ def generate_site():
             "source_url": listing["source_url"],
             "base_price": listing.get("base_price", 0),
             "currency": listing.get("currency", "ARS"),
-            "market_typical_usd": listing.get("market_data", {}).get("typical_usd", 0),
+            "market_typical_usd": listing.get("market_data", {}).get("typical_usd", 0) or extra.get("estimated_value_usd", 0),
+            "is_premium": opp.get("is_premium", False),
+            "premium_type": extra.get("premium_type", ""),
+            "why_premium": extra.get("why_premium", ""),
         })
 
     # Write listings.json
     with_market_data = sum(1 for l in all_listings if l.get('market_data'))
     opportunity_count = sum(1 for l in all_listings if l.get('market_data', {}).get('is_opportunity'))
+    premium_count = sum(1 for l in all_listings if l.get('is_premium'))
 
     listings_data = {
         "total_count": len(all_listings),
@@ -259,6 +321,7 @@ def generate_site():
         "blue_dollar_rate": BLUE_DOLLAR_RATE,
         "with_market_data": with_market_data,
         "opportunity_count": opportunity_count,
+        "premium_count": premium_count,
         "top_opportunities": top_opportunities,
         "listings": all_listings,
     }
@@ -279,12 +342,16 @@ def generate_site():
     print(f"  With images: {with_images}")
     print(f"  With price: {with_price}")
 
+    # Print premium stats
+    print(f"  Premium curated: {premium_count}")
+
     # Print top opportunities
     if top_opportunities:
         print(f"\n  TOP OPPORTUNITIES:")
         for i, opp in enumerate(top_opportunities):
             march_tag = " [BEFORE MARCH]" if opp["before_march"] else ""
-            print(f"    {i+1}. {opp['discount_percent']:.0f}% off - {opp['title'][:50]}...{march_tag}")
+            premium_tag = " [PREMIUM]" if opp.get("is_premium") else ""
+            print(f"    {i+1}. {opp['discount_percent']:.0f}% off - {opp['title'][:50]}...{march_tag}{premium_tag}")
 
 
 if __name__ == "__main__":

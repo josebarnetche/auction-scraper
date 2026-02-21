@@ -86,6 +86,38 @@ html {
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
 }
+/* Price Range Slider Styles */
+.price-slider {
+    -webkit-appearance: none;
+    pointer-events: none;
+}
+.price-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    pointer-events: all;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #eab308;
+    cursor: pointer;
+    border: 2px solid #030303;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.price-slider::-moz-range-thumb {
+    pointer-events: all;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #eab308;
+    cursor: pointer;
+    border: 2px solid #030303;
+}
+.search-only-badge {
+    background: rgba(156, 163, 175, 0.2);
+    color: #9ca3af;
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
 </style>
 </head>
 <body class="antialiased overflow-x-hidden">
@@ -521,7 +553,7 @@ html {
                 <div>
                     <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Live Auctions</h2>
                     <p class="text-yellow-400/80">Real-time listings from Argentine auction houses</p>
-                    <p class="text-white/40 text-sm mt-2">Last update: <span id="last-update-time">--</span></p>
+                    <p class="text-white/40 text-sm mt-2">Last update: <span id="last-update-time">--</span> | Blue: <span id="blue-rate-display">--</span></p>
                 </div>
                 <button onclick="refreshAuctions()" id="refresh-btn" class="glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-green-400 hover:text-white hover:bg-green-500/20 transition-all flex items-center gap-2">
                     <svg class="w-4 h-4" id="refresh-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -546,18 +578,25 @@ html {
                             </svg>
                         </div>
                     </div>
-                    <!-- Price Range -->
-                    <div>
-                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Min Price (USD)</label>
-                        <input type="number" id="min-price" placeholder="0"
-                               class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50"
-                               oninput="applyFilters()">
-                    </div>
-                    <div>
-                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Max Price (USD)</label>
-                        <input type="number" id="max-price" placeholder="No limit"
-                               class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50"
-                               oninput="applyFilters()">
+                    <!-- Price Range Slider -->
+                    <div class="lg:col-span-2">
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">
+                            Price Range (USD): <span id="price-range-display" class="text-yellow-400">$0 - No limit</span>
+                        </label>
+                        <div class="flex items-center gap-4">
+                            <span class="text-white/40 text-xs">$0</span>
+                            <div class="flex-1 relative h-8 flex items-center">
+                                <div class="absolute w-full h-1 bg-white/10 rounded"></div>
+                                <div id="price-range-fill" class="absolute h-1 bg-yellow-500 rounded" style="left:0%;right:0%"></div>
+                                <input type="range" id="min-price" min="0" max="500000" step="1000" value="0"
+                                       class="price-slider absolute w-full h-1 appearance-none bg-transparent cursor-pointer z-10"
+                                       oninput="updatePriceSlider()">
+                                <input type="range" id="max-price" min="0" max="500000" step="1000" value="500000"
+                                       class="price-slider absolute w-full h-1 appearance-none bg-transparent cursor-pointer z-20"
+                                       oninput="updatePriceSlider()">
+                            </div>
+                            <span class="text-white/40 text-xs">$500k+</span>
+                        </div>
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -790,8 +829,8 @@ html {
         let displayedCount = 12;
         let currentFilter = '';
 
-        // Blue dollar rate (approximate - in production would fetch from API)
-        const BLUE_DOLLAR_RATE = 1200;
+        // Blue dollar rate - fetched from API in listings.json
+        let BLUE_DOLLAR_RATE = 1200;
 
         // Format countdown timer
         function formatCountdown(endDateStr) {
@@ -970,16 +1009,50 @@ html {
                 locations.map(l => `<option value="${l}">${l}</option>`).join('');
         }
 
+        // Price slider update
+        function updatePriceSlider() {
+            const minSlider = document.getElementById('min-price');
+            const maxSlider = document.getElementById('max-price');
+            let minVal = parseInt(minSlider.value);
+            let maxVal = parseInt(maxSlider.value);
+
+            // Prevent overlap
+            if (minVal > maxVal - 5000) {
+                minSlider.value = maxVal - 5000;
+                minVal = maxVal - 5000;
+            }
+
+            // Update display
+            const minDisplay = minVal >= 1000 ? `$${Math.round(minVal/1000)}k` : `$${minVal}`;
+            const maxDisplay = maxVal >= 500000 ? 'No limit' : (maxVal >= 1000 ? `$${Math.round(maxVal/1000)}k` : `$${maxVal}`);
+            document.getElementById('price-range-display').textContent = `${minDisplay} - ${maxDisplay}`;
+
+            // Update fill bar
+            const minPercent = (minVal / 500000) * 100;
+            const maxPercent = (maxVal / 500000) * 100;
+            document.getElementById('price-range-fill').style.left = `${minPercent}%`;
+            document.getElementById('price-range-fill').style.right = `${100 - maxPercent}%`;
+
+            applyFilters();
+        }
+
         // Apply all filters
         function applyFilters() {
-            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
             const minPrice = parseFloat(document.getElementById('min-price').value) || 0;
-            const maxPrice = parseFloat(document.getElementById('max-price').value) || Infinity;
+            const maxPrice = parseFloat(document.getElementById('max-price').value);
+            const maxPriceVal = maxPrice >= 500000 ? Infinity : maxPrice;
             const sourceFilter = document.getElementById('source-filter').value;
             const locationFilter = document.getElementById('location-filter').value;
             const sortBy = document.getElementById('sort-filter').value;
 
+            // Visibility mode: show "search_only" items only when user is actively searching
+            const showSearchOnly = searchTerm.length > 0 || sourceFilter || locationFilter;
+
             filteredAuctions = allAuctions.filter(auction => {
+                // Visibility filter: hide search-only items unless user is searching
+                if (!showSearchOnly && auction.visibility === 'search_only') return false;
+
                 // Category filter
                 if (currentFilter && auction.category !== currentFilter) return false;
 
@@ -987,10 +1060,12 @@ html {
                 if (searchTerm && !auction.title.toLowerCase().includes(searchTerm) &&
                     !(auction.description || '').toLowerCase().includes(searchTerm)) return false;
 
-                // Price filter (convert to USD)
-                const priceUSD = toUSD(auction.base_price || 0, auction.currency);
-                if (priceUSD < minPrice) return false;
-                if (priceUSD > maxPrice) return false;
+                // Price filter (convert to USD) - only apply if price exists
+                if (minPrice > 0 || maxPriceVal < Infinity) {
+                    const priceUSD = toUSD(auction.base_price || 0, auction.currency);
+                    if (priceUSD < minPrice) return false;
+                    if (priceUSD > maxPriceVal) return false;
+                }
 
                 // Source filter
                 if (sourceFilter && auction.source !== sourceFilter) return false;
@@ -1034,8 +1109,17 @@ html {
                 allAuctions = (data.listings || []).filter(a => a.title && a.source_url);
                 bySource = data.by_source || {};
 
-                // Update hero stats
-                document.getElementById('hero-count').textContent = allAuctions.length;
+                // Update blue dollar rate from API
+                if (data.blue_dollar_rate) {
+                    BLUE_DOLLAR_RATE = data.blue_dollar_rate;
+                    document.getElementById('blue-rate-display').textContent = `$${BLUE_DOLLAR_RATE}`;
+                }
+
+                // Count main visibility items
+                const mainPageCount = allAuctions.filter(a => a.visibility === 'main').length;
+
+                // Update hero stats (show main page count, not total)
+                document.getElementById('hero-count').textContent = mainPageCount;
                 document.getElementById('hero-sources').textContent = Object.keys(bySource).length || '-';
 
                 // Update last update time
@@ -1445,6 +1529,7 @@ html {
                                  onerror="this.src='data:image/svg+xml,' + encodeURIComponent('<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'><rect fill=\\'%231a1a1a\\' width=\\'400\\' height=\\'300\\'/><text fill=\\'%23333\\' font-family=\\'sans-serif\\' font-size=\\'14\\' x=\\'50%\\' y=\\'50%\\' text-anchor=\\'middle\\'>Sin imagen</text></svg>')">
                             <div class="absolute top-3 left-3 flex gap-1">
                                 <span class="category-badge category-${auction.category}">${auction.category}</span>
+                                ${auction.visibility === 'search_only' ? '<span class="search-only-badge">BÚSQUEDA</span>' : ''}
                             </div>
                             <div class="absolute top-3 right-3 flex gap-1">
                                 ${hasComparison && discount >= 20 ? `<span class="bg-green-500/90 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">-${discount}%</span>` : ''}
@@ -1487,6 +1572,7 @@ html {
                                     <div class="text-[10px] uppercase tracking-wider text-yellow-500 font-semibold">Total Est.</div>
                                     <span class="text-yellow-500 font-display font-bold">${auction.currency} ${costInfo ? costInfo.total.toLocaleString() : auction.base_price.toLocaleString()}</span>
                                 </div>
+                                <div class="text-[8px] text-white/30 text-right">+ IVA s/comisión</div>
                             </div>
                             ` : `
                             <div class="text-white/40 text-sm">A consultar</div>

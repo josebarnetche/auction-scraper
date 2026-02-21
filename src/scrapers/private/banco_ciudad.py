@@ -66,6 +66,7 @@ class BancoCiudadScraper(BaseScraper):
                 logger.info(f"Found {len(seen_ids)} unique auction IDs")
 
                 # Fetch each detail page in a fresh page for accurate titles
+                opportunity_count = 0
                 for auction_id in seen_ids:
                     try:
                         # Create a new page for each auction to avoid Angular caching issues
@@ -74,10 +75,18 @@ class BancoCiudadScraper(BaseScraper):
                         await detail_page.close()
 
                         if listing:
+                            # Analyze for opportunities
+                            listing = self.analyze_opportunity(listing)
+                            if listing.extra.get("is_opportunity"):
+                                opportunity_count += 1
+                                logger.info(f"Opportunity found: {listing.title[:50]}... - {listing.extra.get('opportunity_reason')}")
                             all_listings.append(listing)
                         await asyncio.sleep(0.3)  # Rate limit
                     except Exception as e:
                         logger.debug(f"Error fetching detail {auction_id}: {e}")
+
+                if opportunity_count > 0:
+                    logger.info(f"Found {opportunity_count} OPPORTUNITIES in Banco Ciudad")
 
                 await browser.close()
 
@@ -98,6 +107,38 @@ class BancoCiudadScraper(BaseScraper):
 
             # Get full page text
             page_text = await page.evaluate("document.body.innerText") or ""
+
+            # Extract price from page text
+            base_price = 0.0
+            currency = "USD"  # Banco Ciudad typically uses USD
+
+            # Look for price patterns
+            price_patterns = [
+                r'Base[:\s]*(?:USD|U\$S)?\s*\$?\s*([\d.,]+)',
+                r'Precio\s+Base[:\s]*(?:USD|U\$S)?\s*\$?\s*([\d.,]+)',
+                r'(?:USD|U\$S)\s*\$?\s*([\d.,]+)',
+                r'Valor[:\s]*\$?\s*([\d.,]+)',
+            ]
+
+            for pattern in price_patterns:
+                match = re.search(pattern, page_text, re.I)
+                if match:
+                    price_str = match.group(1)
+                    if "," in price_str:
+                        price_str = price_str.replace(".", "").replace(",", ".")
+                    else:
+                        price_str = price_str.replace(".", "")
+                    try:
+                        price = float(price_str)
+                        if price > 100:  # Reasonable minimum
+                            base_price = price
+                            break
+                    except ValueError:
+                        pass
+
+            # Detect if ARS instead of USD
+            if 'pesos' in page_text.lower() and 'dolar' not in page_text.lower():
+                currency = "ARS"
 
             # Try to find the title - appears between "Compartir" and "Sujeta a aprobación"
             title = ""
@@ -147,15 +188,28 @@ class BancoCiudadScraper(BaseScraper):
             # Detect category
             category = detect_category(title, page_text[:500])
 
+            # Extract description
+            description = ""
+            desc_patterns = [
+                r'Descripción[:\s]*(.{20,500}?)(?:Información|Ubicación|Términos|$)',
+                r'Detalle[:\s]*(.{20,500}?)(?:Información|Ubicación|Términos|$)',
+            ]
+            for pattern in desc_patterns:
+                match = re.search(pattern, page_text, re.I | re.DOTALL)
+                if match:
+                    description = match.group(1).strip()
+                    description = re.sub(r'\s+', ' ', description)
+                    break
+
             return AuctionListing(
                 id=self.generate_id(auction_id),
                 source=self.SOURCE_NAME,
                 source_url=url,
                 title=title[:200],
-                description="",
+                description=description[:500],
                 category=category,
-                base_price=0.0,
-                currency="USD",
+                base_price=base_price,
+                currency=currency,
                 status="published",
                 ends_at=ends_at,
                 location={"province": "CABA", "city": "Buenos Aires"},

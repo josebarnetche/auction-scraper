@@ -171,3 +171,110 @@ def is_opportunity(auction_price_usd: float, market_data: dict, threshold: float
     """Check if auction price represents an opportunity (30%+ below market)."""
     discount = calculate_discount(auction_price_usd, market_data)
     return discount >= threshold
+
+
+# Keywords that indicate premium opportunities (liquidations, bankruptcies, etc.)
+PREMIUM_KEYWORDS = {
+    "liquidation": [
+        "liquidacion", "liquidación", "cierre", "cese", "clausura",
+        "remate judicial", "quiebra", "concurso", "fallido",
+    ],
+    "fleet": [
+        "flota", "fleet", "renovacion de flota", "renovación de flota",
+        "lote de vehiculos", "lote de vehículos", "multiple unidades",
+    ],
+    "factory": [
+        "fabrica", "fábrica", "planta", "industrial",
+        "linea de produccion", "línea de producción", "maquinaria completa",
+    ],
+    "bankruptcy": [
+        "quiebra", "concurso preventivo", "fallido", "insolvencia",
+        "ejecucion", "ejecución", "embargo", "secuestro judicial",
+    ],
+    "urgent": [
+        "urgente", "urgent", "inmediato", "cierre definitivo",
+        "ultima oportunidad", "última oportunidad", "sin base",
+    ],
+}
+
+
+def detect_premium_opportunity(title: str, description: str = "") -> dict | None:
+    """
+    Detect if listing is a premium opportunity based on keywords.
+
+    Returns:
+        Dict with premium_type and confidence, or None if not premium
+    """
+    text = f"{title} {description}".lower()
+
+    detected_types = []
+    total_matches = 0
+
+    for premium_type, keywords in PREMIUM_KEYWORDS.items():
+        matches = sum(1 for kw in keywords if kw in text)
+        if matches > 0:
+            detected_types.append(premium_type)
+            total_matches += matches
+
+    if detected_types:
+        # Determine primary type (most specific)
+        type_priority = ["bankruptcy", "factory", "fleet", "liquidation", "urgent"]
+        primary_type = "liquidation"
+        for pt in type_priority:
+            if pt in detected_types:
+                primary_type = pt
+                break
+
+        return {
+            "is_premium": True,
+            "premium_type": primary_type,
+            "premium_types": detected_types,
+            "confidence": min(1.0, total_matches * 0.3),  # More matches = higher confidence
+            "why_premium": f"Detected: {', '.join(detected_types)}"
+        }
+
+    return None
+
+
+def analyze_listing(title: str, description: str, base_price: float, currency: str,
+                   blue_dollar_rate: float = 1250) -> dict:
+    """
+    Comprehensive analysis of a listing for opportunity detection.
+
+    Returns:
+        Dict with market_data, discount, is_opportunity, premium_info
+    """
+    result = {
+        "market_data": None,
+        "auction_price_usd": 0,
+        "discount_percent": 0,
+        "is_opportunity": False,
+        "premium_info": None,
+    }
+
+    # Convert to USD
+    if base_price > 0:
+        if currency == "USD":
+            result["auction_price_usd"] = base_price
+        else:
+            result["auction_price_usd"] = base_price / blue_dollar_rate
+
+    # Get market data
+    market_data = get_market_price(title, description)
+    if market_data:
+        result["market_data"] = market_data
+
+        if result["auction_price_usd"] > 0:
+            discount = calculate_discount(result["auction_price_usd"], market_data)
+            result["discount_percent"] = discount
+            result["is_opportunity"] = discount >= 30
+
+    # Check for premium keywords
+    premium_info = detect_premium_opportunity(title, description)
+    if premium_info:
+        result["premium_info"] = premium_info
+        # Premium keywords boost opportunity status even without market data
+        if not result["is_opportunity"] and premium_info.get("confidence", 0) > 0.5:
+            result["is_opportunity"] = True
+
+    return result

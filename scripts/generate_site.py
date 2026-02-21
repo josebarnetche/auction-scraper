@@ -4,6 +4,7 @@
 import json
 import re
 import sys
+import urllib.request
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -12,8 +13,30 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.market.price_reference import get_market_price, calculate_discount, is_opportunity
 
-# Blue dollar rate (approximate - should be fetched dynamically)
-BLUE_DOLLAR_RATE = 1250  # ARS per USD
+
+def fetch_blue_dollar_rate() -> float:
+    """Fetch current blue dollar rate from dolarapi.com"""
+    try:
+        url = "https://dolarapi.com/v1/dolares/blue"
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AuctionRadar/1.0"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode())
+            # Use 'venta' (selling rate) for conversion
+            rate = data.get("venta", 1415)
+            print(f"Blue dollar rate from API: ${rate}")
+            return float(rate)
+    except Exception as e:
+        print(f"Warning: Could not fetch blue dollar rate: {e}")
+        return 1415.0  # Fallback to current rate
+
+
+# Blue dollar rate - fetched from dolarapi.com
+BLUE_DOLLAR_RATE = fetch_blue_dollar_rate()
 
 
 def generate_site():
@@ -155,6 +178,21 @@ def generate_site():
 
     # Sort by quality score (highest first), then by scraped_at
     all_listings.sort(key=lambda x: (quality_score(x), x.get("scraped_at", "")), reverse=True)
+
+    # Add visibility field: "main" = shown on homepage, "search_only" = only via search
+    # Listings need BOTH price AND image to show on main page
+    for listing in all_listings:
+        has_price = listing.get("base_price", 0) > 0
+        has_images = len(listing.get("images", [])) > 0
+
+        if has_price and has_images:
+            listing["visibility"] = "main"
+        else:
+            listing["visibility"] = "search_only"
+
+        # Quality score for frontend (0-100 scale)
+        score = quality_score(listing)
+        listing["quality_score"] = min(100, score)  # Cap at 100
 
     # Calculate market prices and opportunities using keyword matching
     opportunities = []
@@ -339,8 +377,12 @@ def generate_site():
     # Print quality breakdown
     with_images = sum(1 for l in all_listings if l.get("images"))
     with_price = sum(1 for l in all_listings if l.get("base_price", 0) > 0)
+    main_page = sum(1 for l in all_listings if l.get("visibility") == "main")
+    search_only = sum(1 for l in all_listings if l.get("visibility") == "search_only")
     print(f"  With images: {with_images}")
     print(f"  With price: {with_price}")
+    print(f"  Main page visibility: {main_page}")
+    print(f"  Search only: {search_only}")
 
     # Print premium stats
     print(f"  Premium curated: {premium_count}")

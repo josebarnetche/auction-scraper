@@ -274,76 +274,240 @@ class AdrianMercadoScraper(BaseScraper):
         except ValueError:
             return 0.0, currency
 
-    async def _fetch_detail_images(self, listing: AuctionListing) -> list[str]:
-        """Fetch images from the detail page."""
+    async def _fetch_detail_page(self, listing: AuctionListing) -> AuctionListing:
+        """Fetch and parse the detail page for complete data extraction."""
         try:
             html = await self.fetch_html(listing.source_url)
             if not html:
-                return listing.images
+                return listing
 
             soup = self.parse_html(html)
-            images = []
+            page_text = soup.get_text(" ", strip=True)
 
-            # Skip patterns
-            skip_patterns = ['logo', 'icon', 'avatar', 'ribbon', 'badge', 'placeholder',
-                           'loading', 'spinner', 'social', 'share', 'whatsapp', 'facebook',
-                           'footer', 'svg', 'googleads', 'afip', 'gptw', 'cerrar']
+            # Extract images
+            images = self._extract_detail_images(soup)
 
-            # Product image patterns (prioritize these)
-            product_patterns = ['amercado.azureedge.net', 'subastas/', 'products/', 'uploads/', 'auction']
+            # Extract price from detail page
+            base_price, currency = self._extract_detail_price(soup, page_text)
 
-            for img in soup.find_all("img"):
-                src = img.get("src") or img.get("data-src") or img.get("data-lazy")
-                if not src:
-                    continue
+            # Extract description
+            description = self._extract_detail_description(soup)
 
-                src_lower = src.lower()
+            # Extract dates
+            dates = self.extract_dates(page_text)
+            ends_at = dates.get('ends_at') or listing.ends_at
+            starts_at = dates.get('starts_at') or listing.starts_at
 
-                # Skip icons/logos/tracking pixels
-                if any(skip in src_lower for skip in skip_patterns):
-                    continue
+            # Extract location
+            location = self._extract_detail_location(soup, page_text)
+            if not location.get("province"):
+                location = listing.location
 
-                # Prioritize product images
-                is_product_image = any(pattern in src_lower for pattern in product_patterns)
+            # Download any documents found
+            documents = self.find_document_links(soup, self.BASE_URL)
+            doc_paths = []
+            for doc in documents[:3]:  # Limit to 3 documents
+                path = await self.download_document(doc["url"], listing.id, doc["type"])
+                if path:
+                    doc_paths.append(path)
 
-                if is_product_image:
-                    if src.startswith("/"):
-                        src = f"{self.BASE_URL}{src}"
-                    elif not src.startswith("http"):
-                        src = f"{self.BASE_URL}/{src}"
+            # Store document paths in extra field
+            extra = listing.extra.copy() if listing.extra else {}
+            if doc_paths:
+                extra["documents"] = doc_paths
 
-                    if src not in images:
-                        images.insert(0, src)  # Add to front
-                        if len(images) >= 5:
-                            break
-
-            return images if images else listing.images
+            return AuctionListing(
+                id=listing.id,
+                source=listing.source,
+                source_url=listing.source_url,
+                title=listing.title,
+                description=description or listing.description,
+                category=listing.category,
+                base_price=base_price if base_price > 0 else listing.base_price,
+                currency=currency,
+                status=listing.status,
+                starts_at=starts_at,
+                ends_at=ends_at,
+                location=location,
+                images=images if images else listing.images,
+                extra=extra,
+            )
 
         except Exception as e:
-            logger.debug(f"Error fetching detail images: {e}")
-            return listing.images
+            logger.error(f"Error fetching detail page for {listing.id}: {e}")
+            return listing
+
+    def _extract_detail_images(self, soup) -> list[str]:
+        """Extract images from detail page."""
+        images = []
+
+        skip_patterns = ['logo', 'icon', 'avatar', 'ribbon', 'badge', 'placeholder',
+                       'loading', 'spinner', 'social', 'share', 'whatsapp', 'facebook',
+                       'footer', 'svg', 'googleads', 'afip', 'gptw', 'cerrar']
+
+        product_patterns = ['amercado.azureedge.net', 'subastas/', 'products/', 'uploads/', 'auction']
+
+        for img in soup.find_all("img"):
+            src = img.get("src") or img.get("data-src") or img.get("data-lazy")
+            if not src:
+                continue
+
+            src_lower = src.lower()
+
+            if any(skip in src_lower for skip in skip_patterns):
+                continue
+
+            is_product_image = any(pattern in src_lower for pattern in product_patterns)
+
+            if is_product_image:
+                if src.startswith("/"):
+                    src = f"{self.BASE_URL}{src}"
+                elif not src.startswith("http"):
+                    src = f"{self.BASE_URL}/{src}"
+
+                if src not in images:
+                    images.insert(0, src)
+                    if len(images) >= 10:
+                        break
+
+        return images
+
+    def _extract_detail_price(self, soup, page_text: str) -> tuple[float, str]:
+        """Extract price from detail page."""
+        currency = "ARS"
+
+        # Check for USD indicators
+        if re.search(r'USD|U\$S|DOLAR|DÓLAR', page_text, re.I):
+            currency = "USD"
+
+        # Look for price in specific elements first
+        price_selectors = [
+            ".precio", ".price", "[class*='precio']", "[class*='price']",
+            ".base", "[class*='base']", ".monto", "[class*='monto']"
+        ]
+
+        for selector in price_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                text = elem.get_text()
+                match = re.search(r'[\$]?\s*([\d.,]+)', text)
+                if match:
+                    price_str = match.group(1)
+                    if "," in price_str:
+                        price_str = price_str.replace(".", "").replace(",", ".")
+                    else:
+                        price_str = price_str.replace(".", "")
+                    try:
+                        return float(price_str), currency
+                    except ValueError:
+                        pass
+
+        # Look for price patterns in page text
+        patterns = [
+            r'(?:Base|Precio|Valor)[:\s]*\$?\s*([\d.,]+)',
+            r'(?:Monto|Importe)[:\s]*\$?\s*([\d.,]+)',
+            r'\$\s*([\d]{1,3}(?:[.,]\d{3})+(?:[.,]\d{2})?)',
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, page_text, re.I)
+            if match:
+                price_str = match.group(1)
+                if "," in price_str:
+                    price_str = price_str.replace(".", "").replace(",", ".")
+                else:
+                    price_str = price_str.replace(".", "")
+                try:
+                    price = float(price_str)
+                    if price > 100:  # Filter out small numbers that aren't prices
+                        return price, currency
+                except ValueError:
+                    pass
+
+        return 0.0, currency
+
+    def _extract_detail_description(self, soup) -> str:
+        """Extract description from detail page."""
+        # Try specific description elements
+        desc_selectors = [
+            ".descripcion", ".description", "[class*='descripcion']",
+            ".detalle", ".detail", "[class*='detalle']",
+            "article", ".content", ".producto-descripcion"
+        ]
+
+        for selector in desc_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                desc = elem.get_text(" ", strip=True)
+                desc = ' '.join(desc.split())
+                if len(desc) > 50:
+                    return desc[:2000]
+
+        # Try to find description in paragraphs
+        for p in soup.find_all("p"):
+            text = p.get_text(" ", strip=True)
+            if len(text) > 100 and not any(skip in text.lower() for skip in ['cookie', 'copyright', 'reservado']):
+                return text[:2000]
+
+        return ""
+
+    def _extract_detail_location(self, soup, page_text: str) -> dict:
+        """Extract location from detail page."""
+        location = {"province": "", "city": ""}
+
+        # Look for location elements
+        loc_selectors = [
+            ".ubicacion", ".location", "[class*='ubicacion']",
+            ".direccion", ".address", "[class*='direccion']"
+        ]
+
+        for selector in loc_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                loc_text = elem.get_text(" ", strip=True)
+                extracted = self.extract_location(loc_text)
+                if extracted.get("province") or extracted.get("city"):
+                    return extracted
+
+        # Fall back to page text analysis
+        return self.extract_location(page_text)
 
     async def _enrich_listings(self, listings: list[AuctionListing]) -> list[AuctionListing]:
-        """Fetch detail pages to get images for listings without them."""
+        """Fetch detail pages to get complete data for all listings."""
         enriched = []
+        new_count = 0
+        opportunity_count = 0
+
         for listing in listings:
-            if not listing.images:
+            # Check if this is a new listing
+            is_new = self.is_new_listing(listing.id)
+
+            if is_new or not listing.images or listing.base_price == 0:
                 await asyncio.sleep(self.RATE_LIMIT_SECONDS)
-                images = await self._fetch_detail_images(listing)
-                listing = AuctionListing(
-                    id=listing.id,
-                    source=listing.source,
-                    source_url=listing.source_url,
-                    title=listing.title,
-                    description=listing.description,
-                    category=listing.category,
-                    base_price=listing.base_price,
-                    currency=listing.currency,
-                    status=listing.status,
-                    starts_at=listing.starts_at,
-                    ends_at=listing.ends_at,
-                    location=listing.location,
-                    images=images,
-                )
-            enriched.append(listing)
+                enriched_listing = await self._fetch_detail_page(listing)
+
+                # Analyze for opportunities
+                enriched_listing = self.analyze_opportunity(enriched_listing)
+                if enriched_listing.extra.get("is_opportunity"):
+                    opportunity_count += 1
+                    logger.info(f"Opportunity found: {enriched_listing.title[:50]}... - {enriched_listing.extra.get('opportunity_reason')}")
+
+                enriched.append(enriched_listing)
+
+                if is_new:
+                    new_count += 1
+                    self.mark_as_seen(listing.id)
+                    logger.info(f"New listing found: {listing.title[:50]}...")
+            else:
+                # Still analyze existing listings for opportunities
+                analyzed = self.analyze_opportunity(listing)
+                enriched.append(analyzed)
+                if analyzed.extra.get("is_opportunity"):
+                    opportunity_count += 1
+
+        if new_count > 0:
+            logger.info(f"Found {new_count} NEW listings in Adrián Mercado")
+        if opportunity_count > 0:
+            logger.info(f"Found {opportunity_count} OPPORTUNITIES in Adrián Mercado")
+
         return enriched

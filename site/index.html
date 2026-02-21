@@ -89,19 +89,18 @@ html {
 </style>
 </head>
 <body class="antialiased overflow-x-hidden">
-    <!-- UNICORN STUDIO ANIMATED BACKGROUND -->
-    <div class="aura-background-component fixed inset-0 pointer-events-none z-0 saturate-200 hue-rotate-180" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent);">
-        <div class="absolute inset-0 w-full h-full">
-            <div data-us-project="FixNvEwvWwbu3QX9qC3F" class="absolute w-full h-full left-0 top-0"></div>
-            <script type="text/javascript">
-                !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
-            </script>
-        </div>
+    <!-- UNICORN STUDIO ANIMATED BACKGROUND (cursor reactive) -->
+    <div class="aura-background-component fixed inset-0 z-0 saturate-150 opacity-60" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent);">
+        <div class="absolute inset-0 w-full h-full" data-us-project="FixNvEwvWwbu3QX9qC3F"></div>
+        <script type="text/javascript">
+            !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
+        </script>
     </div>
 
-    <!-- GRADIENT OVERLAY -->
-    <div class="fixed inset-0 pointer-events-none z-0">
-        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"></div>
+    <!-- DARK OVERLAY (reduces background visibility) -->
+    <div class="fixed inset-0 pointer-events-none z-[1]">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70"></div>
     </div>
 
     <!-- NAVIGATION -->

@@ -271,7 +271,11 @@ html {
                     <button id="currency-ars" onclick="setCurrency('ARS')" class="px-2 sm:px-3 py-1 text-[10px] sm:text-xs font-medium rounded-full transition-all currency-btn text-white/60 hover:text-white">ARS</button>
                     <button id="currency-usd" onclick="setCurrency('USD')" class="px-2 sm:px-3 py-1 text-[10px] sm:text-xs font-medium rounded-full transition-all currency-btn bg-yellow-500 text-black">USD</button>
                 </div>
-                <!-- Live indicator -->
+                <!-- Time & Live indicator -->
+                <div class="hidden sm:flex items-center gap-2 text-[10px] sm:text-xs">
+                    <span class="text-white/60 font-mono" id="gmt3-time">--:--</span>
+                    <span class="text-white/40">GMT-3</span>
+                </div>
                 <div class="flex items-center gap-1.5">
                     <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                     <span class="text-white/60 uppercase tracking-wider text-[10px] sm:text-xs hidden sm:inline">Live</span>

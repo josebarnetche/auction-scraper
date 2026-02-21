@@ -29,87 +29,98 @@ class BancoCiudadScraper(BaseScraper):
             from playwright.async_api import async_playwright
         except ImportError:
             logger.warning("Playwright not installed for Banco Ciudad scraper")
-            return await self._scrape_fallback()
+            return []
 
         try:
             async with async_playwright() as p:
                 browser = await p.chromium.launch(headless=True)
                 context = await browser.new_context(
-                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 )
                 page = await context.new_page()
 
                 logger.info(f"Scraping Banco Ciudad with Playwright: {self.BASE_URL}")
 
                 await page.goto(self.BASE_URL, wait_until="networkidle", timeout=60000)
-                await asyncio.sleep(3)  # Wait for Angular to render
+                await asyncio.sleep(4)  # Wait for Angular to render
 
-                # Try multiple selectors for property cards
-                selectors = [
-                    ".property-card",
-                    ".inmueble",
-                    ".card",
-                    "[class*='property']",
-                    "[class*='auction']",
-                    "[class*='subasta']",
-                    "article",
-                    ".list-item",
-                    ".item"
-                ]
+                # Find all auction cards - look for the main container with auction items
+                # Banco Ciudad typically shows cards with auction info
+                cards = await page.query_selector_all('.card, .subasta-card, [class*="auction"], [class*="subasta"], .item-subasta')
 
-                cards = []
-                for selector in selectors:
-                    try:
-                        elements = await page.query_selector_all(selector)
-                        if len(elements) >= 3:
-                            cards = elements
-                            logger.info(f"Found {len(cards)} cards with selector: {selector}")
-                            break
-                    except Exception:
-                        continue
+                if not cards or len(cards) < 3:
+                    # Try alternative selectors
+                    cards = await page.query_selector_all('.carousel-item, .slide, .swiper-slide')
 
-                # If no cards found, try to find any links to property pages
-                if not cards:
-                    links = await page.query_selector_all('a[href*="inmueble"], a[href*="propiedad"], a[href*="subasta"]')
-                    for link in links:
-                        listing = await self._parse_link_element(link, page)
-                        if listing:
-                            all_listings.append(listing)
+                logger.info(f"Found {len(cards)} potential auction cards")
 
-                # Parse cards
                 for i, card in enumerate(cards[:50]):
                     try:
-                        listing = await self._parse_card(card, page, i)
+                        listing = await self._parse_card_v2(card, page, i)
                         if listing:
                             all_listings.append(listing)
                     except Exception as e:
                         logger.debug(f"Error parsing card {i}: {e}")
                         continue
 
-                # Try scrolling to load more
-                for scroll in range(3):
-                    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                    await asyncio.sleep(1)
+                # Also try to find auction links directly
+                auction_links = await page.query_selector_all('a[href*="/subasta/"], a[href*="/auction/"], a[href*="id="]')
+                seen_ids = set(l.id for l in all_listings)
 
-                    # Check for new cards
-                    for selector in selectors:
-                        try:
-                            new_elements = await page.query_selector_all(selector)
-                            if len(new_elements) > len(cards):
-                                for j, card in enumerate(new_elements[len(cards):]):
-                                    listing = await self._parse_card(card, page, len(all_listings) + j)
-                                    if listing and listing.id not in [l.id for l in all_listings]:
-                                        all_listings.append(listing)
-                                cards = new_elements
-                                break
-                        except Exception:
+                for link in auction_links[:30]:
+                    try:
+                        href = await link.get_attribute("href")
+                        if not href:
                             continue
+
+                        # Extract auction ID
+                        id_match = re.search(r'[/=](\d{4,})', href)
+                        if not id_match:
+                            continue
+
+                        auction_id = id_match.group(1)
+                        listing_id = self.generate_id(auction_id)
+
+                        if listing_id in seen_ids:
+                            continue
+                        seen_ids.add(listing_id)
+
+                        # Get link text and parent info
+                        text = await link.text_content() or ""
+                        text = text.strip()
+
+                        if len(text) < 5:
+                            continue
+
+                        # Build URL
+                        if href.startswith("/"):
+                            source_url = f"{self.BASE_URL}{href}"
+                        elif href.startswith("http"):
+                            source_url = href
+                        else:
+                            source_url = f"{self.BASE_URL}/{href}"
+
+                        all_listings.append(AuctionListing(
+                            id=listing_id,
+                            source=self.SOURCE_NAME,
+                            source_url=source_url,
+                            title=text[:200],
+                            description="",
+                            category="real_estate",
+                            base_price=0.0,
+                            currency="USD",
+                            status="published",
+                            location={"province": "CABA", "city": "Buenos Aires"},
+                            images=[],
+                        ))
+                    except Exception as e:
+                        logger.debug(f"Error parsing link: {e}")
 
                 await browser.close()
 
         except Exception as e:
             logger.error(f"Playwright scraping failed: {e}")
-            return await self._scrape_fallback()
+            return []
 
         # Deduplicate
         seen = set()
@@ -122,94 +133,139 @@ class BancoCiudadScraper(BaseScraper):
         logger.info(f"Found {len(unique)} Banco Ciudad listings")
         return unique
 
-    async def _parse_card(self, card, page, index: int) -> Optional[AuctionListing]:
-        """Parse a property card element."""
+    async def _parse_card_v2(self, card, page, index: int) -> Optional[AuctionListing]:
+        """Parse a property card element with better field extraction."""
         try:
+            # Get all text and HTML
             text_content = await card.text_content() or ""
+            inner_html = await card.inner_html() or ""
 
-            if len(text_content.strip()) < 20:
+            # Skip navigation elements
+            if "Previous" in text_content and "Next" in text_content and len(text_content) < 50:
                 return None
 
-            # Get link
+            # Clean the text - remove navigation text
+            text_clean = text_content.replace("Previous", "").replace("Next", "").strip()
+
+            if len(text_clean) < 20:
+                return None
+
+            # Try to extract auction ID from the card
+            auction_id = None
+
+            # Look for subasta number pattern
+            subasta_match = re.search(r'Subasta\s*(\d+)', text_content, re.I)
+            if subasta_match:
+                auction_id = subasta_match.group(1)
+
+            # Try to find link with ID
+            link = await card.query_selector("a[href]")
             source_url = self.BASE_URL
-            link = await card.query_selector("a")
             if link:
-                href = await link.get_attribute("href")
+                href = await link.get_attribute("href") or ""
                 if href:
+                    id_match = re.search(r'[/=](\d{4,})', href)
+                    if id_match:
+                        auction_id = auction_id or id_match.group(1)
                     if href.startswith("/"):
                         source_url = f"{self.BASE_URL}{href}"
                     elif href.startswith("http"):
                         source_url = href
 
-            # Extract title
-            title = ""
-            for sel in ["h2", "h3", "h4", "[class*='title']", "[class*='name']", "strong"]:
-                try:
-                    title_elem = await card.query_selector(sel)
-                    if title_elem:
-                        title = await title_elem.text_content() or ""
-                        if len(title.strip()) > 5:
-                            break
-                except Exception:
-                    continue
+            if not auction_id:
+                auction_id = str(hash(text_content[:100]) % 10**8)
 
-            if not title or len(title.strip()) < 5:
-                lines = [l.strip() for l in text_content.split('\n') if len(l.strip()) > 5]
-                title = lines[0] if lines else ""
+            # Extract title - look for the main description
+            title = ""
+
+            # Pattern 1: Look for company name + item description
+            # e.g., "BANCO CIUDAD DE BUENOS AIRES CELULARES SAMSUNG"
+            company_match = re.search(r'(?:BANCO CIUDAD[^A-Z]*|[A-Z]{2,}(?:\s+[A-Z]+){1,5})\s*([A-Z][A-Za-z0-9\s,]+)', text_content)
+            if company_match:
+                title = company_match.group(1).strip()
+
+            # Pattern 2: Extract what's being auctioned
+            if not title or len(title) < 10:
+                # Look for item description patterns
+                item_patterns = [
+                    r'(?:Hs\s+)([A-Z][A-Z\s]+?)(?:\d{2}/\d{2}/\d{4})',
+                    r'(?:AIRES|S\.A\.|S\.R\.L\.|INC\.)[\s]*([A-Z][A-Z\s,]+?)(?:\d{2}/)',
+                    r'([A-Z][A-Z\s]{10,50})(?:\d{2}/\d{2}/\d{4})',
+                ]
+                for pattern in item_patterns:
+                    match = re.search(pattern, text_content)
+                    if match:
+                        title = match.group(1).strip()
+                        break
+
+            # Pattern 3: Fallback - extract meaningful text
+            if not title or len(title) < 10:
+                # Remove common noise and extract remaining
+                cleaned = text_content
+                cleaned = re.sub(r'Previous\s*Next', '', cleaned)
+                cleaned = re.sub(r'Suscripci[oó]n\s*(?:CERRADA|ABIERTA)', '', cleaned, flags=re.I)
+                cleaned = re.sub(r'Subasta\s*\d+', '', cleaned)
+                cleaned = re.sub(r'Lotes?\s*[\d.,]+', '', cleaned)
+                cleaned = re.sub(r'En\s+d[oó]lar\s*[\d.,]*', '', cleaned, flags=re.I)
+                cleaned = re.sub(r'Suscribite\s+antes\s+del\s+\d{2}/\d{2}/\d{4}\s+\d{2}:\d{2}\s*Hs?', '', cleaned, flags=re.I)
+                cleaned = re.sub(r'\d{2}/\d{2}/\d{4}', '', cleaned)
+                cleaned = re.sub(r'De\s+\d{2}:\d{2}\s+a\s+\d{2}:\d{2}\s*\(GMT[^)]*\)', '', cleaned, flags=re.I)
+                cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+
+                if len(cleaned) > 10:
+                    title = cleaned[:150]
 
             if not title or len(title) < 5:
-                return None
+                title = f"Subasta Banco Ciudad #{auction_id}"
 
-            # Extract price
-            price = 0.0
-            currency = "USD"  # Banco Ciudad typically uses USD
-            price_patterns = [
-                r'USD\s*\$?\s*([\d.,]+)',
-                r'U\$S\s*([\d.,]+)',
-                r'\$\s*([\d.,]+)',
-            ]
-            for pattern in price_patterns:
-                match = re.search(pattern, text_content, re.I)
-                if match:
-                    price_str = match.group(1).replace('.', '').replace(',', '.')
-                    try:
-                        price = float(price_str)
-                        break
-                    except ValueError:
-                        continue
+            # Extract date
+            ends_at = None
+            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', text_content)
+            if date_match:
+                try:
+                    ends_at = datetime.strptime(date_match.group(1), "%d/%m/%Y")
+                except ValueError:
+                    pass
 
             # Extract image
             images = []
-            try:
-                img = await card.query_selector("img")
-                if img:
-                    src = await img.get_attribute("src") or await img.get_attribute("data-src")
-                    if src and "logo" not in src.lower() and "icon" not in src.lower():
-                        if src.startswith("/"):
-                            src = f"{self.BASE_URL}{src}"
+            img = await card.query_selector("img")
+            if img:
+                src = await img.get_attribute("src") or await img.get_attribute("data-src")
+                if src:
+                    if src.startswith("/"):
+                        src = f"{self.BASE_URL}{src}"
+                    # Skip placeholder/navigation images
+                    if not any(x in src.lower() for x in ['logo', 'icon', 'arrow', 'prev', 'next', 'placeholder']):
                         images.append(src)
-            except Exception:
-                pass
 
-            # Generate ID
-            id_match = re.search(r'/(\d+)', source_url)
-            auction_id = id_match.group(1) if id_match else str(hash(title) % 10**8)
+            # If no image in card, try to construct from auction ID
+            if not images and auction_id and len(auction_id) >= 4:
+                # Banco Ciudad image pattern
+                images.append(f"{self.BASE_URL}/subastas_rest/subastas/imagen/{auction_id[:4]}/1")
 
-            # Banco Ciudad is primarily real estate
+            # Determine category
             category = detect_category(title, text_content)
             if category == "other":
-                category = "real_estate"
+                text_lower = text_content.lower()
+                if any(x in text_lower for x in ['terreno', 'inmueble', 'departamento', 'casa', 'local']):
+                    category = "real_estate"
+                elif any(x in text_lower for x in ['vehiculo', 'auto', 'camion', 'moto']):
+                    category = "vehicles"
+                elif any(x in text_lower for x in ['maquinaria', 'equipo', 'herramienta']):
+                    category = "machinery"
 
             return AuctionListing(
                 id=self.generate_id(auction_id),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
-                title=title.strip()[:200],
-                description=text_content[:300] if text_content else "",
+                title=title.strip(),
+                description="",
                 category=category,
-                base_price=price,
-                currency=currency,
+                base_price=0.0,
+                currency="USD",
                 status="published",
+                ends_at=ends_at,
                 location={"province": "CABA", "city": "Buenos Aires"},
                 images=images,
             )
@@ -217,96 +273,6 @@ class BancoCiudadScraper(BaseScraper):
         except Exception as e:
             logger.debug(f"Error parsing card: {e}")
             return None
-
-    async def _parse_link_element(self, link, page) -> Optional[AuctionListing]:
-        """Parse a link element."""
-        try:
-            href = await link.get_attribute("href")
-            if not href:
-                return None
-
-            title = await link.text_content() or ""
-            if len(title.strip()) < 5:
-                return None
-
-            if href.startswith("/"):
-                source_url = f"{self.BASE_URL}{href}"
-            elif href.startswith("http"):
-                source_url = href
-            else:
-                source_url = f"{self.BASE_URL}/{href}"
-
-            id_match = re.search(r'/(\d+)', href)
-            auction_id = id_match.group(1) if id_match else str(hash(href) % 10**8)
-
-            return AuctionListing(
-                id=self.generate_id(auction_id),
-                source=self.SOURCE_NAME,
-                source_url=source_url,
-                title=title.strip()[:200],
-                description="",
-                category="real_estate",
-                base_price=0.0,
-                currency="USD",
-                status="published",
-                location={"province": "CABA", "city": "Buenos Aires"},
-                images=[],
-            )
-        except Exception as e:
-            logger.debug(f"Error parsing link: {e}")
-            return None
-
-    async def _scrape_fallback(self) -> list[AuctionListing]:
-        """Fallback scraping without Playwright."""
-        logger.info("Using fallback scraping for Banco Ciudad")
-
-        html = await self.fetch_html(self.BASE_URL)
-        if not html:
-            return []
-
-        soup = self.parse_html(html)
-        listings = []
-
-        # Look for any property links
-        links = soup.find_all("a", href=True)
-        seen = set()
-
-        for link in links:
-            href = link.get("href", "")
-            if not href or href in seen:
-                continue
-
-            if any(x in href.lower() for x in ['inmueble', 'propiedad', 'subasta', 'auction']):
-                seen.add(href)
-
-                title = link.get_text(strip=True)
-                if not title or len(title) < 5:
-                    continue
-
-                if href.startswith("/"):
-                    source_url = f"{self.BASE_URL}{href}"
-                else:
-                    source_url = href
-
-                id_match = re.search(r'/(\d+)', href)
-                auction_id = id_match.group(1) if id_match else str(hash(href) % 10**8)
-
-                listings.append(AuctionListing(
-                    id=self.generate_id(auction_id),
-                    source=self.SOURCE_NAME,
-                    source_url=source_url,
-                    title=title[:200],
-                    description="",
-                    category="real_estate",
-                    base_price=0.0,
-                    currency="USD",
-                    status="published",
-                    location={"province": "CABA", "city": "Buenos Aires"},
-                    images=[],
-                ))
-
-        logger.info(f"Fallback found {len(listings)} Banco Ciudad listings")
-        return listings
 
     def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
         """Required by base class."""

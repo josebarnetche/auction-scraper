@@ -84,7 +84,19 @@ body {
 }
 </style>
 </head>
-<body class="antialiased">
+<body class="antialiased overflow-x-hidden">
+    <!-- VIDEO BACKGROUND -->
+    <div class="video-background-container fixed top-0 w-full h-full -z-10" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent)">
+        <video src="https://cdn.pixabay.com/video/2020/05/25/40130-424930964_large.mp4" autoplay loop muted playsinline class="w-full h-full object-cover opacity-30"></video>
+    </div>
+
+    <!-- AURA BACKGROUND -->
+    <div class="aura-background fixed inset-0 pointer-events-none -z-10 saturate-150">
+        <div class="absolute inset-0 bg-gradient-to-br from-yellow-900/20 via-transparent to-purple-900/10"></div>
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-yellow-500/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>
+    </div>
+
     <!-- NAVIGATION -->
     <nav class="fixed z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0">
         <div class="flex glass max-w-[1400px] rounded-full mx-auto px-6 py-3 items-center justify-between">

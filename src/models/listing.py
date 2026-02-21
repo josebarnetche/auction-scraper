@@ -124,10 +124,11 @@ def detect_category(title: str, description: str = "") -> str:
     ]
 
     real_estate_keywords = [
-        "inmueble", "casa", "departamento", "terreno", "lote", "local",
-        "oficina", "galpón", "galpon", "campo", "propiedad", "edificio",
+        "inmueble", "casa", "departamento", "terreno", "local comercial",
+        "oficina comercial", "galpón", "galpon", "propiedad", "edificio",
         "cochera", "ph", "dúplex", "duplex", "monoambiente", "hectáreas",
-        "parcela", "predio", "uf.", "unidad funcional", "piso", "dto"
+        "parcela", "predio", "uf.", "unidad funcional", "dto.",
+        "lote de terreno", "loteo", "m2 cubiertos", "metros cuadrados"
     ]
 
     machinery_keywords = [

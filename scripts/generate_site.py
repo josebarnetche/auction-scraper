@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Generate static site data from scraped auctions."""
+"""Generate static site data from scraped auctions.
+
+Generates both auction-level and lot-level views for the site API.
+"""
 
 import json
 import re
@@ -12,6 +15,7 @@ from datetime import datetime, timezone
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.market.price_reference import get_market_price, calculate_discount, is_opportunity
+from src.utils.currency import get_blue_dollar_rate, convert_to_usd
 
 
 def fetch_blue_dollar_rate() -> float:
@@ -37,6 +41,10 @@ def fetch_blue_dollar_rate() -> float:
 
 # Blue dollar rate - fetched from dolarapi.com
 BLUE_DOLLAR_RATE = fetch_blue_dollar_rate()
+
+# Source ranking: judicial sources first, then quality private sources
+JUDICIAL_SOURCES = ["csjn", "scba", "cordoba", "entrerios", "comprar"]
+PRIORITY_PRIVATE_SOURCES = ["banco_ciudad", "global_remates", "adrian_mercado"]
 
 
 def generate_site():
@@ -152,6 +160,13 @@ def generate_site():
     def quality_score(listing):
         score = 0
 
+        # Source ranking: judicial first, then priority private
+        source = listing.get("source", "")
+        if source in JUDICIAL_SOURCES:
+            score += 500  # Judicial sources get major boost
+        elif source in PRIORITY_PRIVATE_SOURCES:
+            score += 300  # Priority private sources
+
         # Has images (most important)
         images = listing.get("images", [])
         if images and len(images) > 0:
@@ -208,6 +223,21 @@ def generate_site():
         # Quality score for frontend (0-100 scale)
         score = quality_score(listing)
         listing["quality_score"] = min(100, score)  # Cap at 100
+
+        # Source type for filtering (judicial vs private)
+        source = listing.get("source", "")
+        listing["source_type"] = "judicial" if source in JUDICIAL_SOURCES else "private"
+
+        # Ensure currency is set and add USD equivalent for filtering
+        currency = listing.get("currency", "ARS")
+        base_price = listing.get("base_price", 0)
+        if currency == "ARS" and base_price > 0:
+            listing["base_price_usd"] = round(base_price / BLUE_DOLLAR_RATE, 2)
+        elif currency == "USD":
+            listing["base_price_usd"] = base_price
+            listing["base_price_ars"] = round(base_price * BLUE_DOLLAR_RATE, 2)
+        else:
+            listing["base_price_usd"] = 0
 
     # Calculate market prices and opportunities using keyword matching
     opportunities = []
@@ -362,10 +392,71 @@ def generate_site():
             "why_premium": extra.get("why_premium", ""),
         })
 
+    # Generate lot-level flat view for browsing
+    all_lots = []
+    auctions_with_lots = 0
+
+    for listing in all_listings:
+        lots_data = listing.get("lots", [])
+        if not lots_data:
+            continue
+
+        auctions_with_lots += 1
+        auction_id = listing.get("id", "")
+        auction_title = listing.get("title", "")
+        auction_source = listing.get("source", "")
+        auction_url = listing.get("source_url", "")
+
+        for lot in lots_data:
+            # Calculate discount if we have AI analysis
+            discount_percent = None
+            if lot.get("ai_market_value_usd") and lot.get("base_price_usd"):
+                market_val = lot["ai_market_value_usd"]
+                auction_price = lot["base_price_usd"]
+                if market_val > 0:
+                    discount_percent = round((1 - auction_price / market_val) * 100, 1)
+
+            flat_lot = {
+                "lot_id": lot.get("lot_id", ""),
+                "lot_number": lot.get("lot_number", 1),
+                "auction_id": auction_id,
+                "auction_title": auction_title,
+                "auction_source": auction_source,
+                "auction_url": auction_url,
+                "title": lot.get("title", ""),
+                "description": lot.get("description", ""),
+                "base_price": lot.get("base_price", 0),
+                "currency": lot.get("currency", "ARS"),
+                "base_price_usd": lot.get("base_price_usd", 0),
+                "images": lot.get("images", []),
+                # AI analysis fields
+                "ai_specs": lot.get("ai_specs"),
+                "ai_market_value_usd": lot.get("ai_market_value_usd"),
+                "opportunity_score": lot.get("ai_opportunity_score"),
+                "discount_percent": discount_percent,
+                "ai_analyzed": lot.get("ai_analyzed_at") is not None,
+            }
+            all_lots.append(flat_lot)
+
+    # Sort lots by opportunity score (highest first), then by discount
+    def lot_sort_key(lot):
+        score = lot.get("opportunity_score") or 0
+        discount = lot.get("discount_percent") or 0
+        return (score, discount)
+
+    all_lots.sort(key=lot_sort_key, reverse=True)
+
+    # Top lots (best opportunities)
+    top_lots = [
+        lot for lot in all_lots
+        if (lot.get("opportunity_score") or 0) >= 7
+    ][:20]
+
     # Write listings.json
     with_market_data = sum(1 for l in all_listings if l.get('market_data'))
     opportunity_count = sum(1 for l in all_listings if l.get('market_data', {}).get('is_opportunity'))
     premium_count = sum(1 for l in all_listings if l.get('is_premium'))
+    analyzed_lots_count = sum(1 for lot in all_lots if lot.get("ai_analyzed"))
 
     listings_data = {
         "total_count": len(all_listings),
@@ -376,6 +467,16 @@ def generate_site():
         "opportunity_count": opportunity_count,
         "premium_count": premium_count,
         "top_opportunities": top_opportunities,
+        # Lot-level data (new architecture)
+        "lot_stats": {
+            "total_lots": len(all_lots),
+            "auctions_with_lots": auctions_with_lots,
+            "analyzed_lots": analyzed_lots_count,
+            "top_opportunity_lots": len(top_lots),
+        },
+        "lots": all_lots,
+        "top_lots": top_lots,
+        # Hierarchical auction data
         "listings": all_listings,
     }
 
@@ -401,6 +502,22 @@ def generate_site():
 
     # Print premium stats
     print(f"  Premium curated: {premium_count}")
+
+    # Print lot-level stats
+    print(f"\n  LOT-LEVEL DATA:")
+    print(f"    Total lots: {len(all_lots)}")
+    print(f"    Auctions with lots: {auctions_with_lots}")
+    print(f"    AI-analyzed lots: {analyzed_lots_count}")
+    print(f"    Top opportunity lots (7+): {len(top_lots)}")
+
+    # Print top lot opportunities
+    if top_lots:
+        print(f"\n  TOP LOT OPPORTUNITIES:")
+        for i, lot in enumerate(top_lots[:5]):
+            score = lot.get("opportunity_score", 0)
+            discount = lot.get("discount_percent")
+            discount_str = f"{discount:.0f}% off" if discount else "N/A"
+            print(f"    {i+1}. [{score}/10] {lot['title'][:50]}... ({discount_str})")
 
     # Print top opportunities
     if top_opportunities:

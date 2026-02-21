@@ -537,7 +537,7 @@ class BaseScraper(ABC):
                     extra["is_opportunity"] = True
                     extra["opportunity_reason"] = analysis["premium_info"].get("premium_type", "premium")
 
-            # Create new listing with updated extra
+            # Create new listing with updated extra (preserving lots)
             return AuctionListing(
                 id=listing.id,
                 source=listing.source,
@@ -554,6 +554,8 @@ class BaseScraper(ABC):
                 images=listing.images,
                 scraped_at=listing.scraped_at,
                 extra=extra,
+                lots=listing.lots,
+                lot_count=listing.lot_count,
             )
 
         except Exception as e:

@@ -8,7 +8,8 @@ from typing import Optional
 from bs4 import Tag
 
 from src.scrapers.base import BaseScraper
-from src.models.listing import AuctionListing, detect_category
+from src.models.listing import AuctionListing, LotItem, detect_category
+from src.utils.currency import get_blue_dollar_rate, convert_to_usd
 
 logger = logging.getLogger(__name__)
 
@@ -19,6 +20,241 @@ class BancoCiudadScraper(BaseScraper):
     SOURCE_NAME = "banco_ciudad"
     BASE_URL = "https://subastas.bancociudad.com.ar"
     RATE_LIMIT_SECONDS = 2.0
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._blue_dollar_rate = None
+
+    async def _get_blue_dollar_rate(self) -> float:
+        """Get blue dollar rate (cached)."""
+        if self._blue_dollar_rate is None:
+            self._blue_dollar_rate = get_blue_dollar_rate()
+        return self._blue_dollar_rate
+
+    async def scrape_auction_lots(self, page, auction_id: str, auction_url: str) -> list[LotItem]:
+        """Fetch all lots within an auction.
+
+        Args:
+            page: Playwright page object
+            auction_id: The auction ID
+            auction_url: URL of the auction detail page
+
+        Returns:
+            List of LotItem objects
+        """
+        lots = []
+        rate = await self._get_blue_dollar_rate()
+
+        try:
+            # Navigate to auction detail if not already there
+            current_url = page.url
+            if auction_id not in current_url:
+                await page.goto(auction_url, wait_until="networkidle", timeout=30000)
+                await asyncio.sleep(3)
+
+            # Get page content for lot extraction
+            page_text = await page.evaluate("document.body.innerText") or ""
+            page_html = await page.content()
+
+            # Try to find lots via API first
+            api_lots = await self._fetch_lots_from_api(page, auction_id)
+            if api_lots:
+                for lot_data in api_lots:
+                    lot = self._parse_api_lot(lot_data, auction_id, rate)
+                    if lot:
+                        lots.append(lot)
+                logger.info(f"Found {len(lots)} lots via API for auction {auction_id}")
+                return lots
+
+            # Fallback: Parse lots from page HTML
+            lots = self._parse_lots_from_page(page_text, page_html, auction_id, rate)
+            if lots:
+                logger.info(f"Found {len(lots)} lots via HTML parsing for auction {auction_id}")
+
+        except Exception as e:
+            logger.debug(f"Error scraping lots for auction {auction_id}: {e}")
+
+        return lots
+
+    async def _fetch_lots_from_api(self, page, auction_id: str) -> list[dict]:
+        """Try to fetch lot data from REST API.
+
+        Tests various endpoint patterns to find lot data.
+        """
+        api_endpoints = [
+            f"{self.BASE_URL}/subastas_rest/subastas/{auction_id}/lotes",
+            f"{self.BASE_URL}/subastas_rest/lotes/subasta/{auction_id}",
+            f"{self.BASE_URL}/subastas_rest/subastas/{auction_id}",
+        ]
+
+        for endpoint in api_endpoints:
+            try:
+                response = await page.request.get(endpoint)
+                if response.status == 200:
+                    data = await response.json()
+
+                    # Handle different response structures
+                    if isinstance(data, list) and data:
+                        # Direct array of lots
+                        if any(k in str(data[0]).lower() for k in ["lote", "precio", "base"]):
+                            return data
+
+                    elif isinstance(data, dict):
+                        # Nested lots in response
+                        for key in ["lotes", "lots", "items", "rubros"]:
+                            if key in data and isinstance(data[key], list):
+                                return data[key]
+
+            except Exception as e:
+                logger.debug(f"API endpoint {endpoint} failed: {e}")
+                continue
+
+        return []
+
+    def _parse_api_lot(self, lot_data: dict, auction_id: str, rate: float) -> Optional[LotItem]:
+        """Parse a lot from API response data."""
+        try:
+            # Common field names for lot number
+            lot_number = (
+                lot_data.get("numero") or
+                lot_data.get("nro_lote") or
+                lot_data.get("lote") or
+                lot_data.get("numero_lote") or
+                lot_data.get("item") or
+                1
+            )
+
+            # Common field names for title/description
+            title = (
+                lot_data.get("titulo") or
+                lot_data.get("descripcion") or
+                lot_data.get("nombre") or
+                lot_data.get("detalle") or
+                f"Lote {lot_number}"
+            )
+
+            description = (
+                lot_data.get("descripcion_larga") or
+                lot_data.get("descripcion") or
+                lot_data.get("detalle") or
+                ""
+            )
+
+            # Common field names for price
+            base_price = float(
+                lot_data.get("base") or
+                lot_data.get("precio_base") or
+                lot_data.get("precio") or
+                lot_data.get("monto_base") or
+                0
+            )
+
+            # Detect currency from data or default to ARS for BC
+            currency = "ARS"
+            if lot_data.get("moneda"):
+                currency = "USD" if "USD" in str(lot_data.get("moneda")).upper() else "ARS"
+            elif "dolar" in str(lot_data).lower() or "usd" in str(lot_data).lower():
+                currency = "USD"
+
+            # Convert to USD
+            base_price_usd = convert_to_usd(base_price, currency, rate)
+
+            # Images
+            images = []
+            if lot_data.get("imagen"):
+                images.append(lot_data["imagen"])
+            elif lot_data.get("imagenes"):
+                images = lot_data["imagenes"] if isinstance(lot_data["imagenes"], list) else [lot_data["imagenes"]]
+            elif lot_data.get("id_lote"):
+                # Construct image URL from lot ID
+                images.append(f"{self.BASE_URL}/subastas_rest/lotes/imagen/{lot_data['id_lote']}/1")
+
+            # Lot ID
+            lot_id = lot_data.get("id_lote") or lot_data.get("id") or f"{auction_id}:{lot_number}"
+
+            return LotItem(
+                lot_id=f"bc:{auction_id}:{lot_id}",
+                lot_number=int(lot_number),
+                title=str(title)[:200],
+                description=str(description)[:1000],
+                base_price=base_price,
+                currency=currency,
+                base_price_usd=round(base_price_usd, 2),
+                deposit_required=float(lot_data.get("seña") or lot_data.get("deposito") or 0),
+                images=images,
+            )
+
+        except Exception as e:
+            logger.debug(f"Error parsing API lot: {e}")
+            return None
+
+    def _parse_lots_from_page(self, page_text: str, page_html: str, auction_id: str, rate: float) -> list[LotItem]:
+        """Parse lots from page HTML/text when API is not available."""
+        lots = []
+
+        # Pattern to match lot entries in page text
+        # Common formats:
+        # "Lote 1: 100 Computadoras... Base: $42.920.000"
+        # "Rubro 1 - Equipamiento... ARS $5.328.000"
+        # "Item #1: Cámaras Axis... Precio Base: USD 2.020"
+
+        lot_patterns = [
+            # Lote N: Title... Base/Precio: $Amount
+            r'(?:Lote|Rubro|Item)\s*(?:#|N[°º]?)?\s*(\d+)[:\s\-]*(.+?)(?:Base|Precio\s*Base?|Valor)[:\s]*(?:\$|ARS|USD)?\s*([\d.,]+)',
+            # Numbered items with prices
+            r'(\d+)\.\s*(.{10,100}?)\s+(?:\$|ARS|USD)\s*([\d.,]+)',
+        ]
+
+        for pattern in lot_patterns:
+            matches = re.findall(pattern, page_text, re.I | re.DOTALL)
+            for match in matches:
+                try:
+                    lot_number = int(match[0])
+                    title = match[1].strip()
+                    price_str = match[2].replace(".", "").replace(",", ".")
+
+                    # Clean title
+                    title = re.sub(r'\s+', ' ', title).strip()
+                    if len(title) < 5:
+                        continue
+
+                    base_price = float(price_str)
+                    if base_price < 100:  # Skip invalid prices
+                        continue
+
+                    # Detect currency from context
+                    currency = "ARS"
+                    context_start = max(0, page_text.find(match[1]) - 50)
+                    context = page_text[context_start:context_start + len(match[1]) + 100]
+                    if "USD" in context.upper() or "U$S" in context or "DOLAR" in context.upper():
+                        currency = "USD"
+
+                    base_price_usd = convert_to_usd(base_price, currency, rate)
+
+                    lot = LotItem(
+                        lot_id=f"bc:{auction_id}:{lot_number}",
+                        lot_number=lot_number,
+                        title=title[:200],
+                        description="",
+                        base_price=base_price,
+                        currency=currency,
+                        base_price_usd=round(base_price_usd, 2),
+                        images=[f"{self.BASE_URL}/subastas_rest/subastas/imagen/{auction_id}/{lot_number}"],
+                    )
+                    lots.append(lot)
+
+                except (ValueError, IndexError) as e:
+                    continue
+
+        # Deduplicate by lot number
+        seen_numbers = set()
+        unique_lots = []
+        for lot in lots:
+            if lot.lot_number not in seen_numbers:
+                seen_numbers.add(lot.lot_number)
+                unique_lots.append(lot)
+
+        return sorted(unique_lots, key=lambda x: x.lot_number)
 
     async def scrape(self) -> list[AuctionListing]:
         """Scrape all auction listings using Playwright."""
@@ -72,15 +308,25 @@ class BancoCiudadScraper(BaseScraper):
                         # Create a new page for each auction to avoid Angular caching issues
                         detail_page = await context.new_page()
                         listing = await self._fetch_detail_page(detail_page, auction_id)
-                        await detail_page.close()
 
                         if listing:
+                            # Scrape individual lots for this auction
+                            auction_url = f"{self.BASE_URL}/subasta/{auction_id}"
+                            lots = await self.scrape_auction_lots(detail_page, auction_id, auction_url)
+                            listing.lots = lots
+                            listing.lot_count = len(lots)
+
+                            if lots:
+                                logger.info(f"Auction {auction_id}: {len(lots)} lots scraped")
+
                             # Analyze for opportunities
                             listing = self.analyze_opportunity(listing)
                             if listing.extra.get("is_opportunity"):
                                 opportunity_count += 1
                                 logger.info(f"Opportunity found: {listing.title[:50]}... - {listing.extra.get('opportunity_reason')}")
                             all_listings.append(listing)
+
+                        await detail_page.close()
                         await asyncio.sleep(0.3)  # Rate limit
                     except Exception as e:
                         logger.debug(f"Error fetching detail {auction_id}: {e}")

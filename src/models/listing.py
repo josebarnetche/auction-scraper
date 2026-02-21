@@ -11,6 +11,47 @@ def _utcnow():
 
 
 @dataclass
+class LotItem:
+    """Represents a single lot within an auction."""
+
+    lot_id: str
+    lot_number: int  # Position in auction (1, 2, 3...)
+    title: str
+    description: str
+    base_price: float
+    currency: str  # Original currency (ARS/USD)
+    base_price_usd: float = 0.0  # Converted at scrape time
+    deposit_required: float = 0.0
+    starts_at: Optional[datetime] = None
+    ends_at: Optional[datetime] = None
+    images: list[str] = field(default_factory=list)
+
+    # AI-generated fields (nullable until analyzed)
+    ai_specs: Optional[dict] = None  # {brand, model, quantity, condition}
+    ai_market_value_usd: Optional[float] = None
+    ai_opportunity_score: Optional[int] = None  # 1-10
+    ai_analyzed_at: Optional[datetime] = None
+
+    def to_dict(self) -> dict:
+        """Convert to dictionary for JSON serialization."""
+        data = asdict(self)
+        # Convert datetime fields to ISO format strings
+        for key in ["starts_at", "ends_at", "ai_analyzed_at"]:
+            if data.get(key) is not None:
+                data[key] = data[key].isoformat()
+        return data
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "LotItem":
+        """Create instance from dictionary."""
+        # Convert ISO strings back to datetime
+        for key in ["starts_at", "ends_at", "ai_analyzed_at"]:
+            if data.get(key) and isinstance(data[key], str):
+                data[key] = datetime.fromisoformat(data[key])
+        return cls(**data)
+
+
+@dataclass
 class AuctionListing:
     """Represents a single auction listing."""
 
@@ -30,6 +71,10 @@ class AuctionListing:
     scraped_at: datetime = field(default_factory=_utcnow)
     extra: dict = field(default_factory=dict)
 
+    # Lot-level data (new architecture)
+    lots: list[LotItem] = field(default_factory=list)
+    lot_count: int = 0
+
     def to_dict(self) -> dict:
         """Convert to dictionary for JSON serialization."""
         data = asdict(self)
@@ -37,6 +82,17 @@ class AuctionListing:
         for key in ["starts_at", "ends_at", "scraped_at"]:
             if data[key] is not None:
                 data[key] = data[key].isoformat()
+        # Convert lots to dicts with proper datetime handling
+        if data.get("lots"):
+            data["lots"] = [
+                {
+                    **lot,
+                    "starts_at": lot["starts_at"].isoformat() if lot.get("starts_at") else None,
+                    "ends_at": lot["ends_at"].isoformat() if lot.get("ends_at") else None,
+                    "ai_analyzed_at": lot["ai_analyzed_at"].isoformat() if lot.get("ai_analyzed_at") else None,
+                }
+                for lot in data["lots"]
+            ]
         return data
 
     @classmethod
@@ -46,6 +102,9 @@ class AuctionListing:
         for key in ["starts_at", "ends_at", "scraped_at"]:
             if data.get(key) and isinstance(data[key], str):
                 data[key] = datetime.fromisoformat(data[key])
+        # Convert lots back to LotItem objects
+        if data.get("lots"):
+            data["lots"] = [LotItem.from_dict(lot) for lot in data["lots"]]
         return cls(**data)
 
     def to_json(self) -> str:

@@ -167,10 +167,14 @@ body {
                 </span>
             </a>
             <div class="hidden md:flex items-center gap-8">
-                <a href="#auctions" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Live Feed</a>
+                <a href="#opportunities" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Opportunities</a>
+                <a href="#dashboard" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Dashboard</a>
+                <a href="#features" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Features</a>
                 <a href="#sources" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Sources</a>
             </div>
-            <div class="flex items-center gap-2 text-xs">
+            <div class="flex items-center gap-3 text-xs">
+                <span class="text-white/60 font-mono hidden sm:inline" id="gmt3-time">--:--</span>
+                <span class="text-white/40 hidden sm:inline">GMT-3</span>
                 <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                 <span class="text-white/60 uppercase tracking-wider hidden sm:inline">Live</span>
             </div>
@@ -297,6 +301,109 @@ body {
         </div>
     </section>
 
+    <!-- OPPORTUNITIES SECTION -->
+    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="opportunities">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Top Opportunities</h2>
+                <p class="text-yellow-400/80">Featured auctions with the best value potential</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="opportunities-grid">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- DASHBOARD SECTION -->
+    <section class="py-20 px-4 md:px-6 bg-gradient-to-b from-yellow-900/5 to-transparent border-t border-white/5" id="dashboard">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Dashboard</h2>
+                <p class="text-yellow-400/80">Real-time auction market overview</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+                <div class="glass rounded-2xl p-6 text-center">
+                    <div class="text-3xl md:text-4xl font-bold font-display text-white mb-2" id="stat-total">-</div>
+                    <div class="text-xs uppercase tracking-wider text-yellow-500">Total Auctions</div>
+                </div>
+                <div class="glass rounded-2xl p-6 text-center">
+                    <div class="text-3xl md:text-4xl font-bold font-display text-blue-400 mb-2" id="stat-vehicles">-</div>
+                    <div class="text-xs uppercase tracking-wider text-blue-400/70">Vehicles</div>
+                </div>
+                <div class="glass rounded-2xl p-6 text-center">
+                    <div class="text-3xl md:text-4xl font-bold font-display text-pink-400 mb-2" id="stat-realestate">-</div>
+                    <div class="text-xs uppercase tracking-wider text-pink-400/70">Real Estate</div>
+                </div>
+                <div class="glass rounded-2xl p-6 text-center">
+                    <div class="text-3xl md:text-4xl font-bold font-display text-yellow-400 mb-2" id="stat-machinery">-</div>
+                    <div class="text-xs uppercase tracking-wider text-yellow-400/70">Machinery</div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glass rounded-2xl p-6">
+                    <h3 class="text-lg font-display font-medium text-white mb-4">Auctions by Source</h3>
+                    <div id="sources-breakdown" class="space-y-3">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                <div class="glass rounded-2xl p-6">
+                    <h3 class="text-lg font-display font-medium text-white mb-4">Category Distribution</h3>
+                    <div id="category-breakdown" class="space-y-3">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="features">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Features</h2>
+                <p class="text-yellow-400/80">Why use Argentina Auction Radar</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
+                    <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Real-Time Data</h3>
+                    <p class="text-white/60 text-sm">Live updates from multiple auction sources across Argentina</p>
+                </div>
+                <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
+                    <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Smart Filtering</h3>
+                    <p class="text-white/60 text-sm">Filter by category, source, and price to find exactly what you need</p>
+                </div>
+                <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
+                    <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Verified Sources</h3>
+                    <p class="text-white/60 text-sm">Direct links to official judicial and private auction platforms</p>
+                </div>
+                <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
+                    <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Argentina Time</h3>
+                    <p class="text-white/60 text-sm">All timestamps in GMT-3 for accurate auction scheduling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- LIVE AUCTIONS FEED -->
     <section class="py-20 px-4 md:px-6 border-t border-white/5" id="auctions">
         <div class="max-w-[1400px] mx-auto">
@@ -304,8 +411,15 @@ body {
                 <div>
                     <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Live Auctions</h2>
                     <p class="text-yellow-400/80">Real-time listings from Argentine auction houses</p>
+                    <p class="text-white/40 text-sm mt-2">Last update: <span id="last-update-time">--</span></p>
                 </div>
-                <div class="flex gap-3 flex-wrap">
+                <div class="flex gap-3 flex-wrap items-center">
+                    <button onclick="refreshAuctions()" id="refresh-btn" class="glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-green-400 hover:text-white hover:bg-green-500/20 transition-all flex items-center gap-2">
+                        <svg class="w-4 h-4" id="refresh-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                        Update
+                    </button>
                     <button onclick="filterAuctions('')" class="filter-btn active glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white" data-filter="">All</button>
                     <button onclick="filterAuctions('vehicles')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="vehicles">Vehicles</button>
                     <button onclick="filterAuctions('real_estate')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="real_estate">Real Estate</button>
@@ -390,8 +504,8 @@ body {
                 </div>
                 <span class="text-white font-display">Auction<span class="text-yellow-500 font-light">Radar</span></span>
             </div>
-            <div class="text-white/40 text-sm">
-                Open Source Project
+            <div class="text-white/40 text-sm text-center">
+                done with claude code by memola 30-71863222-2 memola medios s.a.s.
             </div>
             <a href="https://github.com/josebarnetche/auction-scraper" target="_blank" class="text-yellow-500 hover:text-white text-sm transition-colors">
                 GitHub
@@ -401,20 +515,70 @@ body {
 
     <script>
         let allAuctions = [];
+        let bySource = {};
         let displayedCount = 12;
         let currentFilter = '';
+
+        // GMT-3 Time (Argentina)
+        function updateGMT3Time() {
+            const now = new Date();
+            const gmt3 = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) - (3 * 3600000));
+            const hours = gmt3.getHours().toString().padStart(2, '0');
+            const minutes = gmt3.getMinutes().toString().padStart(2, '0');
+            const seconds = gmt3.getSeconds().toString().padStart(2, '0');
+            document.getElementById('gmt3-time').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+        setInterval(updateGMT3Time, 1000);
+        updateGMT3Time();
+
+        // Format date to Argentina time
+        function formatArgentinaTime(dateStr) {
+            if (!dateStr) return '--';
+            const date = new Date(dateStr);
+            const gmt3 = new Date(date.getTime() - (3 * 3600000));
+            return gmt3.toLocaleString('es-AR', {
+                day: '2-digit', month: '2-digit', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            }) + ' (GMT-3)';
+        }
+
+        // Refresh button
+        async function refreshAuctions() {
+            const btn = document.getElementById('refresh-btn');
+            const icon = document.getElementById('refresh-icon');
+            btn.disabled = true;
+            icon.classList.add('animate-spin');
+
+            await fetchAuctions();
+
+            setTimeout(() => {
+                btn.disabled = false;
+                icon.classList.remove('animate-spin');
+            }, 1000);
+        }
 
         // Fetch live auction data
         async function fetchAuctions() {
             try {
-                const response = await fetch('/api/listings.json');
+                const response = await fetch('/api/listings.json?t=' + Date.now());
                 if (!response.ok) throw new Error('Failed to fetch');
                 const data = await response.json();
                 allAuctions = (data.listings || []).filter(a => a.title && a.source_url);
+                bySource = data.by_source || {};
 
                 // Update hero stats
                 document.getElementById('hero-count').textContent = allAuctions.length;
-                document.getElementById('hero-sources').textContent = Object.keys(data.by_source || {}).length || '-';
+                document.getElementById('hero-sources').textContent = Object.keys(bySource).length || '-';
+
+                // Update last update time
+                const updateTime = data.generated_at ? formatArgentinaTime(data.generated_at) : formatArgentinaTime(new Date().toISOString());
+                document.getElementById('last-update-time').textContent = updateTime;
+
+                // Update dashboard
+                updateDashboard();
+
+                // Render opportunities
+                renderOpportunities();
 
                 renderAuctions();
             } catch (err) {
@@ -425,6 +589,97 @@ body {
                     </div>
                 `;
             }
+        }
+
+        // Update dashboard stats
+        function updateDashboard() {
+            const categories = { vehicles: 0, real_estate: 0, machinery: 0, other: 0 };
+            allAuctions.forEach(a => {
+                if (categories.hasOwnProperty(a.category)) {
+                    categories[a.category]++;
+                } else {
+                    categories.other++;
+                }
+            });
+
+            document.getElementById('stat-total').textContent = allAuctions.length;
+            document.getElementById('stat-vehicles').textContent = categories.vehicles;
+            document.getElementById('stat-realestate').textContent = categories.real_estate;
+            document.getElementById('stat-machinery').textContent = categories.machinery;
+
+            // Sources breakdown
+            const sourcesHtml = Object.entries(bySource)
+                .sort((a, b) => b[1] - a[1])
+                .map(([source, count]) => `
+                    <div class="flex items-center justify-between">
+                        <span class="text-white/60 text-sm uppercase">${source.replace('_', ' ')}</span>
+                        <span class="text-yellow-500 font-display font-semibold">${count}</span>
+                    </div>
+                `).join('');
+            document.getElementById('sources-breakdown').innerHTML = sourcesHtml || '<p class="text-white/40 text-sm">No data</p>';
+
+            // Category breakdown
+            const total = allAuctions.length || 1;
+            const catHtml = Object.entries(categories)
+                .filter(([_, count]) => count > 0)
+                .sort((a, b) => b[1] - a[1])
+                .map(([cat, count]) => {
+                    const pct = Math.round((count / total) * 100);
+                    const colors = { vehicles: 'bg-blue-500', real_estate: 'bg-pink-500', machinery: 'bg-yellow-500', other: 'bg-gray-500' };
+                    return `
+                        <div>
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-white/60 text-sm capitalize">${cat.replace('_', ' ')}</span>
+                                <span class="text-white/40 text-xs">${pct}%</span>
+                            </div>
+                            <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+                                <div class="h-full ${colors[cat] || 'bg-gray-500'} rounded-full" style="width: ${pct}%"></div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            document.getElementById('category-breakdown').innerHTML = catHtml || '<p class="text-white/40 text-sm">No data</p>';
+        }
+
+        // Render top opportunities (auctions with prices)
+        function renderOpportunities() {
+            const grid = document.getElementById('opportunities-grid');
+            const opportunities = allAuctions
+                .filter(a => a.base_price > 0)
+                .slice(0, 6);
+
+            if (opportunities.length === 0) {
+                grid.innerHTML = '<div class="col-span-full text-center py-10"><p class="text-white/40">No featured opportunities yet.</p></div>';
+                return;
+            }
+
+            grid.innerHTML = opportunities.map(auction => {
+                const imageUrl = auction.images && auction.images.length > 0
+                    ? auction.images[0]
+                    : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
+
+                return `
+                    <a href="${auction.source_url}" target="_blank" rel="noopener"
+                       class="auction-card glass rounded-2xl overflow-hidden block group">
+                        <div class="aspect-video overflow-hidden bg-black/50 relative">
+                            <img src="${imageUrl}" alt="${auction.title}" class="auction-image w-full h-full object-cover" loading="lazy">
+                            <div class="absolute top-3 left-3">
+                                <span class="category-badge category-${auction.category}">${auction.category}</span>
+                            </div>
+                            <div class="absolute top-3 right-3">
+                                <span class="source-badge">${auction.source}</span>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-white font-medium mb-3 line-clamp-2 group-hover:text-yellow-400 transition-colors">${auction.title}</h3>
+                            <div>
+                                <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Base</div>
+                                <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${auction.base_price.toLocaleString()}</span>
+                            </div>
+                        </div>
+                    </a>
+                `;
+            }).join('');
         }
 
         function renderAuctions() {

@@ -8,7 +8,7 @@ Argentina Auction Radar aggregates judicial and private auctions from 11 sources
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.2.0` | 2026-02-21 06:20 UTC |
+| `v1.3.0` | 2026-02-21 09:00 UTC |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -38,6 +38,92 @@ A **single aggregation layer** that:
 - Runs on zero infrastructure cost (static site + GitHub Actions)
 
 **Time saved:** Check once, see everything.
+
+---
+
+## Premium Curated Opportunities
+
+Beyond automated scraping, we manually research **high-value opportunities** that automated scrapers can't find:
+
+### What Makes an Opportunity "Premium"
+
+| Category | What We Look For |
+|----------|-----------------|
+| **Factory Liquidations** | Complete plant closures with industrial equipment |
+| **Heavy Equipment** | Cranes, bulldozers, excavators at 40%+ discount |
+| **Automation Systems** | Warehouse robots, CNC machines, production lines |
+| **Fleet Liquidations** | Corporate vehicle renewals (50+ units) |
+| **Bankruptcies** | Court-ordered sales with forced pricing |
+| **Brand Acquisitions** | Businesses closing with brand rights available |
+
+### How We Find Them
+
+We use **parallel AI agents** to research opportunities across multiple sources simultaneously:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    AI RESEARCH AGENTS                            │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
+│  │  Industrial  │  │   Company    │  │ Agricultural │          │
+│  │  Machinery   │  │ Liquidations │  │  Equipment   │          │
+│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘          │
+│         │                 │                 │                   │
+│  ┌──────┴───────┐  ┌──────┴───────┐  ┌──────┴───────┐          │
+│  │   Vehicle    │  │    Real      │  │   News &     │          │
+│  │    Fleets    │  │   Estate     │  │  Bulletins   │          │
+│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘          │
+│         └─────────────────┼─────────────────┘                   │
+│                           ▼                                      │
+│              ┌──────────────────────┐                           │
+│              │   MARKET ANALYSIS    │                           │
+│              │  Compare vs. prices  │                           │
+│              └──────────┬───────────┘                           │
+│                         ▼                                        │
+│              ┌──────────────────────┐                           │
+│              │  CURATED SELECTION   │                           │
+│              │  data/curated/*.json │                           │
+│              └──────────────────────┘                           │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Research sources include:**
+- Auction house announcements (Adrian Mercado, Global Remates, Monasterio Tattersall)
+- Government bulletins (Boletin Oficial, AABE state property sales)
+- Business news (factory closures, bankruptcies)
+- Judicial portals (SCBA, CSJN, provincial courts)
+- Corporate fleet platforms (BidBit, NarvaezBid)
+
+### Premium Data Structure
+
+```json
+{
+  "id": "curated:example_opportunity",
+  "is_premium": true,
+  "extra": {
+    "premium_type": "factory_liquidation",
+    "estimated_value_usd": 500000,
+    "discount_estimate": "40-60%",
+    "why_premium": "Rare industrial equipment at liquidation prices"
+  }
+}
+```
+
+### Adding Curated Opportunities
+
+Premium opportunities are stored in `data/curated/premium_opportunities.json`:
+
+```bash
+# Structure
+data/
+└── curated/
+    └── premium_opportunities.json  # Hand-researched deals
+```
+
+Each opportunity includes:
+- **estimated_value_usd** - Market value estimate
+- **discount_estimate** - Expected discount range (e.g., "45-55%")
+- **premium_type** - Category classification
+- **why_premium** - Explanation of why this is valuable
 
 ---
 

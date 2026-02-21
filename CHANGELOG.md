@@ -7,6 +7,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.3.0] - 2026-02-21
+
+### Added
+- **Curated Premium Opportunities** - Hand-researched high-value deals beyond automated scraping
+- New `data/curated/premium_opportunities.json` for manually researched opportunities
+- Premium opportunity detection using parallel AI agent research
+- Premium listings get +200 priority score, always appear in top 5
+- New fields: `is_premium`, `premium_type`, `why_premium`, `estimated_value_usd`
+- Top opportunities expanded from 3 to 5 to showcase premium content
+
+### How Premium Research Works
+1. **Parallel AI Agents** - Multiple specialized agents search simultaneously:
+   - Industrial machinery auctions (CNC, presses, forklifts)
+   - Company liquidations and bankruptcies
+   - Agricultural equipment deals
+   - Vehicle fleet renewals
+   - Premium real estate opportunities
+2. **Web Research** - Agents search news, auction houses, government bulletins
+3. **Market Analysis** - Cross-reference auction prices with market values
+4. **Curation** - Best opportunities compiled into `premium_opportunities.json`
+
+### Premium Categories
+| Type | Description |
+|------|-------------|
+| `factory_liquidation` | Complete factory closures with equipment |
+| `heavy_equipment` | Cranes, bulldozers, excavators |
+| `automation` | Robots, warehouse systems, CNC |
+| `fleet_liquidation` | Corporate vehicle fleet renewals |
+| `bankruptcy` | Court-ordered asset sales |
+| `corporate_fleet` | Telecom, energy company vehicles |
+| `real_estate_deal` | Properties 40%+ below market |
+| `brand_acquisition` | Business brands + equipment |
+| `government_surplus` | Provincial/municipal equipment |
+
+### Technical
+- Premium opportunities loaded from `data/curated/` directory
+- Discount estimates parsed from ranges (e.g., "45-55%" → 50%)
+- Before-March detection for time-sensitive deals
+- Premium count tracked in `listings.json` metadata
+
+---
+
 ## [1.2.0] - 2026-02-21
 
 ### Changed
@@ -234,7 +276,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.2.0** | 2026-02-21 | **Real market prices from Autocosmos/ZonaProp, no fake estimates** |
+| **1.3.0** | 2026-02-21 | **Curated premium opportunities via AI agent research** |
+| 1.2.0 | 2026-02-21 | Real market prices from Autocosmos/ZonaProp, no fake estimates |
 | 1.1.0 | 2026-02-21 | UnicornStudio animated background, smooth scroll, SCBA 100% dates |
 | 1.0.0 | 2026-02-21 | Stable release, date extraction, 227 listings |
 | 0.12.0 | 2026-02-21 | Fix Global Remates titles |

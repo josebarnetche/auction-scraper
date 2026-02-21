@@ -19,6 +19,25 @@ class GlobalRematesScraper(BaseScraper):
     BASE_URL = "https://www.globalremates.com.ar"
     RATE_LIMIT_SECONDS = 2.0
 
+    def _clean_title(self, title: str) -> str:
+        """Clean title by removing dates, noise patterns."""
+        if not title:
+            return ""
+
+        # Remove leading dates like "25/02/2026 11:01 a.m."
+        title = re.sub(r'^\d{2}/\d{2}/\d{4}\s+\d{1,2}:\d{2}\s*(?:a\.m\.|p\.m\.)\s*', '', title, flags=re.I)
+
+        # Remove trailing "Incremento" word
+        title = re.sub(r'\s*Incremento\s*$', '', title, flags=re.I)
+
+        # Remove leading "Subasta" followed by newlines
+        title = re.sub(r'^Subasta\s*\n\s*', '', title, flags=re.I)
+
+        # Clean up excessive whitespace
+        title = re.sub(r'\s+', ' ', title).strip()
+
+        return title
+
     async def scrape(self) -> list[AuctionListing]:
         """Scrape all auction listings."""
         all_listings = []
@@ -131,14 +150,53 @@ class GlobalRematesScraper(BaseScraper):
         try:
             source_url = f"{self.BASE_URL}/AuctionDetails.aspx?id={auction_id}"
 
+            # Button/navigation text to skip
+            skip_texts = [
+                "su oferta", "ofertar", "ver detalles", "ver más", "ver lotes",
+                "ingresar", "registrarse", "login", "detalle", "ver", "más info",
+                "comprar", "pujar", "bid", "offer", "details", "view"
+            ]
+
             # Get title from link or parent
             title = link.get_text(strip=True)
-            if len(title) < 5:
-                parent = link.find_parent()
+            title_lower = title.lower().strip()
+
+            # Skip if it's button text
+            if title_lower in skip_texts or len(title) < 8:
+                # Look in parent elements for real title
+                title = ""
+
+                # Try parent div/li
+                parent = link.find_parent("li") or link.find_parent("div") or link.find_parent("td")
                 if parent:
-                    title = parent.get_text(strip=True)[:150]
+                    # Look for h1, h2, h3, h4, h5, h6, strong, span with class containing "title"
+                    title_elem = parent.find(["h1", "h2", "h3", "h4", "h5", "h6", "strong"])
+                    if title_elem:
+                        title = title_elem.get_text(strip=True)
+
+                    if not title or len(title) < 8:
+                        # Look for span/div with title class
+                        title_elem = parent.find(class_=re.compile(r'title|nombre|name|descripcion', re.I))
+                        if title_elem:
+                            title = title_elem.get_text(strip=True)
+
+                    if not title or len(title) < 8:
+                        # Get all text and extract first meaningful line
+                        all_text = parent.get_text(" ", strip=True)
+                        # Remove button texts
+                        for skip in skip_texts:
+                            all_text = re.sub(re.escape(skip), '', all_text, flags=re.I)
+                        # Remove prices temporarily for title extraction
+                        clean_text = re.sub(r'\$\s*[\d.,]+', '', all_text)
+                        clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+                        if len(clean_text) > 10:
+                            title = clean_text[:150]
 
             if not title or len(title) < 5:
+                return None
+
+            # Final check - skip if still button text
+            if title.lower().strip() in skip_texts:
                 return None
 
             # Try to find image
@@ -162,7 +220,7 @@ class GlobalRematesScraper(BaseScraper):
                 id=self.generate_id(f"auction_{auction_id}"),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
-                title=title[:200],
+                title=self._clean_title(title)[:200],
                 description="",
                 category=category,
                 base_price=0.0,
@@ -179,13 +237,49 @@ class GlobalRematesScraper(BaseScraper):
         try:
             source_url = f"{self.BASE_URL}/LotDetails.aspx?id={lot_id}"
 
+            # Button/navigation text to skip
+            skip_texts = [
+                "su oferta", "ofertar", "ver detalles", "ver más", "ver lotes",
+                "ingresar", "registrarse", "login", "detalle", "ver", "más info",
+                "comprar", "pujar", "bid", "offer", "details", "view"
+            ]
+
             title = link.get_text(strip=True)
-            if len(title) < 5:
-                parent = link.find_parent()
+            title_lower = title.lower().strip()
+
+            # Skip if it's button text
+            if title_lower in skip_texts or len(title) < 8:
+                title = ""
+
+                # Try parent div/li
+                parent = link.find_parent("li") or link.find_parent("div") or link.find_parent("td")
                 if parent:
-                    title = parent.get_text(strip=True)[:150]
+                    # Look for h1, h2, h3, h4, h5, h6, strong
+                    title_elem = parent.find(["h1", "h2", "h3", "h4", "h5", "h6", "strong"])
+                    if title_elem:
+                        title = title_elem.get_text(strip=True)
+
+                    if not title or len(title) < 8:
+                        # Look for span/div with title class
+                        title_elem = parent.find(class_=re.compile(r'title|nombre|name|descripcion', re.I))
+                        if title_elem:
+                            title = title_elem.get_text(strip=True)
+
+                    if not title or len(title) < 8:
+                        # Get all text and extract first meaningful line
+                        all_text = parent.get_text(" ", strip=True)
+                        for skip in skip_texts:
+                            all_text = re.sub(re.escape(skip), '', all_text, flags=re.I)
+                        clean_text = re.sub(r'\$\s*[\d.,]+', '', all_text)
+                        clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+                        if len(clean_text) > 10:
+                            title = clean_text[:150]
 
             if not title or len(title) < 5:
+                return None
+
+            # Final check - skip if still button text
+            if title.lower().strip() in skip_texts:
                 return None
 
             # Try to find image
@@ -221,7 +315,7 @@ class GlobalRematesScraper(BaseScraper):
                 id=self.generate_id(f"lot_{lot_id}"),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
-                title=title[:200],
+                title=self._clean_title(title)[:200],
                 description="",
                 category=category,
                 base_price=price,
@@ -286,7 +380,7 @@ class GlobalRematesScraper(BaseScraper):
                 id=self.generate_id(f"{id_prefix}_{item_id}"),
                 source=self.SOURCE_NAME,
                 source_url=source_url,
-                title=title[:200],
+                title=self._clean_title(title)[:200],
                 description=text[:300] if len(text) > 200 else "",
                 category=category,
                 base_price=price,

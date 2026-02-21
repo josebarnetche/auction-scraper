@@ -26,6 +26,11 @@ def generate_site():
         "tel:+",
         "ramos de pujas",
         "ramer nro",
+        "su oferta",
+        "ofertar",
+        "ver detalles",
+        "ver más",
+        "ver lotes",
     ]
 
     # Generic title patterns (low quality listings)

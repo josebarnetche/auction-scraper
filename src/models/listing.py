@@ -126,22 +126,25 @@ def detect_category(title: str, description: str = "") -> str:
     real_estate_keywords = [
         "inmueble", "casa", "departamento", "terreno", "lote", "local",
         "oficina", "galpón", "galpon", "campo", "propiedad", "edificio",
-        "cochera", "ph", "dúplex", "duplex", "monoambiente", "hectáreas"
+        "cochera", "ph", "dúplex", "duplex", "monoambiente", "hectáreas",
+        "parcela", "predio", "uf.", "unidad funcional", "piso", "dto"
     ]
 
     machinery_keywords = [
         "maquinaria", "máquina", "maquina", "tractor", "cosechadora",
-        "herramienta", "equipo", "industrial", "agrícola", "agricola",
+        "herramienta", "equipo industrial", "maquina industrial", "agrícola", "agricola",
         "generador", "grupo electrogeno", "electrógeno", "compresor",
-        "soldadora", "torno", "fresadora", "guillotina", "autoelevador"
+        "soldadora", "torno", "fresadora", "guillotina", "autoelevador",
+        "excavadora", "retroexcavadora", "grúa", "grua", "montacarga"
     ]
 
-    # Check machinery FIRST (before vehicles to avoid brand name conflicts like "honda")
-    if any(kw in text for kw in machinery_keywords):
+    # Check real_estate FIRST (terreno/parcela should be real estate even if "industrial" appears)
+    # Then machinery (before vehicles to avoid brand conflicts like "honda")
+    if any(kw in text for kw in real_estate_keywords):
+        return "real_estate"
+    elif any(kw in text for kw in machinery_keywords):
         return "machinery"
     elif any(kw in text for kw in vehicle_keywords):
         return "vehicles"
-    elif any(kw in text for kw in real_estate_keywords):
-        return "real_estate"
 
     return "other"

@@ -356,35 +356,47 @@ class BancoCiudadScraper(BaseScraper):
 
             # Extract price from page text
             base_price = 0.0
-            currency = "USD"  # Banco Ciudad typically uses USD
+            currency = "ARS"  # Default to ARS, detect USD from price format
 
-            # Look for price patterns
-            price_patterns = [
-                r'Base[:\s]*(?:USD|U\$S)?\s*\$?\s*([\d.,]+)',
-                r'Precio\s+Base[:\s]*(?:USD|U\$S)?\s*\$?\s*([\d.,]+)',
-                r'(?:USD|U\$S)\s*\$?\s*([\d.,]+)',
-                r'Valor[:\s]*\$?\s*([\d.,]+)',
-            ]
+            # Look for USD price format first (U$S, USD)
+            usd_price_match = re.search(r'(?:U\$S|USD)\s*\$?\s*([\d.,]+)', page_text, re.I)
+            if usd_price_match:
+                currency = "USD"
+                price_str = usd_price_match.group(1)
+                if "," in price_str:
+                    price_str = price_str.replace(".", "").replace(",", ".")
+                else:
+                    price_str = price_str.replace(".", "")
+                try:
+                    price = float(price_str)
+                    if price > 100:
+                        base_price = price
+                except ValueError:
+                    pass
 
-            for pattern in price_patterns:
-                match = re.search(pattern, page_text, re.I)
-                if match:
-                    price_str = match.group(1)
-                    if "," in price_str:
-                        price_str = price_str.replace(".", "").replace(",", ".")
-                    else:
-                        price_str = price_str.replace(".", "")
-                    try:
-                        price = float(price_str)
-                        if price > 100:  # Reasonable minimum
-                            base_price = price
-                            break
-                    except ValueError:
-                        pass
+            # If no USD price found, look for ARS price
+            if base_price == 0:
+                price_patterns = [
+                    r'Base[:\s]*\$\s*([\d.,]+)',
+                    r'Precio\s+Base[:\s]*\$\s*([\d.,]+)',
+                    r'Valor[:\s]*\$\s*([\d.,]+)',
+                ]
 
-            # Detect if ARS instead of USD
-            if 'pesos' in page_text.lower() and 'dolar' not in page_text.lower():
-                currency = "ARS"
+                for pattern in price_patterns:
+                    match = re.search(pattern, page_text, re.I)
+                    if match:
+                        price_str = match.group(1)
+                        if "," in price_str:
+                            price_str = price_str.replace(".", "").replace(",", ".")
+                        else:
+                            price_str = price_str.replace(".", "")
+                        try:
+                            price = float(price_str)
+                            if price > 100:  # Reasonable minimum
+                                base_price = price
+                                break
+                        except ValueError:
+                            pass
 
             # Try to find the title - appears between "Compartir" and "Sujeta a aprobación"
             title = ""

@@ -234,9 +234,29 @@ def generate_site():
         description = listing.get("description", "")
         listing["category"] = detect_category(title, description)
 
+        # Filter out logo/junk images (especially from Agusti)
+        logo_patterns = ['home_agusti', 'agusti_subastas', 'empresas/', 'logo', 'icon',
+                         'avatar', 'social', 'facebook', 'twitter', 'banner']
+        images = listing.get("images", [])
+        clean_images = [img for img in images
+                        if not any(p in img.lower() for p in logo_patterns)]
+        listing["images"] = clean_images if clean_images else images[:1]  # Keep first if all filtered
+
         # Ensure currency is set and add USD equivalent for filtering
         currency = listing.get("currency", "ARS")
         base_price = listing.get("base_price", 0)
+        source = listing.get("source", "")
+
+        # Currency correction for Banco Ciudad: they typically price in USD
+        # Detect USD prices incorrectly stored as ARS
+        # Heuristic: BC real estate > 50,000 is likely USD, not ARS
+        if source == "banco_ciudad" and currency == "ARS" and base_price > 50000:
+            category = listing.get("category", "")
+            # Real estate priced > 50k and machinery > 10k are likely USD
+            if category == "real_estate" or (category == "machinery" and base_price > 10000):
+                currency = "USD"
+                listing["currency"] = "USD"
+
         if currency == "ARS" and base_price > 0:
             listing["base_price_usd"] = round(base_price / BLUE_DOLLAR_RATE, 2)
         elif currency == "USD":

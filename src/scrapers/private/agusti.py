@@ -388,7 +388,8 @@ class AgustiSubastasScraper(BaseScraper):
         images = []
 
         skip_patterns = ['logo', 'icon', 'avatar', 'share', 'social', 'facebook',
-                        'twitter', 'whatsapp', 'banner', 'ad', 'spinner']
+                        'twitter', 'whatsapp', 'banner', 'ad', 'spinner',
+                        'home_agusti', 'agusti_subastas', 'empresas/']
 
         # Look for gallery images
         for img in soup.find_all("img"):

@@ -89,18 +89,113 @@ html {
 </style>
 </head>
 <body class="antialiased overflow-x-hidden">
-    <!-- UNICORN STUDIO ANIMATED BACKGROUND (cursor reactive) -->
-    <div class="aura-background-component fixed inset-0 z-0 saturate-150 opacity-60" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent);">
-        <div class="absolute inset-0 w-full h-full" data-us-project="FixNvEwvWwbu3QX9qC3F"></div>
-        <script type="text/javascript">
-            !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
-        </script>
+    <!-- CURSOR-REACTIVE YELLOW LIGHT BACKGROUND -->
+    <div id="interactive-bg" class="fixed inset-0 z-0">
+        <canvas id="cursor-canvas" class="w-full h-full"></canvas>
     </div>
+    <script>
+        (function() {
+            const canvas = document.getElementById('cursor-canvas');
+            const ctx = canvas.getContext('2d');
+            let mouseX = window.innerWidth / 2;
+            let mouseY = window.innerHeight / 2;
+            let targetX = mouseX;
+            let targetY = mouseY;
+            let particles = [];
 
-    <!-- DARK OVERLAY (reduces background visibility) -->
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            resize();
+            window.addEventListener('resize', resize);
+
+            document.addEventListener('mousemove', (e) => {
+                targetX = e.clientX;
+                targetY = e.clientY;
+            });
+
+            // Particle class for trailing effect
+            class Particle {
+                constructor(x, y) {
+                    this.x = x;
+                    this.y = y;
+                    this.size = Math.random() * 100 + 50;
+                    this.speedX = (Math.random() - 0.5) * 0.5;
+                    this.speedY = (Math.random() - 0.5) * 0.5;
+                    this.life = 1;
+                    this.decay = 0.008 + Math.random() * 0.008;
+                }
+                update() {
+                    this.x += this.speedX;
+                    this.y += this.speedY;
+                    this.life -= this.decay;
+                }
+                draw() {
+                    const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);
+                    gradient.addColorStop(0, `rgba(234, 179, 8, ${this.life * 0.15})`);
+                    gradient.addColorStop(0.4, `rgba(251, 191, 36, ${this.life * 0.08})`);
+                    gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                    ctx.fillStyle = gradient;
+                    ctx.fillRect(this.x - this.size, this.y - this.size, this.size * 2, this.size * 2);
+                }
+            }
+
+            let frameCount = 0;
+            function draw() {
+                mouseX += (targetX - mouseX) * 0.06;
+                mouseY += (targetY - mouseY) * 0.06;
+
+                ctx.fillStyle = 'rgba(3, 3, 3, 0.15)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Spawn particles
+                frameCount++;
+                if (frameCount % 3 === 0) {
+                    particles.push(new Particle(mouseX + (Math.random() - 0.5) * 100, mouseY + (Math.random() - 0.5) * 100));
+                }
+
+                // Update and draw particles
+                particles = particles.filter(p => p.life > 0);
+                particles.forEach(p => {
+                    p.update();
+                    p.draw();
+                });
+
+                // Main cursor glow - YELLOW/GOLD
+                const gradient1 = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 350);
+                gradient1.addColorStop(0, 'rgba(234, 179, 8, 0.35)');
+                gradient1.addColorStop(0.2, 'rgba(251, 191, 36, 0.2)');
+                gradient1.addColorStop(0.5, 'rgba(245, 158, 11, 0.1)');
+                gradient1.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                ctx.fillStyle = gradient1;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Secondary warm glow
+                const gradient2 = ctx.createRadialGradient(mouseX - 80, mouseY + 80, 0, mouseX - 80, mouseY + 80, 250);
+                gradient2.addColorStop(0, 'rgba(245, 158, 11, 0.2)');
+                gradient2.addColorStop(0.5, 'rgba(217, 119, 6, 0.08)');
+                gradient2.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                ctx.fillStyle = gradient2;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Accent glow
+                const gradient3 = ctx.createRadialGradient(mouseX + 100, mouseY - 60, 0, mouseX + 100, mouseY - 60, 200);
+                gradient3.addColorStop(0, 'rgba(252, 211, 77, 0.18)');
+                gradient3.addColorStop(0.5, 'rgba(251, 191, 36, 0.05)');
+                gradient3.addColorStop(1, 'rgba(0, 0, 0, 0)');
+                ctx.fillStyle = gradient3;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                requestAnimationFrame(draw);
+            }
+            draw();
+        })();
+    </script>
+
+    <!-- SUBTLE OVERLAY -->
     <div class="fixed inset-0 pointer-events-none z-[1]">
-        <div class="absolute inset-0 bg-black/50"></div>
-        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/50"></div>
     </div>
 
     <!-- NAVIGATION -->

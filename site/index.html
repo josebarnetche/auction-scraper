@@ -1,708 +1,537 @@
-<html lang="en" class="bg-[#030303]"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Argentina Auction Scraper</title>
+<!DOCTYPE html>
+<html lang="en" class="bg-[#030303]">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Argentina Auction Scraper - Live Auctions</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<!-- GSAP & ScrollTrigger -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-<!-- Lenis (Smooth Scroll) -->
-<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
-<!-- Iconify -->
-<script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
-<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root {
---cursor-size: 20px;
-}
+:root { --cursor-size: 20px; }
 body {
-font-family: 'Manrope', sans-serif;
-background-color: #030303;
-color: #ffffff;
-overflow-x: hidden;
-margin: 0;
-}
-@media (hover: hover) and (pointer: fine) {
-body { cursor: none; }
-}
-#cursor {
-position: fixed;
-top: 0; left: 0;
-width: var(--cursor-size); height: var(--cursor-size);
-border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 50%;
-pointer-events: none;
-z-index: 9999;
-transform: translate(-50%, -50%);
-transition: width 0.3s, height 0.3s, background-color 0.3s;
-mix-blend-mode: difference;
-display: none;
-}
-@media (hover: hover) and (pointer: fine) {
-#cursor { display: block; }
-}
-#cursor.hovered {
-width: 50px; height: 50px;
-background-color: white;
-border-color: transparent;
-mix-blend-mode: exclusion;
+    font-family: 'Manrope', sans-serif;
+    background-color: #030303;
+    color: #ffffff;
+    overflow-x: hidden;
 }
 .font-display { font-family: 'Space Grotesk', sans-serif; }
 .glass {
-background: rgba(255, 255, 255, 0.03);
-backdrop-filter: blur(10px);
-border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
-.grayscale-img {
-filter: grayscale(100%);
-transition: filter 0.5s ease, transform 0.7s ease;
+.auction-card {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.group:hover .grayscale-img {
-filter: grayscale(0%);
-transform: scale(1.05);
+.auction-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(234, 179, 8, 0.15);
 }
-.card-3d-wrap { perspective: 1000px; }
-.card-3d-inner {
-transform-style: preserve-3d;
-transition: transform 0.5s;
+.auction-card:hover .auction-image {
+    transform: scale(1.1);
 }
-.card-element { transform: translateZ(40px); }
-.mask-text { overflow: hidden; display: block; }
-.mask-text span {
-display: block;
-transform: translateY(110%);
-will-change: transform;
+.auction-image {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.bg-noise {
-background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
-}
-@keyframes scan-line {
-0% { top: 0%; opacity: 0; }
-10% { opacity: 1; }
-90% { opacity: 1; }
-100% { top: 100%; opacity: 0; }
-}
-.animate-scan {
-animation: scan-line 3s linear infinite;
-}
-/* Data table styles */
-.data-table {
-width: 100%;
-border-collapse: collapse;
-}
-.data-table th {
-text-align: left;
-padding: 12px 16px;
-border-bottom: 1px solid rgba(255,255,255,0.1);
-font-size: 12px;
-text-transform: uppercase;
-letter-spacing: 0.05em;
-color: #eab308;
-}
-.data-table td {
-padding: 16px;
-border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-.data-table tr:hover {
-background: rgba(255,255,255,0.02);
-}
-.discount-badge {
-padding: 4px 12px;
-border-radius: 999px;
-font-weight: 600;
-font-size: 13px;
-}
-.discount-high { background: rgba(34,197,94,0.2); color: #22c55e; }
-.discount-medium { background: rgba(234,179,8,0.2); color: #eab308; }
 .category-badge {
-padding: 2px 8px;
-border-radius: 4px;
-font-size: 11px;
-text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
 }
-.category-vehicles { background: rgba(59,130,246,0.2); color: #3b82f6; }
-.category-real_estate { background: rgba(236,72,153,0.2); color: #ec4899; }
-.category-machinery { background: rgba(234,179,8,0.2); color: #eab308; }
-.category-other { background: rgba(156,163,175,0.2); color: #9ca3af; }
+.category-vehicles { background: rgba(59,130,246,0.2); color: #60a5fa; }
+.category-real_estate { background: rgba(236,72,153,0.2); color: #f472b6; }
+.category-machinery { background: rgba(234,179,8,0.2); color: #fbbf24; }
+.category-other { background: rgba(156,163,175,0.2); color: #d1d5db; }
+.source-badge {
+    background: rgba(234, 179, 8, 0.1);
+    color: #eab308;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.scroll-indicator {
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+}
+.loading-skeleton {
+    background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
 </style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap">
 </head>
-<body class="antialiased overflow-x-hidden text-white bg-black relative">
-    <!-- CUSTOM CURSOR -->
-    <div id="cursor"></div>
-
+<body class="antialiased">
     <!-- NAVIGATION -->
-    <nav class="fixed transition-transform duration-300 z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0" id="navbar">
-        <div class="flex flex-col glass max-w-[1600px] rounded-[24px] md:rounded-full mr-auto ml-auto px-4 py-3 md:px-8 items-center justify-between transition-all duration-300">
-            <div class="flex w-full items-center justify-between">
-                <a href="#" class="flex items-center gap-3 group hover-trigger">
-                    <div class="flex overflow-hidden bg-center text-black bg-white w-7 h-7 md:w-8 md:h-8 max-w-full bg-cover rounded-sm scale-100 items-center justify-center">
-                        <iconify-icon icon="solar:gavel-bold" width="18" height="18"></iconify-icon>
-                    </div>
-                    <span class="text-base md:text-lg font-semibold text-white tracking-tight font-display text-left">Auction<span class="font-light text-yellow-500">Scraper</span></span>
-                </a>
-
-                <!-- Desktop Menu -->
-                <div class="hidden md:flex items-center gap-12">
-                    <a href="#opportunities" class="text-xs font-medium uppercase tracking-widest transition-colors hover-trigger hover:text-white text-yellow-400">Opportunities</a>
-                    <a href="#dashboard" class="text-xs font-medium uppercase tracking-widest transition-colors hover-trigger hover:text-white text-yellow-400">Dashboard</a>
-                    <a href="#features" class="uppercase transition-colors hover-trigger hover:text-white text-xs font-medium text-yellow-400 tracking-widest">Features</a>
-                    <a href="#sources" class="uppercase transition-colors hover-trigger hover:text-white text-xs font-medium text-yellow-400 tracking-widest">Sources</a>
+    <nav class="fixed z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0">
+        <div class="flex glass max-w-[1400px] rounded-full mx-auto px-6 py-3 items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <!-- Animated Logo -->
+                <div class="w-10 h-10 md:w-12 md:h-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                        <defs>
+                            <g id="tickLong"><line x1="0" y1="-220" x2="0" y2="-245"/></g>
+                            <g id="tickMed"><line x1="0" y1="-220" x2="0" y2="-238"/></g>
+                            <g id="tickShort"><line x1="0" y1="-220" x2="0" y2="-232"/></g>
+                            <style>
+                                @keyframes rotateCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+                                @keyframes rotateCCW { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+                                @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.16); } }
+                                #crosshair { transform-origin: 256px 256px; animation: rotateCCW 95s linear infinite; }
+                                #ticks { transform-origin: 0 0; animation: rotateCW 42s linear infinite; }
+                                #core { transform-origin: 256px 256px; animation: pulse 4.8s ease-in-out infinite; }
+                            </style>
+                        </defs>
+                        <rect width="512" height="512" fill="transparent"/>
+                        <g fill="none">
+                            <circle cx="256" cy="256" r="228" stroke="#1a1400" stroke-width="2"/>
+                            <circle cx="256" cy="256" r="208" stroke="#2a2000" stroke-width="2"/>
+                            <circle cx="256" cy="256" r="188" stroke="#3a2c00" stroke-width="2"/>
+                            <circle cx="256" cy="256" r="168" stroke="#4a3800" stroke-width="2"/>
+                            <circle cx="256" cy="256" r="148" stroke="#5a4400" stroke-width="2"/>
+                            <circle cx="256" cy="256" r="128" stroke="#6a5000" stroke-width="2" opacity="0.75"/>
+                            <circle cx="256" cy="256" r="108" stroke="#7a5c00" stroke-width="2" opacity="0.75"/>
+                            <circle cx="256" cy="256" r="88" stroke="#8a6800" stroke-width="2" opacity="0.75"/>
+                        </g>
+                        <g id="crosshair" stroke="#b8860b" stroke-width="2" opacity="0.65" stroke-linecap="round">
+                            <line x1="256" y1="20" x2="256" y2="492"/>
+                            <line x1="20" y1="256" x2="492" y2="256"/>
+                            <line x1="88" y1="88" x2="424" y2="424"/>
+                            <line x1="424" y1="88" x2="88" y2="424"/>
+                            <line x1="256" y1="20" x2="256" y2="492" transform="rotate(22.5 256 256)"/>
+                            <line x1="20" y1="256" x2="492" y2="256" transform="rotate(22.5 256 256)"/>
+                            <line x1="256" y1="20" x2="256" y2="492" transform="rotate(-22.5 256 256)"/>
+                            <line x1="20" y1="256" x2="492" y2="256" transform="rotate(-22.5 256 256)"/>
+                        </g>
+                        <g transform="translate(256 256)">
+                            <g id="ticks" fill="none" stroke="#eab308" stroke-linecap="round" opacity="0.85" stroke-width="3">
+                                <use href="#tickLong" transform="rotate(0)"/><use href="#tickMed" transform="rotate(5.625)"/>
+                                <use href="#tickShort" transform="rotate(11.25)"/><use href="#tickMed" transform="rotate(16.875)"/>
+                                <use href="#tickLong" transform="rotate(22.5)"/><use href="#tickMed" transform="rotate(28.125)"/>
+                                <use href="#tickShort" transform="rotate(33.75)"/><use href="#tickMed" transform="rotate(39.375)"/>
+                                <use href="#tickLong" transform="rotate(45)"/><use href="#tickMed" transform="rotate(50.625)"/>
+                                <use href="#tickShort" transform="rotate(56.25)"/><use href="#tickMed" transform="rotate(61.875)"/>
+                                <use href="#tickLong" transform="rotate(67.5)"/><use href="#tickMed" transform="rotate(73.125)"/>
+                                <use href="#tickShort" transform="rotate(78.75)"/><use href="#tickMed" transform="rotate(84.375)"/>
+                                <use href="#tickLong" transform="rotate(90)"/><use href="#tickMed" transform="rotate(95.625)"/>
+                                <use href="#tickShort" transform="rotate(101.25)"/><use href="#tickMed" transform="rotate(106.875)"/>
+                                <use href="#tickLong" transform="rotate(112.5)"/><use href="#tickMed" transform="rotate(118.125)"/>
+                                <use href="#tickShort" transform="rotate(123.75)"/><use href="#tickMed" transform="rotate(129.375)"/>
+                                <use href="#tickLong" transform="rotate(135)"/><use href="#tickMed" transform="rotate(140.625)"/>
+                                <use href="#tickShort" transform="rotate(146.25)"/><use href="#tickMed" transform="rotate(151.875)"/>
+                                <use href="#tickLong" transform="rotate(157.5)"/><use href="#tickMed" transform="rotate(163.125)"/>
+                                <use href="#tickShort" transform="rotate(168.75)"/><use href="#tickMed" transform="rotate(174.375)"/>
+                                <use href="#tickLong" transform="rotate(180)"/><use href="#tickMed" transform="rotate(185.625)"/>
+                                <use href="#tickShort" transform="rotate(191.25)"/><use href="#tickMed" transform="rotate(196.875)"/>
+                                <use href="#tickLong" transform="rotate(202.5)"/><use href="#tickMed" transform="rotate(208.125)"/>
+                                <use href="#tickShort" transform="rotate(213.75)"/><use href="#tickMed" transform="rotate(219.375)"/>
+                                <use href="#tickLong" transform="rotate(225)"/><use href="#tickMed" transform="rotate(230.625)"/>
+                                <use href="#tickShort" transform="rotate(236.25)"/><use href="#tickMed" transform="rotate(241.875)"/>
+                                <use href="#tickLong" transform="rotate(247.5)"/><use href="#tickMed" transform="rotate(253.125)"/>
+                                <use href="#tickShort" transform="rotate(258.75)"/><use href="#tickMed" transform="rotate(264.375)"/>
+                                <use href="#tickLong" transform="rotate(270)"/><use href="#tickMed" transform="rotate(275.625)"/>
+                                <use href="#tickShort" transform="rotate(281.25)"/><use href="#tickMed" transform="rotate(286.875)"/>
+                                <use href="#tickLong" transform="rotate(292.5)"/><use href="#tickMed" transform="rotate(298.125)"/>
+                                <use href="#tickShort" transform="rotate(303.75)"/><use href="#tickMed" transform="rotate(309.375)"/>
+                                <use href="#tickLong" transform="rotate(315)"/><use href="#tickMed" transform="rotate(320.625)"/>
+                                <use href="#tickShort" transform="rotate(326.25)"/><use href="#tickMed" transform="rotate(331.875)"/>
+                                <use href="#tickLong" transform="rotate(337.5)"/><use href="#tickMed" transform="rotate(343.125)"/>
+                                <use href="#tickShort" transform="rotate(348.75)"/><use href="#tickMed" transform="rotate(354.375)"/>
+                            </g>
+                        </g>
+                        <g id="core">
+                            <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                            <rect x="226" y="226" width="60" height="60" fill="none" stroke="#a16207" stroke-width="4" transform="rotate(45 256 256)"/>
+                            <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                            <circle cx="256" cy="256" r="36" fill="none" stroke="#854d0e" stroke-width="2" opacity="0.65"/>
+                        </g>
+                    </svg>
                 </div>
-
-                <!-- Right Actions -->
-                <div class="flex items-center gap-4">
-                    <button class="uppercase transition-colors hover-trigger hover:bg-yellow-200 cursor-pointer text-xs font-semibold text-black tracking-wider bg-amber-400 rounded-full px-6 py-2" onclick="window.location.href='#dashboard'" role="button">VIEW DASHBOARD</button>
-                </div>
+                <span class="text-lg md:text-xl font-semibold text-white tracking-tight font-display">
+                    Auction<span class="font-light text-yellow-500">Radar</span>
+                </span>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#auctions" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Live Feed</a>
+                <a href="#sources" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Sources</a>
+            </div>
+            <div class="flex items-center gap-2 text-xs">
+                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                <span class="text-white/60 uppercase tracking-wider hidden sm:inline">Live</span>
             </div>
         </div>
     </nav>
 
-    <!-- SECTION 1: HERO -->
-    <section class="min-h-[100dvh] flex flex-col overflow-hidden z-10 md:px-6 pr-4 pl-4 relative items-center justify-center">
-        <!-- Creative Canvas Background -->
-        <canvas class="pointer-events-none z-0 opacity-40 w-full h-full absolute top-0 right-0 bottom-0 left-0" width="1030" height="794" id="hero-canvas"></canvas>
-        <div class="z-0 pointer-events-none bg-gradient-to-t from-[#030303] via-transparent to-[#030303]/80 absolute top-0 right-0 bottom-0 left-0"></div>
+    <!-- HERO SECTION -->
+    <section class="min-h-screen flex flex-col items-center justify-center px-4 pt-20 relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 bg-gradient-to-b from-yellow-900/10 via-transparent to-transparent"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-yellow-500/5 rounded-full blur-3xl"></div>
 
-        <div class="z-10 text-center max-w-[1400px] mr-auto ml-auto relative gap-x-12 gap-y-16">
-            <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border backdrop-blur-md mb-8 md:mb-12 hover-trigger opacity-0 animate-fade-in border-white/10 bg-white/5" style="opacity: 1;">
-                <span class="w-1.5 h-1.5 rounded-full animate-pulse bg-green-500"></span>
-                <span class="text-xs uppercase font-medium tracking-[0.2em] text-yellow-300">Live Market Analysis</span>
+        <div class="relative z-10 text-center max-w-4xl mx-auto">
+            <!-- Animated Logo Large -->
+            <div class="w-32 h-32 md:w-48 md:h-48 mx-auto mb-8">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                    <defs>
+                        <g id="tickLong2"><line x1="0" y1="-220" x2="0" y2="-245"/></g>
+                        <g id="tickMed2"><line x1="0" y1="-220" x2="0" y2="-238"/></g>
+                        <g id="tickShort2"><line x1="0" y1="-220" x2="0" y2="-232"/></g>
+                        <style>
+                            @keyframes rotateCW2 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+                            @keyframes rotateCCW2 { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+                            @keyframes pulse2 { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.16); } }
+                            #crosshair2 { transform-origin: 256px 256px; animation: rotateCCW2 95s linear infinite; }
+                            #ticks2 { transform-origin: 0 0; animation: rotateCW2 42s linear infinite; }
+                            #core2 { transform-origin: 256px 256px; animation: pulse2 4.8s ease-in-out infinite; }
+                        </style>
+                    </defs>
+                    <rect width="512" height="512" fill="transparent"/>
+                    <g fill="none">
+                        <circle cx="256" cy="256" r="228" stroke="#1a1400" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="208" stroke="#2a2000" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="188" stroke="#3a2c00" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="168" stroke="#4a3800" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="148" stroke="#5a4400" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="128" stroke="#6a5000" stroke-width="2" opacity="0.75"/>
+                        <circle cx="256" cy="256" r="108" stroke="#7a5c00" stroke-width="2" opacity="0.75"/>
+                        <circle cx="256" cy="256" r="88" stroke="#8a6800" stroke-width="2" opacity="0.75"/>
+                    </g>
+                    <g id="crosshair2" stroke="#b8860b" stroke-width="2" opacity="0.65" stroke-linecap="round">
+                        <line x1="256" y1="20" x2="256" y2="492"/>
+                        <line x1="20" y1="256" x2="492" y2="256"/>
+                        <line x1="88" y1="88" x2="424" y2="424"/>
+                        <line x1="424" y1="88" x2="88" y2="424"/>
+                        <line x1="256" y1="20" x2="256" y2="492" transform="rotate(22.5 256 256)"/>
+                        <line x1="20" y1="256" x2="492" y2="256" transform="rotate(22.5 256 256)"/>
+                        <line x1="256" y1="20" x2="256" y2="492" transform="rotate(-22.5 256 256)"/>
+                        <line x1="20" y1="256" x2="492" y2="256" transform="rotate(-22.5 256 256)"/>
+                    </g>
+                    <g transform="translate(256 256)">
+                        <g id="ticks2" fill="none" stroke="#eab308" stroke-linecap="round" opacity="0.85" stroke-width="3">
+                            <use href="#tickLong2" transform="rotate(0)"/><use href="#tickMed2" transform="rotate(5.625)"/>
+                            <use href="#tickShort2" transform="rotate(11.25)"/><use href="#tickMed2" transform="rotate(16.875)"/>
+                            <use href="#tickLong2" transform="rotate(22.5)"/><use href="#tickMed2" transform="rotate(28.125)"/>
+                            <use href="#tickShort2" transform="rotate(33.75)"/><use href="#tickMed2" transform="rotate(39.375)"/>
+                            <use href="#tickLong2" transform="rotate(45)"/><use href="#tickMed2" transform="rotate(50.625)"/>
+                            <use href="#tickShort2" transform="rotate(56.25)"/><use href="#tickMed2" transform="rotate(61.875)"/>
+                            <use href="#tickLong2" transform="rotate(67.5)"/><use href="#tickMed2" transform="rotate(73.125)"/>
+                            <use href="#tickShort2" transform="rotate(78.75)"/><use href="#tickMed2" transform="rotate(84.375)"/>
+                            <use href="#tickLong2" transform="rotate(90)"/><use href="#tickMed2" transform="rotate(95.625)"/>
+                            <use href="#tickShort2" transform="rotate(101.25)"/><use href="#tickMed2" transform="rotate(106.875)"/>
+                            <use href="#tickLong2" transform="rotate(112.5)"/><use href="#tickMed2" transform="rotate(118.125)"/>
+                            <use href="#tickShort2" transform="rotate(123.75)"/><use href="#tickMed2" transform="rotate(129.375)"/>
+                            <use href="#tickLong2" transform="rotate(135)"/><use href="#tickMed2" transform="rotate(140.625)"/>
+                            <use href="#tickShort2" transform="rotate(146.25)"/><use href="#tickMed2" transform="rotate(151.875)"/>
+                            <use href="#tickLong2" transform="rotate(157.5)"/><use href="#tickMed2" transform="rotate(163.125)"/>
+                            <use href="#tickShort2" transform="rotate(168.75)"/><use href="#tickMed2" transform="rotate(174.375)"/>
+                            <use href="#tickLong2" transform="rotate(180)"/><use href="#tickMed2" transform="rotate(185.625)"/>
+                            <use href="#tickShort2" transform="rotate(191.25)"/><use href="#tickMed2" transform="rotate(196.875)"/>
+                            <use href="#tickLong2" transform="rotate(202.5)"/><use href="#tickMed2" transform="rotate(208.125)"/>
+                            <use href="#tickShort2" transform="rotate(213.75)"/><use href="#tickMed2" transform="rotate(219.375)"/>
+                            <use href="#tickLong2" transform="rotate(225)"/><use href="#tickMed2" transform="rotate(230.625)"/>
+                            <use href="#tickShort2" transform="rotate(236.25)"/><use href="#tickMed2" transform="rotate(241.875)"/>
+                            <use href="#tickLong2" transform="rotate(247.5)"/><use href="#tickMed2" transform="rotate(253.125)"/>
+                            <use href="#tickShort2" transform="rotate(258.75)"/><use href="#tickMed2" transform="rotate(264.375)"/>
+                            <use href="#tickLong2" transform="rotate(270)"/><use href="#tickMed2" transform="rotate(275.625)"/>
+                            <use href="#tickShort2" transform="rotate(281.25)"/><use href="#tickMed2" transform="rotate(286.875)"/>
+                            <use href="#tickLong2" transform="rotate(292.5)"/><use href="#tickMed2" transform="rotate(298.125)"/>
+                            <use href="#tickShort2" transform="rotate(303.75)"/><use href="#tickMed2" transform="rotate(309.375)"/>
+                            <use href="#tickLong2" transform="rotate(315)"/><use href="#tickMed2" transform="rotate(320.625)"/>
+                            <use href="#tickShort2" transform="rotate(326.25)"/><use href="#tickMed2" transform="rotate(331.875)"/>
+                            <use href="#tickLong2" transform="rotate(337.5)"/><use href="#tickMed2" transform="rotate(343.125)"/>
+                            <use href="#tickShort2" transform="rotate(348.75)"/><use href="#tickMed2" transform="rotate(354.375)"/>
+                        </g>
+                    </g>
+                    <g id="core2">
+                        <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                        <rect x="226" y="226" width="60" height="60" fill="none" stroke="#a16207" stroke-width="4" transform="rotate(45 256 256)"/>
+                        <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                        <circle cx="256" cy="256" r="36" fill="none" stroke="#854d0e" stroke-width="2" opacity="0.65"/>
+                    </g>
+                </svg>
             </div>
 
-            <h1 class="font-display text-5xl sm:text-6xl md:text-8xl lg:text-[7rem] font-medium tracking-tighter leading-[0.95] mb-8 md:mb-12 mix-blend-difference text-white">
-                <span class="mask-text"><span style="transform: translate(0px, 0px);">ARGENTINA</span></span>
-                <span class="mask-text"><span class="text-yellow-500" style="transform: translate(0px, 0px);">AUCTION</span></span>
-                <span class="mask-text"><span style="transform: translate(0px, 0px);">SCRAPER</span></span>
+            <h1 class="font-display text-4xl sm:text-5xl md:text-7xl font-medium tracking-tighter mb-6">
+                <span class="text-white">Argentina</span>
+                <span class="text-yellow-500"> Auction</span>
+                <span class="text-white"> Radar</span>
             </h1>
 
-            <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-4xl mx-auto mt-8 md:mt-12 border-t pt-8 opacity-0 animate-fade-up border-white/10" style="transform: translate(0px, 0px); opacity: 1;">
-                <p class="text-sm text-yellow-400 text-center md:text-left max-w-xs mb-8 md:mb-0">Monitors judicial and private auctions in Argentina, compares prices against market data (MercadoLibre), and identifies opportunities with 30%+ discounts.</p>
-                <div class="flex gap-12">
-                    <div class="text-center md:text-left">
-                        <div class="text-2xl font-bold font-display" id="stat-sources">8+</div>
-                        <div class="text-xs uppercase tracking-widest text-yellow-500">Auction Sources</div>
-                    </div>
-                    <div class="text-center md:text-left">
-                        <div class="text-2xl font-bold font-display text-green-500" id="stat-opportunities">-</div>
-                        <div class="text-xs uppercase tracking-widest text-yellow-500">Opportunities</div>
-                    </div>
+            <p class="text-lg md:text-xl text-yellow-400/80 max-w-2xl mx-auto mb-8">
+                Live feed of judicial and private auctions across Argentina.
+                Vehicles, real estate, machinery, and more.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <div class="glass rounded-full px-6 py-3 flex items-center gap-3">
+                    <span class="text-2xl font-bold font-display text-white" id="hero-count">-</span>
+                    <span class="text-xs uppercase tracking-wider text-yellow-500">Live Auctions</span>
+                </div>
+                <div class="glass rounded-full px-6 py-3 flex items-center gap-3">
+                    <span class="text-2xl font-bold font-display text-white" id="hero-sources">-</span>
+                    <span class="text-xs uppercase tracking-wider text-yellow-500">Sources</span>
                 </div>
             </div>
+
+            <a href="#auctions" class="inline-flex items-center gap-2 text-yellow-400 hover:text-white transition-colors">
+                <span class="text-sm uppercase tracking-widest">Explore Auctions</span>
+                <svg class="w-5 h-5 scroll-indicator" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </a>
         </div>
     </section>
 
-    <!-- SECTION 2: LIVE OPPORTUNITIES DATA TABLE -->
-    <section class="md:py-32 md:px-6 bg-[#030303] border-white/5 border-t pt-20 pr-4 pb-20 pl-4 relative" id="opportunities">
-        <div class="z-10 max-w-[1400px] mr-auto ml-auto relative">
-            <!-- Section Header -->
-            <div class="flex flex-col md:flex-row md:items-end md:mb-16 gap-6 md:gap-8 mb-16 items-start justify-between">
-                <div class="gap-x-4 gap-y-4">
-                    <h2 class="text-3xl md:text-4xl lg:text-6xl font-display font-medium mb-4 md:mb-6 text-white tracking-tight">Top Opportunities</h2>
-                    <p class="text-base md:text-lg text-yellow-400 max-w-lg">Auctions with 30%+ discount compared to MercadoLibre market prices.</p>
-                </div>
-                <div class="flex items-center gap-2 text-xs font-mono text-white/40 uppercase tracking-widest">
-                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                    <span id="last-updated">Loading...</span>
-                </div>
-            </div>
-
-            <!-- Stats Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-                <div class="glass rounded-xl p-6 text-center">
-                    <div class="text-3xl font-bold font-display text-white" id="total-listings">-</div>
-                    <div class="text-xs uppercase tracking-widest text-yellow-500 mt-2">Total Listings</div>
-                </div>
-                <div class="glass rounded-xl p-6 text-center">
-                    <div class="text-3xl font-bold font-display text-green-500" id="flagged-count">-</div>
-                    <div class="text-xs uppercase tracking-widest text-yellow-500 mt-2">30%+ Off</div>
-                </div>
-                <div class="glass rounded-xl p-6 text-center">
-                    <div class="text-3xl font-bold font-display text-white" id="sources-count">-</div>
-                    <div class="text-xs uppercase tracking-widest text-yellow-500 mt-2">Sources</div>
-                </div>
-                <div class="glass rounded-xl p-6 text-center">
-                    <div class="text-3xl font-bold font-display text-yellow-500" id="avg-discount">-</div>
-                    <div class="text-xs uppercase tracking-widest text-yellow-500 mt-2">Avg Discount</div>
-                </div>
-            </div>
-
-            <!-- Opportunities Table -->
-            <div class="glass rounded-2xl overflow-hidden">
-                <div class="overflow-x-auto">
-                    <table class="data-table">
-                        <thead>
-                            <tr class="bg-white/5">
-                                <th>Item</th>
-                                <th>Category</th>
-                                <th>Auction Price</th>
-                                <th>Market Price</th>
-                                <th>Discount</th>
-                                <th>Source</th>
-                            </tr>
-                        </thead>
-                        <tbody id="opportunities-tbody">
-                            <tr>
-                                <td colspan="6" class="text-center text-white/40 py-12">Loading opportunities...</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 3: FULL DASHBOARD -->
-    <section class="md:py-32 md:px-6 bg-[#050509] border-white/5 border-t pt-20 pr-4 pb-20 pl-4 relative" id="dashboard">
-        <div class="z-10 max-w-[1400px] mr-auto ml-auto relative">
-            <div class="flex flex-col md:flex-row md:items-end md:mb-16 gap-6 md:gap-8 mb-16 items-start justify-between">
+    <!-- LIVE AUCTIONS FEED -->
+    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="auctions">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
                 <div>
-                    <h2 class="text-3xl md:text-4xl lg:text-6xl font-display font-medium mb-4 md:mb-6 text-white tracking-tight">All Listings</h2>
-                    <p class="text-base md:text-lg text-yellow-400 max-w-lg">Complete listing from all monitored auction sources.</p>
+                    <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Live Auctions</h2>
+                    <p class="text-yellow-400/80">Real-time listings from Argentine auction houses</p>
                 </div>
-                <div class="flex gap-4">
-                    <select id="filter-category" class="glass rounded-lg px-4 py-2 text-sm text-white bg-transparent border-none outline-none">
-                        <option value="">All Categories</option>
-                        <option value="vehicles">Vehicles</option>
-                        <option value="real_estate">Real Estate</option>
-                        <option value="machinery">Machinery</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <select id="filter-source" class="glass rounded-lg px-4 py-2 text-sm text-white bg-transparent border-none outline-none">
-                        <option value="">All Sources</option>
-                    </select>
+                <div class="flex gap-3 flex-wrap">
+                    <button onclick="filterAuctions('')" class="filter-btn active glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white" data-filter="">All</button>
+                    <button onclick="filterAuctions('vehicles')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="vehicles">Vehicles</button>
+                    <button onclick="filterAuctions('real_estate')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="real_estate">Real Estate</button>
+                    <button onclick="filterAuctions('machinery')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="machinery">Machinery</button>
                 </div>
             </div>
 
-            <div class="glass rounded-2xl overflow-hidden">
-                <div class="overflow-x-auto">
-                    <table class="data-table">
-                        <thead>
-                            <tr class="bg-white/5">
-                                <th>Title</th>
-                                <th>Category</th>
-                                <th>Price</th>
-                                <th>Currency</th>
-                                <th>Source</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody id="listings-tbody">
-                            <tr>
-                                <td colspan="6" class="text-center text-white/40 py-12">Loading listings...</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <!-- Auctions Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="auctions-grid">
+                <!-- Loading skeletons -->
+                <div class="loading-skeleton rounded-2xl h-80"></div>
+                <div class="loading-skeleton rounded-2xl h-80"></div>
+                <div class="loading-skeleton rounded-2xl h-80"></div>
+                <div class="loading-skeleton rounded-2xl h-80"></div>
+            </div>
+
+            <!-- Load More -->
+            <div class="text-center mt-12" id="load-more-container" style="display: none;">
+                <button onclick="loadMore()" class="glass rounded-full px-8 py-3 text-sm uppercase tracking-wider text-yellow-400 hover:text-white hover:bg-white/10 transition-all">
+                    Load More Auctions
+                </button>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 4: FEATURES -->
-    <section class="z-10 bg-[#030303] border-white/5 border-t pt-16 md:pt-40 px-4 md:px-6 pb-16 relative" id="features">
-        <div class="max-w-7xl mr-auto ml-auto gap-x-4 gap-y-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
-                <div class="lg:sticky md:top-32 lg:mb-0 h-fit mb-12 relative top-0">
-                    <h2 class="md:text-5xl lg:text-6xl md:mb-8 text-4xl font-medium text-white tracking-tight font-display mb-6">Core <br>Features</h2>
-                    <p class="text-base md:text-lg text-yellow-400 text-justify max-w-md mb-8 md:mb-12">Automated daily scraping, market price comparison, and static dashboard generation via GitHub Actions.</p>
-                    <ul class="space-y-3 md:space-y-4 text-sm md:text-base">
-                        <li class="flex text-yellow-400 gap-x-4 gap-y-4 items-center font-medium"><iconify-icon icon="solar:check-circle-bold" class="text-green-500"></iconify-icon> Scrapes 8 auction sources</li>
-                        <li class="flex text-yellow-500 gap-x-4 gap-y-4 items-center font-medium"><iconify-icon icon="solar:check-circle-bold" class="text-green-500"></iconify-icon> MercadoLibre price comparison</li>
-                        <li class="flex text-yellow-500 gap-x-4 gap-y-4 items-center font-medium"><iconify-icon icon="solar:check-circle-bold" class="text-green-500"></iconify-icon> Blue dollar rate conversion</li>
-                    </ul>
-                </div>
-
-                <div class="flex flex-col gap-8 md:gap-12 pb-16">
-                    <!-- Feature Card 1 -->
-                    <div class="card-3d-wrap group h-auto min-h-[300px] w-full cursor-pointer hover-trigger">
-                        <div class="card-3d-inner relative w-full h-full border rounded-2xl p-6 md:p-10 flex flex-col justify-between shadow-2xl overflow-hidden bg-noise border-white/10">
-                            <div class="relative z-10">
-                                <div class="w-12 h-12 rounded-xl bg-yellow-500/10 flex items-center justify-center mb-6">
-                                    <iconify-icon icon="solar:server-square-bold" width="24" height="24" class="text-yellow-500"></iconify-icon>
-                                </div>
-                                <h3 class="text-2xl md:text-3xl font-medium text-white font-display mb-2 tracking-tight">Multi-Source Scraping</h3>
-                                <p class="text-yellow-500 max-w-sm text-sm md:text-base">Scrapes 8 auction sources including CSJN, SCBA, COMPR.AR, and private auctioneers like Adrian Mercado and Banco Ciudad.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Feature Card 2 -->
-                    <div class="card-3d-wrap group h-auto min-h-[300px] w-full cursor-pointer hover-trigger">
-                        <div class="card-3d-inner relative w-full h-full border rounded-2xl p-6 md:p-10 flex flex-col justify-between shadow-2xl overflow-hidden bg-noise border-white/10">
-                            <div class="relative z-10">
-                                <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6">
-                                    <iconify-icon icon="solar:chart-bold" width="24" height="24" class="text-blue-500"></iconify-icon>
-                                </div>
-                                <h3 class="text-2xl md:text-3xl font-medium text-white font-display mb-2 tracking-tight">Market Comparison</h3>
-                                <p class="text-yellow-500 max-w-sm text-sm md:text-base">Compares against MercadoLibre market prices using blue dollar rates for accurate ARS/USD conversion and valuation.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Feature Card 3 -->
-                    <div class="card-3d-wrap group h-auto min-h-[300px] w-full cursor-pointer hover-trigger">
-                        <div class="card-3d-inner relative w-full h-full border rounded-2xl p-6 md:p-10 flex flex-col justify-between shadow-2xl overflow-hidden bg-noise border-white/10">
-                            <div class="relative z-10">
-                                <div class="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-6">
-                                    <iconify-icon icon="solar:refresh-bold" width="24" height="24" class="text-green-500"></iconify-icon>
-                                </div>
-                                <h3 class="text-2xl md:text-3xl font-medium text-white font-display mb-2 tracking-tight">Automated Updates</h3>
-                                <p class="text-yellow-500 max-w-sm text-sm md:text-base">Generates a static dashboard with verified opportunities, updated daily via automated GitHub Actions workflows.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 5: SOURCES -->
-    <section class="md:py-32 md:px-6 overflow-hidden bg-black border-white/10 border-t pt-20 pr-4 pb-20 pl-4 relative" id="sources">
-        <div class="z-10 max-w-[1400px] mr-auto ml-auto relative">
-            <div class="text-center mb-12 md:mb-20">
-                <h2 class="text-3xl md:text-6xl font-medium text-white font-display mb-4 md:mb-6 tracking-tight">Monitored Sources</h2>
-                <p class="uppercase text-xs text-yellow-500 tracking-widest">Tracking both judicial and private platforms</p>
+    <!-- SOURCES SECTION -->
+    <section class="py-20 px-4 md:px-6 bg-black/50 border-t border-white/5" id="sources">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Monitored Sources</h2>
+                <p class="text-yellow-400/80">Aggregating from judicial and private auction platforms</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
-                <!-- Source 1: Judicial -->
-                <div class="glass rounded-2xl p-8 hover:-translate-y-2 transition-transform duration-500">
-                    <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center mb-6">
-                        <iconify-icon icon="solar:buildings-bold" width="24" height="24" class="text-yellow-500"></iconify-icon>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass rounded-2xl p-8 text-center hover:bg-white/5 transition-colors">
+                    <div class="w-16 h-16 rounded-full bg-yellow-500/10 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-medium text-white font-display mb-2">Judicial Auctions</h3>
-                    <p class="text-yellow-400 text-sm mb-4">Court-ordered auctions from the Argentine judicial system.</p>
-                    <ul class="text-xs text-white/60 space-y-2">
-                        <li>CSJN - Corte Suprema</li>
-                        <li>SCBA - Buenos Aires Province</li>
-                        <li>COMPR.AR - Government Assets</li>
-                    </ul>
+                    <h3 class="text-xl font-display font-medium text-white mb-2">Judicial Auctions</h3>
+                    <p class="text-white/60 text-sm mb-4">Court-ordered auctions from CSJN, SCBA, and COMPR.AR</p>
+                    <div class="text-yellow-500 text-xs uppercase tracking-wider">3 Sources</div>
                 </div>
 
-                <!-- Source 2: Private -->
-                <div class="glass rounded-2xl p-8 hover:-translate-y-2 transition-transform duration-500">
-                    <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center mb-6">
-                        <iconify-icon icon="solar:briefcase-bold" width="24" height="24" class="text-blue-500"></iconify-icon>
+                <div class="glass rounded-2xl p-8 text-center hover:bg-white/5 transition-colors">
+                    <div class="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-medium text-white font-display mb-2">Private Auctions</h3>
-                    <p class="text-yellow-400 text-sm mb-4">Leading private auction houses in Argentina.</p>
-                    <ul class="text-xs text-white/60 space-y-2">
-                        <li>Adrian Mercado</li>
-                        <li>Banco Ciudad</li>
-                        <li>Global Remates</li>
-                    </ul>
+                    <h3 class="text-xl font-display font-medium text-white mb-2">Private Auctions</h3>
+                    <p class="text-white/60 text-sm mb-4">Adrian Mercado, Banco Ciudad, Global Remates</p>
+                    <div class="text-blue-400 text-xs uppercase tracking-wider">5 Sources</div>
                 </div>
 
-                <!-- Source 3: Other -->
-                <div class="glass rounded-2xl p-8 hover:-translate-y-2 transition-transform duration-500">
-                    <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mb-6">
-                        <iconify-icon icon="solar:monitor-smartphone-bold" width="24" height="24" class="text-purple-500"></iconify-icon>
+                <div class="glass rounded-2xl p-8 text-center hover:bg-white/5 transition-colors">
+                    <div class="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-medium text-white font-display mb-2">Other Platforms</h3>
-                    <p class="text-yellow-400 text-sm mb-4">Additional online auction platforms.</p>
-                    <ul class="text-xs text-white/60 space-y-2">
-                        <li>BidBit</li>
-                        <li>Manucha Subastas</li>
-                        <li>More coming soon...</li>
-                    </ul>
+                    <h3 class="text-xl font-display font-medium text-white mb-2">Live Updates</h3>
+                    <p class="text-white/60 text-sm mb-4">Data refreshed automatically from all sources</p>
+                    <div class="text-green-400 text-xs uppercase tracking-wider">Real-time</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="relative overflow-hidden bg-[#050509] border-t pt-16 md:pt-24 pb-8 md:pb-12 border-white/5">
-        <div class="max-w-[1400px] mx-auto px-4 md:px-6 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 mb-16 md:mb-20">
-                <div class="lg:col-span-1 space-y-6">
-                    <a href="#" class="flex items-center gap-3">
-                        <div class="flex overflow-hidden text-black bg-white w-8 h-8 rounded-sm items-center justify-center">
-                            <iconify-icon icon="solar:gavel-bold" width="18" height="18"></iconify-icon>
-                        </div>
-                        <span class="text-lg font-bold text-white tracking-tight font-display">Auction<span class="font-light text-yellow-500">Scraper</span></span>
-                    </a>
-                    <p class="text-sm leading-relaxed max-w-xs text-yellow-400">
-                        Monitoring judicial and private auctions in Argentina for 30%+ discount opportunities.
-                    </p>
+    <footer class="py-12 px-4 border-t border-white/5">
+        <div class="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                        <g id="core3">
+                            <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                            <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                        </g>
+                    </svg>
                 </div>
-
-                <div class="lg:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-8">
-                    <div>
-                        <h4 class="text-xs font-bold uppercase tracking-widest mb-6 text-white">Explore</h4>
-                        <ul class="space-y-4 text-sm text-yellow-500">
-                            <li><a href="#opportunities" class="transition-colors hover:text-white">Opportunities</a></li>
-                            <li><a href="#dashboard" class="transition-colors hover:text-white">Dashboard</a></li>
-                            <li><a href="#features" class="transition-colors hover:text-white">Features</a></li>
-                            <li><a href="#sources" class="transition-colors hover:text-white">Sources</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-xs font-bold uppercase tracking-widest mb-6 text-white">Project</h4>
-                        <ul class="space-y-4 text-sm text-yellow-500">
-                            <li><a href="https://github.com/josebarnetche/auction-scraper" class="transition-colors hover:text-white">GitHub Repo</a></li>
-                            <li><a href="/api/opportunities.json" class="transition-colors hover:text-white">API</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <span class="text-white font-display">Auction<span class="text-yellow-500 font-light">Radar</span></span>
             </div>
-
-            <div class="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 border-white/10">
-                <div class="text-xs uppercase text-yellow-600 tracking-widest text-center md:text-left">2025 Argentina Auction Scraper. Open Source.</div>
-                <div class="flex gap-6 text-xs uppercase tracking-widest text-yellow-600">
-                    <a href="#" class="transition-colors hover:text-yellow-400">MIT License</a>
-                </div>
+            <div class="text-white/40 text-sm">
+                Open Source Project
             </div>
+            <a href="https://github.com/josebarnetche/auction-scraper" target="_blank" class="text-yellow-500 hover:text-white text-sm transition-colors">
+                GitHub
+            </a>
         </div>
     </footer>
 
-    <!-- SCRIPTS -->
     <script>
-        // Smooth scroll
-        const lenis = new Lenis({
-            duration: 0.8,
-            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-            direction: 'vertical',
-            smooth: true,
-            mouseMultiplier: 0.8,
-            smoothTouch: false,
-        });
+        let allAuctions = [];
+        let displayedCount = 12;
+        let currentFilter = '';
 
-        function raf(time) {
-            lenis.raf(time);
-            requestAnimationFrame(raf);
-        }
-        requestAnimationFrame(raf);
-
-        gsap.registerPlugin(ScrollTrigger);
-
-        // Custom cursor
-        if (window.matchMedia("(pointer: fine)").matches) {
-            const cursor = document.getElementById('cursor');
-            const hoverTriggers = document.querySelectorAll('.hover-trigger');
-
-            document.addEventListener('mousemove', (e) => {
-                cursor.style.left = e.clientX + 'px';
-                cursor.style.top = e.clientY + 'px';
-            });
-
-            hoverTriggers.forEach(el => {
-                el.addEventListener('mouseenter', () => cursor.classList.add('hovered'));
-                el.addEventListener('mouseleave', () => cursor.classList.remove('hovered'));
-            });
-        }
-
-        // Hero canvas animation
-        const canvas = document.getElementById('hero-canvas');
-        const ctx = canvas.getContext('2d');
-        let width, height;
-        let streams = [];
-        const gap = 40;
-
-        class Stream {
-            constructor(x) {
-                this.x = x;
-                this.y = Math.random() * height;
-                this.speed = Math.random() * 2 + 0.5;
-                this.length = Math.random() * 100 + 50;
-                this.opacity = Math.random() * 0.3 + 0.05;
-            }
-            update() {
-                this.y -= this.speed;
-                if (this.y + this.length < 0) {
-                    this.y = height + Math.random() * 100;
-                    this.speed = Math.random() * 2 + 0.5;
-                }
-            }
-            draw(ctx) {
-                ctx.strokeStyle = `rgba(255, 255, 255, 0.03)`;
-                ctx.lineWidth = 1;
-                ctx.beginPath();
-                ctx.moveTo(this.x, 0);
-                ctx.lineTo(this.x, height);
-                ctx.stroke();
-
-                const gradient = ctx.createLinearGradient(this.x, this.y, this.x, this.y + this.length);
-                gradient.addColorStop(0, `rgba(255, 255, 255, 0)`);
-                gradient.addColorStop(0.5, `rgba(255, 255, 255, ${this.opacity})`);
-                gradient.addColorStop(1, `rgba(255, 255, 255, 0)`);
-
-                ctx.fillStyle = gradient;
-                ctx.fillRect(this.x - 1, this.y, 3, this.length);
-            }
-        }
-
-        function initCanvas() {
-            width = window.innerWidth;
-            height = window.innerHeight;
-            canvas.width = width;
-            canvas.height = height;
-            streams = [];
-            for (let x = gap / 2; x < width; x += gap) {
-                streams.push(new Stream(x));
-            }
-        }
-
-        function animateCanvas() {
-            ctx.clearRect(0, 0, width, height);
-            streams.forEach(s => {
-                s.update();
-                s.draw(ctx);
-            });
-            requestAnimationFrame(animateCanvas);
-        }
-
-        window.addEventListener('resize', initCanvas);
-        initCanvas();
-        animateCanvas();
-
-        // Text animations
-        const headings = document.querySelectorAll('.mask-text span');
-        headings.forEach((h, i) => {
-            gsap.to(h, {
-                y: 0,
-                duration: 1.2,
-                ease: "power3.out",
-                delay: i * 0.1
-            });
-        });
-
-        gsap.to(".animate-fade-in", { opacity: 1, duration: 1, delay: 0.5 });
-        gsap.to(".animate-fade-up", { opacity: 1, y: 0, duration: 1, delay: 0.8, ease: "power2.out" });
-
-        // 3D card effect
-        if (window.matchMedia("(hover: hover)").matches) {
-            const cards3d = document.querySelectorAll('.card-3d-wrap');
-            cards3d.forEach(card => {
-                card.addEventListener('mousemove', (e) => {
-                    const rect = card.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
-                    const y = e.clientY - rect.top;
-                    const centerX = rect.width / 2;
-                    const centerY = rect.height / 2;
-                    const rotateX = ((y - centerY) / centerY) * -10;
-                    const rotateY = ((x - centerX) / centerX) * 10;
-
-                    const inner = card.querySelector('.card-3d-inner');
-                    inner.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-                });
-
-                card.addEventListener('mouseleave', () => {
-                    const inner = card.querySelector('.card-3d-inner');
-                    inner.style.transform = `rotateX(0deg) rotateY(0deg)`;
-                });
-            });
-        }
-
-        // Load data from API
-        async function loadData() {
+        // Fetch live auction data
+        async function fetchAuctions() {
             try {
-                // Load stats
-                const statsRes = await fetch('/api/stats.json');
-                if (statsRes.ok) {
-                    const stats = await statsRes.json();
-                    document.getElementById('total-listings').textContent = stats.total_listings || 0;
-                    document.getElementById('flagged-count').textContent = stats.flagged_count || 0;
-                    document.getElementById('sources-count').textContent = stats.sources_count || 0;
-                    document.getElementById('avg-discount').textContent = (stats.avg_discount || 0) + '%';
-                    document.getElementById('stat-opportunities').textContent = stats.flagged_count || 0;
-                    document.getElementById('last-updated').textContent = 'Updated: ' + (stats.generated_at || 'N/A');
+                const response = await fetch('/api/listings.json');
+                if (!response.ok) throw new Error('Failed to fetch');
+                const data = await response.json();
+                allAuctions = (data.listings || []).filter(a => a.title && a.source_url);
 
-                    // Populate source filter
-                    const sourceFilter = document.getElementById('filter-source');
-                    (stats.sources || []).forEach(source => {
-                        const option = document.createElement('option');
-                        option.value = source;
-                        option.textContent = source;
-                        sourceFilter.appendChild(option);
-                    });
-                }
+                // Update hero stats
+                document.getElementById('hero-count').textContent = allAuctions.length;
+                document.getElementById('hero-sources').textContent = Object.keys(data.by_source || {}).length || '-';
 
-                // Load opportunities
-                const oppRes = await fetch('/api/opportunities.json');
-                if (oppRes.ok) {
-                    const data = await oppRes.json();
-                    const opportunities = data.opportunities || [];
-                    const tbody = document.getElementById('opportunities-tbody');
-
-                    if (opportunities.length === 0) {
-                        tbody.innerHTML = '<tr><td colspan="6" class="text-center text-white/40 py-12">No opportunities found yet. Run the scraper to fetch listings.</td></tr>';
-                    } else {
-                        tbody.innerHTML = opportunities
-                            .filter(o => o.is_flagged)
-                            .sort((a, b) => b.discount_percentage - a.discount_percentage)
-                            .slice(0, 20)
-                            .map(o => `
-                                <tr class="hover:bg-white/5 transition-colors">
-                                    <td>
-                                        <a href="${o.listing.source_url}" target="_blank" class="text-white hover:text-yellow-400 transition-colors">
-                                            ${(o.listing.title || '').substring(0, 50)}${(o.listing.title || '').length > 50 ? '...' : ''}
-                                        </a>
-                                    </td>
-                                    <td><span class="category-badge category-${o.listing.category}">${o.listing.category}</span></td>
-                                    <td class="text-white font-mono">USD ${Math.round(o.auction_price_usd).toLocaleString()}</td>
-                                    <td class="text-white/60 font-mono">USD ${Math.round(o.market_median_usd).toLocaleString()}</td>
-                                    <td><span class="discount-badge ${o.discount_percentage >= 30 ? 'discount-high' : 'discount-medium'}">${o.discount_percentage.toFixed(1)}%</span></td>
-                                    <td class="text-white/40 uppercase text-xs">${o.listing.source}</td>
-                                </tr>
-                            `).join('');
-                    }
-                }
-
-                // Load all listings
-                const listingsRes = await fetch('/api/listings.json');
-                if (listingsRes.ok) {
-                    const data = await listingsRes.json();
-                    window.allListings = data.listings || [];
-                    renderListings(window.allListings);
-                }
+                renderAuctions();
             } catch (err) {
-                console.error('Error loading data:', err);
-                document.getElementById('opportunities-tbody').innerHTML =
-                    '<tr><td colspan="6" class="text-center text-red-400 py-12">Error loading data. Check console.</td></tr>';
+                console.error('Error fetching auctions:', err);
+                document.getElementById('auctions-grid').innerHTML = `
+                    <div class="col-span-full text-center py-20">
+                        <p class="text-white/40">Unable to load auctions. Please try again later.</p>
+                    </div>
+                `;
             }
         }
 
-        function renderListings(listings) {
-            const tbody = document.getElementById('listings-tbody');
-            const category = document.getElementById('filter-category').value;
-            const source = document.getElementById('filter-source').value;
+        function renderAuctions() {
+            const grid = document.getElementById('auctions-grid');
+            let filtered = currentFilter
+                ? allAuctions.filter(a => a.category === currentFilter)
+                : allAuctions;
 
-            let filtered = listings;
-            if (category) filtered = filtered.filter(l => l.category === category);
-            if (source) filtered = filtered.filter(l => l.source === source);
+            const toShow = filtered.slice(0, displayedCount);
 
-            if (filtered.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="6" class="text-center text-white/40 py-12">No listings match filters.</td></tr>';
+            if (toShow.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full text-center py-20">
+                        <p class="text-white/40">No auctions found in this category.</p>
+                    </div>
+                `;
+                document.getElementById('load-more-container').style.display = 'none';
                 return;
             }
 
-            tbody.innerHTML = filtered.slice(0, 50).map(l => `
-                <tr class="hover:bg-white/5 transition-colors">
-                    <td>
-                        <a href="${l.source_url}" target="_blank" class="text-white hover:text-yellow-400 transition-colors">
-                            ${(l.title || '').substring(0, 50)}${(l.title || '').length > 50 ? '...' : ''}
-                        </a>
-                    </td>
-                    <td><span class="category-badge category-${l.category}">${l.category}</span></td>
-                    <td class="text-white font-mono">${l.base_price > 0 ? l.base_price.toLocaleString() : '-'}</td>
-                    <td class="text-white/60">${l.currency}</td>
-                    <td class="text-white/40 uppercase text-xs">${l.source}</td>
-                    <td class="text-white/40 text-xs">${l.status}</td>
-                </tr>
-            `).join('');
+            grid.innerHTML = toShow.map(auction => {
+                const imageUrl = auction.images && auction.images.length > 0
+                    ? auction.images[0]
+                    : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
+
+                const priceText = auction.base_price > 0
+                    ? `${auction.currency} ${auction.base_price.toLocaleString()}`
+                    : 'A consultar';
+
+                return `
+                    <a href="${auction.source_url}" target="_blank" rel="noopener"
+                       class="auction-card glass rounded-2xl overflow-hidden block group">
+                        <div class="aspect-[4/3] overflow-hidden bg-black/50 relative">
+                            <img src="${imageUrl}"
+                                 alt="${auction.title}"
+                                 class="auction-image w-full h-full object-cover"
+                                 loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,' + encodeURIComponent('<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'><rect fill=\\'%231a1a1a\\' width=\\'400\\' height=\\'300\\'/><text fill=\\'%23333\\' font-family=\\'sans-serif\\' font-size=\\'14\\' x=\\'50%\\' y=\\'50%\\' text-anchor=\\'middle\\'>Sin imagen</text></svg>')">
+                            <div class="absolute top-3 left-3">
+                                <span class="category-badge category-${auction.category}">${auction.category}</span>
+                            </div>
+                            <div class="absolute top-3 right-3">
+                                <span class="source-badge">${auction.source}</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-white font-medium text-sm mb-2 line-clamp-2 group-hover:text-yellow-400 transition-colors">
+                                ${auction.title}
+                            </h3>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-0.5">Precio Base</div>
+                                    <span class="text-yellow-500 font-display font-semibold">${priceText}</span>
+                                </div>
+                                <span class="text-white/40 text-xs">Ver &rarr;</span>
+                            </div>
+                        </div>
+                    </a>
+                `;
+            }).join('');
+
+            // Show/hide load more button
+            document.getElementById('load-more-container').style.display =
+                displayedCount < filtered.length ? 'block' : 'none';
         }
 
-        // Filter events
-        document.getElementById('filter-category').addEventListener('change', () => {
-            if (window.allListings) renderListings(window.allListings);
-        });
-        document.getElementById('filter-source').addEventListener('change', () => {
-            if (window.allListings) renderListings(window.allListings);
+        function filterAuctions(category) {
+            currentFilter = category;
+            displayedCount = 12;
+
+            // Update active button
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.dataset.filter === category) {
+                    btn.classList.add('active');
+                    btn.classList.remove('text-white/60');
+                    btn.classList.add('text-white');
+                } else {
+                    btn.classList.remove('active');
+                    btn.classList.add('text-white/60');
+                    btn.classList.remove('text-white');
+                }
+            });
+
+            renderAuctions();
+        }
+
+        function loadMore() {
+            displayedCount += 12;
+            renderAuctions();
+        }
+
+        // GSAP animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.from('.auction-card', {
+            scrollTrigger: {
+                trigger: '#auctions-grid',
+                start: 'top 80%',
+            },
+            y: 50,
+            opacity: 0,
+            duration: 0.6,
+            stagger: 0.1
         });
 
         // Initialize
-        loadData();
+        fetchAuctions();
     </script>
-</body></html>
+</body>
+</html>

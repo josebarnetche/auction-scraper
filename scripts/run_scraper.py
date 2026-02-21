@@ -18,7 +18,6 @@ from src.scrapers.private.banco_ciudad import BancoCiudadScraper
 from src.scrapers.private.global_remates import GlobalRematesScraper
 from src.scrapers.private.bidbit import BidBitScraper
 from src.scrapers.private.manucha import ManuchaScraper
-from src.processors.opportunity_detector import OpportunityDetector
 from src.storage.json_store import JSONStore
 
 logging.basicConfig(
@@ -81,22 +80,6 @@ async def run_all_scrapers(sources: list[str], store: JSONStore):
     return all_listings
 
 
-async def analyze_opportunities(listings, store: JSONStore):
-    """Analyze listings for opportunities."""
-    logger.info(f"Analyzing {len(listings)} listings for opportunities")
-
-    async with OpportunityDetector() as detector:
-        opportunities = await detector.analyze_listings(listings)
-
-    store.save_opportunities(opportunities)
-    store.save_all_listings_api(listings)
-
-    flagged = [o for o in opportunities if o.is_flagged]
-    logger.info(f"Found {len(flagged)} flagged opportunities (30%+ discount)")
-
-    return opportunities
-
-
 async def main():
     parser = argparse.ArgumentParser(description="Argentina Auction Scraper")
     parser.add_argument(
@@ -105,11 +88,6 @@ async def main():
         choices=list(SCRAPERS.keys()) + ["all"],
         default=["all"],
         help="Sources to scrape"
-    )
-    parser.add_argument(
-        "--skip-analysis",
-        action="store_true",
-        help="Skip market price analysis"
     )
     parser.add_argument(
         "--test",
@@ -135,16 +113,11 @@ async def main():
     all_listings = await run_all_scrapers(sources, store)
     logger.info(f"Total listings scraped: {len(all_listings)}")
 
-    # Analyze opportunities
-    if not args.skip_analysis and all_listings:
-        await analyze_opportunities(all_listings, store)
-    else:
-        # Still save listings to API
-        store.save_all_listings_api(all_listings)
+    # Generate site files
+    from scripts.generate_site import generate_site
+    generate_site()
 
-    # Print stats
-    stats = store.get_stats()
-    logger.info(f"Final stats: {stats}")
+    logger.info("Scraping complete!")
 
 
 if __name__ == "__main__":

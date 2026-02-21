@@ -1,1351 +1,16 @@
 {
-  "generated_at": "2026-02-21T03:42:23.907254+00:00",
-  "total_count": 60,
+  "total_count": 19,
   "by_source": {
-    "csjn": 49,
-    "adrian_mercado": 11
+    "adrian_mercado": 9,
+    "csjn": 10
   },
-  "by_category": {
-    "real_estate": 9,
-    "vehicles": 41,
-    "other": 9,
-    "machinery": 1
-  },
+  "generated_at": "2026-02-21T04:03:16.457736+00:00",
   "listings": [
-    {
-      "id": "csjn:9",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/9",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.CIV3EN DOLARES - 50 % INDIVISO-OCUPADO-PH 3-AMBIENTES-1° PISO POR ESCALERA-VILLA CRESPO-C.A.B.ALa inscripción cierra en:Descripción del bien50 % indiviso del inmueble sito en Avenida San Martín 1907/9/11, Piso 1, Dpto. C, UF 4, CABA. El bien forma parte de un PH entre medianeras, compuesto de Planta Baja y Primer Piso, entre los cuales se distribuyen 3 Unidades Funcionales. El inmueble se encuentra ubicado en el primer piso, el acceso es por escalera ",
-      "category": "real_estate",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-02-27T09:00:00",
-      "ends_at": "2026-03-17T09:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_43.118609.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.962341.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.977981.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.993612.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:01.089323+00:00",
-      "extra": {
-        "auction_code": "9",
-        "lot_id": "11"
-      }
-    },
-    {
-      "id": "csjn:10",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/10",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:02.059209+00:00",
-      "extra": {
-        "auction_code": "10",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:11",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/11",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:03.505551+00:00",
-      "extra": {
-        "auction_code": "11",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:12",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/12",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.CIV6EN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.La inscripción cierra en:Descripción del bienInmueble ubicado en la calle Sarmiento N° 1971/1973, entre Campichuelo y Cangallo, Cuartel III, Paraje Villa Ideal, de la Localidad de Avellaneda, Provincia de Buenos Aires.  Está construido sobre terreno propio y cuenta, en planta baja, con entrada individual por la calle Sarmiento (sin número visible) y dos (2) departame",
-      "category": "real_estate",
-      "base_price": 160000.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-02-26T11:00:00",
-      "ends_at": "2026-03-16T11:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.432763.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.448394.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:05.536170+00:00",
-      "extra": {
-        "auction_code": "12",
-        "lot_id": "14"
-      }
-    },
-    {
-      "id": "csjn:13",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/13",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:06.367768+00:00",
-      "extra": {
-        "auction_code": "13",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:14",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/14",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:07.783947+00:00",
-      "extra": {
-        "auction_code": "14",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:15",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/15",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM6AUTOMOTOR- MARCA VOLKSWAGEN- MODELO CROSSFOX 1.6 -AÑO 2009 - ESTADO  REGULARLa inscripción cierra en:Descripción del bienAutomotor marca Volkswagen,  Modelo Crossfox 1.6, año: 2009,  Motor N° BAH391641, Chasis N° 9BWKB45Z084149424, Dominio HUR-238. Estado regular, con motor aparentemente completo y neumáticos en buen estado. No cuenta con rueda de auxilio. Su aspecto exterior es regular, con algunos rayones y pequeños hundimientos, en ",
-      "category": "vehicles",
-      "base_price": 2870000.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": "2026-03-04T09:00:00",
-      "ends_at": "2026-03-20T09:00:00",
-      "location": {
-        "province": "CABA",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.774027.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.789669.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.805300.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.820924.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:09.368892+00:00",
-      "extra": {
-        "auction_code": "15",
-        "lot_id": "17"
-      }
-    },
-    {
-      "id": "csjn:16",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/16",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.CIV7EN DÓLARES- CASA- 4 AMBIENTES - 2 BAÑOS- GENERAL RODRIGUEZ- PCIA. BUENOS AIRES-La inscripción cierra en:Descripción del bienInmueble en la calle Cramer Nro. 137, Partido de General Rodríguez, Provincia de Buenos Aires. Deshabitado. 4 ambientes. Casa con entrada por garaje descubierto y puerta principal con acceso por portón, con jardín en el frente. Recibidor, comedor o sala de estar, 2 dormitorios con placard, ambos con vista al frente y estufa a",
-      "category": "real_estate",
-      "base_price": 32250.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-03-02T09:00:00",
-      "ends_at": "2026-03-18T09:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.573572.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.589209.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.604838.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.620471.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:11.923812+00:00",
-      "extra": {
-        "auction_code": "16",
-        "lot_id": "18"
-      }
-    },
-    {
-      "id": "csjn:17",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/17",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.CIV8EN DÓLARES- DEPARTAMENTO -2 AMBIENTES- BALVANERA- C.AB.A-La inscripción cierra en:Descripción del bienInmueble sobre calle Catamarca 486/88/92, UF17. Ubicado en el barrio de Balvanera CABA. Desocupado. Departamento interno, de dos ambientes, de 31 m2, luminoso, en buen estado de conservación. No cuenta con servicio de gas, motivo por el cual cuenta con un termotanque eléctrico en la cocina de época, con ventana, la que se encuentra tapada. No tien",
-      "category": "real_estate",
-      "base_price": 37600.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-03-03T09:00:00",
-      "ends_at": "2026-03-19T09:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.355148.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.370774.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.386406.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.402028.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:13.166039+00:00",
-      "extra": {
-        "auction_code": "17",
-        "lot_id": "19"
-      }
-    },
-    {
-      "id": "csjn:18",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/18",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.CIV9EN DÓLARES - OCUPADO- CASA EN LOTE PROPIO- ING. MASCHWITZ- PILAR- PCIA. BUENOS AIRES-La inscripción cierra en:Descripción del bienInmueble ocupado, ubicado en la calle Castelli, entre las calles Jujuy y San Juan, designado con el número 21 de la Manzana 108, Ingeniero Maschwitz, Partido de Escobar, Provincia de Buenos Aires.  La  propiedad posee una superficie total de 236m2,  de los cuales 147 m2, aproximadamente, son cubiertos. Planta baja: coci",
-      "category": "real_estate",
-      "base_price": 56250.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-03-05T09:00:00",
-      "ends_at": "2026-03-25T09:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.143264.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.158890.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:14.604549+00:00",
-      "extra": {
-        "auction_code": "18",
-        "lot_id": "20"
-      }
-    },
-    {
-      "id": "csjn:19",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/19",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:15.512310+00:00",
-      "extra": {
-        "auction_code": "19",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:20",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/20",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:17.084751+00:00",
-      "extra": {
-        "auction_code": "20",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:21",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/21",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:18.363660+00:00",
-      "extra": {
-        "auction_code": "21",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:22",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/22",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:20.034538+00:00",
-      "extra": {
-        "auction_code": "22",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:23",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/23",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM9AUTOMOTOR  - MARCA FORD- MODELO  WZ FOCUS 1.6 L N MT S 4 P- AÑO 2017- COLOR GRIS- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca FORD; Modelo WZ Focus 4 P 1.6 N MT S, tipo sedan, 4 Pts; Motor Ford N°PNDAJJ021759, Chasis Ford N° 8AFNZZFFCJJ021759, color GRIS, año 2017; Dominio AB528AW.  Según tacómetro, al 01/09/2025: 167.950 km. Estado de la unidad: BUENO. Deuda por patentes: $ 909.942,25.\r\nLugar y fecha de e",
-      "category": "vehicles",
-      "base_price": 6500000.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": "2026-03-05T11:00:00",
-      "ends_at": "2026-03-25T11:00:00",
-      "location": {
-        "province": "CABA",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.148670.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.164313.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.179941.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.195570.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:21.467040+00:00",
-      "extra": {
-        "auction_code": "23",
-        "lot_id": "25"
-      }
-    },
-    {
-      "id": "csjn:24",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/24",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:23.140345+00:00",
-      "extra": {
-        "auction_code": "24",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:25",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/25",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:24.577733+00:00",
-      "extra": {
-        "auction_code": "25",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:26",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/26",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:26.078633+00:00",
-      "extra": {
-        "auction_code": "26",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:27",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/27",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:27.455495+00:00",
-      "extra": {
-        "auction_code": "27",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:28",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/28",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.COM13EN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-La inscripción cierra en:Descripción del bienInmueble sito en el Barrio Ciudad General Belgrano, hoy Ciudad Martín Miguel de Güemes, del Partido de La Matanza, Pcia. de Buenos Aires, Finca designada bajo el N°2701, con frente sobre calle sin nombre, designada según Plano 70-152-64 que cita su título como Lote 14,  Nomenclatura catastral: Circ. VII, ",
-      "category": "real_estate",
-      "base_price": 37500.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-02-23T11:00:00",
-      "ends_at": "2026-03-11T11:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/28/30/photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/28/30/photo.11_32_31.404998.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:29.686914+00:00",
-      "extra": {
-        "auction_code": "28",
-        "lot_id": "30"
-      }
-    },
-    {
-      "id": "csjn:29",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/29",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:30.422589+00:00",
-      "extra": {
-        "auction_code": "29",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:30",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/30",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:31.934373+00:00",
-      "extra": {
-        "auction_code": "30",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:31",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/31",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:33.445758+00:00",
-      "extra": {
-        "auction_code": "31",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:32",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/32",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:34.944949+00:00",
-      "extra": {
-        "auction_code": "32",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:33",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/33",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:36.458943+00:00",
-      "extra": {
-        "auction_code": "33",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:34",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/34",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:37.946686+00:00",
-      "extra": {
-        "auction_code": "34",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:35",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/35",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:39.449399+00:00",
-      "extra": {
-        "auction_code": "35",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:36",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/36",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:40.981408+00:00",
-      "extra": {
-        "auction_code": "36",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:37",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/37",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:42.477124+00:00",
-      "extra": {
-        "auction_code": "37",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:38",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/38",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:43.973480+00:00",
-      "extra": {
-        "auction_code": "38",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:39",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/39",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:45.536779+00:00",
-      "extra": {
-        "auction_code": "39",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:40",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/40",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:47.031374+00:00",
-      "extra": {
-        "auction_code": "40",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:41",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/41",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:48.514215+00:00",
-      "extra": {
-        "auction_code": "41",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:42",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/42",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:50.040431+00:00",
-      "extra": {
-        "auction_code": "42",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:43",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/43",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:51.528938+00:00",
-      "extra": {
-        "auction_code": "43",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:44",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/44",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:53.038033+00:00",
-      "extra": {
-        "auction_code": "44",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:45",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/45",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:54.577100+00:00",
-      "extra": {
-        "auction_code": "45",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:46",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/46",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:56.156894+00:00",
-      "extra": {
-        "auction_code": "46",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:47",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/47",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:41:57.838929+00:00",
-      "extra": {
-        "auction_code": "47",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:48",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/48",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM14AUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca TOYOTA; modelo: ETIOS XLS 1.5 4A/T, SEDAN 5 puertas; motor: TOYOTA; N° de motor: 2NR4187168; marca de Chasis TOYOTA; número de chasis; 9BRK29BT5J0152932; dominio: AC393KQ; año 2018; color gris. El estado general es bueno, excepto algún rayón o golpe en la carrocería. Tapizado en buenas condiciones y con ",
-      "category": "vehicles",
-      "base_price": 13000000.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": "2026-02-26T09:00:00",
-      "ends_at": "2026-03-16T09:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.777314.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.746074.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.761695.jpeg"
-      ],
-      "scraped_at": "2026-02-21T03:41:59.195392+00:00",
-      "extra": {
-        "auction_code": "48",
-        "lot_id": "50"
-      }
-    },
-    {
-      "id": "csjn:49",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/49",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.COM15EN DÓLARES- 50% INDIVISO- OCUPADO - DEPARTAMENTO 4 AMBIENTES AL FRENTE CON BALCÓN TERRAZA- RECOLETALa inscripción cierra en:Descripción del bien50% INDIVISO. Departamento sobre calle Agüero 2012, 9°piso, UF9, esquina French, último piso. Edificio en buenas condiciones generales, con ascensor de servicio y principal, por donde se accede a las entradas privadas de cada unidad. Las medidas que se informan son aproximadas. El departamento cuenta con ",
-      "category": "real_estate",
-      "base_price": 110000.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-03-17T09:00:00",
-      "ends_at": "2026-04-08T09:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.542224.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.495338.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.510977.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg"
-      ],
-      "scraped_at": "2026-02-21T03:42:01.399493+00:00",
-      "extra": {
-        "auction_code": "49",
-        "lot_id": "51"
-      }
-    },
-    {
-      "id": "csjn:50",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/50",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:42:02.116913+00:00",
-      "extra": {
-        "auction_code": "50",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:51",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/51",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:42:03.863985+00:00",
-      "extra": {
-        "auction_code": "51",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:52",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/52",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:42:05.391016+00:00",
-      "extra": {
-        "auction_code": "52",
-        "lot_id": ""
-      }
-    },
-    {
-      "id": "csjn:53",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/53",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
-      "description": "Subasta\r\n                        InmuebleCód.CIV13EN DÓLARES- OCUPADO - DEPARTAMENTO - 3 AMBIENTES - BALVANERA - C.A.B.A.La inscripción cierra en:Descripción del bienDepartamento ocupado, sito en la calle Moreno  2562/64/66/72, U.F. N°34, Piso 2 'M'. Tres ambientes, destinado a vivienda, con una superficie aproximada de 50,39 m2: living comedor, cocina, lavadero, dos dormitorios y un baño completo. Presenta disposición interna, con ventilación hacia pulmón del edificio mediante balcón tipo franc",
-      "category": "real_estate",
-      "base_price": 41000.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": "2026-03-13T11:00:00",
-      "ends_at": "2026-04-06T11:00:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.962208.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.977835.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.993477.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg"
-      ],
-      "scraped_at": "2026-02-21T03:42:07.879860+00:00",
-      "extra": {
-        "auction_code": "53",
-        "lot_id": "55"
-      }
-    },
-    {
-      "id": "csjn:54",
-      "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/54",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "USD",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:42:08.498098+00:00",
-      "extra": {
-        "auction_code": "54",
-        "lot_id": ""
-      }
-    },
     {
       "id": "csjn:55",
       "source": "csjn",
       "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/55",
-      "title": "Detalle - Subastas Judiciales de la Corte Suprema de Justicia de la Nación",
+      "title": "INMUEBLE EN LOTE PROPIO CON DOS UNIDADES- OCUPADO- BANFIELD- LOMAS DE ZAMORA-PCIA. BS.AS",
       "description": "Subasta\r\n                        InmuebleCód.COM17EN DÓLARES- INMUEBLE EN LOTE PROPIO CON DOS UNIDADES- OCUPADO- BANFIELD- LOMAS DE ZAMORA-PCIA. BS.ASLa inscripción cierra en:Descripción del bienInmueble ocupado, ubicado en Miguel Cané 917, entre Palacios y Campos, Banfield, Partido de Lomas de Zamora, Provincia de Buenos Aires. Posee dos construcciones, en lote de 233,91 m2, a las cuales se accede por un pasillo común. \r\nConstrucción ubicada al frente del lote: hall de ingreso, tres ambientes, ",
       "category": "real_estate",
       "base_price": 33333.0,
@@ -1364,119 +29,275 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.201786.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.217414.jpg"
       ],
-      "scraped_at": "2026-02-21T03:42:10.605237+00:00",
+      "scraped_at": "2026-02-21T04:02:40.376079+00:00",
       "extra": {
         "auction_code": "55",
         "lot_id": "57"
       }
     },
     {
-      "id": "csjn:56",
+      "id": "csjn:53",
       "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/56",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/53",
+      "title": "OCUPADO - DEPARTAMENTO - 3 AMBIENTES - BALVANERA - C.A.B.A.",
+      "description": "Subasta\r\n                        InmuebleCód.CIV13EN DÓLARES- OCUPADO - DEPARTAMENTO - 3 AMBIENTES - BALVANERA - C.A.B.A.La inscripción cierra en:Descripción del bienDepartamento ocupado, sito en la calle Moreno  2562/64/66/72, U.F. N°34, Piso 2 'M'. Tres ambientes, destinado a vivienda, con una superficie aproximada de 50,39 m2: living comedor, cocina, lavadero, dos dormitorios y un baño completo. Presenta disposición interna, con ventilación hacia pulmón del edificio mediante balcón tipo franc",
+      "category": "real_estate",
+      "base_price": 41000.0,
       "currency": "USD",
       "status": "published",
-      "starts_at": null,
-      "ends_at": null,
+      "starts_at": "2026-03-13T11:00:00",
+      "ends_at": "2026-04-06T11:00:00",
       "location": {
         "province": "Buenos Aires",
         "city": ""
       },
       "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.962208.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.977835.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_57.993477.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg"
       ],
-      "scraped_at": "2026-02-21T03:42:11.264748+00:00",
+      "scraped_at": "2026-02-21T04:02:37.527179+00:00",
       "extra": {
-        "auction_code": "56",
-        "lot_id": ""
+        "auction_code": "53",
+        "lot_id": "55"
       }
     },
     {
-      "id": "csjn:57",
+      "id": "csjn:49",
       "source": "csjn",
-      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/57",
-      "title": "Bienvenido al Portal de Subastas Electrónicas Judiciales",
-      "description": "Subasta InmuebleEN DÓLARES -CASA TIPO CHALET  SUP. 471 M2. SUP. CUB. 109 M2. LA MATANZA-PCIA. BUENOS AIRES-OCUPADO-COD. COM13La inscripción cierra enCon valor baseSubasta MuebleRAUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-COD. COM14La inscripción cierra enCon precio de reservaSubasta InmuebleEN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.COD. CIV6La inscripción cierra enCon valor baseSubasta InmuebleEN DOLARES - 50 % INDIVISO-OCUPADO",
-      "category": "vehicles",
-      "base_price": 0.0,
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/49",
+      "title": "50% INDIVISO- OCUPADO - DEPARTAMENTO 4 AMBIENTES AL FRENTE CON BALCÓN TERRAZA- RECOLETA",
+      "description": "Subasta\r\n                        InmuebleCód.COM15EN DÓLARES- 50% INDIVISO- OCUPADO - DEPARTAMENTO 4 AMBIENTES AL FRENTE CON BALCÓN TERRAZA- RECOLETALa inscripción cierra en:Descripción del bien50% INDIVISO. Departamento sobre calle Agüero 2012, 9°piso, UF9, esquina French, último piso. Edificio en buenas condiciones generales, con ascensor de servicio y principal, por donde se accede a las entradas privadas de cada unidad. Las medidas que se informan son aproximadas. El departamento cuenta con ",
+      "category": "real_estate",
+      "base_price": 110000.0,
       "currency": "USD",
       "status": "published",
-      "starts_at": null,
-      "ends_at": null,
+      "starts_at": "2026-03-17T09:00:00",
+      "ends_at": "2026-04-08T09:00:00",
       "location": {
         "province": "Buenos Aires",
         "city": ""
       },
       "images": [
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/estatua.png",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\28\\30\\photo.11_32_31.389360.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\48\\50\\photo.11_00_05.730433.jpeg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\12\\14\\photo.12_16_58.417129.jpg",
-        "https://subastaselectronicasjudiciales.csjn.gov.ar/\\AuctionImages\\9\\11\\photo.10_16_42.962341.jpg"
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.542224.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.495338.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.510977.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg"
       ],
-      "scraped_at": "2026-02-21T03:42:12.772939+00:00",
+      "scraped_at": "2026-02-21T04:02:31.237728+00:00",
       "extra": {
-        "auction_code": "57",
-        "lot_id": ""
+        "auction_code": "49",
+        "lot_id": "51"
       }
     },
     {
-      "id": "adrian_mercado:46734470",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
-      "title": "Asegurá tu participación en la subasta",
-      "description": "Recordá acreditar tu garantía, podrás hacerlo durante la subasta pero recomendamos realizarlo antes para evitar demoras.",
-      "category": "other",
-      "base_price": 5411.0,
+      "id": "csjn:48",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/48",
+      "title": "AUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T - A",
+      "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM14AUTOMOTOR TOTOYA ETIOS XLS 1.5 4A/T- AÑO 2018- COLOR GRIS- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca TOYOTA; modelo: ETIOS XLS 1.5 4A/T, SEDAN 5 puertas; motor: TOYOTA; N° de motor: 2NR4187168; marca de Chasis TOYOTA; número de chasis; 9BRK29BT5J0152932; dominio: AC393KQ; año 2018; color gris. El estado general es bueno, excepto algún rayón o golpe en la carrocería. Tapizado en buenas condiciones y con ",
+      "category": "vehicles",
+      "base_price": 13000000.0,
       "currency": "ARS",
       "status": "published",
-      "starts_at": null,
-      "ends_at": null,
+      "starts_at": "2026-02-26T09:00:00",
+      "ends_at": "2026-03-16T09:00:00",
       "location": {
-        "province": "",
+        "province": "Buenos Aires",
         "city": ""
       },
       "images": [
-        "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.777314.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.730433.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.746074.jpeg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.761695.jpeg"
       ],
-      "scraped_at": "2026-02-21T03:40:58.788104+00:00",
-      "extra": {}
+      "scraped_at": "2026-02-21T04:02:29.046834+00:00",
+      "extra": {
+        "auction_code": "48",
+        "lot_id": "50"
+      }
     },
     {
-      "id": "adrian_mercado:10089959",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/como-participar",
-      "title": "Asegurá tu participación en la subasta",
-      "description": "Recordá acreditar tu garantía, podrás hacerlo durante la subasta pero recomendamos realizarlo antes para evitar demoras.",
-      "category": "other",
+      "id": "csjn:23",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/23",
+      "title": "AUTOMOTOR - MARCA FORD - MODELO WZ FOCUS 1.6 L N MT S 4 P - A",
+      "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM9AUTOMOTOR  - MARCA FORD- MODELO  WZ FOCUS 1.6 L N MT S 4 P- AÑO 2017- COLOR GRIS- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca FORD; Modelo WZ Focus 4 P 1.6 N MT S, tipo sedan, 4 Pts; Motor Ford N°PNDAJJ021759, Chasis Ford N° 8AFNZZFFCJJ021759, color GRIS, año 2017; Dominio AB528AW.  Según tacómetro, al 01/09/2025: 167.950 km. Estado de la unidad: BUENO. Deuda por patentes: $ 909.942,25.\r\nLugar y fecha de e",
+      "category": "vehicles",
+      "base_price": 6500000.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": "2026-03-05T11:00:00",
+      "ends_at": "2026-03-25T11:00:00",
+      "location": {
+        "province": "CABA",
+        "city": ""
+      },
+      "images": [
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.148670.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.164313.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.179941.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.195570.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:51.357083+00:00",
+      "extra": {
+        "auction_code": "23",
+        "lot_id": "25"
+      }
+    },
+    {
+      "id": "csjn:18",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/18",
+      "title": "OCUPADO- CASA EN LOTE PROPIO- ING. MASCHWITZ- PILAR- PCIA. BUENOS AIRES-",
+      "description": "Subasta\r\n                        InmuebleCód.CIV9EN DÓLARES - OCUPADO- CASA EN LOTE PROPIO- ING. MASCHWITZ- PILAR- PCIA. BUENOS AIRES-La inscripción cierra en:Descripción del bienInmueble ocupado, ubicado en la calle Castelli, entre las calles Jujuy y San Juan, designado con el número 21 de la Manzana 108, Ingeniero Maschwitz, Partido de Escobar, Provincia de Buenos Aires.  La  propiedad posee una superficie total de 236m2,  de los cuales 147 m2, aproximadamente, son cubiertos. Planta baja: coci",
+      "category": "real_estate",
+      "base_price": 56250.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": "2026-03-05T09:00:00",
+      "ends_at": "2026-03-25T09:00:00",
+      "location": {
+        "province": "Buenos Aires",
+        "city": ""
+      },
+      "images": [
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.143264.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.158890.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:44.613315+00:00",
+      "extra": {
+        "auction_code": "18",
+        "lot_id": "20"
+      }
+    },
+    {
+      "id": "csjn:17",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/17",
+      "title": "DEPARTAMENTO -2 AMBIENTES- BALVANERA- C.AB.A-",
+      "description": "Subasta\r\n                        InmuebleCód.CIV8EN DÓLARES- DEPARTAMENTO -2 AMBIENTES- BALVANERA- C.AB.A-La inscripción cierra en:Descripción del bienInmueble sobre calle Catamarca 486/88/92, UF17. Ubicado en el barrio de Balvanera CABA. Desocupado. Departamento interno, de dos ambientes, de 31 m2, luminoso, en buen estado de conservación. No cuenta con servicio de gas, motivo por el cual cuenta con un termotanque eléctrico en la cocina de época, con ventana, la que se encuentra tapada. No tien",
+      "category": "real_estate",
+      "base_price": 37600.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": "2026-03-03T09:00:00",
+      "ends_at": "2026-03-19T09:00:00",
+      "location": {
+        "province": "Buenos Aires",
+        "city": ""
+      },
+      "images": [
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.355148.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.370774.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.386406.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.402028.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:43.047595+00:00",
+      "extra": {
+        "auction_code": "17",
+        "lot_id": "19"
+      }
+    },
+    {
+      "id": "csjn:15",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/15",
+      "title": "AUTOMOTOR - MARCA VOLKSWAGEN - MODELO CROSSFOX 1.6 - A",
+      "description": "Subasta\r\n                        Mueble (Registrable)Cód.COM6AUTOMOTOR- MARCA VOLKSWAGEN- MODELO CROSSFOX 1.6 -AÑO 2009 - ESTADO  REGULARLa inscripción cierra en:Descripción del bienAutomotor marca Volkswagen,  Modelo Crossfox 1.6, año: 2009,  Motor N° BAH391641, Chasis N° 9BWKB45Z084149424, Dominio HUR-238. Estado regular, con motor aparentemente completo y neumáticos en buen estado. No cuenta con rueda de auxilio. Su aspecto exterior es regular, con algunos rayones y pequeños hundimientos, en ",
+      "category": "vehicles",
+      "base_price": 2870000.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": "2026-03-04T09:00:00",
+      "ends_at": "2026-03-20T09:00:00",
+      "location": {
+        "province": "CABA",
+        "city": ""
+      },
+      "images": [
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.774027.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.789669.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.805300.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.820924.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:39.213280+00:00",
+      "extra": {
+        "auction_code": "15",
+        "lot_id": "17"
+      }
+    },
+    {
+      "id": "csjn:12",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/12",
+      "title": "OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA- PCIA. DE BUENOS AIRES.",
+      "description": "Subasta\r\n                        InmuebleCód.CIV6EN DOLARES-OCUPADO-INMUEBLE SOBRE LOTE PROPIO- AVELLANEDA-  PCIA. DE BUENOS AIRES.La inscripción cierra en:Descripción del bienInmueble ubicado en la calle Sarmiento N° 1971/1973, entre Campichuelo y Cangallo, Cuartel III, Paraje Villa Ideal, de la Localidad de Avellaneda, Provincia de Buenos Aires.  Está construido sobre terreno propio y cuenta, en planta baja, con entrada individual por la calle Sarmiento (sin número visible) y dos (2) departame",
+      "category": "real_estate",
+      "base_price": 160000.0,
+      "currency": "USD",
+      "status": "published",
+      "starts_at": "2026-02-26T11:00:00",
+      "ends_at": "2026-03-16T11:00:00",
+      "location": {
+        "province": "Buenos Aires",
+        "city": ""
+      },
+      "images": [
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.417129.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.432763.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.448394.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:35.541856+00:00",
+      "extra": {
+        "auction_code": "12",
+        "lot_id": "14"
+      }
+    },
+    {
+      "id": "csjn:9",
+      "source": "csjn",
+      "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/9",
+      "title": "50 % INDIVISO-OCUPADO-PH 3-AMBIENTES-1° PISO POR ESCALERA-VILLA CRESPO-C.A.B.A",
+      "description": "Subasta\r\n                        InmuebleCód.CIV3EN DOLARES - 50 % INDIVISO-OCUPADO-PH 3-AMBIENTES-1° PISO POR ESCALERA-VILLA CRESPO-C.A.B.ALa inscripción cierra en:Descripción del bien50 % indiviso del inmueble sito en Avenida San Martín 1907/9/11, Piso 1, Dpto. C, UF 4, CABA. El bien forma parte de un PH entre medianeras, compuesto de Planta Baja y Primer Piso, entre los cuales se distribuyen 3 Unidades Funcionales. El inmueble se encuentra ubicado en el primer piso, el acceso es por escalera ",
+      "category": "real_estate",
       "base_price": 0.0,
-      "currency": "ARS",
+      "currency": "USD",
       "status": "published",
-      "starts_at": null,
-      "ends_at": null,
+      "starts_at": "2026-02-27T09:00:00",
+      "ends_at": "2026-03-17T09:00:00",
       "location": {
-        "province": "",
+        "province": "Buenos Aires",
         "city": ""
       },
       "images": [
-        "https://amercado.azureedge.net/cms/images/banners/UmtKnDOMNNO8PWogGeP9JmQ6sGrG5aQRkNZPl5M5-mobile.jpg"
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/images/ribbon.png",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_43.118609.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.962341.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.977981.jpg",
+        "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.993612.jpg"
       ],
-      "scraped_at": "2026-02-21T03:40:58.788358+00:00",
-      "extra": {}
+      "scraped_at": "2026-02-21T04:01:30.884672+00:00",
+      "extra": {
+        "auction_code": "9",
+        "lot_id": "11"
+      }
     },
     {
-      "id": "adrian_mercado:4096",
+      "id": "adrian_mercado:30",
       "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
-      "title": "Empresa de Almacenamiento Logístico",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-bgcons-s-r-l-con-y-sin-financiacion-contado-30-60-90-dias-4131",
+      "title": "Por c/o de BGCONS S.R.L., CON Y SIN FINANCIACIÓN CONTADO 30 -60 -90 DIAS",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -1489,141 +310,9 @@
         "city": ""
       },
       "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-480x413.jpg"
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4131/0_logo_organizador_id-96x52-resize-quadrant-T.jpg"
       ],
-      "scraped_at": "2026-02-21T03:40:58.789582+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4102",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-dtp-laboratorios-de-suelos-aire-y-agua-4102",
-      "title": "Por c/o de DTP Laboratorios de Suelos, Aire y Agua",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4102/8f55b43c2c4e3bcc46c986d5e2edf9b0-480x413.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:40:58.790089+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4104",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-casillas-marisol-por-excedente-de-stock-4104",
-      "title": "Por c/o de Casillas Marisol, por excedente de stock",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4104/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T03:40:58.790361+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4105",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-tecsesi-s-a-por-renovacion-de-equipos-4105",
-      "title": "Por c/o de Tecsesi S.A., por renovación de equipos",
-      "description": "",
-      "category": "machinery",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4105/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T03:40:58.790639+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4114",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-sacde-s-a-por-renovacion-de-flota-4114",
-      "title": "Por c/o de Sacde S.A., por renovación de flota",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4114/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T03:40:58.790909+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4116",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
-      "title": "Importante Empresa Constructora y Vial",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-480x413.jpg"
-      ],
-      "scraped_at": "2026-02-21T03:40:58.791182+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4087",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-laglaive-hnos-4087",
-      "title": "Por c/o de Laglaive Hnos.",
-      "description": "",
-      "category": "other",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4087/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T03:40:58.791485+00:00",
+      "scraped_at": "2026-02-21T04:01:28.565617+00:00",
       "extra": {}
     },
     {
@@ -1645,14 +334,14 @@
       "images": [
         "https://amercado.azureedge.net/cms/resources/images/subastas/4126/0_logo_organizador_id-96x52-resize-quadrant-T.jpg"
       ],
-      "scraped_at": "2026-02-21T03:40:58.791756+00:00",
+      "scraped_at": "2026-02-21T04:01:28.565155+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:30",
+      "id": "adrian_mercado:4087",
       "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-bgcons-s-r-l-con-y-sin-financiacion-contado-30-60-90-dias-4131",
-      "title": "Por c/o de BGCONS S.R.L., CON Y SIN FINANCIACIÓN CONTADO 30 -60 -90 DIAS",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-laglaive-hnos-4087",
+      "title": "Por c/o de Laglaive Hnos.",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -1665,9 +354,141 @@
         "city": ""
       },
       "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4131/0_logo_organizador_id-96x52-resize-quadrant-T.jpg"
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4087/0_logo_organizador_id-96x52-resize-quadrant-T.png"
       ],
-      "scraped_at": "2026-02-21T03:40:58.792066+00:00",
+      "scraped_at": "2026-02-21T04:01:28.564889+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4116",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
+      "title": "Importante Empresa Constructora y Vial",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-480x413.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:28.564578+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4114",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-sacde-s-a-por-renovacion-de-flota-4114",
+      "title": "Por c/o de Sacde S.A., por renovación de flota",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4114/0_logo_organizador_id-96x52-resize-quadrant-T.png"
+      ],
+      "scraped_at": "2026-02-21T04:01:28.564300+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4105",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-tecsesi-s-a-por-renovacion-de-equipos-4105",
+      "title": "Por c/o de Tecsesi S.A., por renovación de equipos",
+      "description": "",
+      "category": "machinery",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4105/0_logo_organizador_id-96x52-resize-quadrant-T.png"
+      ],
+      "scraped_at": "2026-02-21T04:01:28.564021+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4104",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-casillas-marisol-por-excedente-de-stock-4104",
+      "title": "Por c/o de Casillas Marisol, por excedente de stock",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4104/0_logo_organizador_id-96x52-resize-quadrant-T.png"
+      ],
+      "scraped_at": "2026-02-21T04:01:28.563747+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4102",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-dtp-laboratorios-de-suelos-aire-y-agua-4102",
+      "title": "Por c/o de DTP Laboratorios de Suelos, Aire y Agua",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4102/8f55b43c2c4e3bcc46c986d5e2edf9b0-480x413.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:28.563433+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4096",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
+      "title": "Empresa de Almacenamiento Logístico",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-480x413.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:01:28.562920+00:00",
       "extra": {}
     }
   ]

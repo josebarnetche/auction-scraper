@@ -14,7 +14,13 @@
       "Bash(git config:*)",
       "Bash(git add:*)",
       "Bash(findstr:*)",
-      "Bash(del:*)"
+      "Bash(del:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(vercel --version:*)",
+      "Bash(vercel:*)",
+      "Bash(git push:*)"
     ]
   }
 }

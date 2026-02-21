@@ -91,6 +91,25 @@ class CSJNScraper(BaseScraper):
     def _parse_detail_page(self, soup: BeautifulSoup, auction_id: int) -> Optional[AuctionListing]:
         """Parse a single auction detail page."""
         try:
+            page_text = soup.get_text()
+
+            # Skip pages that are not actual auction details
+            # Real auction pages have "Auto de la subasta" or specific auction codes
+            is_real_auction = any(marker in page_text for marker in [
+                "Auto de la subasta", "Auto de subasta", "Edicto",
+                "Descripción del bien", "Valor base", "Base:",
+                "La inscripción cierra en:"
+            ])
+
+            # Also skip if it's a welcome/home page
+            title_tag = soup.find('title')
+            page_title = title_tag.get_text(strip=True) if title_tag else ""
+            if "Bienvenido" in page_title and "Detalle" not in page_title:
+                return None
+
+            if not is_real_auction:
+                return None
+
             # Extract from hidden form fields (most reliable)
             hidden_fields = {}
             for inp in soup.find_all('input', type='hidden'):
@@ -99,20 +118,68 @@ class CSJNScraper(BaseScraper):
                 if name and value:
                     hidden_fields[name] = value
 
-            # Get title from h1 or page title
+            # Extract the real auction item name/description
             title = ""
-            h1 = soup.find('h1')
-            if h1:
-                title = h1.get_text(strip=True)
-            if not title:
-                title_tag = soup.find('title')
-                if title_tag:
-                    title = title_tag.get_text(strip=True)
-            if not title:
-                title = f"Subasta CSJN #{auction_id}"
 
-            # Clean up title
+            # First, try to find a meaningful product title
+            # Look for vehicle patterns (FORD, TOYOTA, etc.)
+            vehicle_match = re.search(
+                r'((?:FORD|TOYOTA|CHEVROLET|VOLKSWAGEN|RENAULT|FIAT|PEUGEOT|CITROEN|HONDA|'
+                r'BMW|MERCEDES|AUDI|NISSAN|HYUNDAI|KIA|JEEP|RAM|DODGE|'
+                r'AUTOMOTOR|CAMIONETA|CAMION|MOTO|MOTOCICLETA)[A-Z0-9\s\-/\.]+)',
+                page_text, re.I
+            )
+            if vehicle_match:
+                title = vehicle_match.group(1).strip()
+                # Clean vehicle title
+                title = re.sub(r'\s+', ' ', title)
+                title = title[:100]
+
+            # Look for property patterns
+            if not title:
+                prop_patterns = [
+                    r'(CASA\s+(?:TIPO\s+)?(?:CHALET|QUINTA)?[^-]+(?:-[^-]+){0,2})',
+                    r'(DEPARTAMENTO[^-]+(?:-[^-]+){0,2})',
+                    r'(PH\s+\d+[^-]+(?:-[^-]+){0,2})',
+                    r'(INMUEBLE[^-]+(?:-[^-]+){0,2})',
+                    r'(TERRENO[^-]+(?:-[^-]+){0,2})',
+                    r'(LOTE[^-]+(?:-[^-]+){0,2})',
+                    r'(\d+\s*%?\s*INDIVISO[^-]+(?:-[^-]+){0,2})',
+                ]
+                for pattern in prop_patterns:
+                    match = re.search(pattern, page_text, re.I)
+                    if match:
+                        title = match.group(1).strip()
+                        break
+
+            # Clean up common noise from titles
+            if title:
+                # Remove "EN DOLARES", "EN PESOS" etc from start
+                title = re.sub(r'^(?:EN\s+)?(?:DOLARES|DÓLARES|PESOS|USD|U\$S)\s*[-–]?\s*', '', title, flags=re.I)
+                # Remove "Cód." codes
+                title = re.sub(r'Cód\.?\s*[A-Z0-9]+\s*', '', title)
+                # Clean up multiple dashes/spaces
+                title = re.sub(r'[-–]+', ' - ', title)
+                title = re.sub(r'\s+', ' ', title).strip()
+                title = title.strip(' -')
+
+            # Fallback to extracting from description div
+            if not title or len(title) < 10:
+                desc_div = soup.find('div', class_=re.compile(r'description|detail', re.I))
+                if desc_div:
+                    desc_text = desc_div.get_text(strip=True)
+                    # Get text after "Cód.XXX" up to "La inscripción"
+                    match = re.search(r'Cód\.?\s*[A-Z0-9]+\s*(.{15,100}?)(?:La inscripción|Descripción)', desc_text)
+                    if match:
+                        title = match.group(1).strip()
+                        title = re.sub(r'^(?:EN\s+)?(?:DOLARES|DÓLARES|PESOS)\s*[-–]?\s*', '', title, flags=re.I)
+
+            if not title or len(title) < 5:
+                title = f"Subasta Judicial #{auction_id}"
+
+            # Final cleanup
             title = re.sub(r'\s+', ' ', title).strip()
+            title = title[:120]  # Limit length
 
             # Get description from main content
             description = ""
@@ -120,22 +187,40 @@ class CSJNScraper(BaseScraper):
             if content_div:
                 description = content_div.get_text(strip=True)[:500]
 
-            # Parse price from hidden fields or page content
+            # Parse base price from hidden fields or page content
             base_price = 0.0
             currency = "ARS"
 
+            # Try hidden field first
             if 'AuctionBaseValue' in hidden_fields:
                 price_str = hidden_fields['AuctionBaseValue']
-                # Handle Argentine format: "37.500,00" or "37500,00"
                 price_str = price_str.replace('.', '').replace(',', '.')
                 try:
                     base_price = float(price_str)
                 except ValueError:
                     pass
 
+            # If no price in hidden fields, try to extract from page text
+            if base_price == 0:
+                # Look for "Base: $X.XXX" or "Valor base: $X.XXX" patterns
+                price_patterns = [
+                    r'(?:Base|Valor base|Precio base)[:\s]*\$?\s*([\d.,]+)',
+                    r'(?:USD|U\$S|US\$)\s*([\d.,]+)',
+                    r'\$\s*([\d.,]+)',
+                ]
+                for pattern in price_patterns:
+                    match = re.search(pattern, page_text, re.I)
+                    if match:
+                        price_str = match.group(1).replace('.', '').replace(',', '.')
+                        try:
+                            base_price = float(price_str)
+                            if base_price > 0:
+                                break
+                        except ValueError:
+                            continue
+
             # Detect currency from page
-            page_text = soup.get_text()
-            if 'USD' in page_text or 'dólares' in page_text.lower():
+            if 'USD' in page_text or 'dólares' in page_text.lower() or 'U$S' in page_text or 'DOLARES' in page_text:
                 currency = "USD"
 
             # Determine status from hidden fields

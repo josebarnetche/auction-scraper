@@ -1,80 +1,81 @@
 #!/usr/bin/env python3
-"""Generate static site from scraped data."""
+"""Generate static site data from scraped auctions."""
 
 import json
-import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
 
 def generate_site():
-    """Generate the static site from JSON data."""
+    """Generate the site API files from raw scraped data."""
+    data_dir = Path("data/raw")
     site_dir = Path("site")
     api_dir = site_dir / "api"
+    api_dir.mkdir(parents=True, exist_ok=True)
 
-    # Load opportunities
-    opportunities = []
-    opp_file = api_dir / "opportunities.json"
-    if opp_file.exists():
-        with open(opp_file) as f:
-            data = json.load(f)
-            opportunities = data.get("opportunities", [])
+    all_listings = []
+    by_source = {}
 
-    # Load listings for stats
-    listings_file = api_dir / "listings.json"
-    listings_data = {}
-    if listings_file.exists():
-        with open(listings_file) as f:
-            listings_data = json.load(f)
+    # Non-auction titles/patterns to filter out
+    skip_patterns = [
+        "asegurá tu participación",
+        "bienvenido al portal",
+        "como participar",
+        "cómo participar",
+        "tel:+",
+        "ramos de pujas",
+        "ramer nro",
+        "subasta judicial #",
+    ]
 
-    # Calculate stats
-    total_listings = listings_data.get("total_count", 0)
-    flagged = [o for o in opportunities if o.get("is_flagged")]
-    flagged_count = len(flagged)
-    sources = list(listings_data.get("by_source", {}).keys())
-    sources_count = len(sources)
+    # Load all raw JSON files
+    for json_file in data_dir.glob("*.json"):
+        if json_file.name == ".gitkeep":
+            continue
+        try:
+            with open(json_file, encoding="utf-8") as f:
+                listings = json.load(f)
+                if isinstance(listings, list):
+                    for listing in listings:
+                        # Only include listings with valid data
+                        if not listing.get("title") or not listing.get("source_url"):
+                            continue
 
-    avg_discount = 0
-    if flagged:
-        avg_discount = sum(o["discount_percentage"] for o in flagged) / len(flagged)
+                        # Filter out non-auction entries
+                        title_lower = listing.get("title", "").lower()
+                        url_lower = listing.get("source_url", "").lower()
+                        if any(p in title_lower or p in url_lower for p in skip_patterns):
+                            continue
 
-    # Sort opportunities by discount
-    opportunities.sort(key=lambda x: x.get("discount_percentage", 0), reverse=True)
+                        # Must have actual auction URL (not tel: or generic pages)
+                        source_url = listing.get("source_url", "")
+                        if not source_url.startswith("http"):
+                            continue
 
-    # Generate stats JSON for frontend
-    stats = {
-        "total_listings": total_listings,
-        "flagged_count": flagged_count,
-        "sources_count": sources_count,
-        "avg_discount": round(avg_discount, 1),
-        "sources": sources,
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+                        all_listings.append(listing)
+                        source = listing.get("source", "unknown")
+                        by_source[source] = by_source.get(source, 0) + 1
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not read {json_file}: {e}")
+
+    # Sort by scraped_at (most recent first)
+    all_listings.sort(key=lambda x: x.get("scraped_at", ""), reverse=True)
+
+    # Write listings.json
+    listings_data = {
+        "total_count": len(all_listings),
+        "by_source": by_source,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "listings": all_listings,
     }
 
-    stats_path = api_dir / "stats.json"
-    with open(stats_path, "w", encoding="utf-8") as f:
-        json.dump(stats, f, indent=2)
+    listings_path = api_dir / "listings.json"
+    with open(listings_path, "w", encoding="utf-8") as f:
+        json.dump(listings_data, f, indent=2, ensure_ascii=False)
 
-    print(f"Generated API files:")
-    print(f"  {stats_path}")
-    print(f"  Total listings: {total_listings}")
-    print(f"  Flagged opportunities: {flagged_count}")
-    print(f"  Sources: {sources_count}")
-
-    # Check if index.html already exists with modern design
-    index_path = site_dir / "index.html"
-    if index_path.exists():
-        content = index_path.read_text(encoding="utf-8")
-        # If it has the modern design markers, don't overwrite
-        if "tailwindcss" in content and "gsap" in content.lower():
-            print(f"  Keeping existing modern design at {index_path}")
-            return
-
-    # Only generate basic template if no modern design exists
-    print(f"  Note: No modern template found, keeping existing index.html")
+    print(f"Generated {listings_path}")
+    print(f"  Total listings: {len(all_listings)}")
+    print(f"  Sources: {list(by_source.keys())}")
 
 
 if __name__ == "__main__":

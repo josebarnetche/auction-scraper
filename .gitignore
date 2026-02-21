@@ -49,3 +49,5 @@ data/raw/*.json
 
 # Node (if used for deployment tools)
 node_modules/
+
+.vercel

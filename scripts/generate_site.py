@@ -114,6 +114,20 @@ def generate_site():
                         if "rural.com.uy" in source_url:
                             continue
 
+                        # Skip ended/finalized auctions (ends_at in the past)
+                        ends_at = listing.get("ends_at")
+                        if ends_at:
+                            try:
+                                end_date = datetime.fromisoformat(ends_at.replace("Z", "+00:00"))
+                                now = datetime.now(timezone.utc)
+                                # Make both timezone-aware for comparison
+                                if end_date.tzinfo is None:
+                                    end_date = end_date.replace(tzinfo=timezone.utc)
+                                if end_date < now:
+                                    continue  # Skip ended auctions
+                            except (ValueError, TypeError):
+                                pass  # Keep if date parsing fails
+
                         # Skip very generic titles with no real content
                         is_generic = any(re.match(p, title_lower) for p in generic_title_patterns)
                         if is_generic:

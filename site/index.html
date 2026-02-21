@@ -1198,7 +1198,16 @@ html {
                 const response = await fetch('/api/listings.json?t=' + Date.now());
                 if (!response.ok) throw new Error('Failed to fetch');
                 const data = await response.json();
-                allAuctions = (data.listings || []).filter(a => a.title && a.source_url);
+                const now = new Date();
+                // Filter out ended auctions (ends_at in the past)
+                allAuctions = (data.listings || []).filter(a => {
+                    if (!a.title || !a.source_url) return false;
+                    if (a.ends_at) {
+                        const endDate = new Date(a.ends_at);
+                        if (endDate < now) return false; // Skip ended auctions
+                    }
+                    return true;
+                });
                 bySource = data.by_source || {};
 
                 // Update blue dollar rate from API

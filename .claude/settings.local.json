@@ -28,7 +28,8 @@
       "WebFetch(domain:sitiodetiendas.com)",
       "WebFetch(domain:subastas.scba.gov.ar)",
       "WebFetch(domain:subastas.bancociudad.com.ar)",
-      "WebFetch(domain:www.globalremates.com.ar)"
+      "WebFetch(domain:www.globalremates.com.ar)",
+      "Bash(git tag:*)"
     ]
   }
 }

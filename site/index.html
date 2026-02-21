@@ -136,6 +136,17 @@ html {
         <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40"></div>
     </div>
 
+    <!-- FLOATING CURRENCY SELECTOR -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <div class="glass rounded-full px-4 py-2 flex items-center gap-2 shadow-lg">
+            <span class="text-white/60 text-xs uppercase tracking-wider">Currency</span>
+            <div class="flex bg-black/30 rounded-full p-0.5">
+                <button id="currency-ars" onclick="setCurrency('ARS')" class="px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn">ARS</button>
+                <button id="currency-usd" onclick="setCurrency('USD')" class="px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn bg-yellow-500 text-black">USD</button>
+            </div>
+        </div>
+    </div>
+
     <!-- NAVIGATION -->
     <nav class="fixed z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0">
         <div class="flex glass max-w-[1400px] rounded-full mx-auto px-6 py-3 items-center justify-between">
@@ -552,7 +563,7 @@ html {
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
                 <div>
                     <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Live Auctions</h2>
-                    <p class="text-yellow-400/80">Real-time listings from Argentine auction houses</p>
+                    <p class="text-yellow-400/80">Daily updated listings from Argentine auction houses</p>
                     <p class="text-white/40 text-sm mt-2">Last update: <span id="last-update-time">--</span> | Blue: <span id="blue-rate-display">--</span></p>
                 </div>
                 <button onclick="refreshAuctions()" id="refresh-btn" class="glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-green-400 hover:text-white hover:bg-green-500/20 transition-all flex items-center gap-2">
@@ -603,15 +614,15 @@ html {
                     <!-- Source Filter -->
                     <div>
                         <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Source</label>
-                        <select id="source-filter" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
-                            <option value="">All Sources</option>
+                        <select id="source-filter" class="w-full bg-[#1a1a1a] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
+                            <option value="" class="bg-[#1a1a1a] text-white">All Sources</option>
                         </select>
                     </div>
                     <!-- Location Filter -->
                     <div>
                         <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Location</label>
-                        <select id="location-filter" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
-                            <option value="">All Locations</option>
+                        <select id="location-filter" class="w-full bg-[#1a1a1a] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
+                            <option value="" class="bg-[#1a1a1a] text-white">All Locations</option>
                         </select>
                     </div>
                     <!-- Sort -->
@@ -684,8 +695,8 @@ html {
                         </svg>
                     </div>
                     <h3 class="text-xl font-display font-medium text-white mb-2">Judicial Auctions</h3>
-                    <p class="text-white/60 text-sm mb-4">Court-ordered auctions from CSJN, SCBA, and COMPR.AR</p>
-                    <div class="text-yellow-500 text-xs uppercase tracking-wider">3 Sources</div>
+                    <p class="text-white/60 text-sm mb-4">Court-ordered auctions from CSJN, SCBA, Córdoba & Entre Ríos</p>
+                    <div class="text-yellow-500 text-xs uppercase tracking-wider">4 Sources</div>
                 </div>
 
                 <div class="glass rounded-2xl p-8 text-center hover:bg-white/5 transition-colors">
@@ -695,8 +706,8 @@ html {
                         </svg>
                     </div>
                     <h3 class="text-xl font-display font-medium text-white mb-2">Private Auctions</h3>
-                    <p class="text-white/60 text-sm mb-4">Adrian Mercado, Banco Ciudad, Global Remates, Sitio de Tiendas & more</p>
-                    <div class="text-blue-400 text-xs uppercase tracking-wider">8 Sources</div>
+                    <p class="text-white/60 text-sm mb-4">Banco Ciudad, Agusti, Global Remates, Adrián Mercado & more</p>
+                    <div class="text-blue-400 text-xs uppercase tracking-wider">10 Sources</div>
                 </div>
 
                 <div class="glass rounded-2xl p-8 text-center hover:bg-white/5 transition-colors">
@@ -705,9 +716,9 @@ html {
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-display font-medium text-white mb-2">Live Updates</h3>
-                    <p class="text-white/60 text-sm mb-4">Data refreshed automatically from all sources</p>
-                    <div class="text-green-400 text-xs uppercase tracking-wider">Real-time</div>
+                    <h3 class="text-xl font-display font-medium text-white mb-2">Daily Updates</h3>
+                    <p class="text-white/60 text-sm mb-4">Data refreshed automatically at midnight Argentina time</p>
+                    <div class="text-green-400 text-xs uppercase tracking-wider">00:00 GMT-3</div>
                 </div>
             </div>
         </div>
@@ -831,6 +842,35 @@ html {
 
         // Blue dollar rate - fetched from API in listings.json
         let BLUE_DOLLAR_RATE = 1200;
+
+        // Currency display preference
+        let displayCurrency = 'USD';
+
+        function setCurrency(currency) {
+            displayCurrency = currency;
+            // Update button styles
+            document.getElementById('currency-ars').className = 'px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn ' +
+                (currency === 'ARS' ? 'bg-yellow-500 text-black' : 'text-white/60 hover:text-white');
+            document.getElementById('currency-usd').className = 'px-3 py-1 text-xs font-medium rounded-full transition-all currency-btn ' +
+                (currency === 'USD' ? 'bg-yellow-500 text-black' : 'text-white/60 hover:text-white');
+            // Re-render current view
+            renderAuctions();
+            renderOpportunities();
+            // Re-render calendar selected date if one is selected
+            if (selectedDate) selectDate(selectedDate);
+        }
+
+        function formatPrice(price, currency) {
+            if (displayCurrency === 'ARS') {
+                // Convert to ARS if needed
+                const arsPrice = currency === 'USD' ? price * BLUE_DOLLAR_RATE : price;
+                return 'ARS ' + arsPrice.toLocaleString('es-AR', { maximumFractionDigits: 0 });
+            } else {
+                // Convert to USD if needed
+                const usdPrice = currency === 'ARS' ? price / BLUE_DOLLAR_RATE : price;
+                return 'USD ' + usdPrice.toLocaleString('en-US', { maximumFractionDigits: 0 });
+            }
+        }
 
         // Format countdown timer
         function formatCountdown(endDateStr) {
@@ -1323,7 +1363,7 @@ html {
                                 <div class="flex items-center gap-2 flex-wrap">
                                     <span class="category-badge ${categoryClass}">${auction.category || 'other'}</span>
                                     <span class="source-badge">${auction.source}</span>
-                                    ${auction.base_price > 0 ? `<span class="text-xs text-green-400">${auction.currency} ${auction.base_price.toLocaleString()}</span>` : ''}
+                                    ${auction.base_price > 0 ? `<span class="text-xs text-green-400">${formatPrice(auction.base_price, auction.currency)}</span>` : ''}
                                 </div>
                             </div>
                         </div>
@@ -1464,7 +1504,7 @@ html {
                             <div class="grid grid-cols-2 gap-4">
                                 <div>
                                     <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Subasta</div>
-                                    <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${costInfo.total.toLocaleString()}</span>
+                                    <span class="text-xl text-yellow-500 font-display font-bold">${formatPrice(costInfo.total, auction.currency)}</span>
                                     <div class="text-[10px] text-white/30">incl. comisión</div>
                                 </div>
                                 <div class="text-right">
@@ -1556,23 +1596,23 @@ html {
                             <div class="space-y-1">
                                 <div class="flex items-center justify-between">
                                     <div class="text-[10px] uppercase tracking-wider text-white/40">Base</div>
-                                    <span class="text-white/60 text-sm">${auction.currency} ${auction.base_price.toLocaleString()}</span>
+                                    <span class="text-white/60 text-sm">${formatPrice(auction.base_price, auction.currency)}</span>
                                 </div>
                                 ${costInfo && costInfo.breakdown.commission > 0 ? `
                                 <div class="flex items-center justify-between">
                                     <div class="text-[10px] uppercase tracking-wider text-white/40">+ Comisión ${costInfo.breakdown.commission}%</div>
-                                    <span class="text-white/40 text-xs">${auction.currency} ${Math.round(auction.base_price * costInfo.breakdown.commission / 100).toLocaleString()}</span>
+                                    <span class="text-white/40 text-xs">${formatPrice(Math.round(auction.base_price * costInfo.breakdown.commission / 100), auction.currency)}</span>
                                 </div>
                                 ` : ''}
                                 ${costInfo && costInfo.breakdown.csjnFee > 0 ? `
                                 <div class="flex items-center justify-between">
                                     <div class="text-[10px] uppercase tracking-wider text-white/40">+ Arancel ${costInfo.breakdown.csjnFee}%</div>
-                                    <span class="text-white/40 text-xs">${auction.currency} ${Math.round(auction.base_price * costInfo.breakdown.csjnFee / 100).toLocaleString()}</span>
+                                    <span class="text-white/40 text-xs">${formatPrice(Math.round(auction.base_price * costInfo.breakdown.csjnFee / 100), auction.currency)}</span>
                                 </div>
                                 ` : ''}
                                 <div class="flex items-center justify-between pt-1 border-t border-white/10">
                                     <div class="text-[10px] uppercase tracking-wider text-yellow-500 font-semibold">Total Est.</div>
-                                    <span class="text-yellow-500 font-display font-bold">${auction.currency} ${costInfo ? costInfo.total.toLocaleString() : auction.base_price.toLocaleString()}</span>
+                                    <span class="text-yellow-500 font-display font-bold">${formatPrice(costInfo ? costInfo.total : auction.base_price, auction.currency)}</span>
                                 </div>
                                 <div class="text-[8px] text-white/30 text-right">+ IVA s/comisión</div>
                             </div>

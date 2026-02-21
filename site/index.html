@@ -598,6 +598,87 @@ body {
         // Blue dollar rate (approximate - in production would fetch from API)
         const BLUE_DOLLAR_RATE = 1200;
 
+        // Format countdown timer
+        function formatCountdown(endDateStr) {
+            if (!endDateStr) return null;
+            const endDate = new Date(endDateStr);
+            const now = new Date();
+            const diff = endDate - now;
+
+            if (diff <= 0) return { text: 'Finalizada', expired: true };
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            if (days > 0) {
+                return { text: `${days}d ${hours}h ${minutes}m`, expired: false, urgent: days <= 1 };
+            } else if (hours > 0) {
+                return { text: `${hours}h ${minutes}m ${seconds}s`, expired: false, urgent: true };
+            } else {
+                return { text: `${minutes}m ${seconds}s`, expired: false, urgent: true };
+            }
+        }
+
+        // Get total cost with fees
+        function getTotalCost(auction) {
+            // Check if we have cost data in extra
+            if (auction.extra && auction.extra.total_cost_estimate) {
+                return {
+                    total: auction.extra.total_cost_estimate,
+                    breakdown: {
+                        base: auction.base_price,
+                        commission: auction.extra.commission_pct || 0,
+                        csjnFee: auction.extra.csjn_fee_pct || 0,
+                        iva: auction.extra.iva_pct || 0,
+                        stampTax: auction.extra.stamp_tax_pct || 0,
+                        otherFees: auction.extra.other_fees_description || ''
+                    }
+                };
+            }
+            // Estimate if no data (default 3% commission + 0.25% CSJN for judicial)
+            if (auction.source === 'csjn' || auction.source === 'scba') {
+                const commission = 3.0;
+                const csjnFee = 0.25;
+                const total = auction.base_price * (1 + (commission + csjnFee) / 100);
+                return {
+                    total: Math.round(total * 100) / 100,
+                    breakdown: { base: auction.base_price, commission, csjnFee, iva: 0, stampTax: 0, otherFees: '' }
+                };
+            }
+            // Private auctions - estimate 10% commission
+            const commission = 10.0;
+            const total = auction.base_price * (1 + commission / 100);
+            return {
+                total: Math.round(total * 100) / 100,
+                breakdown: { base: auction.base_price, commission, csjnFee: 0, iva: 0, stampTax: 0, otherFees: '' }
+            };
+        }
+
+        // Update all countdown timers
+        function updateCountdowns() {
+            document.querySelectorAll('[data-countdown]').forEach(el => {
+                const endDate = el.getAttribute('data-countdown');
+                const countdown = formatCountdown(endDate);
+                if (countdown) {
+                    el.textContent = countdown.text;
+                    if (countdown.expired) {
+                        el.classList.add('text-red-400');
+                        el.classList.remove('text-green-400', 'text-yellow-400');
+                    } else if (countdown.urgent) {
+                        el.classList.add('text-yellow-400');
+                        el.classList.remove('text-green-400', 'text-red-400');
+                    } else {
+                        el.classList.add('text-green-400');
+                        el.classList.remove('text-yellow-400', 'text-red-400');
+                    }
+                }
+            });
+        }
+        // Update countdowns every second
+        setInterval(updateCountdowns, 1000);
+
         // Estimated market values by category (rough multipliers vs auction base)
         const MARKET_MULTIPLIERS = {
             vehicles: 1.4,      // Auction vehicles typically 30-40% below market
@@ -916,6 +997,9 @@ body {
 
                 const discountColor = auction.discount >= 30 ? 'text-green-400' : auction.discount >= 20 ? 'text-yellow-400' : 'text-white/60';
 
+                const costInfo = getTotalCost(auction);
+                const countdown = formatCountdown(auction.ends_at);
+
                 return `
                     <a href="${auction.source_url}" target="_blank" rel="noopener"
                        class="auction-card glass rounded-2xl overflow-hidden block group">
@@ -928,17 +1012,29 @@ body {
                             <div class="absolute top-3 right-3 flex gap-2">
                                 <span class="bg-green-500/90 text-white text-xs px-2 py-1 rounded-full font-bold">-${auction.discount}%</span>
                             </div>
+                            ${countdown ? `
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                                <div class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 ${countdown.urgent ? 'text-yellow-400' : 'text-white/60'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    <span class="text-xs font-mono ${countdown.expired ? 'text-red-400' : countdown.urgent ? 'text-yellow-400' : 'text-green-400'}" data-countdown="${auction.ends_at || ''}">${countdown.text}</span>
+                                </div>
+                            </div>
+                            ` : ''}
                         </div>
                         <div class="p-5">
                             <h3 class="text-white font-medium mb-3 line-clamp-2 group-hover:text-yellow-400 transition-colors">${auction.title}</h3>
-                            <div class="flex items-end justify-between">
+                            <div class="grid grid-cols-2 gap-4">
                                 <div>
-                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Base</div>
-                                    <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${auction.base_price.toLocaleString()}</span>
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Total Estimado</div>
+                                    <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${costInfo.total.toLocaleString()}</span>
+                                    <div class="text-[10px] text-white/30">Base + ${costInfo.breakdown.commission}% com.</div>
                                 </div>
                                 <div class="text-right">
-                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Est. Market</div>
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Valor Mercado</div>
                                     <span class="text-sm text-white/40 line-through">USD ${auction.marketValue.toLocaleString()}</span>
+                                    <div class="text-[10px] text-green-400 font-semibold">Ahorras ${auction.discount}%</div>
                                 </div>
                             </div>
                         </div>
@@ -966,13 +1062,13 @@ body {
                     ? auction.images[0]
                     : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
 
-                const priceText = auction.base_price > 0
-                    ? `${auction.currency} ${auction.base_price.toLocaleString()}`
-                    : 'A consultar';
-
                 const discount = calculateDiscount(auction);
                 const marketValue = estimateMarketValue(auction);
                 const hasComparison = discount !== null && marketValue !== null;
+
+                // Get total cost with fees
+                const costInfo = auction.base_price > 0 ? getTotalCost(auction) : null;
+                const countdown = formatCountdown(auction.ends_at);
 
                 return `
                     <a href="${auction.source_url}" target="_blank" rel="noopener"
@@ -983,26 +1079,54 @@ body {
                                  class="auction-image w-full h-full object-cover"
                                  loading="lazy"
                                  onerror="this.src='data:image/svg+xml,' + encodeURIComponent('<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'><rect fill=\\'%231a1a1a\\' width=\\'400\\' height=\\'300\\'/><text fill=\\'%23333\\' font-family=\\'sans-serif\\' font-size=\\'14\\' x=\\'50%\\' y=\\'50%\\' text-anchor=\\'middle\\'>Sin imagen</text></svg>')">
-                            <div class="absolute top-3 left-3">
+                            <div class="absolute top-3 left-3 flex gap-1">
                                 <span class="category-badge category-${auction.category}">${auction.category}</span>
                             </div>
                             <div class="absolute top-3 right-3 flex gap-1">
                                 ${hasComparison && discount >= 20 ? `<span class="bg-green-500/90 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">-${discount}%</span>` : ''}
                                 <span class="source-badge">${auction.source}</span>
                             </div>
+                            ${countdown ? `
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                                <div class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 ${countdown.urgent ? 'text-yellow-400' : 'text-white/60'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    <span class="text-xs font-mono ${countdown.expired ? 'text-red-400' : countdown.urgent ? 'text-yellow-400' : 'text-green-400'}" data-countdown="${auction.ends_at || ''}">${countdown.text}</span>
+                                </div>
+                            </div>
+                            ` : ''}
                         </div>
                         <div class="p-4">
                             <h3 class="text-white font-medium text-sm mb-2 line-clamp-2 group-hover:text-yellow-400 transition-colors">
                                 ${auction.title}
                             </h3>
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-0.5">Precio Base</div>
-                                    <span class="text-yellow-500 font-display font-semibold">${priceText}</span>
-                                    ${hasComparison ? `<div class="text-[10px] text-white/30 line-through">Est. USD ${marketValue.toLocaleString()}</div>` : ''}
+                            ${auction.base_price > 0 ? `
+                            <div class="space-y-1">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40">Base</div>
+                                    <span class="text-white/60 text-sm">${auction.currency} ${auction.base_price.toLocaleString()}</span>
                                 </div>
-                                <span class="text-white/40 text-xs">Ver &rarr;</span>
+                                ${costInfo && costInfo.breakdown.commission > 0 ? `
+                                <div class="flex items-center justify-between">
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40">+ Comisión ${costInfo.breakdown.commission}%</div>
+                                    <span class="text-white/40 text-xs">${auction.currency} ${Math.round(auction.base_price * costInfo.breakdown.commission / 100).toLocaleString()}</span>
+                                </div>
+                                ` : ''}
+                                ${costInfo && costInfo.breakdown.csjnFee > 0 ? `
+                                <div class="flex items-center justify-between">
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40">+ Arancel ${costInfo.breakdown.csjnFee}%</div>
+                                    <span class="text-white/40 text-xs">${auction.currency} ${Math.round(auction.base_price * costInfo.breakdown.csjnFee / 100).toLocaleString()}</span>
+                                </div>
+                                ` : ''}
+                                <div class="flex items-center justify-between pt-1 border-t border-white/10">
+                                    <div class="text-[10px] uppercase tracking-wider text-yellow-500 font-semibold">Total Est.</div>
+                                    <span class="text-yellow-500 font-display font-bold">${auction.currency} ${costInfo ? costInfo.total.toLocaleString() : auction.base_price.toLocaleString()}</span>
+                                </div>
                             </div>
+                            ` : `
+                            <div class="text-white/40 text-sm">A consultar</div>
+                            `}
                         </div>
                     </a>
                 `;

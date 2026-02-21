@@ -223,6 +223,9 @@ class CSJNScraper(BaseScraper):
             if 'USD' in page_text or 'dólares' in page_text.lower() or 'U$S' in page_text or 'DOLARES' in page_text:
                 currency = "USD"
 
+            # Extract costs and fees
+            costs = self._extract_costs(page_text, base_price)
+
             # Determine status from hidden fields
             status = "published"
             if hidden_fields.get('isInProgress', '').lower() == 'true':
@@ -267,6 +270,7 @@ class CSJNScraper(BaseScraper):
                 extra={
                     "auction_code": str(auction_id),
                     "lot_id": hidden_fields.get('LotID', ''),
+                    **costs  # Include commission, fees, total estimate
                 }
             )
 
@@ -339,6 +343,90 @@ class CSJNScraper(BaseScraper):
                 break
 
         return location
+
+    def _extract_costs(self, page_text: str, base_price: float) -> dict:
+        """Extract commission, fees, and calculate total estimated cost."""
+        costs = {
+            "commission_pct": 0.0,
+            "csjn_fee_pct": 0.25,  # Standard CSJN fee per Acordada 10/99
+            "iva_pct": 0.0,
+            "stamp_tax_pct": 0.0,
+            "other_fees_description": "",
+            "total_cost_estimate": base_price,
+        }
+
+        # Extract commission percentage
+        # Common patterns: "3% Comisión", "Comisión del 3%", "3 % comisión"
+        commission_patterns = [
+            r'(\d+(?:[.,]\d+)?)\s*%\s*(?:de\s+)?comisi[oó]n',
+            r'comisi[oó]n\s*(?:del?)?\s*(\d+(?:[.,]\d+)?)\s*%',
+            r'(\d+(?:[.,]\d+)?)\s*%\s*(?:del?\s+)?martiller[oa]',
+        ]
+        for pattern in commission_patterns:
+            match = re.search(pattern, page_text, re.I)
+            if match:
+                try:
+                    costs["commission_pct"] = float(match.group(1).replace(',', '.'))
+                    break
+                except ValueError:
+                    continue
+
+        # Extract CSJN/court fee if specified differently
+        csjn_patterns = [
+            r'(\d+(?:[.,]\d+)?)\s*%\s*(?:de\s+)?arancel',
+            r'arancel\s*(?:del?)?\s*(\d+(?:[.,]\d+)?)\s*%',
+            r'(\d+(?:[.,]\d+)?)\s*%\s*C\.?S\.?J\.?N',
+        ]
+        for pattern in csjn_patterns:
+            match = re.search(pattern, page_text, re.I)
+            if match:
+                try:
+                    costs["csjn_fee_pct"] = float(match.group(1).replace(',', '.'))
+                    break
+                except ValueError:
+                    continue
+
+        # Check for IVA mention
+        if 'iva' in page_text.lower() or 'i.v.a' in page_text.lower():
+            # Look for IVA percentage
+            iva_match = re.search(r'(\d+(?:[.,]\d+)?)\s*%\s*(?:de\s+)?(?:iva|i\.v\.a)', page_text, re.I)
+            if iva_match:
+                try:
+                    costs["iva_pct"] = float(iva_match.group(1).replace(',', '.'))
+                except ValueError:
+                    costs["iva_pct"] = 21.0  # Default IVA in Argentina
+            else:
+                # IVA mentioned but no percentage - assume standard 21%
+                if 'más iva' in page_text.lower() or '+ iva' in page_text.lower():
+                    costs["iva_pct"] = 21.0
+
+        # Check for stamp tax (sellado)
+        if 'sellado' in page_text.lower():
+            costs["other_fees_description"] = "Sellado de ley aplicable"
+            # Stamp tax varies by province, estimate 1-2%
+            costs["stamp_tax_pct"] = 1.5
+
+        # Check for deposit/guarantee requirements
+        deposit_match = re.search(r'(?:depósito|garantía|seña)\s*(?:del?)?\s*(\d+(?:[.,]\d+)?)\s*%', page_text, re.I)
+        if deposit_match:
+            # This is a deposit, not an additional cost, but worth noting
+            deposit_pct = deposit_match.group(1).replace(',', '.')
+            if costs["other_fees_description"]:
+                costs["other_fees_description"] += f"; Depósito/garantía: {deposit_pct}%"
+            else:
+                costs["other_fees_description"] = f"Depósito/garantía: {deposit_pct}%"
+
+        # Calculate total estimated cost
+        if base_price > 0:
+            total_pct = 100 + costs["commission_pct"] + costs["csjn_fee_pct"] + costs["stamp_tax_pct"]
+            subtotal = base_price * (total_pct / 100)
+            # Apply IVA on commission if applicable
+            if costs["iva_pct"] > 0:
+                iva_on_commission = base_price * (costs["commission_pct"] / 100) * (costs["iva_pct"] / 100)
+                subtotal += iva_on_commission
+            costs["total_cost_estimate"] = round(subtotal, 2)
+
+        return costs
 
     def _extract_images(self, soup: BeautifulSoup, auction_id: int, lot_id: Optional[str]) -> list[str]:
         """Extract image URLs from page, prioritizing actual product photos."""

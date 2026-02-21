@@ -167,9 +167,9 @@ body {
                 </span>
             </a>
             <div class="hidden md:flex items-center gap-8">
-                <a href="#opportunities" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Opportunities</a>
+                <a href="#auctions" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Auctions</a>
+                <a href="#calendar" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Calendar</a>
                 <a href="#dashboard" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Dashboard</a>
-                <a href="#features" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Features</a>
                 <a href="#sources" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Sources</a>
             </div>
             <div class="flex items-center gap-3 text-xs">
@@ -356,6 +356,19 @@ body {
         </div>
     </section>
 
+    <!-- CALENDAR SECTION -->
+    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="calendar">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Auction Calendar</h2>
+                <p class="text-yellow-400/80">Upcoming auctions by end date</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="calendar-grid">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
     <!-- FEATURES SECTION -->
     <section class="py-20 px-4 md:px-6 border-t border-white/5" id="features">
         <div class="max-w-[1400px] mx-auto">
@@ -379,26 +392,26 @@ body {
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-display font-medium text-white mb-2">Smart Filtering</h3>
-                    <p class="text-white/60 text-sm">Filter by category, source, and price to find exactly what you need</p>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Smart Search</h3>
+                    <p class="text-white/60 text-sm">Search by keyword, filter by price range, location, and category</p>
                 </div>
                 <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
                     <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mb-4">
                         <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-display font-medium text-white mb-2">Verified Sources</h3>
-                    <p class="text-white/60 text-sm">Direct links to official judicial and private auction platforms</p>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Price Comparison</h3>
+                    <p class="text-white/60 text-sm">Estimated market value comparison to spot the best deals</p>
                 </div>
                 <div class="glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
                     <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center mb-4">
                         <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-display font-medium text-white mb-2">Argentina Time</h3>
-                    <p class="text-white/60 text-sm">All timestamps in GMT-3 for accurate auction scheduling</p>
+                    <h3 class="text-lg font-display font-medium text-white mb-2">Auction Calendar</h3>
+                    <p class="text-white/60 text-sm">See all upcoming auctions organized by end date</p>
                 </div>
             </div>
         </div>
@@ -407,24 +420,86 @@ body {
     <!-- LIVE AUCTIONS FEED -->
     <section class="py-20 px-4 md:px-6 border-t border-white/5" id="auctions">
         <div class="max-w-[1400px] mx-auto">
-            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
                 <div>
                     <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Live Auctions</h2>
                     <p class="text-yellow-400/80">Real-time listings from Argentine auction houses</p>
                     <p class="text-white/40 text-sm mt-2">Last update: <span id="last-update-time">--</span></p>
                 </div>
-                <div class="flex gap-3 flex-wrap items-center">
-                    <button onclick="refreshAuctions()" id="refresh-btn" class="glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-green-400 hover:text-white hover:bg-green-500/20 transition-all flex items-center gap-2">
-                        <svg class="w-4 h-4" id="refresh-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
-                        </svg>
-                        Update
-                    </button>
-                    <button onclick="filterAuctions('')" class="filter-btn active glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white" data-filter="">All</button>
-                    <button onclick="filterAuctions('vehicles')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="vehicles">Vehicles</button>
-                    <button onclick="filterAuctions('real_estate')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="real_estate">Real Estate</button>
-                    <button onclick="filterAuctions('machinery')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="machinery">Machinery</button>
+                <button onclick="refreshAuctions()" id="refresh-btn" class="glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-green-400 hover:text-white hover:bg-green-500/20 transition-all flex items-center gap-2">
+                    <svg class="w-4 h-4" id="refresh-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                    </svg>
+                    Update
+                </button>
+            </div>
+
+            <!-- Search & Filters -->
+            <div class="glass rounded-2xl p-6 mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+                    <!-- Search -->
+                    <div class="lg:col-span-2">
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Search</label>
+                        <div class="relative">
+                            <input type="text" id="search-input" placeholder="Ford, Departamento, Maquinaria..."
+                                   class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50"
+                                   oninput="applyFilters()">
+                            <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-white/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Price Range -->
+                    <div>
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Min Price (USD)</label>
+                        <input type="number" id="min-price" placeholder="0"
+                               class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50"
+                               oninput="applyFilters()">
+                    </div>
+                    <div>
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Max Price (USD)</label>
+                        <input type="number" id="max-price" placeholder="No limit"
+                               class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50"
+                               oninput="applyFilters()">
+                    </div>
                 </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <!-- Source Filter -->
+                    <div>
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Source</label>
+                        <select id="source-filter" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
+                            <option value="">All Sources</option>
+                        </select>
+                    </div>
+                    <!-- Location Filter -->
+                    <div>
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Location</label>
+                        <select id="location-filter" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
+                            <option value="">All Locations</option>
+                        </select>
+                    </div>
+                    <!-- Sort -->
+                    <div>
+                        <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Sort By</label>
+                        <select id="sort-filter" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
+                            <option value="newest">Newest First</option>
+                            <option value="ending">Ending Soon</option>
+                            <option value="price-asc">Price: Low to High</option>
+                            <option value="price-desc">Price: High to Low</option>
+                            <option value="discount">Best Deals</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="flex gap-3 flex-wrap items-center mb-8">
+                <span class="text-white/40 text-xs uppercase tracking-wider">Category:</span>
+                <button onclick="filterAuctions('')" class="filter-btn active glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white" data-filter="">All</button>
+                <button onclick="filterAuctions('vehicles')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="vehicles">Vehicles</button>
+                <button onclick="filterAuctions('real_estate')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="real_estate">Real Estate</button>
+                <button onclick="filterAuctions('machinery')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="machinery">Machinery</button>
+                <span class="ml-auto text-white/40 text-sm"><span id="results-count">0</span> results</span>
             </div>
 
             <!-- Auctions Grid -->
@@ -515,9 +590,21 @@ body {
 
     <script>
         let allAuctions = [];
+        let filteredAuctions = [];
         let bySource = {};
         let displayedCount = 12;
         let currentFilter = '';
+
+        // Blue dollar rate (approximate - in production would fetch from API)
+        const BLUE_DOLLAR_RATE = 1200;
+
+        // Estimated market values by category (rough multipliers vs auction base)
+        const MARKET_MULTIPLIERS = {
+            vehicles: 1.4,      // Auction vehicles typically 30-40% below market
+            real_estate: 1.25,  // Real estate typically 20-30% below
+            machinery: 1.35,    // Machinery typically 25-40% below
+            other: 1.3
+        };
 
         // GMT-3 Time (Argentina)
         function updateGMT3Time() {
@@ -542,6 +629,28 @@ body {
             }) + ' (GMT-3)';
         }
 
+        // Convert price to USD for comparison
+        function toUSD(price, currency) {
+            if (currency === 'USD') return price;
+            return price / BLUE_DOLLAR_RATE;
+        }
+
+        // Estimate market value
+        function estimateMarketValue(auction) {
+            if (!auction.base_price || auction.base_price === 0) return null;
+            const priceUSD = toUSD(auction.base_price, auction.currency);
+            const multiplier = MARKET_MULTIPLIERS[auction.category] || 1.3;
+            return Math.round(priceUSD * multiplier);
+        }
+
+        // Calculate discount percentage
+        function calculateDiscount(auction) {
+            const marketValue = estimateMarketValue(auction);
+            if (!marketValue) return null;
+            const priceUSD = toUSD(auction.base_price, auction.currency);
+            return Math.round(((marketValue - priceUSD) / marketValue) * 100);
+        }
+
         // Refresh button
         async function refreshAuctions() {
             const btn = document.getElementById('refresh-btn');
@@ -555,6 +664,76 @@ body {
                 btn.disabled = false;
                 icon.classList.remove('animate-spin');
             }, 1000);
+        }
+
+        // Populate filter dropdowns
+        function populateFilters() {
+            // Source filter
+            const sourceSelect = document.getElementById('source-filter');
+            const sources = [...new Set(allAuctions.map(a => a.source))].sort();
+            sourceSelect.innerHTML = '<option value="">All Sources</option>' +
+                sources.map(s => `<option value="${s}">${s.replace('_', ' ').toUpperCase()}</option>`).join('');
+
+            // Location filter
+            const locationSelect = document.getElementById('location-filter');
+            const locations = [...new Set(allAuctions.map(a => a.location?.province).filter(Boolean))].sort();
+            locationSelect.innerHTML = '<option value="">All Locations</option>' +
+                locations.map(l => `<option value="${l}">${l}</option>`).join('');
+        }
+
+        // Apply all filters
+        function applyFilters() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const minPrice = parseFloat(document.getElementById('min-price').value) || 0;
+            const maxPrice = parseFloat(document.getElementById('max-price').value) || Infinity;
+            const sourceFilter = document.getElementById('source-filter').value;
+            const locationFilter = document.getElementById('location-filter').value;
+            const sortBy = document.getElementById('sort-filter').value;
+
+            filteredAuctions = allAuctions.filter(auction => {
+                // Category filter
+                if (currentFilter && auction.category !== currentFilter) return false;
+
+                // Search filter
+                if (searchTerm && !auction.title.toLowerCase().includes(searchTerm) &&
+                    !(auction.description || '').toLowerCase().includes(searchTerm)) return false;
+
+                // Price filter (convert to USD)
+                const priceUSD = toUSD(auction.base_price || 0, auction.currency);
+                if (priceUSD < minPrice) return false;
+                if (priceUSD > maxPrice) return false;
+
+                // Source filter
+                if (sourceFilter && auction.source !== sourceFilter) return false;
+
+                // Location filter
+                if (locationFilter && auction.location?.province !== locationFilter) return false;
+
+                return true;
+            });
+
+            // Sort
+            filteredAuctions.sort((a, b) => {
+                switch (sortBy) {
+                    case 'ending':
+                        const aEnd = a.ends_at ? new Date(a.ends_at) : new Date('2099-01-01');
+                        const bEnd = b.ends_at ? new Date(b.ends_at) : new Date('2099-01-01');
+                        return aEnd - bEnd;
+                    case 'price-asc':
+                        return toUSD(a.base_price || 0, a.currency) - toUSD(b.base_price || 0, b.currency);
+                    case 'price-desc':
+                        return toUSD(b.base_price || 0, b.currency) - toUSD(a.base_price || 0, a.currency);
+                    case 'discount':
+                        return (calculateDiscount(b) || 0) - (calculateDiscount(a) || 0);
+                    case 'newest':
+                    default:
+                        return new Date(b.scraped_at || 0) - new Date(a.scraped_at || 0);
+                }
+            });
+
+            document.getElementById('results-count').textContent = filteredAuctions.length;
+            displayedCount = 12;
+            renderAuctions();
         }
 
         // Fetch live auction data
@@ -574,13 +753,20 @@ body {
                 const updateTime = data.generated_at ? formatArgentinaTime(data.generated_at) : formatArgentinaTime(new Date().toISOString());
                 document.getElementById('last-update-time').textContent = updateTime;
 
+                // Populate filter dropdowns
+                populateFilters();
+
                 // Update dashboard
                 updateDashboard();
 
-                // Render opportunities
+                // Render calendar
+                renderCalendar();
+
+                // Render opportunities (best deals)
                 renderOpportunities();
 
-                renderAuctions();
+                // Apply filters and render
+                applyFilters();
             } catch (err) {
                 console.error('Error fetching auctions:', err);
                 document.getElementById('auctions-grid').innerHTML = `
@@ -589,6 +775,67 @@ body {
                     </div>
                 `;
             }
+        }
+
+        // Render calendar view
+        function renderCalendar() {
+            const grid = document.getElementById('calendar-grid');
+            const auctionsWithDates = allAuctions.filter(a => a.ends_at);
+
+            if (auctionsWithDates.length === 0) {
+                grid.innerHTML = '<div class="col-span-full text-center py-10"><p class="text-white/40">No upcoming auction dates.</p></div>';
+                return;
+            }
+
+            // Group by date
+            const byDate = {};
+            auctionsWithDates.forEach(auction => {
+                const date = new Date(auction.ends_at);
+                const dateKey = date.toISOString().split('T')[0];
+                if (!byDate[dateKey]) byDate[dateKey] = [];
+                byDate[dateKey].push(auction);
+            });
+
+            // Sort dates and take next 8
+            const sortedDates = Object.keys(byDate).sort().slice(0, 8);
+
+            grid.innerHTML = sortedDates.map(dateKey => {
+                const auctions = byDate[dateKey];
+                const date = new Date(dateKey + 'T12:00:00');
+                const dayName = date.toLocaleDateString('es-AR', { weekday: 'short' });
+                const dayNum = date.getDate();
+                const month = date.toLocaleDateString('es-AR', { month: 'short' });
+
+                const isToday = new Date().toISOString().split('T')[0] === dateKey;
+                const isTomorrow = new Date(Date.now() + 86400000).toISOString().split('T')[0] === dateKey;
+
+                return `
+                    <div class="glass rounded-xl p-4 ${isToday ? 'border-2 border-yellow-500' : ''} ${isTomorrow ? 'border border-yellow-500/50' : ''}">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="text-center">
+                                <div class="text-2xl font-display font-bold text-white">${dayNum}</div>
+                                <div class="text-xs uppercase text-white/40">${month}</div>
+                            </div>
+                            <div>
+                                <div class="text-sm text-white capitalize">${dayName}</div>
+                                ${isToday ? '<span class="text-xs text-yellow-500">Today</span>' : ''}
+                                ${isTomorrow ? '<span class="text-xs text-yellow-500/70">Tomorrow</span>' : ''}
+                            </div>
+                            <div class="ml-auto">
+                                <span class="bg-yellow-500/20 text-yellow-500 text-xs px-2 py-1 rounded-full">${auctions.length}</span>
+                            </div>
+                        </div>
+                        <div class="space-y-2 max-h-40 overflow-y-auto">
+                            ${auctions.slice(0, 3).map(a => `
+                                <a href="${a.source_url}" target="_blank" class="block text-xs text-white/60 hover:text-yellow-400 truncate">
+                                    ${a.title.substring(0, 40)}...
+                                </a>
+                            `).join('')}
+                            ${auctions.length > 3 ? `<div class="text-xs text-white/30">+${auctions.length - 3} more</div>` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
         }
 
         // Update dashboard stats
@@ -641,11 +888,20 @@ body {
             document.getElementById('category-breakdown').innerHTML = catHtml || '<p class="text-white/40 text-sm">No data</p>';
         }
 
-        // Render top opportunities (auctions with prices)
+        // Render top opportunities (best deals with price comparison)
         function renderOpportunities() {
             const grid = document.getElementById('opportunities-grid');
+
+            // Filter auctions with prices and sort by discount
             const opportunities = allAuctions
                 .filter(a => a.base_price > 0)
+                .map(a => ({
+                    ...a,
+                    discount: calculateDiscount(a),
+                    marketValue: estimateMarketValue(a)
+                }))
+                .filter(a => a.discount !== null)
+                .sort((a, b) => b.discount - a.discount)
                 .slice(0, 6);
 
             if (opportunities.length === 0) {
@@ -658,23 +914,32 @@ body {
                     ? auction.images[0]
                     : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
 
+                const discountColor = auction.discount >= 30 ? 'text-green-400' : auction.discount >= 20 ? 'text-yellow-400' : 'text-white/60';
+
                 return `
                     <a href="${auction.source_url}" target="_blank" rel="noopener"
                        class="auction-card glass rounded-2xl overflow-hidden block group">
                         <div class="aspect-video overflow-hidden bg-black/50 relative">
-                            <img src="${imageUrl}" alt="${auction.title}" class="auction-image w-full h-full object-cover" loading="lazy">
+                            <img src="${imageUrl}" alt="${auction.title}" class="auction-image w-full h-full object-cover" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,' + encodeURIComponent('<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'><rect fill=\\'%231a1a1a\\' width=\\'400\\' height=\\'300\\'/><text fill=\\'%23333\\' font-family=\\'sans-serif\\' font-size=\\'14\\' x=\\'50%\\' y=\\'50%\\' text-anchor=\\'middle\\'>Sin imagen</text></svg>')">
                             <div class="absolute top-3 left-3">
                                 <span class="category-badge category-${auction.category}">${auction.category}</span>
                             </div>
-                            <div class="absolute top-3 right-3">
-                                <span class="source-badge">${auction.source}</span>
+                            <div class="absolute top-3 right-3 flex gap-2">
+                                <span class="bg-green-500/90 text-white text-xs px-2 py-1 rounded-full font-bold">-${auction.discount}%</span>
                             </div>
                         </div>
                         <div class="p-5">
                             <h3 class="text-white font-medium mb-3 line-clamp-2 group-hover:text-yellow-400 transition-colors">${auction.title}</h3>
-                            <div>
-                                <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Base</div>
-                                <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${auction.base_price.toLocaleString()}</span>
+                            <div class="flex items-end justify-between">
+                                <div>
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Base</div>
+                                    <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${auction.base_price.toLocaleString()}</span>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Est. Market</div>
+                                    <span class="text-sm text-white/40 line-through">USD ${auction.marketValue.toLocaleString()}</span>
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -684,16 +949,12 @@ body {
 
         function renderAuctions() {
             const grid = document.getElementById('auctions-grid');
-            let filtered = currentFilter
-                ? allAuctions.filter(a => a.category === currentFilter)
-                : allAuctions;
-
-            const toShow = filtered.slice(0, displayedCount);
+            const toShow = filteredAuctions.slice(0, displayedCount);
 
             if (toShow.length === 0) {
                 grid.innerHTML = `
                     <div class="col-span-full text-center py-20">
-                        <p class="text-white/40">No auctions found in this category.</p>
+                        <p class="text-white/40">No auctions found matching your criteria.</p>
                     </div>
                 `;
                 document.getElementById('load-more-container').style.display = 'none';
@@ -709,6 +970,10 @@ body {
                     ? `${auction.currency} ${auction.base_price.toLocaleString()}`
                     : 'A consultar';
 
+                const discount = calculateDiscount(auction);
+                const marketValue = estimateMarketValue(auction);
+                const hasComparison = discount !== null && marketValue !== null;
+
                 return `
                     <a href="${auction.source_url}" target="_blank" rel="noopener"
                        class="auction-card glass rounded-2xl overflow-hidden block group">
@@ -721,7 +986,8 @@ body {
                             <div class="absolute top-3 left-3">
                                 <span class="category-badge category-${auction.category}">${auction.category}</span>
                             </div>
-                            <div class="absolute top-3 right-3">
+                            <div class="absolute top-3 right-3 flex gap-1">
+                                ${hasComparison && discount >= 20 ? `<span class="bg-green-500/90 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">-${discount}%</span>` : ''}
                                 <span class="source-badge">${auction.source}</span>
                             </div>
                         </div>
@@ -733,6 +999,7 @@ body {
                                 <div>
                                     <div class="text-[10px] uppercase tracking-wider text-white/40 mb-0.5">Precio Base</div>
                                     <span class="text-yellow-500 font-display font-semibold">${priceText}</span>
+                                    ${hasComparison ? `<div class="text-[10px] text-white/30 line-through">Est. USD ${marketValue.toLocaleString()}</div>` : ''}
                                 </div>
                                 <span class="text-white/40 text-xs">Ver &rarr;</span>
                             </div>
@@ -743,7 +1010,7 @@ body {
 
             // Show/hide load more button
             document.getElementById('load-more-container').style.display =
-                displayedCount < filtered.length ? 'block' : 'none';
+                displayedCount < filteredAuctions.length ? 'block' : 'none';
         }
 
         function filterAuctions(category) {
@@ -763,7 +1030,7 @@ body {
                 }
             });
 
-            renderAuctions();
+            applyFilters();
         }
 
         function loadMore() {

@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-02-21
+
+### Added
+- **Cursor-reactive background** - Yellow/gold light effect that follows mouse movement
+- **Particle trail system** - Dynamic particles spawn and fade around cursor
+- **Lenis smooth scroll** - Professional smooth scrolling for anchor navigation
+- **ads.txt** - Google AdSense publisher verification file
+
+### Changed
+- Background now uses custom canvas-based animation instead of static video
+- Yellow/amber color scheme (`#EAB308`, `#FBBF24`, `#F59E0B`) matching site theme
+- Improved scroll behavior with GSAP ScrollTrigger integration
+
+### Technical
+- Canvas-based cursor following with 0.06 easing interpolation
+- Multiple layered radial gradients for depth effect
+- Smooth anchor link scrolling with 80px navbar offset
+
+---
+
 ## [1.0.0] - 2026-02-21
 
 ### Added
@@ -184,6 +204,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| **1.1.0** | 2026-02-21 | **Cursor-reactive yellow background, smooth scroll** |
 | 1.0.0 | 2026-02-21 | Stable release, date extraction, 227 listings |
 | 0.12.0 | 2026-02-21 | Fix Global Remates titles |
 | 0.11.0 | 2026-02-21 | Video background |

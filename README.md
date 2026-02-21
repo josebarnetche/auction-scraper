@@ -8,7 +8,7 @@ Argentina Auction Radar aggregates judicial and private auctions from 11 sources
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.0.0` | 2026-02-21 02:22 UTC |
+| `v1.1.0` | 2026-02-21 03:45 UTC |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 

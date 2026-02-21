@@ -70,17 +70,27 @@ html {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 .auction-card {
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s ease;
 }
-.auction-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(234, 179, 8, 0.15);
+/* Disable hover effects on mobile/touch devices */
+@media (hover: hover) and (pointer: fine) {
+    .auction-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 20px rgba(234, 179, 8, 0.1);
+    }
+    .auction-card:hover .auction-image {
+        transform: scale(1.05);
+    }
+    .auction-image {
+        transition: transform 0.4s ease;
+    }
 }
-.auction-card:hover .auction-image {
-    transform: scale(1.1);
-}
-.auction-image {
-    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+/* No transform on touch devices */
+@media (hover: none) or (pointer: coarse) {
+    .auction-card, .auction-image {
+        transform: none !important;
+        transition: none !important;
+    }
 }
 .category-badge {
     padding: 4px 12px;
@@ -638,10 +648,10 @@ html {
                     <!-- Price Range Slider -->
                     <div class="lg:col-span-2">
                         <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">
-                            Price Range (USD): <span id="price-range-display" class="text-yellow-400">$0 - No limit</span>
+                            Price Range (<span id="price-range-currency">USD</span>): <span id="price-range-display" class="text-yellow-400">$0 - No limit</span>
                         </label>
                         <div class="flex items-center gap-4">
-                            <span class="text-white/40 text-xs">$0</span>
+                            <span class="text-white/40 text-xs" id="price-range-min-label">$0</span>
                             <div class="flex-1 relative h-8 flex items-center">
                                 <div class="absolute w-full h-1 bg-white/10 rounded"></div>
                                 <div id="price-range-fill" class="absolute h-1 bg-yellow-500 rounded" style="left:0%;right:0%"></div>
@@ -652,7 +662,7 @@ html {
                                        class="price-slider absolute w-full h-1 appearance-none bg-transparent cursor-pointer z-20"
                                        oninput="updatePriceSlider()">
                             </div>
-                            <span class="text-white/40 text-xs">$500k+</span>
+                            <span class="text-white/40 text-xs" id="price-range-max-label">$500k+</span>
                         </div>
                     </div>
                 </div>
@@ -908,6 +918,8 @@ html {
             // Re-render current view
             renderAuctions();
             renderOpportunities();
+            // Update price range display
+            updatePriceSlider();
             // Re-render calendar selected date if one is selected
             if (selectedDate) selectDate(selectedDate);
         }
@@ -1114,10 +1126,35 @@ html {
                 minVal = maxVal - 5000;
             }
 
-            // Update display
-            const minDisplay = minVal >= 1000 ? `$${Math.round(minVal/1000)}k` : `$${minVal}`;
-            const maxDisplay = maxVal >= 500000 ? 'No limit' : (maxVal >= 1000 ? `$${Math.round(maxVal/1000)}k` : `$${maxVal}`);
+            // Convert to display currency
+            const isARS = displayCurrency === 'ARS';
+            const displayMin = isARS ? minVal * BLUE_DOLLAR_RATE : minVal;
+            const displayMax = isARS ? maxVal * BLUE_DOLLAR_RATE : maxVal;
+            const maxLimit = isARS ? 500000 * BLUE_DOLLAR_RATE : 500000;
+            const symbol = isARS ? 'ARS' : 'USD';
+
+            // Update currency label
+            document.getElementById('price-range-currency').textContent = symbol;
+
+            // Format display values
+            const formatVal = (val) => {
+                if (isARS) {
+                    if (val >= 1000000) return `$${Math.round(val/1000000)}M`;
+                    if (val >= 1000) return `$${Math.round(val/1000)}k`;
+                    return `$${val}`;
+                } else {
+                    if (val >= 1000) return `$${Math.round(val/1000)}k`;
+                    return `$${val}`;
+                }
+            };
+
+            const minDisplay = formatVal(displayMin);
+            const maxDisplay = maxVal >= 500000 ? 'No limit' : formatVal(displayMax);
             document.getElementById('price-range-display').textContent = `${minDisplay} - ${maxDisplay}`;
+
+            // Update min/max labels
+            document.getElementById('price-range-min-label').textContent = isARS ? '$0' : '$0';
+            document.getElementById('price-range-max-label').textContent = isARS ? `$${Math.round(maxLimit/1000000)}M+` : '$500k+';
 
             // Update fill bar
             const minPercent = (minVal / 500000) * 100;

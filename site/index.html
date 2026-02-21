@@ -22,9 +22,12 @@
 :root { --cursor-size: 20px; }
 body {
     font-family: 'Manrope', sans-serif;
-    background-color: #030303;
+    background-color: transparent;
     color: #ffffff;
     overflow-x: hidden;
+}
+html {
+    background-color: #030303;
 }
 .font-display { font-family: 'Space Grotesk', sans-serif; }
 .glass {
@@ -86,12 +89,13 @@ body {
 </head>
 <body class="antialiased overflow-x-hidden">
     <!-- VIDEO BACKGROUND -->
-    <div class="video-background-container fixed top-0 w-full h-full -z-10" style="mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 80%, transparent)">
-        <video src="https://cdn.pixabay.com/video/2020/05/25/40130-424930964_large.mp4" autoplay loop muted playsinline class="w-full h-full object-cover opacity-50"></video>
+    <div class="video-background-container fixed inset-0 z-0 overflow-hidden">
+        <video src="https://cdn.pixabay.com/video/2020/05/25/40130-424930964_large.mp4" autoplay loop muted playsinline class="w-full h-full object-cover opacity-40"></video>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80"></div>
     </div>
 
     <!-- AURA BACKGROUND -->
-    <div class="aura-background fixed inset-0 pointer-events-none -z-10 saturate-150">
+    <div class="aura-background fixed inset-0 pointer-events-none z-0 saturate-150">
         <div class="absolute inset-0 bg-gradient-to-br from-yellow-900/20 via-transparent to-purple-900/10"></div>
         <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-yellow-500/5 rounded-full blur-3xl"></div>
         <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>
@@ -202,7 +206,7 @@ body {
     </nav>
 
     <!-- HERO SECTION -->
-    <section class="min-h-screen flex flex-col items-center justify-center px-4 pt-20 relative overflow-hidden">
+    <section class="min-h-screen flex flex-col items-center justify-center px-4 pt-20 relative overflow-hidden z-10">
         <!-- Background Effects -->
         <div class="absolute inset-0 bg-gradient-to-b from-yellow-900/10 via-transparent to-transparent"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-yellow-500/5 rounded-full blur-3xl"></div>
@@ -322,7 +326,7 @@ body {
     </section>
 
     <!-- OPPORTUNITIES SECTION -->
-    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="opportunities">
+    <section class="py-20 px-4 md:px-6 border-t border-white/5 relative z-10 bg-black/50" id="opportunities">
         <div class="max-w-[1400px] mx-auto">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Top Opportunities</h2>
@@ -335,7 +339,7 @@ body {
     </section>
 
     <!-- DASHBOARD SECTION -->
-    <section class="py-20 px-4 md:px-6 bg-gradient-to-b from-yellow-900/5 to-transparent border-t border-white/5" id="dashboard">
+    <section class="py-20 px-4 md:px-6 bg-gradient-to-b from-yellow-900/5 to-black/50 border-t border-white/5 relative z-10" id="dashboard">
         <div class="max-w-[1400px] mx-auto">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Dashboard</h2>
@@ -377,7 +381,7 @@ body {
     </section>
 
     <!-- CALENDAR SECTION -->
-    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="calendar">
+    <section class="py-20 px-4 md:px-6 border-t border-white/5 relative z-10 bg-black/50" id="calendar">
         <div class="max-w-[1400px] mx-auto">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Auction Calendar</h2>
@@ -460,7 +464,7 @@ body {
     </section>
 
     <!-- FEATURES SECTION -->
-    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="features">
+    <section class="py-20 px-4 md:px-6 border-t border-white/5 relative z-10 bg-black/50" id="features">
         <div class="max-w-[1400px] mx-auto">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Features</h2>
@@ -508,7 +512,7 @@ body {
     </section>
 
     <!-- LIVE AUCTIONS FEED -->
-    <section class="py-20 px-4 md:px-6 border-t border-white/5" id="auctions">
+    <section class="py-20 px-4 md:px-6 border-t border-white/5 relative z-10 bg-black/50" id="auctions">
         <div class="max-w-[1400px] mx-auto">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
                 <div>
@@ -611,7 +615,7 @@ body {
     </section>
 
     <!-- SOURCES SECTION -->
-    <section class="py-20 px-4 md:px-6 bg-black/50 border-t border-white/5" id="sources">
+    <section class="py-20 px-4 md:px-6 bg-black/70 border-t border-white/5 relative z-10" id="sources">
         <div class="max-w-[1400px] mx-auto">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Monitored Sources</h2>

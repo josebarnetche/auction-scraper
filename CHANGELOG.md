@@ -9,6 +9,67 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.5.0] - 2026-02-21
+
+### Added
+- **SEO & Social Media Optimization**
+  - Open Graph meta tags for Facebook/LinkedIn sharing
+  - Twitter Card meta tags for Twitter sharing
+  - Meta description with Spanish keywords
+  - Canonical URL, robots directive, Spanish language (`lang="es"`)
+
+- **Favicon & Branding**
+  - SVG favicon with compass/radar design
+  - PNG favicons (32x32, 16x16, 180x180 apple-touch-icon)
+  - OG image (1200x630) for social sharing
+  - Theme color (#eab308 yellow)
+
+- **Currency Selector in Header**
+  - ARS/USD toggle moved from floating button to navigation bar
+  - Price range slider updates to show ARS values when selected
+  - All prices dynamically convert based on blue dollar rate
+
+- **Mobile Navigation**
+  - Hamburger menu for mobile devices
+  - Slide-down navigation menu
+  - Menu closes when link is clicked
+
+### Changed
+- **Calendar Shows Closing Dates**
+  - Auctions grouped by `ends_at` (closing date) instead of start date
+  - Past dates filtered out (only future auctions shown)
+  - Time display shows "Cierra: HH:MM" (Closes at)
+
+- **Ended Auctions Filtered**
+  - Server-side: `generate_site.py` skips auctions where `ends_at < now`
+  - Client-side: JavaScript also filters expired auctions on load
+  - Listings reduced from 873 to 864
+
+- **Judicial Source Priority in Opportunities**
+  - Judicial sources get +100 points in opportunity ranking
+  - Priority private sources get +40 points
+  - Same discount = judicial ranks higher
+
+### Fixed
+- **Mobile Performance**
+  - Disabled hover scale/zoom effects on touch devices
+  - Uses `@media (hover: hover)` for desktop-only effects
+  - Eliminates scroll lag and jank on mobile
+
+- **Torno Automático Pricing**
+  - Added specific lathe types with accurate prices:
+    - `torno automatico`: $1,500-6,000 (typical $3,500)
+    - `torno revolver`: $2,000-8,000 (typical $4,000)
+    - `torno paralelo`: $3,000-15,000 (typical $6,000)
+    - `torno cnc`: $15,000-80,000 (typical $35,000)
+  - Generic `torno` reduced to $3,000-40,000 (typical $8,000)
+
+- **GMT-3 Time Display**
+  - Restored missing `gmt3-time` element in header
+  - Fixed JavaScript error from null element reference
+
+---
+
 ## [1.4.1] - 2026-02-21
 
 ### Fixed
@@ -355,6 +416,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| **1.5.0** | 2026-02-21 | **SEO/social meta tags, currency selector in header, mobile optimization, calendar shows closing dates** |
+| 1.4.1 | 2026-02-21 | Category detection fixes, market price accuracy, Agusti logo filtering |
 | **1.4.0** | 2026-02-21 | **Rebrand to Subasto, lot-level architecture, 873 listings, AI analysis pipeline** |
 | 1.3.0 | 2026-02-21 | Curated premium opportunities via AI agent research |
 | 1.2.0 | 2026-02-21 | Real market prices from Autocosmos/ZonaProp, no fake estimates |

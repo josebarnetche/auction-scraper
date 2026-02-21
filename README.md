@@ -10,7 +10,7 @@ Subasto aggregates judicial and private auctions from 15+ sources across Argenti
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.4.0` | 2026-02-21 |
+| `v1.5.0` | 2026-02-21 |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -49,12 +49,32 @@ A **single aggregation layer** that:
 
 | Metric | Value |
 |--------|-------|
-| **Total Sources** | 15 |
-| **Active Listings** | 873 |
-| **Judicial Listings** | 621 (71%) |
+| **Total Sources** | 14 |
+| **Active Listings** | 864 |
+| **Judicial Listings** | 621 (72%) |
 | **Lot-Level Data** | 31 lots across 8 auctions |
 | **Update Frequency** | Daily at 00:00 GMT-3 |
 | **Infrastructure Cost** | $0 |
+
+---
+
+## Features
+
+### Currency Selector
+Toggle between **ARS** and **USD** display. All prices convert automatically using the live blue dollar rate from [dolarapi.com](https://dolarapi.com).
+
+### Calendar View
+See auctions by **closing date**. Only future auctions are shown. Click any date to see what's closing that day with exact closing times.
+
+### Mobile Optimized
+- Responsive design for all screen sizes
+- Touch-friendly navigation with hamburger menu
+- No hover effects causing scroll issues on mobile
+
+### SEO & Social Sharing
+- Full Open Graph and Twitter Card support
+- Custom favicon and OG image
+- Spanish language meta tags for Argentine search engines
 
 ---
 

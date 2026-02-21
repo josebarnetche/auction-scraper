@@ -1335,7 +1335,6 @@ html {
             renderCalendar();
 
             // Auto-select today if it has auctions
-            const todayKey = new Date().toISOString().split('T')[0];
             if (auctionsByDate[todayKey]) {
                 selectDate(todayKey);
             }

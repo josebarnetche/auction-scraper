@@ -341,8 +341,12 @@ class CSJNScraper(BaseScraper):
         return location
 
     def _extract_images(self, soup: BeautifulSoup, auction_id: int, lot_id: Optional[str]) -> list[str]:
-        """Extract image URLs from page."""
-        images = []
+        """Extract image URLs from page, prioritizing actual product photos."""
+        product_images = []
+        other_images = []
+
+        # Patterns to skip (UI elements, not products)
+        skip_patterns = ['logo', 'icon', 'avatar', 'placeholder', 'ribbon', 'ajax-loader', 'loader']
 
         # Find all images
         for img in soup.find_all('img'):
@@ -350,8 +354,8 @@ class CSJNScraper(BaseScraper):
             if not src:
                 continue
 
-            # Skip icons and logos
-            if any(x in src.lower() for x in ['logo', 'icon', 'avatar', 'placeholder']):
+            # Skip UI elements
+            if any(x in src.lower() for x in skip_patterns):
                 continue
 
             # Make absolute URL
@@ -360,10 +364,16 @@ class CSJNScraper(BaseScraper):
             elif not src.startswith('http'):
                 src = f"{self.BASE_URL}/{src}"
 
-            if src not in images:
-                images.append(src)
+            if src not in product_images and src not in other_images:
+                # Prioritize AuctionImages (actual product photos)
+                if '/AuctionImages/' in src:
+                    product_images.append(src)
+                else:
+                    other_images.append(src)
 
-        return images[:5]  # Limit to 5 images
+        # Return product images first, then others
+        all_images = product_images + other_images
+        return all_images[:5]  # Limit to 5 images
 
     def parse_listing(self, element, status: str = "published") -> Optional[AuctionListing]:
         """Required by base class - delegates to detail page parser."""

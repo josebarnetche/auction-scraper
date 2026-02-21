@@ -2,6 +2,7 @@
 
 import re
 import logging
+import asyncio
 from datetime import datetime
 from typing import Optional
 from bs4 import Tag
@@ -51,8 +52,13 @@ class AdrianMercadoScraper(BaseScraper):
                 seen.add(listing.id)
                 unique.append(listing)
 
-        logger.info(f"Found {len(unique)} Adrián Mercado listings")
-        return unique
+        # Fetch detail pages for images if missing
+        logger.info(f"Found {len(unique)} Adrián Mercado listings, enriching...")
+        enriched = await self._enrich_listings(unique)
+
+        with_images = sum(1 for l in enriched if l.images)
+        logger.info(f"Adrián Mercado: {with_images}/{len(enriched)} listings have images")
+        return enriched
 
     def _parse_listings_page(self, soup) -> list[AuctionListing]:
         """Parse listings from page."""
@@ -267,3 +273,77 @@ class AdrianMercadoScraper(BaseScraper):
             return float(price_str), currency
         except ValueError:
             return 0.0, currency
+
+    async def _fetch_detail_images(self, listing: AuctionListing) -> list[str]:
+        """Fetch images from the detail page."""
+        try:
+            html = await self.fetch_html(listing.source_url)
+            if not html:
+                return listing.images
+
+            soup = self.parse_html(html)
+            images = []
+
+            # Skip patterns
+            skip_patterns = ['logo', 'icon', 'avatar', 'ribbon', 'badge', 'placeholder',
+                           'loading', 'spinner', 'social', 'share', 'whatsapp', 'facebook',
+                           'footer', 'svg', 'googleads', 'afip', 'gptw', 'cerrar']
+
+            # Product image patterns (prioritize these)
+            product_patterns = ['amercado.azureedge.net', 'subastas/', 'products/', 'uploads/', 'auction']
+
+            for img in soup.find_all("img"):
+                src = img.get("src") or img.get("data-src") or img.get("data-lazy")
+                if not src:
+                    continue
+
+                src_lower = src.lower()
+
+                # Skip icons/logos/tracking pixels
+                if any(skip in src_lower for skip in skip_patterns):
+                    continue
+
+                # Prioritize product images
+                is_product_image = any(pattern in src_lower for pattern in product_patterns)
+
+                if is_product_image:
+                    if src.startswith("/"):
+                        src = f"{self.BASE_URL}{src}"
+                    elif not src.startswith("http"):
+                        src = f"{self.BASE_URL}/{src}"
+
+                    if src not in images:
+                        images.insert(0, src)  # Add to front
+                        if len(images) >= 5:
+                            break
+
+            return images if images else listing.images
+
+        except Exception as e:
+            logger.debug(f"Error fetching detail images: {e}")
+            return listing.images
+
+    async def _enrich_listings(self, listings: list[AuctionListing]) -> list[AuctionListing]:
+        """Fetch detail pages to get images for listings without them."""
+        enriched = []
+        for listing in listings:
+            if not listing.images:
+                await asyncio.sleep(self.RATE_LIMIT_SECONDS)
+                images = await self._fetch_detail_images(listing)
+                listing = AuctionListing(
+                    id=listing.id,
+                    source=listing.source,
+                    source_url=listing.source_url,
+                    title=listing.title,
+                    description=listing.description,
+                    category=listing.category,
+                    base_price=listing.base_price,
+                    currency=listing.currency,
+                    status=listing.status,
+                    starts_at=listing.starts_at,
+                    ends_at=listing.ends_at,
+                    location=listing.location,
+                    images=images,
+                )
+            enriched.append(listing)
+        return enriched

@@ -147,14 +147,19 @@ class SCBAScraper(BaseScraper):
         # Extract "Inicio de inscripción" date with time
         starts_at = self._parse_inscription_date(page_text)
 
-        # Extract images
+        # Extract images - skip logos, icons, ribbons
         images = []
+        skip_patterns = ['logo', 'icon', 'avatar', 'ribbon', 'badge', 'placeholder', 'loading']
         for img in soup.find_all("img"):
             src = img.get("src") or img.get("data-src")
-            if src and not any(x in src.lower() for x in ['logo', 'icon', 'avatar']):
+            if src and not any(x in src.lower() for x in skip_patterns):
                 if src.startswith("/"):
                     src = f"{self.BASE_URL}{src}"
-                images.append(src)
+                # Prioritize AuctionImages folder
+                if 'AuctionImages' in src:
+                    images.insert(0, src)
+                else:
+                    images.append(src)
                 if len(images) >= 5:
                     break
 

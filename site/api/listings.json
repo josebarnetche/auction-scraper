@@ -17,27 +17,12 @@
     "zarate": 2,
     "curated": 21
   },
-  "generated_at": "2026-02-21T21:29:49.066593+00:00",
+  "generated_at": "2026-02-21T21:35:13.872482+00:00",
   "blue_dollar_rate": 1430.0,
   "with_market_data": 75,
   "opportunity_count": 72,
   "premium_count": 12,
   "top_opportunities": [
-    {
-      "id": "curated:scania_20ton_press",
-      "title": "Scania Argentina - 20-Ton Industrial Press - USD $4,170 (75-85% OFF)",
-      "discount_percent": 93.6,
-      "before_march": true,
-      "category": "vehicles",
-      "source": "curated",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
-      "base_price": 5000000.0,
-      "currency": "ARS",
-      "market_typical_usd": 55000,
-      "is_premium": true,
-      "premium_type": "industrial_machinery",
-      "why_premium": "20-ton press from Scania = quality equipment. $4k for $15-25k market value."
-    },
     {
       "id": "curated:mecalux_robot_warehouse",
       "title": "Mecalux Programmable Robot + Automated Warehouse System + Forklift",
@@ -97,6 +82,21 @@
       "is_premium": false,
       "premium_type": "",
       "why_premium": ""
+    },
+    {
+      "id": "curated:scania_20ton_press",
+      "title": "Prensa de Temple Rolop RGT 2x20 (Ex-Scania) - 20 Toneladas - USD $3,500",
+      "discount_percent": 30.1,
+      "before_march": true,
+      "category": "machinery",
+      "source": "curated",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
+      "base_price": 5000000.0,
+      "currency": "ARS",
+      "market_typical_usd": 5000,
+      "is_premium": true,
+      "premium_type": "industrial_machinery",
+      "why_premium": "Quality Scania equipment. Rolop brand with Rexroth hydraulics. Fair price at $3.5k for $5-7k typical market value. Operational condition."
     }
   ],
   "lot_stats": {
@@ -761,52 +761,6 @@
   "top_lots": [],
   "listings": [
     {
-      "id": "curated:scania_20ton_press",
-      "source": "curated",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
-      "title": "Scania Argentina - 20-Ton Industrial Press - USD $4,170 (75-85% OFF)",
-      "description": "Industrial press from Scania Argentina. 20-ton capacity. Base ARS $5,000,000 (~USD $4,170). 20-ton hydraulic presses typically $15-25k used. Closing Feb 27.",
-      "category": "other",
-      "base_price": 5000000.0,
-      "currency": "ARS",
-      "status": "upcoming",
-      "starts_at": null,
-      "ends_at": "2026-02-27T11:00:00-03:00",
-      "location": {
-        "province": "Buenos Aires",
-        "city": ""
-      },
-      "images": [
-        "https://www.globalremates.com.ar/Register/Auctions/3220/41544/3220_Lote_01.jpg"
-      ],
-      "scraped_at": "2026-02-21T10:24:02.581091+00:00",
-      "extra": {
-        "is_premium": true,
-        "premium_type": "industrial_machinery",
-        "estimated_value_usd": 20000,
-        "discount_estimate": "75-85%",
-        "why_premium": "20-ton press from Scania = quality equipment. $4k for $15-25k market value."
-      },
-      "is_premium": true,
-      "visibility": "main",
-      "quality_score": 100,
-      "source_type": "private",
-      "base_price_usd": 3496.5,
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "scania",
-        "min_usd": 30000,
-        "max_usd": 120000,
-        "typical_usd": 55000,
-        "category": "vehicles",
-        "auction_price_usd": 3496.5,
-        "discount_percent": 93.6,
-        "is_opportunity": true
-      },
-      "is_top_opportunity": true,
-      "opportunity_rank": 1
-    },
-    {
       "id": "curated:mecalux_robot_warehouse",
       "source": "curated",
       "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
@@ -841,7 +795,7 @@
       "base_price_usd": 52500,
       "base_price_ars": 75075000.0,
       "is_top_opportunity": true,
-      "opportunity_rank": 2
+      "opportunity_rank": 1
     },
     {
       "id": "global_remates:lot_41549",
@@ -879,6 +833,47 @@
         "category": "machinery",
         "auction_price_usd": 1048.95,
         "discount_percent": 94.2,
+        "is_opportunity": true
+      },
+      "is_top_opportunity": true,
+      "opportunity_rank": 2
+    },
+    {
+      "id": "global_remates:lot_41499",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41499",
+      "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
+      "description": "",
+      "category": "real_estate",
+      "base_price": 2200000.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": "2026-02-26T11:02:00",
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3213/41499/3195_Lote_02.jpg"
+      ],
+      "scraped_at": "2026-02-21T20:55:44.207654+00:00",
+      "extra": {},
+      "lots": [],
+      "lot_count": 0,
+      "visibility": "main",
+      "quality_score": 100,
+      "source_type": "private",
+      "base_price_usd": 1538.46,
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "torno",
+        "min_usd": 5000,
+        "max_usd": 80000,
+        "typical_usd": 20000,
+        "category": "machinery",
+        "auction_price_usd": 1538.46,
+        "discount_percent": 92.3,
         "is_opportunity": true
       },
       "is_top_opportunity": true,
@@ -21054,13 +21049,13 @@
       "base_price_usd": 3496.5,
       "market_data": {
         "source": "market_reference",
-        "keyword_match": "prensa",
-        "min_usd": 3000,
-        "max_usd": 60000,
-        "typical_usd": 15000,
+        "keyword_match": "prensa de 20",
+        "min_usd": 2000,
+        "max_usd": 8000,
+        "typical_usd": 5000,
         "category": "machinery",
         "auction_price_usd": 3496.5,
-        "discount_percent": 76.7,
+        "discount_percent": 30.1,
         "is_opportunity": true
       }
     },
@@ -21240,45 +21235,6 @@
         "category": "machinery",
         "auction_price_usd": 2097.9,
         "discount_percent": 89.5,
-        "is_opportunity": true
-      }
-    },
-    {
-      "id": "global_remates:lot_41499",
-      "source": "global_remates",
-      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41499",
-      "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
-      "description": "",
-      "category": "real_estate",
-      "base_price": 2200000.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": "2026-02-26T11:02:00",
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://www.globalremates.com.ar/Register/Auctions/3213/41499/3195_Lote_02.jpg"
-      ],
-      "scraped_at": "2026-02-21T20:55:44.207654+00:00",
-      "extra": {},
-      "lots": [],
-      "lot_count": 0,
-      "visibility": "main",
-      "quality_score": 100,
-      "source_type": "private",
-      "base_price_usd": 1538.46,
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "torno",
-        "min_usd": 5000,
-        "max_usd": 80000,
-        "typical_usd": 20000,
-        "category": "machinery",
-        "auction_price_usd": 1538.46,
-        "discount_percent": 92.3,
         "is_opportunity": true
       }
     },
@@ -27016,6 +26972,50 @@
       "source_type": "private",
       "base_price_usd": 33333,
       "base_price_ars": 47666190.0
+    },
+    {
+      "id": "curated:scania_20ton_press",
+      "source": "curated",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
+      "title": "Prensa de Temple Rolop RGT 2x20 (Ex-Scania) - 20 Toneladas - USD $3,500",
+      "description": "Prensa de temple Rolop RGT 2x20 usada en planta Scania. 2x20 ton, año 2004, operativa. Sistema hidráulico Rexroth, motores duales (20HP + 4HP). Base ARS $5,000,000 (~USD $3,500). Valor mercado $3-8k para prensas similares. Desmontaje a cargo del comprador.",
+      "category": "vehicles",
+      "base_price": 5000000.0,
+      "currency": "ARS",
+      "status": "upcoming",
+      "starts_at": null,
+      "ends_at": "2026-02-27T11:00:00-03:00",
+      "location": {
+        "province": "Tucumán",
+        "city": "San Miguel de Tucumán"
+      },
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3220/41544/3220_Lote_01.jpg"
+      ],
+      "scraped_at": "2026-02-21T10:24:02.581091+00:00",
+      "extra": {
+        "is_premium": true,
+        "premium_type": "industrial_machinery",
+        "estimated_value_usd": 6000,
+        "discount_estimate": "30-40%",
+        "why_premium": "Quality Scania equipment. Rolop brand with Rexroth hydraulics. Fair price at $3.5k for $5-7k typical market value. Operational condition."
+      },
+      "is_premium": true,
+      "visibility": "main",
+      "quality_score": 100,
+      "source_type": "private",
+      "base_price_usd": 3496.5,
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "prensa de temple",
+        "min_usd": 2000,
+        "max_usd": 8000,
+        "typical_usd": 5000,
+        "category": "machinery",
+        "auction_price_usd": 3496.5,
+        "discount_percent": 30.1,
+        "is_opportunity": true
+      }
     },
     {
       "id": "agusti:3146_14",

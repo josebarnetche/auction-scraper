@@ -9,6 +9,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.4.1] - 2026-02-21
+
+### Fixed
+- **Category Detection Order** - Real estate keywords now checked before machinery
+  - "TERRENO EN SECTOR INDUSTRIAL" now correctly categorized as `real_estate`
+  - "GRUPO ELECTROGENO HONDA" correctly categorized as `machinery`
+  - Removed generic "industrial" keyword to avoid false positives
+
+- **Banco Ciudad Currency** - USD prices no longer misdetected as ARS
+  - Scraper now detects `U$S` price format before checking payment terms
+  - Site generation adds heuristic for real estate listings > $50k USD
+
+- **Agusti Logo Images** - Filtered out branding images
+  - `home_agusti_subastas_X.png` and `Empresas/` logos now excluded
+  - Product images from `imagenes.agustisubastas.com.ar/dtsImages/Lotes/` shown instead
+
+- **Market Price Accuracy** - More realistic pricing for specific equipment
+  - Small presses (20-ton): $3,000-8,000 typical instead of $15,000
+  - Portable Honda generators: $800-1,200 typical instead of $20,000
+  - Added specific entries for `prensa 20 ton`, `prensa de temple`, `prensa hidraulica`
+
+### Known Issues
+- **COMPR.AR Scraper** - Not functional due to ASP.NET session handling
+  - Site requires cookie-based session tracking
+  - Looking for contributors to help fix (see README)
+
+---
+
 ## [1.4.0] - 2026-02-21
 
 ### Rebranding

@@ -57,7 +57,12 @@ MACHINERY_PRICES = {
     "torno": {"min": 5000, "max": 80000, "typical": 20000},
     "fresadora": {"min": 8000, "max": 100000, "typical": 30000},
     "cnc": {"min": 15000, "max": 200000, "typical": 50000},
-    "prensa": {"min": 3000, "max": 60000, "typical": 15000},
+    # Presses - specific types FIRST (more specific keywords must come before generic)
+    "prensa 20 toneladas": {"min": 2000, "max": 8000, "typical": 5000},
+    "prensa de 20": {"min": 2000, "max": 8000, "typical": 5000},
+    "prensa de temple": {"min": 2000, "max": 8000, "typical": 5000},
+    "prensa hidraulica": {"min": 3000, "max": 25000, "typical": 8000},
+    "prensa": {"min": 3000, "max": 60000, "typical": 12000},  # Generic last
     "guillotina": {"min": 5000, "max": 50000, "typical": 18000},
     "plegadora": {"min": 8000, "max": 80000, "typical": 25000},
 }

@@ -6,6 +6,12 @@ Argentina Auction Radar aggregates judicial and private auctions from 11 sources
 
 [![Daily Scrape](https://github.com/josebarnetche/auction-scraper/actions/workflows/scrape.yml/badge.svg)](https://github.com/josebarnetche/auction-scraper/actions)
 
+| **Version** | **Last Updated** |
+|-------------|------------------|
+| `v1.0.0` | 2026-02-21 02:22 UTC |
+
+> See [CHANGELOG.md](CHANGELOG.md) for full version history.
+
 ---
 
 ## Why This Exists
@@ -40,7 +46,8 @@ A **single aggregation layer** that:
 | Metric | Value |
 |--------|-------|
 | **Total Sources** | 11 |
-| **Active Listings** | 270+ |
+| **Active Listings** | 227 |
+| **Listings with Dates** | 70 (31%) |
 | **Update Frequency** | Daily at 00:00 GMT-3 |
 | **Infrastructure Cost** | $0 |
 

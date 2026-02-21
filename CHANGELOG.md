@@ -10,20 +10,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0] - 2026-02-21
 
 ### Added
-- **Cursor-reactive background** - Yellow/gold light effect that follows mouse movement
-- **Particle trail system** - Dynamic particles spawn and fade around cursor
+- **UnicornStudio animated background** - Beautiful flowing yellow/gold glowing light effect
 - **Lenis smooth scroll** - Professional smooth scrolling for anchor navigation
 - **ads.txt** - Google AdSense publisher verification file
 
 ### Changed
-- Background now uses custom canvas-based animation instead of static video
-- Yellow/amber color scheme (`#EAB308`, `#FBBF24`, `#F59E0B`) matching site theme
+- Background uses UnicornStudio aura effect with `saturate-200 hue-rotate-180`
+- Warm yellow glow with gradient mask overlay
 - Improved scroll behavior with GSAP ScrollTrigger integration
 
+### Fixed
+- SCBA dates now use "Inicio de inscripción" (registration start) instead of end date
+
 ### Technical
-- Canvas-based cursor following with 0.06 easing interpolation
-- Multiple layered radial gradients for depth effect
+- UnicornStudio project: `FixNvEwvWwbu3QX9qC3F`
 - Smooth anchor link scrolling with 80px navbar offset
+- Opacity-70 with subtle gradient overlay for readability
 
 ---
 

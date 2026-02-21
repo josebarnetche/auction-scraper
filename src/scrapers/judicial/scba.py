@@ -117,27 +117,24 @@ class SCBAScraper(BaseScraper):
 
                     source_url = f"{self.BASE_URL}/Auctions/Details/{auction_id}"
 
-                    # Extract date from parent text
-                    ends_at = None
+                    # Extract "Inicio de inscripcion" date from parent text
+                    starts_at = None
                     text_to_search = parent_text or title
-                    date_patterns = [
-                        r'(\d{2})/(\d{2})/(\d{4})',  # dd/mm/yyyy
-                        r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})',  # 15 de marzo de 2026
-                    ]
-                    for pattern in date_patterns:
-                        match = re.search(pattern, text_to_search, re.I)
-                        if match:
+
+                    # Look for "Inicio de inscripcion" pattern first
+                    inicio_match = re.search(r'[Ii]nicio\s+de\s+inscripci[oó]n[:\s]*(\d{2})/(\d{2})/(\d{4})', text_to_search)
+                    if inicio_match:
+                        try:
+                            starts_at = datetime.strptime(f"{inicio_match.group(1)}/{inicio_match.group(2)}/{inicio_match.group(3)}", "%d/%m/%Y")
+                        except ValueError:
+                            pass
+
+                    # Fallback to first date found
+                    if not starts_at:
+                        date_match = re.search(r'(\d{2})/(\d{2})/(\d{4})', text_to_search)
+                        if date_match:
                             try:
-                                if '/' in pattern:
-                                    ends_at = datetime.strptime(f"{match.group(1)}/{match.group(2)}/{match.group(3)}", "%d/%m/%Y")
-                                else:
-                                    # Month name pattern
-                                    months = {'enero': 1, 'febrero': 2, 'marzo': 3, 'abril': 4, 'mayo': 5, 'junio': 6,
-                                             'julio': 7, 'agosto': 8, 'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12}
-                                    month = months.get(match.group(2).lower())
-                                    if month:
-                                        ends_at = datetime(int(match.group(3)), month, int(match.group(1)))
-                                break
+                                starts_at = datetime.strptime(f"{date_match.group(1)}/{date_match.group(2)}/{date_match.group(3)}", "%d/%m/%Y")
                             except ValueError:
                                 pass
 
@@ -151,7 +148,7 @@ class SCBAScraper(BaseScraper):
                         base_price=0.0,
                         currency="ARS",
                         status="published",
-                        ends_at=ends_at,
+                        starts_at=starts_at,
                         location={"province": "Buenos Aires", "city": ""},
                         images=[],
                     ))

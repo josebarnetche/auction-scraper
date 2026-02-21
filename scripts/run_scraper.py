@@ -18,6 +18,8 @@ from src.scrapers.private.banco_ciudad import BancoCiudadScraper
 from src.scrapers.private.global_remates import GlobalRematesScraper
 from src.scrapers.private.bidbit import BidBitScraper
 from src.scrapers.private.manucha import ManuchaScraper
+from src.scrapers.private.delafuente import DelaFuenteScraper
+from src.scrapers.private.zarate import ZarateScraper
 from src.storage.json_store import JSONStore
 
 logging.basicConfig(
@@ -29,14 +31,18 @@ logger = logging.getLogger(__name__)
 
 # All available scrapers
 SCRAPERS = {
+    # Judicial auctions
     "csjn": CSJNScraper,
     "scba": SCBAScraper,
     "comprar": ComprarScraper,
+    # Private auction houses
     "adrian_mercado": AdrianMercadoScraper,
     "banco_ciudad": BancoCiudadScraper,
     "global_remates": GlobalRematesScraper,
     "bidbit": BidBitScraper,
     "manucha": ManuchaScraper,
+    "delafuente": DelaFuenteScraper,
+    "zarate": ZarateScraper,
 }
 
 

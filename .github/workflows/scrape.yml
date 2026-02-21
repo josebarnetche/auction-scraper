@@ -2,13 +2,16 @@ name: Daily Auction Scrape
 
 on:
   schedule:
-    # Run daily at 6 AM UTC (3 AM Argentina time)
-    - cron: '0 6 * * *'
-  workflow_dispatch:  # Allow manual trigger
+    # Run daily at 03:00 UTC (00:00 Argentina time / GMT-3)
+    - cron: '0 3 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -26,34 +29,36 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scrapers
-        run: |
-          python scripts/run_scraper.py --sources all
-        continue-on-error: true
+        run: python scripts/run_scraper.py
+        env:
+          PYTHONUNBUFFERED: '1'
+        timeout-minutes: 30
 
       - name: Generate static site
-        run: |
-          python scripts/generate_site.py
+        run: python scripts/generate_site.py
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: site
-          path: site/
-          retention-days: 7
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          force_orphan: true
-
-      - name: Commit data updates
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/
-          git diff --staged --quiet || git commit -m "Update auction data [skip ci]"
+          git config --local user.name "GitHub Action Bot"
+          git add data/raw/*.json site/api/*.json
+          git diff --staged --quiet || git commit -m "Auto-update: Daily scrape $(date -u +%Y-%m-%d)"
           git push
-        continue-on-error: true
+
+      - name: Summary
+        run: |
+          echo "## Scrape Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          python -c "
+          import json, os
+          total = 0
+          for f in sorted(os.listdir('data/raw')):
+              if f.endswith('.json'):
+                  with open(f'data/raw/{f}') as file:
+                      items = json.load(file)
+                      count = len(items) if isinstance(items, list) else 0
+                      print(f'- **{f}**: {count} auctions')
+                      total += count
+          print(f'')
+          print(f'**Total: {total} auctions**')
+          " >> $GITHUB_STEP_SUMMARY

@@ -20,7 +20,11 @@
       "Bash(gh repo create:*)",
       "Bash(vercel --version:*)",
       "Bash(vercel:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebFetch(domain:www.narvaezbid.com.ar)",
+      "WebFetch(domain:subastas.justiciacordoba.gob.ar)",
+      "WebFetch(domain:www.adrianmercado.com.ar)",
+      "WebFetch(domain:delafuentesubastas.com.ar)"
     ]
   }
 }

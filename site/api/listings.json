@@ -1,12 +1,14 @@
 {
-  "total_count": 29,
+  "total_count": 114,
   "by_source": {
-    "adrian_mercado": 9,
+    "adrian_mercado": 32,
     "bidbit": 9,
     "csjn": 10,
-    "manucha": 1
+    "delafuente": 60,
+    "manucha": 1,
+    "zarate": 2
   },
-  "generated_at": "2026-02-21T04:19:44.888269+00:00",
+  "generated_at": "2026-02-21T04:29:27.450249+00:00",
   "listings": [
     {
       "id": "csjn:55",
@@ -31,7 +33,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.217414.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.233029.jpg"
       ],
-      "scraped_at": "2026-02-21T04:19:32.242405+00:00",
+      "scraped_at": "2026-02-21T04:29:14.824441+00:00",
       "extra": {
         "auction_code": "55",
         "lot_id": "57",
@@ -66,7 +68,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.024720.jpeg"
       ],
-      "scraped_at": "2026-02-21T04:19:29.116535+00:00",
+      "scraped_at": "2026-02-21T04:29:11.681855+00:00",
       "extra": {
         "auction_code": "53",
         "lot_id": "55",
@@ -77,6 +79,52 @@
         "other_fees_description": "",
         "total_cost_estimate": 42332.5
       }
+    },
+    {
+      "id": "delafuente:30060",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30060",
+      "title": "Remate #30060",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:29:07.932682+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30059",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30059",
+      "title": "Remate #30059",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:29:05.923913+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:49",
@@ -101,7 +149,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.557848.jpeg"
       ],
-      "scraped_at": "2026-02-21T04:19:23.105432+00:00",
+      "scraped_at": "2026-02-21T04:29:05.675958+00:00",
       "extra": {
         "auction_code": "49",
         "lot_id": "51",
@@ -112,6 +160,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 113575.0
       }
+    },
+    {
+      "id": "delafuente:30058",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30058",
+      "title": "Remate #30058",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:29:03.899140+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:48",
@@ -136,7 +207,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.761695.jpeg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.792950.jpeg"
       ],
-      "scraped_at": "2026-02-21T04:19:20.991958+00:00",
+      "scraped_at": "2026-02-21T04:29:03.509943+00:00",
       "extra": {
         "auction_code": "48",
         "lot_id": "50",
@@ -147,6 +218,443 @@
         "other_fees_description": "",
         "total_cost_estimate": 14605500.0
       }
+    },
+    {
+      "id": "delafuente:30057",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30057",
+      "title": "Remate #30057",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:29:01.886419+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30056",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30056",
+      "title": "Remate #30056",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:59.898196+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30055",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30055",
+      "title": "Remate #30055",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:57.858322+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30054",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30054",
+      "title": "Remate #30054",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:55.869903+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30053",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30053",
+      "title": "Remate #30053",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:53.845032+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30052",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30052",
+      "title": "Remate #30052",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento \n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:51.879627+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30050",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30050",
+      "title": "Remate #30050",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria especial yeguarizos\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:49.937342+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30049",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30049",
+      "title": "Remate #30049",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria gral Soc Fomento de Castillos\n\n\n\n\n\nX\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:47.934476+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30048",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30048",
+      "title": "Remate #30048",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento 2º Mensual Soc Agrop de Rocha\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:45.904584+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30047",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30047",
+      "title": "Remate #30047",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento 1º Mensual Soc Agrop Rocha\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:43.916373+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30046",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30046",
+      "title": "Remate #30046",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Expo Ovina\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme \n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:41.908242+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30045",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30045",
+      "title": "Remate #30045",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria mensual Local San Luis\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:40.108562+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30044",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30044",
+      "title": "Remate #30044",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria gral Soc Fomento de Castillos\n\n\n\n\n\nX\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:37.879817+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30043",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30043",
+      "title": "Remate #30043",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:35.886658+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30042",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30042",
+      "title": "Remate #30042",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:33.879135+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30041",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30041",
+      "title": "Remate #30041",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:31.853188+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30040",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30040",
+      "title": "Remate #30040",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:29.830176+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30039",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30039",
+      "title": "Remate #30039",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:27.847645+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30038",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30038",
+      "title": "Remate #30038",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:25.846944+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:23",
@@ -171,7 +679,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.195570.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.211187.jpg"
       ],
-      "scraped_at": "2026-02-21T04:18:43.322967+00:00",
+      "scraped_at": "2026-02-21T04:28:25.807966+00:00",
       "extra": {
         "auction_code": "23",
         "lot_id": "25",
@@ -182,6 +690,75 @@
         "other_fees_description": "",
         "total_cost_estimate": 7166250.0
       }
+    },
+    {
+      "id": "delafuente:30037",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30037",
+      "title": "Remate #30037",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:23.830280+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30036",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30036",
+      "title": "Remate #30036",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:21.816687+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30035",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30035",
+      "title": "Remate #30035",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:19.837456+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:18",
@@ -203,7 +780,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.143264.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.158890.jpg"
       ],
-      "scraped_at": "2026-02-21T04:18:36.426592+00:00",
+      "scraped_at": "2026-02-21T04:28:19.005026+00:00",
       "extra": {
         "auction_code": "18",
         "lot_id": "20",
@@ -214,6 +791,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 58078.12
       }
+    },
+    {
+      "id": "delafuente:30034",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30034",
+      "title": "Remate #30034",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:17.816177+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:17",
@@ -238,7 +838,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.402028.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.417647.jpg"
       ],
-      "scraped_at": "2026-02-21T04:18:35.006119+00:00",
+      "scraped_at": "2026-02-21T04:28:17.404405+00:00",
       "extra": {
         "auction_code": "17",
         "lot_id": "19",
@@ -249,6 +849,52 @@
         "other_fees_description": "",
         "total_cost_estimate": 38822.0
       }
+    },
+    {
+      "id": "delafuente:30033",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30033",
+      "title": "Remate #30033",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento 10 de Marzo - Lincoln\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nRegi",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:15.971667+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30032",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30032",
+      "title": "Remate #30032",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Mensual - Milton Franco\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:13.818090+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:15",
@@ -273,7 +919,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.820924.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.836547.jpg"
       ],
-      "scraped_at": "2026-02-21T04:18:31.224052+00:00",
+      "scraped_at": "2026-02-21T04:28:13.809859+00:00",
       "extra": {
         "auction_code": "15",
         "lot_id": "17",
@@ -284,6 +930,29 @@
         "other_fees_description": "",
         "total_cost_estimate": 3164175.0
       }
+    },
+    {
+      "id": "delafuente:30031",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30031",
+      "title": "Remate #30031",
+      "description": "\n\n\nDe la Fuente Subastas - \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\nSubastas\nCómo Comprar\nCómo Vender\nPreguntas Frecuentes\nNuestros Servicios\nClientes\nQuienes Somos\nContacto\nIngresar\nRegistrarme\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n×\nReglamento Feria Local Viejo Pepe\n\n\n\n\n\nX\n\n\n\n\n\n\n\n\n\n\n\n\nReg",
+      "category": "real_estate",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://www.facebook.com/tr?id=278057677017896&ev=PageView&noscript=1",
+        "https://delafuentesubastas.com.ar/assets/img/qr.jpg?version=7"
+      ],
+      "scraped_at": "2026-02-21T04:28:11.786824+00:00",
+      "extra": {}
     },
     {
       "id": "csjn:12",
@@ -306,7 +975,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.432763.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.448394.jpg"
       ],
-      "scraped_at": "2026-02-21T04:18:27.432644+00:00",
+      "scraped_at": "2026-02-21T04:28:09.805166+00:00",
       "extra": {
         "auction_code": "12",
         "lot_id": "14",
@@ -319,10 +988,10 @@
       }
     },
     {
-      "id": "adrian_mercado:30",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-bgcons-s-r-l-con-y-sin-financiacion-contado-30-60-90-dias-4131",
-      "title": "Por c/o de BGCONS S.R.L., CON Y SIN FINANCIACIÓN CONTADO 30 -60 -90 DIAS",
+      "id": "delafuente:25684",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/25684",
+      "title": "Remate #25684",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -334,39 +1003,15 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4131/0_logo_organizador_id-96x52-resize-quadrant-T.jpg"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.811652+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837942+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:4126",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-flota-de-vehiculos-por-renovacion-4126",
-      "title": "Importante Flota de Vehículos, por renovación",
-      "description": "",
-      "category": "vehicles",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4126/0_logo_organizador_id-96x52-resize-quadrant-T.jpg"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.811130+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4087",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-laglaive-hnos-4087",
-      "title": "Por c/o de Laglaive Hnos.",
+      "id": "delafuente:25720",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/25720",
+      "title": "Remate #25720",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -378,17 +1023,15 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4087/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.810641+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837892+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:4116",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
-      "title": "Importante Empresa Constructora y Vial",
+      "id": "delafuente:26011",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/26011",
+      "title": "Remate #26011",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -400,17 +1043,15 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-480x413.jpg"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.810309+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837841+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:4114",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-sacde-s-a-por-renovacion-de-flota-4114",
-      "title": "Por c/o de Sacde S.A., por renovación de flota",
+      "id": "delafuente:26270",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/26270",
+      "title": "Remate #26270",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -422,39 +1063,15 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4114/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.810023+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837789+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:4105",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-tecsesi-s-a-por-renovacion-de-equipos-4105",
-      "title": "Por c/o de Tecsesi S.A., por renovación de equipos",
-      "description": "",
-      "category": "machinery",
-      "base_price": 0.0,
-      "currency": "ARS",
-      "status": "published",
-      "starts_at": null,
-      "ends_at": null,
-      "location": {
-        "province": "",
-        "city": ""
-      },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4105/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.809742+00:00",
-      "extra": {}
-    },
-    {
-      "id": "adrian_mercado:4104",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-casillas-marisol-por-excedente-de-stock-4104",
-      "title": "Por c/o de Casillas Marisol, por excedente de stock",
+      "id": "delafuente:26417",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/26417",
+      "title": "Remate #26417",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -466,17 +1083,15 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4104/0_logo_organizador_id-96x52-resize-quadrant-T.png"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.809456+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837736+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:4102",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-dtp-laboratorios-de-suelos-aire-y-agua-4102",
-      "title": "Por c/o de DTP Laboratorios de Suelos, Aire y Agua",
+      "id": "delafuente:26418",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/26418",
+      "title": "Remate #26418",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -488,17 +1103,15 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4102/8f55b43c2c4e3bcc46c986d5e2edf9b0-480x413.jpg"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.809176+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837686+00:00",
       "extra": {}
     },
     {
-      "id": "adrian_mercado:4096",
-      "source": "adrian_mercado",
-      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
-      "title": "Empresa de Almacenamiento Logístico",
+      "id": "delafuente:26512",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/26512",
+      "title": "Remate #26512",
       "description": "",
       "category": "other",
       "base_price": 0.0,
@@ -510,10 +1123,468 @@
         "province": "",
         "city": ""
       },
-      "images": [
-        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-480x413.jpg"
-      ],
-      "scraped_at": "2026-02-21T04:18:23.808515+00:00",
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837635+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:26574",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/26574",
+      "title": "Remate #26574",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837584+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:27109",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/27109",
+      "title": "Remate #27109",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837534+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:27225",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/27225",
+      "title": "Remate #27225",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837484+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:27329",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/27329",
+      "title": "Remate #27329",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837434+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:27405",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/27405",
+      "title": "Remate #27405",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837383+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:27478",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/27478",
+      "title": "Remate #27478",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837333+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:27770",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/27770",
+      "title": "Remate #27770",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837282+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28004",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28004",
+      "title": "Remate #28004",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837231+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28005",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28005",
+      "title": "Remate #28005",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837180+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28144",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28144",
+      "title": "Remate #28144",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837128+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28187",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28187",
+      "title": "Remate #28187",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837076+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28435",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28435",
+      "title": "Remate #28435",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.837025+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28479",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28479",
+      "title": "Remate #28479",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836972+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28684",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28684",
+      "title": "Remate #28684",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836921+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28919",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28919",
+      "title": "Remate #28919",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836869+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:28956",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/28956",
+      "title": "Remate #28956",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836817+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29116",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29116",
+      "title": "Remate #29116",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836767+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29135",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29135",
+      "title": "Remate #29135",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836716+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29055",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29055",
+      "title": "Remate #29055",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836666+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29372",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29372",
+      "title": "Remate #29372",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836615+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29421",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29421",
+      "title": "Remate #29421",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836563+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29798",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29798",
+      "title": "Remate #29798",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836511+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:29909",
+      "source": "delafuente",
+      "source_url": "http://www.rural.com.uy/remate/29909",
+      "title": "Remate #29909",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:06.836452+00:00",
       "extra": {}
     },
     {
@@ -539,7 +1610,7 @@
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.993612.jpg",
         "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_43.009237.jpg"
       ],
-      "scraped_at": "2026-02-21T04:18:22.805902+00:00",
+      "scraped_at": "2026-02-21T04:28:05.338431+00:00",
       "extra": {
         "auction_code": "9",
         "lot_id": "11",
@@ -552,7 +1623,47 @@
       }
     },
     {
-      "id": "manucha:17142383",
+      "id": "zarate:5491134772836",
+      "source": "zarate",
+      "source_url": "https://wa.me/5491134772836",
+      "title": "Ingresá aquí para comenzar",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:05.185941+00:00",
+      "extra": {}
+    },
+    {
+      "id": "zarate:61074122",
+      "source": "zarate",
+      "source_url": "https://remateszarate.com.ar/subastas-en-curso-v2/",
+      "title": "Próximas Subastas",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:05.185808+00:00",
+      "extra": {}
+    },
+    {
+      "id": "manucha:70359949",
       "source": "manucha",
       "source_url": "https://manuchasubastas.com.ar/#servicios",
       "title": "EL VALOR DE LA EXPERIENCIA",
@@ -570,7 +1681,675 @@
       "images": [
         "https://manuchasubastas.com.ar/wp-content/uploads/2025/06/notary-system-icon-4.png"
       ],
-      "scraped_at": "2026-02-21T04:18:21.471887+00:00",
+      "scraped_at": "2026-02-21T04:28:04.088224+00:00",
+      "extra": {}
+    },
+    {
+      "id": "delafuente:30051",
+      "source": "delafuente",
+      "source_url": "https://delafuentesubastas.com.ar/remate/30051",
+      "title": "SUBASTA 12/03/2026 14:30HSFecha: 12 de Marzo, 14:30Categoría: ActivosUbicación: https://www.delafuentesubastas.com.ar/    |     Duarte Quirós N° 559 – 2° Piso Of. \"D\" – Córdoba Capital, Córdoba",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://thumbs2.rural-ftp.com/upload/w_300,q_60,o_input/https://ftp.rural-server.com/remates/images/HXQQcI2nSEXnllns.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:28:03.726371+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4139",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-vial-provincia-de-cordoba-4139",
+      "title": "Empresa Vial, Provincia de Córdoba",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178633+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4130",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-carpinteria-y-fabrica-de-muebles-4130",
+      "title": "Importante Carpintería y Fábrica de Muebles",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178592+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4039",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-texxor-pinturas-s-r-l-4039",
+      "title": "Por c/o de Texxor Pinturas S.R.L",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178549+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4142",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-bunge-argentina-por-renovacion-de-flota-4142",
+      "title": "Por c/o de Bunge Argentina, por renovación de flota",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178509+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4140",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/maquinaria-y-equipos-industriales-4140",
+      "title": "Maquinaria y Equipos Industriales",
+      "description": "",
+      "category": "machinery",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178464+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4138",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/imp-empresa-vial-pcia-de-mendoza-4138",
+      "title": "Imp. empresa vial, pcia. de Mendoza",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178424+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4135",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/imp-empresa-vial-provincia-de-mendoza-4135",
+      "title": "Imp. Empresa Vial, Provincia de Mendoza",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178379+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4133",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-constructora-4133",
+      "title": "Empresa Constructora",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178334+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4092",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-tubos-de-acero-4092",
+      "title": "Empresa de  Tubos de Acero",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178201+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4136",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-autoelevadores-yale-s-a-por-renovacion-de-equipos-4136",
+      "title": "Por c/o de Autoelevadores Yale S.A., por renovación de equipos",
+      "description": "",
+      "category": "vehicles",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178114+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4129",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-por-renovacion-de-flota-y-cambio-de-rubro-4129",
+      "title": "Importante empresa por renovación de flota y cambio de rubro",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178077+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4128",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-recicladora-de-chatarra-pcia-de-san-luis-4128",
+      "title": "Empresa Recicladora de Chatarra, Pcia. de San Luis",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.178035+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4127",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-transporte-de-equipos-pesados-4127",
+      "title": "Empresa de Transporte de Equipos Pesados",
+      "description": "",
+      "category": "machinery",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177993+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4124",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-nss-s-a-por-renovacion-de-flota-4124",
+      "title": "Por c/o de NSS S.A., por renovación de flota",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177950+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4122",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-logistica-minera-por-renovacion-de-flota-4122",
+      "title": "Empresa de Logística Minera, por renovación de flota",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177906+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4120",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-constructora-4120",
+      "title": "Empresa Constructora",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177861+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4119",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-bauza-group-ingenieria-srl-con-y-sin-financiacion-contado-30-60-90-120-dias-4119",
+      "title": "Por c/o de Bauza Group Ingeniería SRL, CON Y SIN FINANCIACIÓN CONTADO 30 -60 -90 -120 DIAS",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177816+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4117",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-gedeon-s-r-l-4117",
+      "title": "Por c/o de Gedeon S.R.L",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177769+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4112",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-mac-servicios-empresarios-s-r-l-4112",
+      "title": "Por c/o de MAC Servicios Empresarios S.R.L.",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177643+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4100",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-4100",
+      "title": "Importante Empresa",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177516+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4091",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/industria-quimica-cosmetica-y-laboratorio-4091",
+      "title": "Industria Química, Cosmética y Laboratorio",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177473+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4111",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-fabricacion-y-comercializacion-de-insumos-para-esterilizacion-4111",
+      "title": "Empresa de Fabricación y Comercialización de Insumos para Esterilización",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177428+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4101",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/centro-logistico-rosario-4101",
+      "title": "Centro Logístico Rosario",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177340+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4131",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-bgcons-s-r-l-con-y-sin-financiacion-contado-30-60-90-dias-4131",
+      "title": "CON FINANCIACIÓNCON FINANCIACIÓNSUBASTA EN VIVOPor c/o de BGCONS S.R.L., CON Y SIN FINANCIACIÓN CONTADO 30 -60 -90 DIASMinibús - Semirremolque - Manipulador telescópico - Rodillo vibrocompactador y másViernes\n                    6/3/202600:00 hID 1880",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177246+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4126",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-flota-de-vehiculos-por-renovacion-4126",
+      "title": "SUBASTA EN VIVOImportante Flota de Vehículos, por renovación2 Hyundai H1, 2 Toyota Corolla, 2 Mercedes Benz Vito y másViernes\n                    6/3/2026A confirmarID 1875",
+      "description": "",
+      "category": "vehicles",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177194+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4087",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-laglaive-hnos-4087",
+      "title": "CON FINANCIACIÓNCON FINANCIACIÓNSUBASTA EN VIVOPor c/o de Laglaive Hnos.Camiones con y sin hidrogrúas – Semis – Excavadoras – Tunelera – Tractor agrícola – y másJueves\n                    26/2/2026A confirmarID 1836",
+      "description": "",
+      "category": "machinery",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177157+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4116",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-y-vial-4116",
+      "title": "SUBASTA EN VIVOImportante Empresa Constructora y VialCamiones con batea, Palas Cargadoras, Retroexcavadoras, Topadora, Tractor Agrícola y másJueves\n                    26/2/2026A confirmarID 1865",
+      "description": "",
+      "category": "machinery",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4116/5b8fbe67fa850ec85170c03ad786c6bf-480x413.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:28:03.177096+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4114",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-sacde-s-a-por-renovacion-de-flota-4114",
+      "title": "SUBASTA EN VIVOPor c/o de Sacde S.A., por renovación de flotaGrúa Terex RT555-1, 6 Camiones fuera de ruta 6x6 Dumper ART, Camiones Iveco 380T38 y másJueves\n                    26/2/2026A confirmarID 1863",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177051+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4105",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-tecsesi-s-a-por-renovacion-de-equipos-4105",
+      "title": "SUBASTA EN VIVOPor c/o de Tecsesi S.A., por renovación de equipos3 Plantas de áridos, Topadora CAT D8T, 3 Palas Cargadoras, 2 Camiones, Utilitarios  y másJueves\n                    26/2/2026A confirmarID 1854",
+      "description": "",
+      "category": "machinery",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.177006+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4104",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-casillas-marisol-por-excedente-de-stock-4104",
+      "title": "SUBASTA EN VIVOPor c/o de Casillas Marisol, por excedente de stock50 módulos habitacionales, casillas rurales y contenedoresJueves\n                    26/2/2026A confirmarID 1853",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [],
+      "scraped_at": "2026-02-21T04:28:03.176959+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4102",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-dtp-laboratorios-de-suelos-aire-y-agua-4102",
+      "title": "SUBASTA EN VIVOPor c/o de DTP Laboratorios de Suelos, Aire y AguaFLUORESCENCIA DE RAYOS X - QIACUBE HT + UPS LYONN - PAL 3 RSI - LGH - 5850Miércoles\n                    25/2/2026A confirmarID 1851",
+      "description": "",
+      "category": "other",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4102/8f55b43c2c4e3bcc46c986d5e2edf9b0-480x413.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:28:03.176911+00:00",
+      "extra": {}
+    },
+    {
+      "id": "adrian_mercado:4096",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
+      "title": "SUBASTA EN VIVOEmpresa de Almacenamiento LogísticoRobot Mecalux programable, Estanterías racks Mecalux, Autoelevador y másMiércoles\n                    25/2/2026A confirmarID 1845",
+      "description": "",
+      "category": "vehicles",
+      "base_price": 0.0,
+      "currency": "ARS",
+      "status": "published",
+      "starts_at": null,
+      "ends_at": null,
+      "location": {
+        "province": "",
+        "city": ""
+      },
+      "images": [
+        "https://amercado.azureedge.net/cms/resources/images/subastas/4096/d560a806bf7168f0dc976b918421307b-480x413.jpg"
+      ],
+      "scraped_at": "2026-02-21T04:28:03.176848+00:00",
       "extra": {}
     },
     {
@@ -592,7 +2371,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/1d01a64a-6def-4176-837a-d64c596ee0cb/medium_14b3352b-3857-4571-ade2-0a91b52510db.webp?b=AwC%m-bE%%jY"
       ],
-      "scraped_at": "2026-02-21T04:18:20.478702+00:00",
+      "scraped_at": "2026-02-21T04:28:02.973077+00:00",
       "extra": {}
     },
     {
@@ -614,7 +2393,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/3613b4c8-ec36-484e-bc9b-347f20c108d4/medium_6d34916e-8d44-45ee-9916-9b696a5d9c8e.webp?b=A+HLxV%L~qxa"
       ],
-      "scraped_at": "2026-02-21T04:18:20.478453+00:00",
+      "scraped_at": "2026-02-21T04:28:02.972808+00:00",
       "extra": {}
     },
     {
@@ -636,7 +2415,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/86570a65-5eff-4486-a6ac-d3ae2a4d8780/medium_73aae86f-e73f-489b-adf7-61975fbad131.webp?b=AvFPpWj]?wof"
       ],
-      "scraped_at": "2026-02-21T04:18:20.478194+00:00",
+      "scraped_at": "2026-02-21T04:28:02.972567+00:00",
       "extra": {}
     },
     {
@@ -658,7 +2437,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/a75bec53-556c-4757-b55e-65ae6d98748e/medium_862b7363-a527-4acf-bf69-665803f8ca9a.webp?b=AQEV$xRM~qIT"
       ],
-      "scraped_at": "2026-02-21T04:18:20.477944+00:00",
+      "scraped_at": "2026-02-21T04:28:02.972321+00:00",
       "extra": {}
     },
     {
@@ -680,7 +2459,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/c2f3d5bf-a922-431d-bbb9-6f8f06de190d/medium_a06c1a54-a8fc-418f-abaa-acfa99d203d7.webp?b=AQEV$xRM~qIT"
       ],
-      "scraped_at": "2026-02-21T04:18:20.477696+00:00",
+      "scraped_at": "2026-02-21T04:28:02.972079+00:00",
       "extra": {}
     },
     {
@@ -702,7 +2481,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/ed991dd4-b8da-4cc1-8a2f-61ab8d8fe257/medium_6a1e0438-8984-4f9f-b36d-81d1b263b999.webp?b=ATEex;VZ~qIn"
       ],
-      "scraped_at": "2026-02-21T04:18:20.477443+00:00",
+      "scraped_at": "2026-02-21T04:28:02.971831+00:00",
       "extra": {}
     },
     {
@@ -724,7 +2503,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/4e28b8a1-4e62-4977-a228-7df21e27eb1c/medium_f4d362f1-53f3-49c2-b61a-bef93e7316fd.webp?b=AlHdHB=^}=kC"
       ],
-      "scraped_at": "2026-02-21T04:18:20.477180+00:00",
+      "scraped_at": "2026-02-21T04:28:02.971582+00:00",
       "extra": {}
     },
     {
@@ -746,7 +2525,7 @@
       "images": [
         "https://storage.googleapis.com/bidbit-documents/auctions/b8769d2e-e870-4f20-a912-ebbaafa3e6ba/medium_8093de3f-c872-4a77-b3fa-25e60d0e8bf6.webp?b=AXE2nYNa?wt7"
       ],
-      "scraped_at": "2026-02-21T04:18:20.476710+00:00",
+      "scraped_at": "2026-02-21T04:28:02.971127+00:00",
       "extra": {}
     },
     {
@@ -766,7 +2545,7 @@
         "city": ""
       },
       "images": [],
-      "scraped_at": "2026-02-21T04:18:20.476431+00:00",
+      "scraped_at": "2026-02-21T04:28:02.970858+00:00",
       "extra": {}
     }
   ]

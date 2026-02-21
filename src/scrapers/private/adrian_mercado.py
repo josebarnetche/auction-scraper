@@ -58,18 +58,97 @@ class AdrianMercadoScraper(BaseScraper):
         """Parse listings from page."""
         listings = []
 
-        # Look for auction cards
-        cards = soup.select(".auction-card, .product-card, .item, [class*='subasta']")
+        # Find all auction links - pattern: /subastas/[name]-[id]
+        auction_links = soup.find_all("a", href=re.compile(r'/subastas/[^/]+-\d+'))
 
-        if not cards:
-            cards = soup.select("article, .card")
+        seen_urls = set()
+        for link in auction_links:
+            href = link.get("href", "")
+            if href in seen_urls:
+                continue
+            seen_urls.add(href)
 
-        for card in cards:
-            listing = self.parse_listing(card)
+            # Skip non-auction links
+            if any(skip in href.lower() for skip in ['como-participar', 'tel:', 'mailto:', 'youtube', 'facebook']):
+                continue
+
+            listing = self._parse_auction_link(link, href)
             if listing:
                 listings.append(listing)
 
+        # Also look for cards/articles with auction links inside
+        cards = soup.select(".card, article, [class*='subasta'], [class*='auction']")
+        for card in cards:
+            link = card.find("a", href=re.compile(r'/subastas/'))
+            if link:
+                href = link.get("href", "")
+                if href not in seen_urls:
+                    seen_urls.add(href)
+                    listing = self.parse_listing(card)
+                    if listing:
+                        listings.append(listing)
+
+        logger.info(f"Found {len(listings)} auction links on page")
         return listings
+
+    def _parse_auction_link(self, link, href: str) -> Optional[AuctionListing]:
+        """Parse auction from a link element."""
+        try:
+            # Extract ID from URL
+            id_match = re.search(r'-(\d+)$', href)
+            if not id_match:
+                return None
+            auction_id = id_match.group(1)
+
+            # Build full URL
+            if href.startswith("/"):
+                source_url = f"{self.BASE_URL}{href}"
+            else:
+                source_url = href
+
+            # Get title from link text or parent
+            title = link.get_text(strip=True)
+            if not title or len(title) < 5:
+                parent = link.find_parent()
+                if parent:
+                    title = parent.get_text(strip=True)[:100]
+
+            if not title or len(title) < 5:
+                return None
+
+            # Try to find image
+            images = []
+            img = link.find("img")
+            if not img:
+                parent = link.find_parent()
+                if parent:
+                    img = parent.find("img")
+            if img:
+                src = img.get("src") or img.get("data-src") or img.get("data-lazy")
+                if src:
+                    if src.startswith("/"):
+                        src = f"{self.BASE_URL}{src}"
+                    if not any(skip in src.lower() for skip in ['logo', 'icon', 'avatar']):
+                        images.append(src)
+
+            category = detect_category(title, "")
+
+            return AuctionListing(
+                id=self.generate_id(auction_id),
+                source=self.SOURCE_NAME,
+                source_url=source_url,
+                title=title,
+                description="",
+                category=category,
+                base_price=0.0,  # Price on detail page
+                currency="ARS",
+                status="published",
+                images=images,
+            )
+
+        except Exception as e:
+            logger.error(f"Error parsing auction link: {e}")
+            return None
 
     def parse_listing(self, element: Tag, status: str = "published") -> Optional[AuctionListing]:
         """Parse a single auction card."""

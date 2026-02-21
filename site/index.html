@@ -589,6 +589,18 @@ html {
                 </div>
             </div>
 
+            <!-- TOP OPPORTUNITIES SECTION -->
+            <div id="top-opportunities" class="mb-10 hidden">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                    <h3 class="text-xl font-display font-semibold text-white">Top Opportunities</h3>
+                    <span class="text-xs text-green-400 uppercase tracking-wider">Best deals before March</span>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="opportunities-grid">
+                    <!-- Opportunities will be inserted here -->
+                </div>
+            </div>
+
             <!-- Category Filters -->
             <div class="flex gap-3 flex-wrap items-center mb-8">
                 <span class="text-white/40 text-xs uppercase tracking-wider">Category:</span>
@@ -894,17 +906,22 @@ html {
             return price / BLUE_DOLLAR_RATE;
         }
 
-        // Get real market value from scraped data (DeAutos, Kavak, ZonaProp)
+        // Get real market value from price reference data
         function getMarketValue(auction) {
-            // Only return market value if we have REAL scraped data
             if (!auction.market_data) return null;
-            if (!auction.market_data.market_price_usd) return null;
-            if (auction.market_data.confidence < 0.3) return null;
-            return Math.round(auction.market_data.market_price_usd);
+            // Support both new format (typical_usd) and old format (market_price_usd)
+            const marketPrice = auction.market_data.typical_usd || auction.market_data.market_price_usd;
+            if (!marketPrice) return null;
+            return Math.round(marketPrice);
         }
 
-        // Calculate discount percentage (only with real market data)
+        // Calculate discount percentage (from market data)
         function calculateDiscount(auction) {
+            // If discount is pre-calculated, use it
+            if (auction.market_data && auction.market_data.discount_percent) {
+                return Math.round(auction.market_data.discount_percent);
+            }
+
             const marketValue = getMarketValue(auction);
             if (!marketValue) return null;
             if (!auction.base_price || auction.base_price === 0) return null;
@@ -1281,52 +1298,65 @@ html {
             document.getElementById('category-breakdown').innerHTML = catHtml || '<p class="text-white/40 text-sm">No data</p>';
         }
 
-        // Render top opportunities (best deals with REAL price comparison)
+        // Render top opportunities (best deals with price comparison)
         function renderOpportunities() {
+            const container = document.getElementById('top-opportunities');
             const grid = document.getElementById('opportunities-grid');
 
-            // Only show items with REAL market data (not estimates)
+            // Find items with market data and good discounts
             const opportunities = allAuctions
                 .filter(a => a.base_price > 0 && a.market_data)
                 .map(a => ({
                     ...a,
                     discount: calculateDiscount(a),
-                    marketValue: getMarketValue(a)
+                    marketValue: getMarketValue(a),
+                    isTopOpportunity: a.is_top_opportunity || false,
+                    beforeMarch: isBeforeMarch(a)
                 }))
-                .filter(a => a.discount !== null && a.discount >= 10)
-                .sort((a, b) => b.discount - a.discount)
-                .slice(0, 6);
+                .filter(a => a.discount !== null && a.discount >= 20)
+                .sort((a, b) => {
+                    // Top opportunities first
+                    if (a.isTopOpportunity && !b.isTopOpportunity) return -1;
+                    if (!a.isTopOpportunity && b.isTopOpportunity) return 1;
+                    // Before March bonus
+                    if (a.beforeMarch && !b.beforeMarch) return -1;
+                    if (!a.beforeMarch && b.beforeMarch) return 1;
+                    // Machinery category bonus
+                    if (a.category === 'machinery' && b.category !== 'machinery') return -1;
+                    if (a.category !== 'machinery' && b.category === 'machinery') return 1;
+                    // Then by discount
+                    return b.discount - a.discount;
+                })
+                .slice(0, 3);
 
             if (opportunities.length === 0) {
-                grid.innerHTML = `
-                    <div class="col-span-full text-center py-10">
-                        <p class="text-white/40">No market comparisons available yet.</p>
-                        <p class="text-white/30 text-sm mt-2">Market prices are fetched daily from DeAutos, Kavak, and ZonaProp.</p>
-                    </div>`;
+                container.classList.add('hidden');
                 return;
             }
 
-            grid.innerHTML = opportunities.map(auction => {
+            container.classList.remove('hidden');
+
+            grid.innerHTML = opportunities.map((auction, idx) => {
                 const imageUrl = auction.images && auction.images.length > 0
                     ? auction.images[0]
                     : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
 
-                const discountColor = auction.discount >= 30 ? 'text-green-400' : auction.discount >= 20 ? 'text-yellow-400' : 'text-white/60';
-
                 const costInfo = getTotalCost(auction);
-                const countdown = formatCountdown(auction.ends_at);
+                const countdown = formatCountdown(auction.ends_at || auction.starts_at);
+                const matchKeyword = auction.market_data?.keyword_match || '';
 
                 return `
                     <a href="${auction.source_url}" target="_blank" rel="noopener"
-                       class="auction-card glass rounded-2xl overflow-hidden block group">
+                       class="auction-card glass rounded-2xl overflow-hidden block group border-2 ${idx === 0 ? 'border-green-500/50' : 'border-transparent'} hover:border-green-500/30">
                         <div class="aspect-video overflow-hidden bg-black/50 relative">
                             <img src="${imageUrl}" alt="${auction.title}" class="auction-image w-full h-full object-cover" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,' + encodeURIComponent('<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'><rect fill=\\'%231a1a1a\\' width=\\'400\\' height=\\'300\\'/><text fill=\\'%23333\\' font-family=\\'sans-serif\\' font-size=\\'14\\' x=\\'50%\\' y=\\'50%\\' text-anchor=\\'middle\\'>Sin imagen</text></svg>')">
-                            <div class="absolute top-3 left-3">
-                                <span class="category-badge category-${auction.category}">${auction.category}</span>
+                            <div class="absolute top-3 left-3 flex gap-2">
+                                <span class="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">#${idx + 1} TOP</span>
+                                ${auction.beforeMarch ? '<span class="bg-yellow-500/90 text-black text-[10px] px-2 py-0.5 rounded-full font-bold">ANTES DE MARZO</span>' : ''}
                             </div>
                             <div class="absolute top-3 right-3 flex gap-2">
-                                <span class="bg-green-500/90 text-white text-xs px-2 py-1 rounded-full font-bold">-${auction.discount}%</span>
+                                <span class="bg-green-500/90 text-white text-lg px-3 py-1 rounded-full font-bold">-${auction.discount}%</span>
                             </div>
                             ${countdown ? `
                             <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
@@ -1334,30 +1364,47 @@ html {
                                     <svg class="w-4 h-4 ${countdown.urgent ? 'text-yellow-400' : 'text-white/60'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                     </svg>
-                                    <span class="text-xs font-mono ${countdown.expired ? 'text-red-400' : countdown.urgent ? 'text-yellow-400' : 'text-green-400'}" data-countdown="${auction.ends_at || ''}">${countdown.text}</span>
+                                    <span class="text-xs font-mono ${countdown.expired ? 'text-red-400' : countdown.urgent ? 'text-yellow-400' : 'text-green-400'}">${countdown.text}</span>
                                 </div>
                             </div>
                             ` : ''}
                         </div>
                         <div class="p-5">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="category-badge category-${auction.category}">${auction.category}</span>
+                                <span class="source-badge">${auction.source}</span>
+                            </div>
                             <h3 class="text-white font-medium mb-3 line-clamp-2 group-hover:text-yellow-400 transition-colors">${auction.title}</h3>
                             <div class="grid grid-cols-2 gap-4">
                                 <div>
-                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Total Estimado</div>
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Subasta</div>
                                     <span class="text-xl text-yellow-500 font-display font-bold">${auction.currency} ${costInfo.total.toLocaleString()}</span>
-                                    <div class="text-[10px] text-white/30">Base + ${costInfo.breakdown.commission}% com.</div>
+                                    <div class="text-[10px] text-white/30">incl. comisión</div>
                                 </div>
                                 <div class="text-right">
                                     <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Valor Mercado</div>
-                                    <span class="text-sm text-white/40 line-through">USD ${auction.marketValue.toLocaleString()}</span>
-                                    <div class="text-[10px] text-green-400 font-semibold">Ahorras ${auction.discount}%</div>
-                                    <div class="text-[8px] text-white/30 mt-1">Fuente: ${auction.market_data?.source || 'mercado'}</div>
+                                    <span class="text-lg text-white/40 line-through">USD ${auction.marketValue?.toLocaleString() || '?'}</span>
+                                    <div class="text-sm text-green-400 font-bold">Ahorras ${auction.discount}%</div>
+                                    ${matchKeyword ? `<div class="text-[8px] text-white/30 mt-1">Match: ${matchKeyword}</div>` : ''}
                                 </div>
                             </div>
                         </div>
                     </a>
                 `;
             }).join('');
+        }
+
+        // Helper: check if auction ends before March
+        function isBeforeMarch(auction) {
+            const dateStr = auction.ends_at || auction.starts_at;
+            if (!dateStr) return false;
+            try {
+                const date = new Date(dateStr);
+                const march = new Date('2026-03-01');
+                return date < march;
+            } catch {
+                return false;
+            }
         }
 
         function renderAuctions() {

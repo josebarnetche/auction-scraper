@@ -3,8 +3,17 @@
 
 import json
 import re
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
+
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.market.price_reference import get_market_price, calculate_discount, is_opportunity
+
+# Blue dollar rate (approximate - should be fetched dynamically)
+BLUE_DOLLAR_RATE = 1250  # ARS per USD
 
 
 def generate_site():
@@ -128,38 +137,129 @@ def generate_site():
     # Sort by quality score (highest first), then by scraped_at
     all_listings.sort(key=lambda x: (quality_score(x), x.get("scraped_at", "")), reverse=True)
 
-    # Load real market prices if available
-    market_prices = {}
-    market_prices_file = Path("data/market_prices.json")
-    if market_prices_file.exists():
-        try:
-            with open(market_prices_file, encoding="utf-8") as f:
-                mp_data = json.load(f)
-                for price in mp_data.get("prices", []):
-                    if price.get("confidence", 0) >= 0.3:
-                        market_prices[price["auction_id"]] = {
-                            "market_price_usd": price["market_price_usd"],
-                            "source": price["source"],
-                            "comparables_count": price["comparables_count"],
-                            "confidence": price["confidence"],
-                        }
-            print(f"  Loaded {len(market_prices)} real market prices")
-        except Exception as e:
-            print(f"Warning: Could not load market prices: {e}")
+    # Calculate market prices and opportunities using keyword matching
+    opportunities = []
+    march_deadline = datetime(2026, 3, 1, tzinfo=timezone.utc)
 
-    # Add market prices to listings
     for listing in all_listings:
-        listing_id = listing.get("id", "")
-        if listing_id in market_prices:
-            listing["market_data"] = market_prices[listing_id]
+        title = listing.get("title", "")
+        description = listing.get("description", "")
+        category = listing.get("category", "")
+
+        # Get market price estimate
+        market_data = get_market_price(title, description, category)
+
+        if market_data:
+            # Convert listing price to USD
+            base_price = listing.get("base_price", 0)
+            currency = listing.get("currency", "ARS")
+
+            if base_price > 0:
+                if currency == "ARS":
+                    price_usd = base_price / BLUE_DOLLAR_RATE
+                else:
+                    price_usd = base_price
+
+                # Calculate discount
+                discount = calculate_discount(price_usd, market_data)
+
+                if discount > 0:
+                    market_data["auction_price_usd"] = round(price_usd, 2)
+                    market_data["discount_percent"] = discount
+                    market_data["is_opportunity"] = discount >= 30
+
+                    listing["market_data"] = market_data
+
+                    # Track opportunities for top selection
+                    if discount >= 20:  # Include 20%+ for ranking
+                        # Check if before March - use any available date
+                        date_str = listing.get("ends_at") or listing.get("starts_at")
+                        before_march = False
+                        if date_str:
+                            try:
+                                if isinstance(date_str, str):
+                                    # Parse ISO date - handle various formats
+                                    date_str_clean = date_str.replace("Z", "+00:00")
+                                    if "+" not in date_str_clean and len(date_str_clean) == 19:
+                                        date_str_clean += "+00:00"
+                                    end_date = datetime.fromisoformat(date_str_clean)
+                                else:
+                                    end_date = date_str
+                                before_march = end_date < march_deadline
+                            except Exception as e:
+                                # Try simpler parsing
+                                try:
+                                    if "2026-02" in str(date_str):
+                                        before_march = True
+                                except:
+                                    pass
+
+                        opportunities.append({
+                            "listing": listing,
+                            "discount": discount,
+                            "before_march": before_march,
+                            "category": market_data.get("category", "other"),
+                        })
+
+    # Sort opportunities: before_march first, then by discount (highest first)
+    # Prioritize machinery
+    def opportunity_score(opp):
+        score = opp["discount"]
+        if opp["before_march"]:
+            score += 100  # Big boost for before March
+        if opp["category"] == "machinery":
+            score += 50  # Boost machinery
+        return score
+
+    opportunities.sort(key=opportunity_score, reverse=True)
+
+    # Mark top 3 opportunities
+    top_opportunity_ids = set()
+    for i, opp in enumerate(opportunities[:3]):
+        opp["listing"]["is_top_opportunity"] = True
+        opp["listing"]["opportunity_rank"] = i + 1
+        top_opportunity_ids.add(opp["listing"]["id"])
+
+    # Re-sort all listings: top opportunities first, then by quality
+    def final_sort_key(listing):
+        if listing.get("is_top_opportunity"):
+            # Top opportunities at the very top, ordered by rank
+            return (0, listing.get("opportunity_rank", 99), 0)
+        else:
+            # Then by quality score
+            return (1, 0, -quality_score(listing))
+
+    all_listings.sort(key=final_sort_key)
+
+    # Build top opportunities summary
+    top_opportunities = []
+    for opp in opportunities[:3]:
+        listing = opp["listing"]
+        top_opportunities.append({
+            "id": listing["id"],
+            "title": listing["title"][:100],
+            "discount_percent": opp["discount"],
+            "before_march": opp["before_march"],
+            "category": opp["category"],
+            "source": listing["source"],
+            "source_url": listing["source_url"],
+            "base_price": listing.get("base_price", 0),
+            "currency": listing.get("currency", "ARS"),
+            "market_typical_usd": listing.get("market_data", {}).get("typical_usd", 0),
+        })
 
     # Write listings.json
+    with_market_data = sum(1 for l in all_listings if l.get('market_data'))
+    opportunity_count = sum(1 for l in all_listings if l.get('market_data', {}).get('is_opportunity'))
+
     listings_data = {
         "total_count": len(all_listings),
         "by_source": by_source,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "has_market_prices": len(market_prices) > 0,
-        "market_prices_count": len(market_prices),
+        "blue_dollar_rate": BLUE_DOLLAR_RATE,
+        "with_market_data": with_market_data,
+        "opportunity_count": opportunity_count,
+        "top_opportunities": top_opportunities,
         "listings": all_listings,
     }
 
@@ -170,13 +270,21 @@ def generate_site():
     print(f"Generated {listings_path}")
     print(f"  Total listings: {len(all_listings)}")
     print(f"  Sources: {list(by_source.keys())}")
-    print(f"  With market prices: {sum(1 for l in all_listings if l.get('market_data'))}")
+    print(f"  With market data: {with_market_data}")
+    print(f"  Opportunities (30%+ discount): {opportunity_count}")
 
     # Print quality breakdown
     with_images = sum(1 for l in all_listings if l.get("images"))
     with_price = sum(1 for l in all_listings if l.get("base_price", 0) > 0)
     print(f"  With images: {with_images}")
     print(f"  With price: {with_price}")
+
+    # Print top opportunities
+    if top_opportunities:
+        print(f"\n  TOP OPPORTUNITIES:")
+        for i, opp in enumerate(top_opportunities):
+            march_tag = " [BEFORE MARCH]" if opp["before_march"] else ""
+            print(f"    {i+1}. {opp['discount_percent']:.0f}% off - {opp['title'][:50]}...{march_tag}")
 
 
 if __name__ == "__main__":

@@ -1125,8 +1125,10 @@ html {
             }
         }
 
-        // Get total cost with fees
+        // Get total cost with fees (IVA 21% sobre comisión)
         function getTotalCost(auction) {
+            const IVA_RATE = 21.0; // IVA sobre comisión
+
             // Check if we have cost data in extra
             if (auction.extra && auction.extra.total_cost_estimate) {
                 return {
@@ -1135,28 +1137,52 @@ html {
                         base: auction.base_price,
                         commission: auction.extra.commission_pct || 0,
                         csjnFee: auction.extra.csjn_fee_pct || 0,
-                        iva: auction.extra.iva_pct || 0,
+                        iva: auction.extra.iva_pct || IVA_RATE,
                         stampTax: auction.extra.stamp_tax_pct || 0,
                         otherFees: auction.extra.other_fees_description || ''
                     }
                 };
             }
-            // Estimate if no data (default 3% commission + 0.25% CSJN for judicial)
-            if (auction.source === 'csjn' || auction.source === 'scba') {
+
+            // Judicial sources
+            const judicialSources = ['csjn', 'scba', 'cordoba', 'entrerios'];
+            if (judicialSources.includes(auction.source)) {
                 const commission = 3.0;
                 const csjnFee = 0.25;
-                const total = auction.base_price * (1 + (commission + csjnFee) / 100);
+                const commissionAmount = auction.base_price * (commission / 100);
+                const ivaAmount = commissionAmount * (IVA_RATE / 100);
+                const feeAmount = auction.base_price * (csjnFee / 100);
+                const total = auction.base_price + commissionAmount + ivaAmount + feeAmount;
                 return {
                     total: Math.round(total * 100) / 100,
-                    breakdown: { base: auction.base_price, commission, csjnFee, iva: 0, stampTax: 0, otherFees: '' }
+                    breakdown: {
+                        base: auction.base_price,
+                        commission,
+                        csjnFee,
+                        iva: IVA_RATE,
+                        ivaAmount: Math.round(ivaAmount * 100) / 100,
+                        stampTax: 0,
+                        otherFees: ''
+                    }
                 };
             }
-            // Private auctions - estimate 10% commission
+
+            // Private auctions - 10% commission + IVA
             const commission = 10.0;
-            const total = auction.base_price * (1 + commission / 100);
+            const commissionAmount = auction.base_price * (commission / 100);
+            const ivaAmount = commissionAmount * (IVA_RATE / 100);
+            const total = auction.base_price + commissionAmount + ivaAmount;
             return {
                 total: Math.round(total * 100) / 100,
-                breakdown: { base: auction.base_price, commission, csjnFee: 0, iva: 0, stampTax: 0, otherFees: '' }
+                breakdown: {
+                    base: auction.base_price,
+                    commission,
+                    csjnFee: 0,
+                    iva: IVA_RATE,
+                    ivaAmount: Math.round(ivaAmount * 100) / 100,
+                    stampTax: 0,
+                    otherFees: ''
+                }
             };
         }
 
@@ -1880,11 +1906,16 @@ html {
                                     <span class="text-white/40 text-xs">${formatPrice(Math.round(auction.base_price * costInfo.breakdown.csjnFee / 100), auction.currency)}</span>
                                 </div>
                                 ` : ''}
+                                ${costInfo && costInfo.breakdown.ivaAmount > 0 ? `
+                                <div class="flex items-center justify-between">
+                                    <div class="text-[10px] uppercase tracking-wider text-white/40">+ IVA ${costInfo.breakdown.iva}%</div>
+                                    <span class="text-white/40 text-xs">${formatPrice(costInfo.breakdown.ivaAmount, auction.currency)}</span>
+                                </div>
+                                ` : ''}
                                 <div class="flex items-center justify-between pt-1 border-t border-white/10">
                                     <div class="text-[10px] uppercase tracking-wider text-yellow-500 font-semibold">Total Est.</div>
                                     <span class="text-yellow-500 font-display font-bold">${formatPrice(costInfo ? costInfo.total : auction.base_price, auction.currency)}</span>
                                 </div>
-                                <div class="text-[8px] text-white/30 text-right">+ IVA s/comisión</div>
                             </div>
                             ` : `
                             <div class="text-white/40 text-sm">A consultar</div>

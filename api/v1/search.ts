@@ -1,8 +1,8 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { verifyUSDCPayment } from "../lib/verify-payment.js";
-import { PAYMENT_WALLET } from "../lib/config.js";
+import { verifyUSDCPayment } from "../../src/api-lib/verify-payment.js";
+import { PAYMENT_WALLET } from "../../src/api-lib/config.js";
 
 // AI Search pricing
 const AI_SEARCH_PRICE = 0.005; // $0.005 USDC per AI-enhanced search

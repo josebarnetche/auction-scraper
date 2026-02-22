@@ -1,8 +1,8 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { verifyUSDCPayment } from "../lib/verify-payment.js";
-import { PRICES, PAYMENT_WALLET } from "../lib/config.js";
+import { verifyUSDCPayment } from "../../src/api-lib/verify-payment.js";
+import { PRICES, PAYMENT_WALLET } from "../../src/api-lib/config.js";
 import Anthropic from "@anthropic-ai/sdk";
 
 // Rate limiting: track used transaction hashes

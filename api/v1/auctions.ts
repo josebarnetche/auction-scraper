@@ -1,8 +1,8 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { verifyUSDCPayment } from "../lib/verify-payment.js";
-import { PRICES, PAYMENT_WALLET } from "../lib/config.js";
+import { verifyUSDCPayment } from "../../src/api-lib/verify-payment.js";
+import { PRICES, PAYMENT_WALLET } from "../../src/api-lib/config.js";
 
 // Simple in-memory cache for used tx hashes (resets on cold start)
 // For production, use Vercel KV or similar

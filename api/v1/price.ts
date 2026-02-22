@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { PRICES, PAYMENT_WALLET, USDC_ADDRESS, BASE_CHAIN_ID } from "../lib/config.js";
+import { PRICES, PAYMENT_WALLET, USDC_ADDRESS, BASE_CHAIN_ID } from "../../src/api-lib/config.js";
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader("Access-Control-Allow-Origin", "*");

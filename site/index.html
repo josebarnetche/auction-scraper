@@ -510,19 +510,19 @@ html {
                 <p class="text-yellow-400/80">Real-time auction market overview</p>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-                <div class="glass rounded-2xl p-6 text-center">
+                <div class="glass rounded-2xl p-6 text-center cursor-pointer hover:bg-white/10 transition-colors" onclick="filterByCategory('all')">
                     <div class="text-3xl md:text-4xl font-bold font-display text-white mb-2" id="stat-total">-</div>
                     <div class="text-xs uppercase tracking-wider text-yellow-500">Total Auctions</div>
                 </div>
-                <div class="glass rounded-2xl p-6 text-center">
+                <div class="glass rounded-2xl p-6 text-center cursor-pointer hover:bg-white/10 transition-colors" onclick="filterByCategory('vehicles')">
                     <div class="text-3xl md:text-4xl font-bold font-display text-blue-400 mb-2" id="stat-vehicles">-</div>
                     <div class="text-xs uppercase tracking-wider text-blue-400/70">Vehicles</div>
                 </div>
-                <div class="glass rounded-2xl p-6 text-center">
+                <div class="glass rounded-2xl p-6 text-center cursor-pointer hover:bg-white/10 transition-colors" onclick="filterByCategory('real_estate')">
                     <div class="text-3xl md:text-4xl font-bold font-display text-pink-400 mb-2" id="stat-realestate">-</div>
                     <div class="text-xs uppercase tracking-wider text-pink-400/70">Real Estate</div>
                 </div>
-                <div class="glass rounded-2xl p-6 text-center">
+                <div class="glass rounded-2xl p-6 text-center cursor-pointer hover:bg-white/10 transition-colors" onclick="filterByCategory('machinery')">
                     <div class="text-3xl md:text-4xl font-bold font-display text-yellow-400 mb-2" id="stat-machinery">-</div>
                     <div class="text-xs uppercase tracking-wider text-yellow-400/70">Machinery</div>
                 </div>
@@ -747,11 +747,12 @@ html {
                     <div>
                         <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Sort By</label>
                         <select id="sort-filter" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50" onchange="applyFilters()">
-                            <option value="newest">Newest First</option>
+                            <option value="recommended" selected>Recommended</option>
                             <option value="ending">Ending Soon</option>
+                            <option value="discount">Best Deals</option>
                             <option value="price-asc">Price: Low to High</option>
                             <option value="price-desc">Price: High to Low</option>
-                            <option value="discount">Best Deals</option>
+                            <option value="newest">Newest First</option>
                         </select>
                     </div>
                 </div>
@@ -1396,6 +1397,30 @@ html {
             applyFilters();
         }
 
+        // Filter by category from dashboard click
+        function filterByCategory(category) {
+            // Set category filter
+            const categorySelect = document.getElementById('category-filter');
+            if (category === 'all') {
+                categorySelect.value = '';
+            } else {
+                categorySelect.value = category;
+            }
+            // Scroll to auctions section and apply filters
+            document.getElementById('auctions').scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => applyFilters(), 300);
+        }
+
+        // Filter by source from dashboard click
+        function filterBySource(source) {
+            // Set source filter
+            const sourceSelect = document.getElementById('source-filter');
+            sourceSelect.value = source;
+            // Scroll to auctions section and apply filters
+            document.getElementById('auctions').scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => applyFilters(), 300);
+        }
+
         // Apply all filters
         function applyFilters() {
             const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
@@ -1437,8 +1462,16 @@ html {
             });
 
             // Sort
+            const JUDICIAL_SOURCES = ['csjn', 'scba', 'cordoba', 'entrerios'];
             filteredAuctions.sort((a, b) => {
                 switch (sortBy) {
+                    case 'recommended':
+                        // Judicial first, then by discount
+                        const aJudicial = JUDICIAL_SOURCES.includes(a.source) ? 1 : 0;
+                        const bJudicial = JUDICIAL_SOURCES.includes(b.source) ? 1 : 0;
+                        if (aJudicial !== bJudicial) return bJudicial - aJudicial;
+                        // Then by discount
+                        return (calculateDiscount(b) || 0) - (calculateDiscount(a) || 0);
                     case 'ending':
                         const aEnd = a.ends_at ? new Date(a.ends_at) : new Date('2099-01-01');
                         const bEnd = b.ends_at ? new Date(b.ends_at) : new Date('2099-01-01');
@@ -1723,18 +1756,18 @@ html {
             document.getElementById('stat-realestate').textContent = categories.real_estate;
             document.getElementById('stat-machinery').textContent = categories.machinery;
 
-            // Sources breakdown
+            // Sources breakdown (clickable)
             const sourcesHtml = Object.entries(bySource)
                 .sort((a, b) => b[1] - a[1])
                 .map(([source, count]) => `
-                    <div class="flex items-center justify-between">
+                    <div class="flex items-center justify-between cursor-pointer hover:bg-white/10 p-2 rounded-lg transition-colors -mx-2" onclick="filterBySource('${source}')">
                         <span class="text-white/60 text-sm uppercase">${source.replace('_', ' ')}</span>
                         <span class="text-yellow-500 font-display font-semibold">${count}</span>
                     </div>
                 `).join('');
             document.getElementById('sources-breakdown').innerHTML = sourcesHtml || '<p class="text-white/40 text-sm">No data</p>';
 
-            // Category breakdown
+            // Category breakdown (clickable)
             const total = allAuctions.length || 1;
             const catHtml = Object.entries(categories)
                 .filter(([_, count]) => count > 0)
@@ -1743,7 +1776,7 @@ html {
                     const pct = Math.round((count / total) * 100);
                     const colors = { vehicles: 'bg-blue-500', real_estate: 'bg-pink-500', machinery: 'bg-yellow-500', other: 'bg-gray-500' };
                     return `
-                        <div>
+                        <div class="cursor-pointer hover:bg-white/10 p-2 rounded-lg transition-colors -mx-2" onclick="filterByCategory('${cat}')">
                             <div class="flex items-center justify-between mb-1">
                                 <span class="text-white/60 text-sm capitalize">${cat.replace('_', ' ')}</span>
                                 <span class="text-white/40 text-xs">${pct}%</span>

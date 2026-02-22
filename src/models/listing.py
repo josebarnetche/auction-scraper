@@ -117,26 +117,65 @@ def detect_category(title: str, description: str = "") -> str:
     text = f"{title} {description}".lower()
 
     vehicle_keywords = [
-        "auto", "automóvil", "vehículo", "vehiculo", "camioneta", "camión",
-        "moto", "motocicleta", "pickup", "sedan", "ford", "chevrolet",
-        "toyota", "volkswagen", "renault", "fiat", "peugeot", "citroen",
-        "mercedes", "bmw", "audi", "honda", "nissan", "rodado"
+        # General
+        "auto", "automóvil", "automovil", "vehículo", "vehiculo", "camioneta", "camión", "camion",
+        "moto", "motocicleta", "pickup", "sedan", "hatchback", "suv", "4x4", "utilitario",
+        "rodado", "patentado", "dominio", "chasis", "carroceria",
+        # Brands
+        "ford", "chevrolet", "toyota", "volkswagen", "vw", "renault", "fiat", "peugeot",
+        "citroen", "mercedes", "bmw", "audi", "honda", "nissan", "hyundai", "kia",
+        "jeep", "dodge", "ram", "mitsubishi", "suzuki", "mazda", "subaru",
+        "iveco", "scania", "volvo", "man", "mercedes-benz", "sprinter", "ducato",
+        # Models
+        "corolla", "hilux", "ranger", "amarok", "frontier", "s10", "cruze", "onix",
+        "gol", "polo", "focus", "fiesta", "ecosport", "duster", "sandero", "logan",
+        "partner", "kangoo", "berlingo", "master", "trafic", "boxer", "jumper",
+        # Types
+        "colectivo", "omnibus", "minibus", "micro", "remolque", "acoplado", "semirremolque",
+        "trailer", "cisterna", "tanque", "furgon", "ambulancia", "grua"
     ]
 
     real_estate_keywords = [
-        "inmueble", "casa", "departamento", "terreno", "local comercial",
-        "oficina comercial", "galpón", "galpon", "propiedad", "edificio",
-        "cochera", "ph", "dúplex", "duplex", "monoambiente", "hectáreas",
-        "parcela", "predio", "uf.", "unidad funcional", "dto.",
-        "lote de terreno", "loteo", "m2 cubiertos", "metros cuadrados"
+        # Property types
+        "inmueble", "casa", "departamento", "depto", "dto", "terreno", "lote",
+        "local comercial", "local", "oficina", "galpón", "galpon", "nave industrial",
+        "propiedad", "edificio", "cochera", "garage", "estacionamiento",
+        "ph", "dúplex", "duplex", "triplex", "monoambiente", "ambiente",
+        # Land
+        "hectáreas", "hectareas", "ha.", "parcela", "predio", "campo", "chacra",
+        "fracción", "fraccion", "quinta", "finca", "rural",
+        # Legal/units
+        "uf.", "unidad funcional", "m2", "metros cuadrados", "m²",
+        "escritura", "titulo", "matricula", "nomenclatura catastral",
+        # Location terms
+        "barrio", "country", "countries", "club de campo"
     ]
 
     machinery_keywords = [
-        "maquinaria", "máquina", "maquina", "tractor", "cosechadora",
-        "herramienta", "equipo industrial", "maquina industrial", "agrícola", "agricola",
-        "generador", "grupo electrogeno", "electrógeno", "compresor",
-        "soldadora", "torno", "fresadora", "guillotina", "autoelevador",
-        "excavadora", "retroexcavadora", "grúa", "grua", "montacarga"
+        # General
+        "maquinaria", "máquina", "maquina", "equipo", "equipamiento",
+        "herramienta", "herramientas", "industrial", "fabrica", "planta",
+        # Agricultural
+        "tractor", "cosechadora", "sembradora", "fumigadora", "pulverizadora",
+        "agrícola", "agricola", "implemento", "arado", "rastra", "cultivador",
+        # Construction
+        "excavadora", "retroexcavadora", "pala", "bulldozer", "topadora",
+        "motoniveladora", "rodillo", "compactador", "hormigonera", "mixer",
+        # Industrial
+        "generador", "grupo electrógeno", "electrogeno", "compresor", "bomba",
+        "soldadora", "torno", "fresadora", "guillotina", "prensa", "cnc",
+        "autoelevador", "montacarga", "elevador", "apilador", "transpallet",
+        "grúa", "grua", "puente grua", "polipasto",
+        # Electronics/IT (often industrial)
+        "servidor", "rack", "ups", "transformador", "tablero electrico",
+        "computadora", "pc", "monitor", "impresora", "scanner",
+        # Food/Restaurant
+        "heladera", "freezer", "horno", "cocina industrial", "freidora",
+        "exhibidora", "vitrina", "mostrador", "balanza",
+        # Medical
+        "médico", "medico", "quirúrgico", "quirurgico", "dental", "radiología",
+        # Other equipment
+        "aire acondicionado", "split", "caldera", "calefaccion"
     ]
 
     # Check real_estate FIRST (terreno/parcela should be real estate even if "industrial" appears)

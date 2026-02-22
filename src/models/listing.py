@@ -118,7 +118,7 @@ def detect_category(title: str, description: str = "") -> str:
 
     vehicle_keywords = [
         # General
-        "auto", "automóvil", "automovil", "vehículo", "vehiculo", "camioneta", "camión", "camion",
+        "auto", "automotor", "automóvil", "automovil", "vehículo", "vehiculo", "camioneta", "camión", "camion",
         "moto", "motocicleta", "pickup", "sedan", "hatchback", "suv", "4x4", "utilitario",
         "rodado", "patentado", "dominio", "chasis", "carroceria",
         # Brands

@@ -1,11 +1,12 @@
 {
   "name": "auction-scraper-api",
-  "version": "1.0.0",
+  "version": "1.8.0",
   "private": true,
   "type": "module",
   "dependencies": {
     "viem": "^2.21.0",
-    "@vercel/kv": "^2.0.0"
+    "@vercel/kv": "^2.0.0",
+    "@anthropic-ai/sdk": "^0.32.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

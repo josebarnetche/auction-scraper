@@ -18,3 +18,54 @@ export const PRICES = {
 
 // Anti-replay: tx must be within this many seconds
 export const TX_MAX_AGE_SECONDS = 3600; // 1 hour
+
+// Subscription tiers
+export type SubscriptionTier = 'free' | 'pro' | 'enterprise';
+
+export const SUBSCRIPTION_TIERS: Record<SubscriptionTier, {
+  name: string;
+  price: number;
+  dailyCredits: number;
+  requestsPerDay: number;
+  durationDays: number;
+  features: string[];
+}> = {
+  free: {
+    name: 'Free',
+    price: 0,
+    dailyCredits: 10,
+    requestsPerDay: 10,
+    durationDays: 0,
+    features: ['Basic search', '10 credits/day', 'Email support']
+  },
+  pro: {
+    name: 'Pro',
+    price: 5,
+    dailyCredits: 1000,
+    requestsPerDay: 1000,
+    durationDays: 30,
+    features: ['Unlimited search', '1000 credits/day', 'Priority support', 'API access']
+  },
+  enterprise: {
+    name: 'Enterprise',
+    price: 20,
+    dailyCredits: 10000,
+    requestsPerDay: 10000,
+    durationDays: 30,
+    features: ['Everything in Pro', '10000 credits/day', 'Dedicated support', 'Custom integrations']
+  }
+};
+
+// Credit packages for one-time purchases
+export const CREDIT_PACKAGES: Record<string, {
+  credits: number;
+  price: number;
+  bonus: string;
+  description: string;
+  savingsPercent: number;
+}> = {
+  starter: { credits: 50, price: 1, bonus: '', description: 'Try it out', savingsPercent: 0 },
+  basic: { credits: 300, price: 5, bonus: '+50 bonus', description: 'Best for casual users', savingsPercent: 10 },
+  standard: { credits: 700, price: 10, bonus: '+100 bonus', description: 'Most popular', savingsPercent: 20 },
+  premium: { credits: 4000, price: 50, bonus: '+500 bonus', description: 'Best value for power users', savingsPercent: 30 }
+};

@@ -20,7 +20,7 @@ Judicial auctions force sales. Sellers can't negotiate. Buyers win.
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.6.1` | 2026-02-21 |
+| `v1.7.0` | 2026-02-22 |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -61,11 +61,21 @@ A **single aggregation layer** that:
 | Metric | Value |
 |--------|-------|
 | **Total Sources** | 14 |
-| **Active Listings** | 864 |
-| **Judicial Listings** | 621 (72%) |
-| **Lot-Level Data** | 202 lots across 18 auctions |
+| **Active Listings** | 850+ |
+| **Judicial Listings** | 620+ (72%) |
+| **Lot-Level Data** | 200+ lots across 18 auctions |
 | **Update Frequency** | Daily at 00:00 GMT-3 |
 | **Infrastructure Cost** | $0 |
+
+### Categories
+
+| Category | Description | % of Listings |
+|----------|-------------|---------------|
+| **General Goods** | Furniture, clothing, appliances, electronics, tools | 45% |
+| **Real Estate** | Houses, apartments, land, commercial properties | 30% |
+| **Vehicles** | Cars, trucks, motorcycles, buses | 15% |
+| **Machinery** | Industrial equipment, agricultural, construction | 6% |
+| **Other** | Miscellaneous items | 4% |
 
 ---
 
@@ -92,20 +102,20 @@ Every listing shows **total estimated cost** including:
 
 | Type | Commission | Fees | IVA |
 |------|------------|------|-----|
-| **Judicial** | 3% | 0.25% arancel | 21% s/comisión |
-| **Private** | 10% | - | 21% s/comisión |
+| **Judicial** | 3% | 0.25% arancel | 21% s/base |
+| **Private** | 10% | - | 21% s/base |
 
 Example: $100,000 base price (judicial)
 ```
 Base           $100,000
 + Comisión 3%    $3,000
 + Arancel 0.25%    $250
-+ IVA 21%          $630
++ IVA 21%        $21,000
 ─────────────────────────
-Total Est.     $103,880
+Total Est.     $124,250
 ```
 
-> **Note:** IVA on goods (vehicles, machinery) may apply separately if seller is registered. Real estate is exempt. Commission always has IVA. Check with auction house for specifics.
+> **Note:** IVA 21% applies to the base price. Real estate may be exempt. Check with auction house for specific tax treatment.
 
 ---
 

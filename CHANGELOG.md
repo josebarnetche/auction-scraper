@@ -9,6 +9,54 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.7.0] - 2026-02-22
+
+### Added
+- **General Goods Category** - New category capturing 45% of listings
+  - Furniture: desks, chairs, tables, cabinets
+  - Clothing & Textiles: all apparel, footwear, linens
+  - Appliances: kitchen, laundry, heating/cooling
+  - Electronics: TVs, computers, phones, printers
+  - Tools: hand tools, power tools
+  - Construction Materials: doors, windows, tiles, paint
+
+### Changed
+- **IVA Calculation Fixed** - Now 21% on base price (not commission)
+  - Judicial: Base + 3% comisión + 0.25% arancel + **21% IVA s/base**
+  - Private: Base + 10% comisión + **21% IVA s/base**
+  - Example: $100k base → $124,250 total (was $103,880)
+
+- **Category Distribution Improved**
+  - `general_goods`: 45% (NEW)
+  - `real_estate`: 30%
+  - `vehicles`: 15%
+  - `machinery`: 6%
+  - `other`: 4% (was 50%!)
+
+### Fixed
+- **Entre Ríos Duplicates** - Deduplicated by title+price
+  - Same KWID auction was appearing 13 times
+  - Now shows 1 unique listing per auction
+
+- **Vehicle Detection** - Added 50+ missing keywords
+  - Renault models: KWID, Captur, Clio, Duster, etc.
+  - Motorcycle brands: Corven, Motomel, Zanella, Bajaj, etc.
+  - Chevrolet models: Corsa, Classic, Agile, Meriva, etc.
+  - VW variants including common typo "wolkswagen"
+
+- **Real Estate Detection** - Added location patterns
+  - "vivienda", "dpto", "nuda prop", "derechos"
+  - Neighborhood indicators: "b°", "bº"
+  - Córdoba locations: Unquillo, Bella Vista, La Granja, etc.
+
+### Technical
+- New `general_goods_keywords` array with 150+ keywords
+- Category detection order: real_estate → vehicles → machinery → general_goods → other
+- Frontend: green color scheme for general_goods category
+- Dashboard card and filter button for general_goods
+
+---
+
 ## [1.6.1] - 2026-02-21
 
 ### Added
@@ -482,7 +530,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.6.1** | 2026-02-21 | **SEO audit, agent discovery, marketing content, profit strategies** |
+| **1.7.0** | 2026-02-22 | **General goods category (45%), IVA fix (21% on base), Entre Ríos dedup, 150+ new keywords** |
+| 1.6.1 | 2026-02-21 | SEO audit, agent discovery, marketing content, profit strategies |
 | **1.6.0** | 2026-02-21 | USDC API for agents, IVA/fees on prices, API docs on homepage |
 | **1.5.1** | 2026-02-21 | Adrián Mercado lot extraction (171 lots), domain live at subasto.com.ar |
 | **1.5.0** | 2026-02-21 | SEO/social meta tags, currency selector in header, mobile optimization, calendar shows closing dates |

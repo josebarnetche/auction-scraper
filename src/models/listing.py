@@ -121,15 +121,29 @@ def detect_category(title: str, description: str = "") -> str:
         "auto", "automotor", "automóvil", "automovil", "vehículo", "vehiculo", "camioneta", "camión", "camion",
         "moto", "motocicleta", "pickup", "sedan", "hatchback", "suv", "4x4", "utilitario",
         "rodado", "patentado", "dominio", "chasis", "carroceria",
-        # Brands
-        "ford", "chevrolet", "toyota", "volkswagen", "vw", "renault", "fiat", "peugeot",
-        "citroen", "mercedes", "bmw", "audi", "honda", "nissan", "hyundai", "kia",
-        "jeep", "dodge", "ram", "mitsubishi", "suzuki", "mazda", "subaru",
+        # Car Brands
+        "ford", "chevrolet", "toyota", "volkswagen", "vw", "wolkswagen", "renault", "fiat", "peugeot",
+        "citroen", "citroën", "mercedes", "benz", "bmw", "audi", "honda", "nissan", "hyundai", "kia",
+        "jeep", "dodge", "ram", "mitsubishi", "suzuki", "mazda", "subaru", "chery", "geely", "jac",
         "iveco", "scania", "volvo", "man", "mercedes-benz", "sprinter", "ducato",
-        # Models
-        "corolla", "hilux", "ranger", "amarok", "frontier", "s10", "cruze", "onix",
-        "gol", "polo", "focus", "fiesta", "ecosport", "duster", "sandero", "logan",
-        "partner", "kangoo", "berlingo", "master", "trafic", "boxer", "jumper",
+        # Motorcycle Brands
+        "corven", "motomel", "zanella", "gilera", "bajaj", "kymco", "benelli", "beta", "sym", "mondial",
+        "guerrero", "cerro", "jawa", "appia", "keeway", "daelim", "tvs", "hero",
+        # Car Models (Renault)
+        "kwid", "captur", "clio", "megane", "fluence", "koleos", "stepway", "symbol", "oroch", "alaskan",
+        # Car Models (VW)
+        "gol", "polo", "vento", "passat", "bora", "suran", "tiguan", "touareg", "saveiro", "taos", "virtus",
+        # Car Models (Other)
+        "corolla", "hilux", "etios", "yaris", "rav4", "sw4", "fortuner",
+        "ranger", "ka", "focus", "fiesta", "ecosport", "territory", "bronco",
+        "amarok", "frontier", "s10", "cruze", "onix", "tracker", "spin", "cobalt", "prisma", "montana", "corsa", "classic", "agile", "meriva", "zafira", "vectra", "astra", "celta",
+        "duster", "sandero", "logan", "kangoo", "master", "trafic",
+        "partner", "berlingo", "boxer", "jumper", "expert",
+        "palio", "siena", "uno", "mobi", "argo", "cronos", "strada", "toro", "fiorino",
+        "208", "2008", "308", "3008", "408", "5008", "rifter",
+        # Motorcycle Models
+        "triax", "rouser", "skua", "zr", "rx", "ybr", "fz", "xtz", "mt-", "cg", "cb", "xr", "tornado",
+        "wave", "biz", "pcx", "nmax", "tmax", "vespa", "scooter", "cuatriciclo", "atv", "utv",
         # Types
         "colectivo", "omnibus", "minibus", "micro", "remolque", "acoplado", "semirremolque",
         "trailer", "cisterna", "tanque", "furgon", "ambulancia", "grua"
@@ -137,9 +151,9 @@ def detect_category(title: str, description: str = "") -> str:
 
     real_estate_keywords = [
         # Property types
-        "inmueble", "casa", "departamento", "depto", "dto", "terreno", "lote",
+        "inmueble", "casa", "departamento", "depto", "dpto", "dto", "terreno", "lote",
         "local comercial", "local", "oficina", "galpón", "galpon", "nave industrial",
-        "propiedad", "edificio", "cochera", "garage", "estacionamiento",
+        "propiedad", "edificio", "cochera", "garage", "estacionamiento", "vivienda",
         "ph", "dúplex", "duplex", "triplex", "monoambiente", "ambiente",
         # Land
         "hectáreas", "hectareas", "ha.", "parcela", "predio", "campo", "chacra",
@@ -147,8 +161,16 @@ def detect_category(title: str, description: str = "") -> str:
         # Legal/units
         "uf.", "unidad funcional", "m2", "metros cuadrados", "m²",
         "escritura", "titulo", "matricula", "nomenclatura catastral",
+        "nuda propiedad", "nuda prop", "derechos hereditarios", "derechos acc", "50% derechos",
         # Location terms
-        "barrio", "country", "countries", "club de campo"
+        "barrio", "b°", "bº", "country", "countries", "club de campo",
+        # Common real estate location patterns
+        "oportunidad b", "en b°", "en bº",
+        # Common location names that indicate real estate
+        "la granja", "bella vista", "unquillo", "alta gracia", "villa carlos paz", "cosquin",
+        "rio ceballos", "salsipuedes", "mendiolaza", "villa allende",
+        # Street address patterns (number + neighborhood)
+        "villa urquiza", "c.a.b.a", "caba", "capital federal"
     ]
 
     machinery_keywords = [
@@ -158,33 +180,78 @@ def detect_category(title: str, description: str = "") -> str:
         # Agricultural
         "tractor", "cosechadora", "sembradora", "fumigadora", "pulverizadora",
         "agrícola", "agricola", "implemento", "arado", "rastra", "cultivador",
-        # Construction
-        "excavadora", "retroexcavadora", "pala", "bulldozer", "topadora",
+        # Construction equipment
+        "excavadora", "retroexcavadora", "pala mecánica", "bulldozer", "topadora",
         "motoniveladora", "rodillo", "compactador", "hormigonera", "mixer",
         # Industrial
         "generador", "grupo electrógeno", "electrogeno", "compresor", "bomba",
         "soldadora", "torno", "fresadora", "guillotina", "prensa", "cnc",
         "autoelevador", "montacarga", "elevador", "apilador", "transpallet",
         "grúa", "grua", "puente grua", "polipasto",
-        # Electronics/IT (often industrial)
+        # Electronics/IT (industrial)
         "servidor", "rack", "ups", "transformador", "tablero electrico",
-        "computadora", "pc", "monitor", "impresora", "scanner",
-        # Food/Restaurant
-        "heladera", "freezer", "horno", "cocina industrial", "freidora",
-        "exhibidora", "vitrina", "mostrador", "balanza",
+        # Food/Restaurant equipment
+        "heladera comercial", "freezer", "cocina industrial", "freidora",
+        "exhibidora", "vitrina", "mostrador", "balanza industrial",
         # Medical
         "médico", "medico", "quirúrgico", "quirurgico", "dental", "radiología",
         # Other equipment
-        "aire acondicionado", "split", "caldera", "calefaccion"
+        "aire acondicionado", "split", "caldera", "calefaccion",
+        # More industrial
+        "tolva", "tratadora", "limadora", "cortadora", "balancin", "invernader", "cámara de almacenamiento",
+        "perfil estructural", "material ferroso"
+    ]
+
+    general_goods_keywords = [
+        # Furniture
+        "escritorio", "silla", "mesa", "mueble", "estante", "ropero", "cama", "sofa", "sofá",
+        "sillon", "sillón", "butaca", "fichero", "perchero", "pizarra", "biblioteca",
+        "cajonera", "armario", "placard", "modular", "tablon", "tablón", "banco",
+        # Clothing & Textiles
+        "ropa", "calzado", "zapato", "campera", "pantalon", "pantalón", "remera", "casco",
+        "jean", "short", "vestido", "pollera", "buzo", "chomba", "bermuda", "camiseta",
+        "toalla", "repasador", "sabana", "sábana", "frazada", "acolchado", "cortina",
+        "medias", "boxer", "corpiño", "corpino", "musculosa", "camisa", "sweater",
+        "jogging", "joggin", "calza", "leggin", "pijama", "bata", "delantal",
+        "prendas", "bikini", "malla", "traje de baño", "guante", "bufanda", "gorro",
+        "can-can", "can can", "escolar", "objetos varios",
+        # Footwear
+        "zapatilla", "bota", "sandalia", "ojota", "pantufla", "mocasin",
+        # Small Appliances
+        "cocina", "horno", "microondas", "lavarropas", "caloventor", "caloventores", "caloventrores", "estufa", "ventilador",
+        "cafetera", "anafe", "calefactor", "tostadora", "licuadora", "batidora", "minipimer",
+        "plancha", "aspiradora", "secador", "termo", "pava", "secarropa",
+        # Tools (hand/power)
+        "amoladora", "taladro", "sierra", "destornillador", "llave", "pinza", "martillo",
+        "nivel", "cinta metrica", "escalera",
+        # Electronics (consumer)
+        "tv", "televisor", "led", "smart tv", "celular", "notebook", "tablet", "telefono",
+        "parlante", "proyector", "auricular", "cargador", "control remoto",
+        "impresora", "monitor", "teclado", "mouse", "webcam", "router", "modem",
+        # Construction Materials
+        "puerta", "ventana", "ceramico", "cerámico", "porcelanato", "pastina", "pegamento",
+        "pintura", "ladrillo", "laja", "madera", "placa", "durlock", "membrana",
+        # Office supplies
+        "posnet", "calculadora", "archivador", "carpeta", "resma",
+        # Decor & Home
+        "cuadro", "espejo", "lampara", "lámpara", "alfombra", "florero", "adorno",
+        # Kitchen & Dining
+        "vajilla", "plato", "vaso", "taza", "cubierto", "olla", "sarten", "sartén",
+        # Baby & Kids
+        "bebe", "bebé", "infantil", "juguete", "coche bebe", "cuna", "practicuna"
     ]
 
     # Check real_estate FIRST (terreno/parcela should be real estate even if "industrial" appears)
-    # Then machinery (before vehicles to avoid brand conflicts like "honda")
     if any(kw in text for kw in real_estate_keywords):
         return "real_estate"
-    elif any(kw in text for kw in machinery_keywords):
-        return "machinery"
+    # Then vehicles (check before machinery to catch motorcycles)
     elif any(kw in text for kw in vehicle_keywords):
         return "vehicles"
+    # Then machinery
+    elif any(kw in text for kw in machinery_keywords):
+        return "machinery"
+    # Then general goods
+    elif any(kw in text for kw in general_goods_keywords):
+        return "general_goods"
 
     return "other"

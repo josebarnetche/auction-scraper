@@ -262,9 +262,9 @@ Programmatic access with USDC micropayments on Base network.
 | Endpoint | Price | Description |
 |----------|-------|-------------|
 | `GET /api/v1/price` | Free | Pricing info and payment wallet |
-| `GET /api/v1/auctions?tx=0x...` | $0.01 | All 864+ listings |
-| `GET /api/v1/opportunities?tx=0x...` | $0.05 | Hot deals (40%+ discount) |
-| `GET /api/v1/premium?tx=0x...` | $0.10 | Curated premium picks |
+| `GET /api/v1/premium?tx=0x...` | $0.01 | Curated premium picks (~12) |
+| `GET /api/v1/opportunities?tx=0x...` | $0.02 | Hot deals 40%+ discount (~70) |
+| `GET /api/v1/auctions?tx=0x...` | $0.05 | All 864+ listings |
 
 ### How It Works
 

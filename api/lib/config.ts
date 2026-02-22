@@ -9,11 +9,11 @@ export const USDC_DECIMALS = 6;
 // Your wallet to receive payments
 export const PAYMENT_WALLET = process.env.PAYMENT_WALLET || "0x29E007249b744892a1da17F4289f75cfC871d6Fe";
 
-// Pricing in USDC (6 decimals)
+// Pricing in USDC (6 decimals) - volume-based
 export const PRICES = {
-  auctions: 0.01,        // $0.01 - full listings
-  opportunities: 0.05,   // $0.05 - hot deals only
-  premium: 0.10,         // $0.10 - premium picks
+  premium: 0.01,         // $0.01 - curated picks (~12)
+  opportunities: 0.02,   // $0.02 - hot deals (~70)
+  auctions: 0.05,        // $0.05 - all listings (864+)
 } as const;
 
 // Anti-replay: tx must be within this many seconds

@@ -4,11 +4,6 @@
   "installCommand": "npm install",
   "framework": null,
   "outputDirectory": "site",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node@3"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/v1/:path*",

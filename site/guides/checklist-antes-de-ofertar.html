@@ -14,6 +14,7 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="theme-color" content="#eab308">
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 body { font-family: 'Manrope', sans-serif; background-color: #030303; color: #ffffff; }
@@ -26,12 +27,15 @@ body { font-family: 'Manrope', sans-serif; background-color: #030303; color: #ff
 .check-box { width: 24px; height: 24px; border: 2px solid rgba(255,255,255,0.2); border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .check-icon { display: none; }
 @media print {
-    body { background: white; color: black; }
-    .glass { background: #f5f5f5; border: 1px solid #ddd; }
+    body { background: white !important; color: black !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .glass { background: #f8f8f8 !important; border: 1px solid #e0e0e0 !important; }
     .no-print { display: none !important; }
     .checklist-item { opacity: 1 !important; }
-    .check-box { border-color: #333; }
+    .check-box { border-color: #333 !important; background: white !important; }
 }
+/* PDF Export Styles */
+.pdf-export-mode { background: #030303 !important; }
+.pdf-export-mode .glass { background: rgba(255, 255, 255, 0.08) !important; border: 1px solid rgba(255, 255, 255, 0.15) !important; }
 </style>
 </head>
 <body class="antialiased">
@@ -73,13 +77,19 @@ body { font-family: 'Manrope', sans-serif; background-color: #030303; color: #ff
 
                 <!-- Download/Print buttons -->
                 <div class="flex flex-wrap gap-3 no-print">
-                    <button onclick="window.print()" class="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-500 rounded-lg transition-colors text-sm">
+                    <button onclick="downloadPDF()" id="download-pdf-btn" class="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 text-black font-semibold rounded-lg transition-all text-sm shadow-lg shadow-yellow-500/20">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Descargar PDF
+                    </button>
+                    <button onclick="window.print()" class="inline-flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-white/60 rounded-lg transition-colors text-sm border border-white/10">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
                         </svg>
-                        Imprimir Checklist
+                        Imprimir
                     </button>
-                    <button onclick="resetChecklist()" class="inline-flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-white/60 rounded-lg transition-colors text-sm">
+                    <button onclick="resetChecklist()" class="inline-flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-white/60 rounded-lg transition-colors text-sm border border-white/10">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
                         </svg>
@@ -533,6 +543,162 @@ body { font-family: 'Manrope', sans-serif; background-color: #030303; color: #ff
             items.forEach(item => item.classList.remove('checked'));
             localStorage.removeItem(STORAGE_KEY);
             updateProgress();
+        }
+
+        // Helper function for checklist items
+        function generateChecklistItem(title, desc, critical = false) {
+            return `
+                <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 12px 14px; display: flex; align-items: flex-start; gap: 12px;">
+                    <div style="width: 20px; height: 20px; border: 2px solid rgba(255,255,255,0.3); border-radius: 5px; flex-shrink: 0; margin-top: 2px;"></div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 500; font-size: 13px; ${critical ? 'color: #f87171;' : ''}">${title}</div>
+                        <div style="color: rgba(255,255,255,0.5); font-size: 11px; margin-top: 2px;">${desc}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Beautiful PDF Download Function
+        async function downloadPDF() {
+            const btn = document.getElementById('download-pdf-btn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> Generando...';
+            btn.disabled = true;
+
+            // Create PDF content
+            const pdfContent = document.createElement('div');
+            pdfContent.innerHTML = `
+                <div style="font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif; background: linear-gradient(180deg, #030303 0%, #0a0a0a 100%); color: white; padding: 40px; min-height: 100%;">
+                    <!-- Header -->
+                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 40px; height: 40px;">
+                                <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                                <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                            </svg>
+                            <div>
+                                <div style="font-size: 24px; font-weight: 600; letter-spacing: -0.5px;">Subasto<span style="color: #eab308; font-weight: 300;">.com.ar</span></div>
+                                <div style="font-size: 11px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1px;">Guia de Subastas Argentina</div>
+                            </div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="background: linear-gradient(135deg, #eab308, #ca8a04); color: black; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600;">DUE DILIGENCE</div>
+                        </div>
+                    </div>
+
+                    <!-- Title -->
+                    <div style="margin-bottom: 30px;">
+                        <h1 style="font-size: 32px; font-weight: 600; margin: 0 0 10px 0; letter-spacing: -1px;">Checklist: Que Verificar Antes de Ofertar</h1>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 14px; margin: 0;">Lista completa de verificaciones para evitar sorpresas en subastas judiciales y privadas.</p>
+                    </div>
+
+                    <!-- Section 1 -->
+                    <div style="margin-bottom: 25px;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+                            <div style="width: 28px; height: 28px; background: rgba(234, 179, 8, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #eab308; font-weight: bold; font-size: 14px;">1</div>
+                            <h2 style="font-size: 18px; font-weight: 600; margin: 0;">Antes de la Exhibicion</h2>
+                        </div>
+                        <div style="display: grid; gap: 8px;">
+                            ${generateChecklistItem('Leer el edicto completo', 'Revisar descripcion, precio base, condiciones de venta y fechas.')}
+                            ${generateChecklistItem('Investigar valor de mercado', 'Buscar precios similares en MercadoLibre, ZonaProp, DeAutos.')}
+                            ${generateChecklistItem('Calcular costos totales', 'Sumar comisiones, IVA, transferencia y gastos ocultos.')}
+                            ${generateChecklistItem('Definir tu precio maximo', 'Fijar un limite antes de participar. No superarlo.')}
+                            ${generateChecklistItem('Verificar disponibilidad de fondos', 'Confirmar dinero para garantia + saldo si ganas.')}
+                        </div>
+                    </div>
+
+                    <!-- Section 2 -->
+                    <div style="margin-bottom: 25px;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+                            <div style="width: 28px; height: 28px; background: rgba(59, 130, 246, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #3b82f6; font-weight: bold; font-size: 14px;">2</div>
+                            <h2 style="font-size: 18px; font-weight: 600; margin: 0;">Para Vehiculos</h2>
+                        </div>
+                        <div style="display: grid; gap: 8px;">
+                            ${generateChecklistItem('Pedir informe de dominio DNRPA', 'Verificar propietario, prendas, embargos, robo/hurto.')}
+                            ${generateChecklistItem('Consultar deuda de patentes', 'ARBA, AGIP o agencia provincial. Gratis online.')}
+                            ${generateChecklistItem('Verificar multas de transito', 'Las multas pasan al nuevo titular.')}
+                            ${generateChecklistItem('En exhibicion: encender motor', 'Ruidos, humo escape, luces tablero.')}
+                            ${generateChecklistItem('Revisar carroceria y pintura', 'Oxido, golpes reparados, diferencias de tonalidad.')}
+                            ${generateChecklistItem('Verificar VIN y motor', 'Comparar numeros con informe de dominio.')}
+                        </div>
+                    </div>
+
+                    <!-- Section 3 -->
+                    <div style="margin-bottom: 25px;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+                            <div style="width: 28px; height: 28px; background: rgba(236, 72, 153, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ec4899; font-weight: bold; font-size: 14px;">3</div>
+                            <h2 style="font-size: 18px; font-weight: 600; margin: 0;">Para Inmuebles</h2>
+                        </div>
+                        <div style="display: grid; gap: 8px;">
+                            ${generateChecklistItem('Informe de dominio del inmueble', 'Registro de la Propiedad: titular, hipotecas, embargos.')}
+                            ${generateChecklistItem('Certificado de expensas', 'Las deudas de expensas pasan al comprador.')}
+                            ${generateChecklistItem('Consultar deudas de servicios', 'ABL, agua, luz, gas pueden pasar al nuevo titular.')}
+                            ${generateChecklistItem('CRITICO: Verificar ocupacion', 'Si hay ocupantes, el desalojo puede tardar meses/anios.', true)}
+                            ${generateChecklistItem('Revisar estado edilicio', 'Humedad, canierias, instalacion electrica, techo.')}
+                        </div>
+                    </div>
+
+                    <!-- Section 4 -->
+                    <div style="margin-bottom: 25px;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+                            <div style="width: 28px; height: 28px; background: rgba(34, 197, 94, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #22c55e; font-weight: bold; font-size: 14px;">4</div>
+                            <h2 style="font-size: 18px; font-weight: 600; margin: 0;">Dia de la Subasta</h2>
+                        </div>
+                        <div style="display: grid; gap: 8px;">
+                            ${generateChecklistItem('Confirmar que no se suspendio', 'Las suspensiones se anuncian al ultimo momento.')}
+                            ${generateChecklistItem('Garantia depositada y acreditada', 'Verificar acreditacion en el sistema.')}
+                            ${generateChecklistItem('Recordar tu precio maximo', 'No dejarte llevar por la emocion.')}
+                            ${generateChecklistItem('Conexion estable (online)', 'WiFi estable + plan de datos como backup.')}
+                        </div>
+                    </div>
+
+                    <!-- Red Flags Box -->
+                    <div style="background: rgba(239, 68, 68, 0.1); border-left: 4px solid #ef4444; border-radius: 12px; padding: 20px; margin-bottom: 25px;">
+                        <h3 style="color: #ef4444; font-size: 16px; font-weight: 600; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 18px;">⚠️</span> No Ofertar Si:
+                        </h3>
+                        <ul style="margin: 0; padding-left: 20px; color: rgba(255,255,255,0.8); font-size: 13px; line-height: 1.8;">
+                            <li>No pudiste visitar el bien durante la exhibicion</li>
+                            <li>El inmueble tiene ocupantes y no sos experto en desalojos</li>
+                            <li>Las deudas ocultas superan el ahorro potencial</li>
+                            <li>No tenes el dinero completo disponible</li>
+                            <li>Algo "no cierra" y no podes verificarlo</li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer -->
+                    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 11px; color: rgba(255,255,255,0.4);">
+                            subasto.com.ar • Contenido educativo • ${new Date().toLocaleDateString('es-AR')}
+                        </div>
+                        <div style="font-size: 11px; color: rgba(255,255,255,0.4);">
+                            Mas guias en subasto.com.ar/guides
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            const opt = {
+                margin: 0,
+                filename: 'Subasto-Checklist-Antes-de-Ofertar.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: {
+                    scale: 2,
+                    useCORS: true,
+                    backgroundColor: '#030303'
+                },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            try {
+                await html2pdf().set(opt).from(pdfContent).save();
+            } catch (error) {
+                console.error('PDF generation error:', error);
+                alert('Error al generar PDF. Intenta usar la opcion de imprimir.');
+            }
+
+            btn.innerHTML = originalText;
+            btn.disabled = false;
         }
 
         // Initialize

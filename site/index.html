@@ -142,6 +142,7 @@ html {
 .category-vehicles { background: rgba(59,130,246,0.2); color: #60a5fa; }
 .category-real_estate { background: rgba(236,72,153,0.2); color: #f472b6; }
 .category-machinery { background: rgba(234,179,8,0.2); color: #fbbf24; }
+.category-general_goods { background: rgba(34,197,94,0.2); color: #4ade80; }
 .category-other { background: rgba(156,163,175,0.2); color: #d1d5db; }
 .source-badge {
     background: rgba(234, 179, 8, 0.1);
@@ -526,6 +527,10 @@ html {
                     <div class="text-3xl md:text-4xl font-bold font-display text-yellow-400 mb-2" id="stat-machinery">-</div>
                     <div class="text-xs uppercase tracking-wider text-yellow-400/70">Machinery</div>
                 </div>
+                <div class="glass rounded-2xl p-6 text-center cursor-pointer hover:bg-white/10 transition-colors" onclick="filterByCategory('general_goods')">
+                    <div class="text-3xl md:text-4xl font-bold font-display text-green-400 mb-2" id="stat-generalgoods">-</div>
+                    <div class="text-xs uppercase tracking-wider text-green-400/70">General Goods</div>
+                </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="glass rounded-2xl p-6">
@@ -777,6 +782,7 @@ html {
                 <button onclick="filterAuctions('vehicles')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="vehicles">Vehicles</button>
                 <button onclick="filterAuctions('real_estate')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="real_estate">Real Estate</button>
                 <button onclick="filterAuctions('machinery')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="machinery">Machinery</button>
+                <button onclick="filterAuctions('general_goods')" class="filter-btn glass rounded-full px-4 py-2 text-xs uppercase tracking-wider text-white/60 hover:text-white" data-filter="general_goods">General Goods</button>
                 <span class="ml-auto text-white/40 text-sm"><span id="results-count">0</span> results</span>
             </div>
 
@@ -1742,7 +1748,7 @@ html {
 
         // Update dashboard stats
         function updateDashboard() {
-            const categories = { vehicles: 0, real_estate: 0, machinery: 0, other: 0 };
+            const categories = { vehicles: 0, real_estate: 0, machinery: 0, general_goods: 0, other: 0 };
             allAuctions.forEach(a => {
                 if (categories.hasOwnProperty(a.category)) {
                     categories[a.category]++;
@@ -1755,6 +1761,7 @@ html {
             document.getElementById('stat-vehicles').textContent = categories.vehicles;
             document.getElementById('stat-realestate').textContent = categories.real_estate;
             document.getElementById('stat-machinery').textContent = categories.machinery;
+            document.getElementById('stat-generalgoods').textContent = categories.general_goods;
 
             // Sources breakdown (clickable)
             const sourcesHtml = Object.entries(bySource)
@@ -1774,7 +1781,7 @@ html {
                 .sort((a, b) => b[1] - a[1])
                 .map(([cat, count]) => {
                     const pct = Math.round((count / total) * 100);
-                    const colors = { vehicles: 'bg-blue-500', real_estate: 'bg-pink-500', machinery: 'bg-yellow-500', other: 'bg-gray-500' };
+                    const colors = { vehicles: 'bg-blue-500', real_estate: 'bg-pink-500', machinery: 'bg-yellow-500', general_goods: 'bg-green-500', other: 'bg-gray-500' };
                     return `
                         <div class="cursor-pointer hover:bg-white/10 p-2 rounded-lg transition-colors -mx-2" onclick="filterByCategory('${cat}')">
                             <div class="flex items-center justify-between mb-1">

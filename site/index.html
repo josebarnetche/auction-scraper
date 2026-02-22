@@ -1961,7 +1961,6 @@ html {
                             <div class="absolute top-3 right-3 flex gap-2">
                                 <span class="bg-green-500/90 text-white text-lg px-3 py-1 rounded-full font-bold">-${auction.discount}%</span>
                             </div>
-                            <button type="button" onclick="event.preventDefault();event.stopPropagation();shareOpportunity(${idx});" class="share-btn absolute bottom-3 right-3 w-9 h-9 rounded-full bg-black/60 backdrop-blur-sm flex items-center justify-center text-white/70 hover:text-white hover:bg-yellow-500 transition-all z-10" title="Compartir"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg></button>
                             ${countdown ? `
                             <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
                                 <div class="flex items-center gap-2">
@@ -2055,8 +2054,6 @@ html {
                                 ${hasComparison && discount >= 20 ? `<span class="bg-green-500/90 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">-${discount}%</span>` : ''}
                                 <span class="source-badge">${auction.source}</span>
                             </div>
-                            ${typeof Watchlist !== 'undefined' ? Watchlist.getHeartButtonHTML(auction.id) : ''}
-                            <button type="button" onclick="event.preventDefault();event.stopPropagation();SubastoShare.openShareModal(${idx});" class="share-btn absolute bottom-3 right-3 w-8 h-8 rounded-full bg-black/60 backdrop-blur-sm flex items-center justify-center text-white/70 hover:text-white hover:bg-yellow-500 transition-all z-10" title="Compartir"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg></button>
                             ${countdown ? `
                             <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
                                 <div class="flex items-center gap-2">
@@ -2154,28 +2151,6 @@ html {
         });
 
         // Share an opportunity (top deals section)
-        let currentOpportunities = [];
-
-        // Hook to store opportunities for sharing
-        const _origRenderOpp = renderOpportunities;
-        renderOpportunities = function() {
-            currentOpportunities = allAuctions
-                .filter(a => a.base_price > 0 && a.market_data && a.visibility === 'main')
-                .map(a => ({ ...a, discount: calculateDiscount(a) }))
-                .filter(a => a.discount !== null && a.discount >= 20)
-                .sort((a, b) => b.discount - a.discount)
-                .slice(0, 3);
-            _origRenderOpp();
-        };
-
-        function shareOpportunity(idx) {
-            if (currentOpportunities[idx] && window.SubastoShare) {
-                const opp = currentOpportunities[idx];
-                const globalIdx = filteredAuctions.findIndex(a => a.title === opp.title && a.source_url === opp.source_url);
-                SubastoShare.openShareModal(globalIdx >= 0 ? globalIdx : idx);
-            }
-        }
-
         // Initialize
         fetchAuctions();
     </script>

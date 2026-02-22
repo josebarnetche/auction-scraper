@@ -20,7 +20,7 @@ Judicial auctions force sales. Sellers can't negotiate. Buyers win.
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.7.0` | 2026-02-22 |
+| `v1.8.0` | 2026-02-22 |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -80,6 +80,22 @@ A **single aggregation layer** that:
 ---
 
 ## Features
+
+### NEW in v1.8.0
+
+| Feature | Description |
+|---------|-------------|
+| **Credit System** | Buy USDC credits on Base, use across all paid features |
+| **Telegram Bot** | Alerts, search, daily digest via @SubastoBot |
+| **Interactive Map** | Filter auctions by distance with Leaflet/OpenStreetMap |
+| **AI Analysis** | Claude Haiku analyzes opportunities for flip potential |
+| **Smart Search** | Natural language queries ("cars under 10k in córdoba") |
+| **PWA** | Install as app on mobile, works offline |
+| **Multi-Language** | Spanish, English, Portuguese |
+| **Bulk Export** | Download CSV, Excel, or PDF of listings |
+| **Email Digest** | Daily/weekly summaries to your inbox |
+| **Investment Calculator** | Calculate ROI before bidding |
+| **Educational Guides** | 7 pages on how to win at auctions |
 
 ### Currency Selector
 Toggle between **ARS** and **USD** display. All prices convert automatically using the live blue dollar rate from [dolarapi.com](https://dolarapi.com).
@@ -324,6 +340,12 @@ Programmatic access with USDC micropayments on Base network.
 | `GET /api/v1/premium?tx=0x...` | $0.01 | Curated premium picks (~12) |
 | `GET /api/v1/opportunities?tx=0x...` | $0.02 | Hot deals 40%+ discount (~70) |
 | `GET /api/v1/auctions?tx=0x...` | $0.05 | All 864+ listings |
+| `GET /api/v1/search?q=...` | 1 credit | Natural language search |
+| `GET /api/v1/analyze?id=...` | 2 credits | AI analysis of listing |
+| `GET /api/v1/export/csv` | 5 credits | Bulk CSV export |
+| `GET /api/v1/nearby?lat=...&lng=...` | Free | Location-based filtering |
+| `POST /api/v1/credits/buy` | - | Purchase credit packages |
+| `GET /api/v1/credits/balance` | Free | Check credit balance |
 
 ### How It Works
 

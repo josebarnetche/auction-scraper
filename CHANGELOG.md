@@ -9,6 +9,134 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.8.0] - 2026-02-22
+
+### Added
+
+#### Monetization & Payments
+- **USDC Micropayments on Base** - Credit system with volume packages
+  - $1 → 50 credits, $5 → 300 credits, $10 → 700 credits, $50 → 4000 credits
+  - On-chain verification via Base RPC
+  - Credit balance tracking per wallet
+  - `/api/v1/credits/buy` and `/api/v1/credits/balance` endpoints
+
+- **Referral System** - 10% commission on referred purchases
+  - Unique referral codes per user
+  - Leaderboard and stats tracking
+  - `/api/v1/referral/*` endpoints
+
+#### AI & Analysis
+- **Hot Deals Scoring** - 100-point algorithm for opportunity ranking
+  - Discount weight (40%), source reliability (20%), time urgency (15%)
+  - Category demand (15%), price bracket (10%)
+  - `data/hot_deals.json` with pre-scored opportunities
+
+- **AI Opportunity Analysis** - Claude Haiku integration
+  - Per-listing analysis for $0.005/request
+  - Market comparison, flip potential, risk assessment
+  - `/api/v1/analyze` endpoint
+
+- **Smart Search** - Natural language queries
+  - "cars under 10k near buenos aires"
+  - Category, price, location extraction
+  - `/api/v1/search` endpoint
+
+#### Notifications
+- **Telegram Bot** - Full-featured auction alerts
+  - `/start`, `/search`, `/alerts`, `/digest` commands
+  - Daily/weekly digest delivery
+  - Price drop and new listing alerts
+  - `src/telegram/` module
+
+- **Email Digest System** - Scheduled summaries
+  - Daily at 08:00, weekly on Mondays
+  - HTML templates with top opportunities
+  - GitHub Actions workflow for automation
+
+- **Webhook Notifications** - For external integrations
+  - Register webhook URLs for events
+  - New listings, price changes, ending soon
+  - `/api/v1/webhooks/*` endpoints
+
+#### Location & Maps
+- **Interactive Map** - Leaflet.js with OpenStreetMap
+  - No API key required
+  - Filter auctions by distance from user
+  - Geocoded auction locations
+  - `site/js/location.js`
+
+#### Export & Data
+- **Bulk Export API** - Multiple formats
+  - CSV export with all fields
+  - Excel export with formatting
+  - PDF export with styling
+  - `/api/v1/export/*` endpoints
+
+- **Historical Price Tracking** - Price change monitoring
+  - Daily snapshots in `data/history/`
+  - Price change detection and alerts
+  - Trend analysis over 90 days
+
+#### User Experience
+- **PWA Support** - Install as mobile app
+  - Service worker for offline access
+  - App manifest with icons
+  - Push notification ready
+
+- **Multi-Language** - i18n support
+  - Spanish (default), English, Portuguese
+  - `site/locales/*.json` translation files
+  - Language switcher in header
+
+- **Educational Guides** - 7 comprehensive pages
+  - How judicial auctions work
+  - Costs and commissions explained
+  - Strategies for winning
+  - Post-auction checklist
+  - Province-specific information
+
+- **Investment Calculator** - ROI projection tool
+  - Input purchase price, renovation costs
+  - Estimate resale value and timeline
+  - Calculate ROI percentage
+
+- **Profit Calculator Widget** - Embeddable tool
+  - For external sites
+  - `site/widgets/calculator.html`
+
+- **Social Sharing** - Share auctions easily
+  - Twitter/X, Facebook, WhatsApp, LinkedIn
+  - Copy link button
+  - `site/js/share.js`
+
+- **Analytics Dashboard** - Usage statistics
+  - Source performance metrics
+  - Category distribution
+  - Price trends visualization
+
+#### Security & Infrastructure
+- **Rate Limiting** - API protection
+  - Upstash Redis for distributed limiting
+  - Per-IP and per-wallet limits
+  - Abuse prevention system
+
+- **API Protection** - Security hardening
+  - Request logging
+  - CAPTCHA support for suspicious activity
+  - Anti-replay protection
+
+### Removed
+- **MercadoLibre Price Comparison** - API integration rejected
+- **Real-Time Polling Updates** - Not true real-time on static hosting
+
+### Technical
+- 137 new files, ~60,000 lines of code
+- TypeScript serverless functions on Vercel
+- Python analysis scripts
+- Comprehensive API documentation
+
+---
+
 ## [1.7.0] - 2026-02-22
 
 ### Added
@@ -530,6 +658,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| **1.8.0** | 2026-02-22 | **Value-first release: USDC credits, Telegram bot, maps, PWA, i18n, AI analysis, 137 new files** |
 | **1.7.0** | 2026-02-22 | **General goods category (45%), IVA fix (21% on base), Entre Ríos dedup, 150+ new keywords** |
 | 1.6.1 | 2026-02-21 | SEO audit, agent discovery, marketing content, profit strategies |
 | **1.6.0** | 2026-02-21 | USDC API for agents, IVA/fees on prices, API docs on homepage |

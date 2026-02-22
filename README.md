@@ -35,10 +35,11 @@ A **single aggregation layer** that:
 - Scrapes 15+ sources automatically at 00:00 Argentina time
 - Normalizes all data into a consistent format
 - Provides unified search, filtering, and calendar views
-- Shows total estimated costs (base + commission + fees)
+- Shows **total estimated costs** (base + commission + IVA 21% + fees)
 - Displays live countdown timers to auction end
 - Supports **lot-level browsing** within auctions
 - Ranks **judicial auctions first** (better deals, more transparency)
+- **API for agents** with USDC micropayments on Base network
 - Runs on zero infrastructure cost (static site + GitHub Actions)
 
 **Time saved:** Check once, see everything.
@@ -75,6 +76,24 @@ See auctions by **closing date**. Only future auctions are shown. Click any date
 - Full Open Graph and Twitter Card support
 - Custom favicon and OG image
 - Spanish language meta tags for Argentine search engines
+
+### Cost Breakdown
+Every listing shows **total estimated cost** including:
+
+| Type | Commission | Fees | IVA |
+|------|------------|------|-----|
+| **Judicial** | 3% | 0.25% arancel | 21% s/comisión |
+| **Private** | 10% | - | 21% s/comisión |
+
+Example: $100,000 base price (judicial)
+```
+Base           $100,000
++ Comisión 3%    $3,000
++ Arancel 0.25%    $250
++ IVA 21%          $630
+─────────────────────────
+Total Est.     $103,880
+```
 
 ---
 

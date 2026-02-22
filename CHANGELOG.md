@@ -14,16 +14,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **Pay-Per-Request API for AI Agents** - Programmatic access with USDC micropayments on Base network
   - `/api/v1/price` - Free endpoint showing pricing and payment instructions
-  - `/api/v1/auctions` - All 864+ listings ($0.01 USDC)
-  - `/api/v1/opportunities` - Hot deals with 40%+ discount ($0.05 USDC)
-  - `/api/v1/premium` - Curated premium picks ($0.10 USDC)
+  - `/api/v1/premium` - Curated premium picks (~12) - **$0.01 USDC**
+  - `/api/v1/opportunities` - Hot deals 40%+ discount (~70) - **$0.02 USDC**
+  - `/api/v1/auctions` - All 864+ listings - **$0.05 USDC**
   - On-chain payment verification via Base RPC
   - Anti-replay protection (tx hashes can only be used once)
   - OpenAPI 3.1 spec at `/api/v1/openapi.json` for agent discovery
 
+- **API Section on Homepage** - Interactive documentation at `/#api`
+  - Pricing cards for all endpoints
+  - Step-by-step payment flow
+  - Technical details (network, token, wallet)
+  - Example response preview
+
+- **IVA & Fees on Auction Prices** - Total cost now includes all fees
+  - IVA 21% calculated on commission
+  - Judicial: Base + 3% comisión + 0.25% arancel + IVA
+  - Private: Base + 10% comisión + IVA
+  - Breakdown shown in listing cards
+
 ### Technical
 - Vercel serverless functions in TypeScript
 - Payment verification using viem library
+- Volume-based pricing (smaller datasets cost less)
 - USDC contract: `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` (Base)
 - Payment wallet: `0x29E007249b744892a1da17F4289f75cfC871d6Fe`
 
@@ -452,7 +465,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.6.0** | 2026-02-21 | **Pay-per-request API for AI agents with USDC micropayments on Base** |
+| **1.6.0** | 2026-02-21 | **USDC API for agents, IVA/fees on prices, API docs on homepage** |
 | **1.5.1** | 2026-02-21 | Adrián Mercado lot extraction (171 lots), domain live at subasto.com.ar |
 | **1.5.0** | 2026-02-21 | SEO/social meta tags, currency selector in header, mobile optimization, calendar shows closing dates |
 | 1.4.1 | 2026-02-21 | Category detection fixes, market price accuracy, Agusti logo filtering |

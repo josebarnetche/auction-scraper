@@ -176,6 +176,21 @@ html {
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
 }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes spinOnce {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.animate-fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+    opacity: 0;
+}
+.animate-spin-once {
+    animation: spinOnce 0.5s ease-in-out;
+}
 /* Price Range Slider Styles */
 .price-slider {
     -webkit-appearance: none;
@@ -836,14 +851,32 @@ html {
             </div>
 
             <!-- TOP OPPORTUNITIES SECTION -->
-            <!-- TOP OPPORTUNITIES SECTION -->
             <div id="top-opportunities" class="mb-10 hidden">
-                <div class="flex items-center gap-3 mb-4">
+                <div class="flex items-center gap-3 mb-4 flex-wrap">
                     <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                     <h3 class="text-xl font-display font-semibold text-white">Top Opportunities</h3>
-                    <span class="text-xs text-green-400 uppercase tracking-wider">Best deals before March</span>
+                    <span class="text-xs text-green-400 uppercase tracking-wider">Best deals</span>
+                    <div class="ml-auto flex items-center gap-2">
+                        <button onclick="shuffleOpportunities()" id="shuffle-btn"
+                                class="glass rounded-full px-3 py-1.5 text-xs uppercase tracking-wider text-white/60 hover:text-yellow-400 hover:border-yellow-400/50 border border-white/10 transition-all flex items-center gap-1.5 group"
+                                title="Shuffle opportunities">
+                            <svg class="w-4 h-4 group-hover:rotate-180 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                            </svg>
+                            <span class="hidden sm:inline">Shuffle</span>
+                        </button>
+                        <button onclick="showMoreOpportunities()" id="more-opps-btn"
+                                class="glass rounded-full px-3 py-1.5 text-xs uppercase tracking-wider text-white/60 hover:text-green-400 hover:border-green-400/50 border border-white/10 transition-all flex items-center gap-1.5"
+                                title="Show more opportunities">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                            </svg>
+                            <span class="hidden sm:inline more-btn-text">Ver más</span>
+                            <span id="opps-count" class="bg-green-500/20 text-green-400 text-[10px] px-1.5 py-0.5 rounded-full"></span>
+                        </button>
+                    </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="opportunities-grid">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 transition-all duration-300" id="opportunities-grid">
                     <!-- Opportunities will be inserted here -->
                 </div>
             </div>
@@ -1890,6 +1923,67 @@ html {
             document.getElementById('category-breakdown').innerHTML = catHtml || '<p class="text-white/40 text-sm">No data</p>';
         }
 
+        // Opportunities state
+        let allOpportunities = [];
+        let displayedOppsCount = 3;
+        let isShuffled = false;
+
+        // Fisher-Yates shuffle
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        // Shuffle opportunities and re-render
+        function shuffleOpportunities() {
+            const btn = document.getElementById('shuffle-btn');
+            btn.classList.add('animate-spin-once');
+
+            allOpportunities = shuffleArray(allOpportunities);
+            isShuffled = true;
+            renderOpportunitiesGrid();
+
+            setTimeout(() => btn.classList.remove('animate-spin-once'), 500);
+        }
+
+        // Show more opportunities
+        function showMoreOpportunities() {
+            if (displayedOppsCount >= allOpportunities.length) {
+                // Reset to 3
+                displayedOppsCount = 3;
+            } else {
+                // Show 3 more
+                displayedOppsCount = Math.min(displayedOppsCount + 3, allOpportunities.length);
+            }
+            renderOpportunitiesGrid();
+        }
+
+        // Render the opportunities grid
+        function renderOpportunitiesGrid() {
+            const grid = document.getElementById('opportunities-grid');
+            const countBadge = document.getElementById('opps-count');
+            const moreBtn = document.getElementById('more-opps-btn');
+
+            const toShow = allOpportunities.slice(0, displayedOppsCount);
+            const remaining = allOpportunities.length - displayedOppsCount;
+
+            // Update button state
+            const btnText = moreBtn.querySelector('.more-btn-text');
+            if (remaining > 0) {
+                countBadge.textContent = `+${remaining}`;
+                if (btnText) btnText.textContent = 'Ver más';
+            } else {
+                countBadge.textContent = '';
+                if (btnText) btnText.textContent = 'Menos';
+            }
+
+            grid.innerHTML = toShow.map((auction, idx) => renderOpportunityCard(auction, idx)).join('');
+        }
+
         // Render top opportunities (best deals with price comparison)
         function renderOpportunities() {
             const container = document.getElementById('top-opportunities');
@@ -1897,7 +1991,7 @@ html {
 
             // Find items with market data and good discounts
             // Only show items with visibility: "main" (have both price AND image)
-            const opportunities = allAuctions
+            allOpportunities = allAuctions
                 .filter(a => a.base_price > 0 && a.market_data)
                 .filter(a => a.visibility === 'main')  // Only main-page visible items
                 .map(a => ({
@@ -1920,72 +2014,85 @@ html {
                     if (a.category !== 'machinery' && b.category === 'machinery') return 1;
                     // Then by discount
                     return b.discount - a.discount;
-                })
-                .slice(0, 3);
+                });
 
-            if (opportunities.length === 0) {
+            const opportunities = allOpportunities.slice(0, displayedOppsCount);
+
+            if (allOpportunities.length === 0) {
                 container.classList.add('hidden');
                 return;
             }
 
             container.classList.remove('hidden');
 
-            grid.innerHTML = opportunities.map((auction, idx) => {
-                const imageUrl = auction.images && auction.images.length > 0
-                    ? auction.images[0]
-                    : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
+            // Update count badge
+            const remaining = allOpportunities.length - displayedOppsCount;
+            document.getElementById('opps-count').textContent = remaining > 0 ? `+${remaining}` : '';
 
-                const costInfo = getTotalCost(auction);
-                const countdown = formatCountdown(auction.ends_at || auction.starts_at);
-                const matchKeyword = auction.market_data?.keyword_match || '';
+            renderOpportunitiesGrid();
+        }
 
-                return `
-                    <a href="${auction.source_url}" target="_blank" rel="noopener"
-                       class="auction-card glass rounded-2xl overflow-hidden block group border-2 ${idx === 0 ? 'border-green-500/50' : 'border-transparent'} hover:border-green-500/30">
-                        <div class="aspect-video overflow-hidden bg-black/50 relative">
-                            <img src="${imageUrl}" alt="${auction.title}" class="auction-image w-full h-full object-cover" loading="lazy"
-                                 onerror="this.onerror=null; this.src='/api/placeholder.svg'">
-                            <div class="absolute top-3 left-3 flex gap-2">
-                                <span class="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">#${idx + 1} TOP</span>
-                                ${auction.beforeMarch ? '<span class="bg-yellow-500/90 text-black text-[10px] px-2 py-0.5 rounded-full font-bold">ANTES DE MARZO</span>' : ''}
-                            </div>
-                            <div class="absolute top-3 right-3 flex gap-2">
-                                <span class="bg-green-500/90 text-white text-lg px-3 py-1 rounded-full font-bold">-${auction.discount}%</span>
-                            </div>
-                            ${countdown ? `
-                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
-                                <div class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 ${countdown.urgent ? 'text-yellow-400' : 'text-white/60'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                                    </svg>
-                                    <span class="text-xs font-mono ${countdown.expired ? 'text-red-400' : countdown.urgent ? 'text-yellow-400' : 'text-green-400'}">${countdown.text}</span>
-                                </div>
-                            </div>
-                            ` : ''}
+        // Render a single opportunity card
+        function renderOpportunityCard(auction, idx) {
+            const imageUrl = auction.images && auction.images.length > 0
+                ? auction.images[0]
+                : 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="#1a1a1a" width="400" height="300"/><text fill="#333" font-family="sans-serif" font-size="14" x="50%" y="50%" text-anchor="middle">No Image</text></svg>');
+
+            const costInfo = getTotalCost(auction);
+            const countdown = formatCountdown(auction.ends_at || auction.starts_at);
+            const matchKeyword = auction.market_data?.keyword_match || '';
+
+            // Dynamic badge based on shuffle state
+            const badge = isShuffled
+                ? `<span class="bg-purple-500 text-white text-xs px-2 py-1 rounded-full font-bold">🎲 RANDOM</span>`
+                : `<span class="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">#${idx + 1} TOP</span>`;
+
+            return `
+                <a href="${auction.source_url}" target="_blank" rel="noopener"
+                   class="auction-card glass rounded-2xl overflow-hidden block group border-2 ${idx === 0 && !isShuffled ? 'border-green-500/50' : 'border-transparent'} hover:border-green-500/30 animate-fade-in" style="animation-delay: ${idx * 100}ms">
+                    <div class="aspect-video overflow-hidden bg-black/50 relative">
+                        <img src="${imageUrl}" alt="${auction.title}" class="auction-image w-full h-full object-cover" loading="lazy"
+                             onerror="this.onerror=null; this.src='/api/placeholder.svg'">
+                        <div class="absolute top-3 left-3 flex gap-2 flex-wrap">
+                            ${badge}
+                            ${auction.beforeMarch ? '<span class="bg-yellow-500/90 text-black text-[10px] px-2 py-0.5 rounded-full font-bold">ANTES DE MARZO</span>' : ''}
                         </div>
-                        <div class="p-5">
-                            <div class="flex items-center gap-2 mb-2">
-                                <span class="category-badge category-${auction.category}">${auction.category}</span>
-                                <span class="source-badge">${auction.source}</span>
-                            </div>
-                            <h3 class="text-white font-medium mb-3 line-clamp-2 group-hover:text-yellow-400 transition-colors">${auction.title}</h3>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div>
-                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Subasta</div>
-                                    <span class="text-xl text-yellow-500 font-display font-bold">${formatPrice(costInfo.total, auction.currency)}</span>
-                                    <div class="text-[10px] text-white/30">incl. comisión</div>
-                                </div>
-                                <div class="text-right">
-                                    <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Valor Mercado</div>
-                                    <span class="text-lg text-white/40 line-through">USD ${auction.marketValue?.toLocaleString() || '?'}</span>
-                                    <div class="text-sm text-green-400 font-bold">Ahorras ${auction.discount}%</div>
-                                    ${matchKeyword ? `<div class="text-[8px] text-white/30 mt-1">Match: ${matchKeyword}</div>` : ''}
-                                </div>
+                        <div class="absolute top-3 right-3 flex gap-2">
+                            <span class="bg-green-500/90 text-white text-lg px-3 py-1 rounded-full font-bold">-${auction.discount}%</span>
+                        </div>
+                        ${countdown ? `
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4 ${countdown.urgent ? 'text-yellow-400' : 'text-white/60'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-xs font-mono ${countdown.expired ? 'text-red-400' : countdown.urgent ? 'text-yellow-400' : 'text-green-400'}">${countdown.text}</span>
                             </div>
                         </div>
-                    </a>
-                `;
-            }).join('');
+                        ` : ''}
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="category-badge category-${auction.category}">${auction.category}</span>
+                            <span class="source-badge">${auction.source}</span>
+                        </div>
+                        <h3 class="text-white font-medium mb-3 line-clamp-2 group-hover:text-yellow-400 transition-colors">${auction.title}</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Precio Subasta</div>
+                                <span class="text-xl text-yellow-500 font-display font-bold">${formatPrice(costInfo.total, auction.currency)}</span>
+                                <div class="text-[10px] text-white/30">incl. comisión</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-[10px] uppercase tracking-wider text-white/40 mb-1">Valor Mercado</div>
+                                <span class="text-lg text-white/40 line-through">USD ${auction.marketValue?.toLocaleString() || '?'}</span>
+                                <div class="text-sm text-green-400 font-bold">Ahorras ${auction.discount}%</div>
+                                ${matchKeyword ? `<div class="text-[8px] text-white/30 mt-1">Match: ${matchKeyword}</div>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            `;
         }
 
         // Helper: check if auction ends before March

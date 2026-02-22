@@ -85,18 +85,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
-<!-- Investment Calculator -->
-<link rel="stylesheet" href="/css/investment-calculator.css">
-<script src="/js/investment-calculator.js" defer></script>
-<!-- Internationalization (i18n) - Multi-language support -->
-<script src="/js/i18n.js"></script>
-<!-- Leaflet.js for Maps -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-<!-- Leaflet MarkerCluster -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
-<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 <!-- Location Features CSS -->
 <link rel="stylesheet" href="/css/location.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -227,7 +215,6 @@ html {
 @media (hover: none) { .share-btn { opacity: 1; transform: scale(1); } }
 .share-platform-btn:active { transform: scale(0.95); }
 </style>
-<script src="/js/share.js" defer></script>
 </head>
 <body class="antialiased overflow-x-hidden">
     <!-- INVESTMENT CALCULATOR MODAL -->
@@ -2225,33 +2212,5 @@ html {
         fetchAuctions();
     </script>
 
-    <!-- Location Features -->
-    <script src="/js/location.js"></script>
-    <script src="/js/logistics-calculator.js"></script>
-
-
-    <!-- Watchlist Module -->
-    <script src="/js/watchlist.js"></script>
-
-    <!-- Price History & Market Trends -->
-    <script src="/js/price-history.js"></script>
-    <script>
-        // Render market trends after page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(function() {
-                if (typeof renderMarketTrends === 'function') {
-                    renderMarketTrends('market-trends-container');
-                }
-            }, 2500);
-        });
-    </script>
-    <!-- Alerts System -->
-    <script src="/js/alerts.js"></script>
-
-    <!-- PWA Features & Mobile Optimizations -->
-    <script src="/js/pwa.js"></script>
-
-    <!-- First-Time User Onboarding -->
-    <script src="/js/onboarding.js"></script>
 </body>
 </html>

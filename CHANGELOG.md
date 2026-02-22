@@ -140,11 +140,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Portable Honda generators: $800-1,200 typical instead of $20,000
   - Added specific entries for `prensa 20 ton`, `prensa de temple`, `prensa hidraulica`
 
-### Known Issues
-- **COMPR.AR Scraper** - Not functional due to ASP.NET session handling
-  - Site requires cookie-based session tracking
-  - Looking for contributors to help fix (see README)
-
 ---
 
 ## [1.4.0] - 2026-02-21
@@ -377,7 +372,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SCBA scraper: Playwright for JS rendering (90 listings)
 - Banco Ciudad scraper: Playwright for Angular (46 listings)
 - Global Remates scraper: Correct URL patterns (33 listings)
-- COMPR.AR scraper: SSL context bypass for government site
 
 ### Changed
 - Total listings increased from 121 to 270
@@ -450,7 +444,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Scrapers for 7 sources:
   - CSJN (Corte Suprema)
   - SCBA (Buenos Aires Province)
-  - COMPR.AR (Government)
   - Adrian Mercado
   - Banco Ciudad
   - Global Remates

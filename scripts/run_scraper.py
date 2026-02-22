@@ -12,8 +12,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.scrapers.judicial.csjn import CSJNScraper
 from src.scrapers.judicial.scba import SCBAScraper
-from src.scrapers.judicial.comprar import ComprarScraper
 from src.scrapers.judicial.entrerios import EntreRiosScraper
+from src.scrapers.judicial.cordoba import CordobaScraper
 from src.scrapers.private.adrian_mercado import AdrianMercadoScraper
 from src.scrapers.private.banco_ciudad import BancoCiudadScraper
 from src.scrapers.private.global_remates import GlobalRematesScraper
@@ -23,6 +23,7 @@ from src.scrapers.private.delafuente import DelaFuenteScraper
 from src.scrapers.private.zarate import ZarateScraper
 from src.scrapers.private.sitiodetiendas import SitioDeTiendasScraper
 from src.scrapers.private.rematadores import RematadoresScraper
+from src.scrapers.private.agusti import AgustiSubastasScraper
 from src.storage.json_store import JSONStore
 
 logging.basicConfig(
@@ -34,11 +35,11 @@ logger = logging.getLogger(__name__)
 
 # All available scrapers
 SCRAPERS = {
-    # Judicial auctions
+    # Judicial auctions (4)
     "csjn": CSJNScraper,
     "scba": SCBAScraper,
-    "comprar": ComprarScraper,
     "entrerios": EntreRiosScraper,
+    "cordoba": CordobaScraper,
     # Private auction houses
     "adrian_mercado": AdrianMercadoScraper,
     "banco_ciudad": BancoCiudadScraper,
@@ -49,6 +50,7 @@ SCRAPERS = {
     "zarate": ZarateScraper,
     "sitiodetiendas": SitioDeTiendasScraper,
     "rematadores": RematadoresScraper,
+    "agusti": AgustiSubastasScraper,
 }
 
 

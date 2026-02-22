@@ -56,7 +56,7 @@ class AuctionListing:
     """Represents a single auction listing."""
 
     id: str
-    source: str  # csjn, scba, comprar, adrian_mercado, etc.
+    source: str  # csjn, scba, cordoba, adrian_mercado, etc.
     source_url: str
     title: str
     description: str

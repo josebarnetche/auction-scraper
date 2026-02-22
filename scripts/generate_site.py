@@ -44,7 +44,7 @@ def fetch_blue_dollar_rate() -> float:
 BLUE_DOLLAR_RATE = fetch_blue_dollar_rate()
 
 # Source ranking: judicial sources first, then quality private sources
-JUDICIAL_SOURCES = ["csjn", "scba", "cordoba", "entrerios", "comprar"]
+JUDICIAL_SOURCES = ["csjn", "scba", "cordoba", "entrerios"]
 PRIORITY_PRIVATE_SOURCES = ["banco_ciudad", "global_remates", "adrian_mercado"]
 
 

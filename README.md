@@ -99,7 +99,7 @@ Total Est.     $103,880
 
 ## Data Sources
 
-### Judicial Auctions (5) - *Ranked First*
+### Judicial Auctions (4) - *Ranked First*
 
 | Source | Description | Method | Status |
 |--------|-------------|--------|--------|
@@ -107,13 +107,6 @@ Total Est.     $103,880
 | **SCBA** | Suprema Corte de Buenos Aires | Playwright (JS) | ✅ Working |
 | **Córdoba** | Poder Judicial de Córdoba | REST API | ✅ Working |
 | **Entre Ríos** | Poder Judicial de Entre Ríos | Playwright (JS) | ✅ Working |
-| **COMPR.AR** | Government asset disposals | HTTP + SSL bypass | ⚠️ Needs Help |
-
-> **Help Wanted: COMPR.AR Scraper**
->
-> The COMPR.AR government auction platform uses ASP.NET session tracking that breaks our current scraper.
-> If you have experience with ASP.NET cookie handling or Playwright session management, we'd love your help!
-> Please open an issue or PR at [github.com/josebarnetche/auction-scraper](https://github.com/josebarnetche/auction-scraper/issues)
 
 ### Private Auction Houses (10)
 

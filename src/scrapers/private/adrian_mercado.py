@@ -8,7 +8,8 @@ from typing import Optional
 from bs4 import Tag
 
 from src.scrapers.base import BaseScraper
-from src.models.listing import AuctionListing, detect_category
+from src.models.listing import AuctionListing, LotItem, detect_category
+from src.utils.currency import get_blue_dollar_rate, convert_to_usd
 
 logger = logging.getLogger(__name__)
 
@@ -19,6 +20,16 @@ class AdrianMercadoScraper(BaseScraper):
     SOURCE_NAME = "adrian_mercado"
     BASE_URL = "https://www.adrianmercado.com.ar"
     RATE_LIMIT_SECONDS = 2.0
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._blue_dollar_rate = None
+
+    async def _get_blue_dollar_rate(self) -> float:
+        """Get cached blue dollar rate."""
+        if self._blue_dollar_rate is None:
+            self._blue_dollar_rate = get_blue_dollar_rate()
+        return self._blue_dollar_rate
 
     async def scrape(self) -> list[AuctionListing]:
         """Scrape all auction listings."""
@@ -316,6 +327,11 @@ class AdrianMercadoScraper(BaseScraper):
             if doc_paths:
                 extra["documents"] = doc_paths
 
+            # Extract lots from multi-lot auctions
+            # Get auction_id from listing.id (format: adrian_mercado:{auction_id})
+            auction_id = listing.id.split(":")[-1] if ":" in listing.id else listing.id
+            lots = await self._extract_lots_from_page(html, auction_id)
+
             return AuctionListing(
                 id=listing.id,
                 source=listing.source,
@@ -331,6 +347,8 @@ class AdrianMercadoScraper(BaseScraper):
                 location=location,
                 images=images if images else listing.images,
                 extra=extra,
+                lots=lots,
+                lot_count=len(lots),
             )
 
         except Exception as e:
@@ -471,6 +489,132 @@ class AdrianMercadoScraper(BaseScraper):
 
         # Fall back to page text analysis
         return self.extract_location(page_text)
+
+    async def _extract_lots_from_page(self, html: str, auction_id: str) -> list[LotItem]:
+        """Extract individual lots from multi-lot auction page.
+
+        Adrian Mercado embeds lot data as JSON in the HTML. The structure is:
+        "lotes":[{"id":..., "titulo":"LOTE 1", "descripcion_breve":"...", "precio_inicial":...}, ...]
+
+        Args:
+            html: Raw HTML content of the detail page
+            auction_id: The auction ID for generating lot IDs
+
+        Returns:
+            List of LotItem objects
+        """
+        import html as html_lib
+        import json
+
+        lots = []
+        rate = await self._get_blue_dollar_rate()
+
+        try:
+            # Decode HTML entities in the page
+            decoded = html_lib.unescape(html)
+
+            # Find the start of the lotes array
+            start_match = re.search(r'"lotes":\s*\[', decoded)
+            if not start_match:
+                return lots
+
+            # Extract the complete lotes array by counting brackets
+            start = start_match.end() - 1  # Include opening bracket
+            bracket_count = 0
+            end = start
+            for i, char in enumerate(decoded[start:]):
+                if char == '[':
+                    bracket_count += 1
+                elif char == ']':
+                    bracket_count -= 1
+                    if bracket_count == 0:
+                        end = start + i + 1
+                        break
+
+            lotes_str = decoded[start:end]
+            lotes_data = json.loads(lotes_str)
+
+            for lot_data in lotes_data:
+                try:
+                    # Extract lot number from titulo (e.g., "LOTE 1" -> 1)
+                    titulo = lot_data.get("titulo", "")
+                    lot_num_match = re.search(r'LOTE\s*(\d+)', titulo, re.I)
+                    if lot_num_match:
+                        lot_number = int(lot_num_match.group(1))
+                    else:
+                        # Fallback: use array index + 1
+                        lot_number = lotes_data.index(lot_data) + 1
+
+                    # Get description (use descripcion_breve or descripcion_completa)
+                    description = lot_data.get("descripcion_breve", "") or lot_data.get("descripcion_completa", "")
+                    description = re.sub(r'\s+', ' ', description).strip()
+
+                    # Use description as title (it contains the actual item info)
+                    title = description[:200] if description else titulo
+
+                    # Skip if no meaningful title
+                    if len(title) < 10:
+                        continue
+
+                    # Get price (precio_inicial is in centavos or full amount)
+                    precio = lot_data.get("precio_inicial", 0)
+                    if precio is None:
+                        precio = 0
+                    base_price = float(precio)
+
+                    # Skip if no price (might be "a confirmar")
+                    if base_price <= 0:
+                        continue
+
+                    # Convert to USD using blue dollar rate
+                    base_price_usd = convert_to_usd(base_price, "ARS", rate)
+
+                    # Generate lot ID: am:{auction_id}:{lot_number}
+                    lot_id = f"am:{auction_id}:{lot_number}"
+
+                    # Get images from galeria
+                    images = []
+                    galeria = lot_data.get("galeria", [])
+                    if galeria:
+                        for img in galeria[:5]:  # Limit to 5 images per lot
+                            if isinstance(img, dict) and img.get("src"):
+                                images.append(img["src"])
+
+                    lot = LotItem(
+                        lot_id=lot_id,
+                        lot_number=lot_number,
+                        title=title,
+                        description=description[:1000] if description else "",
+                        base_price=base_price,
+                        currency="ARS",
+                        base_price_usd=round(base_price_usd, 2),
+                        images=images,
+                    )
+                    lots.append(lot)
+
+                except (ValueError, KeyError, TypeError) as e:
+                    logger.debug(f"Error parsing lot data: {e}")
+                    continue
+
+        except (json.JSONDecodeError, Exception) as e:
+            logger.debug(f"Error extracting lots JSON: {e}")
+            return lots
+
+        # Deduplicate by lot number (keep first occurrence)
+        seen_numbers = set()
+        unique_lots = []
+        for lot in lots:
+            if lot.lot_number not in seen_numbers:
+                seen_numbers.add(lot.lot_number)
+                unique_lots.append(lot)
+
+        # Sort by lot number
+        unique_lots = sorted(unique_lots, key=lambda x: x.lot_number)
+
+        if unique_lots:
+            logger.info(f"Extracted {len(unique_lots)} lots from auction {auction_id}")
+
+        return unique_lots
 
     async def _enrich_listings(self, listings: list[AuctionListing]) -> list[AuctionListing]:
         """Fetch detail pages to get complete data for all listings."""

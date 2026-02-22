@@ -1190,7 +1190,7 @@ html {
                 const commission = 3.0;
                 const csjnFee = 0.25;
                 const commissionAmount = auction.base_price * (commission / 100);
-                const ivaAmount = commissionAmount * (IVA_RATE / 100);
+                const ivaAmount = auction.base_price * (IVA_RATE / 100); // IVA on base price
                 const feeAmount = auction.base_price * (csjnFee / 100);
                 const total = auction.base_price + commissionAmount + ivaAmount + feeAmount;
                 return {
@@ -1207,10 +1207,10 @@ html {
                 };
             }
 
-            // Private auctions - 10% commission + IVA
+            // Private auctions - 10% commission + IVA on base price
             const commission = 10.0;
             const commissionAmount = auction.base_price * (commission / 100);
-            const ivaAmount = commissionAmount * (IVA_RATE / 100);
+            const ivaAmount = auction.base_price * (IVA_RATE / 100); // IVA on base price
             const total = auction.base_price + commissionAmount + ivaAmount;
             return {
                 total: Math.round(total * 100) / 100,

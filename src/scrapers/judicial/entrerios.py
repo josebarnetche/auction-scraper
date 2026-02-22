@@ -139,8 +139,17 @@ class EntreRiosScraper(BaseScraper):
             finally:
                 await browser.close()
 
-        logger.info(f"Playwright found {len(auction_data)} Entre Rios listings")
-        return auction_data
+        # Deduplicate by title + base_price (site shows same auction on multiple URLs)
+        seen = set()
+        unique_listings = []
+        for listing in auction_data:
+            key = (listing.title, listing.base_price)
+            if key not in seen:
+                seen.add(key)
+                unique_listings.append(listing)
+
+        logger.info(f"Playwright found {len(auction_data)} Entre Rios listings ({len(unique_listings)} unique)")
+        return unique_listings
 
     async def _fetch_detail_playwright(self, page, auction_id: int) -> Optional[AuctionListing]:
         """Fetch auction detail page using Playwright."""

@@ -1510,7 +1510,6 @@ html {
             const locationFilter = document.getElementById('location-filter').value;
             const sortBy = document.getElementById('sort-filter').value;
             const radiusFilter = parseFloat(document.getElementById('radius-filter')?.value) || 0;
-            const radiusFilter = parseFloat(document.getElementById('radius-filter')?.value) || 0;
 
             // Visibility mode: show "search_only" items only when user is actively searching
             const showSearchOnly = searchTerm.length > 0 || sourceFilter || locationFilter;
@@ -1559,14 +1558,6 @@ html {
                         if (aJudicial !== bJudicial) return bJudicial - aJudicial;
                         // Then by discount
                         return (calculateDiscount(b) || 0) - (calculateDiscount(a) || 0);
-                    case 'distance':
-                        // Sort by distance if location module is available
-                        if (typeof SubastoLocation !== 'undefined') {
-                            const distA = SubastoLocation.getDistanceToAuction(a) || Infinity;
-                            const distB = SubastoLocation.getDistanceToAuction(b) || Infinity;
-                            return distA - distB;
-                        }
-                        return 0;
                     case 'distance':
                         // Sort by distance if location module is available
                         if (typeof SubastoLocation !== 'undefined') {

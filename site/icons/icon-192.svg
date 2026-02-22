@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" fill="#030303"/>
+  <g transform="translate(96, 96)">
+    <!-- Outer radar circles -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.5"/>
+    <!-- Crosshairs -->
+    <line x1="-82" y1="0" x2="82" y2="0" stroke="#854d0e" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="-82" x2="0" y2="82" stroke="#854d0e" stroke-width="1" opacity="0.3"/>
+    <!-- Outer diamond -->
+    <rect x="-32" y="-32" width="64" height="64" fill="none" stroke="#eab308" stroke-width="3" transform="rotate(45)"/>
+    <!-- Inner diamond -->
+    <rect x="-19" y="-19" width="38" height="38" fill="none" stroke="#a16207" stroke-width="2" transform="rotate(45)"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="8" fill="#eab308"/>
+    <!-- Glow ring -->
+    <circle cx="0" cy="0" r="19" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

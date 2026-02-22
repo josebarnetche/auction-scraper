@@ -1,0 +1,259 @@
+/**
+ * Investment Calculator Modal Styles
+ * Subasto.com.ar
+ */
+
+/* Modal Base */
+.calc-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    overflow-y: auto;
+}
+
+.calc-modal.active {
+    display: flex;
+}
+
+.calc-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+}
+
+.calc-modal-content {
+    position: relative;
+    margin: auto;
+    max-width: 900px;
+    width: 95%;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: calcSlideUp 0.3s ease-out;
+}
+
+@keyframes calcSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Calculator Input Styles */
+.calc-input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.calc-input:focus {
+    outline: none;
+    border-color: #eab308;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.calc-input::-webkit-outer-spin-button,
+.calc-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.calc-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Scenario Tabs */
+.scenario-tab {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.scenario-tab:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.scenario-tab.active {
+    background: #eab308;
+    color: black;
+}
+
+/* ROI Badge */
+.roi-badge {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.roi-badge.positive {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+}
+
+.roi-badge.negative {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+}
+
+.roi-badge.neutral {
+    background: rgba(156, 163, 175, 0.2);
+    color: #9ca3af;
+}
+
+/* Risk Indicator */
+.risk-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.risk-low {
+    background: rgba(34, 197, 94, 0.15);
+    color: #4ade80;
+}
+
+.risk-medium {
+    background: rgba(234, 179, 8, 0.15);
+    color: #fbbf24;
+}
+
+.risk-high {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+}
+
+/* Calculator Button */
+.calc-btn {
+    background: rgba(234, 179, 8, 0.1);
+    border: 1px solid rgba(234, 179, 8, 0.3);
+    color: #eab308;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.calc-btn:hover {
+    background: rgba(234, 179, 8, 0.2);
+    border-color: #eab308;
+}
+
+.calc-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Profit Colors */
+.profit-positive {
+    color: #4ade80;
+}
+
+.profit-negative {
+    color: #f87171;
+}
+
+/* Card Integration */
+.auction-card .calc-btn {
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all 0.2s ease;
+}
+
+.auction-card:hover .calc-btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Mobile: always show button */
+@media (hover: none) {
+    .auction-card .calc-btn {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Card ROI/Risk badges positioning */
+.auction-card .investment-badges {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-end;
+}
+
+/* Modal scrollbar styling */
+.calc-modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.calc-modal-content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+
+.calc-modal-content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.calc-modal-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .calc-modal-content {
+        width: 100%;
+        max-height: 100vh;
+        border-radius: 16px 16px 0 0;
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+    .scenario-tab {
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+
+    .calc-input {
+        font-size: 16px; /* Prevent iOS zoom */
+    }
+}

@@ -1,0 +1,934 @@
+{
+  "generated_at": "2026-02-22T07:35:53.590688+00:00",
+  "summary": {
+    "total_listings": 852,
+    "total_sources": 15,
+    "total_categories": 5,
+    "total_value_usd": 125414557.49,
+    "opportunity_count": 60,
+    "blue_dollar_rate": 1430.0
+  },
+  "by_category": {
+    "vehicles": {
+      "count": 125,
+      "total_value_usd": 6374575.26,
+      "avg_price_usd": 76802.11,
+      "with_price": 83,
+      "with_images": 116,
+      "opportunities": 23,
+      "avg_discount_percent": 68.5
+    },
+    "real_estate": {
+      "count": 258,
+      "total_value_usd": 18458904.91,
+      "avg_price_usd": 119089.71,
+      "with_price": 155,
+      "with_images": 250,
+      "opportunities": 33,
+      "avg_discount_percent": 74.4
+    },
+    "general_goods": {
+      "count": 380,
+      "total_value_usd": 1193590.49,
+      "avg_price_usd": 11367.53,
+      "with_price": 105,
+      "with_images": 378,
+      "opportunities": 0,
+      "avg_discount_percent": 0
+    },
+    "machinery": {
+      "count": 51,
+      "total_value_usd": 45163337.79,
+      "avg_price_usd": 1881805.74,
+      "with_price": 24,
+      "with_images": 46,
+      "opportunities": 4,
+      "avg_discount_percent": 94.8
+    },
+    "other": {
+      "count": 38,
+      "total_value_usd": 54224149.04,
+      "avg_price_usd": 3873153.5,
+      "with_price": 14,
+      "with_images": 20,
+      "opportunities": 0,
+      "avg_discount_percent": 0
+    }
+  },
+  "by_source": {
+    "cordoba": {
+      "count": 508,
+      "total_value_usd": 10536040.33,
+      "with_price": 198,
+      "opportunities": 12,
+      "source_type": "judicial"
+    },
+    "agusti": {
+      "count": 106,
+      "total_value_usd": 754967.41,
+      "with_price": 105,
+      "opportunities": 37,
+      "source_type": "private"
+    },
+    "scba": {
+      "count": 90,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "judicial"
+    },
+    "global_remates": {
+      "count": 33,
+      "total_value_usd": 79685.32,
+      "with_price": 28,
+      "opportunities": 8,
+      "source_type": "private"
+    },
+    "adrian_mercado": {
+      "count": 32,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "banco_ciudad": {
+      "count": 23,
+      "total_value_usd": 108564052.69,
+      "with_price": 23,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "curated": {
+      "count": 21,
+      "total_value_usd": 5018534.62,
+      "with_price": 16,
+      "opportunities": 1,
+      "source_type": "private"
+    },
+    "bidbit": {
+      "count": 19,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "csjn": {
+      "count": 10,
+      "total_value_usd": 453826.35,
+      "with_price": 9,
+      "opportunities": 1,
+      "source_type": "judicial"
+    },
+    "sitiodetiendas": {
+      "count": 4,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "zarate": {
+      "count": 2,
+      "total_value_usd": 34.97,
+      "with_price": 1,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "entrerios": {
+      "count": 1,
+      "total_value_usd": 7415.8,
+      "with_price": 1,
+      "opportunities": 1,
+      "source_type": "judicial"
+    },
+    "manucha": {
+      "count": 1,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "delafuente": {
+      "count": 1,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "private"
+    },
+    "rematadores": {
+      "count": 1,
+      "total_value_usd": 0,
+      "with_price": 0,
+      "opportunities": 0,
+      "source_type": "private"
+    }
+  },
+  "closing_this_week": [
+    {
+      "id": "cordoba:26093",
+      "title": "Chevrolet Astra año 2005",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26093/",
+      "base_price_usd": 2167.83,
+      "ends_at": "2026-02-23T14:00:00.900000+00:00",
+      "days_left": 1,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "cordoba:25637",
+      "title": "VIVIENDA EN LABOULAYE",
+      "category": "real_estate",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25637/",
+      "base_price_usd": 9270.16,
+      "ends_at": "2026-02-23T14:00:00.900000+00:00",
+      "days_left": 1,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "cordoba:25530",
+      "title": "Peugeot 308 1.6Allure 2017",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25530/",
+      "base_price_usd": 7167.83,
+      "ends_at": "2026-02-23T14:00:00.900000+00:00",
+      "days_left": 1,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3828",
+      "title": "ROLLOS DE CAÑOS DE COBRE Y RODILLOS DE ORUGA PARA EXCAVADORAS",
+      "category": "machinery",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3828",
+      "base_price_usd": 1800000.0,
+      "ends_at": "2026-02-24T00:00:00",
+      "days_left": 1,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3812",
+      "title": "EQUIPAMIENTO PARA CABINAS DE PEAJE",
+      "category": "machinery",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3812",
+      "base_price_usd": 42920000.0,
+      "ends_at": "2026-02-24T00:00:00",
+      "days_left": 1,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "cordoba:25583",
+      "title": "Fiat Palio Fire",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25583/",
+      "base_price_usd": 3076.92,
+      "ends_at": "2026-02-24T13:00:00.900000+00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "cordoba:25587",
+      "title": "PEUGEOT 208 ALURE 1.6 2016",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25587/",
+      "base_price_usd": 6713.29,
+      "ends_at": "2026-02-24T14:00:00.900000+00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": true,
+      "discount_percent": 52.0
+    },
+    {
+      "id": "cordoba:25912",
+      "title": "Casa en B Alberdi Rio IV",
+      "category": "real_estate",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25912/",
+      "base_price_usd": 27972.03,
+      "ends_at": "2026-02-24T14:00:00.900000+00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3792",
+      "title": "TERRENO EN JOSÉ INGENIEROS ESQUINA NUÑEZ - SECTOR INDUSTRIAL PLANIFICADO DE ALTE",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3792",
+      "base_price_usd": 459758.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3788",
+      "title": "TERRENO EN CAFFERATA ENTRE GUATAMBU Y RP 4 - SECTOR INDUSTRIAL PLANIFICADO DE AL",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3788",
+      "base_price_usd": 145152.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3791",
+      "title": "TERRENO EN FONROUGE E/AO DEL REY Y AV. HIPÓLITO YRIGOYEN - SECTOR INDUSTRIAL PLA",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3791",
+      "base_price_usd": 500774.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3790",
+      "title": "TERRENO EN BALDOMERO FERNÁNDEZ MORENO E/JOSÉ INGENIEROS Y OMBÚ - SECTOR INDUSTRI",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3790",
+      "base_price_usd": 145160.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3795",
+      "title": "TERRENO EN LUIS MARÍA DRAGO ENTRE FONROUGE Y AO DEL REY - SECTOR INDUSTRIAL PLAN",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3795",
+      "base_price_usd": 161280.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3789",
+      "title": "TERRENO EN TIMBO 2610 ENTRE NUÑEZ Y FONROUGE - SECTOR INDUSTRIAL PLANIFICADO DE ",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3789",
+      "base_price_usd": 136189.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3794",
+      "title": "TERRENO EN JOSE INGENIEROS ESQUINA S/N - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. ",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3794",
+      "base_price_usd": 299203.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "banco_ciudad:3793",
+      "title": "TERRENO EN JOSÉ INGENIEROS E/ JUAN XXIII Y CAFFERATA NORTE - SECTOR INDUSTRIAL P",
+      "category": "real_estate",
+      "source": "banco_ciudad",
+      "source_url": "https://subastas.bancociudad.com.ar/subasta/3793",
+      "base_price_usd": 342870.0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "adrian_mercado:4102",
+      "title": "SUBASTA EN VIVOPor c/o de DTP Laboratorios de Suelos, Aire y AguaFLUORESCENCIA D",
+      "category": "real_estate",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-dtp-laboratorios-de-suelos-aire-y-agua-4102",
+      "base_price_usd": 0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "adrian_mercado:4096",
+      "title": "SUBASTA EN VIVOEmpresa de Almacenamiento LogísticoRobot Mecalux programable, Est",
+      "category": "vehicles",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-almacenamiento-logistico-4096",
+      "base_price_usd": 0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "adrian_mercado:4091",
+      "title": "Industria Química, Cosmética y Laboratorio",
+      "category": "real_estate",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/industria-quimica-cosmetica-y-laboratorio-4091",
+      "base_price_usd": 0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    },
+    {
+      "id": "adrian_mercado:4111",
+      "title": "Empresa de Fabricación y Comercialización de Insumos para Esterilización",
+      "category": "machinery",
+      "source": "adrian_mercado",
+      "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-fabricacion-y-comercializacion-de-insumos-para-esterilizacion-4111",
+      "base_price_usd": 0,
+      "ends_at": "2026-02-25T00:00:00",
+      "days_left": 2,
+      "hours_left": 0,
+      "has_opportunity": false,
+      "discount_percent": 0
+    }
+  ],
+  "best_deals": [
+    {
+      "id": "agusti:3158_1",
+      "title": "CAMION PETERBILT 367",
+      "category": "vehicles",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3158&lid=1",
+      "base_price_usd": 61.82,
+      "market_price_usd": 45000,
+      "discount_percent": 99.9,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003158/00000001/000001.jpeg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41567",
+      "title": "Agro Bayer S.R.L. ACOPLADO RURAL DE DOS EJES, EL GRILL... Carlos24",
+      "category": "real_estate",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41567",
+      "base_price_usd": 132.87,
+      "market_price_usd": 15000,
+      "discount_percent": 99.1,
+      "is_premium": false,
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3223/41567/3223_Lote_14.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41617",
+      "title": "Agro Bayer S.R.L. AUTOELEVADOR ELÉCTRICO, YALE CAPACID... Carlos24",
+      "category": "vehicles",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41617",
+      "base_price_usd": 174.83,
+      "market_price_usd": 15000,
+      "discount_percent": 98.8,
+      "is_premium": false,
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3223/41617/3223_Lote_64.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41577",
+      "title": "Agro Bayer S.R.L. ACOPLADO TANQUE CISTERNA 8.000 LTS.,... Carlos24",
+      "category": "vehicles",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41577",
+      "base_price_usd": 244.76,
+      "market_price_usd": 15000,
+      "discount_percent": 98.4,
+      "is_premium": false,
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3223/41577/3223_Lote_24.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41571",
+      "title": "Agro Bayer S.R.L. ACOPLADO TANQUE CISTERNA 8.000 LTS, ... Carlos24",
+      "category": "vehicles",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41571",
+      "base_price_usd": 244.76,
+      "market_price_usd": 15000,
+      "discount_percent": 98.4,
+      "is_premium": false,
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3223/41571/3223_Lote_18.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3146_3",
+      "title": "FRESADORA ESPECIA MARCA WERA",
+      "category": "machinery",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3146&lid=3",
+      "base_price_usd": 489.51,
+      "market_price_usd": 30000,
+      "discount_percent": 98.4,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003146/00000003/000001.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41549",
+      "title": "DOMEC GUILLOTINA, MARCA ITURROSPE CS-400, ...",
+      "category": "machinery",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41549",
+      "base_price_usd": 1048.95,
+      "market_price_usd": 18000,
+      "discount_percent": 94.2,
+      "is_premium": false,
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3221/41549/3221_Lote_05.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3146_2",
+      "title": "TORNO BIHUSILLO MARCA PITTLER",
+      "category": "machinery",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3146&lid=2",
+      "base_price_usd": 524.48,
+      "market_price_usd": 8000,
+      "discount_percent": 93.4,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003146/00000002/000001.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3146_1",
+      "title": "TORNO BIHUSILLO MARCA PITTLER",
+      "category": "machinery",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3146&lid=1",
+      "base_price_usd": 524.48,
+      "market_price_usd": 8000,
+      "discount_percent": 93.4,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003146/00000001/000001.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3164_1",
+      "title": "CHASIS CON CABINA SCANIA RII2E6X4S67 1",
+      "category": "real_estate",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3164&lid=1",
+      "base_price_usd": 4895.1,
+      "market_price_usd": 55000,
+      "discount_percent": 91.1,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003164/00000001/000001.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3154_1",
+      "title": "SEMI ACOPLADO PRATI-FRUEHAUF PB-J3-DF-",
+      "category": "real_estate",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3154&lid=1",
+      "base_price_usd": 1398.6,
+      "market_price_usd": 15000,
+      "discount_percent": 90.7,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003154/00000001/000001.jpeg"
+      ]
+    },
+    {
+      "id": "agusti:3154_7",
+      "title": "AUTOELEVADOR ZHEJIANG MAXIMAL - FD25T",
+      "category": "real_estate",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3154&lid=7",
+      "base_price_usd": 1748.25,
+      "market_price_usd": 15000,
+      "discount_percent": 88.3,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003154/00000007/000001.jpeg"
+      ]
+    },
+    {
+      "id": "agusti:3154_8",
+      "title": "AUTOELEVADOR LONKING - LG30DT AÑO:2005",
+      "category": "real_estate",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3154&lid=8",
+      "base_price_usd": 2097.9,
+      "market_price_usd": 15000,
+      "discount_percent": 86.0,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003154/00000008/000001.jpeg"
+      ]
+    },
+    {
+      "id": "agusti:3147_10",
+      "title": "PEUGEOT 208 ACTIVE 1.5 N SEDAN 5 PUERT",
+      "category": "vehicles",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3147&lid=10",
+      "base_price_usd": 2097.9,
+      "market_price_usd": 14000,
+      "discount_percent": 85.0,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003147/00000010/000008.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3137_4",
+      "title": "CAMION INTERNATI0NAL 9200",
+      "category": "real_estate",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3137&lid=4",
+      "base_price_usd": 6993.01,
+      "market_price_usd": 45000,
+      "discount_percent": 84.5,
+      "is_premium": false,
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003137/00000004/000007.png"
+      ]
+    }
+  ],
+  "trending": [
+    {
+      "id": "cordoba:26092",
+      "title": "BERLINGO FURGON - 2018",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26092/",
+      "base_price_usd": 5336.3,
+      "discount_percent": 70.4,
+      "trending_score": 115,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "top_oportunidad",
+        "cierra_pronto",
+        "judicial"
+      ],
+      "images": [
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26092_09-02-2026_12-38-1770651534-109875_mini.webp?temp_url_sig=eb977b653f3729123005c4ec727778da284cbc0fd085224a1dfa3ba0a64d251b&temp_url_expires=1771821944"
+      ]
+    },
+    {
+      "id": "cordoba:25577",
+      "title": "Nissan Frontier NP300 4x2D",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25577/",
+      "base_price_usd": 8391.61,
+      "discount_percent": 66.4,
+      "trending_score": 115,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "top_oportunidad",
+        "cierra_pronto",
+        "judicial"
+      ],
+      "images": [
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25577_20-12-2025_22-41-1766281293-792872_mini.webp?temp_url_sig=8a8279ddc90fa3055d76bddb0d80671f19a346effa6fc64e84c7ab813392eff1&temp_url_expires=1771821944"
+      ]
+    },
+    {
+      "id": "cordoba:25986",
+      "title": "GRUPO ELECTROGENO HONDA",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25986/",
+      "base_price_usd": 762.24,
+      "discount_percent": 36.5,
+      "trending_score": 100,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "buen_descuento",
+        "top_oportunidad",
+        "cierra_pronto",
+        "judicial"
+      ],
+      "images": [
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25986_07-02-2026_01-16-1770437761-543662_mini.webp?temp_url_sig=a14e04c7bdc9b89d41dde62cd6e174e20939b2a2b082a5d274403ea3bb6db515&temp_url_expires=1771821946"
+      ]
+    },
+    {
+      "id": "cordoba:25587",
+      "title": "PEUGEOT 208 ALURE 1.6 2016",
+      "category": "vehicles",
+      "source": "cordoba",
+      "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25587/",
+      "base_price_usd": 6713.29,
+      "discount_percent": 52.0,
+      "trending_score": 85,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "cierra_pronto",
+        "judicial"
+      ],
+      "images": [
+        "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25587_29-12-2025_11-35-1767018918-891674_mini.webp?temp_url_sig=4671ab8d05a178dd52073abbbff7f3050cc97feaadce2253523b4a85018e42b6&temp_url_expires=1771821944"
+      ]
+    },
+    {
+      "id": "curated:scania_20ton_press",
+      "title": "Prensa de Temple Rolop RGT 2x20 (Ex-Scania) - 20 Toneladas - USD $3,500",
+      "category": "vehicles",
+      "source": "curated",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41544",
+      "base_price_usd": 3496.5,
+      "discount_percent": 30.1,
+      "trending_score": 80,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "buen_descuento",
+        "premium",
+        "cierra_pronto"
+      ],
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3220/41544/3220_Lote_01.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41549",
+      "title": "DOMEC GUILLOTINA, MARCA ITURROSPE CS-400, ...",
+      "category": "machinery",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41549",
+      "base_price_usd": 1048.95,
+      "discount_percent": 94.2,
+      "trending_score": 75,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "cierra_pronto"
+      ],
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3221/41549/3221_Lote_05.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41502",
+      "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB TD 42, CANTIDAD: ...",
+      "category": "vehicles",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41502",
+      "base_price_usd": 2097.9,
+      "discount_percent": 73.8,
+      "trending_score": 75,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "cierra_pronto"
+      ],
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3213/41502/3195_Lote_05.jpg"
+      ]
+    },
+    {
+      "id": "global_remates:lot_41499",
+      "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
+      "category": "real_estate",
+      "source": "global_remates",
+      "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41499",
+      "base_price_usd": 1538.46,
+      "discount_percent": 80.8,
+      "trending_score": 75,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "cierra_pronto"
+      ],
+      "images": [
+        "https://www.globalremates.com.ar/Register/Auctions/3213/41499/3195_Lote_02.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3147_10",
+      "title": "PEUGEOT 208 ACTIVE 1.5 N SEDAN 5 PUERT",
+      "category": "vehicles",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3147&lid=10",
+      "base_price_usd": 2097.9,
+      "discount_percent": 85.0,
+      "trending_score": 75,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "cierra_pronto"
+      ],
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003147/00000010/000008.jpg"
+      ]
+    },
+    {
+      "id": "agusti:3147_4",
+      "title": "VOLKSWAGEN POLO HIGHLINE 1.6 MSI 110CV",
+      "category": "vehicles",
+      "source": "agusti",
+      "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3147&lid=4",
+      "base_price_usd": 3146.85,
+      "discount_percent": 79.0,
+      "trending_score": 75,
+      "signals": [
+        "nuevo",
+        "alta_calidad",
+        "gran_descuento",
+        "cierra_pronto"
+      ],
+      "images": [
+        "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003147/00000004/000001.jpg"
+      ]
+    }
+  ],
+  "insights": {
+    "best_day_for_deals": {
+      "by_day": {
+        "Lunes": {
+          "total": 96,
+          "opportunities": 2
+        },
+        "Martes": {
+          "total": 30,
+          "opportunities": 9
+        },
+        "Miercoles": {
+          "total": 272,
+          "opportunities": 10
+        },
+        "Jueves": {
+          "total": 165,
+          "opportunities": 13
+        },
+        "Viernes": {
+          "total": 160,
+          "opportunities": 25
+        },
+        "Sabado": {
+          "total": 2,
+          "opportunities": 0
+        },
+        "Domingo": {
+          "total": 0,
+          "opportunities": 0
+        }
+      },
+      "best_day": "Viernes",
+      "best_day_opportunities": 25,
+      "insight": "Los viernes tienen mas oportunidades de descuento"
+    },
+    "most_undervalued_category": {
+      "category": "vehicles",
+      "category_label": "Vehiculos",
+      "opportunity_ratio": 18.4,
+      "avg_discount": 68.5,
+      "total_opportunities": 23,
+      "insight": "Vehiculos tiene 18.4% de listings con descuento significativo"
+    },
+    "price_comparison": {
+      "by_category": {
+        "vehicles": {
+          "avg_auction_price_usd": 5404.81,
+          "avg_market_price_usd": 18530.43,
+          "avg_savings_percent": 70.8,
+          "sample_size": 23
+        },
+        "real_estate": {
+          "avg_auction_price_usd": 8776.8,
+          "avg_market_price_usd": 26777.78,
+          "avg_savings_percent": 67.2,
+          "sample_size": 36
+        },
+        "machinery": {
+          "avg_auction_price_usd": 646.86,
+          "avg_market_price_usd": 16000.0,
+          "avg_savings_percent": 96.0,
+          "sample_size": 4
+        }
+      },
+      "overall": {
+        "avg_savings_percent": 69.5,
+        "total_samples": 63,
+        "insight": "En promedio, los compradores ahorran 69.5% comprando en subastas vs retail"
+      }
+    }
+  },
+  "time_series": {
+    "daily_listings": [
+      {
+        "date": "2026-02-21",
+        "total": 134,
+        "cat_real_estate": 114,
+        "cat_machinery": 5,
+        "cat_general_goods": 2,
+        "cat_other": 3,
+        "cat_vehicles": 10
+      },
+      {
+        "date": "2026-02-22",
+        "total": 718,
+        "cat_vehicles": 115,
+        "cat_real_estate": 144,
+        "cat_general_goods": 378,
+        "cat_machinery": 46,
+        "cat_other": 35
+      }
+    ],
+    "period": "30_days"
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- Maskable icon with safe zone (icon content in center 80%) -->
+  <rect width="192" height="192" fill="#030303"/>
+  <g transform="translate(96, 96)">
+    <!-- Scaled down to fit in safe zone (80% of original) -->
+    <!-- Outer radar circles -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.5"/>
+    <!-- Crosshairs -->
+    <line x1="-65" y1="0" x2="65" y2="0" stroke="#854d0e" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="-65" x2="0" y2="65" stroke="#854d0e" stroke-width="1" opacity="0.3"/>
+    <!-- Outer diamond -->
+    <rect x="-26" y="-26" width="52" height="52" fill="none" stroke="#eab308" stroke-width="3" transform="rotate(45)"/>
+    <!-- Inner diamond -->
+    <rect x="-15" y="-15" width="30" height="30" fill="none" stroke="#a16207" stroke-width="2" transform="rotate(45)"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="6" fill="#eab308"/>
+    <!-- Glow ring -->
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#854d0e" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

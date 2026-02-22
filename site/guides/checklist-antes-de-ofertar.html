@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-[#030303]">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checklist Antes de Ofertar en Subastas - Due Diligence | Subasto.com.ar</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Lista completa de verificaciones antes de ofertar en subastas judiciales. Que investigar, documentos a pedir, y errores a evitar. PDF descargable.">
+<meta name="keywords" content="checklist subasta judicial, que verificar antes de ofertar, due diligence subasta, informe dominio, deudas ocultas subasta">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://subasto.com.ar/guides/checklist-antes-de-ofertar.html">
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#eab308">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Manrope', sans-serif; background-color: #030303; color: #ffffff; }
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+.glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+.checklist-item { transition: all 0.2s; }
+.checklist-item.checked { opacity: 0.5; }
+.checklist-item.checked .check-box { background: rgba(34, 197, 94, 0.3); border-color: #22c55e; }
+.checklist-item.checked .check-icon { display: block; }
+.check-box { width: 24px; height: 24px; border: 2px solid rgba(255,255,255,0.2); border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.check-icon { display: none; }
+@media print {
+    body { background: white; color: black; }
+    .glass { background: #f5f5f5; border: 1px solid #ddd; }
+    .no-print { display: none !important; }
+    .checklist-item { opacity: 1 !important; }
+    .check-box { border-color: #333; }
+}
+</style>
+</head>
+<body class="antialiased">
+    <!-- NAVIGATION -->
+    <nav class="fixed z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0 no-print">
+        <div class="flex glass max-w-[1400px] rounded-full mx-auto px-6 py-3 items-center justify-between">
+            <a href="/" class="flex items-center gap-3">
+                <div class="w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                        <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                        <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                    </svg>
+                </div>
+                <span class="text-lg font-semibold text-white tracking-tight font-display">
+                    Subasto<span class="font-light text-yellow-500">.com.ar</span>
+                </span>
+            </a>
+            <a href="/guides/" class="text-yellow-500 hover:text-white text-sm transition-colors flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                </svg>
+                Todas las Guias
+            </a>
+        </div>
+    </nav>
+
+    <!-- ARTICLE -->
+    <article class="pt-32 pb-16 px-4">
+        <div class="max-w-[800px] mx-auto">
+            <!-- Header -->
+            <div class="mb-12">
+                <span class="inline-block px-3 py-1 rounded-full bg-blue-500/10 text-blue-500 text-xs font-medium mb-4">Due Diligence</span>
+                <h1 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-6">
+                    Checklist: Que Verificar Antes de Ofertar
+                </h1>
+                <p class="text-xl text-white/60 mb-6">
+                    Lista completa de verificaciones para evitar sorpresas. Marca cada item a medida que avanzas. Imprimible y descargable.
+                </p>
+
+                <!-- Download/Print buttons -->
+                <div class="flex flex-wrap gap-3 no-print">
+                    <button onclick="window.print()" class="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-500 rounded-lg transition-colors text-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+                        </svg>
+                        Imprimir Checklist
+                    </button>
+                    <button onclick="resetChecklist()" class="inline-flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-white/60 rounded-lg transition-colors text-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                        Reiniciar
+                    </button>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="glass rounded-xl p-4 mb-8 no-print">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm text-white/60">Progreso</span>
+                    <span class="text-sm text-yellow-500 font-medium" id="progress-text">0 de 20 completados</span>
+                </div>
+                <div class="w-full h-2 bg-white/10 rounded-full overflow-hidden">
+                    <div class="h-full bg-yellow-500 rounded-full transition-all duration-300" id="progress-bar" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <!-- CHECKLIST SECTIONS -->
+
+            <!-- Section 1: Before Exhibition -->
+            <section class="mb-10">
+                <h2 class="text-xl font-display font-medium text-white mb-4 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-full bg-yellow-500/20 text-yellow-500 flex items-center justify-center text-sm font-bold">1</span>
+                    Antes de la Exhibicion
+                </h2>
+                <p class="text-white/60 text-sm mb-4">Investigacion previa desde tu casa</p>
+
+                <div class="space-y-3">
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Leer el edicto completo</h4>
+                            <p class="text-white/50 text-sm mt-1">Revisar descripcion del bien, precio base, condiciones de venta, y fechas importantes.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Investigar valor de mercado</h4>
+                            <p class="text-white/50 text-sm mt-1">Buscar precios de bienes similares en MercadoLibre, ZonaProp, DeAutos, etc.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Calcular costos totales</h4>
+                            <p class="text-white/50 text-sm mt-1">Usar la <a href="/guides/costos-y-comisiones.html" class="text-yellow-500 hover:underline">calculadora de costos</a> para sumar comisiones, IVA, transferencia.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Definir tu precio maximo</h4>
+                            <p class="text-white/50 text-sm mt-1">Fijar un limite antes de participar. Incluir todos los costos.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Verificar disponibilidad de fondos</h4>
+                            <p class="text-white/50 text-sm mt-1">Confirmar que tenes el dinero para la garantia + el saldo si ganas.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Vehicles -->
+            <section class="mb-10">
+                <h2 class="text-xl font-display font-medium text-white mb-4 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-full bg-blue-500/20 text-blue-500 flex items-center justify-center text-sm font-bold">2</span>
+                    Para Vehiculos
+                </h2>
+                <p class="text-white/60 text-sm mb-4">Verificaciones especificas para autos, motos, camiones</p>
+
+                <div class="space-y-3">
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Pedir informe de dominio</h4>
+                            <p class="text-white/50 text-sm mt-1">En DNRPA verificar: propietario, prendas, embargos, robo/hurto. Costo: ~$2.000</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Consultar deuda de patentes</h4>
+                            <p class="text-white/50 text-sm mt-1">ARBA (prov. BS AS), AGIP (CABA), o agencia provincial correspondiente. Gratis online.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Verificar multas de transito</h4>
+                            <p class="text-white/50 text-sm mt-1">Consultar en GCBA, municipio correspondiente. Las multas pasan al nuevo titular.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">En la exhibicion: encender motor</h4>
+                            <p class="text-white/50 text-sm mt-1">Verificar que enciende, escuchar ruidos, revisar humo escape, luces tablero.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Revisar carroceria y pintura</h4>
+                            <p class="text-white/50 text-sm mt-1">Buscar oxido, golpes reparados, diferencias de tonalidad. Llevar iman.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Verificar VIN y motor</h4>
+                            <p class="text-white/50 text-sm mt-1">Comparar numeros del chasis y motor con los del informe de dominio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Real Estate -->
+            <section class="mb-10">
+                <h2 class="text-xl font-display font-medium text-white mb-4 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-full bg-pink-500/20 text-pink-500 flex items-center justify-center text-sm font-bold">3</span>
+                    Para Inmuebles
+                </h2>
+                <p class="text-white/60 text-sm mb-4">Verificaciones para casas, departamentos, terrenos</p>
+
+                <div class="space-y-3">
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Informe de dominio del inmueble</h4>
+                            <p class="text-white/50 text-sm mt-1">Pedir en Registro de la Propiedad. Verificar: titular, hipotecas, embargos.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Certificado de expensas</h4>
+                            <p class="text-white/50 text-sm mt-1">Pedir a la administracion. Las deudas de expensas pasan al comprador.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Consultar deudas de servicios</h4>
+                            <p class="text-white/50 text-sm mt-1">ABL, agua, luz, gas. Algunas deudas pueden pasar al nuevo titular.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium text-red-400">Verificar ocupacion</h4>
+                            <p class="text-white/50 text-sm mt-1">CRITICO: Si hay ocupantes, el desalojo puede tardar meses/anios. Preguntar al martillero.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Revisar estado edilicio</h4>
+                            <p class="text-white/50 text-sm mt-1">En la visita: humedad, canierias, instalacion electrica, techo. Llevar linterna.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Day of Auction -->
+            <section class="mb-10">
+                <h2 class="text-xl font-display font-medium text-white mb-4 flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-full bg-green-500/20 text-green-500 flex items-center justify-center text-sm font-bold">4</span>
+                    Dia de la Subasta
+                </h2>
+                <p class="text-white/60 text-sm mb-4">Antes de hacer tu primera oferta</p>
+
+                <div class="space-y-3">
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Confirmar que la subasta no se suspendio</h4>
+                            <p class="text-white/50 text-sm mt-1">Verificar en el sitio oficial. Las suspensiones se anuncian al ultimo momento.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Garantia depositada y acreditada</h4>
+                            <p class="text-white/50 text-sm mt-1">Verificar que el deposito se acredito en el sistema de la subasta.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Recordar tu precio maximo</h4>
+                            <p class="text-white/50 text-sm mt-1">Anotarlo. No dejarte llevar por la emocion del momento.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item glass rounded-xl p-4 flex items-start gap-4" onclick="toggleCheck(this)">
+                        <div class="check-box">
+                            <svg class="check-icon w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="text-white font-medium">Conexion estable (subastas online)</h4>
+                            <p class="text-white/50 text-sm mt-1">Usar WiFi estable. Tener plan de datos como backup.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Documents Box -->
+            <div class="glass rounded-2xl p-6 border border-yellow-500/20 mb-12">
+                <h3 class="text-lg font-display font-medium text-yellow-500 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                    Documentos Clave
+                </h3>
+                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                        <h4 class="text-white font-medium mb-2">Para vehiculos:</h4>
+                        <ul class="text-white/60 space-y-1">
+                            <li>* Informe de dominio DNRPA</li>
+                            <li>* Certificado de patentes</li>
+                            <li>* Consulta multas</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-medium mb-2">Para inmuebles:</h4>
+                        <ul class="text-white/60 space-y-1">
+                            <li>* Informe de dominio RPI</li>
+                            <li>* Certificado de expensas</li>
+                            <li>* Libre deuda ABL/servicios</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Red Flags -->
+            <div class="glass rounded-2xl p-6 border-l-4 border-red-500 mb-12">
+                <h3 class="text-lg font-display font-medium text-red-500 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                    </svg>
+                    Seniales de Alerta - No Ofertar Si:
+                </h3>
+                <ul class="space-y-2 text-white/70">
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                        <span>No pudiste visitar el bien durante la exhibicion</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                        <span>El inmueble tiene ocupantes y no sos experto en desalojos</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                        <span>Las deudas ocultas superan el ahorro potencial</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                        <span>No tenes el dinero completo disponible</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                        <span>Algo "no cierra" y no podes verificarlo</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="mt-16 pt-12 border-t border-white/10 no-print">
+                <h2 class="text-2xl font-display font-medium text-white mb-6">Siguiente paso</h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <a href="/guides/estrategias-para-ganar.html" class="glass rounded-xl p-5 hover:bg-white/5 transition-colors block">
+                        <span class="text-xs uppercase tracking-wider text-purple-500 font-medium">Siguiente guia</span>
+                        <h4 class="text-white font-medium mt-2">Estrategias para Ganar</h4>
+                        <p class="text-white/40 text-sm mt-1">Timing, investigacion, y tacticas de oferta</p>
+                    </a>
+                    <a href="/" class="glass rounded-xl p-5 hover:bg-white/5 transition-colors block">
+                        <span class="text-xs uppercase tracking-wider text-yellow-500 font-medium">Explorar</span>
+                        <h4 class="text-white font-medium mt-2">Ver Subastas Activas</h4>
+                        <p class="text-white/40 text-sm mt-1">Aplicar el checklist a subastas reales</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-4 border-t border-white/5 no-print">
+        <div class="max-w-[800px] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <a href="/" class="flex items-center gap-2">
+                <div class="w-6 h-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                        <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                        <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                    </svg>
+                </div>
+                <span class="text-white font-display text-sm">Subasto<span class="text-yellow-500 font-light">.com.ar</span></span>
+            </a>
+            <p class="text-white/40 text-xs text-center">Este contenido es educativo.</p>
+        </div>
+    </footer>
+
+    <script>
+        const STORAGE_KEY = 'subasto_checklist_state';
+
+        function toggleCheck(item) {
+            item.classList.toggle('checked');
+            saveState();
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const items = document.querySelectorAll('.checklist-item');
+            const checked = document.querySelectorAll('.checklist-item.checked');
+            const percentage = (checked.length / items.length) * 100;
+
+            document.getElementById('progress-bar').style.width = percentage + '%';
+            document.getElementById('progress-text').textContent = `${checked.length} de ${items.length} completados`;
+        }
+
+        function saveState() {
+            const items = document.querySelectorAll('.checklist-item');
+            const state = Array.from(items).map(item => item.classList.contains('checked'));
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        }
+
+        function loadState() {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) {
+                const state = JSON.parse(saved);
+                const items = document.querySelectorAll('.checklist-item');
+                items.forEach((item, index) => {
+                    if (state[index]) {
+                        item.classList.add('checked');
+                    }
+                });
+            }
+            updateProgress();
+        }
+
+        function resetChecklist() {
+            const items = document.querySelectorAll('.checklist-item');
+            items.forEach(item => item.classList.remove('checked'));
+            localStorage.removeItem(STORAGE_KEY);
+            updateProgress();
+        }
+
+        // Initialize
+        loadState();
+    </script>
+</body>
+</html>

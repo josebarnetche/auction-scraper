@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subasto API - AI Agent Integration Guide</title>
+<meta name="description" content="Complete API documentation for AI agents. USDC micropayments on Base network. Python, JavaScript, cURL examples. 5 minutes to first API call.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', sans-serif; background: #0a0a0a; color: #e5e5e5; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
+pre { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; overflow-x: auto; }
+code { font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+.code-block { position: relative; }
+.copy-btn { position: absolute; top: 8px; right: 8px; background: #333; border: none; color: #888; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+.copy-btn:hover { background: #444; color: #fff; }
+.endpoint-card { background: #111; border: 1px solid #222; border-radius: 12px; }
+.method-get { background: #22c55e20; color: #22c55e; }
+.method-post { background: #3b82f620; color: #3b82f6; }
+.nav-link { transition: all 0.2s; }
+.nav-link:hover { color: #eab308; }
+.nav-link.active { color: #eab308; border-left: 2px solid #eab308; }
+.tab-btn { transition: all 0.2s; }
+.tab-btn.active { background: #eab308; color: #000; }
+.schema-type { color: #22c55e; }
+.schema-required { color: #ef4444; }
+</style>
+</head>
+<body class="antialiased">
+
+<!-- Header -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3">
+      <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center font-bold text-black">S</div>
+      <span class="font-semibold text-lg">Subasto API</span>
+      <span class="text-xs px-2 py-0.5 bg-yellow-500/20 text-yellow-500 rounded">v1.6</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#quickstart" class="hover:text-yellow-500">Quick Start</a>
+      <a href="#endpoints" class="hover:text-yellow-500">Endpoints</a>
+      <a href="#examples" class="hover:text-yellow-500">Examples</a>
+      <a href="#use-cases" class="hover:text-yellow-500">Use Cases</a>
+      <a href="https://subasto.com.ar" class="px-4 py-2 bg-yellow-500 text-black rounded-lg font-medium hover:bg-yellow-400">Live Site</a>
+    </nav>
+  </div>
+</header>
+
+<div class="flex pt-16">
+  <!-- Sidebar Navigation -->
+  <aside class="hidden lg:block w-64 fixed left-0 top-16 bottom-0 border-r border-white/10 overflow-y-auto p-6">
+    <nav class="space-y-6">
+      <div>
+        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Getting Started</h3>
+        <ul class="space-y-2">
+          <li><a href="#overview" class="nav-link block pl-3 py-1 text-sm text-gray-400">Overview</a></li>
+          <li><a href="#quickstart" class="nav-link block pl-3 py-1 text-sm text-gray-400">Quick Start (5 min)</a></li>
+          <li><a href="#authentication" class="nav-link block pl-3 py-1 text-sm text-gray-400">Authentication</a></li>
+          <li><a href="#pricing" class="nav-link block pl-3 py-1 text-sm text-gray-400">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">API Reference</h3>
+        <ul class="space-y-2">
+          <li><a href="#endpoints" class="nav-link block pl-3 py-1 text-sm text-gray-400">Endpoints</a></li>
+          <li><a href="#schemas" class="nav-link block pl-3 py-1 text-sm text-gray-400">Response Schemas</a></li>
+          <li><a href="#errors" class="nav-link block pl-3 py-1 text-sm text-gray-400">Error Handling</a></li>
+          <li><a href="#rate-limits" class="nav-link block pl-3 py-1 text-sm text-gray-400">Rate Limits</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Code Examples</h3>
+        <ul class="space-y-2">
+          <li><a href="#python-sdk" class="nav-link block pl-3 py-1 text-sm text-gray-400">Python SDK</a></li>
+          <li><a href="#javascript-sdk" class="nav-link block pl-3 py-1 text-sm text-gray-400">JavaScript SDK</a></li>
+          <li><a href="#curl-examples" class="nav-link block pl-3 py-1 text-sm text-gray-400">cURL Examples</a></li>
+          <li><a href="#postman" class="nav-link block pl-3 py-1 text-sm text-gray-400">Postman Collection</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Use Cases</h3>
+        <ul class="space-y-2">
+          <li><a href="#monitoring-bot" class="nav-link block pl-3 py-1 text-sm text-gray-400">Monitoring Bot</a></li>
+          <li><a href="#deal-alerts" class="nav-link block pl-3 py-1 text-sm text-gray-400">Deal Alerts</a></li>
+          <li><a href="#investment-analysis" class="nav-link block pl-3 py-1 text-sm text-gray-400">Investment Analysis</a></li>
+          <li><a href="#arbitrage" class="nav-link block pl-3 py-1 text-sm text-gray-400">Arbitrage Detection</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Agent Features</h3>
+        <ul class="space-y-2">
+          <li><a href="#structured-data" class="nav-link block pl-3 py-1 text-sm text-gray-400">Structured Data</a></li>
+          <li><a href="#webhooks" class="nav-link block pl-3 py-1 text-sm text-gray-400">Webhooks</a></li>
+          <li><a href="#batch-processing" class="nav-link block pl-3 py-1 text-sm text-gray-400">Batch Processing</a></li>
+          <li><a href="#caching" class="nav-link block pl-3 py-1 text-sm text-gray-400">Caching</a></li>
+        </ul>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 lg:ml-64 p-6 lg:p-12 max-w-4xl">
+
+    <!-- Overview -->
+    <section id="overview" class="mb-16">
+      <h1 class="text-4xl font-bold mb-4">Subasto API for AI Agents</h1>
+      <p class="text-xl text-gray-400 mb-8">Access 864+ Argentine auction listings at 30-70% below market value. Pay-per-request with USDC micropayments on Base network.</p>
+
+      <div class="grid md:grid-cols-3 gap-4 mb-8">
+        <div class="bg-gradient-to-br from-yellow-500/10 to-transparent border border-yellow-500/20 rounded-xl p-6">
+          <div class="text-3xl font-bold text-yellow-500 mb-2">864+</div>
+          <div class="text-sm text-gray-400">Active Listings</div>
+        </div>
+        <div class="bg-gradient-to-br from-green-500/10 to-transparent border border-green-500/20 rounded-xl p-6">
+          <div class="text-3xl font-bold text-green-500 mb-2">14</div>
+          <div class="text-sm text-gray-400">Data Sources</div>
+        </div>
+        <div class="bg-gradient-to-br from-blue-500/10 to-transparent border border-blue-500/20 rounded-xl p-6">
+          <div class="text-3xl font-bold text-blue-500 mb-2">$0.01</div>
+          <div class="text-sm text-gray-400">Per Request</div>
+        </div>
+      </div>
+
+      <div class="bg-blue-500/10 border border-blue-500/30 rounded-xl p-6">
+        <h3 class="font-semibold text-blue-400 mb-2">Perfect for AI Agents</h3>
+        <ul class="text-sm text-gray-300 space-y-1">
+          <li>- Structured JSON responses optimized for LLM parsing</li>
+          <li>- Deterministic endpoints with consistent schemas</li>
+          <li>- USDC payments - no API keys, no accounts needed</li>
+          <li>- Real-time data updated daily from judicial and private sources</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Quick Start -->
+    <section id="quickstart" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+        <span class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center text-black font-bold text-sm">1</span>
+        Quick Start (5 Minutes)
+      </h2>
+
+      <div class="space-y-6">
+        <div class="endpoint-card p-6">
+          <h3 class="font-semibold mb-3">Step 1: Check Pricing (Free)</h3>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre class="p-4"><code class="text-green-400">curl https://subasto.com.ar/api/v1/price</code></pre>
+          </div>
+          <p class="text-sm text-gray-400 mt-3">Returns wallet address and pricing for all endpoints. No payment required.</p>
+        </div>
+
+        <div class="endpoint-card p-6">
+          <h3 class="font-semibold mb-3">Step 2: Send USDC Payment</h3>
+          <p class="text-sm text-gray-400 mb-3">Send USDC on Base network to the wallet address returned in step 1:</p>
+          <div class="bg-[#1a1a1a] rounded-lg p-4 font-mono text-sm">
+            <div class="flex justify-between mb-2">
+              <span class="text-gray-500">Wallet:</span>
+              <span class="text-yellow-500">0x29E007249b744892a1da17F4289f75cfC871d6Fe</span>
+            </div>
+            <div class="flex justify-between mb-2">
+              <span class="text-gray-500">Network:</span>
+              <span>Base Mainnet (Chain ID: 8453)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-500">Token:</span>
+              <span>USDC (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-6">
+          <h3 class="font-semibold mb-3">Step 3: Call API with Transaction Hash</h3>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre class="p-4"><code class="text-green-400">curl "https://subasto.com.ar/api/v1/premium?tx=0xYOUR_TX_HASH"</code></pre>
+          </div>
+          <p class="text-sm text-gray-400 mt-3">Include your transaction hash as the <code class="bg-gray-800 px-1 rounded">tx</code> query parameter.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authentication -->
+    <section id="authentication" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Authentication Flow</h2>
+
+      <div class="bg-[#111] border border-[#222] rounded-xl p-6 mb-6">
+        <h3 class="font-semibold mb-4">How USDC Payment Authentication Works</h3>
+        <div class="space-y-4">
+          <div class="flex gap-4">
+            <div class="w-8 h-8 bg-yellow-500/20 text-yellow-500 rounded-full flex items-center justify-center font-bold text-sm shrink-0">1</div>
+            <div>
+              <p class="font-medium">Send USDC to Payment Wallet</p>
+              <p class="text-sm text-gray-400">Transfer the required amount on Base network</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="w-8 h-8 bg-yellow-500/20 text-yellow-500 rounded-full flex items-center justify-center font-bold text-sm shrink-0">2</div>
+            <div>
+              <p class="font-medium">Get Transaction Hash</p>
+              <p class="text-sm text-gray-400">Copy the 0x... transaction hash from your wallet</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="w-8 h-8 bg-yellow-500/20 text-yellow-500 rounded-full flex items-center justify-center font-bold text-sm shrink-0">3</div>
+            <div>
+              <p class="font-medium">Call API with tx Parameter</p>
+              <p class="text-sm text-gray-400">API verifies on-chain payment and returns data</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-6">
+        <h3 class="font-semibold text-yellow-400 mb-2">Important Rules</h3>
+        <ul class="text-sm text-gray-300 space-y-1">
+          <li>- Each transaction hash can only be used <strong>once</strong> (anti-replay)</li>
+          <li>- Transaction must be within the last <strong>1 hour</strong></li>
+          <li>- Payment must be >= required amount for the endpoint</li>
+          <li>- Transaction must be successful (not pending or failed)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Pricing</h2>
+
+      <div class="grid md:grid-cols-3 gap-4 mb-8">
+        <div class="endpoint-card p-6 hover:border-yellow-500/50 transition-colors">
+          <div class="text-2xl font-bold text-yellow-500 mb-1">$0.01</div>
+          <div class="font-medium mb-2">/api/v1/premium</div>
+          <p class="text-sm text-gray-400">Top 12 curated picks with highest profit potential</p>
+        </div>
+        <div class="endpoint-card p-6 hover:border-yellow-500/50 transition-colors">
+          <div class="text-2xl font-bold text-yellow-500 mb-1">$0.02</div>
+          <div class="font-medium mb-2">/api/v1/opportunities</div>
+          <p class="text-sm text-gray-400">~70 hot deals with 40%+ discount vs market</p>
+        </div>
+        <div class="endpoint-card p-6 hover:border-yellow-500/50 transition-colors">
+          <div class="text-2xl font-bold text-yellow-500 mb-1">$0.05</div>
+          <div class="font-medium mb-2">/api/v1/auctions</div>
+          <p class="text-sm text-gray-400">All 864+ listings from 14 sources</p>
+        </div>
+      </div>
+
+      <h3 class="font-semibold mb-4">Credit Packages (Coming Soon)</h3>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="endpoint-card p-4">
+          <div class="flex justify-between items-center">
+            <span>Starter</span>
+            <span class="text-yellow-500">$1 = 50 credits</span>
+          </div>
+        </div>
+        <div class="endpoint-card p-4">
+          <div class="flex justify-between items-center">
+            <span>Popular</span>
+            <span class="text-yellow-500">$5 = 300 credits <span class="text-green-500 text-xs">(+20%)</span></span>
+          </div>
+        </div>
+        <div class="endpoint-card p-4">
+          <div class="flex justify-between items-center">
+            <span>Pro</span>
+            <span class="text-yellow-500">$10 = 700 credits <span class="text-green-500 text-xs">(+40%)</span></span>
+          </div>
+        </div>
+        <div class="endpoint-card p-4">
+          <div class="flex justify-between items-center">
+            <span>Whale</span>
+            <span class="text-yellow-500">$50 = 4000 credits <span class="text-green-500 text-xs">(+60%)</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Endpoints -->
+    <section id="endpoints" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">API Endpoints</h2>
+
+      <!-- GET /api/v1/price -->
+      <div class="endpoint-card p-6 mb-6">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="method-get px-2 py-1 rounded text-xs font-bold">GET</span>
+          <code class="text-lg">/api/v1/price</code>
+          <span class="text-xs text-gray-500">FREE</span>
+        </div>
+        <p class="text-gray-400 mb-4">Get API pricing and payment instructions. No payment required.</p>
+
+        <h4 class="font-medium text-sm mb-2">Response</h4>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code>{
+  "name": "Auction Scraper API",
+  "version": "1.0.0",
+  "pricing": {
+    "currency": "USDC",
+    "network": "Base",
+    "chain_id": 8453,
+    "endpoints": {
+      "/api/v1/auctions": { "price": 0.05, "description": "All 864+ auction listings" },
+      "/api/v1/opportunities": { "price": 0.02, "description": "Hot deals with 40%+ discount" },
+      "/api/v1/premium": { "price": 0.01, "description": "Curated premium picks" }
+    }
+  },
+  "payment": {
+    "wallet": "0x29E007249b744892a1da17F4289f75cfC871d6Fe",
+    "token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "network": "Base Mainnet"
+  }
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- GET /api/v1/premium -->
+      <div class="endpoint-card p-6 mb-6">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="method-get px-2 py-1 rounded text-xs font-bold">GET</span>
+          <code class="text-lg">/api/v1/premium</code>
+          <span class="text-xs text-yellow-500">$0.01 USDC</span>
+        </div>
+        <p class="text-gray-400 mb-4">Get top 12 curated picks with highest profit potential.</p>
+
+        <h4 class="font-medium text-sm mb-2">Parameters</h4>
+        <div class="bg-[#1a1a1a] rounded-lg p-4 mb-4">
+          <div class="flex gap-4">
+            <code class="text-yellow-500">tx</code>
+            <span class="schema-required text-xs">required</span>
+            <span class="schema-type text-xs">string</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-1">Transaction hash of USDC payment on Base network</p>
+        </div>
+
+        <h4 class="font-medium text-sm mb-2">Response</h4>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code>{
+  "success": true,
+  "payment": {
+    "tx": "0x123...abc",
+    "amount": 0.01,
+    "from": "0xYourWallet..."
+  },
+  "data": {
+    "count": 12,
+    "premium_picks": [
+      {
+        "id": "cordoba:26092",
+        "title": "BERLINGO FURGON - 2018",
+        "discount_percent": 70.4,
+        "category": "vehicles",
+        "source": "cordoba",
+        "source_url": "https://subastas.justiciacordoba.gob.ar/...",
+        "base_price": 7630910.0,
+        "currency": "ARS",
+        "market_typical_usd": 18000,
+        "is_premium": true
+      }
+    ],
+    "blue_dollar_rate": 1430.0,
+    "generated_at": "2026-02-22T04:54:45Z"
+  }
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- GET /api/v1/opportunities -->
+      <div class="endpoint-card p-6 mb-6">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="method-get px-2 py-1 rounded text-xs font-bold">GET</span>
+          <code class="text-lg">/api/v1/opportunities</code>
+          <span class="text-xs text-yellow-500">$0.02 USDC</span>
+        </div>
+        <p class="text-gray-400 mb-4">Get ~70 hot deals with verified 40%+ discount vs market price.</p>
+
+        <h4 class="font-medium text-sm mb-2">Parameters</h4>
+        <div class="bg-[#1a1a1a] rounded-lg p-4 mb-4">
+          <div class="flex gap-4">
+            <code class="text-yellow-500">tx</code>
+            <span class="schema-required text-xs">required</span>
+            <span class="schema-type text-xs">string</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-1">Transaction hash of USDC payment on Base network</p>
+        </div>
+
+        <h4 class="font-medium text-sm mb-2">Response</h4>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code>{
+  "success": true,
+  "payment": { "tx": "0x...", "amount": 0.02, "from": "0x..." },
+  "data": {
+    "count": 70,
+    "opportunities": [
+      {
+        "listing": {
+          "id": "csjn:15",
+          "source": "csjn",
+          "title": "VOLKSWAGEN CROSSFOX 1.6 - 2009",
+          "category": "vehicles",
+          "base_price": 2870000.0,
+          "currency": "ARS"
+        },
+        "market_median_usd": 16984.91,
+        "auction_price_usd": 2006.99,
+        "discount_percentage": 86.1,
+        "confidence_score": 0.36,
+        "comparables_count": 5
+      }
+    ],
+    "generated_at": "2026-02-22T04:54:45Z"
+  }
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- GET /api/v1/auctions -->
+      <div class="endpoint-card p-6 mb-6">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="method-get px-2 py-1 rounded text-xs font-bold">GET</span>
+          <code class="text-lg">/api/v1/auctions</code>
+          <span class="text-xs text-yellow-500">$0.05 USDC</span>
+        </div>
+        <p class="text-gray-400 mb-4">Get all 864+ auction listings from 14 sources.</p>
+
+        <h4 class="font-medium text-sm mb-2">Parameters</h4>
+        <div class="bg-[#1a1a1a] rounded-lg p-4 mb-4">
+          <div class="flex gap-4">
+            <code class="text-yellow-500">tx</code>
+            <span class="schema-required text-xs">required</span>
+            <span class="schema-type text-xs">string</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-1">Transaction hash of USDC payment on Base network</p>
+        </div>
+
+        <h4 class="font-medium text-sm mb-2">Response</h4>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code>{
+  "success": true,
+  "payment": { "tx": "0x...", "amount": 0.05, "from": "0x..." },
+  "data": {
+    "total_count": 864,
+    "by_source": {
+      "cordoba": 508,
+      "agusti": 106,
+      "scba": 90,
+      "global_remates": 33,
+      "adrian_mercado": 32,
+      "banco_ciudad": 23,
+      "bidbit": 19,
+      "csjn": 10
+    },
+    "blue_dollar_rate": 1430.0,
+    "top_opportunities": [...],
+    "generated_at": "2026-02-22T04:54:45Z"
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Response Schemas -->
+    <section id="schemas" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Response Schemas</h2>
+
+      <div class="endpoint-card p-6 mb-6">
+        <h3 class="font-semibold mb-4">Listing Object</h3>
+        <div class="code-block">
+          <pre class="p-4"><code>{
+  <span class="text-blue-400">"id"</span>: <span class="schema-type">string</span>,           <span class="text-gray-500">// Unique ID: "source:number"</span>
+  <span class="text-blue-400">"source"</span>: <span class="schema-type">string</span>,       <span class="text-gray-500">// Data source (csjn, cordoba, etc.)</span>
+  <span class="text-blue-400">"source_url"</span>: <span class="schema-type">string</span>,   <span class="text-gray-500">// Original auction URL</span>
+  <span class="text-blue-400">"title"</span>: <span class="schema-type">string</span>,        <span class="text-gray-500">// Auction title</span>
+  <span class="text-blue-400">"description"</span>: <span class="schema-type">string</span>,  <span class="text-gray-500">// Full description</span>
+  <span class="text-blue-400">"category"</span>: <span class="schema-type">enum</span>,       <span class="text-gray-500">// vehicles|real_estate|machinery|general_goods|other</span>
+  <span class="text-blue-400">"base_price"</span>: <span class="schema-type">number</span>,   <span class="text-gray-500">// Starting price</span>
+  <span class="text-blue-400">"currency"</span>: <span class="schema-type">string</span>,     <span class="text-gray-500">// ARS or USD</span>
+  <span class="text-blue-400">"status"</span>: <span class="schema-type">string</span>,       <span class="text-gray-500">// published|closed</span>
+  <span class="text-blue-400">"starts_at"</span>: <span class="schema-type">datetime</span>,  <span class="text-gray-500">// ISO8601 auction start</span>
+  <span class="text-blue-400">"ends_at"</span>: <span class="schema-type">datetime</span>,    <span class="text-gray-500">// ISO8601 auction end</span>
+  <span class="text-blue-400">"location"</span>: {
+    <span class="text-blue-400">"province"</span>: <span class="schema-type">string</span>,
+    <span class="text-blue-400">"city"</span>: <span class="schema-type">string</span>
+  },
+  <span class="text-blue-400">"images"</span>: [<span class="schema-type">string</span>],     <span class="text-gray-500">// Array of image URLs</span>
+  <span class="text-blue-400">"scraped_at"</span>: <span class="schema-type">datetime</span> <span class="text-gray-500">// When data was collected</span>
+}</code></pre>
+        </div>
+      </div>
+
+      <div class="endpoint-card p-6">
+        <h3 class="font-semibold mb-4">Opportunity Object</h3>
+        <div class="code-block">
+          <pre class="p-4"><code>{
+  <span class="text-blue-400">"listing"</span>: <span class="schema-type">Listing</span>,           <span class="text-gray-500">// Full listing object</span>
+  <span class="text-blue-400">"market_median_usd"</span>: <span class="schema-type">number</span>,  <span class="text-gray-500">// Market price in USD</span>
+  <span class="text-blue-400">"auction_price_usd"</span>: <span class="schema-type">number</span>,  <span class="text-gray-500">// Auction price in USD</span>
+  <span class="text-blue-400">"discount_percentage"</span>: <span class="schema-type">number</span>,<span class="text-gray-500">// Discount vs market (40-90%)</span>
+  <span class="text-blue-400">"confidence_score"</span>: <span class="schema-type">number</span>,   <span class="text-gray-500">// 0.0-1.0 confidence</span>
+  <span class="text-blue-400">"comparables_count"</span>: <span class="schema-type">number</span>,  <span class="text-gray-500">// Market comparables found</span>
+  <span class="text-blue-400">"comparable_urls"</span>: [<span class="schema-type">string</span>], <span class="text-gray-500">// MercadoLibre comparison URLs</span>
+  <span class="text-blue-400">"analysis_notes"</span>: <span class="schema-type">string</span>,    <span class="text-gray-500">// How match was determined</span>
+  <span class="text-blue-400">"analyzed_at"</span>: <span class="schema-type">datetime</span>      <span class="text-gray-500">// When analysis was run</span>
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Error Handling -->
+    <section id="errors" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Error Handling</h2>
+
+      <div class="space-y-4">
+        <div class="endpoint-card p-4">
+          <div class="flex items-center gap-4">
+            <span class="text-red-500 font-mono">402</span>
+            <span class="font-medium">Payment Required</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">Missing tx parameter or payment verification failed</p>
+          <div class="code-block mt-3">
+            <pre class="p-3 text-sm"><code>{
+  "error": "Payment required",
+  "message": "Include ?tx=YOUR_TX_HASH with USDC payment on Base",
+  "price": 0.05,
+  "currency": "USDC",
+  "wallet": "0x29E007249b744892a1da17F4289f75cfC871d6Fe",
+  "docs": "/api/v1/price"
+}</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <div class="flex items-center gap-4">
+            <span class="text-red-500 font-mono">400</span>
+            <span class="font-medium">Transaction Already Used</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">Each transaction hash can only be used once</p>
+          <div class="code-block mt-3">
+            <pre class="p-3 text-sm"><code>{
+  "error": "Transaction already used",
+  "message": "Each transaction can only be used once"
+}</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <div class="flex items-center gap-4">
+            <span class="text-red-500 font-mono">402</span>
+            <span class="font-medium">Insufficient Amount</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">Payment amount is less than required</p>
+          <div class="code-block mt-3">
+            <pre class="p-3 text-sm"><code>{
+  "error": "Payment verification failed",
+  "message": "Insufficient amount: paid $0.01, required $0.05",
+  "required": 0.05,
+  "currency": "USDC"
+}</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <div class="flex items-center gap-4">
+            <span class="text-red-500 font-mono">402</span>
+            <span class="font-medium">Transaction Too Old</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">Transaction must be within the last hour</p>
+          <div class="code-block mt-3">
+            <pre class="p-3 text-sm"><code>{
+  "error": "Payment verification failed",
+  "message": "Transaction too old (max 3600s)"
+}</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <div class="flex items-center gap-4">
+            <span class="text-red-500 font-mono">500</span>
+            <span class="font-medium">Internal Error</span>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">Server error - retry with exponential backoff</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rate Limits -->
+    <section id="rate-limits" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Rate Limits</h2>
+
+      <div class="endpoint-card p-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold mb-3">Current Limits</h3>
+            <ul class="text-sm space-y-2 text-gray-400">
+              <li class="flex justify-between"><span>/api/v1/price</span><span class="text-white">100 req/min</span></li>
+              <li class="flex justify-between"><span>Paid endpoints</span><span class="text-white">60 req/min</span></li>
+              <li class="flex justify-between"><span>Per IP</span><span class="text-white">1000 req/hour</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-3">Best Practices</h3>
+            <ul class="text-sm space-y-2 text-gray-400">
+              <li>- Cache responses for 1 hour (data updates daily)</li>
+              <li>- Use exponential backoff on 429/5xx errors</li>
+              <li>- Batch requests when possible</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Python SDK -->
+    <section id="python-sdk" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Python SDK Example</h2>
+
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <pre class="p-4"><code class="language-python"><span class="text-gray-500"># subasto_client.py - Python SDK for Subasto API</span>
+<span class="text-blue-400">import</span> requests
+<span class="text-blue-400">from</span> web3 <span class="text-blue-400">import</span> Web3
+<span class="text-blue-400">from</span> typing <span class="text-blue-400">import</span> Optional, Dict, Any
+
+<span class="text-blue-400">class</span> <span class="text-yellow-400">SubastoClient</span>:
+    <span class="text-green-400">"""Subasto API client with USDC payment support."""</span>
+
+    BASE_URL = <span class="text-green-400">"https://subasto.com.ar/api/v1"</span>
+    USDC_ADDRESS = <span class="text-green-400">"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"</span>
+    PAYMENT_WALLET = <span class="text-green-400">"0x29E007249b744892a1da17F4289f75cfC871d6Fe"</span>
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">__init__</span>(self, private_key: Optional[str] = <span class="text-blue-400">None</span>, rpc_url: str = <span class="text-green-400">"https://mainnet.base.org"</span>):
+        self.w3 = Web3(Web3.HTTPProvider(rpc_url))
+        self.private_key = private_key
+        <span class="text-blue-400">if</span> private_key:
+            self.account = self.w3.eth.account.from_key(private_key)
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">get_pricing</span>(self) -> Dict[str, Any]:
+        <span class="text-green-400">"""Get API pricing (free endpoint)."""</span>
+        response = requests.get(f<span class="text-green-400">"{self.BASE_URL}/price"</span>)
+        <span class="text-blue-400">return</span> response.json()
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">send_payment</span>(self, amount_usdc: float) -> str:
+        <span class="text-green-400">"""Send USDC payment and return transaction hash."""</span>
+        <span class="text-blue-400">if not</span> self.private_key:
+            <span class="text-blue-400">raise</span> ValueError(<span class="text-green-400">"Private key required for payments"</span>)
+
+        <span class="text-gray-500"># USDC has 6 decimals</span>
+        amount_wei = int(amount_usdc * 10**6)
+
+        <span class="text-gray-500"># ERC20 transfer ABI</span>
+        usdc_abi = [{<span class="text-green-400">"inputs"</span>: [{<span class="text-green-400">"name"</span>: <span class="text-green-400">"to"</span>, <span class="text-green-400">"type"</span>: <span class="text-green-400">"address"</span>},
+                    {<span class="text-green-400">"name"</span>: <span class="text-green-400">"amount"</span>, <span class="text-green-400">"type"</span>: <span class="text-green-400">"uint256"</span>}],
+                    <span class="text-green-400">"name"</span>: <span class="text-green-400">"transfer"</span>, <span class="text-green-400">"outputs"</span>: [{<span class="text-green-400">"type"</span>: <span class="text-green-400">"bool"</span>}], <span class="text-green-400">"type"</span>: <span class="text-green-400">"function"</span>}]
+
+        usdc = self.w3.eth.contract(address=self.USDC_ADDRESS, abi=usdc_abi)
+
+        tx = usdc.functions.transfer(self.PAYMENT_WALLET, amount_wei).build_transaction({
+            <span class="text-green-400">'from'</span>: self.account.address,
+            <span class="text-green-400">'nonce'</span>: self.w3.eth.get_transaction_count(self.account.address),
+            <span class="text-green-400">'gas'</span>: 100000,
+            <span class="text-green-400">'maxFeePerGas'</span>: self.w3.eth.gas_price * 2,
+            <span class="text-green-400">'maxPriorityFeePerGas'</span>: self.w3.to_wei(0.001, <span class="text-green-400">'gwei'</span>)
+        })
+
+        signed = self.w3.eth.account.sign_transaction(tx, self.private_key)
+        tx_hash = self.w3.eth.send_raw_transaction(signed.rawTransaction)
+
+        <span class="text-gray-500"># Wait for confirmation</span>
+        self.w3.eth.wait_for_transaction_receipt(tx_hash)
+        <span class="text-blue-400">return</span> tx_hash.hex()
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">get_premium</span>(self, tx_hash: str) -> Dict[str, Any]:
+        <span class="text-green-400">"""Get premium picks ($0.01 USDC)."""</span>
+        response = requests.get(f<span class="text-green-400">"{self.BASE_URL}/premium"</span>, params={<span class="text-green-400">"tx"</span>: tx_hash})
+        <span class="text-blue-400">return</span> response.json()
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">get_opportunities</span>(self, tx_hash: str) -> Dict[str, Any]:
+        <span class="text-green-400">"""Get hot deals ($0.02 USDC)."""</span>
+        response = requests.get(f<span class="text-green-400">"{self.BASE_URL}/opportunities"</span>, params={<span class="text-green-400">"tx"</span>: tx_hash})
+        <span class="text-blue-400">return</span> response.json()
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">get_auctions</span>(self, tx_hash: str) -> Dict[str, Any]:
+        <span class="text-green-400">"""Get all auctions ($0.05 USDC)."""</span>
+        response = requests.get(f<span class="text-green-400">"{self.BASE_URL}/auctions"</span>, params={<span class="text-green-400">"tx"</span>: tx_hash})
+        <span class="text-blue-400">return</span> response.json()
+
+<span class="text-gray-500"># Usage example</span>
+<span class="text-blue-400">if</span> __name__ == <span class="text-green-400">"__main__"</span>:
+    <span class="text-gray-500"># Without wallet (manual payment)</span>
+    client = SubastoClient()
+    pricing = client.get_pricing()
+    print(f<span class="text-green-400">"Payment wallet: {pricing['payment']['wallet']}"</span>)
+
+    <span class="text-gray-500"># With wallet (automated payment)</span>
+    <span class="text-gray-500"># client = SubastoClient(private_key="0x...")</span>
+    <span class="text-gray-500"># tx_hash = client.send_payment(0.01)</span>
+    <span class="text-gray-500"># data = client.get_premium(tx_hash)</span>
+    <span class="text-gray-500"># print(f"Found {data['data']['count']} premium picks")</span>
+</code></pre>
+      </div>
+    </section>
+
+    <!-- JavaScript SDK -->
+    <section id="javascript-sdk" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">JavaScript/Node SDK Example</h2>
+
+      <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <pre class="p-4"><code class="language-javascript"><span class="text-gray-500">// subasto-client.js - Node.js SDK for Subasto API</span>
+<span class="text-blue-400">import</span> { createPublicClient, createWalletClient, http, parseAbi } <span class="text-blue-400">from</span> <span class="text-green-400">'viem'</span>;
+<span class="text-blue-400">import</span> { base } <span class="text-blue-400">from</span> <span class="text-green-400">'viem/chains'</span>;
+<span class="text-blue-400">import</span> { privateKeyToAccount } <span class="text-blue-400">from</span> <span class="text-green-400">'viem/accounts'</span>;
+
+<span class="text-blue-400">const</span> BASE_URL = <span class="text-green-400">'https://subasto.com.ar/api/v1'</span>;
+<span class="text-blue-400">const</span> USDC_ADDRESS = <span class="text-green-400">'0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'</span>;
+<span class="text-blue-400">const</span> PAYMENT_WALLET = <span class="text-green-400">'0x29E007249b744892a1da17F4289f75cfC871d6Fe'</span>;
+
+<span class="text-blue-400">class</span> <span class="text-yellow-400">SubastoClient</span> {
+  <span class="text-yellow-400">constructor</span>(privateKey = <span class="text-blue-400">null</span>) {
+    <span class="text-blue-400">this</span>.publicClient = createPublicClient({
+      chain: base,
+      transport: http()
+    });
+
+    <span class="text-blue-400">if</span> (privateKey) {
+      <span class="text-blue-400">this</span>.account = privateKeyToAccount(privateKey);
+      <span class="text-blue-400">this</span>.walletClient = createWalletClient({
+        account: <span class="text-blue-400">this</span>.account,
+        chain: base,
+        transport: http()
+      });
+    }
+  }
+
+  <span class="text-blue-400">async</span> <span class="text-yellow-400">getPricing</span>() {
+    <span class="text-blue-400">const</span> response = <span class="text-blue-400">await</span> fetch(`${BASE_URL}/price`);
+    <span class="text-blue-400">return</span> response.json();
+  }
+
+  <span class="text-blue-400">async</span> <span class="text-yellow-400">sendPayment</span>(amountUsdc) {
+    <span class="text-blue-400">if</span> (!<span class="text-blue-400">this</span>.walletClient) {
+      <span class="text-blue-400">throw new</span> Error(<span class="text-green-400">'Private key required for payments'</span>);
+    }
+
+    <span class="text-blue-400">const</span> amountWei = BigInt(Math.floor(amountUsdc * 1e6));
+
+    <span class="text-blue-400">const</span> hash = <span class="text-blue-400">await this</span>.walletClient.writeContract({
+      address: USDC_ADDRESS,
+      abi: parseAbi([<span class="text-green-400">'function transfer(address to, uint256 amount) returns (bool)'</span>]),
+      functionName: <span class="text-green-400">'transfer'</span>,
+      args: [PAYMENT_WALLET, amountWei]
+    });
+
+    <span class="text-gray-500">// Wait for confirmation</span>
+    <span class="text-blue-400">await this</span>.publicClient.waitForTransactionReceipt({ hash });
+    <span class="text-blue-400">return</span> hash;
+  }
+
+  <span class="text-blue-400">async</span> <span class="text-yellow-400">getPremium</span>(txHash) {
+    <span class="text-blue-400">const</span> response = <span class="text-blue-400">await</span> fetch(`${BASE_URL}/premium?tx=${txHash}`);
+    <span class="text-blue-400">return</span> response.json();
+  }
+
+  <span class="text-blue-400">async</span> <span class="text-yellow-400">getOpportunities</span>(txHash) {
+    <span class="text-blue-400">const</span> response = <span class="text-blue-400">await</span> fetch(`${BASE_URL}/opportunities?tx=${txHash}`);
+    <span class="text-blue-400">return</span> response.json();
+  }
+
+  <span class="text-blue-400">async</span> <span class="text-yellow-400">getAuctions</span>(txHash) {
+    <span class="text-blue-400">const</span> response = <span class="text-blue-400">await</span> fetch(`${BASE_URL}/auctions?tx=${txHash}`);
+    <span class="text-blue-400">return</span> response.json();
+  }
+}
+
+<span class="text-gray-500">// Usage example</span>
+<span class="text-blue-400">const</span> client = <span class="text-blue-400">new</span> SubastoClient();
+<span class="text-blue-400">const</span> pricing = <span class="text-blue-400">await</span> client.getPricing();
+console.log(<span class="text-green-400">'Payment wallet:'</span>, pricing.payment.wallet);
+
+<span class="text-gray-500">// With wallet (automated)</span>
+<span class="text-gray-500">// const client = new SubastoClient('0x...');</span>
+<span class="text-gray-500">// const txHash = await client.sendPayment(0.01);</span>
+<span class="text-gray-500">// const data = await client.getPremium(txHash);</span>
+
+<span class="text-blue-400">export default</span> SubastoClient;
+</code></pre>
+      </div>
+    </section>
+
+    <!-- cURL Examples -->
+    <section id="curl-examples" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">cURL Examples</h2>
+
+      <div class="space-y-4">
+        <div class="endpoint-card p-4">
+          <h4 class="font-medium mb-2">Get Pricing (Free)</h4>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre class="p-3"><code>curl -X GET "https://subasto.com.ar/api/v1/price" \
+  -H "Accept: application/json"</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <h4 class="font-medium mb-2">Get Premium Picks ($0.01)</h4>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre class="p-3"><code>curl -X GET "https://subasto.com.ar/api/v1/premium?tx=0xYOUR_TX_HASH" \
+  -H "Accept: application/json"</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <h4 class="font-medium mb-2">Get Opportunities ($0.02)</h4>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre class="p-3"><code>curl -X GET "https://subasto.com.ar/api/v1/opportunities?tx=0xYOUR_TX_HASH" \
+  -H "Accept: application/json"</code></pre>
+          </div>
+        </div>
+
+        <div class="endpoint-card p-4">
+          <h4 class="font-medium mb-2">Get All Auctions ($0.05)</h4>
+          <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <pre class="p-3"><code>curl -X GET "https://subasto.com.ar/api/v1/auctions?tx=0xYOUR_TX_HASH" \
+  -H "Accept: application/json"</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Postman Collection -->
+    <section id="postman" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Postman / Insomnia Collection</h2>
+
+      <div class="endpoint-card p-6">
+        <p class="text-gray-400 mb-4">Import this collection into Postman or Insomnia to test the API:</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy JSON</button>
+          <pre class="p-4 text-sm"><code>{
+  "info": {
+    "name": "Subasto API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Pricing",
+      "request": {
+        "method": "GET",
+        "url": "https://subasto.com.ar/api/v1/price"
+      }
+    },
+    {
+      "name": "Get Premium",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://subasto.com.ar/api/v1/premium?tx={{tx_hash}}",
+          "query": [{"key": "tx", "value": "{{tx_hash}}"}]
+        }
+      }
+    },
+    {
+      "name": "Get Opportunities",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://subasto.com.ar/api/v1/opportunities?tx={{tx_hash}}",
+          "query": [{"key": "tx", "value": "{{tx_hash}}"}]
+        }
+      }
+    },
+    {
+      "name": "Get Auctions",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://subasto.com.ar/api/v1/auctions?tx={{tx_hash}}",
+          "query": [{"key": "tx", "value": "{{tx_hash}}"}]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {"key": "tx_hash", "value": "0x...", "type": "string"}
+  ]
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case: Monitoring Bot -->
+    <section id="monitoring-bot" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Use Case: Auction Monitoring Bot</h2>
+
+      <div class="endpoint-card p-6">
+        <p class="text-gray-400 mb-4">Build a bot that monitors auctions and alerts on new listings matching your criteria:</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code class="language-python"><span class="text-blue-400">import</span> time
+<span class="text-blue-400">import</span> json
+<span class="text-blue-400">from</span> subasto_client <span class="text-blue-400">import</span> SubastoClient
+
+<span class="text-blue-400">class</span> <span class="text-yellow-400">AuctionMonitor</span>:
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">__init__</span>(self, private_key):
+        self.client = SubastoClient(private_key)
+        self.seen_ids = set()
+        self.filters = {
+            <span class="text-green-400">'category'</span>: <span class="text-green-400">'vehicles'</span>,
+            <span class="text-green-400">'min_discount'</span>: 50,  <span class="text-gray-500"># 50%+ off</span>
+            <span class="text-green-400">'max_price_usd'</span>: 10000
+        }
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">check_new_opportunities</span>(self):
+        <span class="text-gray-500"># Pay for opportunities endpoint</span>
+        tx_hash = self.client.send_payment(0.02)
+        data = self.client.get_opportunities(tx_hash)
+
+        new_matches = []
+        <span class="text-blue-400">for</span> opp <span class="text-blue-400">in</span> data[<span class="text-green-400">'data'</span>][<span class="text-green-400">'opportunities'</span>]:
+            listing = opp[<span class="text-green-400">'listing'</span>]
+
+            <span class="text-gray-500"># Skip if already seen</span>
+            <span class="text-blue-400">if</span> listing[<span class="text-green-400">'id'</span>] <span class="text-blue-400">in</span> self.seen_ids:
+                <span class="text-blue-400">continue</span>
+
+            <span class="text-gray-500"># Apply filters</span>
+            <span class="text-blue-400">if</span> listing[<span class="text-green-400">'category'</span>] != self.filters[<span class="text-green-400">'category'</span>]:
+                <span class="text-blue-400">continue</span>
+            <span class="text-blue-400">if</span> opp[<span class="text-green-400">'discount_percentage'</span>] < self.filters[<span class="text-green-400">'min_discount'</span>]:
+                <span class="text-blue-400">continue</span>
+            <span class="text-blue-400">if</span> opp[<span class="text-green-400">'auction_price_usd'</span>] > self.filters[<span class="text-green-400">'max_price_usd'</span>]:
+                <span class="text-blue-400">continue</span>
+
+            self.seen_ids.add(listing[<span class="text-green-400">'id'</span>])
+            new_matches.append(opp)
+
+        <span class="text-blue-400">return</span> new_matches
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">send_alert</span>(self, opportunities):
+        <span class="text-blue-400">for</span> opp <span class="text-blue-400">in</span> opportunities:
+            print(f<span class="text-green-400">"""
+NEW DEAL ALERT!
+Title: {opp['listing']['title']}
+Discount: {opp['discount_percentage']}%
+Price: ${opp['auction_price_usd']:.0f} (Market: ${opp['market_median_usd']:.0f})
+URL: {opp['listing']['source_url']}
+"""</span>)
+
+    <span class="text-blue-400">def</span> <span class="text-yellow-400">run</span>(self, interval_hours=24):
+        <span class="text-blue-400">while True</span>:
+            new_opps = self.check_new_opportunities()
+            <span class="text-blue-400">if</span> new_opps:
+                self.send_alert(new_opps)
+            time.sleep(interval_hours * 3600)
+
+<span class="text-gray-500"># Run the monitor</span>
+monitor = AuctionMonitor(private_key=<span class="text-green-400">"0x..."</span>)
+monitor.run(interval_hours=24)  <span class="text-gray-500"># Check daily ($0.02/day)</span>
+</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case: Deal Alerts -->
+    <section id="deal-alerts" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Use Case: Deal Alert System</h2>
+
+      <div class="endpoint-card p-6">
+        <p class="text-gray-400 mb-4">Create a Telegram/Discord bot that sends alerts for high-value deals:</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code class="language-python"><span class="text-blue-400">import</span> requests
+<span class="text-blue-400">from</span> subasto_client <span class="text-blue-400">import</span> SubastoClient
+
+<span class="text-blue-400">def</span> <span class="text-yellow-400">send_telegram_alert</span>(bot_token, chat_id, message):
+    url = f<span class="text-green-400">"https://api.telegram.org/bot{bot_token}/sendMessage"</span>
+    requests.post(url, json={<span class="text-green-400">"chat_id"</span>: chat_id, <span class="text-green-400">"text"</span>: message, <span class="text-green-400">"parse_mode"</span>: <span class="text-green-400">"HTML"</span>})
+
+<span class="text-blue-400">def</span> <span class="text-yellow-400">check_premium_deals</span>(client, bot_token, chat_id):
+    <span class="text-gray-500"># Get premium picks for just $0.01</span>
+    tx_hash = client.send_payment(0.01)
+    data = client.get_premium(tx_hash)
+
+    <span class="text-blue-400">for</span> pick <span class="text-blue-400">in</span> data[<span class="text-green-400">'data'</span>][<span class="text-green-400">'premium_picks'</span>]:
+        <span class="text-blue-400">if</span> pick[<span class="text-green-400">'discount_percent'</span>] >= 60:  <span class="text-gray-500"># 60%+ off</span>
+            message = f<span class="text-green-400">"""
+&lt;b&gt;HOT DEAL ALERT&lt;/b&gt;
+
+{pick['title']}
+Discount: {pick['discount_percent']}%
+Price: {pick['base_price']:,.0f} {pick['currency']}
+Market Value: ${pick['market_typical_usd']:,.0f} USD
+
+&lt;a href="{pick['source_url']}"&gt;View Auction&lt;/a&gt;
+"""</span>
+            send_telegram_alert(bot_token, chat_id, message)
+
+<span class="text-gray-500"># Run daily at 9 AM</span>
+client = SubastoClient(private_key=<span class="text-green-400">"0x..."</span>)
+check_premium_deals(client, <span class="text-green-400">"YOUR_BOT_TOKEN"</span>, <span class="text-green-400">"YOUR_CHAT_ID"</span>)
+</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case: Investment Analysis -->
+    <section id="investment-analysis" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Use Case: Investment Analysis</h2>
+
+      <div class="endpoint-card p-6">
+        <p class="text-gray-400 mb-4">Analyze auction data for investment decisions with LLM assistance:</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code class="language-python"><span class="text-blue-400">from</span> anthropic <span class="text-blue-400">import</span> Anthropic
+<span class="text-blue-400">from</span> subasto_client <span class="text-blue-400">import</span> SubastoClient
+
+<span class="text-blue-400">def</span> <span class="text-yellow-400">analyze_investment_opportunities</span>(subasto_key, anthropic_key):
+    subasto = SubastoClient(private_key=subasto_key)
+    claude = Anthropic(api_key=anthropic_key)
+
+    <span class="text-gray-500"># Get all opportunities</span>
+    tx_hash = subasto.send_payment(0.02)
+    data = subasto.get_opportunities(tx_hash)
+
+    <span class="text-gray-500"># Filter vehicles with high confidence</span>
+    vehicles = [
+        o <span class="text-blue-400">for</span> o <span class="text-blue-400">in</span> data[<span class="text-green-400">'data'</span>][<span class="text-green-400">'opportunities'</span>]
+        <span class="text-blue-400">if</span> o[<span class="text-green-400">'listing'</span>][<span class="text-green-400">'category'</span>] == <span class="text-green-400">'vehicles'</span>
+        <span class="text-blue-400">and</span> o[<span class="text-green-400">'confidence_score'</span>] >= 0.3
+        <span class="text-blue-400">and</span> o[<span class="text-green-400">'discount_percentage'</span>] >= 40
+    ]
+
+    <span class="text-gray-500"># Ask Claude to analyze</span>
+    prompt = f<span class="text-green-400">"""Analyze these Argentine auction vehicles for investment potential.
+Consider: resale value, condition, market demand, and flip potential.
+
+Data (Blue Dollar Rate: ${data['data'].get('blue_dollar_rate', 1430)}):
+{json.dumps(vehicles[:10], indent=2)}
+
+Provide top 3 recommendations with reasoning."""</span>
+
+    response = claude.messages.create(
+        model=<span class="text-green-400">"claude-sonnet-4-20250514"</span>,
+        max_tokens=1000,
+        messages=[{<span class="text-green-400">"role"</span>: <span class="text-green-400">"user"</span>, <span class="text-green-400">"content"</span>: prompt}]
+    )
+
+    <span class="text-blue-400">return</span> response.content[0].text
+
+<span class="text-gray-500"># Run analysis</span>
+analysis = analyze_investment_opportunities(<span class="text-green-400">"0x..."</span>, <span class="text-green-400">"sk-ant-..."</span>)
+print(analysis)
+</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case: Arbitrage -->
+    <section id="arbitrage" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Use Case: Arbitrage Detection</h2>
+
+      <div class="endpoint-card p-6">
+        <p class="text-gray-400 mb-4">Detect arbitrage opportunities between auction and market prices:</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <pre class="p-4"><code class="language-python"><span class="text-blue-400">from</span> subasto_client <span class="text-blue-400">import</span> SubastoClient
+<span class="text-blue-400">import</span> pandas <span class="text-blue-400">as</span> pd
+
+<span class="text-blue-400">def</span> <span class="text-yellow-400">find_arbitrage_opportunities</span>(client, min_profit_usd=1000):
+    tx_hash = client.send_payment(0.02)
+    data = client.get_opportunities(tx_hash)
+
+    opportunities = []
+    <span class="text-blue-400">for</span> opp <span class="text-blue-400">in</span> data[<span class="text-green-400">'data'</span>][<span class="text-green-400">'opportunities'</span>]:
+        <span class="text-gray-500"># Calculate potential profit</span>
+        buy_price = opp[<span class="text-green-400">'auction_price_usd'</span>]
+        market_price = opp[<span class="text-green-400">'market_median_usd'</span>]
+
+        <span class="text-gray-500"># Assume 15% selling costs (fees, taxes, transport)</span>
+        net_sell_price = market_price * 0.85
+        profit = net_sell_price - buy_price
+        roi = (profit / buy_price) * 100 <span class="text-blue-400">if</span> buy_price > 0 <span class="text-blue-400">else</span> 0
+
+        <span class="text-blue-400">if</span> profit >= min_profit_usd <span class="text-blue-400">and</span> roi >= 30:
+            opportunities.append({
+                <span class="text-green-400">'id'</span>: opp[<span class="text-green-400">'listing'</span>][<span class="text-green-400">'id'</span>],
+                <span class="text-green-400">'title'</span>: opp[<span class="text-green-400">'listing'</span>][<span class="text-green-400">'title'</span>],
+                <span class="text-green-400">'category'</span>: opp[<span class="text-green-400">'listing'</span>][<span class="text-green-400">'category'</span>],
+                <span class="text-green-400">'buy_price_usd'</span>: buy_price,
+                <span class="text-green-400">'market_price_usd'</span>: market_price,
+                <span class="text-green-400">'net_profit_usd'</span>: profit,
+                <span class="text-green-400">'roi_percent'</span>: roi,
+                <span class="text-green-400">'url'</span>: opp[<span class="text-green-400">'listing'</span>][<span class="text-green-400">'source_url'</span>],
+                <span class="text-green-400">'confidence'</span>: opp[<span class="text-green-400">'confidence_score'</span>]
+            })
+
+    <span class="text-gray-500"># Sort by ROI</span>
+    df = pd.DataFrame(opportunities)
+    <span class="text-blue-400">return</span> df.sort_values(<span class="text-green-400">'roi_percent'</span>, ascending=<span class="text-blue-400">False</span>)
+
+<span class="text-gray-500"># Find opportunities with $1000+ profit potential</span>
+client = SubastoClient(private_key=<span class="text-green-400">"0x..."</span>)
+arb_opps = find_arbitrage_opportunities(client, min_profit_usd=1000)
+print(arb_opps.to_string())
+</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Structured Data -->
+    <section id="structured-data" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Structured Data for AI Agents</h2>
+
+      <div class="endpoint-card p-6">
+        <h3 class="font-semibold mb-4">Response Format Optimizations</h3>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li class="flex gap-3">
+            <span class="text-green-500">+</span>
+            <span><strong class="text-white">Consistent schema</strong> - All responses follow predictable JSON structure</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="text-green-500">+</span>
+            <span><strong class="text-white">ISO8601 dates</strong> - All timestamps in standard format</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="text-green-500">+</span>
+            <span><strong class="text-white">USD normalization</strong> - Prices converted to USD for easy comparison</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="text-green-500">+</span>
+            <span><strong class="text-white">Enum categories</strong> - Fixed set: vehicles, real_estate, machinery, general_goods, other</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="text-green-500">+</span>
+            <span><strong class="text-white">Confidence scores</strong> - 0.0-1.0 scores for market price accuracy</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="text-green-500">+</span>
+            <span><strong class="text-white">Blue dollar rate</strong> - Current ARS/USD rate included in responses</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Webhooks -->
+    <section id="webhooks" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Webhooks (Coming Soon)</h2>
+
+      <div class="endpoint-card p-6">
+        <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-4 mb-4">
+          <p class="text-yellow-400 text-sm">Webhook support is coming soon for Pro and Enterprise subscribers.</p>
+        </div>
+        <h3 class="font-semibold mb-4">Planned Webhook Events</h3>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li><code class="bg-gray-800 px-2 py-0.5 rounded">auction.new</code> - New auction listing added</li>
+          <li><code class="bg-gray-800 px-2 py-0.5 rounded">auction.closing_soon</code> - Auction closing within 24h</li>
+          <li><code class="bg-gray-800 px-2 py-0.5 rounded">opportunity.detected</code> - New 40%+ discount opportunity</li>
+          <li><code class="bg-gray-800 px-2 py-0.5 rounded">price.dropped</code> - Price reduced on watched listing</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Batch Processing -->
+    <section id="batch-processing" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Batch Processing Patterns</h2>
+
+      <div class="endpoint-card p-6">
+        <h3 class="font-semibold mb-4">Efficient Data Retrieval</h3>
+        <div class="code-block">
+          <pre class="p-4"><code class="language-python"><span class="text-gray-500"># Instead of multiple requests, use /auctions for full dataset</span>
+<span class="text-gray-500"># Cost: $0.05 once vs $0.01 x N requests</span>
+
+<span class="text-blue-400">def</span> <span class="text-yellow-400">efficient_batch_process</span>(client):
+    <span class="text-gray-500"># Single payment for all data</span>
+    tx_hash = client.send_payment(0.05)
+    all_data = client.get_auctions(tx_hash)
+
+    <span class="text-gray-500"># Process locally - no additional API calls</span>
+    vehicles = [l <span class="text-blue-400">for</span> l <span class="text-blue-400">in</span> all_data[<span class="text-green-400">'data'</span>][<span class="text-green-400">'listings'</span>]
+                <span class="text-blue-400">if</span> l[<span class="text-green-400">'category'</span>] == <span class="text-green-400">'vehicles'</span>]
+    real_estate = [l <span class="text-blue-400">for</span> l <span class="text-blue-400">in</span> all_data[<span class="text-green-400">'data'</span>][<span class="text-green-400">'listings'</span>]
+                  <span class="text-blue-400">if</span> l[<span class="text-green-400">'category'</span>] == <span class="text-green-400">'real_estate'</span>]
+
+    <span class="text-gray-500"># Cache for 24 hours (data updates daily)</span>
+    cache.set(<span class="text-green-400">'auctions'</span>, all_data, ttl=86400)
+
+    <span class="text-blue-400">return</span> {<span class="text-green-400">'vehicles'</span>: vehicles, <span class="text-green-400">'real_estate'</span>: real_estate}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Caching -->
+    <section id="caching" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Caching Recommendations</h2>
+
+      <div class="endpoint-card p-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold mb-3">Cache Durations</h3>
+            <ul class="text-sm space-y-2 text-gray-400">
+              <li class="flex justify-between"><span>/api/v1/price</span><span class="text-white">1 hour</span></li>
+              <li class="flex justify-between"><span>/api/v1/premium</span><span class="text-white">12 hours</span></li>
+              <li class="flex justify-between"><span>/api/v1/opportunities</span><span class="text-white">12 hours</span></li>
+              <li class="flex justify-between"><span>/api/v1/auctions</span><span class="text-white">24 hours</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-3">Cache Strategy</h3>
+            <ul class="text-sm space-y-2 text-gray-400">
+              <li>- Data updates once daily (early morning UTC)</li>
+              <li>- Cache by endpoint, not by tx hash</li>
+              <li>- Use Redis/Memcached for production</li>
+              <li>- Invalidate on new payment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Try API -->
+    <section id="try-api" class="mb-16">
+      <h2 class="text-2xl font-bold mb-6">Try the API</h2>
+
+      <div class="endpoint-card p-6">
+        <h3 class="font-semibold mb-4">Interactive API Tester</h3>
+        <div class="space-y-4">
+          <div>
+            <label class="block text-sm text-gray-400 mb-2">Endpoint</label>
+            <select id="endpoint-select" class="w-full bg-[#1a1a1a] border border-gray-700 rounded-lg px-4 py-2 text-white">
+              <option value="/api/v1/price">GET /api/v1/price (Free)</option>
+              <option value="/api/v1/premium">GET /api/v1/premium ($0.01)</option>
+              <option value="/api/v1/opportunities">GET /api/v1/opportunities ($0.02)</option>
+              <option value="/api/v1/auctions">GET /api/v1/auctions ($0.05)</option>
+            </select>
+          </div>
+          <div id="tx-input-container" class="hidden">
+            <label class="block text-sm text-gray-400 mb-2">Transaction Hash</label>
+            <input type="text" id="tx-input" placeholder="0x..." class="w-full bg-[#1a1a1a] border border-gray-700 rounded-lg px-4 py-2 text-white font-mono">
+          </div>
+          <button onclick="tryApi()" class="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-3 rounded-lg transition-colors">
+            Send Request
+          </button>
+          <div id="api-response" class="hidden">
+            <label class="block text-sm text-gray-400 mb-2">Response</label>
+            <pre id="api-response-content" class="p-4 bg-[#1a1a1a] rounded-lg overflow-x-auto text-sm"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 pt-8 mt-16">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-sm text-gray-500">
+          Subasto API v1.6.0 - Built for AI Agents
+        </div>
+        <div class="flex gap-6 text-sm">
+          <a href="https://subasto.com.ar" class="text-gray-400 hover:text-white">Main Site</a>
+          <a href="/api/v1/openapi.json" class="text-gray-400 hover:text-white">OpenAPI Spec</a>
+          <a href="mailto:agencia@memola.com.ar" class="text-gray-400 hover:text-white">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+function copyCode(btn) {
+  const pre = btn.parentElement.querySelector('pre');
+  const code = pre.textContent;
+  navigator.clipboard.writeText(code).then(() => {
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy', 2000);
+  });
+}
+
+document.getElementById('endpoint-select').addEventListener('change', function() {
+  const txContainer = document.getElementById('tx-input-container');
+  if (this.value === '/api/v1/price') {
+    txContainer.classList.add('hidden');
+  } else {
+    txContainer.classList.remove('hidden');
+  }
+});
+
+async function tryApi() {
+  const endpoint = document.getElementById('endpoint-select').value;
+  const txInput = document.getElementById('tx-input');
+  const responseDiv = document.getElementById('api-response');
+  const responseContent = document.getElementById('api-response-content');
+
+  let url = `https://subasto.com.ar${endpoint}`;
+  if (endpoint !== '/api/v1/price' && txInput.value) {
+    url += `?tx=${txInput.value}`;
+  }
+
+  try {
+    responseContent.textContent = 'Loading...';
+    responseDiv.classList.remove('hidden');
+
+    const response = await fetch(url);
+    const data = await response.json();
+    responseContent.textContent = JSON.stringify(data, null, 2);
+  } catch (error) {
+    responseContent.textContent = `Error: ${error.message}`;
+  }
+}
+
+// Smooth scroll for nav links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// Highlight active nav link on scroll
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-link');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 100;
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `#${current}`) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+
+</body>
+</html>

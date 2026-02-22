@@ -1,0 +1,303 @@
+{
+  "provinces": {
+    "CABA": {
+      "name": "Ciudad Autonoma de Buenos Aires",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "cities": {
+        "": {"lat": -34.6037, "lng": -58.3816}
+      }
+    },
+    "Buenos Aires": {
+      "name": "Buenos Aires",
+      "lat": -34.9215,
+      "lng": -57.9545,
+      "cities": {
+        "": {"lat": -34.9215, "lng": -57.9545},
+        "La Plata": {"lat": -34.9215, "lng": -57.9545},
+        "Mar del Plata": {"lat": -38.0055, "lng": -57.5426},
+        "Bahia Blanca": {"lat": -38.7196, "lng": -62.2724},
+        "Tandil": {"lat": -37.3217, "lng": -59.1332},
+        "Quilmes": {"lat": -34.7203, "lng": -58.2635},
+        "Lomas de Zamora": {"lat": -34.7594, "lng": -58.4023},
+        "San Isidro": {"lat": -34.4723, "lng": -58.5108},
+        "Tigre": {"lat": -34.4264, "lng": -58.5795},
+        "Pilar": {"lat": -34.4587, "lng": -58.9142},
+        "Zarate": {"lat": -34.0981, "lng": -59.0286},
+        "Campana": {"lat": -34.1686, "lng": -58.9591},
+        "San Nicolas": {"lat": -33.3319, "lng": -60.2261}
+      }
+    },
+    "Cordoba": {
+      "name": "Cordoba",
+      "lat": -31.4201,
+      "lng": -64.1888,
+      "cities": {
+        "": {"lat": -31.4201, "lng": -64.1888},
+        "Cordoba": {"lat": -31.4201, "lng": -64.1888},
+        "Villa Carlos Paz": {"lat": -31.4241, "lng": -64.4977},
+        "Rio Cuarto": {"lat": -33.1308, "lng": -64.3504},
+        "Villa Maria": {"lat": -32.4075, "lng": -63.2308},
+        "Alta Gracia": {"lat": -31.6539, "lng": -64.4324},
+        "Bell Ville": {"lat": -32.6308, "lng": -62.6837}
+      }
+    },
+    "Santa Fe": {
+      "name": "Santa Fe",
+      "lat": -31.6107,
+      "lng": -60.6973,
+      "cities": {
+        "": {"lat": -31.6107, "lng": -60.6973},
+        "Santa Fe": {"lat": -31.6107, "lng": -60.6973},
+        "Rosario": {"lat": -32.9468, "lng": -60.6393},
+        "Rafaela": {"lat": -31.2529, "lng": -61.4867},
+        "Venado Tuerto": {"lat": -33.7454, "lng": -61.9688},
+        "Reconquista": {"lat": -29.1467, "lng": -59.6503}
+      }
+    },
+    "Entre Rios": {
+      "name": "Entre Rios",
+      "lat": -31.7333,
+      "lng": -60.5333,
+      "cities": {
+        "": {"lat": -31.7333, "lng": -60.5333},
+        "Parana": {"lat": -31.7333, "lng": -60.5333},
+        "Concordia": {"lat": -31.3922, "lng": -58.0206},
+        "Gualeguaychu": {"lat": -33.0103, "lng": -58.5172},
+        "Concepcion del Uruguay": {"lat": -32.4833, "lng": -58.2333}
+      }
+    },
+    "Mendoza": {
+      "name": "Mendoza",
+      "lat": -32.8895,
+      "lng": -68.8458,
+      "cities": {
+        "": {"lat": -32.8895, "lng": -68.8458},
+        "Mendoza": {"lat": -32.8895, "lng": -68.8458},
+        "San Rafael": {"lat": -34.6176, "lng": -68.3301},
+        "Godoy Cruz": {"lat": -32.9266, "lng": -68.8399},
+        "Lujan de Cuyo": {"lat": -33.0379, "lng": -68.8792}
+      }
+    },
+    "Tucuman": {
+      "name": "Tucuman",
+      "lat": -26.8241,
+      "lng": -65.2226,
+      "cities": {
+        "": {"lat": -26.8241, "lng": -65.2226},
+        "San Miguel de Tucuman": {"lat": -26.8241, "lng": -65.2226}
+      }
+    },
+    "Salta": {
+      "name": "Salta",
+      "lat": -24.7821,
+      "lng": -65.4232,
+      "cities": {
+        "": {"lat": -24.7821, "lng": -65.4232},
+        "Salta": {"lat": -24.7821, "lng": -65.4232},
+        "San Ramon de la Nueva Oran": {"lat": -23.1378, "lng": -64.3289},
+        "Tartagal": {"lat": -22.5167, "lng": -63.8}
+      }
+    },
+    "Chaco": {
+      "name": "Chaco",
+      "lat": -27.4514,
+      "lng": -58.9867,
+      "cities": {
+        "": {"lat": -27.4514, "lng": -58.9867},
+        "Resistencia": {"lat": -27.4514, "lng": -58.9867},
+        "Presidencia Roque Saenz Pena": {"lat": -26.7855, "lng": -60.4399}
+      }
+    },
+    "Corrientes": {
+      "name": "Corrientes",
+      "lat": -27.4692,
+      "lng": -58.8306,
+      "cities": {
+        "": {"lat": -27.4692, "lng": -58.8306},
+        "Corrientes": {"lat": -27.4692, "lng": -58.8306},
+        "Goya": {"lat": -29.1417, "lng": -59.2631}
+      }
+    },
+    "Misiones": {
+      "name": "Misiones",
+      "lat": -27.3671,
+      "lng": -55.8961,
+      "cities": {
+        "": {"lat": -27.3671, "lng": -55.8961},
+        "Posadas": {"lat": -27.3671, "lng": -55.8961},
+        "Puerto Iguazu": {"lat": -25.5972, "lng": -54.5786}
+      }
+    },
+    "San Juan": {
+      "name": "San Juan",
+      "lat": -31.5375,
+      "lng": -68.5364,
+      "cities": {
+        "": {"lat": -31.5375, "lng": -68.5364},
+        "San Juan": {"lat": -31.5375, "lng": -68.5364}
+      }
+    },
+    "San Luis": {
+      "name": "San Luis",
+      "lat": -33.3017,
+      "lng": -66.3378,
+      "cities": {
+        "": {"lat": -33.3017, "lng": -66.3378},
+        "San Luis": {"lat": -33.3017, "lng": -66.3378},
+        "Villa Mercedes": {"lat": -33.6756, "lng": -65.4619}
+      }
+    },
+    "La Pampa": {
+      "name": "La Pampa",
+      "lat": -36.6167,
+      "lng": -64.2833,
+      "cities": {
+        "": {"lat": -36.6167, "lng": -64.2833},
+        "Santa Rosa": {"lat": -36.6167, "lng": -64.2833},
+        "General Pico": {"lat": -35.6567, "lng": -63.7575}
+      }
+    },
+    "Neuquen": {
+      "name": "Neuquen",
+      "lat": -38.9516,
+      "lng": -68.0591,
+      "cities": {
+        "": {"lat": -38.9516, "lng": -68.0591},
+        "Neuquen": {"lat": -38.9516, "lng": -68.0591},
+        "San Martin de los Andes": {"lat": -40.1575, "lng": -71.3531}
+      }
+    },
+    "Rio Negro": {
+      "name": "Rio Negro",
+      "lat": -40.8135,
+      "lng": -63.0,
+      "cities": {
+        "": {"lat": -40.8135, "lng": -63.0},
+        "Viedma": {"lat": -40.8135, "lng": -63.0},
+        "San Carlos de Bariloche": {"lat": -41.1335, "lng": -71.3103},
+        "General Roca": {"lat": -39.0308, "lng": -67.5817}
+      }
+    },
+    "Chubut": {
+      "name": "Chubut",
+      "lat": -43.3,
+      "lng": -65.1,
+      "cities": {
+        "": {"lat": -43.3, "lng": -65.1},
+        "Rawson": {"lat": -43.3, "lng": -65.1},
+        "Comodoro Rivadavia": {"lat": -45.8667, "lng": -67.5},
+        "Trelew": {"lat": -43.2489, "lng": -65.3092},
+        "Puerto Madryn": {"lat": -42.7692, "lng": -65.0385}
+      }
+    },
+    "Santa Cruz": {
+      "name": "Santa Cruz",
+      "lat": -51.6226,
+      "lng": -69.2181,
+      "cities": {
+        "": {"lat": -51.6226, "lng": -69.2181},
+        "Rio Gallegos": {"lat": -51.6226, "lng": -69.2181},
+        "El Calafate": {"lat": -50.3378, "lng": -72.2647}
+      }
+    },
+    "Tierra del Fuego": {
+      "name": "Tierra del Fuego",
+      "lat": -54.8019,
+      "lng": -68.3030,
+      "cities": {
+        "": {"lat": -54.8019, "lng": -68.3030},
+        "Ushuaia": {"lat": -54.8019, "lng": -68.3030},
+        "Rio Grande": {"lat": -53.7877, "lng": -67.7094}
+      }
+    },
+    "Jujuy": {
+      "name": "Jujuy",
+      "lat": -24.1858,
+      "lng": -65.2995,
+      "cities": {
+        "": {"lat": -24.1858, "lng": -65.2995},
+        "San Salvador de Jujuy": {"lat": -24.1858, "lng": -65.2995}
+      }
+    },
+    "Catamarca": {
+      "name": "Catamarca",
+      "lat": -28.4696,
+      "lng": -65.7795,
+      "cities": {
+        "": {"lat": -28.4696, "lng": -65.7795},
+        "San Fernando del Valle de Catamarca": {"lat": -28.4696, "lng": -65.7795}
+      }
+    },
+    "La Rioja": {
+      "name": "La Rioja",
+      "lat": -29.4131,
+      "lng": -66.8558,
+      "cities": {
+        "": {"lat": -29.4131, "lng": -66.8558},
+        "La Rioja": {"lat": -29.4131, "lng": -66.8558}
+      }
+    },
+    "Santiago del Estero": {
+      "name": "Santiago del Estero",
+      "lat": -27.7951,
+      "lng": -64.2615,
+      "cities": {
+        "": {"lat": -27.7951, "lng": -64.2615},
+        "Santiago del Estero": {"lat": -27.7951, "lng": -64.2615}
+      }
+    },
+    "Formosa": {
+      "name": "Formosa",
+      "lat": -26.1857,
+      "lng": -58.1755,
+      "cities": {
+        "": {"lat": -26.1857, "lng": -58.1755},
+        "Formosa": {"lat": -26.1857, "lng": -58.1755}
+      }
+    }
+  },
+  "source_locations": {
+    "csjn": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "scba": {"province": "Buenos Aires", "city": "La Plata", "lat": -34.9215, "lng": -57.9545},
+    "cordoba": {"province": "Cordoba", "city": "Cordoba", "lat": -31.4201, "lng": -64.1888},
+    "entrerios": {"province": "Entre Rios", "city": "Parana", "lat": -31.7333, "lng": -60.5333},
+    "banco_ciudad": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "agusti": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "adrian_mercado": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "global_remates": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "bidbit": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "manucha": {"province": "Buenos Aires", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "sitiodetiendas": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "rematadores": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816},
+    "zarate": {"province": "Buenos Aires", "city": "Zarate", "lat": -34.0981, "lng": -59.0286},
+    "delafuente": {"province": "CABA", "city": "", "lat": -34.6037, "lng": -58.3816}
+  },
+  "transport_costs": {
+    "fuel_price_per_liter_ars": 1200,
+    "avg_consumption_km_per_liter": 10,
+    "toll_avg_per_100km_ars": 5000,
+    "freight_rates": {
+      "general_goods": {
+        "per_km_ars": 350,
+        "base_fee_ars": 25000,
+        "max_weight_kg": 1000
+      },
+      "vehicles": {
+        "per_km_ars": 550,
+        "base_fee_ars": 45000,
+        "description": "Car carrier / auxilio"
+      },
+      "machinery": {
+        "per_km_ars": 750,
+        "base_fee_ars": 80000,
+        "description": "Flatbed truck / lowboy"
+      },
+      "real_estate": {
+        "per_km_ars": 0,
+        "base_fee_ars": 0,
+        "description": "No transport needed"
+      }
+    }
+  }
+}

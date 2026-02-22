@@ -1,0 +1,147 @@
+<!--
+  REFERRAL SECTION - Add this to index.html
+
+  Instructions:
+  1. Add this section before the FOOTER (around line 1014)
+  2. Add the script tag before closing </body>:
+     <script src="/js/referral.js"></script>
+-->
+
+<!-- REFERRAL PROGRAM SECTION -->
+<section id="referral" class="py-20 px-4">
+    <div class="max-w-[1400px] mx-auto">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+            <div class="inline-flex items-center gap-2 text-yellow-500 text-sm font-medium mb-4">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                PROGRAMA DE AFILIADOS
+            </div>
+            <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
+                Comparte y <span class="text-yellow-500">Gana</span>
+            </h2>
+            <p class="text-white/60 text-lg max-w-2xl mx-auto">
+                Invita desarrolladores y agentes de IA a usar nuestra API.
+                Gana el <span class="text-yellow-500 font-semibold">10%</span> de cada pago que hagan.
+            </p>
+        </div>
+
+        <!-- Main Grid -->
+        <div class="grid lg:grid-cols-2 gap-8 mb-12">
+            <!-- Share & Earn Panel (dynamic) -->
+            <div id="share-and-earn">
+                <!-- This is populated by referral.js -->
+                <div class="glass rounded-2xl p-6 md:p-8">
+                    <div class="flex items-center justify-center py-8">
+                        <div class="animate-spin w-8 h-8 border-2 border-yellow-500 border-t-transparent rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- How It Works -->
+            <div class="glass rounded-2xl p-6 md:p-8">
+                <h3 class="text-xl font-display font-bold text-white mb-6 flex items-center gap-3">
+                    <svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                    </svg>
+                    Como Funciona
+                </h3>
+
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                            <span class="text-yellow-500 font-display font-bold">1</span>
+                        </div>
+                        <div>
+                            <div class="text-white font-medium mb-1">Registrate como afiliado</div>
+                            <p class="text-white/50 text-sm">Conecta tu wallet para recibir pagos en USDC en Base network.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                            <span class="text-yellow-500 font-display font-bold">2</span>
+                        </div>
+                        <div>
+                            <div class="text-white font-medium mb-1">Comparte tu link unico</div>
+                            <p class="text-white/50 text-sm">Tu codigo se guarda por 30 dias en el navegador del visitante.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                            <span class="text-yellow-500 font-display font-bold">3</span>
+                        </div>
+                        <div>
+                            <div class="text-white font-medium mb-1">Gana comisiones</div>
+                            <p class="text-white/50 text-sm">Recibe el 10% de todos los pagos API que hagan tus referidos.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-green-500/20 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="text-white font-medium mb-1">Retira cuando quieras</div>
+                            <p class="text-white/50 text-sm">Minimo $1 USDC. Pagos directos a tu wallet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefits -->
+                <div class="mt-8 pt-6 border-t border-white/10">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center p-3 bg-white/5 rounded-xl">
+                            <div class="text-2xl font-display font-bold text-yellow-500">10%</div>
+                            <div class="text-white/50 text-xs">Comision</div>
+                        </div>
+                        <div class="text-center p-3 bg-white/5 rounded-xl">
+                            <div class="text-2xl font-display font-bold text-yellow-500">30d</div>
+                            <div class="text-white/50 text-xs">Atribucion</div>
+                        </div>
+                        <div class="text-center p-3 bg-white/5 rounded-xl">
+                            <div class="text-2xl font-display font-bold text-yellow-500">$1</div>
+                            <div class="text-white/50 text-xs">Min. Retiro</div>
+                        </div>
+                        <div class="text-center p-3 bg-white/5 rounded-xl">
+                            <div class="text-2xl font-display font-bold text-yellow-500">USDC</div>
+                            <div class="text-white/50 text-xs">En Base</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Leaderboard -->
+        <div id="referral-leaderboard">
+            <!-- Populated by referral.js -->
+        </div>
+
+        <!-- FAQ -->
+        <div class="glass rounded-2xl p-6 md:p-8 mt-8">
+            <h3 class="text-xl font-display font-bold text-white mb-6">Preguntas Frecuentes</h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h4 class="text-white font-medium mb-2">Quien puede ser afiliado?</h4>
+                    <p class="text-white/50 text-sm">Cualquiera con una wallet de Ethereum/Base. No hay requisitos minimos.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-2">Como se calculan las comisiones?</h4>
+                    <p class="text-white/50 text-sm">10% de cada pago API (creditos, suscripciones, pagos por request).</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-2">Cuanto dura la atribucion?</h4>
+                    <p class="text-white/50 text-sm">30 dias desde el click. Si el usuario paga dentro de ese periodo, ganas la comision.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium mb-2">Hay limite de referidos?</h4>
+                    <p class="text-white/50 text-sm">No hay limite. Pero cada wallet solo cuenta como un referido (anti-fraude).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,143 @@
+<!-- EMAIL SUBSCRIPTION SECTION -->
+<!-- Add this section before the FOOTER section in index.html -->
+<section class="py-16 px-4 md:px-6 border-t border-white/5 relative z-10 bg-gradient-to-b from-black/50 to-yellow-500/5" id="subscribe">
+    <div class="max-w-[600px] mx-auto text-center">
+        <div class="mb-8">
+            <div class="w-16 h-16 rounded-full bg-yellow-500/10 flex items-center justify-center mx-auto mb-6">
+                <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-display font-medium text-white tracking-tight mb-4">Digest Diario</h2>
+            <p class="text-white/60">Recibe las mejores oportunidades de subastas en tu inbox. Gratis.</p>
+        </div>
+
+        <form id="subscribe-form" class="space-y-4" onsubmit="handleSubscribe(event)">
+            <div class="flex flex-col sm:flex-row gap-3">
+                <input
+                    type="email"
+                    id="subscribe-email"
+                    placeholder="tu@email.com"
+                    required
+                    class="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50"
+                >
+                <button
+                    type="submit"
+                    id="subscribe-btn"
+                    class="bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg hover:bg-yellow-400 transition-colors flex items-center justify-center gap-2"
+                >
+                    <span>Suscribirse</span>
+                    <svg class="w-4 h-4 hidden animate-spin" id="subscribe-spinner" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="subscribe-message" class="text-sm hidden"></div>
+        </form>
+
+        <!-- Preferences (collapsible) -->
+        <details class="mt-6 text-left">
+            <summary class="text-white/40 text-sm cursor-pointer hover:text-white/60 transition-colors">
+                Personalizar preferencias (opcional)
+            </summary>
+            <div class="mt-4 glass rounded-xl p-4 space-y-4">
+                <div>
+                    <label class="text-xs uppercase tracking-wider text-white/40 mb-2 block">Categorias</label>
+                    <div class="flex flex-wrap gap-2">
+                        <label class="flex items-center gap-2 text-sm text-white/60 cursor-pointer">
+                            <input type="checkbox" name="category" value="vehicles" checked class="accent-yellow-500"> Vehiculos
+                        </label>
+                        <label class="flex items-center gap-2 text-sm text-white/60 cursor-pointer">
+                            <input type="checkbox" name="category" value="real_estate" checked class="accent-yellow-500"> Inmuebles
+                        </label>
+                        <label class="flex items-center gap-2 text-sm text-white/60 cursor-pointer">
+                            <input type="checkbox" name="category" value="machinery" checked class="accent-yellow-500"> Maquinaria
+                        </label>
+                        <label class="flex items-center gap-2 text-sm text-white/60 cursor-pointer">
+                            <input type="checkbox" name="category" value="general_goods" checked class="accent-yellow-500"> Bienes
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label class="flex items-center gap-2 text-sm text-white/60 cursor-pointer">
+                        <input type="checkbox" name="opportunities_only" class="accent-yellow-500">
+                        Solo oportunidades (30%+ descuento)
+                    </label>
+                </div>
+                <div>
+                    <label class="flex items-center gap-2 text-sm text-white/60 cursor-pointer">
+                        <input type="checkbox" name="ending_today" checked class="accent-yellow-500">
+                        Alertas "Termina Hoy"
+                    </label>
+                </div>
+            </div>
+        </details>
+
+        <p class="text-white/30 text-xs mt-6">
+            Podes desuscribirte en cualquier momento. Tus datos estan seguros.
+        </p>
+    </div>
+</section>
+
+<script>
+async function handleSubscribe(event) {
+    event.preventDefault();
+
+    const form = document.getElementById('subscribe-form');
+    const emailInput = document.getElementById('subscribe-email');
+    const btn = document.getElementById('subscribe-btn');
+    const spinner = document.getElementById('subscribe-spinner');
+    const message = document.getElementById('subscribe-message');
+
+    // Get preferences
+    const categories = Array.from(form.querySelectorAll('input[name="category"]:checked'))
+        .map(el => el.value);
+    const opportunitiesOnly = form.querySelector('input[name="opportunities_only"]').checked;
+    const endingTodayAlerts = form.querySelector('input[name="ending_today"]').checked;
+
+    // UI feedback
+    btn.disabled = true;
+    spinner.classList.remove('hidden');
+    message.classList.add('hidden');
+
+    try {
+        const response = await fetch('/api/v1/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                email: emailInput.value,
+                preferences: {
+                    categories,
+                    opportunitiesOnly,
+                    endingTodayAlerts,
+                    digestFrequency: 'daily'
+                }
+            })
+        });
+
+        const data = await response.json();
+
+        message.classList.remove('hidden');
+        if (response.ok) {
+            message.className = 'text-sm text-green-400';
+            message.textContent = data.message || 'Revisa tu email para confirmar la suscripcion!';
+            emailInput.value = '';
+            // Track conversion
+            if (typeof gtag === 'function') {
+                gtag('event', 'subscribe', { method: 'email_digest' });
+            }
+        } else {
+            message.className = 'text-sm text-red-400';
+            message.textContent = data.message || 'Error al suscribirse. Intenta de nuevo.';
+        }
+    } catch (error) {
+        message.classList.remove('hidden');
+        message.className = 'text-sm text-red-400';
+        message.textContent = 'Error de conexion. Intenta de nuevo.';
+    } finally {
+        btn.disabled = false;
+        spinner.classList.add('hidden');
+    }
+}
+</script>

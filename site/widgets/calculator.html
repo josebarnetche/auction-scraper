@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-[#030303]">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Rentabilidad - Subasto.com.ar</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Calcula la rentabilidad de tus compras en subastas. Incluye IVA, comisiones, transporte, reparaciones y costos de venta. Descubre cuanto vas a ganar.">
+<meta name="keywords" content="calculadora subastas, rentabilidad subastas, roi subastas, costos subasta argentina, ganancia subastas">
+<meta name="author" content="Subasto.com.ar">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://subasto.com.ar/widgets/calculator.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://subasto.com.ar/widgets/calculator.html">
+<meta property="og:title" content="Calculadora de Rentabilidad - Subasto">
+<meta property="og:description" content="Calcula la rentabilidad de tus compras en subastas. Descubre cuanto vas a ganar antes de ofertar.">
+<meta property="og:image" content="https://subasto.com.ar/og-image.png">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+<!-- Styles -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --primary: #eab308;
+    --primary-dark: #ca8a04;
+    --bg-dark: #030303;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --border: rgba(255, 255, 255, 0.05);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--bg-dark);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.font-display {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.glass {
+    background: var(--bg-card);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+}
+
+/* Form Styles */
+input[type="number"],
+select {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.1);
+}
+
+input[type="number"]::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+select option {
+    background: #1a1a1a;
+    color: white;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Category Pills */
+.category-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.category-pill:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.category-pill.active {
+    border-color: var(--primary);
+    background: rgba(234, 179, 8, 0.1);
+}
+
+.category-pill.vehicles { --cat-color: #60a5fa; }
+.category-pill.real_estate { --cat-color: #f472b6; }
+.category-pill.machinery { --cat-color: #fbbf24; }
+.category-pill.general_goods { --cat-color: #4ade80; }
+
+.category-pill.active.vehicles { border-color: #60a5fa; background: rgba(96, 165, 250, 0.1); }
+.category-pill.active.real_estate { border-color: #f472b6; background: rgba(244, 114, 182, 0.1); }
+.category-pill.active.machinery { border-color: #fbbf24; background: rgba(251, 191, 36, 0.1); }
+.category-pill.active.general_goods { border-color: #4ade80; background: rgba(74, 222, 128, 0.1); }
+
+/* Condition Radio */
+.condition-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.condition-option:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.condition-option.active {
+    background: rgba(234, 179, 8, 0.1);
+    border-color: var(--primary);
+}
+
+.condition-option input {
+    display: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Toast notification */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #22c55e;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Embed mode - minimal styling */
+.embed-mode .header-section {
+    display: none;
+}
+
+.embed-mode .powered-by {
+    display: block !important;
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .category-pills {
+        flex-wrap: wrap;
+    }
+    .condition-options {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+<body class="antialiased">
+
+<!-- Header (hidden in embed mode) -->
+<div class="header-section">
+    <header class="glass border-b border-white/5">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="https://subasto.com.ar" class="flex items-center gap-3" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-10 h-10">
+                    <rect width="512" height="512" fill="transparent"/>
+                    <g fill="none">
+                        <circle cx="256" cy="256" r="228" stroke="#1a1400" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="188" stroke="#3a2c00" stroke-width="2"/>
+                        <circle cx="256" cy="256" r="148" stroke="#5a4400" stroke-width="2"/>
+                    </g>
+                    <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                    <circle cx="256" cy="256" r="42" fill="#eab308" opacity="0.9"/>
+                </svg>
+                <span class="font-display text-xl font-bold text-white">SUBASTO</span>
+            </a>
+            <a href="https://subasto.com.ar" class="text-sm text-gray-400 hover:text-yellow-400 transition-colors" target="_blank">
+                Ver subastas
+            </a>
+        </div>
+    </header>
+</div>
+
+<!-- Main Calculator -->
+<main class="max-w-4xl mx-auto px-4 py-8">
+
+    <!-- Title -->
+    <div class="text-center mb-8 header-section">
+        <h1 class="font-display text-3xl md:text-4xl font-bold text-white mb-2">
+            Calculadora de Rentabilidad
+        </h1>
+        <p class="text-gray-400 max-w-lg mx-auto">
+            Descubri cuanto vas a ganar antes de ofertar. Incluye IVA, comisiones, transporte y todos los costos ocultos.
+        </p>
+    </div>
+
+    <!-- Calculator Container -->
+    <div id="calculator-container" class="grid md:grid-cols-2 gap-6">
+
+        <!-- Input Panel -->
+        <div class="glass rounded-2xl p-6">
+            <form id="calculator-form" class="space-y-6">
+
+                <!-- Category Selection -->
+                <div>
+                    <label>Categoria</label>
+                    <div class="category-pills flex flex-wrap gap-2">
+                        <button type="button" class="category-pill vehicles active" data-category="vehicles">
+                            <span>Vehiculos</span>
+                        </button>
+                        <button type="button" class="category-pill real_estate" data-category="real_estate">
+                            <span>Inmuebles</span>
+                        </button>
+                        <button type="button" class="category-pill machinery" data-category="machinery">
+                            <span>Maquinaria</span>
+                        </button>
+                        <button type="button" class="category-pill general_goods" data-category="general_goods">
+                            <span>Bienes Generales</span>
+                        </button>
+                    </div>
+                    <input type="hidden" id="calc-category" value="vehicles">
+                </div>
+
+                <!-- Base Price -->
+                <div>
+                    <label for="calc-base-price">Precio Base de Subasta (ARS)</label>
+                    <input type="number" id="calc-base-price" placeholder="Ej: 5000000" min="0" step="1000">
+                    <p class="text-xs text-gray-500 mt-1">El precio de remate sin impuestos ni comisiones</p>
+                </div>
+
+                <!-- Resale Price -->
+                <div>
+                    <label for="calc-resale-price">Tu Precio de Venta Estimado (ARS)</label>
+                    <input type="number" id="calc-resale-price" placeholder="Ej: 7500000" min="0" step="1000">
+                    <p class="text-xs text-gray-500 mt-1">Cuanto crees que podes venderlo</p>
+                </div>
+
+                <!-- Condition -->
+                <div>
+                    <label>Condicion del Bien</label>
+                    <div class="condition-options flex gap-2 flex-wrap">
+                        <label class="condition-option" data-condition="new">
+                            <input type="radio" name="condition" value="new">
+                            <span class="text-lg">✨</span>
+                            <span class="text-sm">Nuevo</span>
+                        </label>
+                        <label class="condition-option active" data-condition="used">
+                            <input type="radio" name="condition" value="used" checked>
+                            <span class="text-lg">👍</span>
+                            <span class="text-sm">Usado</span>
+                        </label>
+                        <label class="condition-option" data-condition="needs_repair">
+                            <input type="radio" name="condition" value="needs_repair">
+                            <span class="text-lg">🔧</span>
+                            <span class="text-sm">Reparar</span>
+                        </label>
+                    </div>
+                    <input type="hidden" id="calc-condition" value="used">
+                </div>
+
+                <!-- Location -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="calc-origin">Ubicacion del Bien</label>
+                        <select id="calc-origin">
+                            <option value="CABA" selected>CABA</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Rosario">Rosario</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Tucuman">Tucuman</option>
+                            <option value="Salta">Salta</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Mar del Plata">Mar del Plata</option>
+                            <option value="Neuquen">Neuquen</option>
+                            <option value="Bahia Blanca">Bahia Blanca</option>
+                            <option value="Resistencia">Resistencia</option>
+                            <option value="Posadas">Posadas</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="Corrientes">Corrientes</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="calc-destination">Tu Ubicacion</label>
+                        <select id="calc-destination">
+                            <option value="CABA" selected>CABA</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Rosario">Rosario</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Tucuman">Tucuman</option>
+                            <option value="Salta">Salta</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Mar del Plata">Mar del Plata</option>
+                            <option value="Neuquen">Neuquen</option>
+                            <option value="Bahia Blanca">Bahia Blanca</option>
+                            <option value="Resistencia">Resistencia</option>
+                            <option value="Posadas">Posadas</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="Corrientes">Corrientes</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Selling Channel -->
+                <div>
+                    <label for="calc-channel">Canal de Venta</label>
+                    <select id="calc-channel">
+                        <option value="mercadolibre">MercadoLibre (13%)</option>
+                        <option value="kavak">Kavak/Autocosmos (8%)</option>
+                        <option value="private">Venta Directa (2%)</option>
+                    </select>
+                </div>
+
+                <!-- Calculate Button (for mobile) -->
+                <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-3 rounded-xl transition-colors md:hidden">
+                    Calcular Rentabilidad
+                </button>
+
+            </form>
+        </div>
+
+        <!-- Results Panel -->
+        <div class="glass rounded-2xl p-6">
+            <h3 class="font-display text-lg font-semibold mb-4 text-white flex items-center gap-2">
+                <svg class="w-5 h-5 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                </svg>
+                Analisis de Rentabilidad
+            </h3>
+            <div id="calculator-results">
+                <!-- Results will be rendered here -->
+                <div class="text-center py-12 text-gray-400">
+                    <svg class="w-20 h-20 mx-auto mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                    </svg>
+                    <p class="text-lg mb-1">Ingresa los datos</p>
+                    <p class="text-sm">Completa el precio base para ver el analisis</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-4 mt-8 header-section">
+        <div class="glass rounded-xl p-4">
+            <div class="text-yellow-400 text-2xl mb-2">21%</div>
+            <div class="text-sm text-gray-400">IVA sobre precio base</div>
+        </div>
+        <div class="glass rounded-xl p-4">
+            <div class="text-yellow-400 text-2xl mb-2">3-10%</div>
+            <div class="text-sm text-gray-400">Comision de subasta</div>
+        </div>
+        <div class="glass rounded-xl p-4">
+            <div class="text-yellow-400 text-2xl mb-2">4 categorias</div>
+            <div class="text-sm text-gray-400">Con costos especificos</div>
+        </div>
+    </div>
+
+    <!-- Powered By (only shown in embed mode) -->
+    <div class="powered-by hidden text-center mt-6 pt-4 border-t border-white/5">
+        <a href="https://subasto.com.ar" target="_blank" class="text-sm text-gray-400 hover:text-yellow-400 transition-colors">
+            Powered by <span class="font-semibold text-yellow-400">Subasto.com.ar</span>
+        </a>
+    </div>
+
+</main>
+
+<!-- Footer (hidden in embed mode) -->
+<footer class="header-section border-t border-white/5 mt-12">
+    <div class="max-w-4xl mx-auto px-4 py-8 text-center">
+        <p class="text-gray-500 text-sm mb-4">
+            Esta calculadora es una herramienta estimativa. Los costos reales pueden variar segun la subasta y jurisdiccion.
+        </p>
+        <div class="flex items-center justify-center gap-4">
+            <a href="https://subasto.com.ar" class="text-yellow-400 hover:text-yellow-300 transition-colors text-sm font-medium">
+                Ver Subastas
+            </a>
+            <span class="text-gray-600">|</span>
+            <a href="https://subasto.com.ar/api/v1/openapi.json" class="text-gray-400 hover:text-white transition-colors text-sm">
+                API
+            </a>
+        </div>
+        <p class="text-gray-600 text-xs mt-4">
+            &copy; 2024 Subasto.com.ar - Memola Medios S.A.S.
+        </p>
+    </div>
+</footer>
+
+<!-- Calculator Script -->
+<script src="/js/calculator.js"></script>
+<script>
+(function() {
+    'use strict';
+
+    // Check if running in iframe (embed mode)
+    const isEmbedded = window.self !== window.top;
+    if (isEmbedded) {
+        document.body.classList.add('embed-mode');
+    }
+
+    // Initialize calculator UI
+    const calculator = new SubastoCalculator.ProfitCalculator();
+    const container = document.getElementById('calculator-container');
+
+    // Category selection
+    const categoryPills = document.querySelectorAll('.category-pill');
+    const categoryInput = document.getElementById('calc-category');
+
+    categoryPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+            categoryPills.forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            categoryInput.value = pill.dataset.category;
+            updateSellingChannels(pill.dataset.category);
+            runCalculation();
+        });
+    });
+
+    // Condition selection
+    const conditionOptions = document.querySelectorAll('.condition-option');
+    const conditionInput = document.getElementById('calc-condition');
+
+    conditionOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            conditionOptions.forEach(o => o.classList.remove('active'));
+            option.classList.add('active');
+            conditionInput.value = option.dataset.condition;
+            runCalculation();
+        });
+    });
+
+    // Update selling channels based on category
+    function updateSellingChannels(category) {
+        const channelSelect = document.getElementById('calc-channel');
+        const channels = SubastoCalculator.ProfitCalculator.getSellingChannels(category);
+
+        channelSelect.innerHTML = channels.map(ch =>
+            `<option value="${ch.id}">${ch.label} (${ch.feePercent})</option>`
+        ).join('');
+    }
+
+    // Debounce helper
+    let debounceTimer;
+    function debounce(fn, delay) {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(fn, delay);
+    }
+
+    // Form inputs
+    const form = document.getElementById('calculator-form');
+    const basePriceInput = document.getElementById('calc-base-price');
+    const resalePriceInput = document.getElementById('calc-resale-price');
+    const originSelect = document.getElementById('calc-origin');
+    const destSelect = document.getElementById('calc-destination');
+    const channelSelect = document.getElementById('calc-channel');
+
+    // Listen to input changes
+    [basePriceInput, resalePriceInput, originSelect, destSelect, channelSelect].forEach(input => {
+        input.addEventListener('input', () => debounce(runCalculation, 300));
+        input.addEventListener('change', runCalculation);
+    });
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        runCalculation();
+    });
+
+    // Main calculation function
+    function runCalculation() {
+        const basePrice = parseFloat(basePriceInput.value) || 0;
+        const resalePrice = parseFloat(resalePriceInput.value) || 0;
+
+        if (basePrice <= 0) {
+            showPlaceholder();
+            return;
+        }
+
+        try {
+            const results = calculator.calculate({
+                basePrice,
+                category: categoryInput.value,
+                condition: conditionInput.value,
+                resalePrice: resalePrice || basePrice * 1.3,
+                originLocation: originSelect.value,
+                destinationLocation: destSelect.value,
+                sellingChannel: channelSelect.value
+            });
+
+            renderResults(results);
+        } catch (e) {
+            console.error('Calculation error:', e);
+        }
+    }
+
+    function showPlaceholder() {
+        const resultsDiv = document.getElementById('calculator-results');
+        resultsDiv.innerHTML = `
+            <div class="text-center py-12 text-gray-400">
+                <svg class="w-20 h-20 mx-auto mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                </svg>
+                <p class="text-lg mb-1">Ingresa los datos</p>
+                <p class="text-sm">Completa el precio base para ver el analisis</p>
+            </div>
+        `;
+    }
+
+    function renderResults(results) {
+        const resultsDiv = document.getElementById('calculator-results');
+        const r = results;
+        const fmt = (n) => calculator.formatCurrency(n);
+
+        const verdictClass = {
+            'excellent': 'from-green-500/20 to-green-600/10 border-green-500/30',
+            'good': 'from-lime-500/20 to-lime-600/10 border-lime-500/30',
+            'moderate': 'from-yellow-500/20 to-yellow-600/10 border-yellow-500/30',
+            'marginal': 'from-orange-500/20 to-orange-600/10 border-orange-500/30',
+            'loss': 'from-red-500/20 to-red-600/10 border-red-500/30'
+        }[r.summary.verdict.level];
+
+        resultsDiv.innerHTML = `
+            <div class="animate-fade-in">
+                <!-- Verdict Banner -->
+                <div class="bg-gradient-to-r ${verdictClass} border rounded-xl p-4 mb-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-lg font-bold" style="color: ${r.summary.verdict.color}">${r.summary.verdict.label}</div>
+                            <div class="text-sm text-gray-400">Riesgo: <span style="color: ${r.summary.riskLevel.color}">${r.summary.riskLevel.label}</span></div>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-3xl font-bold font-display ${r.profit.isProfitable ? 'text-green-400' : 'text-red-400'}">${r.profit.roi.toFixed(1)}%</div>
+                            <div class="text-xs text-gray-400">ROI</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Key Metrics -->
+                <div class="grid grid-cols-2 gap-3 mb-6">
+                    <div class="bg-white/5 rounded-lg p-3">
+                        <div class="text-xs text-gray-400 mb-1">Inversion Total</div>
+                        <div class="text-lg font-semibold text-white">${fmt(r.profit.totalInvestment)}</div>
+                    </div>
+                    <div class="bg-white/5 rounded-lg p-3">
+                        <div class="text-xs text-gray-400 mb-1">Ganancia Neta</div>
+                        <div class="text-lg font-semibold ${r.profit.isProfitable ? 'text-green-400' : 'text-red-400'}">${fmt(r.profit.netProfit)}</div>
+                    </div>
+                    <div class="bg-white/5 rounded-lg p-3">
+                        <div class="text-xs text-gray-400 mb-1">Precio Equilibrio</div>
+                        <div class="text-lg font-semibold text-yellow-400">${fmt(r.profit.breakEvenPrice)}</div>
+                    </div>
+                    <div class="bg-white/5 rounded-lg p-3">
+                        <div class="text-xs text-gray-400 mb-1">Venta Sugerida</div>
+                        <div class="text-lg font-semibold text-blue-400">${fmt(r.summary.suggestedMinResale)}</div>
+                    </div>
+                </div>
+
+                <!-- Cost Breakdown (collapsible) -->
+                <details class="mb-6">
+                    <summary class="cursor-pointer text-sm font-medium text-gray-300 mb-2 hover:text-white transition-colors">
+                        Ver desglose completo
+                    </summary>
+                    <div class="space-y-2 pt-2 animate-fade-in">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">Precio subasta</span>
+                            <span class="text-white font-mono">${fmt(r.acquisition.auctionPrice)}</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">+ IVA (21%)</span>
+                            <span class="text-white font-mono">${fmt(r.acquisition.ivaAmount)}</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">+ Comision (${(r.acquisition.commissionRate * 100).toFixed(0)}%)</span>
+                            <span class="text-white font-mono">${fmt(r.acquisition.commissionAmount)}</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">+ Transporte (${r.input.distance} km)</span>
+                            <span class="text-white font-mono">${fmt(r.acquisition.transportCost)}</span>
+                        </div>
+                        ${r.acquisition.repairCost > 0 ? `
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">+ Reparacion/Acond.</span>
+                            <span class="text-white font-mono">${fmt(r.acquisition.repairCost)}</span>
+                        </div>
+                        ` : ''}
+                        ${r.acquisition.additionalCostsTotal > 0 ? `
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">+ Otros costos</span>
+                            <span class="text-white font-mono">${fmt(r.acquisition.additionalCostsTotal)}</span>
+                        </div>
+                        ` : ''}
+                        <div class="border-t border-white/10 pt-2 flex justify-between text-sm font-medium">
+                            <span class="text-gray-300">= Total adquisicion</span>
+                            <span class="text-yellow-400 font-mono">${fmt(r.acquisition.totalAcquisitionCost)}</span>
+                        </div>
+
+                        <div class="h-2"></div>
+
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">Precio venta</span>
+                            <span class="text-white font-mono">${fmt(r.input.resalePrice)}</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-400">- Comision ${r.selling.channel} (${(r.selling.feeRate * 100).toFixed(0)}%)</span>
+                            <span class="text-red-400 font-mono">-${fmt(r.selling.fees)}</span>
+                        </div>
+
+                        <div class="border-t border-white/10 pt-2 flex justify-between font-bold">
+                            <span class="text-white">= GANANCIA NETA</span>
+                            <span class="${r.profit.isProfitable ? 'text-green-400' : 'text-red-400'} font-mono">${fmt(r.profit.netProfit)}</span>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Export Actions -->
+                <div class="flex gap-2 pt-4 border-t border-white/10">
+                    <button id="export-pdf" class="flex-1 bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-400 rounded-lg py-2.5 px-3 text-sm font-medium transition-colors flex items-center justify-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        PDF
+                    </button>
+                    <button id="share-link" class="flex-1 bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 rounded-lg py-2.5 px-3 text-sm font-medium transition-colors flex items-center justify-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
+                        </svg>
+                        Compartir
+                    </button>
+                    <button id="print-btn" class="bg-gray-500/20 hover:bg-gray-500/30 text-gray-400 rounded-lg py-2.5 px-3 text-sm font-medium transition-colors flex items-center justify-center">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        `;
+
+        // Bind export buttons
+        bindExportButtons(results);
+    }
+
+    function bindExportButtons(results) {
+        const pdfBtn = document.getElementById('export-pdf');
+        const shareBtn = document.getElementById('share-link');
+        const printBtn = document.getElementById('print-btn');
+
+        if (pdfBtn) {
+            pdfBtn.addEventListener('click', () => {
+                const pdfContent = calculator.generatePDFContent();
+                const blob = new Blob([pdfContent], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
+                const printWindow = window.open(url, '_blank');
+                if (printWindow) {
+                    printWindow.onload = function() {
+                        printWindow.print();
+                    };
+                }
+            });
+        }
+
+        if (shareBtn) {
+            shareBtn.addEventListener('click', () => {
+                const shareUrl = calculator.generateShareUrl();
+
+                if (navigator.share) {
+                    navigator.share({
+                        title: 'Calculadora de Rentabilidad - Subasto',
+                        text: `Analisis: ROI ${results.profit.roi.toFixed(1)}% | Ganancia ${calculator.formatCurrency(results.profit.netProfit)}`,
+                        url: shareUrl
+                    });
+                } else if (navigator.clipboard) {
+                    navigator.clipboard.writeText(shareUrl).then(() => {
+                        showToast('Link copiado al portapapeles');
+                    });
+                } else {
+                    prompt('Copia este link:', shareUrl);
+                }
+            });
+        }
+
+        if (printBtn) {
+            printBtn.addEventListener('click', () => {
+                const pdfContent = calculator.generatePDFContent();
+                const printWindow = window.open('', '_blank');
+                if (printWindow) {
+                    printWindow.document.write(pdfContent);
+                    printWindow.document.close();
+                    printWindow.print();
+                }
+            });
+        }
+    }
+
+    function showToast(message) {
+        // Remove existing toasts
+        document.querySelectorAll('.toast').forEach(t => t.remove());
+
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+
+        setTimeout(() => {
+            toast.remove();
+        }, 3000);
+    }
+
+    // Load URL params if present
+    function loadFromUrl() {
+        try {
+            const params = SubastoCalculator.ProfitCalculator.parseUrlParams();
+
+            if (params.basePrice) {
+                basePriceInput.value = params.basePrice;
+            }
+            if (params.resalePrice) {
+                resalePriceInput.value = params.resalePrice;
+            }
+            if (params.category) {
+                categoryInput.value = params.category;
+                categoryPills.forEach(p => {
+                    p.classList.toggle('active', p.dataset.category === params.category);
+                });
+                updateSellingChannels(params.category);
+            }
+            if (params.condition) {
+                conditionInput.value = params.condition;
+                conditionOptions.forEach(o => {
+                    o.classList.toggle('active', o.dataset.condition === params.condition);
+                });
+            }
+            if (params.originLocation) {
+                originSelect.value = params.originLocation;
+            }
+            if (params.destinationLocation) {
+                destSelect.value = params.destinationLocation;
+            }
+            if (params.sellingChannel) {
+                setTimeout(() => {
+                    channelSelect.value = params.sellingChannel;
+                }, 50);
+            }
+
+            // Run initial calculation if we have a base price
+            if (params.basePrice) {
+                setTimeout(runCalculation, 100);
+            }
+        } catch (e) {
+            console.log('No URL params to load');
+        }
+    }
+
+    // Initialize
+    loadFromUrl();
+
+    // Notify parent iframe of height changes (for responsive embedding)
+    if (isEmbedded) {
+        const notifyHeight = () => {
+            const height = document.body.scrollHeight;
+            window.parent.postMessage({ type: 'subasto-calculator-height', height }, '*');
+        };
+
+        // Observe height changes
+        const resizeObserver = new ResizeObserver(notifyHeight);
+        resizeObserver.observe(document.body);
+        notifyHeight();
+    }
+
+})();
+</script>
+
+<!-- Embed Instructions (hidden, for documentation) -->
+<!--
+EMBEDDING THE CALCULATOR:
+
+1. Simple iframe embed:
+<iframe
+    src="https://subasto.com.ar/widgets/calculator.html"
+    width="100%"
+    height="800"
+    frameborder="0"
+    style="border-radius: 16px; max-width: 900px;">
+</iframe>
+
+2. With pre-filled values:
+<iframe
+    src="https://subasto.com.ar/widgets/calculator.html?bp=5000000&cat=vehicles&cond=used&rp=7500000&from=CABA&to=Cordoba"
+    width="100%"
+    height="800"
+    frameborder="0">
+</iframe>
+
+URL Parameters:
+- bp: Base price (number)
+- cat: Category (vehicles, real_estate, machinery, general_goods)
+- cond: Condition (new, used, needs_repair)
+- rp: Resale price (number)
+- from: Origin location
+- to: Destination location
+- ch: Selling channel
+
+3. Responsive height (advanced):
+<script>
+window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'subasto-calculator-height') {
+        document.getElementById('subasto-calc').style.height = e.data.height + 'px';
+    }
+});
+</script>
+<iframe id="subasto-calc" src="https://subasto.com.ar/widgets/calculator.html" width="100%" frameborder="0"></iframe>
+-->
+
+</body>
+</html>

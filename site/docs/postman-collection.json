@@ -1,0 +1,188 @@
+{
+  "info": {
+    "_postman_id": "subasto-api-v1",
+    "name": "Subasto API - Argentine Auctions",
+    "description": "Argentine auction aggregator API. 864+ listings from 14 sources. Assets at 30-70% below market. Pay-per-request USDC on Base network.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Get Pricing (Free)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://subasto.com.ar/api/v1/price",
+              "protocol": "https",
+              "host": ["subasto", "com", "ar"],
+              "path": ["api", "v1", "price"]
+            },
+            "description": "Get API pricing and payment instructions. Returns wallet address for USDC payments on Base network. No payment required."
+          },
+          "response": [
+            {
+              "name": "Success",
+              "originalRequest": {
+                "method": "GET",
+                "url": "https://subasto.com.ar/api/v1/price"
+              },
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"name\": \"Auction Scraper API\",\n  \"version\": \"1.0.0\",\n  \"pricing\": {\n    \"currency\": \"USDC\",\n    \"network\": \"Base\",\n    \"chain_id\": 8453,\n    \"endpoints\": {\n      \"/api/v1/auctions\": { \"price\": 0.05, \"description\": \"All 864+ auction listings\" },\n      \"/api/v1/opportunities\": { \"price\": 0.02, \"description\": \"Hot deals with 40%+ discount\" },\n      \"/api/v1/premium\": { \"price\": 0.01, \"description\": \"Curated premium picks\" }\n    }\n  },\n  \"payment\": {\n    \"wallet\": \"0x29E007249b744892a1da17F4289f75cfC871d6Fe\",\n    \"token\": \"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\n    \"network\": \"Base Mainnet\"\n  }\n}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Endpoints",
+      "item": [
+        {
+          "name": "Get Premium Picks",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://subasto.com.ar/api/v1/premium?tx={{tx_hash}}",
+              "protocol": "https",
+              "host": ["subasto", "com", "ar"],
+              "path": ["api", "v1", "premium"],
+              "query": [
+                {
+                  "key": "tx",
+                  "value": "{{tx_hash}}",
+                  "description": "Transaction hash of USDC payment on Base network"
+                }
+              ]
+            },
+            "description": "Get top 12 curated picks with highest profit potential. Requires $0.01 USDC payment."
+          },
+          "response": [
+            {
+              "name": "Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"success\": true,\n  \"payment\": {\n    \"tx\": \"0x123...abc\",\n    \"amount\": 0.01,\n    \"from\": \"0xYourWallet...\"\n  },\n  \"data\": {\n    \"count\": 12,\n    \"premium_picks\": [\n      {\n        \"id\": \"cordoba:26092\",\n        \"title\": \"BERLINGO FURGON - 2018\",\n        \"discount_percent\": 70.4,\n        \"category\": \"vehicles\",\n        \"source\": \"cordoba\",\n        \"source_url\": \"https://subastas.justiciacordoba.gob.ar/...\",\n        \"base_price\": 7630910.0,\n        \"currency\": \"ARS\",\n        \"market_typical_usd\": 18000\n      }\n    ],\n    \"blue_dollar_rate\": 1430.0,\n    \"generated_at\": \"2026-02-22T04:54:45Z\"\n  }\n}"
+            },
+            {
+              "name": "Payment Required",
+              "status": "Payment Required",
+              "code": 402,
+              "body": "{\n  \"error\": \"Payment required\",\n  \"message\": \"Include ?tx=YOUR_TX_HASH with USDC payment on Base\",\n  \"price\": 0.01,\n  \"currency\": \"USDC\",\n  \"wallet\": \"0x29E007249b744892a1da17F4289f75cfC871d6Fe\",\n  \"docs\": \"/api/v1/price\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Get Opportunities",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://subasto.com.ar/api/v1/opportunities?tx={{tx_hash}}",
+              "protocol": "https",
+              "host": ["subasto", "com", "ar"],
+              "path": ["api", "v1", "opportunities"],
+              "query": [
+                {
+                  "key": "tx",
+                  "value": "{{tx_hash}}",
+                  "description": "Transaction hash of USDC payment on Base network"
+                }
+              ]
+            },
+            "description": "Get ~70 hot deals with verified 40%+ discount vs market price. Requires $0.02 USDC payment."
+          },
+          "response": [
+            {
+              "name": "Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"success\": true,\n  \"payment\": { \"tx\": \"0x...\", \"amount\": 0.02, \"from\": \"0x...\" },\n  \"data\": {\n    \"count\": 70,\n    \"opportunities\": [\n      {\n        \"listing\": {\n          \"id\": \"csjn:15\",\n          \"source\": \"csjn\",\n          \"title\": \"VOLKSWAGEN CROSSFOX 1.6 - 2009\",\n          \"category\": \"vehicles\",\n          \"base_price\": 2870000.0,\n          \"currency\": \"ARS\"\n        },\n        \"market_median_usd\": 16984.91,\n        \"auction_price_usd\": 2006.99,\n        \"discount_percentage\": 86.1,\n        \"confidence_score\": 0.36,\n        \"comparables_count\": 5\n      }\n    ],\n    \"generated_at\": \"2026-02-22T04:54:45Z\"\n  }\n}"
+            }
+          ]
+        },
+        {
+          "name": "Get All Auctions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://subasto.com.ar/api/v1/auctions?tx={{tx_hash}}",
+              "protocol": "https",
+              "host": ["subasto", "com", "ar"],
+              "path": ["api", "v1", "auctions"],
+              "query": [
+                {
+                  "key": "tx",
+                  "value": "{{tx_hash}}",
+                  "description": "Transaction hash of USDC payment on Base network"
+                }
+              ]
+            },
+            "description": "Get all 864+ auction listings from 14 sources. Requires $0.05 USDC payment."
+          },
+          "response": [
+            {
+              "name": "Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"success\": true,\n  \"payment\": { \"tx\": \"0x...\", \"amount\": 0.05, \"from\": \"0x...\" },\n  \"data\": {\n    \"total_count\": 864,\n    \"by_source\": {\n      \"cordoba\": 508,\n      \"agusti\": 106,\n      \"scba\": 90,\n      \"global_remates\": 33,\n      \"adrian_mercado\": 32,\n      \"banco_ciudad\": 23,\n      \"bidbit\": 19,\n      \"csjn\": 10\n    },\n    \"blue_dollar_rate\": 1430.0,\n    \"top_opportunities\": [...],\n    \"generated_at\": \"2026-02-22T04:54:45Z\"\n  }\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "tx_hash",
+      "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "type": "string",
+      "description": "Your USDC payment transaction hash on Base network"
+    },
+    {
+      "key": "base_url",
+      "value": "https://subasto.com.ar",
+      "type": "string"
+    }
+  ]
+}

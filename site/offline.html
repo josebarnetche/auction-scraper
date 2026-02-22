@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-[#030303]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sin conexion - Subasto.com.ar</title>
+    <meta name="theme-color" content="#eab308">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #030303;
+            color: #ffffff;
+        }
+        .font-display { font-family: 'Space Grotesk', sans-serif; }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+        .pulse-slow { animation: pulse-slow 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-6">
+    <!-- Background glow -->
+    <div class="fixed inset-0 pointer-events-none">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-yellow-500/5 rounded-full blur-3xl pulse-slow"></div>
+    </div>
+
+    <div class="relative z-10 text-center max-w-lg">
+        <!-- Offline icon -->
+        <div class="w-24 h-24 rounded-full bg-white/5 flex items-center justify-center mx-auto mb-8 border border-white/10">
+            <svg class="w-12 h-12 text-yellow-500/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414m-1.414-1.414L3 3m8.293 8.293l1.414 1.414"/>
+            </svg>
+        </div>
+
+        <!-- Logo -->
+        <div class="flex items-center justify-center gap-3 mb-6">
+            <div class="w-10 h-10">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full opacity-50">
+                    <g>
+                        <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                        <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                    </g>
+                </svg>
+            </div>
+            <span class="text-xl font-display text-white/60">
+                Subasto<span class="text-yellow-500/60">.com.ar</span>
+            </span>
+        </div>
+
+        <!-- Message -->
+        <h1 class="text-2xl md:text-3xl font-display font-medium text-white mb-4">
+            Sin conexion
+        </h1>
+        <p class="text-white/60 mb-8">
+            Parece que no tenes conexion a internet. Verifica tu conexion e intenta de nuevo.
+        </p>
+
+        <!-- Cached data section -->
+        <div id="cached-data" class="glass rounded-2xl p-6 mb-8 text-left hidden">
+            <h3 class="text-sm uppercase tracking-wider text-yellow-500 mb-4 flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/>
+                </svg>
+                Datos guardados
+            </h3>
+            <div id="cached-auctions" class="space-y-3">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+
+        <!-- Watched auctions section -->
+        <div id="watched-section" class="glass rounded-2xl p-6 mb-8 text-left hidden">
+            <h3 class="text-sm uppercase tracking-wider text-yellow-500 mb-4 flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                </svg>
+                Tus subastas seguidas
+            </h3>
+            <div id="watched-auctions" class="space-y-3">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button onclick="location.reload()" class="px-6 py-3 bg-yellow-500 text-black rounded-full font-medium hover:bg-yellow-400 transition-colors flex items-center justify-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                </svg>
+                Reintentar
+            </button>
+            <button onclick="goBack()" class="px-6 py-3 glass rounded-full font-medium text-white/80 hover:bg-white/10 transition-colors">
+                Volver
+            </button>
+        </div>
+
+        <!-- Tips -->
+        <div class="mt-12 text-center">
+            <p class="text-white/30 text-sm mb-4">Mientras tanto, podes:</p>
+            <ul class="text-white/40 text-sm space-y-2">
+                <li>Verificar tu conexion WiFi o datos moviles</li>
+                <li>Probar activar y desactivar el modo avion</li>
+                <li>Reiniciar tu router o dispositivo</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Status indicator -->
+    <div id="connection-status" class="fixed bottom-6 left-1/2 -translate-x-1/2 glass rounded-full px-4 py-2 text-sm flex items-center gap-2 transition-all transform translate-y-20 opacity-0">
+        <span class="w-2 h-2 rounded-full bg-green-500"></span>
+        <span class="text-white/80">Conexion restaurada</span>
+    </div>
+
+    <script>
+        function goBack() {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = '/';
+            }
+        }
+
+        // Load watched auctions from localStorage
+        function loadWatchedAuctions() {
+            try {
+                const watched = localStorage.getItem('subasto_watched_auctions');
+                if (watched) {
+                    const auctions = JSON.parse(watched);
+                    if (auctions.length > 0) {
+                        const container = document.getElementById('watched-auctions');
+                        const section = document.getElementById('watched-section');
+
+                        container.innerHTML = auctions.slice(0, 5).map(auction => `
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-white/5">
+                                ${auction.imageUrl ? `
+                                    <img src="${auction.imageUrl}" alt="" class="w-12 h-12 rounded-lg object-cover bg-white/5">
+                                ` : `
+                                    <div class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                        </svg>
+                                    </div>
+                                `}
+                                <div class="flex-1 min-w-0">
+                                    <p class="text-white text-sm truncate">${auction.title}</p>
+                                    <p class="text-white/40 text-xs">${auction.source?.toUpperCase() || 'Unknown'}</p>
+                                </div>
+                            </div>
+                        `).join('');
+
+                        section.classList.remove('hidden');
+                    }
+                }
+            } catch (e) {
+                console.error('Error loading watched auctions:', e);
+            }
+        }
+
+        // Try to load cached API data
+        async function loadCachedData() {
+            if ('caches' in window) {
+                try {
+                    const cache = await caches.open('subasto-api-v1.6.0');
+                    const response = await cache.match('/api/listings.json');
+
+                    if (response) {
+                        const data = await response.json();
+                        const listings = data.listings || [];
+
+                        if (listings.length > 0) {
+                            const container = document.getElementById('cached-auctions');
+                            const section = document.getElementById('cached-data');
+
+                            container.innerHTML = `
+                                <p class="text-white/60 text-sm mb-3">
+                                    ${listings.length} subastas guardadas (ultima actualizacion: ${data.generated_at ? new Date(data.generated_at).toLocaleDateString('es-AR') : 'desconocida'})
+                                </p>
+                                ${listings.slice(0, 3).map(auction => `
+                                    <div class="flex items-center gap-3 p-3 rounded-lg bg-white/5">
+                                        <div class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center overflow-hidden">
+                                            ${auction.images?.[0] ? `
+                                                <img src="${auction.images[0]}" alt="" class="w-full h-full object-cover">
+                                            ` : `
+                                                <svg class="w-6 h-6 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                                </svg>
+                                            `}
+                                        </div>
+                                        <div class="flex-1 min-w-0">
+                                            <p class="text-white text-sm truncate">${auction.title}</p>
+                                            <p class="text-white/40 text-xs">${auction.source?.toUpperCase() || ''} ${auction.base_price ? '- $' + auction.base_price.toLocaleString() : ''}</p>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                                <p class="text-white/30 text-xs mt-3 text-center">
+                                    Estos datos pueden estar desactualizados
+                                </p>
+                            `;
+
+                            section.classList.remove('hidden');
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error loading cached data:', e);
+                }
+            }
+        }
+
+        // Listen for online status
+        window.addEventListener('online', () => {
+            const status = document.getElementById('connection-status');
+            status.classList.remove('translate-y-20', 'opacity-0');
+
+            setTimeout(() => {
+                window.location.reload();
+            }, 1500);
+        });
+
+        // Initialize
+        loadWatchedAuctions();
+        loadCachedData();
+    </script>
+</body>
+</html>

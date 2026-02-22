@@ -1,0 +1,229 @@
+{
+  "updated_at": "2026-02-22T07:35:26.658263+00:00",
+  "count": 12,
+  "prices": {
+    "csjn:15": {
+      "market_price_usd": 833.33,
+      "discount_percent": 0,
+      "savings_usd": 0,
+      "value_rating": "unknown",
+      "confidence": 0.5,
+      "sources": [
+        "autocosmos"
+      ],
+      "comparables_count": 5,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/amarok/dc-4x4-comfortline-v6-aut-258cv/aa7735566e9748f6a347cf827998f6ee",
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/amarok/dc-4x4-comfortline-v6-aut-258cv/aa7735566e9748f6a347cf827998f6ee",
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/gol-trend/5p-trendline/2e267d1c29c542189288071414a9fc04"
+      ]
+    },
+    "csjn:23": {
+      "market_price_usd": 16583.33,
+      "discount_percent": 0,
+      "savings_usd": 0,
+      "value_rating": "unknown",
+      "confidence": 0.5,
+      "sources": [
+        "autocosmos"
+      ],
+      "comparables_count": 3,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/ford/focus/5p-16l-s/402d59f126d540a2964da32051290cd7",
+        "https://www.autocosmos.com.ar/auto/usado/ford/focus/5p-16l-s/402d59f126d540a2964da32051290cd7",
+        "https://www.autocosmos.com.ar/auto/usado/ford/focus/5p-20-trend-plus/dff87a7225974632a55ac1230f5425a0"
+      ]
+    },
+    "agusti:3147_4": {
+      "market_price_usd": 17649.81,
+      "discount_percent": 82.2,
+      "savings_usd": 14502.96,
+      "value_rating": "excellent",
+      "confidence": 0.9,
+      "sources": [
+        "autocosmos",
+        "mercadolibre",
+        "reference"
+      ],
+      "comparables_count": 8,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/polo/comfortline-tiptronic/5b6399e6f6084dd1a686f2f781b48d0c",
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/polo/comfortline-tiptronic/5b6399e6f6084dd1a686f2f781b48d0c",
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/polo/classic-16-trendline/0f3f8bd7d030451fb6e20a88acf1c131",
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2"
+      ]
+    },
+    "agusti:3147_10": {
+      "market_price_usd": 12271.58,
+      "discount_percent": 82.9,
+      "savings_usd": 10173.67,
+      "value_rating": "excellent",
+      "confidence": 1.0,
+      "sources": [
+        "autocosmos",
+        "mercadolibre",
+        "reference"
+      ],
+      "comparables_count": 9,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/peugeot/208/allure-16-pack/2f93423f54974014b3d6bc1ea209d500",
+        "https://www.autocosmos.com.ar/auto/usado/peugeot/208/allure-16-pack/2f93423f54974014b3d6bc1ea209d500",
+        "",
+        "",
+        "https://mercadolibre.com.ar/demo/1"
+      ]
+    },
+    "agusti:3137_1": {
+      "market_price_usd": 16364.99,
+      "discount_percent": 10.3,
+      "savings_usd": 1679.68,
+      "value_rating": "poor",
+      "confidence": 0.8,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 8,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/ford/ecosport/14l-4x2-xls-tdci/c03be144c7c4468381ead400a399b583",
+        "https://www.autocosmos.com.ar/auto/usado/ford/ecosport/14l-4x2-xls-tdci/c03be144c7c4468381ead400a399b583",
+        "https://www.autocosmos.com.ar/auto/usado/ford/ka-/se/2e88a6be03964e1da2500f7ea991a01e",
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2"
+      ]
+    },
+    "agusti:3137_2": {
+      "market_price_usd": 16887.59,
+      "discount_percent": 25.5,
+      "savings_usd": 4300.17,
+      "value_rating": "fair",
+      "confidence": 0.8,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 8,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/ford/ranger/xls-32l-4x2-tdi-cd/54b4fccb098a46739958b4a7917a0d98",
+        "https://www.autocosmos.com.ar/auto/usado/ford/ranger/xls-32l-4x2-tdi-cd/54b4fccb098a46739958b4a7917a0d98",
+        "https://www.autocosmos.com.ar/auto/usado/ford/focus/5p-16l-s/c17c420f5d424e2fb702c45f1ef4cc49",
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2"
+      ]
+    },
+    "agusti:3147_2": {
+      "market_price_usd": 16487.45,
+      "discount_percent": 91.5,
+      "savings_usd": 15088.85,
+      "value_rating": "excellent",
+      "confidence": 0.8,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 8,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/ford/fiesta/fiesta--16-5p-titanium-l14--kd/03ca3cdb276d4ce8b8da7d53a59232dc",
+        "https://www.autocosmos.com.ar/auto/usado/ford/fiesta/fiesta--16-5p-titanium-l14--kd/03ca3cdb276d4ce8b8da7d53a59232dc",
+        "https://www.autocosmos.com.ar/auto/usado/ford/fiesta/5p-lx-18-dsl/fe7be1282d514313b137ed61312feccc",
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2"
+      ]
+    },
+    "agusti:3147_5": {
+      "market_price_usd": 12940.55,
+      "discount_percent": 83.8,
+      "savings_usd": 10842.65,
+      "value_rating": "excellent",
+      "confidence": 1.0,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 10,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/fiat/mobi/trekking/b0417ba6a0a4438ca3c0000daed5b987",
+        "https://www.autocosmos.com.ar/auto/usado/fiat/mobi/trekking/b0417ba6a0a4438ca3c0000daed5b987",
+        "",
+        "",
+        "https://www.autocosmos.com.ar/auto/usado/fiat/mobi/easy-pack-top/8bb96b5b748a4bf7bd53323b0aaa0234"
+      ]
+    },
+    "agusti:3147_6": {
+      "market_price_usd": 10854.11,
+      "discount_percent": 83.9,
+      "savings_usd": 9105.85,
+      "value_rating": "excellent",
+      "confidence": 1.0,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 10,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/taos/highline-aut/be99dcbfb5614a849fe6c479e2444f91",
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/taos/highline-aut/be99dcbfb5614a849fe6c479e2444f91",
+        "",
+        "",
+        "https://www.autocosmos.com.ar/auto/usado/volkswagen/amarok/dc-4x2-trendline/b20b1b76321845b5bb5cb457bc0ad69b"
+      ]
+    },
+    "agusti:3147_11": {
+      "market_price_usd": 19570.84,
+      "discount_percent": 85.7,
+      "savings_usd": 16773.64,
+      "value_rating": "excellent",
+      "confidence": 0.7,
+      "sources": [
+        "mercadolibre"
+      ],
+      "comparables_count": 5,
+      "comparable_urls": [
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2",
+        "https://mercadolibre.com.ar/demo/3",
+        "https://mercadolibre.com.ar/demo/4",
+        "https://mercadolibre.com.ar/demo/5"
+      ]
+    },
+    "agusti:3147_12": {
+      "market_price_usd": 9984.05,
+      "discount_percent": 68.5,
+      "savings_usd": 6837.19,
+      "value_rating": "excellent",
+      "confidence": 1.0,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 10,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/fiat/cronos/13l-drive/418eea54744743e1a308577511b60b16",
+        "https://www.autocosmos.com.ar/auto/usado/fiat/cronos/13l-drive/418eea54744743e1a308577511b60b16",
+        "",
+        "",
+        "https://www.autocosmos.com.ar/auto/usado/fiat/cronos/13l-drive/efe884fe763c48cebe3c8df2363ddf8e"
+      ]
+    },
+    "agusti:3147_13": {
+      "market_price_usd": 13206.26,
+      "discount_percent": 81.5,
+      "savings_usd": 10758.71,
+      "value_rating": "excellent",
+      "confidence": 1.0,
+      "sources": [
+        "autocosmos",
+        "mercadolibre"
+      ],
+      "comparables_count": 8,
+      "comparable_urls": [
+        "https://www.autocosmos.com.ar/auto/usado/fiat/cronos/13l-drive-pack-conectividad/0b591603544444c3b08da1962ef40030",
+        "https://www.autocosmos.com.ar/auto/usado/fiat/cronos/13l-drive-pack-conectividad/0b591603544444c3b08da1962ef40030",
+        "https://www.autocosmos.com.ar/auto/usado/fiat/cronos/18l-precision-aut/f37b549e6620453693f72cd4ac713bd0",
+        "https://mercadolibre.com.ar/demo/1",
+        "https://mercadolibre.com.ar/demo/2"
+      ]
+    }
+  }
+}

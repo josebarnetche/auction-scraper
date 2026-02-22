@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-02-22T07:43:20.259919+00:00",
+  "analysis_period_days": 90,
+  "discount_by_category": {},
+  "best_deal_days": {
+    "best_day": null,
+    "best_avg_discount": 0,
+    "by_day": {
+      "Monday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      },
+      "Tuesday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      },
+      "Wednesday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      },
+      "Thursday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      },
+      "Friday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      },
+      "Saturday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      },
+      "Sunday": {
+        "avg_discount": 0,
+        "avg_listings": 0,
+        "sample_size": 0
+      }
+    },
+    "analysis_period_days": 90
+  },
+  "price_trends": {
+    "all": {
+      "category": "all",
+      "trend_direction": "insufficient_data",
+      "avg_change_percent": 0,
+      "daily_data": [
+        {
+          "date": "2026-02-22",
+          "avg_price_usd": 320102.64,
+          "median_price_usd": 874.13,
+          "count": 369,
+          "avg_discount": null
+        }
+      ],
+      "analysis_period_days": 90
+    },
+    "vehicles": {
+      "category": "vehicles",
+      "trend_direction": "insufficient_data",
+      "avg_change_percent": 0,
+      "daily_data": [
+        {
+          "date": "2026-02-22",
+          "avg_price_usd": 375186.47,
+          "median_price_usd": 4195.8,
+          "count": 130,
+          "avg_discount": null
+        }
+      ],
+      "analysis_period_days": 90
+    },
+    "real_estate": {
+      "category": "real_estate",
+      "trend_direction": "insufficient_data",
+      "avg_change_percent": 0,
+      "daily_data": [
+        {
+          "date": "2026-02-22",
+          "avg_price_usd": 243912.82,
+          "median_price_usd": 1520.98,
+          "count": 90,
+          "avg_discount": null
+        }
+      ],
+      "analysis_period_days": 90
+    },
+    "machinery": {
+      "category": "machinery",
+      "trend_direction": "insufficient_data",
+      "avg_change_percent": 0,
+      "daily_data": [
+        {
+          "date": "2026-02-22",
+          "avg_price_usd": 13067.16,
+          "median_price_usd": 1153.85,
+          "count": 22,
+          "avg_discount": null
+        }
+      ],
+      "analysis_period_days": 90
+    }
+  },
+  "seasonal_patterns": {
+    "patterns": [],
+    "by_month": {
+      "Feb": {
+        "vehicles": 194,
+        "real_estate": 164,
+        "other": 58,
+        "machinery": 49,
+        "general_goods": 378
+      }
+    },
+    "analysis_period_days": 90
+  },
+  "recent_price_drops": []
+}

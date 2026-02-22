@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-[#030303]">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Costos y Comisiones en Subastas Judiciales - IVA, Aranceles | Subasto.com.ar</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Calculadora de costos totales para subastas judiciales en Argentina. Entiende IVA, comision del martillero, arancel judicial, y gastos de transferencia.">
+<meta name="keywords" content="comision subasta judicial, iva subastas, arancel csjn, costos remate judicial, gastos subasta argentina, calculadora subasta">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://subasto.com.ar/guides/costos-y-comisiones.html">
+
+<!-- Schema.org FAQ Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Que es el IVA en subastas judiciales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El IVA (21%) se aplica unicamente sobre la comision del martillero, no sobre el precio del bien. Por ejemplo, si pagas $30.000 de comision, agregas $6.300 de IVA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cuanto es la comision del martillero?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Varia segun la jurisdiccion y tipo de subasta: CSJN cobra 3% + 3% arancel judicial. Subastas privadas como Adrian Mercado cobran 8-10%. Banco Ciudad cobra 4-6%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que otros gastos hay ademas del precio de remate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ademas de la comision e IVA, considera: sellados/impuesto de sellos, gastos de escribania (inmuebles), transferencia de dominio, deudas preexistentes del bien, y patentes/expensas adeudadas."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#eab308">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Manrope', sans-serif; background-color: #030303; color: #ffffff; }
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+.glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+.prose h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
+.prose p { margin-bottom: 1rem; line-height: 1.8; }
+.tooltip { position: relative; cursor: help; border-bottom: 1px dashed rgba(234, 179, 8, 0.5); }
+.tooltip:hover .tooltip-content { display: block; }
+.tooltip-content { display: none; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); background: #1a1a1a; border: 1px solid rgba(234, 179, 8, 0.3); padding: 8px 12px; border-radius: 8px; font-size: 12px; white-space: nowrap; z-index: 10; margin-bottom: 8px; }
+.calc-input { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
+.calc-input:focus { border-color: rgba(234,179,8,0.5); outline: none; }
+</style>
+</head>
+<body class="antialiased">
+    <!-- NAVIGATION -->
+    <nav class="fixed z-50 pt-4 px-4 md:pt-6 md:px-6 top-0 right-0 left-0">
+        <div class="flex glass max-w-[1400px] rounded-full mx-auto px-6 py-3 items-center justify-between">
+            <a href="/" class="flex items-center gap-3">
+                <div class="w-10 h-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                        <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                        <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                    </svg>
+                </div>
+                <span class="text-lg font-semibold text-white tracking-tight font-display">
+                    Subasto<span class="font-light text-yellow-500">.com.ar</span>
+                </span>
+            </a>
+            <a href="/guides/" class="text-yellow-500 hover:text-white text-sm transition-colors flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                </svg>
+                Todas las Guias
+            </a>
+        </div>
+    </nav>
+
+    <!-- ARTICLE -->
+    <article class="pt-32 pb-16 px-4">
+        <div class="max-w-[800px] mx-auto">
+            <!-- Header -->
+            <div class="mb-12">
+                <span class="inline-block px-3 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-medium mb-4">Costos</span>
+                <h1 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-6">
+                    Costos y Comisiones en Subastas
+                </h1>
+                <p class="text-xl text-white/60 mb-6">
+                    Entiende exactamente cuanto vas a pagar. IVA, comision del martillero, arancel judicial, y todos los gastos adicionales explicados con calculadora incluida.
+                </p>
+                <div class="flex flex-wrap items-center gap-4 text-sm text-white/40">
+                    <span class="flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        8 minutos de lectura
+                    </span>
+                    <span class="flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                        Calculadora incluida
+                    </span>
+                </div>
+            </div>
+
+            <!-- CALCULATOR -->
+            <div class="glass rounded-2xl p-6 md:p-8 mb-12 border border-yellow-500/20">
+                <h2 class="text-xl font-display font-medium text-white mb-6 flex items-center gap-3">
+                    <svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                    </svg>
+                    Calculadora de Costo Total
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- Inputs -->
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-sm text-white/60 mb-2">Precio de remate (ARS)</label>
+                            <input type="number" id="calc-price" value="5000000" class="calc-input w-full px-4 py-3 rounded-lg text-white" onchange="calculateCosts()">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm text-white/60 mb-2">Tipo de subasta</label>
+                            <select id="calc-type" class="calc-input w-full px-4 py-3 rounded-lg text-white" onchange="calculateCosts()">
+                                <option value="csjn">CSJN (Nacion) - 3% + 3% arancel</option>
+                                <option value="scba">SCBA (Prov. BS AS) - 3%</option>
+                                <option value="banco_ciudad">Banco Ciudad - 6%</option>
+                                <option value="adrian_mercado">Adrian Mercado - 10%</option>
+                                <option value="custom">Personalizado</option>
+                            </select>
+                        </div>
+
+                        <div id="custom-commission-row" class="hidden">
+                            <label class="block text-sm text-white/60 mb-2">Comision personalizada (%)</label>
+                            <input type="number" id="calc-custom-commission" value="5" class="calc-input w-full px-4 py-3 rounded-lg text-white" onchange="calculateCosts()">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm text-white/60 mb-2">Tipo de bien</label>
+                            <select id="calc-asset" class="calc-input w-full px-4 py-3 rounded-lg text-white" onchange="calculateCosts()">
+                                <option value="vehicle">Vehiculo</option>
+                                <option value="real_estate">Inmueble</option>
+                                <option value="machinery">Maquinaria</option>
+                                <option value="other">Otros bienes</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="glass rounded-xl p-5 space-y-3">
+                        <h3 class="text-sm uppercase tracking-wider text-white/40 mb-4">Desglose de costos</h3>
+
+                        <div class="flex justify-between items-center py-2 border-b border-white/5">
+                            <span class="text-white/60">Precio de remate</span>
+                            <span class="text-white font-mono" id="result-base">$5.000.000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-2 border-b border-white/5">
+                            <span class="text-white/60">Comision martillero</span>
+                            <span class="text-white/80 font-mono" id="result-commission">$150.000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-2 border-b border-white/5" id="row-arancel">
+                            <span class="text-white/60">Arancel judicial</span>
+                            <span class="text-white/80 font-mono" id="result-arancel">$150.000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-2 border-b border-white/5">
+                            <span class="text-white/60">IVA (21% s/comision)</span>
+                            <span class="text-white/80 font-mono" id="result-iva">$31.500</span>
+                        </div>
+                        <div class="flex justify-between items-center py-2 border-b border-white/5" id="row-transfer">
+                            <span class="text-white/60">Transferencia (estimado)</span>
+                            <span class="text-white/80 font-mono" id="result-transfer">$50.000</span>
+                        </div>
+
+                        <div class="flex justify-between items-center py-3 mt-2">
+                            <span class="text-white font-medium">TOTAL ESTIMADO</span>
+                            <span class="text-yellow-500 font-mono text-xl font-bold" id="result-total">$5.381.500</span>
+                        </div>
+
+                        <div class="text-xs text-white/30 mt-4">
+                            * No incluye deudas preexistentes del bien (expensas, patentes, impuestos)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="prose prose-invert max-w-none">
+                <section id="desglose">
+                    <h2 class="text-2xl font-display font-medium text-white">Desglose de costos</h2>
+
+                    <!-- Commission -->
+                    <div class="glass rounded-xl p-6 my-6">
+                        <h3 class="text-lg font-medium text-yellow-500 mb-3 flex items-center gap-2">
+                            <span class="w-8 h-8 rounded-full bg-yellow-500/20 flex items-center justify-center text-sm">1</span>
+                            Comision del Martillero
+                        </h3>
+                        <p class="text-white/70 mb-4">
+                            El martillero cobra un porcentaje sobre el precio de remate. Este porcentaje varia segun la jurisdiccion y tipo de subasta:
+                        </p>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr class="border-b border-white/10">
+                                        <th class="text-left py-2 px-3 text-white/40">Fuente</th>
+                                        <th class="text-left py-2 px-3 text-white/40">Comision</th>
+                                        <th class="text-left py-2 px-3 text-white/40">Notas</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-white/60">
+                                    <tr class="border-b border-white/5">
+                                        <td class="py-2 px-3">CSJN (Nacion)</td>
+                                        <td class="py-2 px-3 text-yellow-500">3%</td>
+                                        <td class="py-2 px-3">+ 3% arancel judicial</td>
+                                    </tr>
+                                    <tr class="border-b border-white/5">
+                                        <td class="py-2 px-3">SCBA (Prov. BS AS)</td>
+                                        <td class="py-2 px-3 text-yellow-500">3%</td>
+                                        <td class="py-2 px-3">Sin arancel adicional</td>
+                                    </tr>
+                                    <tr class="border-b border-white/5">
+                                        <td class="py-2 px-3">Banco Ciudad</td>
+                                        <td class="py-2 px-3 text-yellow-500">4-6%</td>
+                                        <td class="py-2 px-3">Varia por tipo de bien</td>
+                                    </tr>
+                                    <tr class="border-b border-white/5">
+                                        <td class="py-2 px-3">Adrian Mercado</td>
+                                        <td class="py-2 px-3 text-yellow-500">8-10%</td>
+                                        <td class="py-2 px-3">Subasta privada</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2 px-3">Narvaja</td>
+                                        <td class="py-2 px-3 text-yellow-500">10%</td>
+                                        <td class="py-2 px-3">Subasta privada</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Arancel -->
+                    <div class="glass rounded-xl p-6 my-6">
+                        <h3 class="text-lg font-medium text-blue-500 mb-3 flex items-center gap-2">
+                            <span class="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-sm">2</span>
+                            Arancel Judicial
+                        </h3>
+                        <p class="text-white/70 mb-4">
+                            Algunas jurisdicciones cobran un arancel adicional que va al Poder Judicial. El mas conocido es el de la CSJN:
+                        </p>
+                        <ul class="text-white/70 space-y-2">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span><strong class="text-white">CSJN:</strong> 3% del precio de remate</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span><strong class="text-white">SCBA:</strong> Sin arancel adicional</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span><strong class="text-white">Subastas privadas:</strong> Sin arancel judicial</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- IVA -->
+                    <div class="glass rounded-xl p-6 my-6">
+                        <h3 class="text-lg font-medium text-green-500 mb-3 flex items-center gap-2">
+                            <span class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-sm">3</span>
+                            IVA (21%)
+                        </h3>
+                        <p class="text-white/70 mb-4">
+                            El IVA se aplica <strong class="text-white">solo sobre la comision del martillero</strong>, NO sobre el precio del bien. Esto es un error comun.
+                        </p>
+                        <div class="bg-green-500/10 rounded-lg p-4 border border-green-500/20">
+                            <p class="text-white/80 text-sm mb-0">
+                                <strong class="text-green-400">Ejemplo:</strong> En una subasta de $5.000.000 con 3% de comision ($150.000), el IVA es 21% de $150.000 = <strong class="text-white">$31.500</strong>, no $1.050.000.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Transfer -->
+                    <div class="glass rounded-xl p-6 my-6">
+                        <h3 class="text-lg font-medium text-purple-500 mb-3 flex items-center gap-2">
+                            <span class="w-8 h-8 rounded-full bg-purple-500/20 flex items-center justify-center text-sm">4</span>
+                            Gastos de Transferencia
+                        </h3>
+                        <p class="text-white/70 mb-4">
+                            Despues de ganar, debes transferir el bien a tu nombre. Los costos varian segun el tipo de bien:
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="border-l-2 border-purple-500 pl-4">
+                                <h4 class="text-white font-medium">Vehiculos</h4>
+                                <ul class="text-white/60 text-sm mt-2 space-y-1">
+                                    <li>* Transferencia en Registro Automotor: ~$30.000-$80.000</li>
+                                    <li>* Verificacion policial: ~$15.000-$25.000</li>
+                                    <li>* Grabado de autopartes (si falta): ~$20.000</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-l-2 border-purple-500 pl-4">
+                                <h4 class="text-white font-medium">Inmuebles</h4>
+                                <ul class="text-white/60 text-sm mt-2 space-y-1">
+                                    <li>* Escritura judicial (sin escribano): menor costo</li>
+                                    <li>* Impuesto de sellos: 1-3.5% segun provincia</li>
+                                    <li>* Inscripcion en Registro Propiedad: variable</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-l-2 border-purple-500 pl-4">
+                                <h4 class="text-white font-medium">Maquinaria / Otros</h4>
+                                <ul class="text-white/60 text-sm mt-2 space-y-1">
+                                    <li>* Generalmente sin tramites de transferencia</li>
+                                    <li>* Factura del martillero como comprobante</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hidden Costs -->
+                    <div class="glass rounded-xl p-6 my-6 border-l-4 border-red-500">
+                        <h3 class="text-lg font-medium text-red-500 mb-3 flex items-center gap-2">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                            </svg>
+                            Costos Ocultos (cuidado!)
+                        </h3>
+                        <p class="text-white/70 mb-4">
+                            Estos costos NO estan incluidos en el precio de remate y pueden sorprenderte:
+                        </p>
+                        <ul class="text-white/70 space-y-3">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                                <span><strong class="text-white">Deudas de expensas:</strong> En inmuebles, pueden haber anios de expensas impagas</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                                <span><strong class="text-white">Patentes atrasadas:</strong> En vehiculos, verificar deuda en ARBA/AGIP</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                                <span><strong class="text-white">Multas de transito:</strong> Quedan asociadas al vehiculo</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                                <span><strong class="text-white">Impuestos inmobiliarios:</strong> ABL, provincial</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                                <span><strong class="text-white">Costo de desalojo:</strong> Si hay ocupantes ilegales</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Example Calculation -->
+                <section class="mt-12">
+                    <h2 class="text-2xl font-display font-medium text-white">Ejemplo practico</h2>
+
+                    <div class="glass rounded-xl p-6 my-6">
+                        <h4 class="text-white font-medium mb-4">Compra de un auto en CSJN por $5.000.000</h4>
+
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between py-2 border-b border-white/5">
+                                <span class="text-white/60">Precio de remate</span>
+                                <span class="text-white font-mono">$5.000.000</span>
+                            </div>
+                            <div class="flex justify-between py-2 border-b border-white/5">
+                                <span class="text-white/60">Comision martillero (3%)</span>
+                                <span class="text-white/80 font-mono">$150.000</span>
+                            </div>
+                            <div class="flex justify-between py-2 border-b border-white/5">
+                                <span class="text-white/60">Arancel judicial CSJN (3%)</span>
+                                <span class="text-white/80 font-mono">$150.000</span>
+                            </div>
+                            <div class="flex justify-between py-2 border-b border-white/5">
+                                <span class="text-white/60">IVA sobre comision (21% de $150.000)</span>
+                                <span class="text-white/80 font-mono">$31.500</span>
+                            </div>
+                            <div class="flex justify-between py-2 border-b border-white/5">
+                                <span class="text-white/60">Transferencia + verificacion (estimado)</span>
+                                <span class="text-white/80 font-mono">$60.000</span>
+                            </div>
+                            <div class="flex justify-between py-3 mt-2">
+                                <span class="text-white font-medium">TOTAL</span>
+                                <span class="text-yellow-500 font-mono font-bold">$5.391.500</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-yellow-500/10 rounded-lg">
+                            <p class="text-white/80 text-sm mb-0">
+                                <strong class="text-yellow-500">Costo adicional:</strong> 7.8% sobre el precio base ($391.500). Si el auto vale $8.000.000 en el mercado, sigue siendo un ahorro del <strong class="text-green-400">32.6%</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- FAQ -->
+            <div class="mt-16 pt-12 border-t border-white/10">
+                <h2 class="text-2xl font-display font-medium text-white mb-8">Preguntas frecuentes sobre costos</h2>
+
+                <div class="space-y-4">
+                    <div class="faq-item glass rounded-xl overflow-hidden">
+                        <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between" onclick="toggleFaq(this)">
+                            <span class="font-medium text-white">Puedo negociar la comision?</span>
+                            <svg class="w-5 h-5 text-yellow-500 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-5">
+                            <p class="text-white/60">No. Las comisiones estan reguladas y son fijas. En subastas judiciales las establece la ley. En privadas, las fija la casa de remates y son iguales para todos los participantes.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item glass rounded-xl overflow-hidden">
+                        <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between" onclick="toggleFaq(this)">
+                            <span class="font-medium text-white">Si no gano, me cobran algo?</span>
+                            <svg class="w-5 h-5 text-yellow-500 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-5">
+                            <p class="text-white/60">No. Si no resultas ganador, te devuelven la garantia completa sin descuentos en 48-72hs habiles. No hay costo por participar y perder.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item glass rounded-xl overflow-hidden">
+                        <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between" onclick="toggleFaq(this)">
+                            <span class="font-medium text-white">Quien paga las deudas del bien?</span>
+                            <svg class="w-5 h-5 text-yellow-500 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-5">
+                            <p class="text-white/60">Depende del tipo de deuda. Generalmente las deudas "propter rem" (expensas, algunos impuestos) pasan al comprador. Siempre pedi informes de dominio y certificados de deuda antes de ofertar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="mt-16 pt-12 border-t border-white/10">
+                <h2 class="text-2xl font-display font-medium text-white mb-6">Siguiente paso</h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <a href="/guides/checklist-antes-de-ofertar.html" class="glass rounded-xl p-5 hover:bg-white/5 transition-colors block">
+                        <span class="text-xs uppercase tracking-wider text-blue-500 font-medium">Siguiente guia</span>
+                        <h4 class="text-white font-medium mt-2">Checklist Antes de Ofertar</h4>
+                        <p class="text-white/40 text-sm mt-1">Que verificar para evitar sorpresas</p>
+                    </a>
+                    <a href="/" class="glass rounded-xl p-5 hover:bg-white/5 transition-colors block">
+                        <span class="text-xs uppercase tracking-wider text-yellow-500 font-medium">Explorar</span>
+                        <h4 class="text-white font-medium mt-2">Ver Subastas Activas</h4>
+                        <p class="text-white/40 text-sm mt-1">Aplicar la calculadora a subastas reales</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-4 border-t border-white/5">
+        <div class="max-w-[800px] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <a href="/" class="flex items-center gap-2">
+                <div class="w-6 h-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full">
+                        <rect x="196" y="196" width="120" height="120" fill="none" stroke="#eab308" stroke-width="6" transform="rotate(45 256 256)"/>
+                        <circle cx="256" cy="256" r="14" fill="#eab308"/>
+                    </svg>
+                </div>
+                <span class="text-white font-display text-sm">Subasto<span class="text-yellow-500 font-light">.com.ar</span></span>
+            </a>
+            <p class="text-white/40 text-xs text-center">Este contenido es educativo.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(button) {
+            const item = button.parentElement;
+            const content = item.querySelector('.faq-content');
+            const icon = button.querySelector('.faq-icon');
+            const isOpen = !content.classList.contains('hidden');
+            document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+            document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
+            if (!isOpen) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            }
+        }
+
+        const commissionRates = {
+            csjn: { commission: 3, arancel: 3 },
+            scba: { commission: 3, arancel: 0 },
+            banco_ciudad: { commission: 6, arancel: 0 },
+            adrian_mercado: { commission: 10, arancel: 0 },
+            custom: { commission: 5, arancel: 0 }
+        };
+
+        const transferCosts = {
+            vehicle: 60000,
+            real_estate: 0, // Percentage based
+            machinery: 10000,
+            other: 5000
+        };
+
+        function calculateCosts() {
+            const price = parseFloat(document.getElementById('calc-price').value) || 0;
+            const type = document.getElementById('calc-type').value;
+            const asset = document.getElementById('calc-asset').value;
+
+            // Show/hide custom commission field
+            const customRow = document.getElementById('custom-commission-row');
+            if (type === 'custom') {
+                customRow.classList.remove('hidden');
+            } else {
+                customRow.classList.add('hidden');
+            }
+
+            // Get rates
+            let rates = commissionRates[type];
+            if (type === 'custom') {
+                rates.commission = parseFloat(document.getElementById('calc-custom-commission').value) || 0;
+            }
+
+            // Calculate
+            const commission = price * (rates.commission / 100);
+            const arancel = price * (rates.arancel / 100);
+            const iva = commission * 0.21;
+
+            let transfer = transferCosts[asset];
+            if (asset === 'real_estate') {
+                transfer = price * 0.02; // 2% estimate for real estate
+            }
+
+            const total = price + commission + arancel + iva + transfer;
+
+            // Update display
+            document.getElementById('result-base').textContent = formatCurrency(price);
+            document.getElementById('result-commission').textContent = formatCurrency(commission);
+            document.getElementById('result-arancel').textContent = formatCurrency(arancel);
+            document.getElementById('result-iva').textContent = formatCurrency(iva);
+            document.getElementById('result-transfer').textContent = formatCurrency(transfer);
+            document.getElementById('result-total').textContent = formatCurrency(total);
+
+            // Show/hide arancel row
+            const arancelRow = document.getElementById('row-arancel');
+            if (arancel > 0) {
+                arancelRow.style.display = 'flex';
+            } else {
+                arancelRow.style.display = 'none';
+            }
+        }
+
+        function formatCurrency(amount) {
+            return '$' + amount.toLocaleString('es-AR', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+        }
+
+        // Initialize
+        calculateCosts();
+    </script>
+</body>
+</html>

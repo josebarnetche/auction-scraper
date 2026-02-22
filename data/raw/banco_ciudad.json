@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "banco_ciudad:3830",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3830",
+    "title": "BOMBAS, INYECTORES Y MODULOS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 13029.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-05T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143762/1"
+    ],
+    "scraped_at": "2026-02-21T21:04:49.899199+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3830:9",
+        "lot_number": 9,
+        "title": "354,00 36 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: 25163191... Dep. en garantía:",
+        "description": "",
+        "base_price": 935.4,
+        "currency": "ARS",
+        "base_price_usd": 0.65,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/9"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3830:11",
+        "lot_number": 11,
+        "title": "577,00 50 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: 8E090608... Dep. en garantía:",
+        "description": "",
+        "base_price": 1157.7,
+        "currency": "ARS",
+        "base_price_usd": 0.81,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/11"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3830:13",
+        "lot_number": 13,
+        "title": "029,00 50 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: 58045400... Dep. en garantía:",
+        "description": "",
+        "base_price": 1302.9,
+        "currency": "ARS",
+        "base_price_usd": 0.91,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/13"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3830:15",
+        "lot_number": 15,
+        "title": "164,00 102 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: E8016S ... Dep. en garantía:",
+        "description": "",
+        "base_price": 1516.4,
+        "currency": "ARS",
+        "base_price_usd": 1.06,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/15"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3830:22",
+        "lot_number": 22,
+        "title": "532,00 50 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: 58025491... Dep. en garantía:",
+        "description": "",
+        "base_price": 2253.2,
+        "currency": "ARS",
+        "base_price_usd": 1.58,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/22"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3830:30",
+        "lot_number": 30,
+        "title": "450,00 218 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: E8012S ... Dep. en garantía:",
+        "description": "",
+        "base_price": 3045.0,
+        "currency": "ARS",
+        "base_price_usd": 2.13,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/30"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3830:52",
+        "lot_number": 52,
+        "title": "954,00 50 UNIDADES DE Bomba Combustible Alternativa a COD. REPUESTO: 58046408... Dep. en garantía:",
+        "description": "",
+        "base_price": 5295.4,
+        "currency": "ARS",
+        "base_price_usd": 3.7,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3830/52"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 7
+  },
+  {
+    "id": "banco_ciudad:3822",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3822",
+    "title": "ESPINOSA 1474/76/80, PISO 13, DTO \"G\", UF. 92- CABALLITO - C.A.B.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 33500.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-27T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143737/1"
+    ],
+    "scraped_at": "2026-02-21T21:04:56.083314+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3810",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3810",
+    "title": "(EN BLOQUE) GALPONES INDUSTRIALES – PARCELAS 2, 5 Y 6 AVDA. SARMIENTO N° 45 ENTRE REMEDIOS DE ESCALADA Y RECONQUISTA – MACHAGAI - PCIA. DE CHACO",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 547000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-26T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143680/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:02.014673+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3793",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3793",
+    "title": "TERRENO EN JOSÉ INGENIEROS E/ JUAN XXIII Y CAFFERATA NORTE - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 342870.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143557/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:08.136654+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3794",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3794",
+    "title": "TERRENO EN JOSE INGENIEROS ESQUINA S/N - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 299203.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143558/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:14.359598+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3813",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3813",
+    "title": "RENAULT MASTER Y KANGOO, CITROEN JUMPER Y BERLINGO",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 5000000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-06T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143700/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:20.463665+00:00",
+    "extra": {
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "master",
+        "min_usd": 10000,
+        "max_usd": 40000,
+        "typical_usd": 20000,
+        "category": "vehicles"
+      },
+      "discount_percent": -24900.0
+    },
+    "lots": [
+      {
+        "lot_id": "bc:3813:0",
+        "lot_number": 0,
+        "title": "000,00 UNA CAMIONETA USADA SIN FUNCIONAR, MARCA, FORD, MODELO RANGER XL C/C 4... Dep. en garantía:",
+        "description": "",
+        "base_price": 500000.0,
+        "currency": "ARS",
+        "base_price_usd": 349.65,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3813/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3812",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3812",
+    "title": "EQUIPAMIENTO PARA CABINAS DE PEAJE",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 42920000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-24T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143682/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:26.349754+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3812:20",
+        "lot_number": 20,
+        "title": "200,00 UN LOTE INTEGRADO POR APROX. 65 CÁMARAS DE RED, A SABER: 44 CÁMARAS MA... Dep. en garantía:",
+        "description": "",
+        "base_price": 202020.0,
+        "currency": "ARS",
+        "base_price_usd": 141.27,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/20"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:152",
+        "lot_number": 152,
+        "title": "000,00 UN LOTE INTEGRADO POR APROX. 56 CÁMARAS DE RED, A SABER: MARCA ARH, MO... Dep. en garantía:",
+        "description": "",
+        "base_price": 3315200.0,
+        "currency": "ARS",
+        "base_price_usd": 2318.32,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/152"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:328",
+        "lot_number": 328,
+        "title": "000,00 UN LOTE INTEGRADO POR APROX. 18 ELEMENTOS Y RESTOS DE ELEMENTOS PROVEN... Dep. en garantía:",
+        "description": "",
+        "base_price": 532800.0,
+        "currency": "ARS",
+        "base_price_usd": 372.59,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/328"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:473",
+        "lot_number": 473,
+        "title": "600,00 UN LOTE INTEGRADO POR APROX. 16 CÁMARAS DE RED, A SABER: MARCA AXIS, M... Dep. en garantía:",
+        "description": "",
+        "base_price": 47360.0,
+        "currency": "ARS",
+        "base_price_usd": 33.12,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/473"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:540",
+        "lot_number": 540,
+        "title": "000,00 UN LOTE INTEGRADO POR APROX. 30 ANTENAS LECTORAS DE TAG, MARCA SICTRAN... Dep. en garantía:",
+        "description": "",
+        "base_price": 1554000.0,
+        "currency": "ARS",
+        "base_price_usd": 1086.71,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/540"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:920",
+        "lot_number": 920,
+        "title": "000,00 UN LOTE INTEGRADO POR APROX. 100 COMPUTADORAS INDUSTRIALES MARCA ADVAN... Dep. en garantía:",
+        "description": "",
+        "base_price": 4292000.0,
+        "currency": "ARS",
+        "base_price_usd": 3001.4,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/920"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:988",
+        "lot_number": 988,
+        "title": "600,00 UN LOTE INTEGRADO POR APROX. 77 CÁMARAS DE RED, A SABER: 66 CÁMARAS MA... Dep. en garantía:",
+        "description": "",
+        "base_price": 398860.0,
+        "currency": "ARS",
+        "base_price_usd": 278.92,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/988"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3812:992",
+        "lot_number": 992,
+        "title": "000,00 UN LOTE INTEGRADO POR APROX 36 READER DE ANTENA, MARCA TRANSCORE, MODE... Dep. en garantía:",
+        "description": "",
+        "base_price": 799200.0,
+        "currency": "ARS",
+        "base_price_usd": 558.88,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3812/992"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 8
+  },
+  {
+    "id": "banco_ciudad:3789",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3789",
+    "title": "TERRENO EN TIMBO 2610 ENTRE NUÑEZ Y FONROUGE - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 136189.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143553/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:32.277889+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3814",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3814",
+    "title": "ROLLOS DE FIBRA DE VIDRIO",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 8318063.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-26T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143718/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:38.014754+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3814:318",
+        "lot_number": 318,
+        "title": "063,00 4.070 KG APROXIMADAMENTE DE ROLLOS DE FIBRA DE VIDRIO – ACONDICIONADOS... Dep. en garantía:",
+        "description": "",
+        "base_price": 1663612.6,
+        "currency": "ARS",
+        "base_price_usd": 1163.37,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3814/318"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3824",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3824",
+    "title": "CHACABUCO N° 1248/1252, PISO 9° D, UNIDAD FUNCIONAL N° 47 - SAN TELMO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 73898.3,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-03T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143739/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:44.159262+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3795",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3795",
+    "title": "TERRENO EN LUIS MARÍA DRAGO ENTRE FONROUGE Y AO DEL REY - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 161280.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143559/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:50.301904+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3823",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3823",
+    "title": "PERFILES ESTRUCTURALES Y MATERIALES FERROSOS VARIOS",
+    "description": "",
+    "category": "other",
+    "base_price": 45900000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-04T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143738/1"
+    ],
+    "scraped_at": "2026-02-21T21:05:56.361290+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3823:900",
+        "lot_number": 900,
+        "title": "000,00 UN LOTE INTEGRADO POR APROXIMADAMENTE 228 TONELADAS DE ESTRUCTURAS MET... Dep. en garantía:",
+        "description": "",
+        "base_price": 4590000.0,
+        "currency": "ARS",
+        "base_price_usd": 3209.79,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3823/900"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3817",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3817",
+    "title": "ARMARIOS IGNÍFUGOS – TESOROS MÓVILES",
+    "description": "",
+    "category": "other",
+    "base_price": 250000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-03T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143727/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:02.487918+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3817:150",
+        "lot_number": 150,
+        "title": "000,00 UN ARCHIVO IGNIFUGO, SIN MARCA, NUMERO 96779, CON COMBINACIÓN Y MANIVE... Dep. en garantía:",
+        "description": "",
+        "base_price": 15000.0,
+        "currency": "ARS",
+        "base_price_usd": 10.49,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3817/150"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3817:200",
+        "lot_number": 200,
+        "title": "000,00 UN TESORO MÓVIL MARCA MOH, SIN NÚMERO, CON DOS COMBINACIONES Y MANIVEL... Dep. en garantía:",
+        "description": "",
+        "base_price": 20000.0,
+        "currency": "ARS",
+        "base_price_usd": 13.99,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3817/200"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3817:250",
+        "lot_number": 250,
+        "title": "000,00 UN TESORO MÓVIL MARCA LA GUARDIANA, NRO.11478, CON CUATRO COMBINACIONE... Dep. en garantía:",
+        "description": "",
+        "base_price": 25000.0,
+        "currency": "ARS",
+        "base_price_usd": 17.48,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3817/250"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3817:300",
+        "lot_number": 300,
+        "title": "000,00 UN TESORO MÓVIL MARCA MOH, SIN NÚMERO, CON DOS COMBINACIONES Y MANIVEL... Dep. en garantía:",
+        "description": "",
+        "base_price": 30000.0,
+        "currency": "ARS",
+        "base_price_usd": 20.98,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3817/300"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 4
+  },
+  {
+    "id": "banco_ciudad:3790",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3790",
+    "title": "TERRENO EN BALDOMERO FERNÁNDEZ MORENO E/JOSÉ INGENIEROS Y OMBÚ - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 145160.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143554/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:08.869685+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3791",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3791",
+    "title": "TERRENO EN FONROUGE E/AO DEL REY Y AV. HIPÓLITO YRIGOYEN - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 500774.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143555/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:14.961233+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3821",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3821",
+    "title": "AV. CASEROS 796, PISO 1° DTO. D, UF. 37 - BARRACAS - C.A.B.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 32830.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-27T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143736/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:20.996056+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3827",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3827",
+    "title": "IMPORTANTE EDIFICIO EX SUCURSAL BANCARIA - SANTA FE N°1274/1280 – ROSARIO - PCIA. DE SANTA FE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 591000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-11T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143753/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:27.004533+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3819",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3819",
+    "title": "GALVAN 3414 - VILLA URQUIZA - C.A.B.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 184250.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-27T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143734/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:33.040235+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3828",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3828",
+    "title": "ROLLOS DE CAÑOS DE COBRE Y RODILLOS DE ORUGA PARA EXCAVADORAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 1800000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-24T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143754/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:39.138594+00:00",
+    "extra": {
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "excavadora",
+        "min_usd": 15000,
+        "max_usd": 200000,
+        "typical_usd": 45000,
+        "category": "machinery"
+      },
+      "discount_percent": -3900.0
+    },
+    "lots": [
+      {
+        "lot_id": "bc:3828:34",
+        "lot_number": 34,
+        "title": "800,00 8 ROLLOS DE CAÑO DE COBRE 6,35 MTS X 0,79MM C/U - SE VENDEN EN EL EST... Dep. en garantía:",
+        "description": "",
+        "base_price": 6960.0,
+        "currency": "ARS",
+        "base_price_usd": 4.87,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/34"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3828:102",
+        "lot_number": 102,
+        "title": "540,00 2 RODILLOS DE ORUGA UTILIZADA PARA EXCAVADORAS Y/O TOPADORAS – SE INS... Dep. en garantía:",
+        "description": "",
+        "base_price": 20508.0,
+        "currency": "ARS",
+        "base_price_usd": 14.34,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/102"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3828:219",
+        "lot_number": 219,
+        "title": "000,00 4 ROLLOS DE CAÑO DE COBRE DE DIVERSAS MEDIDAS SEGÚN DETALLE: 1 ROLLO ... Dep. en garantía:",
+        "description": "",
+        "base_price": 43800.0,
+        "currency": "ARS",
+        "base_price_usd": 30.63,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/219"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3828:350",
+        "lot_number": 350,
+        "title": "000,00 25 ROLLOS DE CAÑOS DE COBRE 1/4 X 0.024´´ (pulgadas) X 15 MTS C/U - ... Dep. en garantía:",
+        "description": "",
+        "base_price": 270000.0,
+        "currency": "ARS",
+        "base_price_usd": 188.81,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/350"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3828:461",
+        "lot_number": 461,
+        "title": "430,00 9 RODILLOS DE ORUGA UTILIZADA PARA EXCAVADORAS Y/O TOPADORAS – SE INST... Dep. en garantía:",
+        "description": "",
+        "base_price": 92286.0,
+        "currency": "ARS",
+        "base_price_usd": 64.54,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/461"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3828:800",
+        "lot_number": 800,
+        "title": "000,00 25 ROLLOS DE CAÑOS DE COBRE 3/8 X 0.024´´(pulgadas) X 15 MTS C/U - SE... Dep. en garantía:",
+        "description": "",
+        "base_price": 360000.0,
+        "currency": "ARS",
+        "base_price_usd": 251.75,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/800"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3828:804",
+        "lot_number": 804,
+        "title": "000,00 27 ROLLOS CAÑO COBRE 3 /8 – 5 /8 - 1/2 Y DE 1 /4 DE 10 MTS C/U - SE V... Dep. en garantía:",
+        "description": "",
+        "base_price": 160800.0,
+        "currency": "ARS",
+        "base_price_usd": 112.45,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3828/804"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 7
+  },
+  {
+    "id": "banco_ciudad:3788",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3788",
+    "title": "TERRENO EN CAFFERATA ENTRE GUATAMBU Y RP 4 - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 145152.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143552/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:45.761119+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3792",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3792",
+    "title": "TERRENO EN JOSÉ INGENIEROS ESQUINA NUÑEZ - SECTOR INDUSTRIAL PLANIFICADO DE ALTE. BROWN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 459758.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-25T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143556/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:51.372376+00:00",
+    "extra": {
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3825",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3825",
+    "title": "CELULARES SAMSUNG",
+    "description": "",
+    "category": "other",
+    "base_price": 700000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-03-27T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143740/1"
+    ],
+    "scraped_at": "2026-02-21T21:06:57.393551+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3825:700",
+        "lot_number": 700,
+        "title": "000,00 Veintidós Teléfonos Celulares marca Samsung Modelos: Diecisiete- A 22,... Dep. en garantía:",
+        "description": "",
+        "base_price": 140000.0,
+        "currency": "ARS",
+        "base_price_usd": 97.9,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3825/700"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3825:750",
+        "lot_number": 750,
+        "title": "000,00 Veintitrés Teléfonos Celulares marca Samsung Modelos: Diecinueve- A 22... Dep. en garantía:",
+        "description": "",
+        "base_price": 150000.0,
+        "currency": "ARS",
+        "base_price_usd": 104.9,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3825/750"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 2
+  },
+  {
+    "id": "banco_ciudad:3820",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3820",
+    "title": "AV. CORDOBA 2635/39, PISO 11º UF.37 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 76380.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-02-27T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/143735/1"
+    ],
+    "scraped_at": "2026-02-21T21:07:03.499486+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  }
+]

@@ -43,8 +43,7 @@ htmlcov/
 dist/
 build/
 
-# Keep data directory structure but ignore content
-data/raw/*.json
+# Keep data directory structure
 !data/raw/.gitkeep
 
 # Node (if used for deployment tools)

@@ -1,0 +1,172 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Auction Scraper API",
+    "description": "Real-time Argentine auction listings from 15 sources. Pay-per-request with USDC on Base network.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Auction Scraper",
+      "url": "https://github.com/josebarnetche/auction-scraper"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://subastas.vercel.app",
+      "description": "Production"
+    }
+  ],
+  "paths": {
+    "/api/v1/price": {
+      "get": {
+        "operationId": "getPrice",
+        "summary": "Get API pricing and payment instructions",
+        "description": "Returns pricing for all endpoints and payment wallet address. No payment required.",
+        "responses": {
+          "200": {
+            "description": "Pricing information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PriceResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auctions": {
+      "get": {
+        "operationId": "getAuctions",
+        "summary": "Get all auction listings",
+        "description": "Returns 864+ listings from 15 sources. Requires $0.01 USDC payment on Base.",
+        "parameters": [
+          {
+            "name": "tx",
+            "in": "query",
+            "required": true,
+            "description": "Transaction hash of USDC payment on Base network",
+            "schema": {
+              "type": "string",
+              "pattern": "^0x[a-fA-F0-9]{64}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Auction listings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuctionsResponse"
+                }
+              }
+            }
+          },
+          "402": {
+            "description": "Payment required or verification failed"
+          }
+        }
+      }
+    },
+    "/api/v1/opportunities": {
+      "get": {
+        "operationId": "getOpportunities",
+        "summary": "Get hot deals (40%+ discount)",
+        "description": "Returns high-discount opportunities. Requires $0.05 USDC payment on Base.",
+        "parameters": [
+          {
+            "name": "tx",
+            "in": "query",
+            "required": true,
+            "description": "Transaction hash of USDC payment on Base network",
+            "schema": {
+              "type": "string",
+              "pattern": "^0x[a-fA-F0-9]{64}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Opportunity listings"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    },
+    "/api/v1/premium": {
+      "get": {
+        "operationId": "getPremium",
+        "summary": "Get curated premium picks",
+        "description": "Returns premium curated opportunities. Requires $0.10 USDC payment on Base.",
+        "parameters": [
+          {
+            "name": "tx",
+            "in": "query",
+            "required": true,
+            "description": "Transaction hash of USDC payment on Base network",
+            "schema": {
+              "type": "string",
+              "pattern": "^0x[a-fA-F0-9]{64}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Premium picks"
+          },
+          "402": {
+            "description": "Payment required"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PriceResponse": {
+        "type": "object",
+        "properties": {
+          "pricing": {
+            "type": "object",
+            "properties": {
+              "currency": { "type": "string", "example": "USDC" },
+              "network": { "type": "string", "example": "Base" }
+            }
+          },
+          "payment": {
+            "type": "object",
+            "properties": {
+              "wallet": { "type": "string", "description": "Wallet to send USDC to" },
+              "token": { "type": "string", "description": "USDC contract address on Base" }
+            }
+          }
+        }
+      },
+      "AuctionsResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean" },
+          "payment": {
+            "type": "object",
+            "properties": {
+              "tx": { "type": "string" },
+              "amount": { "type": "number" },
+              "from": { "type": "string" }
+            }
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "total_count": { "type": "integer" },
+              "by_source": { "type": "object" },
+              "top_opportunities": { "type": "array" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

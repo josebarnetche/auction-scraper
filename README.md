@@ -4,13 +4,13 @@
 
 Subasto aggregates judicial and private auctions from 15+ sources across Argentina into a single, searchable interface. Updated daily. No login required.
 
-**Website:** [subasto.com.ar](https://subasto.com.ar) *(nameservers pending)*
+**Website:** [subasto.com.ar](https://subasto.com.ar)
 
 [![Daily Scrape](https://github.com/josebarnetche/auction-scraper/actions/workflows/scrape.yml/badge.svg)](https://github.com/josebarnetche/auction-scraper/actions)
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.5.0` | 2026-02-21 |
+| `v1.6.0` | 2026-02-21 |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -52,7 +52,7 @@ A **single aggregation layer** that:
 | **Total Sources** | 14 |
 | **Active Listings** | 864 |
 | **Judicial Listings** | 621 (72%) |
-| **Lot-Level Data** | 31 lots across 8 auctions |
+| **Lot-Level Data** | 202 lots across 18 auctions |
 | **Update Frequency** | Daily at 00:00 GMT-3 |
 | **Infrastructure Cost** | $0 |
 
@@ -100,7 +100,7 @@ See auctions by **closing date**. Only future auctions are shown. Click any date
 
 | Source | Specialty | Method |
 |--------|-----------|--------|
-| **Adrián Mercado** | Vehicles, machinery, real estate | HTTP parsing |
+| **Adrián Mercado** | Vehicles, machinery, real estate (lot-level) | HTTP + JSON parsing |
 | **Banco Ciudad** | Real estate, equipment (lot-level) | Playwright + API |
 | **Global Remates** | Industrial equipment, machinery | HTTP parsing |
 | **BidBit** | Vehicles, general | HTTP parsing |
@@ -253,9 +253,42 @@ python scripts/analyze_lots.py --max-lots 50
 
 ---
 
+## API for Agents
+
+Programmatic access with USDC micropayments on Base network.
+
+### Endpoints
+
+| Endpoint | Price | Description |
+|----------|-------|-------------|
+| `GET /api/v1/price` | Free | Pricing info and payment wallet |
+| `GET /api/v1/auctions?tx=0x...` | $0.01 | All 864+ listings |
+| `GET /api/v1/opportunities?tx=0x...` | $0.05 | Hot deals (40%+ discount) |
+| `GET /api/v1/premium?tx=0x...` | $0.10 | Curated premium picks |
+
+### How It Works
+
+```
+1. GET /api/v1/price → get payment wallet
+2. Send USDC on Base to 0x29E007249b744892a1da17F4289f75cfC871d6Fe
+3. GET /api/v1/auctions?tx=YOUR_TX_HASH → receive data
+```
+
+- **Network:** Base (Coinbase L2)
+- **Token:** USDC (`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`)
+- **Verification:** On-chain, automatic
+- **OpenAPI Spec:** `/api/v1/openapi.json`
+
+---
+
 ## Support the Project
 
 If this tool saves you time, consider supporting development:
+
+**Base (USDC):**
+```
+0x29E007249b744892a1da17F4289f75cfC871d6Fe
+```
 
 **Solana (SOL):**
 ```
@@ -276,4 +309,6 @@ Developed by **[Memola Medios S.A.S.](https://www.memola.com.ar)**
 
 CUIT: 30-71863222-2 | Contact: [agencia@memola.com.ar](mailto:agencia@memola.com.ar)
 
-Follow on X: **[@hernan__cc](https://x.com/hernan__cc)**
+Follow on X: **[@josebarnetche](https://x.com/josebarnetche)**
+
+Idea by **[@hernan__cc](https://x.com/hernan__cc)**

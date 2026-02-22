@@ -1,10 +1,20 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": null,
-  "devCommand": null,
-  "installCommand": null,
+  "installCommand": "npm install",
   "framework": null,
   "outputDirectory": "site",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/v1/:path*",
+      "destination": "/api/v1/:path*"
+    }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
@@ -16,6 +26,23 @@
         {
           "key": "Cache-Control",
           "value": "s-maxage=300, stale-while-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/api/v1/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
         }
       ]
     }

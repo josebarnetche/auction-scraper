@@ -9,6 +9,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.6.0] - 2026-02-21
+
+### Added
+- **Pay-Per-Request API for AI Agents** - Programmatic access with USDC micropayments on Base network
+  - `/api/v1/price` - Free endpoint showing pricing and payment instructions
+  - `/api/v1/auctions` - All 864+ listings ($0.01 USDC)
+  - `/api/v1/opportunities` - Hot deals with 40%+ discount ($0.05 USDC)
+  - `/api/v1/premium` - Curated premium picks ($0.10 USDC)
+  - On-chain payment verification via Base RPC
+  - Anti-replay protection (tx hashes can only be used once)
+  - OpenAPI 3.1 spec at `/api/v1/openapi.json` for agent discovery
+
+### Technical
+- Vercel serverless functions in TypeScript
+- Payment verification using viem library
+- USDC contract: `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` (Base)
+- Payment wallet: `0x29E007249b744892a1da17F4289f75cfC871d6Fe`
+
+---
+
+## [1.5.1] - 2026-02-21
+
+### Added
+- **Adrián Mercado Lot Extraction** - Individual lots now extracted from multi-lot auctions
+  - Parses embedded JSON data from auction pages
+  - Extracts lot title, description, price, and images
+  - Converts ARS prices to USD using blue dollar rate
+  - 171 new lots extracted across 10 auctions
+
+### Changed
+- **Domain Live** - subasto.com.ar nameservers configured and active
+- Total lots: 31 → 202 (+550%)
+- Auctions with lots: 8 → 18
+
+---
+
 ## [1.5.0] - 2026-02-21
 
 ### Added
@@ -102,7 +138,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Rebranding
 - **New Name:** Subasto (formerly Argentina Auction Radar)
-- **New Domain:** subasto.com.ar (nameservers pending)
+- **New Domain:** subasto.com.ar
 
 ### Added
 - **Lot-Level Data Architecture** - Browse individual lots within auctions
@@ -416,7 +452,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.5.0** | 2026-02-21 | **SEO/social meta tags, currency selector in header, mobile optimization, calendar shows closing dates** |
+| **1.6.0** | 2026-02-21 | **Pay-per-request API for AI agents with USDC micropayments on Base** |
+| **1.5.1** | 2026-02-21 | Adrián Mercado lot extraction (171 lots), domain live at subasto.com.ar |
+| **1.5.0** | 2026-02-21 | SEO/social meta tags, currency selector in header, mobile optimization, calendar shows closing dates |
 | 1.4.1 | 2026-02-21 | Category detection fixes, market price accuracy, Agusti logo filtering |
 | **1.4.0** | 2026-02-21 | **Rebrand to Subasto, lot-level architecture, 873 listings, AI analysis pipeline** |
 | 1.3.0 | 2026-02-21 | Curated premium opportunities via AI agent research |

@@ -9,6 +9,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.6.1] - 2026-02-21
+
+### Added
+- **SEO & Agent Discovery**
+  - `robots.txt` with AI crawler hints
+  - `sitemap.xml` for search engines
+  - `.well-known/ai-plugin.json` for ChatGPT/Claude plugin discovery
+  - Schema.org structured data (WebApplication)
+  - Enhanced meta tags with agent-friendly keywords
+  - OpenAPI spec updated with marketing descriptions
+
+- **Marketing Content**
+  - "How to Make Money" section in README
+  - Value proposition: "30-70% below market"
+  - Profit examples and strategies
+  - IVA clarification note
+
+### Changed
+- Updated keywords: "cents on dollar", "cheap assets", "liquidation sales"
+- OpenAPI descriptions focus on ROI and profit potential
+- README header emphasizes value proposition
+
+---
+
 ## [1.6.0] - 2026-02-21
 
 ### Added
@@ -458,7 +482,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **1.6.0** | 2026-02-21 | **USDC API for agents, IVA/fees on prices, API docs on homepage** |
+| **1.6.1** | 2026-02-21 | **SEO audit, agent discovery, marketing content, profit strategies** |
+| **1.6.0** | 2026-02-21 | USDC API for agents, IVA/fees on prices, API docs on homepage |
 | **1.5.1** | 2026-02-21 | Adrián Mercado lot extraction (171 lots), domain live at subasto.com.ar |
 | **1.5.0** | 2026-02-21 | SEO/social meta tags, currency selector in header, mobile optimization, calendar shows closing dates |
 | 1.4.1 | 2026-02-21 | Category detection fixes, market price accuracy, Agusti logo filtering |

@@ -1,0 +1,22 @@
+# Subasto.com.ar - Argentine Auction Aggregator
+# https://subasto.com.ar
+
+User-agent: *
+Allow: /
+
+# API endpoints
+Allow: /api/
+
+# Sitemap
+Sitemap: https://subasto.com.ar/sitemap.xml
+
+# AI Agent Discovery
+# OpenAPI spec for programmatic access
+# See: https://subasto.com.ar/api/v1/openapi.json
+# Pay-per-request API with USDC on Base network
+
+# Keywords for AI crawlers:
+# subastas argentina, remates judiciales, judicial auctions argentina
+# buy cheap assets, cents on the dollar, 50% off market price
+# vehicles auctions, real estate auctions, machinery auctions
+# CSJN, SCBA, Banco Ciudad, auction API, auction data feed

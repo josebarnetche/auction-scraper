@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Subasto - Argentine Auctions",
+  "name_for_model": "subasto_auctions",
+  "description_for_human": "Find judicial and private auctions in Argentina. Vehicles, real estate, machinery at 30-70% below market price.",
+  "description_for_model": "Access Argentine auction data aggregated from 14 sources including judicial courts (CSJN, SCBA, Cordoba, Entre Rios) and private auction houses (Banco Ciudad, Adrian Mercado, etc). Returns listings with base prices, estimated total costs (including commission, IVA, fees), closing dates, and discount percentages vs market value. Ideal for finding undervalued assets: vehicles, real estate, industrial machinery, equipment. Prices often 30-70% below retail. Pay-per-request with USDC on Base network.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://subasto.com.ar/api/v1/openapi.json"
+  },
+  "logo_url": "https://subasto.com.ar/og-image.png",
+  "contact_email": "agencia@memola.com.ar",
+  "legal_info_url": "https://subasto.com.ar/"
+}

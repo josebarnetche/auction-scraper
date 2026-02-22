@@ -1,16 +1,26 @@
 # Subasto
 
-**One hub. All auctions. Zero friction.**
+**Buy assets at 30-70% below market. Cents on the dollar.**
 
-Subasto aggregates judicial and private auctions from 15+ sources across Argentina into a single, searchable interface. Updated daily. No login required.
+Subasto aggregates judicial and private auctions from 14 sources across Argentina. Vehicles, real estate, machinery, industrial equipment - all at liquidation prices. Updated daily. No login required.
 
 **Website:** [subasto.com.ar](https://subasto.com.ar)
+
+## Why Auctions = Free Money
+
+| What You Pay | What It's Worth | Your Profit |
+|--------------|-----------------|-------------|
+| $15,000 | $35,000 (vehicle) | **+133%** |
+| $50,000 | $120,000 (machinery) | **+140%** |
+| $80,000 | $200,000 (real estate) | **+150%** |
+
+Judicial auctions force sales. Sellers can't negotiate. Buyers win.
 
 [![Daily Scrape](https://github.com/josebarnetche/auction-scraper/actions/workflows/scrape.yml/badge.svg)](https://github.com/josebarnetche/auction-scraper/actions)
 
 | **Version** | **Last Updated** |
 |-------------|------------------|
-| `v1.6.0` | 2026-02-21 |
+| `v1.6.1` | 2026-02-21 |
 
 > See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -94,6 +104,8 @@ Base           $100,000
 ─────────────────────────
 Total Est.     $103,880
 ```
+
+> **Note:** IVA on goods (vehicles, machinery) may apply separately if seller is registered. Real estate is exempt. Commission always has IVA. Check with auction house for specifics.
 
 ---
 
@@ -190,6 +202,31 @@ All listings include both ARS and USD prices for easy comparison:
 | `base_price` | Price in original currency |
 | `base_price_usd` | Converted to USD at current blue dollar rate |
 | `blue_dollar_rate` | Live rate from dolarapi.com |
+
+---
+
+## How to Make Money
+
+### Strategy 1: Flip Vehicles
+1. Find vehicles 40%+ below market (use our discount filter)
+2. Win auction, pay ~$15,000
+3. List on MercadoLibre at $25,000
+4. Profit: **$10,000** in 2-3 weeks
+
+### Strategy 2: Source Inventory
+- Industrial equipment dealers: buy at 30%, sell at 70%
+- Auto parts: salvage vehicles for parts resale
+- Restaurant equipment: buy liquidated, resell to new businesses
+
+### Strategy 3: Real Estate Arbitrage
+- Judicial real estate sells at 50-60% of market
+- No negotiation, forced sale
+- Rent or flip for 40%+ ROI
+
+### Strategy 4: Export
+- Argentine machinery is cheap in USD terms
+- Blue dollar rate = extra 20% discount for foreign buyers
+- Ship to Paraguay, Chile, Brazil
 
 ---
 

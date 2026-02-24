@@ -25,7 +25,7 @@ const STORAGE_KEYS = {
 // ============================================
 // FORMSPREE ENDPOINT (for email digest)
 // ============================================
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/subasto-alerts'; // Replace with actual endpoint
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mreaowrr';
 
 // ============================================
 // ALERTS STATE

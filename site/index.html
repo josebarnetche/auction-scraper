@@ -347,6 +347,13 @@ html {
                     Guias
                 </a>
                 <a href="#servicios" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">Servicios</a>
+                <button onclick="toggleAlertsModal()" class="relative text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors flex items-center gap-1" title="Mis Alertas">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                    </svg>
+                    <span>Alertas</span>
+                    <span id="alerts-badge" class="absolute -top-2 -right-3 w-5 h-5 bg-red-500 text-white text-[10px] font-bold rounded-full items-center justify-center hidden">0</span>
+                </button>
                 <a href="#api" class="text-xs font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors">API</a>
                 <!-- Share Links -->
                 <div class="flex items-center gap-3 ml-2 pl-4 border-l border-white/10">
@@ -394,6 +401,13 @@ html {
                     Guias para Principiantes
                 </a>
                 <a href="#servicios" onclick="toggleMobileMenu()" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2 border-b border-white/10">Servicios</a>
+                <button onclick="toggleMobileMenu(); toggleAlertsModal();" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2 border-b border-white/10 flex items-center gap-2 w-full">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                    </svg>
+                    <span>Mis Alertas</span>
+                    <span id="alerts-badge-mobile" class="w-5 h-5 bg-red-500 text-white text-[10px] font-bold rounded-full flex items-center justify-center hidden">0</span>
+                </button>
                 <a href="#api" onclick="toggleMobileMenu()" class="text-sm font-medium uppercase tracking-widest text-yellow-400 hover:text-white transition-colors py-2 border-b border-white/10">API</a>
                 <!-- Share Links Mobile -->
                 <div class="flex items-center gap-4 pt-2">
@@ -2398,6 +2412,9 @@ html {
         // Initialize
         fetchAuctions();
     </script>
+
+    <!-- Alerts System (localStorage-based, no backend) -->
+    <script src="/js/alerts.js"></script>
 
 </body>
 </html>

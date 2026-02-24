@@ -197,11 +197,24 @@ class AgustiSubastasScraper(BaseScraper):
         """Extract price from card text."""
         currency = "ARS"
 
-        # Check for USD
-        if re.search(r'USD|U\$S|DOLAR', text, re.I):
+        # Check for USD indicators (u$s, USD, DOLAR, etc.)
+        if re.search(r'u\$s|USD|DOLAR', text, re.I):
             currency = "USD"
 
-        # Pattern: "Oferta: $ 21000000,00" or "$ 1.234.567"
+        # Pattern 1: "u$s 88.400,00" or "U$S 88.400"
+        match = re.search(r'u\$s\s*([\d.,]+)', text, re.I)
+        if match:
+            price_str = match.group(1)
+            if "," in price_str:
+                price_str = price_str.replace(".", "").replace(",", ".")
+            else:
+                price_str = price_str.replace(".", "")
+            try:
+                return float(price_str), "USD"
+            except ValueError:
+                pass
+
+        # Pattern 2: "Oferta: $ 21000000,00" or "$ 1.234.567"
         match = re.search(r'(?:Oferta[:\s]*)?[\$]\s*([\d.,]+)', text)
         if match:
             price_str = match.group(1)
@@ -427,8 +440,24 @@ class AgustiSubastasScraper(BaseScraper):
         """Extract price from detail page."""
         currency = "ARS"
 
-        if re.search(r'USD|U\$S|DOLAR', page_text, re.I):
+        # Check for USD indicators
+        if re.search(r'u\$s|USD|DOLAR', page_text, re.I):
             currency = "USD"
+
+        # Pattern for u$s prices first (e.g., "u$s 88.400,00")
+        match = re.search(r'u\$s\s*([\d.,]+)', page_text, re.I)
+        if match:
+            price_str = match.group(1)
+            if "," in price_str:
+                price_str = price_str.replace(".", "").replace(",", ".")
+            else:
+                price_str = price_str.replace(".", "")
+            try:
+                price = float(price_str)
+                if price > 100:
+                    return price, "USD"
+            except ValueError:
+                pass
 
         # Look for base price patterns
         patterns = [

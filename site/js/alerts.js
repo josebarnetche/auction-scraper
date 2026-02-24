@@ -440,39 +440,45 @@ function checkExpiringAuctions() {
 }
 
 // ============================================
-// EMAIL DIGEST
+// EMAIL LIST SIGNUP
 // ============================================
-async function subscribeToEmailDigest(email, preferences) {
+async function subscribeToEmailList(email) {
     if (!email || !email.includes('@')) {
         showToast('Por favor ingresa un email valido', 'error');
         return false;
     }
 
-    const formData = {
-        email: email,
-        preferences: preferences,
-        savedSearches: alertsState.savedSearches.map(s => s.name),
-        watchedCount: alertsState.watchedAuctions.length,
-        subscribedAt: new Date().toISOString()
-    };
-
     try {
-        // In production, send to Formspree or your email service
-        // For now, we'll just save locally and show success
+        // Send to Formspree
+        const response = await fetch(FORMSPREE_ENDPOINT, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                email: email,
+                source: 'subasto.com.ar',
+                subscribedAt: new Date().toISOString()
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error('Formspree error');
+        }
+
+        // Save locally to show subscribed state
         alertsState.emailPrefs = {
             email: email,
-            frequency: preferences.frequency || 'daily',
-            categories: preferences.categories || [],
             subscribedAt: new Date().toISOString()
         };
-
         saveAlertsState();
 
-        showToast('Suscripcion exitosa! Recibiras alertas en tu email.', 'success');
+        showToast('Te suscribiste a la lista de Subasto!', 'success');
 
         // Track event
         if (typeof gtag === 'function') {
-            gtag('event', 'email_subscribe', { frequency: preferences.frequency });
+            gtag('event', 'email_subscribe');
         }
 
         return true;
@@ -486,7 +492,7 @@ async function subscribeToEmailDigest(email, preferences) {
 function unsubscribeFromEmail() {
     alertsState.emailPrefs = null;
     localStorage.removeItem(STORAGE_KEYS.EMAIL_PREFERENCES);
-    showToast('Te desuscribiste del digest por email', 'info');
+    showToast('Te desuscribiste de la lista', 'info');
 }
 
 // ============================================
@@ -580,7 +586,7 @@ function createAlertsModal() {
                     Subastas Seguidas
                 </button>
                 <button onclick="switchAlertsTab('email')" id="tab-email" class="flex-1 px-4 py-3 text-sm font-medium text-white/40 hover:text-white border-b-2 border-transparent">
-                    Email Digest
+                    Newsletter
                 </button>
             </div>
 
@@ -758,9 +764,8 @@ function renderEmailDigestTab() {
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-display font-medium text-white mb-2">Suscripto!</h3>
-                <p class="text-white/40 mb-2">Recibiras alertas en: <span class="text-white">${alertsState.emailPrefs.email}</span></p>
-                <p class="text-white/30 text-sm mb-6">Frecuencia: ${alertsState.emailPrefs.frequency === 'daily' ? 'Diaria' : 'Inmediata'}</p>
+                <h3 class="text-xl font-display font-medium text-white mb-2">Ya estas en la lista!</h3>
+                <p class="text-white/40 mb-6">Te avisaremos de novedades a: <span class="text-white">${alertsState.emailPrefs.email}</span></p>
                 <button onclick="unsubscribeFromEmail(); renderAlertsModal('email');"
                         class="px-4 py-2 bg-red-500/20 text-red-400 rounded-lg font-medium hover:bg-red-500/30 transition-colors">
                     Desuscribirme
@@ -777,46 +782,15 @@ function renderEmailDigestTab() {
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-display font-medium text-white mb-2">Recibe alertas por email</h3>
-                <p class="text-white/40 text-sm">Te notificamos cuando aparecen nuevas subastas que coincidan con tus busquedas guardadas</p>
+                <h3 class="text-xl font-display font-medium text-white mb-2">Unite a la lista de Subasto</h3>
+                <p class="text-white/40 text-sm">Recibí novedades, oportunidades destacadas y tips para comprar en subastas.</p>
             </div>
 
             <form onsubmit="handleEmailSubscribe(event)" class="space-y-4">
                 <div>
-                    <label class="block text-xs uppercase tracking-wider text-white/40 mb-2">Email</label>
                     <input type="email" id="digest-email" required
                            placeholder="tu@email.com"
-                           class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50">
-                </div>
-
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-white/40 mb-2">Frecuencia</label>
-                    <select id="digest-frequency" class="w-full bg-[#1a1a1a] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-yellow-500/50">
-                        <option value="daily">Resumen diario (recomendado)</option>
-                        <option value="instant">Alertas instantaneas</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-white/40 mb-3">Categorias de interes</label>
-                    <div class="grid grid-cols-2 gap-2">
-                        <label class="flex items-center gap-2 p-3 rounded-lg bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
-                            <input type="checkbox" name="category" value="vehicles" class="rounded text-yellow-500 focus:ring-yellow-500">
-                            <span class="text-white/80 text-sm">Vehiculos</span>
-                        </label>
-                        <label class="flex items-center gap-2 p-3 rounded-lg bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
-                            <input type="checkbox" name="category" value="real_estate" class="rounded text-yellow-500 focus:ring-yellow-500">
-                            <span class="text-white/80 text-sm">Inmuebles</span>
-                        </label>
-                        <label class="flex items-center gap-2 p-3 rounded-lg bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
-                            <input type="checkbox" name="category" value="machinery" class="rounded text-yellow-500 focus:ring-yellow-500">
-                            <span class="text-white/80 text-sm">Maquinaria</span>
-                        </label>
-                        <label class="flex items-center gap-2 p-3 rounded-lg bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
-                            <input type="checkbox" name="category" value="general_goods" class="rounded text-yellow-500 focus:ring-yellow-500">
-                            <span class="text-white/80 text-sm">Bienes</span>
-                        </label>
-                    </div>
+                           class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-yellow-500/50 text-center">
                 </div>
 
                 <button type="submit" class="w-full px-4 py-3 bg-yellow-500 text-black rounded-lg font-medium hover:bg-yellow-400 transition-colors">
@@ -824,7 +798,7 @@ function renderEmailDigestTab() {
                 </button>
 
                 <p class="text-center text-white/30 text-xs">
-                    Podes desuscribirte en cualquier momento
+                    Sin spam. Podes desuscribirte cuando quieras.
                 </p>
             </form>
         </div>
@@ -835,14 +809,7 @@ async function handleEmailSubscribe(event) {
     event.preventDefault();
 
     const email = document.getElementById('digest-email').value;
-    const frequency = document.getElementById('digest-frequency').value;
-    const categoryCheckboxes = document.querySelectorAll('input[name="category"]:checked');
-    const categories = Array.from(categoryCheckboxes).map(cb => cb.value);
-
-    const success = await subscribeToEmailDigest(email, {
-        frequency,
-        categories
-    });
+    const success = await subscribeToEmailList(email);
 
     if (success) {
         renderAlertsModal('email');

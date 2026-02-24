@@ -527,17 +527,6 @@ html {
     </section>
 
     <!-- OPPORTUNITIES SECTION -->
-    <section class="py-20 px-4 md:px-6 border-t border-white/5 relative z-10 bg-black/50" id="opportunities">
-        <div class="max-w-[1400px] mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-5xl font-display font-medium text-white tracking-tight mb-4">Top Opportunities</h2>
-                <p class="text-yellow-400/80">Featured auctions with the best value potential</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="opportunities-grid">
-                <!-- Populated by JS -->
-            </div>
-        </div>
-    </section>
 
     <!-- DASHBOARD SECTION -->
     <section class="py-20 px-4 md:px-6 bg-gradient-to-b from-yellow-900/5 to-black/50 border-t border-white/5 relative z-10" id="dashboard">
@@ -1938,16 +1927,37 @@ html {
             return shuffled;
         }
 
-        // Shuffle opportunities and re-render
+        // Shuffle opportunities and re-render with visual feedback
         function shuffleOpportunities() {
             const btn = document.getElementById('shuffle-btn');
+            const grid = document.getElementById('opportunities-grid');
+
+            // Disable button during animation
+            btn.disabled = true;
             btn.classList.add('animate-spin-once');
 
-            allOpportunities = shuffleArray(allOpportunities);
-            isShuffled = true;
-            renderOpportunitiesGrid();
+            // Fade out current cards
+            grid.style.opacity = '0.3';
+            grid.style.transform = 'scale(0.98)';
 
-            setTimeout(() => btn.classList.remove('animate-spin-once'), 500);
+            setTimeout(() => {
+                // Perform shuffle
+                allOpportunities = shuffleArray(allOpportunities);
+                isShuffled = true;
+
+                // Re-render with new order
+                renderOpportunitiesGrid();
+
+                // Fade in new cards
+                grid.style.opacity = '1';
+                grid.style.transform = 'scale(1)';
+
+                // Re-enable button
+                setTimeout(() => {
+                    btn.disabled = false;
+                    btn.classList.remove('animate-spin-once');
+                }, 300);
+            }, 200);
         }
 
         // Show more opportunities

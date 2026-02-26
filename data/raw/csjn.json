@@ -1,5 +1,42 @@
 [
   {
+    "id": "csjn:3",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/3",
+    "title": "AUTOMOTOR - RENAULT - MEGANE II 2.0 16V LUXE A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ1AUTOMOTOR- RENAULT- MEGANE II  2.0 16V LUXE AÑO 2009- COLOR NEGRO- ESTADO REGULARLa inscripción cierra en:Descripción del bienAutomotor marca Renault, modelo MEGANE II 2.0 16V LUXE, tipo Sedan 4 puertas, año 2009, motor N° F4RZ770C146947, chasis N° 93YLM1N36AJ318012, dominio IHY788, color negro, cuenta con 241.981 km. Equipado con: radio, calefactor, cinturón de seguridad, aire acondicionado, estéreo, reloj, llantas especiales y no cuen",
+    "category": "vehicles",
+    "base_price": 2319000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/3/5/photo.16_29_10.878782.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/3/5/photo.16_29_10.785027.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/3/5/photo.16_29_10.800652.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/3/5/photo.16_29_10.816280.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/3/5/photo.16_29_10.831907.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:47:21.750484+00:00",
+    "extra": {
+      "auction_code": "3",
+      "lot_id": "5",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 2556697.5
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "csjn:9",
     "source": "csjn",
     "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/9",
@@ -22,7 +59,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_42.993612.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/9/11/photo.10_16_43.009237.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:10.517649+00:00",
+    "scraped_at": "2026-02-26T04:47:32.072039+00:00",
     "extra": {
       "auction_code": "9",
       "lot_id": "11",
@@ -57,7 +94,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.432763.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/12/14/photo.12_16_58.448394.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:15.538985+00:00",
+    "scraped_at": "2026-02-26T04:47:36.739170+00:00",
     "extra": {
       "auction_code": "12",
       "lot_id": "14",
@@ -67,6 +104,80 @@
       "stamp_tax_pct": 1.5,
       "other_fees_description": "Sellado de ley aplicable",
       "total_cost_estimate": 167600.0
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:13",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/13",
+    "title": "AUTOMOTOR - CHEVROLET - SPIN 1.8 LTZ 7 AS A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ2AUTOMOTOR- CHEVROLET- SPIN 1.8 LTZ 7 AS AÑO 2013- COLOR GRIS- ESTADO BUENOLa inscripción cierra en:Descripción del bienAutomotor marca Chevrolet, modelo SPIN 1.8 LTZ 7 AS, tipo Sedan 5 puertas, año 2013,  motor N° RPA 740032, chasis N° RPA 740032, dominio AG343FY, color gris, cuenta con 113.877 km recorridos. Equipado con: calefactor, cinturón de seguridad, estéreo y reloj. El paragolpe trasero se encuentra chocado. El estado del vehícu",
+    "category": "vehicles",
+    "base_price": 4886000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/13/15/photo.08_50_57.336734.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/13/15/photo.08_50_57.305479.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/13/15/photo.08_50_57.321105.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/13/15/photo.08_50_57.352363.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/13/15/photo.08_50_57.367984.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:47:37.711691+00:00",
+    "extra": {
+      "auction_code": "13",
+      "lot_id": "15",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 5386815.0
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:14",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/14",
+    "title": "AUTOMOTOR - RENAULT - MEGANE II 2.0 16V LUXE A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ3AUTOMOTOR- RENAULT- MEGANE II 2.0 16V LUXE AÑO 2009- COLOR GRIS  ESTADO MUY BUENO-La inscripción cierra en:Descripción del bienAutomotor marca Renault, modelo MEGANE II 2.0 16V LUXE, tipo Sedan 4 puertas, año 2009, motor N° F4RZ770C147108, chasis N° 93YLM1N36AJ319155, dominio IJO052, color gris, cuenta con 135.391 km. Equipado con: radio, calefactor, aire acondicionado, cinturón de seguridad, estéreo, reloj y llantas especiales. El moto",
+    "category": "vehicles",
+    "base_price": 3174000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/14/16/photo.09_32_18.595992.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/14/16/photo.09_32_18.533478.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/14/16/photo.09_32_18.549115.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/14/16/photo.09_32_18.564732.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/14/16/photo.09_32_18.580361.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:47:39.165768+00:00",
+    "extra": {
+      "auction_code": "14",
+      "lot_id": "16",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 3499335.0
     },
     "lots": [],
     "lot_count": 0
@@ -94,7 +205,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.820924.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/15/17/photo.13_13_48.836547.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:19.463899+00:00",
+    "scraped_at": "2026-02-26T04:47:40.916585+00:00",
     "extra": {
       "auction_code": "15",
       "lot_id": "17",
@@ -131,7 +242,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.620471.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/16/18/photo.08_58_20.636089.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:21.595710+00:00",
+    "scraped_at": "2026-02-26T04:47:43.449967+00:00",
     "extra": {
       "auction_code": "16",
       "lot_id": "18",
@@ -168,7 +279,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.402028.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/17/19/photo.11_02_12.417647.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:23.156534+00:00",
+    "scraped_at": "2026-02-26T04:47:45.533806+00:00",
     "extra": {
       "auction_code": "17",
       "lot_id": "19",
@@ -202,7 +313,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.143264.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/18/20/photo.08_21_38.158890.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:24.717642+00:00",
+    "scraped_at": "2026-02-26T04:47:47.161838+00:00",
     "extra": {
       "auction_code": "18",
       "lot_id": "20",
@@ -221,7 +332,7 @@
     "source": "csjn",
     "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/20",
     "title": "CASA 5 AMBIENTESCON JARDÍN, PILETA Y QUINCHO. TEMPERLEY- PCIA. DE BUENOS AIRES-",
-    "description": "Subasta\n                        InmuebleCód.COM7EN DÓLARES- CASA 5 AMBIENTESCON JARDÍN, PILETA Y QUINCHO. TEMPERLEY- PCIA. DE BUENOS AIRES-La inscripción está cerradaDescripción del bienInmueble ubicado en la calle Avellaneda Nº 315, entre General Guido y Coronel Suarez, de la Ciudad de Temperley dentro del conocido 'BARRIO INGLES DE TEMPERLEY' Partido de Lomas de Zamora, Provincia de Buenos Aires.- Designado en su título con el lote 3. Mide: 10,39 metros de frente al NNO por 25,70 metros de fon",
+    "description": "Subasta\n                        InmuebleCód.COM7EN DÓLARES- CASA 5 AMBIENTESCON JARDÍN, PILETA Y QUINCHO. TEMPERLEY- PCIA. DE BUENOS AIRES-Descripción del bienInmueble ubicado en la calle Avellaneda Nº 315, entre General Guido y Coronel Suarez, de la Ciudad de Temperley dentro del conocido 'BARRIO INGLES DE TEMPERLEY' Partido de Lomas de Zamora, Provincia de Buenos Aires.- Designado en su título con el lote 3. Mide: 10,39 metros de frente al NNO por 25,70 metros de fondo. Superficie: 267,02 m2.-",
     "category": "real_estate",
     "base_price": 215000.0,
     "currency": "USD",
@@ -239,7 +350,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/20/22/photo.12_09_40.419734.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/20/22/photo.12_09_40.435344.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:28.056248+00:00",
+    "scraped_at": "2026-02-26T04:47:50.484271+00:00",
     "extra": {
       "auction_code": "20",
       "lot_id": "22",
@@ -249,6 +360,43 @@
       "stamp_tax_pct": 0.0,
       "other_fees_description": "",
       "total_cost_estimate": 221987.5
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:21",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/21",
+    "title": "AUTOMOTOR - RENAULT - MEGANE II 2.0 16V LUXE A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ4AUTOMOTOR- RENAULT- MEGANE II 2.0 16V LUXE AÑO 2009- COLOR NEGRO- ESTADO MUY BUENO-La inscripción cierra en:Descripción del bienAutomotor marca Renault, modelo MEGANE II 2.0 16V LUXE, tipo Sedan 4 puertas, año 2009, motor N° F4RZ770C146949, chasis N° 93YLM1N36AJ318049, dominio IHZ060, color negro, cuenta con 99.503 km. Equipado con: radio, calefactor, aire acondicionado, cinturón de seguridad, estéreo, reloj y 3 llantas especiales. El m",
+    "category": "vehicles",
+    "base_price": 2816000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/21/23/photo.10_21_36.587829.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/21/23/photo.10_04_21.692795.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/21/23/photo.10_04_21.708432.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/21/23/photo.10_04_21.724056.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/21/23/photo.10_04_21.755307.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:47:51.437231+00:00",
+    "extra": {
+      "auction_code": "21",
+      "lot_id": "23",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 3104640.0
     },
     "lots": [],
     "lot_count": 0
@@ -276,7 +424,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.195570.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/23/25/photo.12_03_11.211187.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:32.900877+00:00",
+    "scraped_at": "2026-02-26T04:47:54.488488+00:00",
     "extra": {
       "auction_code": "23",
       "lot_id": "25",
@@ -310,7 +458,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/28/30/photo.11_32_31.389360.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/28/30/photo.11_32_31.404998.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:40.509427+00:00",
+    "scraped_at": "2026-02-26T04:48:02.670760+00:00",
     "extra": {
       "auction_code": "28",
       "lot_id": "30",
@@ -320,6 +468,117 @@
       "stamp_tax_pct": 1.5,
       "other_fees_description": "Sellado de ley aplicable",
       "total_cost_estimate": 39281.25
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:29",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/29",
+    "title": "AUTOMOTOR - PEUGEOT - 3008 ALLURE TIPTRONIC A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ5AUTOMOTOR- PEUGEOT- 3008 ALLURE TIPTRONIC AÑO 2014- COLOR GRIS- ESTADO BUENOLa inscripción cierra en:Descripción del bienAutomotor marca Peugeot, modelo 3008 ALLURE TIPTRONIC, tipo Sedan 5 puertas, año 2014,  motor N° RPA 740026, chasis N° RPA 740026, dominio AG343FS, color gris, cuenta con 85.455 km. Equipado con: calefactor, cinturón de seguridad, aire acondicionado, estéreo y reloj. El motor no funciona y el paragolpe derecho se encu",
+    "category": "vehicles",
+    "base_price": 5408000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/29/31/photo.12_51_43.844108.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/29/31/photo.12_51_43.703458.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/29/31/photo.12_51_43.734714.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/29/31/photo.12_51_43.750340.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/29/31/photo.12_51_43.765970.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:48:03.681181+00:00",
+    "extra": {
+      "auction_code": "29",
+      "lot_id": "31",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 5962320.0
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:31",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/31",
+    "title": "AUTOMOTOR - RENAULT - MEGANE II 2.0 16V LUXE A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ7AUTOMOTOR- RENAULT- MEGANE II 2.0 16V LUXE AÑO 2009 -COLOR AZUL- ESTADO BUENOLa inscripción cierra en:Descripción del bienAutomotor marca Renault, modelo MEGANE II 2.0 16V LUXE, tipo Sedan 4 puertas, año 2009, motor N° F4RZ770C146915, chasis N° 93YLM1N36AJ300343, dominio IHB647, color azul, cuenta con 233.296 km. Equipado con: radio, calefactor, aire acondicionado, cinturón de seguridad, estéreo, reloj y  llantas especiales. El motor no",
+    "category": "vehicles",
+    "base_price": 2650000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/31/33/photo.13_50_38.300181.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/31/33/photo.13_50_38.128285.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/31/33/photo.13_50_38.143917.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/31/33/photo.13_50_38.159542.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/31/33/photo.13_50_38.175175.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:48:06.754749+00:00",
+    "extra": {
+      "auction_code": "31",
+      "lot_id": "33",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 2921625.0
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:32",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/32",
+    "title": "AUTOMOTOR - TOYOTA HILUX L/05 2.5 DC 4X4 TD DX PICK - UP A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ8AUTOMOTOR- TOYOTA HILUX L/05 2.5 DC 4X4 TD DX PICK-UP AÑO 2011- COLOR BLANCO- ESTADO REGULARLa inscripción cierra en:Descripción del bienAutomotor marca Toyota, modelo HILUX L/05 2.5 DC 4X4 TD DX PICK-UP, tipo Pick-up, año 2011, motor N° RPA 740031, chasis N° RPA 740031, dominio AG343FX, color blanco, sin registro de kilometraje. Equipado con: cinturón de seguridad, radio, estéreo y reloj. No posee computadora. El estado del vehículo es",
+    "category": "vehicles",
+    "base_price": 5482800.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/32/34/photo.14_26_02.681876.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/32/34/photo.16_06_44.223219.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/32/34/photo.16_06_44.238850.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/32/34/photo.16_06_44.254491.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/32/34/photo.16_06_44.270104.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:48:08.114070+00:00",
+    "extra": {
+      "auction_code": "32",
+      "lot_id": "34",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 6044787.0
     },
     "lots": [],
     "lot_count": 0
@@ -347,7 +606,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.761695.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/48/50/photo.11_00_05.792950.jpeg"
     ],
-    "scraped_at": "2026-02-25T04:53:09.936092+00:00",
+    "scraped_at": "2026-02-26T04:48:32.166845+00:00",
     "extra": {
       "auction_code": "48",
       "lot_id": "50",
@@ -384,7 +643,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.557848.jpeg"
     ],
-    "scraped_at": "2026-02-25T04:53:12.662161+00:00",
+    "scraped_at": "2026-02-26T04:48:34.338312+00:00",
     "extra": {
       "auction_code": "49",
       "lot_id": "51",
@@ -421,7 +680,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/50/52/photo.10_17_39.670520.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/50/52/photo.10_17_39.686151.jpg"
     ],
-    "scraped_at": "2026-02-25T04:53:13.585157+00:00",
+    "scraped_at": "2026-02-26T04:48:35.279489+00:00",
     "extra": {
       "auction_code": "50",
       "lot_id": "52",
@@ -458,7 +717,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.024720.jpeg"
     ],
-    "scraped_at": "2026-02-25T04:53:18.799416+00:00",
+    "scraped_at": "2026-02-26T04:48:40.568177+00:00",
     "extra": {
       "auction_code": "53",
       "lot_id": "55",
@@ -495,7 +754,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.217414.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.233029.jpg"
     ],
-    "scraped_at": "2026-02-25T04:53:22.462131+00:00",
+    "scraped_at": "2026-02-26T04:48:43.744105+00:00",
     "extra": {
       "auction_code": "55",
       "lot_id": "57",
@@ -505,6 +764,43 @@
       "stamp_tax_pct": 1.5,
       "other_fees_description": "Sellado de ley aplicable",
       "total_cost_estimate": 34916.32
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:57",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/57",
+    "title": "AUTOMOTOR - RENAULT - MEGANE II 2.0 16V LUXE A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.CSJ24AUTOMOTOR- RENAULT- MEGANE II 2.0 16V LUXE AÑO 2009- COLOR GRIS- ESTADO MUY BUENO-La inscripción cierra en:Descripción del bienAutomotor marca Renault, modelo MEGANE II 2.0 16V LUXE, tipo Sedan 4 puertas, año 2009, motor N° F4RZ770C146885, chasis N° 93YLM1N36AJ318626, dominio IHY782, color gris, cuenta con 181.475 km. Equipado con: radio, calefactor, aire acondicionado, cinturón de seguridad, estéreo, reloj y llantas especiales. El mot",
+    "category": "vehicles",
+    "base_price": 3147000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-06T09:00:00",
+    "ends_at": "2026-03-26T09:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.010712.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.026341.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.041980.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.057602.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.073230.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:48:46.158635+00:00",
+    "extra": {
+      "auction_code": "57",
+      "lot_id": "59",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 3469567.5
     },
     "lots": [],
     "lot_count": 0
@@ -532,7 +828,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/59/61/photo.12_20_12.299311.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/59/63/photo.13_39_49.496957.jpg"
     ],
-    "scraped_at": "2026-02-25T04:53:28.307596+00:00",
+    "scraped_at": "2026-02-26T04:48:49.426043+00:00",
     "extra": {
       "auction_code": "59",
       "lot_id": "",

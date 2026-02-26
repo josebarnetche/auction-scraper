@@ -1,10 +1,10 @@
 [
   {
-    "id": "delafuente:30051",
+    "id": "delafuente:30078",
     "source": "delafuente",
-    "source_url": "https://delafuentesubastas.com.ar/remate/30051",
-    "title": "Subasta De la Fuente #30051",
-    "description": "Subasta en Córdoba. 12 de Marzo, 14:30",
+    "source_url": "https://delafuentesubastas.com.ar/remate/30078",
+    "title": "Subasta De la Fuente #30078",
+    "description": "Subasta en Córdoba. 05 de Marzo, 14:30",
     "category": "real_estate",
     "base_price": 0.0,
     "currency": "ARS",
@@ -16,9 +16,33 @@
       "city": "Córdoba"
     },
     "images": [
-      "https://thumbs2.rural-ftp.com/upload/w_300,q_60,o_input/https://ftp.rural-server.com/remates/images/HXQQcI2nSEXnllns.jpg"
+      "https://thumbs2.rural-ftp.com/upload/w_300,q_60,o_input/https://ftp.rural-server.com/remates/images/gWiyiR0kI41Yun0Q.jpg"
     ],
-    "scraped_at": "2026-02-25T04:52:09.630405+00:00",
+    "scraped_at": "2026-02-26T04:47:21.391445+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "delafuente:30051",
+    "source": "delafuente",
+    "source_url": "https://delafuentesubastas.com.ar/remate/30051",
+    "title": "Subasta De la Fuente #30051",
+    "description": "Subasta en Córdoba. 05 de Marzo, 14:30",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Córdoba",
+      "city": "Córdoba"
+    },
+    "images": [
+      "https://thumbs2.rural-ftp.com/upload/w_300,q_60,o_input/https://ftp.rural-server.com/remates/images/gWiyiR0kI41Yun0Q.jpg"
+    ],
+    "scraped_at": "2026-02-26T04:47:21.391598+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

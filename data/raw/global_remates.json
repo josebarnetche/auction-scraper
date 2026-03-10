@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3225",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3225",
-    "title": "MELISAM Fire Group",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-03-09T04:48:06.550091+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3223",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3223",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-09T04:48:06.550231+00:00",
+    "scraped_at": "2026-03-10T04:28:07.541915+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-09T04:48:06.550352+00:00",
+    "scraped_at": "2026-03-10T04:28:07.542065+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-09T04:48:06.550463+00:00",
+    "scraped_at": "2026-03-10T04:28:07.542203+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-09T04:48:06.550573+00:00",
+    "scraped_at": "2026-03-10T04:28:07.542333+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3230",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3230",
+    "title": "D.V.R. Motopartes s.r.l",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-10T04:28:07.542449+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -116,7 +116,7 @@
     "title": "Agro Bayer S.R.L. ACOPLADO RURAL DE DOS EJES, EL GRILL... xxxxx",
     "description": "",
     "category": "real_estate",
-    "base_price": 690000.0,
+    "base_price": 1590000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3223/41567/3223_Lote_14.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.552269+00:00",
+    "scraped_at": "2026-03-10T04:28:07.544319+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -140,7 +140,7 @@
     "title": "Agro Bayer S.R.L. TRAILER DE TRANSPORTE DE PERSONAL RU... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 420000.0,
+    "base_price": 580000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3223/41569/3223_Lote_16.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.552593+00:00",
+    "scraped_at": "2026-03-10T04:28:07.544679+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -164,7 +164,7 @@
     "title": "Agro Bayer S.R.L. ACOPLADO TANQUE CISTERNA 8.000 LTS, ... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 410000.0,
+    "base_price": 560000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3223/41571/3223_Lote_18.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.552883+00:00",
+    "scraped_at": "2026-03-10T04:28:07.545002+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -188,7 +188,7 @@
     "title": "Agro Bayer S.R.L. ACOPLADO TANQUE CISTERNA 8.000 LTS.,... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 420000.0,
+    "base_price": 570000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3223/41577/3223_Lote_24.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.553155+00:00",
+    "scraped_at": "2026-03-10T04:28:07.545311+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3223/41616/3223_Lote_63.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.553438+00:00",
+    "scraped_at": "2026-03-10T04:28:07.545660+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -236,7 +236,7 @@
     "title": "Agro Bayer S.R.L. AUTOELEVADOR ELÉCTRICO, YALE CAPACID... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 250000.0,
+    "base_price": 310000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -248,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3223/41617/3223_Lote_64.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.553710+00:00",
+    "scraped_at": "2026-03-10T04:28:07.545960+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -257,10 +257,10 @@
     "id": "global_remates:lot_41621",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41621",
-    "title": "Agro Bayer S.R.L. MOTO-REDUCTORES VARIOS, SEW-EURODRIV... betianaz",
+    "title": "Agro Bayer S.R.L. MOTO-REDUCTORES VARIOS, SEW-EURODRIV... MetSa",
     "description": "",
     "category": "vehicles",
-    "base_price": 90000.0,
+    "base_price": 95000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -272,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41621/3224_Lote_68.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.554074+00:00",
+    "scraped_at": "2026-03-10T04:28:07.546251+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41633/3224_Lote_80.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.555521+00:00",
+    "scraped_at": "2026-03-10T04:28:07.546589+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41653/3224_Lote_100.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.555791+00:00",
+    "scraped_at": "2026-03-10T04:28:07.546867+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41664/3224_Lote_111.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.556105+00:00",
+    "scraped_at": "2026-03-10T04:28:07.547218+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41675/3224_Lote_122.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.556393+00:00",
+    "scraped_at": "2026-03-10T04:28:07.547553+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +392,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41684/3224_Lote_131.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.556690+00:00",
+    "scraped_at": "2026-03-10T04:28:07.547876+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -416,7 +416,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3224/41697/3224_Lote_144.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.556970+00:00",
+    "scraped_at": "2026-03-10T04:28:07.548183+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +440,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3227/41778/3227_lote_03(6).jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.557222+00:00",
+    "scraped_at": "2026-03-10T04:28:07.548488+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -464,7 +464,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3227/41780/3227_lote_05(6).jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.557550+00:00",
+    "scraped_at": "2026-03-10T04:28:07.548773+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -488,7 +488,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3227/41782/3227_Lote_07.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.557801+00:00",
+    "scraped_at": "2026-03-10T04:28:07.549129+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -512,7 +512,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3227/41784/3227_Lote_09.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.558047+00:00",
+    "scraped_at": "2026-03-10T04:28:07.549669+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -536,7 +536,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3226/41710/3226_Lote_21.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.558301+00:00",
+    "scraped_at": "2026-03-10T04:28:07.550191+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -560,7 +560,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3226/41715/3226_Lote_26.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.558576+00:00",
+    "scraped_at": "2026-03-10T04:28:07.550739+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -584,7 +584,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3226/41722/3226_Lote_33.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.558840+00:00",
+    "scraped_at": "2026-03-10T04:28:07.551308+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -608,7 +608,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3226/41728/3226_Lote_39.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.559105+00:00",
+    "scraped_at": "2026-03-10T04:28:07.551714+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -632,7 +632,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3226/41773/3226_Lote_84.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.559352+00:00",
+    "scraped_at": "2026-03-10T04:28:07.552013+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -656,7 +656,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3226/41775/3226_Lote_86.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.559607+00:00",
+    "scraped_at": "2026-03-10T04:28:07.552298+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -680,7 +680,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3230/41834/3214_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.559851+00:00",
+    "scraped_at": "2026-03-10T04:28:07.552624+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -704,7 +704,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3228/41830/3199_lote_01(10).jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.560151+00:00",
+    "scraped_at": "2026-03-10T04:28:07.552969+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -728,7 +728,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41831/3229_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.560417+00:00",
+    "scraped_at": "2026-03-10T04:28:07.553265+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -752,7 +752,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41832/3229_Lote_02.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.560677+00:00",
+    "scraped_at": "2026-03-10T04:28:07.553566+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -776,7 +776,79 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41833/3229_Lote_03.jpg"
     ],
-    "scraped_at": "2026-03-09T04:48:06.560932+00:00",
+    "scraped_at": "2026-03-10T04:28:07.553852+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41835",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41835",
+    "title": "BIOCERTA S.A.S. IMPORTANTE CÁMARA DE ALMACENAMIENTO ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 15000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-08T11:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3231/41835/3222_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-03-10T04:28:07.554165+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41836",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41836",
+    "title": "BIOCERTA S.A.S. GENERADOR ELÉCTRICO HONDA GX 390. DE...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1050000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-08T11:02:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3231/41836/3222_Lote_02.jpg"
+    ],
+    "scraped_at": "2026-03-10T04:28:07.554495+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41837",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41837",
+    "title": "BIOCERTA S.A.S. INNADERO DE DOS NAVES. A DESMONTA...",
+    "description": "",
+    "category": "other",
+    "base_price": 1100000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-08T11:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3231/41837/3222_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-03-10T04:28:07.554837+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

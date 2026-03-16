@@ -4,9 +4,9 @@
     "source": "entrerios",
     "source_url": "https://subastas.jusentrerios.gob.ar/subasta/2241",
     "title": "2 Galpones",
-    "description": "Subastas Judiciales Necesitas habilitar javascript en tu navegador para ver el sitio. Iniciar Sesión Registrarme Persona Empresa Registrarme Persona Empresa Quienes Somos ¡Quiero Subastar! Reglamento Tutoriales Cómo Pagar Contacto Preguntas frecuentes Terminan mañana (2) Empiezan mañana (1) Vigentes (27) Próximos (25) Suspendidos (269) Terminados (1793) categorias Agro, Rural y Campo (3) Derechos y Acciones (2) Industrias y Oficinas (10) Inmuebles (7) Vehículos (5) Mostrando 27 resultados  en \"V",
+    "description": "Subastas Judiciales Necesitas habilitar javascript en tu navegador para ver el sitio. Iniciar Sesión Registrarme Persona Empresa Registrarme Persona Empresa Quienes Somos ¡Quiero Subastar! Reglamento Tutoriales Cómo Pagar Contacto Preguntas frecuentes Terminan hoy (2) Empiezan hoy (1) Vigentes (27) Próximos (25) Suspendidos (269) Terminados (1793) categorias Agro, Rural y Campo (3) Derechos y Acciones (2) Industrias y Oficinas (10) Inmuebles (7) Vehículos (5) Mostrando 27 resultados  en \"Vigente",
     "category": "real_estate",
-    "base_price": 130662112.0,
+    "base_price": 148662112.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -16,9 +16,33 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media_er/fotos_bienes/custom_msg_1_09-03-2026_17-31-1773088274-885036.webp?temp_url_sig=1bf38e3e0daeedef3c4309df5ca41b29d5d7f7eb299ccd9f64e98cbf155ac835&temp_url_expires=1773637296"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media_er/fotos_bienes/custom_msg_1_09-03-2026_17-31-1773088274-885036.webp?temp_url_sig=8f79b0fe5ef86d115b2bb02d21732c75c01c52e8102dfd31f07ce44f784f4b82&temp_url_expires=1773724265"
     ],
-    "scraped_at": "2026-03-15T05:01:38.983870+00:00",
+    "scraped_at": "2026-03-16T05:11:08.040944+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "entrerios:5493513731991",
+    "source": "entrerios",
+    "source_url": "https://subastas.jusentrerios.gob.ar/subasta/5493513731991",
+    "title": "VEHÍCULOS Y MAQUINARIAS",
+    "description": "Subastas Judiciales Necesitas habilitar javascript en tu navegador para ver el sitio. Iniciar Sesión Registrarme Persona Empresa Registrarme Persona Empresa Quienes Somos ¡Quiero Subastar! Reglamento Tutoriales Cómo Pagar Contacto Preguntas frecuentes Terminan hoy (2) Empiezan hoy (1) Vigentes (27) Próximos (25) Suspendidos (269) Terminados (1793) categorias Agro, Rural y Campo (3) Derechos y Acciones (2) Industrias y Oficinas (10) Inmuebles (7) Vehículos (5) Mostrando 27 resultados  en \"Vigente",
+    "category": "real_estate",
+    "base_price": 2700000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Entre Rios",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media_er/fotos_bienes/custom_msg_1_09-03-2026_17-31-1773088274-885036.webp?temp_url_sig=ade288b8dfb41c3d0aadf99ac8ef70199e7623a8ba7d04116954daaee9888710&temp_url_expires=1773724324"
+    ],
+    "scraped_at": "2026-03-16T05:12:07.001720+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

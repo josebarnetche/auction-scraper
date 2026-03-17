@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-16T05:10:56.886899+00:00",
+    "scraped_at": "2026-03-17T04:48:26.271848+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-16T05:10:56.887183+00:00",
+    "scraped_at": "2026-03-17T04:48:26.272022+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-16T05:10:56.887353+00:00",
+    "scraped_at": "2026-03-17T04:48:26.272150+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3232",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3232",
+    "title": "MELISAM Fire Group",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-17T04:48:26.272268+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,29 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-16T05:10:56.887532+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3066",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3066",
-    "title": "Raizen Argentina",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-03-16T05:10:56.887750+00:00",
+    "scraped_at": "2026-03-17T04:48:26.272368+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3230/41834/3214_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-16T05:10:56.889172+00:00",
+    "scraped_at": "2026-03-17T04:48:26.273808+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3228/41830/3199_lote_01(14).jpg"
     ],
-    "scraped_at": "2026-03-16T05:10:56.889518+00:00",
+    "scraped_at": "2026-03-17T04:48:26.274149+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41831/3229_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-16T05:10:56.889804+00:00",
+    "scraped_at": "2026-03-17T04:48:26.274429+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41832/3229_Lote_02.jpg"
     ],
-    "scraped_at": "2026-03-16T05:10:56.890063+00:00",
+    "scraped_at": "2026-03-17T04:48:26.274715+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,79 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41833/3229_Lote_03.jpg"
     ],
-    "scraped_at": "2026-03-16T05:10:56.890375+00:00",
+    "scraped_at": "2026-03-17T04:48:26.274985+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41838",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41838",
+    "title": "MELISAM Fire Group LIMADORA, MARCA BAHE, RECORRIDO 40 C...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 1350000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-14T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3232/41838/3225_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-03-17T04:48:26.275429+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41840",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41840",
+    "title": "MELISAM Fire Group BALANCIN, CANT: 1 U. Loc: Boulogne- ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 330000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-14T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3232/41840/3225_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-03-17T04:48:26.275878+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41841",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41841",
+    "title": "MELISAM Fire Group TORNO REVOL, CANT: 1 U. Loc: Boul...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 750000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-14T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3232/41841/3225_Lote_04.jpg"
+    ],
+    "scraped_at": "2026-03-17T04:48:26.276173+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

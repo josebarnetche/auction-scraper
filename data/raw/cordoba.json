@@ -1,149 +1,5 @@
 [
   {
-    "id": "cordoba:26201",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26201/",
-    "title": "Renault, Modelo 12",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 700000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T11:00:00+00:00",
-    "ends_at": "2026-03-16T11:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26201_02-03-2026_20-14-1772493281-800984_mini.webp?temp_url_sig=8348f3ff672238cadd02107c174fdf05bdbc2133ca132c0840b1d916edaf8243&temp_url_expires=1773724256"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559704+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26133",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26133/",
-    "title": "II TORRES EN PREDIO DE 3H",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 13500000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26133_16-02-2026_22-55-1771293359-919112_mini.webp?temp_url_sig=5d71afcf3543ff0b2b021faed5857453db2ab7321c5bee64d68796fcb77fb46a&temp_url_expires=1773724256"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559722+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26247",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26247/",
-    "title": "INMUEBLE EN HUINCA RENANCO",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 24655351.32,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26247_11-03-2026_16-35-1773257741-984256_mini.webp?temp_url_sig=6c4b9a9792faa5790168c3e98a3114797c1e5bf5514c2c8d7b536658b6d994b3&temp_url_expires=1773724256"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559735+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26129",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26129/",
-    "title": "BMW 118I AÑO 2017 OPORTUN",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 12900000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26129_14-02-2026_01-21-1771042900-320459_mini.webp?temp_url_sig=01b16bf3c5f59cc61b8ee65cc20f1b2361560a49248fc789e2e795d7c528c844&temp_url_expires=1773724256"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559744+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26200",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26200/",
-    "title": "TERRENO VILLA ALLENDE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 61920519.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26200_02-03-2026_17-43-1772484207-045461_mini.webp?temp_url_sig=7912805f76965fd78b17514a4c8119aa36f3ffa41a1609aeafe551d529aec94a&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559753+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26188",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26188/",
-    "title": "PURIFICADOR DE AGUA",
-    "description": "",
-    "category": "other",
-    "base_price": 28000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26188_24-02-2026_18-18-1771967907-478410_mini.webp?temp_url_sig=315281c5c40f6ad63f14c0ec9abcf68db5ee091f3b4bda3b4f876ea683f2dfdf&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559822+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "cordoba:26169",
     "source": "cordoba",
     "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26169/",
@@ -160,9 +16,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26169_21-02-2026_00-47-1771645667-202186_mini.webp?temp_url_sig=4f91f5d56fd0ed6dca889385489304b296cd6d87618c08ac33e4f06d0194af84&temp_url_expires=1773724257"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26169_21-02-2026_00-47-1771645667-202186_mini.webp?temp_url_sig=4e30aa32323e24ddd47e874c96fe49009cd285c19036ace92dc1bd1ed9b60156&temp_url_expires=1773809305"
     ],
-    "scraped_at": "2026-03-16T05:10:58.559837+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480353+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +32,7 @@
     "category": "real_estate",
     "base_price": 60000000.0,
     "currency": "ARS",
-    "status": "ongoing",
+    "status": "published",
     "starts_at": "2026-03-11T12:00:00+00:00",
     "ends_at": "2026-03-18T12:00:00.900000+00:00",
     "location": {
@@ -184,9 +40,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25589_29-12-2025_20-12-1767049937-114215_mini.webp?temp_url_sig=856f6fd384ae93f41d9f1239646469697eb06ef644d473b3df560377b26a4b97&temp_url_expires=1773724257"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25589_29-12-2025_20-12-1767049937-114215_mini.webp?temp_url_sig=19dcc6d105d85cc8b6e3c44a3dccf48103f1d125f0a9f2f805053d5f6ec13c54&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.559852+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480366+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -198,9 +54,9 @@
     "title": "CHEVROLET PRISMA JOY",
     "description": "",
     "category": "vehicles",
-    "base_price": 4067391.3899999997,
+    "base_price": 4567391.39,
     "currency": "ARS",
-    "status": "ongoing",
+    "status": "published",
     "starts_at": "2026-03-11T14:00:00+00:00",
     "ends_at": "2026-03-18T14:00:00.900000+00:00",
     "location": {
@@ -208,33 +64,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26207_04-03-2026_13-42-1772642568-932279_mini.webp?temp_url_sig=223b5e815cfd03f01295a499945b8f198184f04bb10c99b985b98ed83796b109&temp_url_expires=1773724257"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26207_04-03-2026_13-42-1772642568-932279_mini.webp?temp_url_sig=5746414779e2c625658fa258534f6fd083bafc8e5b97f3d64a2052ad10a6a734&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.559860+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:25533",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25533/",
-    "title": "CORVEN TRIAX 150 2021",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1175000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-11T14:00:00+00:00",
-    "ends_at": "2026-03-18T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25533_03-03-2026_12-26-1772551571-957236_mini.webp?temp_url_sig=2d6aff06a5bbb8218d7ce7e04ce6b45844327579c85d9633e709f758b0eaed88&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559868+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480374+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +80,7 @@
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
-    "status": "ongoing",
+    "status": "published",
     "starts_at": "2026-03-11T14:00:00+00:00",
     "ends_at": "2026-03-18T14:00:00.900000+00:00",
     "location": {
@@ -256,753 +88,33 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26208_04-03-2026_16-21-1772652116-141887_mini.webp?temp_url_sig=7dd01f414085f6466e955dd78607fd805b60d7014cecca03a08d842171564fb3&temp_url_expires=1773724257"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26208_04-03-2026_16-21-1772652116-141887_mini.webp?temp_url_sig=6d2c64fe91fb815f02eeb7f044eeecac372733638df5973c3d833d28cba8a88b&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.559927+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480425+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26228",
+    "id": "cordoba:25533",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26228/",
-    "title": "LOTE INFORMATICA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 431273.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26228_06-03-2026_23-35-1772850905-840650_mini.webp?temp_url_sig=253656c14fd622f2f2ccc34d09fb94377d24db12881a67f89c96fe50a755fcb7&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559945+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26210",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26210/",
-    "title": "Nuevo Logan Authentique",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25533/",
+    "title": "CORVEN TRIAX 150 2021",
     "description": "",
     "category": "vehicles",
-    "base_price": 5057609.37,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26210_04-03-2026_21-27-1772670437-034047_mini.webp?temp_url_sig=4527b91365705920c8a140b8895f665c89deaf2d9460eb4a522f770833150fe9&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559957+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26209",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26209/",
-    "title": "SANDERO RENAULT  año 2017",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 3250000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26209_04-03-2026_19-02-1772661766-296728_mini.webp?temp_url_sig=fadf1aeeb2802302a80e12c666ab44d0739ed0df8666b59be22cfdc00bb9afb4&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559966+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26122",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26122/",
-    "title": "EXCEPCIONAL INMUEBLE!!!!",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 76180576.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-13T13:00:00+00:00",
-    "ends_at": "2026-03-20T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26122_12-02-2026_13-12-1770912752-572265_mini.webp?temp_url_sig=dd5cf4345cc67464dc4d5dc943b5ee7d56a65c3d4f1c9b8290fe7a76dd844841&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559972+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26202",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26202/",
-    "title": "AMAROK 2.0L TDI 180 CV 4X2",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 16500000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-13T14:00:00+00:00",
-    "ends_at": "2026-03-20T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26202_03-03-2026_00-33-1772508804-757313_mini.webp?temp_url_sig=3b91927c47ad00085e11aab53ce5bfffeb885fd4e383dfc773a5be811fc2862b&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559978+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26246",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26246/",
-    "title": "HILUX SR C/AB 3.0 TDI 2012",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 5800000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-13T15:00:00+00:00",
-    "ends_at": "2026-03-20T15:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26246_09-03-2026_10-44-1773063865-489550_mini.webp?temp_url_sig=9d7599cf555420ffaa0843e740a87c1f1bf8a71c59b02a6c1eac96dc1e05fd2c&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559984+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26255",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26255/",
-    "title": "CHEVROLET CORSA CLASIC 3P",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 3200000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-13T16:00:00+00:00",
-    "ends_at": "2026-03-20T16:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26255_10-03-2026_18-08-1773176885-631858_mini.webp?temp_url_sig=20485589271e428428db8758e29b497e814fc0f4bd6986bcdb66042416e5139b&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.559991+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26191",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26191/",
-    "title": "UNA BIBLIOTECA DE MADERA",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 28000.0,
+    "base_price": 1225000.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
+    "starts_at": "2026-03-11T14:00:00+00:00",
+    "ends_at": "2026-03-18T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26191_24-02-2026_18-26-1771968393-690033_mini.webp?temp_url_sig=ade7464ceb42abfb5b3e0afaa061a1091cff31acb93c17170c8ab3941f253edd&temp_url_expires=1773724257"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25533_03-03-2026_12-26-1772551571-957236_mini.webp?temp_url_sig=8c297267317ffb6c89bf902426fd2707676881abbaa6201b75f62a32ba912a18&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.560044+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26213",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26213/",
-    "title": "ARTICULOS CLOACAS",
-    "description": "",
-    "category": "other",
-    "base_price": 19347866.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T11:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26213_05-03-2026_09-06-1772712396-259639_mini.webp?temp_url_sig=d7aab23770b921181a7d2d6487bf260bedf7566e7af82a56c2d36efc452c3856&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560102+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:25590",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25590/",
-    "title": "Dpto en B° Cofico",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 63000000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T12:00:00+00:00",
-    "ends_at": "2026-03-19T12:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25590_29-12-2025_20-26-1767050784-645110_mini.webp?temp_url_sig=d2bf0ea612ec85767ea1faba807e756d560ef6bdcdc706707ba55f5d772efa19&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560109+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26248",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26248/",
-    "title": "FIAT PUNTO ESSENCE 1.6 16V",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 4300000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-13T13:00:00+00:00",
-    "ends_at": "2026-03-20T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26248_09-03-2026_14-22-1773076970-805672_mini.webp?temp_url_sig=aa62c17d0fecd9089f86dfe41cb873a0c230fcefd8334c2b09aad6b6d4fc10e6&temp_url_expires=1773724257"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560116+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26178",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26178/",
-    "title": "TV LG 49UH6100",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 168000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26178_24-02-2026_16-34-1771961695-229776_mini.webp?temp_url_sig=2e0c47975e7d19ab208b969139b92a2e38aebaab72a6b47e0280853403b3b449&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560164+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26214",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26214/",
-    "title": "ART INICIO DE OBRA",
-    "description": "",
-    "category": "other",
-    "base_price": 7037400.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T12:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26214_05-03-2026_09-18-1772713111-374136_mini.webp?temp_url_sig=1ca7438e2da2efbc6aeca34e0f28ee1f2a3a83f116567a994df0428a9532e79e&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560220+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:25591",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25591/",
-    "title": "Local Cerro de las Rosas",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 29000000.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25591_29-12-2025_20-36-1767051365-060644_mini.webp?temp_url_sig=17e29d211cdb760c30a0524b5c51e1b4b68fa48ea56c2f91bf7cc1e9453b610a&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560230+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26183",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26183/",
-    "title": "AIRE ACONDICIONADO DAEWO",
-    "description": "",
-    "category": "machinery",
-    "base_price": 140000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26183_24-02-2026_17-00-1771963210-720185_mini.webp?temp_url_sig=40dc4e9b7886cb061ef4db35a951a90c8da6670497c9d407f5b9296814dffbe6&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560273+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26223",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26223/",
-    "title": "GENERADORES MONOFASICOS",
-    "description": "",
-    "category": "machinery",
-    "base_price": 1271424.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26223_06-03-2026_09-52-1772801523-877878_mini.webp?temp_url_sig=b335f85d3ee49f4d09e0eb64775d52f08d5eb1771fd5f5d6565073a74c733bfc&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560312+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26177",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26177/",
-    "title": "TOSTADORA BLANCA",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 14000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26177_24-02-2026_16-30-1771961422-956080_mini.webp?temp_url_sig=aa359c5b4454dd189ab6077dd60c3a667086770f6502157fee298dd1ddfb10de&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560365+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26219",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26219/",
-    "title": "SEGURIDAD y FERRETERIA",
-    "description": "",
-    "category": "other",
-    "base_price": 2970174.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26219_05-03-2026_10-30-1772717443-107237_mini.webp?temp_url_sig=9f25897b855bc6e8e6634d149aed36de832b5206b5f6029c58002d50a9867864&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560426+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26176",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26176/",
-    "title": "CAFETERA YELMO",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 21000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26176_24-02-2026_16-28-1771961297-678228_mini.webp?temp_url_sig=3b6e2d77dbdfbddcd8ff0deb5f751f39c8c8db0ae9aaa518ddda7d53384f0464&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560473+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26224",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26224/",
-    "title": "HERRAMIENTAS Y MAQUINAS",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 6788238.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26224_06-03-2026_10-12-1772802738-311943_mini.webp?temp_url_sig=7763e3065776ffcf1e74b49a1efd03dd7ad401d28afa52b9c80104c5b50bfa6f&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560496+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26181",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26181/",
-    "title": "DOS MESAS DE MADERA",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 14000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26181_24-02-2026_16-50-1771962627-535284_mini.webp?temp_url_sig=2f81d6cb2ca8baee7a566785ea0b1b72d7a1fdd8ace83cba05f14a033333989b&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560551+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26215",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26215/",
-    "title": "CAÑOS AGUA",
-    "description": "",
-    "category": "other",
-    "base_price": 6415072.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T12:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26215_05-03-2026_09-27-1772713624-842193_mini.webp?temp_url_sig=67f1ec90a6a33a01846429197dcd0b009cb84a2ec02f9e7d32ba4f06d85ea2c4&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560602+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26190",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26190/",
-    "title": "UN SILLON DE PANA",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 35000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26190_24-02-2026_18-23-1771968215-872908_mini.webp?temp_url_sig=9d5639445dbc7725469d7e2ec148ebcecc2064d6c80a14243093e93d7f3578fa&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560645+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26245",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26245/",
-    "title": "ZINGUERIA",
-    "description": "",
-    "category": "other",
-    "base_price": 5033538.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T16:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26245_09-03-2026_10-23-1773062584-726744_mini.webp?temp_url_sig=292955bdad14ee6d29f94c3af489740c80cf3dabda6a95cab9b4a2ab041b2d71&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560704+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26180",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26180/",
-    "title": "VENTILADOR MARCA PEABODY",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 56000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26180_24-02-2026_16-48-1771962495-698555_mini.webp?temp_url_sig=4eb3791af226ffcb79646ae52e345ecefab6a626405f104cb77bf5b0af57975f&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560757+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26211",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26211/",
-    "title": "ARTICULOS SANITARIOS",
-    "description": "",
-    "category": "other",
-    "base_price": 44967356.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T11:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26211_05-03-2026_08-33-1772710409-878164_mini.webp?temp_url_sig=2654fd7daeff5382aadd25a6ce3797df8eed913a33759c7bd21ee16412b8d03d&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560818+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26179",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26179/",
-    "title": "EQUIPO DE MUSICA PHILIPS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 56000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26179_24-02-2026_16-44-1771962278-429166_mini.webp?temp_url_sig=58d97da99fb8c97b88488958dbbfdf54bf30fbc25f3820871137529c93cba2da&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.560968+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26230",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26230/",
-    "title": "MAQUINA PEGA CANTOS",
-    "description": "",
-    "category": "machinery",
-    "base_price": 12125750.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T15:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26230_07-03-2026_00-00-1772852431-724626_mini.webp?temp_url_sig=aec36220bdda0fec3185bda42e257da037e9a4c2c205258066865f90b85d4512&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.561014+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26185",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26185/",
-    "title": "TV. NOBLEX DE 32 PULGADAS",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 77000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26185_24-02-2026_17-23-1771964584-683765_mini.webp?temp_url_sig=9aae43a51511baf17ed45ecebe11afe94fe1e2a639e72848605c1c691fc19465&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.561071+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26243",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26243/",
-    "title": "RUBRO TERMINACION",
-    "description": "",
-    "category": "other",
-    "base_price": 7859702.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T16:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26243_09-03-2026_10-07-1773061627-060037_mini.webp?temp_url_sig=2077331c671fe730aac2f6deb1b44b03cdd0db5b8c67bc723544f13d8589c229&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.561133+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26184",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26184/",
-    "title": "TRES FUTONES",
-    "description": "",
-    "category": "other",
-    "base_price": 42000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26184_24-02-2026_17-15-1771964124-597493_mini.webp?temp_url_sig=ea498e7b5bad6780659d561712343957efd658f48f54b83aeb8060fdbac0292c&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.561189+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480433+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1024,81 +136,273 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26216_05-03-2026_09-40-1772714401-186670_mini.webp?temp_url_sig=52523870451e7a91f793c4bda6237846a8eeb1f7dd8b59a2359a258415a79c4a&temp_url_expires=1773724258"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26216_05-03-2026_09-40-1772714401-186670_mini.webp?temp_url_sig=7ca8c3f16cfd8246a1e22e2fdc8632b00703526ad5655f355571e7f4d1d12d5b&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.561246+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480476+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26186",
+    "id": "cordoba:26210",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26186/",
-    "title": "AIRE ACOND SIN MARCA",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26210/",
+    "title": "Nuevo Logan Authentique",
     "description": "",
-    "category": "other",
-    "base_price": 77000.0,
+    "category": "vehicles",
+    "base_price": 5057609.37,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26186_24-02-2026_17-30-1771965058-434913_mini.webp?temp_url_sig=f1b62da33eade910713d93b8334197fe3b439ea5af42e6e611ddd091b02927be&temp_url_expires=1773724258"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26210_04-03-2026_21-27-1772670437-034047_mini.webp?temp_url_sig=80248ca9f9a5b013d0b2b555cee0520a20478072e308acb4700c607293d47937&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.561308+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480481+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26218",
+    "id": "cordoba:26209",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26218/",
-    "title": "LOTE ELECTRODOMESTICOS",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26209/",
+    "title": "SANDERO RENAULT  año 2017",
     "description": "",
-    "category": "real_estate",
-    "base_price": 8775675.0,
+    "category": "vehicles",
+    "base_price": 3350000.0,
     "currency": "ARS",
     "status": "ongoing",
     "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26209_04-03-2026_19-02-1772661766-296728_mini.webp?temp_url_sig=0a70597bee232a8fad9429dd1c2c271d94c78bdad4e5c95bb9bd4c7270b85ad1&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480493+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26122",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26122/",
+    "title": "EXCEPCIONAL INMUEBLE!!!!",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 76180576.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-13T13:00:00+00:00",
+    "ends_at": "2026-03-20T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26122_12-02-2026_13-12-1770912752-572265_mini.webp?temp_url_sig=c809ee858d0fda084e06f4dfabdf3b08c530806511756e4c27fc6d0ed44beb2e&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480499+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26202",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26202/",
+    "title": "AMAROK 2.0L TDI 180 CV 4X2",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 16500000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-13T14:00:00+00:00",
+    "ends_at": "2026-03-20T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26202_03-03-2026_00-33-1772508804-757313_mini.webp?temp_url_sig=922766cdc9dcfc6dc1ee1dd9ed5e127703654f8b718313cd1a967d0c61fc6a82&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480504+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26194",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26194/",
+    "title": "RANGER 4X2 XL PLUS",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1000000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T14:00:00+00:00",
+    "ends_at": "2026-03-20T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26194_25-02-2026_14-22-1772040135-314603_mini.webp?temp_url_sig=759bfdb27a31de49b7ea9599ab1d27a0755ab1a5a2e962215aae0e0a370e58d8&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480509+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26246",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26246/",
+    "title": "HILUX SR C/AB 3.0 TDI 2012",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 6600000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-13T15:00:00+00:00",
+    "ends_at": "2026-03-20T15:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26246_09-03-2026_10-44-1773063865-489550_mini.webp?temp_url_sig=15f0c172d2aaaa4a08f0de55ba85a36ecd082360072c29cd1a4dcf9ba22f3065&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480515+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26255",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26255/",
+    "title": "CHEVROLET CORSA CLASIC 3P",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 3200000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-13T16:00:00+00:00",
+    "ends_at": "2026-03-20T16:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26255_10-03-2026_18-08-1773176885-631858_mini.webp?temp_url_sig=33b76585fb8f05990e6a33ff621e87eb9e447aa1f6ad09e807af674f99e08420&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480520+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26108",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26108/",
+    "title": "Peugeot 208 ACTIVE1.6 2018",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 5000000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T14:00:00+00:00",
+    "ends_at": "2026-03-23T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26108_11-02-2026_16-33-1770838434-033264_mini.webp?temp_url_sig=431baa339806637d9bf60767d92ab0c7a2aaebbcb547e474ebebc665cec7367d&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480526+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26199",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26199/",
+    "title": "KA SEDAN 2019 569 KM",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 13424033.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T14:00:00+00:00",
+    "ends_at": "2026-03-25T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26199_02-03-2026_15-42-1772476933-383287_mini.webp?temp_url_sig=73515fd2c9c21b3d2bdd5c4b445ea1338472cacdb32b0627ba8a8313cb6ac048&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480532+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26232",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26232/",
+    "title": "Maq de esc. CONTINENTAL",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T14:00:00+00:00",
+    "ends_at": "2026-03-25T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26232_07-03-2026_16-00-1772910044-559053_mini.webp?temp_url_sig=f820e58500b99358f124bf5fd11ea9bcd0241c91b2b004b4e5c323960a404ecf&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480576+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26271",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26271/",
+    "title": "LOTE 9 GALLETITAS DULCES",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 50000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
     "ends_at": "2026-03-19T13:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26218_05-03-2026_10-12-1772716336-197619_mini.webp?temp_url_sig=6b843772eee04970dbeb1fdf2620c8ea8b27613467b12392084412662e57717d&temp_url_expires=1773724258"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26271_14-03-2026_11-08-1773497311-902223_mini.webp?temp_url_sig=ab94978786ceb2c473705ba58442b024920cb8b28bed10573bc8b2ca4c8cc01c&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.561322+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26187",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26187/",
-    "title": "UNA COMPUTADORA LG",
-    "description": "",
-    "category": "other",
-    "base_price": 63000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26187_24-02-2026_17-46-1771965978-382228_mini.webp?temp_url_sig=4e6e2d9af608345594226a84cd70570ba57a8050728b1ea448800e4e7476ff04&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.561378+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480587+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1120,33 +424,225 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26217_05-03-2026_09-50-1772715044-531912_mini.webp?temp_url_sig=f69739c57736e5df93b43e2ab2f8e2ae5dfc27ae68019004caeec1112335f73e&temp_url_expires=1773724258"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26217_05-03-2026_09-50-1772715044-531912_mini.webp?temp_url_sig=0518416c5dc8a18745f7ba6b3ea559e808b9671793d5ec88075721bff513d66b&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.561441+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480629+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26182",
+    "id": "cordoba:25590",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26182/",
-    "title": "DOS SILLONES",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25590/",
+    "title": "Dpto en B° Cofico",
     "description": "",
-    "category": "general_goods",
-    "base_price": 70000.0,
+    "category": "real_estate",
+    "base_price": 67000000.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T12:00:00+00:00",
+    "ends_at": "2026-03-19T12:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26182_24-02-2026_16-55-1771962913-608050_mini.webp?temp_url_sig=aec6714dc0a8bb32c6ea3e7a45ca98389b99139ecc5e05a6d52c8be024e1bd96&temp_url_expires=1773724258"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25590_29-12-2025_20-26-1767050784-645110_mini.webp?temp_url_sig=1ee583ee60aab59576f63dd8a26dc52e6e1df2e38b526417dd9a97b9b28c3f0e&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.561484+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480634+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26248",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26248/",
+    "title": "FIAT PUNTO ESSENCE 1.6 16V",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 4400000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-13T13:00:00+00:00",
+    "ends_at": "2026-03-20T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26248_09-03-2026_14-22-1773076970-805672_mini.webp?temp_url_sig=1bf13eb0114b933f699e3320904bd22118d038bfa7b15eaba815c544b7800a9d&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480639+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26290",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26290/",
+    "title": "LOTE 28 RUTINI TRUMPETER",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 355000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T17:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26290_14-03-2026_21-33-1773534797-590159_mini.webp?temp_url_sig=9805b524b939ba4fc49b403c802d9efa6ca13705bfa3cf94ba164222189b9324&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480647+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26243",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26243/",
+    "title": "RUBRO TERMINACION",
+    "description": "",
+    "category": "other",
+    "base_price": 7859702.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T16:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26243_09-03-2026_10-07-1773061627-060037_mini.webp?temp_url_sig=06feeaec76add85ab09f0a19f5bc8eb3469bffdc5203f60a7c4d33b97455beda&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480688+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:25591",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/25591/",
+    "title": "Local Cerro de las Rosas",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 30000000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_25591_29-12-2025_20-36-1767051365-060644_mini.webp?temp_url_sig=5df6257443091a2e86126d62f2e00a579de743dee720a35a0268e3b03d85caa3&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480692+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26213",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26213/",
+    "title": "ARTICULOS CLOACAS",
+    "description": "",
+    "category": "other",
+    "base_price": 19347866.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T11:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26213_05-03-2026_09-06-1772712396-259639_mini.webp?temp_url_sig=067a5c715752e47ed0a8efe03702c21ce3505b6a18349e98f36de9bff1ce2f89&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480732+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26285",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26285/",
+    "title": "LOTE 23 GOLOSINAS NAVIDAD",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 6500.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T16:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26285_14-03-2026_20-42-1773531748-744687_mini.webp?temp_url_sig=f8c3da9856a05b73dcd669eaeb57d102433ff1c88ae65dc1632c28082091688f&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480740+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26214",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26214/",
+    "title": "ART INICIO DE OBRA",
+    "description": "",
+    "category": "other",
+    "base_price": 7037400.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T12:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26214_05-03-2026_09-18-1772713111-374136_mini.webp?temp_url_sig=9ccd45610faa3c88d7454c65d115772872177e830360972677110fe12abf9e62&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480779+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26291",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26291/",
+    "title": "LOTE 29 GASEOSAS JUGOS AGU",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 25000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T18:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26291_14-03-2026_21-41-1773535303-751684_mini.webp?temp_url_sig=9c05bd5e2d466c82c1a237493c0cdaa30d452f8beb8719ccf4b790aaf2d306cd&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480788+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1168,105 +664,33 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26244_09-03-2026_10-15-1773062139-592475_mini.webp?temp_url_sig=d5ef55744daf95b724dccab09d6c4a7f31678abd7b3043bce6454b5cf909548a&temp_url_expires=1773724258"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26244_09-03-2026_10-15-1773062139-592475_mini.webp?temp_url_sig=4ff12b6e12941e5ffca7a20bf41cdfdc12ff5ce5a6ca322404323df91fa376a3&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:10:58.561563+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480830+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26189",
+    "id": "cordoba:26272",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26189/",
-    "title": "TRES REPOSERAS",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26272/",
+    "title": "LOTE 10 BEBIDAS Y LICORES",
     "description": "",
-    "category": "other",
-    "base_price": 7000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26189_24-02-2026_18-20-1771968050-375741_mini.webp?temp_url_sig=db8b692f47be3279e83fb2639156cf9eadbd2c663a06207927ec4a15a2ef3112&temp_url_expires=1773724258"
-    ],
-    "scraped_at": "2026-03-16T05:10:58.561614+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26231",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26231/",
-    "title": "MUEBLES VARIOS",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 3904542.0,
+    "category": "real_estate",
+    "base_price": 50000.0,
     "currency": "ARS",
     "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T15:00:00.900000+00:00",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T13:15:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26231_07-03-2026_00-32-1772854335-646007_mini.webp?temp_url_sig=0d4451c42dffa1da9f27a8d58c2e5a4fc33654ada14c324124356f8f8d19ed82&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26272_14-03-2026_19-35-1773527757-425368_mini.webp?temp_url_sig=87a666104db4d029684350b332babb2527329957b8f804395584c6b86fce0f47&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028459+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26175",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26175/",
-    "title": "Microondas LG",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 35000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-09T14:00:00+00:00",
-    "ends_at": "2026-03-16T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26175_24-02-2026_16-25-1771961111-213900_mini.webp?temp_url_sig=f8b264314617ca5769cef2fd868154d7e9a1d44bb121eaba201e7243e22c5c9e&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028517+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26212",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26212/",
-    "title": "ARTICULOS PINTURERIA",
-    "description": "",
-    "category": "other",
-    "base_price": 26983873.0,
-    "currency": "ARS",
-    "status": "ongoing",
-    "starts_at": "2026-03-12T14:00:00+00:00",
-    "ends_at": "2026-03-19T11:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26212_05-03-2026_08-51-1772711497-882074_mini.webp?temp_url_sig=8b17630dcaf31d4c64311e1b8da492d09bfe415dd2638df5cca7e64e4b665f36&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028583+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480837+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1288,9 +712,513 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26229_06-03-2026_23-50-1772851843-972020_mini.webp?temp_url_sig=58ce5833652addaf78c6febef90904b78744824bdd57479cff82a844e68494c5&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26229_06-03-2026_23-50-1772851843-972020_mini.webp?temp_url_sig=4830421a5d7ddeb9739f0c561ad4d6d758960f56e3fb319b7a79f54bb96e8ebb&temp_url_expires=1773809306"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028648+00:00",
+    "scraped_at": "2026-03-17T04:48:27.480880+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26300",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26300/",
+    "title": "LOTE 38 AIRE ACOND RCA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 250000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T14:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26300_14-03-2026_23-13-1773540781-523115_mini.webp?temp_url_sig=c061fdeba23767db482f6f4b131fd43c270bce4ea8b5e889e5ee75defc5d20c7&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480888+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26223",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26223/",
+    "title": "GENERADORES MONOFASICOS",
+    "description": "",
+    "category": "machinery",
+    "base_price": 1271424.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26223_06-03-2026_09-52-1772801523-877878_mini.webp?temp_url_sig=05f5b90f5e75227ba157addf9b0f8e002ce6d59b961b799d18c98e67ff46ef68&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480915+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26304",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26304/",
+    "title": "LOTE 42 44 GONDOLAS  MESA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 3000000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T16:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26304_14-03-2026_23-41-1773542469-029322_mini.webp?temp_url_sig=71bdcba96f876006fa74b36134f354a47c81e8f0b4287830e411d527035a8ea7&temp_url_expires=1773809306"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480922+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26211",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26211/",
+    "title": "ARTICULOS SANITARIOS",
+    "description": "",
+    "category": "other",
+    "base_price": 44967356.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T11:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26211_05-03-2026_08-33-1772710409-878164_mini.webp?temp_url_sig=7052a68790629098892504cb885f8a174999ef8f3dbda4a664c0f019790bea52&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480985+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26263",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26263/",
+    "title": "LOTE 1 CARAMELOS SNACKS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 100000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T11:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26263_14-03-2026_02-35-1773466529-498334_mini.webp?temp_url_sig=6fa57b50b27e4fa61284e026fc64aa916cbf637dff8ed4c5206dc8d252ae6dd8&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.480992+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26231",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26231/",
+    "title": "MUEBLES VARIOS",
+    "description": "",
+    "category": "general_goods",
+    "base_price": 3904542.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T15:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26231_07-03-2026_00-32-1772854335-646007_mini.webp?temp_url_sig=312ef71c5c936cb7254815c05ca9ede4304c3391b0218ef06e88d2d40422b220&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481020+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26305",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26305/",
+    "title": "LOTE 43 ESTANTERIAS VARIAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 2500000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T17:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26305_14-03-2026_23-45-1773542736-780302_mini.webp?temp_url_sig=3147d088f087864ec5ecb1ca294a5887baca6a4fe73b18a5f115e54e71dc345e&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481026+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26219",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26219/",
+    "title": "SEGURIDAD y FERRETERIA",
+    "description": "",
+    "category": "other",
+    "base_price": 2970174.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26219_05-03-2026_10-30-1772717443-107237_mini.webp?temp_url_sig=771e392b930cbad5c7aa67907c1a698181b61e45b5a49dce58f3df2aae98618e&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481069+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26267",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26267/",
+    "title": "LOTE 5 REPASADORES TERMOS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 60000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T12:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26267_14-03-2026_03-00-1773468040-439309_mini.webp?temp_url_sig=5456e1fc2ca83c91ebb17d900139ab6eb1b919a4cd6567579ceadaede214d67b&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481076+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26212",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26212/",
+    "title": "ARTICULOS PINTURERIA",
+    "description": "",
+    "category": "other",
+    "base_price": 26983873.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T11:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26212_05-03-2026_08-51-1772711497-882074_mini.webp?temp_url_sig=1c6b6758be0b67deff55723aaf2672ec38b9bac4fb1c7536f4d1d4d7d6998a4f&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481118+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26264",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26264/",
+    "title": "LOTE 2 ALIMENTO PERRO GATO",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 150000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T11:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26264_14-03-2026_02-40-1773466836-597548_mini.webp?temp_url_sig=e1764dae92eca3dce9ab2983e96858973b87c7d42fe2e6862c80283879e0d13b&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481126+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26287",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26287/",
+    "title": "LOTE 25 BAZAR LAMPARAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 50000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T17:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26287_14-03-2026_20-49-1773532188-318193_mini.webp?temp_url_sig=19744362d7d7cd24f20dbec5b44bae5deedfb3311b95bdd98bb6a5554eefa97a&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481133+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26245",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26245/",
+    "title": "ZINGUERIA",
+    "description": "",
+    "category": "other",
+    "base_price": 5033538.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T16:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26245_09-03-2026_10-23-1773062584-726744_mini.webp?temp_url_sig=da90dcd23884899e5b617e1c6123e6db63578fcace3c7df780399cf51de1042c&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481166+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26276",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26276/",
+    "title": "LOTE 14 PERFUMERIA SHAMPOO",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 110000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T14:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26276_14-03-2026_19-55-1773528911-303161_mini.webp?temp_url_sig=7d5aa5f484b40c4b5b6f4ab6d44f855a37cc599ffa6633261fb74ea552b615c6&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481172+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26224",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26224/",
+    "title": "HERRAMIENTAS Y MAQUINAS",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 6788238.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26224_06-03-2026_10-12-1772802738-311943_mini.webp?temp_url_sig=0b9e3ebfc69dc1b5ed64645249ff1e4186641ba4a8acfabe4eab2df147b90ff4&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481187+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26277",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26277/",
+    "title": "LOTE 15 FIDEOS ARROZ HARIN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 35000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T14:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26277_14-03-2026_19-58-1773529110-625400_mini.webp?temp_url_sig=f68689696d53115e48ec6b99d43174d40bd29c09a21745f446cb19c8af2b8097&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481194+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26228",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26228/",
+    "title": "LOTE INFORMATICA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 431273.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26228_06-03-2026_23-35-1772850905-840650_mini.webp?temp_url_sig=8f606590e6e6771bf6a939f639a6ed2630e6f2b4878f51780345938be43def14&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481200+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26266",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26266/",
+    "title": "LOTE 4 PRODUCTOS DE BAZAR",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 65000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T11:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26266_14-03-2026_02-55-1773467738-478726_mini.webp?temp_url_sig=afc47304ed3e974d5f09c4bbd6b20486f4c0df37d9c9d9a100555d41faca973e&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481207+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26218",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26218/",
+    "title": "LOTE ELECTRODOMESTICOS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 8775675.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26218_05-03-2026_10-12-1772716336-197619_mini.webp?temp_url_sig=e03516c1ff9a64e5a334a852da908dfca9018550f946cfb8ce137292decf9a64&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481213+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26270",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26270/",
+    "title": "LOTE 8 EDULCORANTE CAFE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 55000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T12:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26270_14-03-2026_11-03-1773497010-484362_mini.webp?temp_url_sig=3814e3c40b99aee0273fc848ce553676033dfa20ece1860b0589256c318d283f&temp_url_expires=1773809307"
+    ],
+    "scraped_at": "2026-03-17T04:48:27.481220+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26215",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26215/",
+    "title": "CAÑOS AGUA",
+    "description": "",
+    "category": "other",
+    "base_price": 6415072.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T12:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26215_05-03-2026_09-27-1772713624-842193_mini.webp?temp_url_sig=7debd9cdb1e4eab86ec0c7051ff7037e1cc9ccd5a9b67ace72b2bcbc3069ad19&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.510929+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1302,9 +1230,9 @@
     "title": "LOTE 32 BOMBONES CHOCOLATE",
     "description": "",
     "category": "real_estate",
-    "base_price": 10000.0,
+    "base_price": 17000.0,
     "currency": "ARS",
-    "status": "published",
+    "status": "ongoing",
     "starts_at": "2026-03-16T12:00:00+00:00",
     "ends_at": "2026-03-19T18:45:00.900000+00:00",
     "location": {
@@ -1312,153 +1240,729 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26294_14-03-2026_22-05-1773536703-843977_mini.webp?temp_url_sig=e27612322fab8c150b7f7898a776dae2b26be11bd8843d2fb18cf3eb95cde2aa&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26294_14-03-2026_22-05-1773536703-843977_mini.webp?temp_url_sig=ae00daa868666be1f4b2184679756f9982ddee2cb5bb0fbf36b93da4cc4f69d9&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028662+00:00",
+    "scraped_at": "2026-03-17T04:48:29.510972+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26194",
+    "id": "cordoba:26230",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26194/",
-    "title": "RANGER 4X2 XL PLUS",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26230/",
+    "title": "MAQUINA PEGA CANTOS",
     "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
+    "category": "machinery",
+    "base_price": 12125750.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T14:00:00+00:00",
-    "ends_at": "2026-03-20T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-12T14:00:00+00:00",
+    "ends_at": "2026-03-19T15:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26194_25-02-2026_14-22-1772040135-314603_mini.webp?temp_url_sig=f8c11f4d0edf3226572565bde9f9693bb13916ccd931f06cfd981a286309fac2&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26230_07-03-2026_00-00-1772852431-724626_mini.webp?temp_url_sig=d710e0f0ef3f126afa3afb467ca78820bf3d70017b8615dcfa479b483953ddb0&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028672+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511013+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26108",
+    "id": "cordoba:26293",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26108/",
-    "title": "Peugeot 208 ACTIVE1.6 2018",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26293/",
+    "title": "LOTE 31 VINOS CERVEZAS",
     "description": "",
-    "category": "vehicles",
-    "base_price": 5000000.0,
+    "category": "real_estate",
+    "base_price": 45000.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T14:00:00+00:00",
-    "ends_at": "2026-03-23T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T18:30:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26108_11-02-2026_16-33-1770838434-033264_mini.webp?temp_url_sig=47fccec1295e7a45bcd0e5939a0ef828c4a4a22de3fbc9d148bbbc20cb762d8c&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26293_14-03-2026_21-58-1773536323-011540_mini.webp?temp_url_sig=dfbab62dee3730199da61c582ed0c37b6310d6e3ec6b3e64a2360eb505c151af&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028680+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511026+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26199",
+    "id": "cordoba:26306",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26199/",
-    "title": "KA SEDAN 2019 569 KM",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26306/",
+    "title": "LOTE 44 CERVEZAS SIDRAS",
     "description": "",
-    "category": "vehicles",
-    "base_price": 13424033.0,
+    "category": "real_estate",
+    "base_price": 200000.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T14:00:00+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T17:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26306_14-03-2026_23-49-1773542987-071576_mini.webp?temp_url_sig=acfe6d587cfcfac5e86a7df7f006e3b6783285de3cd15552d0e683c50363bba8&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511038+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26269",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26269/",
+    "title": "LOTE 7 YERBA TE CAFE LECHE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 100000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T12:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26269_14-03-2026_10-40-1773495632-648075_mini.webp?temp_url_sig=de766a47de1f8621bdf931dbc8bdc001bd9559c4177a434bfc8bae6808dca5b7&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511051+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26268",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26268/",
+    "title": "LOTE 6 VINOS YERBAS CAFE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 40000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T12:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26268_14-03-2026_10-31-1773495115-985921_mini.webp?temp_url_sig=f47b9dcd3a06c012cea4b32d54decf1348420574ddd2c3f7b9fd1883d5fd3241&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511063+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26284",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26284/",
+    "title": "LOTE 22 PRODUCTOS COPETIN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 10000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T16:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26284_14-03-2026_20-39-1773531578-296346_mini.webp?temp_url_sig=7b73c60a6aa717096dde652ec17a6287fe2c28b21a038a95cfe05d5bbfddf402&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511071+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26275",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26275/",
+    "title": "LOTE 13 SAL VARIAS MARCAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 35000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26275_14-03-2026_19-47-1773528434-705630_mini.webp?temp_url_sig=cb6153b8c64404b50b1e07693927910a4549eb216960ec1ddc06fba693874be4&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511078+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26283",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26283/",
+    "title": "LOTE 21 GASEOSAS VINO AGUA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 40000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T16:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26283_14-03-2026_20-36-1773531364-299872_mini.webp?temp_url_sig=6e568d627b00bb58f5b6df23b04a304975587d6723e603da794934e766f3d876&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511086+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26288",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26288/",
+    "title": "LOTE 26 PRODUCTOS FARMACIA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 13000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T17:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26288_14-03-2026_20-54-1773532473-108783_mini.webp?temp_url_sig=e87491e871ac77b8af6554127f6379c0e8e6256af45b20329c82551cf8bd1f74&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511094+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26307",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26307/",
+    "title": "LOTE 45 BOLSONES YERBA SAL",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 100000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T18:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26307_14-03-2026_23-53-1773543191-535812_mini.webp?temp_url_sig=940be7d270af7c4dd1d235e87367be4038c01a5a92ec98b1195c6fe2cafe991f&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511101+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26301",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26301/",
+    "title": "LOTE 39 AIRE ACOND TADIRAN",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 200000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T15:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26301_14-03-2026_23-21-1773541269-412155_mini.webp?temp_url_sig=12bbb44d6a42ee35067409b7d1733b835080ff07deaa1a0d49237da526be49ed&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511110+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26292",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26292/",
+    "title": "LOTE 30 GRISINES TOSTADAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 6000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T18:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26292_14-03-2026_21-47-1773535647-101172_mini.webp?temp_url_sig=5936aef506bdcb49a900b828ca0cae84d69417f6fd4284ac0bcf2ec7a1b3212a&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511118+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26286",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26286/",
+    "title": "LOTE 24 CERVEZAS JUGOS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 24000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T16:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26286_14-03-2026_20-45-1773531932-743181_mini.webp?temp_url_sig=c23b32fa00bd855ccbc7cd5e7bd798bf45cfe702cf9c72193981f7708551eb8d&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511126+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26281",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26281/",
+    "title": "LOTE 19 CUIDADO FEMENINO",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 35000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T15:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26281_14-03-2026_20-24-1773530663-943736_mini.webp?temp_url_sig=54d4c89c24f5d7f85eb7542be2c29d2be64bbb1df7ba6672c4d5f3be7050fab0&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511135+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26265",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26265/",
+    "title": "LOTE 3 SAHUMERIOS MANTELES",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 70000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T11:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26265_14-03-2026_02-50-1773467408-931027_mini.webp?temp_url_sig=6b3e406b4e1d6cbfce53c3fb54456f954958e8150bf998e7e93e0fe01a6dd3bf&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511142+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26273",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26273/",
+    "title": "LOTE 11 MERMELADAS DULCES",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 50000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T13:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26273_14-03-2026_19-39-1773527972-027559_mini.webp?temp_url_sig=5f5bc199dc1bbcbd537f890be6374489648a5b4d298cbdde62a59a1d3ba64ee8&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511149+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26299",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26299/",
+    "title": "LOTE 37 AIRE ACOND ELECTRA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 300000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
     "ends_at": "2026-03-25T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26199_02-03-2026_15-42-1772476933-383287_mini.webp?temp_url_sig=93e5ffe7a7edb27cfe7d16079cf1b78bf48b808270d54ca2697ddce01a141ff3&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26299_14-03-2026_23-03-1773540226-688249_mini.webp?temp_url_sig=27bd9b5f8b9f9617db6ff9cb637fb1273432ed9183fae7d030e11a0a27426b4c&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028687+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511157+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26232",
+    "id": "cordoba:26279",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26232/",
-    "title": "Maq de esc. CONTINENTAL",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26279/",
+    "title": "LOTE 17 ROPA SKIP CERAS",
     "description": "",
-    "category": "other",
-    "base_price": 0.0,
+    "category": "real_estate",
+    "base_price": 75000.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T14:00:00+00:00",
-    "ends_at": "2026-03-25T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T15:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26232_07-03-2026_16-00-1772910044-559053_mini.webp?temp_url_sig=c31bf23ada4c2c20e509a1a5cbc635824291689a4b369d72266172e0581c32b2&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26279_14-03-2026_20-14-1773530094-027854_mini.webp?temp_url_sig=32ecb5dc1891b223750249741b32ebf915d885552253091a3d5812949fa05a70&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028747+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511164+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26197",
+    "id": "cordoba:26280",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26197/",
-    "title": "TOYOTA COROLLA 2009 C/ GNC",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26280/",
+    "title": "LOTE 18 LIMPIEZA RAID PAPE",
     "description": "",
-    "category": "vehicles",
-    "base_price": 6000000.0,
+    "category": "real_estate",
+    "base_price": 70000.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-17T14:00:00+00:00",
-    "ends_at": "2026-03-26T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T15:15:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26197_26-02-2026_14-42-1772127765-665327_mini.webp?temp_url_sig=3fcb388cebe2d0f34677ff4bad2363cef68ea7d3c5317292ada67714cdbbb609&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26280_14-03-2026_20-21-1773530463-757592_mini.webp?temp_url_sig=fddf83f016fd1a2d15cf39d623f021e6393a65b43e9c1667a8bfbdaf89936539&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028756+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511172+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26251",
+    "id": "cordoba:26289",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26251/",
-    "title": "VW BORA 2.0 2009 CON GNC",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26289/",
+    "title": "LOTE 27 JUGOS CLIGHT TANG",
     "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
+    "category": "real_estate",
+    "base_price": 12000.0,
     "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-17T14:00:00+00:00",
-    "ends_at": "2026-03-26T14:00:00.900000+00:00",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T17:30:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26251_10-03-2026_00-09-1773112148-955602_mini.webp?temp_url_sig=d77a6cdb6896342a02b33c5fe874ebfc865c669637c0d91a924f1dc564c24a9b&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26289_14-03-2026_21-29-1773534555-128460_mini.webp?temp_url_sig=e0e51ec3301c0cfda28915b2fd67fab2b19fd990dc0dad0f4c143fc6e88db96a&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028764+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511179+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26296",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26296/",
+    "title": "LOTE 34 MANI KING CROPPERS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 8000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T19:15:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26296_14-03-2026_22-12-1773537176-431165_mini.webp?temp_url_sig=91076625f8a210356a84addd174be85ef89b7e29ecc828f1069e59fda9a3088a&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511187+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26308",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26308/",
+    "title": "LOTE 46 9 CAMARAS SEGURIDA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 120000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T18:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26308_14-03-2026_23-56-1773543380-554620_mini.webp?temp_url_sig=8ecfc1be8e244f74f6d3a08460e1d3e2eeedf3e87975c4a6f9268550552609ae&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511195+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26282",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26282/",
+    "title": "LOTE 20 BEBIDAS BLANCAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 75000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T15:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26282_14-03-2026_20-30-1773531025-365516_mini.webp?temp_url_sig=90154416738de2bcb59a059966b8e84006526dd6d08aa3a1b34e99cce73fff29&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511203+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26297",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26297/",
+    "title": "LOTE 35 MESA, ESTANTERIA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 400000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26297_14-03-2026_22-33-1773538406-120949_mini.webp?temp_url_sig=2ffd8f27edda5b41e920b036e629c9615ae75f08213e264e35d8f8c3e43ed008&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511211+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26303",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26303/",
+    "title": "LOTE 41 CPU CORT FIAMBRE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 300000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T16:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26303_14-03-2026_23-36-1773542206-472908_mini.webp?temp_url_sig=b4144b75afce7231d04cc776f4263caf4827125383db67fe16c62a1a29ee242b&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511218+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26274",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26274/",
+    "title": "LOTE 12 LATAS CONSERVAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 80000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T13:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26274_14-03-2026_19-43-1773528213-363745_mini.webp?temp_url_sig=aaa3478b5fc9216477c043f2b81a421dad66143d62ef75279a95fea44f1ba743&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511226+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26298",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26298/",
+    "title": "LOTE 36 HORNO BALANZA VENT",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 150000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T13:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26298_14-03-2026_22-55-1773539703-342973_mini.webp?temp_url_sig=aa3fda017bd4f24a2566aac0c18531bf81e0835b560a725f015810980aceec01&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511233+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26302",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26302/",
+    "title": "LOTE 40 CINCO HELADERAS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 2300000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-25T15:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26302_14-03-2026_23-30-1773541829-324552_mini.webp?temp_url_sig=cf2867cf44ae547558dbb9a6dc42bbd01650e9a68facf7a9a5ebb5b2848409d2&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511240+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26278",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26278/",
+    "title": "LOTE 16 PRODUCTOS LIMPIEZA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 70000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T14:45:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26278_14-03-2026_20-02-1773529352-560961_mini.webp?temp_url_sig=d6a4c05b0e520b3469079f0d23152e482aa072b5a41e2861a2dc3ba7003363f1&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511247+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26295",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26295/",
+    "title": "LOTE 33 PROD P/CELIACOS",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 16000.0,
+    "currency": "ARS",
+    "status": "ongoing",
+    "starts_at": "2026-03-16T12:00:00+00:00",
+    "ends_at": "2026-03-19T19:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26295_14-03-2026_22-09-1773536947-270771_mini.webp?temp_url_sig=af2da60e63b0c97cd75bffa80b6cef44315e332e9cf1d61e7e38297f17192609&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511254+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1480,9 +1984,57 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26249_09-03-2026_17-24-1773087894-944265_mini.webp?temp_url_sig=dbdcf6f6b0c641ad30c3d7afb300010ed9e2fe2876fb9fc141e49708dfde8ad7&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26249_09-03-2026_17-24-1773087894-944265_mini.webp?temp_url_sig=8bc11b8577cb533d7902a35d2e2ef49944ba3f6e2a64bc8412bff1a447237760&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028772+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511260+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26251",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26251/",
+    "title": "VW BORA 2.0 2009 CON GNC",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-17T14:00:00+00:00",
+    "ends_at": "2026-03-26T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26251_10-03-2026_00-09-1773112148-955602_mini.webp?temp_url_sig=1527778283c0f21c7a55cb1ebdfd39a293edd4a45fd75f56491aeb7bddaf282a&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511265+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26197",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26197/",
+    "title": "TOYOTA COROLLA 2009 C/ GNC",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 6000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-17T14:00:00+00:00",
+    "ends_at": "2026-03-26T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26197_26-02-2026_14-42-1772127765-665327_mini.webp?temp_url_sig=0512490e71fd90ff9068e5eab86ec71eaec3c5c795a05c2cb517240768773f48&temp_url_expires=1773809308"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511269+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1504,9 +2056,33 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26260_12-03-2026_21-46-1773362795-706312_mini.webp?temp_url_sig=04921ed94e2e7f70e8409c3ab36517aeb803b1fc0b06547b9f0c3bbbc246743d&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26260_12-03-2026_21-46-1773362795-706312_mini.webp?temp_url_sig=111f6a9a5ffa72f92045e87745b6b1345f1197dab500c1a972d75f8873249e53&temp_url_expires=1773809308"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028780+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511274+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26310",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26310/",
+    "title": "CLIO 5P 1.2 PACK -AÑO 2012",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-18T14:00:00+00:00",
+    "ends_at": "2026-03-27T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.justiciacordoba.gob.ar/static/fotos_bienes/defaultCordoba.png"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511280+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1528,9 +2104,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26250_09-03-2026_22-17-1773105425-362826_mini.webp?temp_url_sig=c1705fa3ab7f9c6fbb769e532b18d2fd7fcf09d1d3fd3b413e1fb45fee84d8b2&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26250_09-03-2026_22-17-1773105425-362826_mini.webp?temp_url_sig=0d904598a2de5a91c6058a98b8434b10939a9c03f7ffd5764546b51c1caabdf2&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028787+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511285+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1552,9 +2128,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26225_10-03-2026_13-05-1773158704-607001_mini.webp?temp_url_sig=e14e38f222d0f4ecb5baf168402a904e624b7d4be4e800d9ce1ba722752b6c70&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26225_10-03-2026_13-05-1773158704-607001_mini.webp?temp_url_sig=035ad73994e7021c8627be5c1f142097bff774cde8bfc3df7a89b21b46ea3665&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028795+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511289+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1576,57 +2152,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26309_16-03-2026_00-07-1773630420-939455_mini.webp?temp_url_sig=8732e38bcb4464b3743be5312c0ecb4c9e8f762d7fdb680b8c9b4ba5f08b41b6&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26309_16-03-2026_00-07-1773630420-939455_mini.webp?temp_url_sig=71c3a69df69bf7ccafccd0007c301293bce6e52e1d5f253e17a29ee0cb666359&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028803+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26221",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26221/",
-    "title": "Casa en Rio Cuarto",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15032350.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-25T14:00:00+00:00",
-    "ends_at": "2026-04-01T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26221_05-03-2026_17-11-1772741464-641351_mini.webp?temp_url_sig=7efc6ba1d4dac14636aac6bbdb4bf388db5d8fe25bad3ac28fd1236765dc0129&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028810+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26233",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26233/",
-    "title": "MAQUINA DE SOLDAR",
-    "description": "",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-25T14:00:00+00:00",
-    "ends_at": "2026-04-01T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26233_08-03-2026_16-27-1772998044-295639_mini.webp?temp_url_sig=d357eda259beeb240b079ec61cd0c879bd5852bdf22611f672138831b5e3dd30&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028845+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511298+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1648,297 +2176,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26259_11-03-2026_23-32-1773282770-237035_mini.webp?temp_url_sig=806bd7bd8cd50faac4ae6439f083796cdd6e6fc88473ae546cb574d014a88c3e&temp_url_expires=1773724259"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26259_11-03-2026_23-32-1773282770-237035_mini.webp?temp_url_sig=2ffc79fcbcca19cd93b4e1e8ac0d0197d2b597361d6aa03cd087fdce7b91e899&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.028856+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26253",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26253/",
-    "title": "INMUEBLE EDIF - V. MARIA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3650751.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-25T14:00:00+00:00",
-    "ends_at": "2026-04-01T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26253_10-03-2026_14-08-1773162531-933496_mini.webp?temp_url_sig=c28011031b71fa3225e27dabc6966ef00fbc55c74c84e4760d09ccfca8da4cb6&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028864+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26226",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26226/",
-    "title": "INMUEBLE EN TRASLASIERRA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-25T13:00:00+00:00",
-    "ends_at": "2026-04-06T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26226_06-03-2026_21-05-1772841945-962476_mini.webp?temp_url_sig=8ff361c85ed19d6b58bfb28378e050f3772cf9610ccedf82e4695c1cbc57a3f5&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028871+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26252",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26252/",
-    "title": "Inmueble Marcos Juares",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-27T14:00:00+00:00",
-    "ends_at": "2026-04-08T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26252_10-03-2026_12-02-1773154969-419721_mini.webp?temp_url_sig=fc78d735c52ccf274726d5f45d33d99e6cb2b35c387888dd36881e117de4abcb&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028878+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26220",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26220/",
-    "title": "Peugeot EX 206- con \"GNC\"",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 240000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-31T14:00:00+00:00",
-    "ends_at": "2026-04-09T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26220_05-03-2026_12-49-1772725771-838339_mini.webp?temp_url_sig=5bf41e945c5cda0c7303c9a06d85fd6f649ae8575ea314543c884c454d4b0658&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028886+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26257",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26257/",
-    "title": "3 DPTOS EN MORTEROS OPORT",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 9612223.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-04-08T14:00:00+00:00",
-    "ends_at": "2026-04-15T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26257_11-03-2026_02-44-1773207854-149109_mini.webp?temp_url_sig=7a3385134ed25a225ec04019e374b1b6f8cba39390a9f98bf121566197980317&temp_url_expires=1773724259"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028894+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26254",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26254/",
-    "title": "Complejo 234 Bº La Cuesta",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 100000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-04-15T13:00:00+00:00",
-    "ends_at": "2026-04-22T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26254_10-03-2026_15-58-1773169113-508819_mini.webp?temp_url_sig=f331ec52227e885853277eac23454ad6f46fddf18619a4547341ab755c446a64&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028902+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26297",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26297/",
-    "title": "LOTE 35 MESA, ESTANTERIA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 400000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26297_14-03-2026_22-33-1773538406-120949_mini.webp?temp_url_sig=5e500d18c6dcc9d43f8b54f179df29d6f13789eb57fe9e8d355029219103653b&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028914+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26236",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26236/",
-    "title": "CEPILLO DE BANCO",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-25T14:00:00+00:00",
-    "ends_at": "2026-04-01T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26236_08-03-2026_16-57-1772999832-229623_mini.webp?temp_url_sig=69de1d664aa2eb4d10f058d772a8ca8691386957d88ed07b02cec57b6ab9ae37&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028958+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26261",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26261/",
-    "title": "RENAUTL DUSTER 4x2 - 2012",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 3500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-25T14:00:00+00:00",
-    "ends_at": "2026-04-01T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26261_13-03-2026_12-04-1773414266-571213_mini.webp?temp_url_sig=6f569600d88b187065da154e7fac39b98a89d2e960c61290d7b65ddbfd7211d6&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028965+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26256",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26256/",
-    "title": "Peugeot 208 Allure1.6 2018",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 5000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-04-21T14:00:00+00:00",
-    "ends_at": "2026-04-28T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26256_11-03-2026_01-40-1773204033-144295_mini.webp?temp_url_sig=e7255745da2491e1383f32896a08a0a59017ab19f9aeeae0174aab4a4f9b9d19&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028972+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26258",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26258/",
-    "title": "casa  pileta en VPSiquiman",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 50000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-05-06T14:00:00+00:00",
-    "ends_at": "2026-05-13T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26258_11-03-2026_22-17-1773278241-831316_mini.webp?temp_url_sig=6f314c9b1dab5d88923ea6101d08b405a94b890f81b78d132f17d34074a50b1a&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028979+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26304",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26304/",
-    "title": "LOTE 42 44 GONDOLAS  MESA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T16:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26304_14-03-2026_23-41-1773542469-029322_mini.webp?temp_url_sig=857978bfaefc304b2e31c292e90cbec940ae71ec3d07a22f7f0e5bf1bda1c08e&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.028991+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511305+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1960,57 +2200,225 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26237_08-03-2026_17-06-1773000405-603665_mini.webp?temp_url_sig=64d55903303d94f8ab952d19d339d79a9e86c2187993342ca262df5cfff0fcac&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26237_08-03-2026_17-06-1773000405-603665_mini.webp?temp_url_sig=614609b088b3ad8ba088316e2e617a0aa4ff909d7c77e7dd5fb3a82d94ac6ec9&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029047+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511343+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26227",
+    "id": "cordoba:26253",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26227/",
-    "title": "CASA EN GRAL. CABRERA",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26253/",
+    "title": "INMUEBLE EDIF - V. MARIA",
     "description": "",
     "category": "real_estate",
-    "base_price": 25000000.0,
+    "base_price": 3650751.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-26T14:00:00+00:00",
-    "ends_at": "2026-04-06T14:00:00.900000+00:00",
+    "starts_at": "2026-03-25T14:00:00+00:00",
+    "ends_at": "2026-04-01T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26227_06-03-2026_23-23-1772850228-569187_mini.webp?temp_url_sig=a20664c261df66f56d28abce642031168a8c6e852f598a52e3d8ff77533ea2b6&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26253_10-03-2026_14-08-1773162531-933496_mini.webp?temp_url_sig=c29810d97cc18df1c2acefa762b39f2b81aa76a56702674e357766e2df958663&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029054+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511347+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26298",
+    "id": "cordoba:26221",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26298/",
-    "title": "LOTE 36 HORNO BALANZA VENT",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26221/",
+    "title": "Casa en Rio Cuarto",
     "description": "",
     "category": "real_estate",
-    "base_price": 150000.0,
+    "base_price": 15032350.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T13:30:00.900000+00:00",
+    "starts_at": "2026-03-25T14:00:00+00:00",
+    "ends_at": "2026-04-01T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26298_14-03-2026_22-55-1773539703-342973_mini.webp?temp_url_sig=66f5446bc4543ee5ebf4c99fc72dabc2b3f595e44ab35ffe26c197aed34a8871&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26221_05-03-2026_17-11-1772741464-641351_mini.webp?temp_url_sig=bb07c69622f211ab77b59a432e0fa9633acf417fb074c9cc98ef1366fba9a4f2&temp_url_expires=1773809309"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029065+00:00",
+    "scraped_at": "2026-03-17T04:48:29.511351+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26226",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26226/",
+    "title": "INMUEBLE EN TRASLASIERRA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 15000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-25T13:00:00+00:00",
+    "ends_at": "2026-04-06T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26226_06-03-2026_21-05-1772841945-962476_mini.webp?temp_url_sig=26b24eec5947455398912143489f0babbb69542419419de9a2638741b92bf111&temp_url_expires=1773809309"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511355+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26252",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26252/",
+    "title": "Inmueble Marcos Juares",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 15000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-27T14:00:00+00:00",
+    "ends_at": "2026-04-08T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26252_10-03-2026_12-02-1773154969-419721_mini.webp?temp_url_sig=89e7d4dc54f399bbdcf85730bd47e9a609a778f74d8a891fc0ad919f7f4ae9df&temp_url_expires=1773809309"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511359+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26220",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26220/",
+    "title": "Peugeot EX 206- con \"GNC\"",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 240000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-31T14:00:00+00:00",
+    "ends_at": "2026-04-09T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26220_05-03-2026_12-49-1772725771-838339_mini.webp?temp_url_sig=a319ef28f55684eb99bb7707714528ccec3d55d2bd726e864d9c001fd3cf67da&temp_url_expires=1773809309"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511362+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26257",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26257/",
+    "title": "3 DPTOS EN MORTEROS OPORT",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 9612223.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-04-08T14:00:00+00:00",
+    "ends_at": "2026-04-15T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26257_11-03-2026_02-44-1773207854-149109_mini.webp?temp_url_sig=5cb8374585e18302cb76268e451b8cf12c1a10c73613931ea6d279c26715b735&temp_url_expires=1773809309"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511367+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26254",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26254/",
+    "title": "Complejo 234 Bº La Cuesta",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 100000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-04-15T13:00:00+00:00",
+    "ends_at": "2026-04-22T13:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26254_10-03-2026_15-58-1773169113-508819_mini.webp?temp_url_sig=e9c99880d63ceac4a967eeae8eae7409902742b4a49588009cb6412e1f28f1be&temp_url_expires=1773809309"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511370+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26256",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26256/",
+    "title": "Peugeot 208 Allure1.6 2018",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 5000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-04-21T14:00:00+00:00",
+    "ends_at": "2026-04-28T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26256_11-03-2026_01-40-1773204033-144295_mini.webp?temp_url_sig=b9258e03879af733400ae5b3f3b16e302d8f8a4b80782cbf7b20a7d81e0569f8&temp_url_expires=1773809309"
+    ],
+    "scraped_at": "2026-03-17T04:48:29.511374+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26261",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26261/",
+    "title": "RENAUTL DUSTER 4x2 - 2012",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 3500000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-25T14:00:00+00:00",
+    "ends_at": "2026-04-01T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26261_13-03-2026_12-04-1773414266-571213_mini.webp?temp_url_sig=ad2278a668c551b71d3a6b6fb7ae9ceb9c9fdb85e1cf3a0b3e7d211bde7f8605&temp_url_expires=1773809310"
+    ],
+    "scraped_at": "2026-03-17T04:48:30.400889+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2032,57 +2440,57 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26234_08-03-2026_16-38-1772998684-439136_mini.webp?temp_url_sig=903175ac5a6444997cb02fabb336d9a7a036d4778e5bcd01c65650704add27a1&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26234_08-03-2026_16-38-1772998684-439136_mini.webp?temp_url_sig=9e2fa9e41660d9937d49405523a9c4129c878557e71c040c61e0bad8d7f741d7&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029126+00:00",
+    "scraped_at": "2026-03-17T04:48:30.400994+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26222",
+    "id": "cordoba:26311",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26222/",
-    "title": "Toyota Hilux 2015 4x2",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26311/",
+    "title": "PARTNER PATAGONICA 1.6VTCP",
     "description": "",
     "category": "vehicles",
     "base_price": 5000000.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-27T14:30:00+00:00",
-    "ends_at": "2026-04-06T14:30:00.900000+00:00",
+    "starts_at": "2026-04-22T14:00:00+00:00",
+    "ends_at": "2026-04-29T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26222_05-03-2026_22-02-1772758968-711342_mini.webp?temp_url_sig=1e773dc9fdbda057724e9ddabf64e2016a9eef24125df6332ffac57d59e49fe9&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26311_16-03-2026_21-49-1773708561-450558_mini.webp?temp_url_sig=9fe06cb19f8d773ee169658e04c57d40c249ad9399a4691e2fa54716db1695e7&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029133+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401007+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26296",
+    "id": "cordoba:26258",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26296/",
-    "title": "LOTE 34 MANI KING CROPPERS",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26258/",
+    "title": "casa  pileta en VPSiquiman",
     "description": "",
     "category": "real_estate",
-    "base_price": 3000.0,
+    "base_price": 50000000.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T19:15:00.900000+00:00",
+    "starts_at": "2026-05-06T14:00:00+00:00",
+    "ends_at": "2026-05-13T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26296_14-03-2026_22-12-1773537176-431165_mini.webp?temp_url_sig=65893d7f4473e31ad53d24b95b36599cdc8e1a672650132c1a867b090c184709&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26258_11-03-2026_22-17-1773278241-831316_mini.webp?temp_url_sig=c685c4972f56a97820c7f85411cda1b14d7bf8b5f095bc6234c80ba8b5d174c6&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029144+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401016+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2104,9 +2512,105 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26235_08-03-2026_16-50-1772999425-253632_mini.webp?temp_url_sig=69950a95d155bd3c42d27f9a019f841b990bdb892c259ebf50c63dbbd6e61d61&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26235_08-03-2026_16-50-1772999425-253632_mini.webp?temp_url_sig=f65fc24de82335be781d0fd17f0e1a0c054536e04ba20f7fdbddc8a26aff23a1&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029194+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401073+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26227",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26227/",
+    "title": "CASA EN GRAL. CABRERA",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 25000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-26T14:00:00+00:00",
+    "ends_at": "2026-04-06T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26227_06-03-2026_23-23-1772850228-569187_mini.webp?temp_url_sig=a473526cbe97eeb1b9da5b3658f6b5a321e2c9c965c3bfb472c526c600a21604&temp_url_expires=1773809310"
+    ],
+    "scraped_at": "2026-03-17T04:48:30.401082+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26233",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26233/",
+    "title": "MAQUINA DE SOLDAR",
+    "description": "",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-25T14:00:00+00:00",
+    "ends_at": "2026-04-01T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26233_08-03-2026_16-27-1772998044-295639_mini.webp?temp_url_sig=2f761a0bb0c6842291f785ea03009b379aeae5008207e31fbcdf81b406c5c471&temp_url_expires=1773809310"
+    ],
+    "scraped_at": "2026-03-17T04:48:30.401119+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26222",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26222/",
+    "title": "Toyota Hilux 2015 4x2",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 5000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-27T14:30:00+00:00",
+    "ends_at": "2026-04-06T14:30:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26222_05-03-2026_22-02-1772758968-711342_mini.webp?temp_url_sig=7a9946d90399a085f5e4ade5e5ae0c118a2e62215d6c72c1f52ccf98058e12b0&temp_url_expires=1773809310"
+    ],
+    "scraped_at": "2026-03-17T04:48:30.401128+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "cordoba:26236",
+    "source": "cordoba",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26236/",
+    "title": "CEPILLO DE BANCO",
+    "description": "",
+    "category": "general_goods",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-03-25T14:00:00+00:00",
+    "ends_at": "2026-04-01T14:00:00.900000+00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26236_08-03-2026_16-57-1772999832-229623_mini.webp?temp_url_sig=3fc0c3058994cf15af850defe895057d4bc2777b26c1af946dda639259f71cf4&temp_url_expires=1773809310"
+    ],
+    "scraped_at": "2026-03-17T04:48:30.401171+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2128,33 +2632,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26262_13-03-2026_23-11-1773454296-618832_mini.webp?temp_url_sig=72a719034ba0f0e22ce5ac7e394bf41ff3d4ee8805f89ea85910ccacc25fe039&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26262_13-03-2026_23-11-1773454296-618832_mini.webp?temp_url_sig=091e9eb7504c184cac5ad45bb4a90324372933280535c70522ff7f51abcbd6f3&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029208+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26264",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26264/",
-    "title": "LOTE 2 ALIMENTO PERRO GATO",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 150000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T11:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26264_14-03-2026_02-40-1773466836-597548_mini.webp?temp_url_sig=5f384afd41501306708c8e7bc60c9bba3eb61e0086246754b4bb03fa87f56812&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029219+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401189+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2176,33 +2656,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26239_08-03-2026_17-30-1773001845-697706_mini.webp?temp_url_sig=82d64a51e35cf031876caffc5d4ba7d69e07cc3072c606a437d6b995bfd4690d&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26239_08-03-2026_17-30-1773001845-697706_mini.webp?temp_url_sig=545871c57f15973513d91c57a6df4f74b3b2a2307bec3073f88ada34d6ef5fc1&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029253+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26283",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26283/",
-    "title": "LOTE 21 GASEOSAS VINO AGUA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T16:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26283_14-03-2026_20-36-1773531364-299872_mini.webp?temp_url_sig=1c614f529bbf11fe0e984a8ee787defdd7022fd3c97db06269548686fcf81187&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029263+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401225+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2224,129 +2680,9 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26242_08-03-2026_17-57-1773003475-020229_mini.webp?temp_url_sig=414e2a9dd713dc2f6c9f89b55c279de269f2e1025ce7a9393c7f07cf299aaf8a&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26242_08-03-2026_17-57-1773003475-020229_mini.webp?temp_url_sig=25481407fe9a1da169af7d02eba287887ac6479ad12f68e4dbd77e37b33243f6&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029309+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26306",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26306/",
-    "title": "LOTE 44 CERVEZAS SIDRAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 200000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T17:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26306_14-03-2026_23-49-1773542987-071576_mini.webp?temp_url_sig=d3eefb733fcaf9ad779ef99cb78a562e2c34cf24ec0a3ec20767b3ffd0a616a0&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029320+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26240",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26240/",
-    "title": "AMOLADORA DE BANCO STANLEY",
-    "description": "",
-    "category": "general_goods",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-04-07T14:00:00+00:00",
-    "ends_at": "2026-04-14T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26240_08-03-2026_17-42-1773002531-629221_mini.webp?temp_url_sig=a6d5e94a74f9789c995c24052818500c672de224ad8bf6e006d5b8c26fb094fd&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029369+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26293",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26293/",
-    "title": "LOTE 31 VINOS CERVEZAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T18:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26293_14-03-2026_21-58-1773536323-011540_mini.webp?temp_url_sig=5d09887ac7c29e63eb0c9f6cf3b4309f9d4e7c91549201f8ee50199de2ec6fa2&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029379+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26238",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26238/",
-    "title": "MICROONDAS \"SMC\"",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-04-07T14:00:00+00:00",
-    "ends_at": "2026-04-14T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26238_08-03-2026_17-22-1773001342-528843_mini.webp?temp_url_sig=30f04b8384589f61609911d217aefa8598f65a434da42d4f765f93519ee8189a&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029412+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26276",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26276/",
-    "title": "LOTE 14 PERFUMERIA SHAMPOO",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 100000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T14:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26276_14-03-2026_19-55-1773528911-303161_mini.webp?temp_url_sig=66499cd6715bbdf1a66fd2cdde995eb1bf979522074339ce0f58dc8fdbd9bf90&temp_url_expires=1773724260"
-    ],
-    "scraped_at": "2026-03-16T05:11:01.029423+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401275+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2368,873 +2704,57 @@
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26241_08-03-2026_17-50-1773003011-612493_mini.webp?temp_url_sig=e546165f580078895b2b212cec830cb7293ad85e405e4b8b73c61f3f02fda177&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26241_08-03-2026_17-50-1773003011-612493_mini.webp?temp_url_sig=1fcab4909b5de051adc308d9b5d6621c889f0318e2da482e8dd6473f4bc3c93f&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029458+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401316+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26263",
+    "id": "cordoba:26240",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26263/",
-    "title": "LOTE 1 CARAMELOS SNACKS",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26240/",
+    "title": "AMOLADORA DE BANCO STANLEY",
     "description": "",
-    "category": "real_estate",
-    "base_price": 100000.0,
+    "category": "general_goods",
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T11:00:00.900000+00:00",
+    "starts_at": "2026-04-07T14:00:00+00:00",
+    "ends_at": "2026-04-14T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26263_14-03-2026_02-35-1773466529-498334_mini.webp?temp_url_sig=49bd6ce921c85ae7857bd9ee2538803234ea7a86a85f4e8803b64fc9237b8d3c&temp_url_expires=1773724260"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26240_08-03-2026_17-42-1773002531-629221_mini.webp?temp_url_sig=a5ee1d263f305326955b8858d30d24c938f8aef822f71b0b460ce0fb2e77b33a&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:01.029470+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401374+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "cordoba:26289",
+    "id": "cordoba:26238",
     "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26289/",
-    "title": "LOTE 27 JUGOS CLIGHT TANG",
+    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26238/",
+    "title": "MICROONDAS \"SMC\"",
     "description": "",
-    "category": "real_estate",
-    "base_price": 5000.0,
+    "category": "vehicles",
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T17:30:00.900000+00:00",
+    "starts_at": "2026-04-07T14:00:00+00:00",
+    "ends_at": "2026-04-14T14:00:00.900000+00:00",
     "location": {
       "province": "Córdoba",
       "city": ""
     },
     "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26289_14-03-2026_21-29-1773534555-128460_mini.webp?temp_url_sig=3ea6ad5cc30fb502940d7f976359cebcd36ed6de005676d5c3e01d39f31f84e6&temp_url_expires=1773724261"
+      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26238_08-03-2026_17-22-1773001342-528843_mini.webp?temp_url_sig=c6067a44bdee49176d30377f62d1483371e4f917465c425ce7c0bf5fdff1fa1e&temp_url_expires=1773809310"
     ],
-    "scraped_at": "2026-03-16T05:11:03.046814+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26280",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26280/",
-    "title": "LOTE 18 LIMPIEZA RAID PAPE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 25000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T15:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26280_14-03-2026_20-21-1773530463-757592_mini.webp?temp_url_sig=b400ad2651f010318a10b51a865305570b89d6b9095e798543670054ec8b8935&temp_url_expires=1773724261"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046830+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26300",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26300/",
-    "title": "LOTE 38 AIRE ACOND RCA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 250000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T14:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26300_14-03-2026_23-13-1773540781-523115_mini.webp?temp_url_sig=99ee579bc0cced6f68b319a1f0cb819abb5ac9769dee997600bc827857b41a0e&temp_url_expires=1773724261"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046839+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26288",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26288/",
-    "title": "LOTE 26 PRODUCTOS FARMACIA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 10000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T17:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26288_14-03-2026_20-54-1773532473-108783_mini.webp?temp_url_sig=3b7171c03e92c1b4c8ebc30882342550561dee46baa501d1bb891f3cea850068&temp_url_expires=1773724261"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046847+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26292",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26292/",
-    "title": "LOTE 30 GRISINES TOSTADAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 5000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T18:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26292_14-03-2026_21-47-1773535647-101172_mini.webp?temp_url_sig=460a20543e25b51b5aaaa60da51c028e082ea440fbf056d7478c57ad5ea36cd8&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046854+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26299",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26299/",
-    "title": "LOTE 37 AIRE ACOND ELECTRA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26299_14-03-2026_23-03-1773540226-688249_mini.webp?temp_url_sig=cdbb245adf5a4bbb519ff1afe5a34d65e03f7892d35a2d8297cc20998d872ad3&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046862+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26285",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26285/",
-    "title": "LOTE 23 GOLOSINAS NAVIDAD",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 1500.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T16:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26285_14-03-2026_20-42-1773531748-744687_mini.webp?temp_url_sig=b1a376fc893f39a1f64b5c880747c82ccc19199508605a13df420039956c61a6&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046868+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26279",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26279/",
-    "title": "LOTE 17 ROPA SKIP CERAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 30000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T15:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26279_14-03-2026_20-14-1773530094-027854_mini.webp?temp_url_sig=5a4fcd370a8e0d0f3881b7952288041ea6cdc410668e4f193d068320e88de135&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046875+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26272",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26272/",
-    "title": "LOTE 10 BEBIDAS Y LICORES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 50000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T13:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26272_14-03-2026_19-35-1773527757-425368_mini.webp?temp_url_sig=31c1fc921102ca28d27c9fa1ba46fe680e7c59ea88abdcbeab3cdde876f950f7&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046883+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26271",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26271/",
-    "title": "LOTE 9 GALLETITAS DULCES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T13:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26271_14-03-2026_11-08-1773497311-902223_mini.webp?temp_url_sig=0990823fd1c326d3ca629ae031ef01d4185aafe22fffcbcad5a1328a01c1471b&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046890+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26278",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26278/",
-    "title": "LOTE 16 PRODUCTOS LIMPIEZA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T14:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26278_14-03-2026_20-02-1773529352-560961_mini.webp?temp_url_sig=efd414ece87890e53d8cca589a1ca7e869a09f676ab011c237c72ef85455024e&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046897+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26270",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26270/",
-    "title": "LOTE 8 EDULCORANTE CAFE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T12:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26270_14-03-2026_11-03-1773497010-484362_mini.webp?temp_url_sig=1e77865fff5f3ea4c0a05caf9253136b559e73a6b0582fc6d28ce0c4e2d6ac2f&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046904+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26269",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26269/",
-    "title": "LOTE 7 YERBA TE CAFE LECHE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 40000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T12:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26269_14-03-2026_10-40-1773495632-648075_mini.webp?temp_url_sig=3227d22fb33eaf0dd97404876d05dc9bc21f1893df38b2028e80e9fa27d6bc06&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046911+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26301",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26301/",
-    "title": "LOTE 39 AIRE ACOND TADIRAN",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 200000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T15:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26301_14-03-2026_23-21-1773541269-412155_mini.webp?temp_url_sig=8549a116cd7c09a2dac133dfd3b0918672a3761a800517a22f4672883996f5d3&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046919+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26274",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26274/",
-    "title": "LOTE 12 LATAS CONSERVAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 50000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T13:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26274_14-03-2026_19-43-1773528213-363745_mini.webp?temp_url_sig=c5a5aa7663c3d2161ef9719f4ffe2ee241c5e975900b2c1428ff971cea9b0eea&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046927+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26291",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26291/",
-    "title": "LOTE 29 GASEOSAS JUGOS AGU",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T18:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26291_14-03-2026_21-41-1773535303-751684_mini.webp?temp_url_sig=ed81057a092b02d86562e4236daf151adb60dce9b736ddd00f73d577bc079c49&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046935+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26303",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26303/",
-    "title": "LOTE 41 CPU CORT FIAMBRE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T16:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26303_14-03-2026_23-36-1773542206-472908_mini.webp?temp_url_sig=5eb0b0e514bb121bc045847ba304e308964e8024193ebff1b79432b2b13a615c&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046942+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26267",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26267/",
-    "title": "LOTE 5 REPASADORES TERMOS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 50000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T12:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26267_14-03-2026_03-00-1773468040-439309_mini.webp?temp_url_sig=621b6e3d14a0129344e90ffc77e390d445ccd30ed8fcc01060204b2568be0f55&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046950+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26281",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26281/",
-    "title": "LOTE 19 CUIDADO FEMENINO",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T15:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26281_14-03-2026_20-24-1773530663-943736_mini.webp?temp_url_sig=a6caa58f650de7f4ec125f477e7c81de743df22b8a7144dc224f95e798100297&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046957+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26305",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26305/",
-    "title": "LOTE 43 ESTANTERIAS VARIAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 2500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T17:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26305_14-03-2026_23-45-1773542736-780302_mini.webp?temp_url_sig=577085eadd636abc6e5408c3d43128fe506834f3899a013bdfe66788253073db&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046965+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26286",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26286/",
-    "title": "LOTE 24 CERVEZAS JUGOS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 10000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T16:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26286_14-03-2026_20-45-1773531932-743181_mini.webp?temp_url_sig=87675f93f82bfb355c3273ba758c40f6f068c9a3770d30bc6e18493c511d06ef&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046973+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26287",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26287/",
-    "title": "LOTE 25 BAZAR LAMPARAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 30000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T17:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26287_14-03-2026_20-49-1773532188-318193_mini.webp?temp_url_sig=daac8f6a9a0d96bee778dedcd2982fac27c9630d3710f76a7f027658d60ee269&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046980+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26284",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26284/",
-    "title": "LOTE 22 PRODUCTOS COPETIN",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T16:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26284_14-03-2026_20-39-1773531578-296346_mini.webp?temp_url_sig=cc41e96be7d92e01509f91fb7740845973b25be248ad0f3616aea196a8aa8d9c&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046987+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26273",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26273/",
-    "title": "LOTE 11 MERMELADAS DULCES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T13:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26273_14-03-2026_19-39-1773527972-027559_mini.webp?temp_url_sig=31aef24861d364e06a62d2ceed81db7fbf810c636d92371bf3c4f728ed3da05b&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.046994+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26266",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26266/",
-    "title": "LOTE 4 PRODUCTOS DE BAZAR",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 35000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T11:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26266_14-03-2026_02-55-1773467738-478726_mini.webp?temp_url_sig=908c889337f0175f1a80ea18581a55f60e3fa209fd5f06582e2fb3c9b096110d&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047002+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26308",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26308/",
-    "title": "LOTE 46 9 CAMARAS SEGURIDA",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 100000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T18:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26308_14-03-2026_23-56-1773543380-554620_mini.webp?temp_url_sig=227b19a8e3e7391619b5abdae6a1c335bed84a3257c6f1d4e042e2d29bf96f87&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047009+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26290",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26290/",
-    "title": "LOTE 28 RUTINI TRUMPETER",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 350000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T17:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26290_14-03-2026_21-33-1773534797-590159_mini.webp?temp_url_sig=2f7ee216a3892f198b784d55aba56071210c27fecfccde4dc31d6f22a68849e5&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047016+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26277",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26277/",
-    "title": "LOTE 15 FIDEOS ARROZ HARIN",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T14:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26277_14-03-2026_19-58-1773529110-625400_mini.webp?temp_url_sig=4883cb6e473a5f0c2295e5d9e577a953a3784cc5dc56bb70aa44ef03c133ad25&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047024+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26265",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26265/",
-    "title": "LOTE 3 SAHUMERIOS MANTELES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T11:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26265_14-03-2026_02-50-1773467408-931027_mini.webp?temp_url_sig=62404d1c44c1b9720238a7eac44a9285685a79dc4c632464880af6318838c76e&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047032+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26268",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26268/",
-    "title": "LOTE 6 VINOS YERBAS CAFE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T12:15:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26268_14-03-2026_10-31-1773495115-985921_mini.webp?temp_url_sig=1e751b3454a457cb9243624cb5bd493e0761414401510492626a36a4a0202d5e&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047039+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26295",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26295/",
-    "title": "LOTE 33 PROD P/CELIACOS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 10000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T19:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26295_14-03-2026_22-09-1773536947-270771_mini.webp?temp_url_sig=c79c26fb0d7dcd986709970c588ac1768f6b09db32c6f6d3b5d9af8d1500eca4&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047047+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26282",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26282/",
-    "title": "LOTE 20 BEBIDAS BLANCAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 50000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T15:45:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26282_14-03-2026_20-30-1773531025-365516_mini.webp?temp_url_sig=63d58fa4bd05a438f59f7fe1829239d082c895349835e46f089f37d774ee5bb0&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047054+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26275",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26275/",
-    "title": "LOTE 13 SAL VARIAS MARCAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 5000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-19T14:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26275_14-03-2026_19-47-1773528434-705630_mini.webp?temp_url_sig=23109149e6b19c56f3f2ff3016fc4d7df215d5386e4f218292c7cdd6145cfc38&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047062+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26302",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26302/",
-    "title": "LOTE 40 CINCO HELADERAS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 2300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T15:30:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26302_14-03-2026_23-30-1773541829-324552_mini.webp?temp_url_sig=ab738d1620b3bf189bcb946ed4d6cba04e8362db50fc5e1641fec3c188412590&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047070+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "cordoba:26307",
-    "source": "cordoba",
-    "source_url": "https://subastas.justiciacordoba.gob.ar/product/cba/26307/",
-    "title": "LOTE 45 BOLSONES YERBA SAL",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 100000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-03-16T12:00:00+00:00",
-    "ends_at": "2026-03-25T18:00:00.900000+00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [
-      "https://storage.bhs.cloud.ovh.net/v1/AUTH_bf88e2da3ef14955b0af060480ec8e05/media/mini_fotos_bienes/bien_26307_14-03-2026_23-53-1773543191-535812_mini.webp?temp_url_sig=8781484bdee1725f9ee3ed51758a22ab4497826a0e43a05abbd5199f38627792&temp_url_expires=1773724262"
-    ],
-    "scraped_at": "2026-03-16T05:11:03.047077+00:00",
+    "scraped_at": "2026-03-17T04:48:30.401408+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-21T04:23:59.386729+00:00",
+    "scraped_at": "2026-03-22T04:48:37.713293+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-21T04:23:59.386980+00:00",
+    "scraped_at": "2026-03-22T04:48:37.713438+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-21T04:23:59.387141+00:00",
+    "scraped_at": "2026-03-22T04:48:37.713545+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3233",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3233",
+    "title": "Aluar Aluminio Argentino S.A.I.C.",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-22T04:48:37.713688+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,29 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-03-21T04:23:59.387377+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3052",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
-    "title": "Global Maquinarias",
-    "description": "",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-03-21T04:23:59.387577+00:00",
+    "scraped_at": "2026-03-22T04:48:37.713818+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3230/41834/3214_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.389802+00:00",
+    "scraped_at": "2026-03-22T04:48:37.715548+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3228/41830/3199_lote_01(14).jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.390205+00:00",
+    "scraped_at": "2026-03-22T04:48:37.715931+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41831/3229_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.390512+00:00",
+    "scraped_at": "2026-03-22T04:48:37.716251+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41832/3229_Lote_02.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.390803+00:00",
+    "scraped_at": "2026-03-22T04:48:37.716545+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,103 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3229/41833/3229_Lote_03.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.391139+00:00",
+    "scraped_at": "2026-03-22T04:48:37.716840+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41844",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41844",
+    "title": "Aluar Aluminio Argentino S.A.I.C. CAMIÓN FORD CARGO 1722 E, AÑO 2011, ...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 20000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-10T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3233/41844/3233_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.717182+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41845",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41845",
+    "title": "Aluar Aluminio Argentino S.A.I.C. ÓMNIBUS MERCEDES BENZ, AÑO 2009, DOM...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 13000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-10T12:02:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3233/41845/3233_Lote_02.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.717484+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41847",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41847",
+    "title": "Aluar Aluminio Argentino S.A.I.C. EXCAVADORA, MARCA CATERPILLAR M-318...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 8000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-10T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3233/41847/3233_Lote_04.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.717816+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41848",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41848",
+    "title": "Aluar Aluminio Argentino S.A.I.C. PALA CARGADORA, MARCA CATERPILLAR 9...",
+    "description": "",
+    "category": "general_goods",
+    "base_price": 10000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-10T12:05:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3233/41848/3233_Lote_05.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.718192+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3232/41838/3225_Lote_01.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.391459+00:00",
+    "scraped_at": "2026-03-22T04:48:37.718512+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3232/41840/3225_Lote_03.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.391769+00:00",
+    "scraped_at": "2026-03-22T04:48:37.718824+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +392,151 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3232/41841/3225_Lote_04.jpg"
     ],
-    "scraped_at": "2026-03-21T04:23:59.392105+00:00",
+    "scraped_at": "2026-03-22T04:48:37.719161+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41903",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41903",
+    "title": "ALZ Agro S.A. CALDERA 3,8 T/H DE 3 PASOS, MARCA SA...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 12000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-16T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3235/41903/3235_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.719483+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41905",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41905",
+    "title": "ALZ Agro S.A. CALDERA 800.000 KCAL/H , A GAS NATUR...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 4000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-16T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3235/41905/3235_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.719796+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41906",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41906",
+    "title": "ALZ Agro S.A. CONCENTRADOR / EVAPORADOR DE 5 EFECT...",
+    "description": "",
+    "category": "other",
+    "base_price": 200000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-16T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3235/41906/3235_lote_04(10).jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.720146+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41868",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41868",
+    "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 1750000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-17T12:02:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3234/41868/3158_Lote_02.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.720433+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41875",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41875",
+    "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB A 42, CANTIDAD: 1...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 2400000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-17T12:09:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3234/41875/3158_Lote_10.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.720732+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41877",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41877",
+    "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB A 25, CANTIDAD: 1...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1600000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-17T12:11:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3234/41877/3158_Lote_12.jpg"
+    ],
+    "scraped_at": "2026-03-22T04:48:37.721057+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

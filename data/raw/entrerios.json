@@ -1,11 +1,11 @@
 [
   {
-    "id": "entrerios:5493513731991",
+    "id": "entrerios:0",
     "source": "entrerios",
-    "source_url": "https://subastas.jusentrerios.gob.ar/subasta/5493513731991",
-    "title": "El sitio está en mantenimiento",
-    "description": "Subastas Judiciales Necesitas habilitar javascript en tu navegador para ver el sitio. Iniciar Sesión Registrarme Persona Empresa Registrarme Persona Empresa El sitio está en mantenimiento Estamos realizando tareas de mantenimiento para mejorar tu experiencia. Por favor, vuelve a intentarlo más tarde. El sitio está en mantenimiento Subastas Electrónicas . © 2026",
-    "category": "vehicles",
+    "source_url": "https://subastas.jusentrerios.gob.ar/#listado-categorias",
+    "title": "Subasta #0",
+    "description": "",
+    "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
@@ -15,11 +15,96 @@
       "province": "Entre Rios",
       "city": ""
     },
-    "images": [
-      "https://subastas.jusentrerios.gob.ar/static/media/exclamation-alert.72e149f4.webp",
-      "https://subastas.jusentrerios.gob.ar/static/media/whatsapp-white.e8431f50.svg"
-    ],
-    "scraped_at": "2026-03-22T04:48:47.037889+00:00",
+    "images": [],
+    "scraped_at": "2026-03-23T05:00:23.724165+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "entrerios:1",
+    "source": "entrerios",
+    "source_url": "https://subastas.jusentrerios.gob.ar",
+    "title": "Mostrandoresultados enVigentes",
+    "description": "Mostrando resultados en Vigentes",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Entre Rios",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-23T05:00:23.724357+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "entrerios:2",
+    "source": "entrerios",
+    "source_url": "https://subastas.jusentrerios.gob.ar/registro/persona",
+    "title": "Subasta #2",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Entre Rios",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-23T05:00:23.725584+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "entrerios:3",
+    "source": "entrerios",
+    "source_url": "https://subastas.jusentrerios.gob.ar",
+    "title": "Subasta #3",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Entre Rios",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-23T05:00:23.729402+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "entrerios:4",
+    "source": "entrerios",
+    "source_url": "https://landing.esubasta.ar/",
+    "title": "Subasta #4",
+    "description": "Desarrollado por\n                  Subastas Electrónicas. © 2026 Contacto de Subastas Electrónicas",
+    "category": "general_goods",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Entre Rios",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-03-23T05:00:23.731345+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

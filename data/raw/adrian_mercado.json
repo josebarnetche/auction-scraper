@@ -19,7 +19,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4257/0e86a820468f8a5dcf016a5134dbbfa1-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4257/0e86a820468f8a5dcf016a5134dbbfa1-mobile.jpg"
     ],
-    "scraped_at": "2026-04-15T05:18:34.668879+00:00",
+    "scraped_at": "2026-04-16T05:25:24.980989+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4257_condition_report_34225080.pdf",
@@ -85,7 +85,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4151/9cb7fa9a6eebfca26b609e94ab7a02a6-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4151/9cb7fa9a6eebfca26b609e94ab7a02a6-mobile.jpg"
     ],
-    "scraped_at": "2026-04-15T05:18:42.750201+00:00",
+    "scraped_at": "2026-04-16T05:25:33.214776+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4151_condition_report_34225080.pdf",
@@ -124,7 +124,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4195/d93bfa404928661f0729bbe3e1c77fa8-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4195/d93bfa404928661f0729bbe3e1c77fa8-mobile.jpg"
     ],
-    "scraped_at": "2026-04-15T05:18:50.829845+00:00",
+    "scraped_at": "2026-04-16T05:25:41.348748+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4195_condition_report_34225080.pdf",
@@ -174,7 +174,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4222/dddf95c90118485e5e9b09d26a9add45-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4222/dddf95c90118485e5e9b09d26a9add45-mobile.jpg"
     ],
-    "scraped_at": "2026-04-15T05:18:58.911499+00:00",
+    "scraped_at": "2026-04-16T05:25:49.463986+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4222_condition_report_34225080.pdf",
@@ -703,7 +703,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:06.920071+00:00",
+    "scraped_at": "2026-04-16T05:25:57.478116+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4183_condition_report_34225080.pdf",
@@ -731,7 +731,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:14.928778+00:00",
+    "scraped_at": "2026-04-16T05:26:05.488729+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4203_condition_report_34225080.pdf",
@@ -1654,7 +1654,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:23.005029+00:00",
+    "scraped_at": "2026-04-16T05:26:13.591359+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4231_condition_report_34225080.pdf",
@@ -2301,7 +2301,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:31.085438+00:00",
+    "scraped_at": "2026-04-16T05:26:21.691662+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4248_condition_report_34225080.pdf",
@@ -2320,8 +2320,55 @@
       "is_opportunity": true,
       "opportunity_reason": "factory"
     },
-    "lots": [],
-    "lot_count": 0
+    "lots": [
+      {
+        "lot_id": "am:4248:1",
+        "lot_number": 1,
+        "title": "Horno industrial en inox. Rational, mod. Scc 202g, a gas natural, potencia 1100 w, medidas de boca 0.64x1.44x0.88 mts., medidas total del equipo 1.08x1.79x1.00 mts.",
+        "description": "Horno industrial en inox. Rational, mod. Scc 202g, a gas natural, potencia 1100 w, medidas de boca 0.64x1.44x0.88 mts., medidas total del equipo 1.08x1.79x1.00 mts.",
+        "base_price": 120000000.0,
+        "currency": "ARS",
+        "base_price_usd": 85106.38,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/182800/d31bc7e43ef66eb735ea83751d5fa5da-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182800/c9f072287aa86f1efde2ceedf517d0f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182800/b73ef3a6d4b806492c815497380461df-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182800/06f64b1d37994178ab25d682c492a3c5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182800/7314404e23128a11b5a6d7c6bf60c04c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4248:2",
+        "lot_number": 2,
+        "title": "Horno industrial en inox. Rational, mod. Scc 202g, a gas natural, potencia 1100 w, medidas de boca 0.64x1.44x0.88 mts., medidas total del equipo 1.08x1.79x1.00 mts.",
+        "description": "Horno industrial en inox. Rational, mod. Scc 202g, a gas natural, potencia 1100 w, medidas de boca 0.64x1.44x0.88 mts., medidas total del equipo 1.08x1.79x1.00 mts.",
+        "base_price": 120000000.0,
+        "currency": "ARS",
+        "base_price_usd": 85106.38,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/182801/0537dc59b535481746fdccd7cab5376a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182801/c8ba7a09030ea8ed20a2fb03be796934-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182801/c2e79264092960f67d60f609cb2908ba-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182801/9eddb64ea9752c63172e3cf1ae460158-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/182801/848991fc374f88394ea5f815aa33c941-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 2
   },
   {
     "id": "adrian_mercado:4177",
@@ -2340,7 +2387,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:39.091022+00:00",
+    "scraped_at": "2026-04-16T05:26:29.698093+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4177_condition_report_34225080.pdf",
@@ -2401,8 +2448,8 @@
   {
     "id": "adrian_mercado:4226",
     "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-frimetal-s-a-maquinarias-y-equipos-con-orden-de-venta-sin-base-4226",
-    "title": "Por c/o. De Frimetal S.A., Maquinarias y equipos con orden de venta (sin base).",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-frimetal-s-a-maquinarias-y-equipos-con-orden-de-venta-en-precio-de-inicio-4226",
+    "title": "Por c/o. de Frimetal S.A., maquinarias y equipos con orden de venta en precio de inicio",
     "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: 2010, Av. José Batlle y Ordóñez 3436, S2000 Rosario, Santa Fe Fecha y horario de exhibición: Martes 14/04 y Miércoles 15/0400 de 9:00 a 16:00 hs. Condiciones generales Descargar",
     "category": "machinery",
     "base_price": 0.0,
@@ -2415,24 +2462,13 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:47.165348+00:00",
+    "scraped_at": "2026-04-16T05:26:37.801137+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4226_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4226_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4226_condition_report_bbd2b7a8.pdf"
-      ],
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "urgent",
-        "premium_types": [
-          "urgent"
-        ],
-        "confidence": 0.3,
-        "why_premium": "Detected: urgent"
-      },
-      "is_opportunity": true,
-      "opportunity_reason": "urgent"
+      ]
     },
     "lots": [
       {
@@ -2823,7 +2859,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:19:55.243056+00:00",
+    "scraped_at": "2026-04-16T05:26:45.924616+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4221_condition_report_34225080.pdf",
@@ -2851,7 +2887,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:20:03.329569+00:00",
+    "scraped_at": "2026-04-16T05:26:54.041498+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4236_condition_report_34225080.pdf",
@@ -2879,7 +2915,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:20:11.429903+00:00",
+    "scraped_at": "2026-04-16T05:27:02.141337+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4206_condition_report_34225080.pdf",
@@ -2962,7 +2998,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:20:20.021463+00:00",
+    "scraped_at": "2026-04-16T05:27:10.680263+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4214_condition_report_34225080.pdf",
@@ -4389,12 +4425,40 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:20:28.101473+00:00",
+    "scraped_at": "2026-04-16T05:27:18.825579+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4199_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4199_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4199_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4266",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-la-industria-metalurgica-4266",
+    "title": "Empresa de la Industria Metalúrgica",
+    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Perito Moreno 551, Canning, Buenos Aires Ubicación 2 Ubicación: Perito Moreno 551, Canning, Buenos Aires Condiciones generales Descargar",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-22T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-04-16T05:27:26.958861+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4266_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4266_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4266_condition_report_bbd2b7a8.pdf"
       ]
     },
     "lots": [],
@@ -4417,7 +4481,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:20:36.179251+00:00",
+    "scraped_at": "2026-04-16T05:27:35.065400+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4153_condition_report_34225080.pdf",
@@ -4456,7 +4520,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:20:44.254043+00:00",
+    "scraped_at": "2026-04-16T05:27:43.188660+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4167_condition_report_34225080.pdf",
@@ -4479,42 +4543,6 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4189",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-pick-ups-toyota-hilux-furgones-peugeot-y-fiat-2-camiones-mercedes-benz-4189",
-    "title": "Subasta de Pick-ups Toyota Hilux, furgones Peugeot y Fiat , 2 camiones  Mercedes Benz",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: CCQH+RXQ, Villa Krause, San Juan Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-24T00:00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-04-15T05:20:52.331073+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4189_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4189_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4189_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "camion",
-        "min_usd": 15000,
-        "max_usd": 120000,
-        "typical_usd": 45000,
-        "category": "vehicles"
-      }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "adrian_mercado:4197",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/empresa-de-servicios-petroleros-4197",
@@ -4531,7 +4559,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:00.412518+00:00",
+    "scraped_at": "2026-04-16T05:27:51.310237+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4197_condition_report_34225080.pdf",
@@ -4559,7 +4587,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:08.421777+00:00",
+    "scraped_at": "2026-04-16T05:27:59.319708+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4211_condition_report_34225080.pdf",
@@ -4590,6 +4618,34 @@
     "lot_count": 0
   },
   {
+    "id": "adrian_mercado:4217",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-transportes-messina-sa-4217",
+    "title": "Por c/o de Transportes Messina SA",
+    "description": "Ubicación Ubicación Ubicación: Lateral Sur del Acceso Este 7500, M5525 Guaymallén, Mendoza",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-24T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-04-16T05:28:07.337313+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4217_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4217_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4217_condition_report_34225080.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "adrian_mercado:4219",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/lgsa-4219",
@@ -4606,12 +4662,68 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:16.500390+00:00",
+    "scraped_at": "2026-04-16T05:28:15.461134+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4219_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4219_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4219_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4249",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/importante-empresa-constructora-por-renovacion-4249",
+    "title": "Importante empresa constructora por renovación",
+    "description": "Ubicación Ubicación Ubicación: Juan A. Pradere, Buenos Aires",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-24T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-04-16T05:28:23.468708+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4249_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4249_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4249_condition_report_34225080.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4250",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-metalurgica-finke-s-a-4250",
+    "title": "Por c/o de Metalúrgica Finke S.A.",
+    "description": "Ubicación Ubicación Ubicación: RN14, Aristóbulo del Valle, Misiones",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-24T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-04-16T05:28:31.475558+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4250_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4250_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4250_condition_report_34225080.pdf"
       ]
     },
     "lots": [],
@@ -4634,7 +4746,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:24.510723+00:00",
+    "scraped_at": "2026-04-16T05:28:39.483967+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4251_condition_report_34225080.pdf",
@@ -4662,12 +4774,40 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:32.596952+00:00",
+    "scraped_at": "2026-04-16T05:28:47.602364+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4255_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4255_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4255_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4256",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-superior-energy-service-s-a-4256",
+    "title": "Por c/o de Superior Energy Service S.A",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Tirso López 550, Comodoro Rivadavia, Chubut Condiciones generales Descargar",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-24T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-04-16T05:28:55.716753+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4256_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4256_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4256_condition_report_bbd2b7a8.pdf"
       ]
     },
     "lots": [],
@@ -4690,7 +4830,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:40.681232+00:00",
+    "scraped_at": "2026-04-16T05:29:03.839879+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4170_condition_report_34225080.pdf",
@@ -4718,7 +4858,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:48.758966+00:00",
+    "scraped_at": "2026-04-16T05:29:11.962596+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4204_condition_report_34225080.pdf",
@@ -4746,7 +4886,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-15T05:21:56.854379+00:00",
+    "scraped_at": "2026-04-16T05:29:20.070826+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4210_condition_report_34225080.pdf",
@@ -4769,7 +4909,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:94473309",
+    "id": "adrian_mercado:92182584",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "Asegurá tu participación en la subasta",
@@ -4787,7 +4927,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-04-15T05:18:21.661379+00:00",
+    "scraped_at": "2026-04-16T05:25:07.384953+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

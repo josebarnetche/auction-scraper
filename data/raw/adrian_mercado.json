@@ -19,7 +19,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4195/d93bfa404928661f0729bbe3e1c77fa8-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4195/d93bfa404928661f0729bbe3e1c77fa8-mobile.jpg"
     ],
-    "scraped_at": "2026-04-21T05:22:08.684544+00:00",
+    "scraped_at": "2026-04-22T05:20:11.234855+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4195_condition_report_34225080.pdf",
@@ -587,538 +587,6 @@
     "lot_count": 25
   },
   {
-    "id": "adrian_mercado:4222",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-skf-argentina-s-a-4222",
-    "title": "SUBASTA EN VIVOPor c/o de SKF Argentina S.A.Elevadores hidráulicos - Compresores - Zorras hidráulicas - Aparejos - Bombas y másMiércoles\n                    29/4/2026A confirmarID 1971",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: , Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Condiciones generales Descargar",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4222/dddf95c90118485e5e9b09d26a9add45-desktop.jpg",
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4222/dddf95c90118485e5e9b09d26a9add45-mobile.jpg"
-    ],
-    "scraped_at": "2026-04-21T05:22:16.788648+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4222_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4222_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4222_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4222:9",
-        "lot_number": 9,
-        "title": "32 aprox. Sillas ergonómicas/giratorias en hierro con asiento y respaldo en pvc Fénix, 10 aprox. sil",
-        "description": "32 aprox. Sillas ergonómicas/giratorias en hierro con asiento y respaldo en pvc Fénix, 10 aprox. sil",
-        "base_price": 40000000.0,
-        "currency": "ARS",
-        "base_price_usd": 28368.79,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182438/463ac7d0794b3f4b88ab42a8365aade1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182438/6e722b6169595fbfce261caf0d28ade2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182438/cd72e24014de28d8ccf233a0a947d050-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182438/1f9e2d5c3d73cc4168d9ed1d1e101669-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182438/a8041a33cb2437747402721d51ff8a71-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:18",
-        "lot_number": 18,
-        "title": "60 aprox. carros y mesas auxiliares metálicas en medidas vs. y 12 aprox. bases metálicas vs. (8 con",
-        "description": "60 aprox. carros y mesas auxiliares metálicas en medidas vs. y 12 aprox. bases metálicas vs. (8 con",
-        "base_price": 48000000.0,
-        "currency": "ARS",
-        "base_price_usd": 34042.55,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182439/01bca864691099ad2355049b0bfacc6f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182439/b8d8707d746b502e1b1cb41d0fcde209-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182439/532d82e06af9c55bf27c2fca8176c6e2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182439/9c217515f0d80aaf2b1d6d15d2eccce1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182439/b26013e3a2b9d31a37172e7a761addc1-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:20",
-        "lot_number": 20,
-        "title": "4 Zorras hidráulicas porta pallets uña corta, cap. 1500 kg., funcionando.-",
-        "description": "4 Zorras hidráulicas porta pallets uña corta, cap. 1500 kg., funcionando.-",
-        "base_price": 44000000.0,
-        "currency": "ARS",
-        "base_price_usd": 31205.67,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182440/a2fced46da460b72e4ad2027e827b437-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182440/46ec2ac8febc8f58e9736ce546e2febf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182440/1187c2e0f53ce2c357a7451d039bb11a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:24",
-        "lot_number": 24,
-        "title": "4 Zorras hidráulicas porta pallets, cap. 1000/2000 kg., funcionando.-",
-        "description": "4 Zorras hidráulicas porta pallets, cap. 1000/2000 kg., funcionando.-",
-        "base_price": 34000000.0,
-        "currency": "ARS",
-        "base_price_usd": 24113.48,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182441/bb5d1368fb0d5e583a2022ef39d578aa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182441/6548625fe5c54056aea687ba86c2f8ca-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182441/3c65666eb4a0ca5709f541405b413507-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:48",
-        "lot_number": 48,
-        "title": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa Enege, mod. 80.950, relac",
-        "description": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa Enege, mod. 80.950, relac",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182442/a96600a35fe46a30d73ca79cd78ea575-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182442/e021e47b854f597731796f451e8effc1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182442/f2fb1bce59d1429fc88d792d48836692-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182442/755e9903786794f8c143aee0860b139c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182442/f09774745bcb3b1bb278981bfe3b857f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:49",
-        "lot_number": 49,
-        "title": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa Enege, mod. 80.950, relac",
-        "description": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa Enege, mod. 80.950, relac",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182443/88b077489c84c53a1fd3add4336238ef-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182443/24c4f3c0f56f106f0d3708d857efe64c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182443/67cf4807bea0b6109b39f5519e85d746-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182443/a913cf19a5dfd954f92ec6abfc7e0189-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182443/b30a652d7290ba7aebbb1a0014cb1d1e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:52",
-        "lot_number": 52,
-        "title": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa (Enege, mod. 81.109, rela",
-        "description": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa (Enege, mod. 81.109, rela",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182444/6198d70aa72a15950d65e21f145e86b8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182444/c38fc8cff6ce8f5f26fc5cca4836b46c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182444/f230a668620f85029cec74f5162a9d95-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182444/8cdd762c596d09b52d97c7e036cd5129-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182444/16298650a5246c3af91e8680f034525b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:53",
-        "lot_number": 53,
-        "title": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa Enege, mod. 80.950, relac",
-        "description": "2 Bombas neumáticas de 2 columnas de alta presión para extracción de grasa Enege, mod. 80.950, relac",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182445/6c89af84f644db8005c6bd135edbd5fd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182445/659137c47b73fef5d588d8a33c26b224-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182445/3a5731dd0ea9ee615c744738066ca101-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182445/50ce83d8e428787ae575572201062c5d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182445/f3ea7ea890915f1244afc681b0b661df-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:61",
-        "lot_number": 61,
-        "title": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "description": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182446/83b35afefa38a17cb91ba110e76c09b9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182446/bd4d8972dc2f4f41aa3d59841599a01d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182446/3644cf88d000abb352899aa6115aff8b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182446/4d0ff3683ec2db048ce070616698f70c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182446/6d682307ceb194b073e91745c57d3162-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:62",
-        "lot_number": 62,
-        "title": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "description": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182447/d51e9830bf10ea5fc568b1f65203e8be-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182447/5e8cba4423f6921e41487e1f7f7d529c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182447/e221f060f1f484211bdd669a95ab15c9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182447/b53ea7bb7a66a9a73b0b77313900ac86-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182447/525d17fca3087bbc8a770653c49e9c88-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:63",
-        "lot_number": 63,
-        "title": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "description": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182448/4459f7973d0dab0565da16f939b86b37-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182448/fd6f9d7b1aa2a1362ad3f7bf74a6e94f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182448/c4799bc63a55a14a27693b972ffe95e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182448/4442a15f5ed73bdd3227865499ede1ea-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182448/838c8e46e5a7df0c17eed8399b405533-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:64",
-        "lot_number": 64,
-        "title": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "description": "2 Motor eléctrico trifásico ABB, cap. 11 kw., 1676 rpm., (sin uso).-",
-        "base_price": 72000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182449/f985404e62b3a5dd3bf7960662a9d350-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182449/400fa5945d5a76a29ec65f194c0611d7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182449/7a1a89e62aac71344b9bc0c2ae14181b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182449/9c3f5a5c9d3932890f86994112d85340-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182449/8b12491db757168471d30a3284fc1fc3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:66",
-        "lot_number": 66,
-        "title": "2 Motores eléctricos trifásicos ABB, cap., 18,5 kw., 2939 rpm., (sin uso).-",
-        "description": "2 Motores eléctricos trifásicos ABB, cap., 18,5 kw., 2939 rpm., (sin uso).-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70921.99,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182450/761c01dbc324c84ec1146b9f3f00cdf1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182450/889fc47c55527ad888c6bd0431a2e10c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182450/a900fd435a5fe9b91e02503215cbb990-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182450/2f8fd999bf1583b933f67e8f23bd9eed-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182450/47b6fab052becc3266741b4231c05014-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:78",
-        "lot_number": 78,
-        "title": "Motor eléctrico trifásico ABB, cap. 37 kw., 2950 rpm., (sin uso).-",
-        "description": "Motor eléctrico trifásico ABB, cap. 37 kw., 2950 rpm., (sin uso).-",
-        "base_price": 160000000.0,
-        "currency": "ARS",
-        "base_price_usd": 113475.18,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182451/e986edf47b0a00d100789ab89284a6a9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182451/c745a496a0b1c55880a4d0eb55d325de-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182451/32c0686867395ae461040d3a80e716c6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182451/8e8fee3782a9953cb30947b944a1407e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182451/efa98dbed366a23d6b09b0c4129cc6d3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:79",
-        "lot_number": 79,
-        "title": "Motor eléctrico trifásico ABB, cap. 37 kw., 2950 rpm., (sin uso).-",
-        "description": "Motor eléctrico trifásico ABB, cap. 37 kw., 2950 rpm., (sin uso).-",
-        "base_price": 160000000.0,
-        "currency": "ARS",
-        "base_price_usd": 113475.18,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182452/413a7acd4e7a072b8415844fceaf6e5d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182452/c1ec1d203224d6c51589a93875b215e6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182452/e3d6c3ea55a76ae4a4044a0432ab1dd6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182452/54cdb35106869a6d4b48c41e48381eb1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182452/307bc37568f48d970873d0ab92924fb6-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:82",
-        "lot_number": 82,
-        "title": "(CAJÓN 1) Capacho conteniendo aprox. 70 fuentes Siemens Sitop, cap. de 1,3 a 40 amp. (todo sin uso)",
-        "description": "(CAJÓN 1) Capacho conteniendo aprox. 70 fuentes Siemens Sitop, cap. de 1,3 a 40 amp. (todo sin uso)",
-        "base_price": 560000000.0,
-        "currency": "ARS",
-        "base_price_usd": 397163.12,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182453/dac403cab64cd4473a8e8731bd22f64c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182453/6c2697620b5ce162cfc0b4f25cf4ffec-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182453/4eacb48ad8a82aa442fff113d39e5d5d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182453/e06e176b3112ffbd2f3587c51bd84aef-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:83",
-        "lot_number": 83,
-        "title": "(CAJÓN 2 y 3) Capacho conteniendo cantidad de componentes vs. para PLC Siemens, (módulos entrada dig",
-        "description": "(CAJÓN 2 y 3) Capacho conteniendo cantidad de componentes vs. para PLC Siemens, (módulos entrada dig",
-        "base_price": 1200000000.0,
-        "currency": "ARS",
-        "base_price_usd": 851063.83,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182454/e69e4825829b4710d54ddb7fe2c60e58-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182454/b39f23bb7f055f4c3a4b64f2c84b1b5e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182454/a682534635f9a7feaaeebd85474db265-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182454/c469cb5db6169856460dbf2c3efe7ed4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182454/ea39b4e468017c029f96df6593e54231-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:84",
-        "lot_number": 84,
-        "title": "(CAJÓN 4 y 5) Capacho conteniendo aprox. 86 paneles de operaciones Siemens, en modelos vs. (todo sin",
-        "description": "(CAJÓN 4 y 5) Capacho conteniendo aprox. 86 paneles de operaciones Siemens, en modelos vs. (todo sin",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 709219.86,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182455/846a7716b033fc94b639ceffc0265488-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182455/6c8367fc942f2b1201fe40538364e9db-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182455/4a8e7ed3aba9d7c136801981f2027ff1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182455/118951b9a7cc6e25c094a000d9b32aa3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:85",
-        "lot_number": 85,
-        "title": "(CAJÓN 6 - 7 y 8) Capacho conteniendo aprox. 56 componentes CNC Sinumerik Siemens, (paneles, módulos",
-        "description": "(CAJÓN 6 - 7 y 8) Capacho conteniendo aprox. 56 componentes CNC Sinumerik Siemens, (paneles, módulos",
-        "base_price": 1600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1134751.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182456/1ceff63880789eb81685d948b8deccfb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182456/34209d0537e7f984a50b638ebaa0db78-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182456/af081a4f195030c5dff4b6e97d8920e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182456/52e6631d48459e4d01dc664356306c7b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182456/c40f9c56bd50a572abae07415c9df342-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:86",
-        "lot_number": 86,
-        "title": "43 Aprox. Cintas a rodillo en medidas vs., de 3,50 a 6,00 mts., ancho útil 100 mm. c/u.-",
-        "description": "43 Aprox. Cintas a rodillo en medidas vs., de 3,50 a 6,00 mts., ancho útil 100 mm. c/u.-",
-        "base_price": 160000000.0,
-        "currency": "ARS",
-        "base_price_usd": 113475.18,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182457/21f62bf232e1466d65d7a414092c9124-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182457/432a8c4dfc994caeb63ef1c1f75660e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182457/ea8726a276dbde94999f3e795c61fe18-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182457/73f5a52beb2d8957a8986fd7f08f48b5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182457/c026eb1768304a4324b7e8789dea52f7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:87",
-        "lot_number": 87,
-        "title": "15 Aprox. Recortes en caño redondo en hierro de 1,00 a 5,00 mts., diámetros y espesores vs.-",
-        "description": "15 Aprox. Recortes en caño redondo en hierro de 1,00 a 5,00 mts., diámetros y espesores vs.-",
-        "base_price": 28000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19858.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182458/caafe4334a4e6661563f38124a378922-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182458/a5ebb0c0426aff4fc454ec1cc8e457e6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182458/bcd468e92fb919fb2ee6d5cc4b3dba7e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182458/a3b711b45d322806c57cfe6974854f4b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182458/5f7ca12022c30a33d33b12e8ccb0f250-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4222:89",
-        "lot_number": 89,
-        "title": "800 aprox. mts. lineales en ducto de ventilación en chapa galvanizada, con aberturas vs., y medidas",
-        "description": "800 aprox. mts. lineales en ducto de ventilación en chapa galvanizada, con aberturas vs., y medidas",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70921.99,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/182459/10c391a336cea652c1fcd6195d69bec7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182459/a7539209ecc94ea82328f91e1150c784-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182459/5aa93cb39c4a49eb6faee56331114461-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182459/a616fd5d446cb12ca0778cedc89e171f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/182459/63fe08c20dc621aeaeb160c979f9785c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 22
-  },
-  {
     "id": "adrian_mercado:4199",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/importante-subasta-de-informatica-4199",
@@ -1135,7 +603,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:22:24.867759+00:00",
+    "scraped_at": "2026-04-22T05:20:19.317567+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4199_condition_report_34225080.pdf",
@@ -1163,7 +631,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:22:32.940956+00:00",
+    "scraped_at": "2026-04-22T05:20:27.398996+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4266_condition_report_34225080.pdf",
@@ -1177,10 +645,10 @@
   {
     "id": "adrian_mercado:4219",
     "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/lgsa-4219",
-    "title": "(LGSA)",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-camiones-y-equipos-de-transporte-volquetes-semirremolques-y-utilitarios-4219",
+    "title": "Subasta de camiones y equipos de transporte: volquetes, semirremolques y utilitarios",
     "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Pellegrini 4600, B7400 Olavarría, Buenos Aires Fecha y horario de exhibición: Miércoles 22/04 y Jueves 23/04 de 9:00 a 16:00 hs Condiciones generales Descargar",
-    "category": "other",
+    "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
@@ -1191,13 +659,21 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:22:41.018931+00:00",
+    "scraped_at": "2026-04-22T05:20:35.473633+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4219_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4219_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4219_condition_report_bbd2b7a8.pdf"
-      ]
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "camion",
+        "min_usd": 15000,
+        "max_usd": 120000,
+        "typical_usd": 45000,
+        "category": "vehicles"
+      }
     },
     "lots": [],
     "lot_count": 0
@@ -1207,7 +683,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-supply-south-srl-por-renovacion-de-flota-4153",
     "title": "Por c/o de Supply South SRL, por renovación de flota",
-    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Términos y condiciones Descargar Ubicación Ubicación: Av. Gral. Paz 6350, CABA Ubicación 2 Ubicación: Francisco Bilbao 5255, CABA Ubicación 3 Ubicación: Av. Int. Francisco Rabanal 3241, C1437 CABA Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Términos y condiciones Descargar Ubicación Ubicación: Av. Gral. Paz 6350, CABA Fecha y horario de exhibición: Jueves 23 de 9:00 a 16:00 hs Con puesta en marcha de los equipos de 14:00 a 14:30. Ubicación 2 Ubicación: Francisco Bilbao 5255, CABA Fecha y horario de exhibición: Miércoles 22 de 10:00 a 16:00 hs. Puesta en marcha de los equipos de 14:00 a 14:30. Ubicación 3 Ubicación: Av. Int. Francisco Rabanal 3241, C1437 CABA Fecha y horario de exhibición: Miércoles 22 de 10:00 a 16:00 hs. Puesta en marcha de los equipos de 14:00 a 14:30. Condiciones generales Descargar",
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
@@ -1219,7 +695,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:22:49.094921+00:00",
+    "scraped_at": "2026-04-22T05:20:43.548354+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4153_condition_report_34225080.pdf",
@@ -1258,7 +734,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:22:57.176835+00:00",
+    "scraped_at": "2026-04-22T05:20:51.616285+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4256_condition_report_34225080.pdf",
@@ -1286,7 +762,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:05.245156+00:00",
+    "scraped_at": "2026-04-22T05:20:59.685700+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4211_condition_report_34225080.pdf",
@@ -1333,7 +809,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:13.318773+00:00",
+    "scraped_at": "2026-04-22T05:21:07.752564+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4251_condition_report_34225080.pdf",
@@ -1361,7 +837,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:21.390550+00:00",
+    "scraped_at": "2026-04-22T05:21:15.817017+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4197_condition_report_34225080.pdf",
@@ -1389,7 +865,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:29.452671+00:00",
+    "scraped_at": "2026-04-22T05:21:23.879622+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4255_condition_report_34225080.pdf",
@@ -1417,7 +893,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:37.518046+00:00",
+    "scraped_at": "2026-04-22T05:21:31.943865+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4249_condition_report_34225080.pdf",
@@ -1445,7 +921,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:45.594668+00:00",
+    "scraped_at": "2026-04-22T05:21:40.012634+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4217_condition_report_34225080.pdf",
@@ -1473,7 +949,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:23:53.666093+00:00",
+    "scraped_at": "2026-04-22T05:21:48.092015+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4250_condition_report_34225080.pdf",
@@ -1501,7 +977,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:24:01.755693+00:00",
+    "scraped_at": "2026-04-22T05:21:56.162070+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4167_condition_report_34225080.pdf",
@@ -1540,7 +1016,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:24:09.841259+00:00",
+    "scraped_at": "2026-04-22T05:22:04.238810+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4170_condition_report_34225080.pdf",
@@ -1568,7 +1044,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:24:17.915173+00:00",
+    "scraped_at": "2026-04-22T05:22:12.311686+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4204_condition_report_34225080.pdf",
@@ -1596,7 +1072,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:24:25.990021+00:00",
+    "scraped_at": "2026-04-22T05:22:20.406766+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4210_condition_report_34225080.pdf",
@@ -1635,7 +1111,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:24:34.069912+00:00",
+    "scraped_at": "2026-04-22T05:22:28.478078+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4237_condition_report_34225080.pdf",
@@ -1671,7 +1147,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-21T05:24:42.075157+00:00",
+    "scraped_at": "2026-04-22T05:22:36.483307+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4252_condition_report_34225080.pdf",
@@ -1691,7 +1167,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:49816128",
+    "id": "adrian_mercado:60766674",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "Asegurá tu participación en la subasta",
@@ -1709,7 +1185,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-04-21T05:21:56.043375+00:00",
+    "scraped_at": "2026-04-22T05:19:56.901953+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3237",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3237",
-    "title": "Visuar",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-04-28T05:53:27.521139+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3238",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3238",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-28T05:53:27.521273+00:00",
+    "scraped_at": "2026-04-29T05:48:39.710924+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-28T05:53:27.521413+00:00",
+    "scraped_at": "2026-04-29T05:48:39.711267+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,18 +60,18 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-28T05:53:27.521540+00:00",
+    "scraped_at": "2026-04-29T05:48:39.711479+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:auction_3052",
+    "id": "global_remates:auction_3242",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
-    "title": "Global Maquinarias",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3242",
+    "title": "Procesos Patagonicos S.R.L.",
     "description": "",
-    "category": "machinery",
+    "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
@@ -104,103 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-28T05:53:27.521649+00:00",
+    "scraped_at": "2026-04-29T05:48:39.711682+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_41975",
+    "id": "global_remates:auction_3241",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41975",
-    "title": "Visuar AUTOELEVADOR, ELÉCTRICO, MARCA TCM ...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3241",
+    "title": "MELISAM Fire Group",
     "description": "",
-    "category": "vehicles",
-    "base_price": 550000.0,
+    "category": "other",
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-04-28T11:01:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3237/41975/3192_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-04-28T05:53:27.523346+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_41976",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41976",
-    "title": "Visuar AUTOELEVADOR, ELÉCTRICO, MARCA TCM ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-28T11:02:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3237/41976/3192_Lote_03.jpg"
-    ],
-    "scraped_at": "2026-04-28T05:53:27.523658+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_41977",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41977",
-    "title": "Visuar AUTOELEVADOR, ELÉCTRICO, MARCA UNIC...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-28T11:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3237/41977/3192_Lote_04.jpg"
-    ],
-    "scraped_at": "2026-04-28T05:53:27.523983+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_41978",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41978",
-    "title": "Visuar AUTOELEVADOR, ELÉCTRICO, MARCA UNIC...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-28T11:04:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3237/41978/3192_Lote_05.jpg"
-    ],
-    "scraped_at": "2026-04-28T05:53:27.524274+00:00",
+    "images": [],
+    "scraped_at": "2026-04-29T05:48:39.711867+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3238/41986/3238_Lote_87.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.524571+00:00",
+    "scraped_at": "2026-04-29T05:48:39.715300+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -233,10 +137,10 @@
     "id": "global_remates:lot_41993",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41993",
-    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... iron recup",
+    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 2450000.0,
+    "base_price": 2600000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -248,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3238/41993/3238_Lote_94.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.524888+00:00",
+    "scraped_at": "2026-04-29T05:48:39.716498+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -260,7 +164,7 @@
     "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... iron recup",
     "description": "",
     "category": "vehicles",
-    "base_price": 2850000.0,
+    "base_price": 3450000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -272,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3238/41996/3238_Lote_97.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.525187+00:00",
+    "scraped_at": "2026-04-29T05:48:39.719214+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -281,10 +185,10 @@
     "id": "global_remates:lot_41998",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41998",
-    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... iron recup",
+    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 2450000.0,
+    "base_price": 2600000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -296,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3238/41998/3238_Lote_99.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.525471+00:00",
+    "scraped_at": "2026-04-29T05:48:39.719812+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3238/42016/3238_Lote_117.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.525754+00:00",
+    "scraped_at": "2026-04-29T05:48:39.724887+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42033/3224_Lote_119.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.526112+00:00",
+    "scraped_at": "2026-04-29T05:48:39.725554+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42039/3224_Lote_126.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.526526+00:00",
+    "scraped_at": "2026-04-29T05:48:39.726175+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42047/3224_Lote_137.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.527074+00:00",
+    "scraped_at": "2026-04-29T05:48:39.726810+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -416,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42021/3239_Lote_24.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.527376+00:00",
+    "scraped_at": "2026-04-29T05:48:39.727485+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42022/3239_Lote_25.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.527668+00:00",
+    "scraped_at": "2026-04-29T05:48:39.728054+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -464,7 +368,127 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42026/3239_Lote_29.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:27.528000+00:00",
+    "scraped_at": "2026-04-29T05:48:39.728561+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42057",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42057",
+    "title": "Procesos Patagonicos S.R.L. GRUPO ELECTRÓGENO DIESEL 200 KVA CON...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 12500000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-27T11:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3242/42057/3242_Lote01.jpg"
+    ],
+    "scraped_at": "2026-04-29T05:48:39.729172+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42058",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42058",
+    "title": "Procesos Patagonicos S.R.L. GRUPO ELECTRÓGENO DIESEL 200 KVA CON...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 12500000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-27T11:02:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3242/42058/3242_Lote02.jpg"
+    ],
+    "scraped_at": "2026-04-29T05:48:39.729779+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42051",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42051",
+    "title": "MELISAM Fire Group LIMADORA, MARCA BAHE, RECORRIDO 40 C...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 350000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-27T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3241/42051/3225_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-04-29T05:48:39.731556+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42053",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42053",
+    "title": "MELISAM Fire Group BALANCIN, CANT: 1 U. Loc: Boulogne- ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 50000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-27T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3241/42053/3225_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-04-29T05:48:39.732187+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42054",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42054",
+    "title": "MELISAM Fire Group TORNO REVOL, CANT: 1 U. Loc: Boul...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 200000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-27T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3241/42054/3225_Lote_04.jpg"
+    ],
+    "scraped_at": "2026-04-29T05:48:39.732753+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

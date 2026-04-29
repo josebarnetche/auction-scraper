@@ -22,7 +22,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.526598.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/49/51/photo.09_29_54.557848.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:53:29.410916+00:00",
+    "scraped_at": "2026-04-29T05:48:42.123608+00:00",
     "extra": {
       "auction_code": "49",
       "lot_id": "51",
@@ -59,7 +59,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/50/52/photo.10_17_39.670520.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/50/52/photo.10_17_39.686151.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:30.187278+00:00",
+    "scraped_at": "2026-04-29T05:48:42.890627+00:00",
     "extra": {
       "auction_code": "50",
       "lot_id": "52",
@@ -96,7 +96,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.009097.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/53/55/photo.09_53_58.024720.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:53:36.101698+00:00",
+    "scraped_at": "2026-04-29T05:48:48.301186+00:00",
     "extra": {
       "auction_code": "53",
       "lot_id": "55",
@@ -106,6 +106,43 @@
       "stamp_tax_pct": 0.0,
       "other_fees_description": "",
       "total_cost_estimate": 42332.5
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:54",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/54",
+    "title": "OCUPADO- CASA EN LOTE PROPIO- 3 AMBIENTES-SAN MARTIN- Prov. BS.AS.-",
+    "description": "Subasta\n                        InmuebleCód.CIV14EN DOLARES- OCUPADO- CASA EN LOTE PROPIO- 3 AMBIENTES-SAN MARTIN- Prov. BS.AS.-La inscripción cierra en:Descripción del bienInmueble sito en la calle Patria 5871, San Martín, Prov. Bs. As. La propiedad se encuentra en un barrio urbanizado con alumbrado público y asfalto. Con servicios de agua corriente, cloacas, luz eléctrica e instalación de gas natural . \nLa vivienda posee cocina, living, 2 habitaciones y un baño, todo en estado precario. \n\nEsta",
+    "category": "real_estate",
+    "base_price": 40000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": "2026-05-12T10:00:00",
+    "ends_at": "2026-05-29T10:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/54/56/photo.13_40_14.987059.jpeg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/54/56/photo.13_40_15.002691.jpeg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/54/56/photo.13_40_15.018317.jpeg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/54/56/photo.13_40_15.033946.jpeg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/54/56/photo.13_40_15.049597.jpeg"
+    ],
+    "scraped_at": "2026-04-29T05:48:49.672561+00:00",
+    "extra": {
+      "auction_code": "54",
+      "lot_id": "56",
+      "commission_pct": 3.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 41300.0
     },
     "lots": [],
     "lot_count": 0
@@ -133,7 +170,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.217414.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/55/57/photo.13_02_32.233029.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:39.925565+00:00",
+    "scraped_at": "2026-04-29T05:48:51.734097+00:00",
     "extra": {
       "auction_code": "55",
       "lot_id": "57",
@@ -170,7 +207,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/56/58/photo.14_17_02.243750.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/56/58/photo.14_17_02.259375.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:41.187582+00:00",
+    "scraped_at": "2026-04-29T05:48:52.671964+00:00",
     "extra": {
       "auction_code": "56",
       "lot_id": "58",
@@ -207,7 +244,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.057602.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/57/59/photo.16_14_07.073230.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:42.274217+00:00",
+    "scraped_at": "2026-04-29T05:48:54.238438+00:00",
     "extra": {
       "auction_code": "57",
       "lot_id": "59",
@@ -244,7 +281,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/58/60/photo.10_15_16.006076.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/58/60/photo.10_15_16.021699.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:44.519591+00:00",
+    "scraped_at": "2026-04-29T05:48:56.210274+00:00",
     "extra": {
       "auction_code": "58",
       "lot_id": "60",
@@ -281,7 +318,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/59/61/photo.12_20_12.299311.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/59/63/photo.13_39_49.496957.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:45.501748+00:00",
+    "scraped_at": "2026-04-29T05:48:57.234969+00:00",
     "extra": {
       "auction_code": "59",
       "lot_id": "",
@@ -318,7 +355,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/60/65/photo.12_32_54.332112.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/60/65/photo.12_32_54.347758.jpg"
     ],
-    "scraped_at": "2026-04-28T05:53:46.963108+00:00",
+    "scraped_at": "2026-04-29T05:48:58.508174+00:00",
     "extra": {
       "auction_code": "60",
       "lot_id": "65",
@@ -355,7 +392,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/61/66/photo.13_47_08.176141.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/61/66/photo.13_47_08.191761.png"
     ],
-    "scraped_at": "2026-04-28T05:53:48.314637+00:00",
+    "scraped_at": "2026-04-29T05:49:00.004472+00:00",
     "extra": {
       "auction_code": "61",
       "lot_id": "66",
@@ -392,7 +429,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/62/67/photo.17_25_35.164113.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/62/67/photo.17_25_35.179732.png"
     ],
-    "scraped_at": "2026-04-28T05:53:49.799591+00:00",
+    "scraped_at": "2026-04-29T05:49:01.602948+00:00",
     "extra": {
       "auction_code": "62",
       "lot_id": "67",
@@ -429,7 +466,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/63/68/photo.08_03_26.841626.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/63/68/photo.08_03_26.857251.png"
     ],
-    "scraped_at": "2026-04-28T05:53:51.340774+00:00",
+    "scraped_at": "2026-04-29T05:49:03.195102+00:00",
     "extra": {
       "auction_code": "63",
       "lot_id": "68",
@@ -466,7 +503,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/64/69/photo.09_57_46.450117.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/64/69/photo.09_57_46.465741.png"
     ],
-    "scraped_at": "2026-04-28T05:53:52.799715+00:00",
+    "scraped_at": "2026-04-29T05:49:05.061049+00:00",
     "extra": {
       "auction_code": "64",
       "lot_id": "69",
@@ -503,7 +540,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/65/70/photo.10_49_30.473339.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/65/70/photo.10_49_30.489027.png"
     ],
-    "scraped_at": "2026-04-28T05:53:54.606302+00:00",
+    "scraped_at": "2026-04-29T05:49:06.422979+00:00",
     "extra": {
       "auction_code": "65",
       "lot_id": "70",
@@ -540,7 +577,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/66/71/photo.11_49_59.770730.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/66/71/photo.11_49_59.786355.png"
     ],
-    "scraped_at": "2026-04-28T05:53:55.812908+00:00",
+    "scraped_at": "2026-04-29T05:49:07.621843+00:00",
     "extra": {
       "auction_code": "66",
       "lot_id": "71",
@@ -577,7 +614,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/67/72/photo.12_24_05.988348.png",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/67/72/photo.12_24_06.003982.png"
     ],
-    "scraped_at": "2026-04-28T05:53:57.322682+00:00",
+    "scraped_at": "2026-04-29T05:49:09.138925+00:00",
     "extra": {
       "auction_code": "67",
       "lot_id": "72",
@@ -614,7 +651,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/69/74/photo.11_54_04.557994.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/69/74/photo.11_54_04.573623.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:00.794104+00:00",
+    "scraped_at": "2026-04-29T05:49:12.303538+00:00",
     "extra": {
       "auction_code": "69",
       "lot_id": "74",
@@ -651,7 +688,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/70/75/photo.15_51_34.755324.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/70/75/photo.15_51_34.770948.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:02.748998+00:00",
+    "scraped_at": "2026-04-29T05:49:13.765235+00:00",
     "extra": {
       "auction_code": "70",
       "lot_id": "75",
@@ -688,7 +725,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/71/76/photo.13_18_30.937031.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/71/76/photo.13_18_30.952660.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:03.785359+00:00",
+    "scraped_at": "2026-04-29T05:49:15.271271+00:00",
     "extra": {
       "auction_code": "71",
       "lot_id": "76",
@@ -724,7 +761,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/72/77/photo.13_48_20.291011.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/72/77/photo.13_48_20.306631.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:05.287598+00:00",
+    "scraped_at": "2026-04-29T05:49:17.233344+00:00",
     "extra": {
       "auction_code": "72",
       "lot_id": "77",
@@ -761,7 +798,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/73/78/photo.10_34_34.775084.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/73/78/photo.10_34_34.790713.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:06.974394+00:00",
+    "scraped_at": "2026-04-29T05:49:18.600934+00:00",
     "extra": {
       "auction_code": "73",
       "lot_id": "",
@@ -798,7 +835,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/74/80/photo.12_41_36.357155.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/74/80/photo.12_41_36.372771.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:08.384353+00:00",
+    "scraped_at": "2026-04-29T05:49:19.778313+00:00",
     "extra": {
       "auction_code": "74",
       "lot_id": "80",
@@ -835,7 +872,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/75/81/photo.12_21_49.468841.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/75/81/photo.12_21_49.484459.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:10.456237+00:00",
+    "scraped_at": "2026-04-29T05:49:21.968670+00:00",
     "extra": {
       "auction_code": "75",
       "lot_id": "81",
@@ -872,7 +909,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/76/82/photo.09_48_01.461123.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/76/82/photo.09_48_01.476728.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:12.381902+00:00",
+    "scraped_at": "2026-04-29T05:49:23.637442+00:00",
     "extra": {
       "auction_code": "76",
       "lot_id": "82",
@@ -909,7 +946,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/77/83/photo.09_09_07.513163.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/77/83/photo.09_09_07.528793.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:14.332165+00:00",
+    "scraped_at": "2026-04-29T05:49:25.085509+00:00",
     "extra": {
       "auction_code": "77",
       "lot_id": "83",
@@ -945,7 +982,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/78/84/photo.09_18_38.365754.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/78/84/photo.09_18_38.381376.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:15.734823+00:00",
+    "scraped_at": "2026-04-29T05:49:26.920972+00:00",
     "extra": {
       "auction_code": "78",
       "lot_id": "84",
@@ -982,7 +1019,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/79/85/photo.09_26_01.376949.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/79/85/photo.09_26_01.392578.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:17.439323+00:00",
+    "scraped_at": "2026-04-29T05:49:28.786949+00:00",
     "extra": {
       "auction_code": "79",
       "lot_id": "85",
@@ -1019,7 +1056,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/80/86/photo.09_36_44.822604.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/80/86/photo.09_36_44.838230.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:19.015197+00:00",
+    "scraped_at": "2026-04-29T05:49:30.312559+00:00",
     "extra": {
       "auction_code": "80",
       "lot_id": "86",
@@ -1056,7 +1093,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/81/87/photo.09_46_06.980731.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/81/87/photo.09_46_06.996347.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:20.443768+00:00",
+    "scraped_at": "2026-04-29T05:49:31.745568+00:00",
     "extra": {
       "auction_code": "81",
       "lot_id": "87",
@@ -1093,7 +1130,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/82/88/photo.11_45_16.332261.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/82/88/photo.11_45_16.347900.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:54:23.855514+00:00",
+    "scraped_at": "2026-04-29T05:49:35.017172+00:00",
     "extra": {
       "auction_code": "82",
       "lot_id": "88",
@@ -1129,7 +1166,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/83/89/photo.13_08_59.357425.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/83/89/photo.13_08_59.374309.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:24.385818+00:00",
+    "scraped_at": "2026-04-29T05:49:35.481144+00:00",
     "extra": {
       "auction_code": "83",
       "lot_id": "89",
@@ -1165,7 +1202,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/84/90/photo.13_26_11.123489.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/84/90/photo.13_26_11.139120.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:26.133928+00:00",
+    "scraped_at": "2026-04-29T05:49:37.278446+00:00",
     "extra": {
       "auction_code": "84",
       "lot_id": "90",
@@ -1201,7 +1238,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/85/91/photo.13_49_47.950287.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/85/91/photo.13_49_47.965905.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:27.807851+00:00",
+    "scraped_at": "2026-04-29T05:49:38.782535+00:00",
     "extra": {
       "auction_code": "85",
       "lot_id": "91",
@@ -1237,7 +1274,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/86/92/photo.09_30_52.519524.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/86/92/photo.09_30_52.535164.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:29.438728+00:00",
+    "scraped_at": "2026-04-29T05:49:40.126862+00:00",
     "extra": {
       "auction_code": "86",
       "lot_id": "92",
@@ -1273,7 +1310,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/87/93/photo.10_22_23.080947.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/87/93/photo.10_22_23.096574.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:30.646224+00:00",
+    "scraped_at": "2026-04-29T05:49:41.783039+00:00",
     "extra": {
       "auction_code": "87",
       "lot_id": "93",
@@ -1309,7 +1346,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/88/94/photo.10_49_00.701121.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/88/94/photo.10_49_00.716751.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:32.142687+00:00",
+    "scraped_at": "2026-04-29T05:49:43.321015+00:00",
     "extra": {
       "auction_code": "88",
       "lot_id": "94",
@@ -1328,13 +1365,13 @@
     "source": "csjn",
     "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/90",
     "title": "50% INDIVISO- INMUEBLE- 2 AMBIENTES- CON CALEFACCIÓN CENTRAL- SAN NICOLÁS, C.A.B.A",
-    "description": "Subasta\n                        InmuebleCód.COM43EN DÓLARES- 50% INDIVISO- INMUEBLE- 2 AMBIENTES- CON CALEFACCIÓN CENTRAL- SAN NICOLÁS, C.A.B.ALa inscripción está cerradaFinaliza enDescripción del bienDepartamento de 48,66 m2 ubicado en la calle Lavalle 1615/9 en el barrio de San Nicolás, C.A.B.A. Se encuentra en el piso 6, con ingreso por el living comedor de amplias dimensiones con ventana al pulmón del edificio. Cuenta con una cocina con termotanque, un baño completo, y un dormitorio de 4 x 4",
+    "description": "Subasta\n                        InmuebleCód.COM43EN DÓLARES- 50% INDIVISO- INMUEBLE- 2 AMBIENTES- CON CALEFACCIÓN CENTRAL- SAN NICOLÁS, C.A.B.ALa inscripción está cerradaDescripción del bienDepartamento de 48,66 m2 ubicado en la calle Lavalle 1615/9 en el barrio de San Nicolás, C.A.B.A. Se encuentra en el piso 6, con ingreso por el living comedor de amplias dimensiones con ventana al pulmón del edificio. Cuenta con una cocina con termotanque, un baño completo, y un dormitorio de 4 x 4 metros con",
     "category": "real_estate",
     "base_price": 25000.0,
     "currency": "USD",
-    "status": "ongoing",
-    "starts_at": "2026-04-10T09:00:00",
-    "ends_at": "2026-04-28T09:00:00",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
     "location": {
       "province": "Buenos Aires",
       "city": ""
@@ -1346,7 +1383,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/90/96/photo.14_56_22.835342.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/90/96/photo.14_56_22.850962.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:36.204735+00:00",
+    "scraped_at": "2026-04-29T05:49:47.729423+00:00",
     "extra": {
       "auction_code": "90",
       "lot_id": "96",
@@ -1365,13 +1402,13 @@
     "source": "csjn",
     "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/91",
     "title": "50% INDIVISO- INMUEBLE- 4 AMB. CON DEP. SERVICIO- COCHERA Y BAULERA- RETIRO, C.A.B.A.",
-    "description": "Subasta\n                        InmuebleCód.COM44EN DÓLARES- 50% INDIVISO- INMUEBLE- 4 AMB. CON DEP. SERVICIO- COCHERA Y BAULERA- RETIRO, C.A.B.A.La inscripción está cerradaFinaliza enDescripción del bienDepartamento ubicado en la calle Marcelo T. de Alvear 1302/20  piso 15 \"B\". En el barrio de Retiro,  4 ambientes más dependencia de 129,37 m2, con cochera en el 3er. subsuelo de 14,60 m2, y baulera en el 1er. subsuelo de 2,65 m2. Tiene entrada principal con hall privado y una segunda entrada de ",
+    "description": "Subasta\n                        InmuebleCód.COM44EN DÓLARES- 50% INDIVISO- INMUEBLE- 4 AMB. CON DEP. SERVICIO- COCHERA Y BAULERA- RETIRO, C.A.B.A.La inscripción está cerradaDescripción del bienDepartamento ubicado en la calle Marcelo T. de Alvear 1302/20  piso 15 \"B\". En el barrio de Retiro,  4 ambientes más dependencia de 129,37 m2, con cochera en el 3er. subsuelo de 14,60 m2, y baulera en el 1er. subsuelo de 2,65 m2. Tiene entrada principal con hall privado y una segunda entrada de servicio. C",
     "category": "real_estate",
     "base_price": 135000.0,
     "currency": "USD",
-    "status": "ongoing",
-    "starts_at": "2026-04-10T09:00:00",
-    "ends_at": "2026-04-28T09:00:00",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
     "location": {
       "province": "Buenos Aires",
       "city": ""
@@ -1383,7 +1420,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/91/97/photo.11_01_57.026380.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/91/97/photo.11_01_57.042011.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:37.705043+00:00",
+    "scraped_at": "2026-04-29T05:49:49.109504+00:00",
     "extra": {
       "auction_code": "91",
       "lot_id": "97",
@@ -1420,7 +1457,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/93/99/photo.11_21_14.045857.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/93/99/photo.11_21_14.061482.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:39.862256+00:00",
+    "scraped_at": "2026-04-29T05:49:52.032028+00:00",
     "extra": {
       "auction_code": "93",
       "lot_id": "99",
@@ -1457,7 +1494,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/94/100/photo.11_56_23.164204.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/94/100/photo.11_56_23.179833.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:41.541384+00:00",
+    "scraped_at": "2026-04-29T05:49:53.279082+00:00",
     "extra": {
       "auction_code": "94",
       "lot_id": "100",
@@ -1494,7 +1531,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/95/101/photo.09_55_45.712315.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/95/101/photo.09_55_45.727948.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:54:43.656214+00:00",
+    "scraped_at": "2026-04-29T05:49:55.598634+00:00",
     "extra": {
       "auction_code": "95",
       "lot_id": "101",
@@ -1513,7 +1550,7 @@
     "source": "csjn",
     "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/97",
     "title": "ramillo 3271/3273 - U.F. N",
-    "description": "Subasta\n                        InmuebleCód.COM46EN DOLARES- PH- UNIDAD FUNCIONAL N°2 ENTRADA INDEPENDIENTE- OCUPADO- SAAVEDRA,- C.A.B.A-La inscripción cierra en:Descripción del bienInmueble ubicado en calle Jaramillo 3271/3273 - U.F. N°2- entre Capitán Ramón Freire y Pinto, barrio de Saavedra, C.A.B.A. Se ingresa por  pasillo. Consta:  una primera parte de la construcción es de material  y otra parte de la vivienda es de chapa. Al fondo se encuentra la cocina y un  baño. \nEl estado de conservac",
+    "description": "Subasta\n                        InmuebleCód.COM46EN DOLARES- PH- UNIDAD FUNCIONAL N°2 ENTRADA INDEPENDIENTE- OCUPADO- SAAVEDRA,- C.A.B.A-La inscripción está cerradaDescripción del bienInmueble ubicado en calle Jaramillo 3271/3273 - U.F. N°2- entre Capitán Ramón Freire y Pinto, barrio de Saavedra, C.A.B.A. Se ingresa por  pasillo. Consta:  una primera parte de la construcción es de material  y otra parte de la vivienda es de chapa. Al fondo se encuentra la cocina y un  baño. \nEl estado de conserv",
     "category": "real_estate",
     "base_price": 81629.33,
     "currency": "USD",
@@ -1531,7 +1568,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/97/103/photo.13_03_34.850127.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/97/103/photo.13_03_34.865743.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:46.763913+00:00",
+    "scraped_at": "2026-04-29T05:49:58.993125+00:00",
     "extra": {
       "auction_code": "97",
       "lot_id": "103",
@@ -1568,7 +1605,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/98/104/photo.15_28_07.033899.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/98/104/photo.15_28_07.049527.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:48.786896+00:00",
+    "scraped_at": "2026-04-29T05:50:00.605569+00:00",
     "extra": {
       "auction_code": "98",
       "lot_id": "104",
@@ -1602,7 +1639,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/101/107/photo.15_48_05.071104.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/101/107/photo.15_48_05.086731.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:53.660894+00:00",
+    "scraped_at": "2026-04-29T05:50:05.249842+00:00",
     "extra": {
       "auction_code": "101",
       "lot_id": "107",
@@ -1639,7 +1676,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/104/110/photo.11_38_46.097708.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/104/110/photo.11_38_46.113260.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:57.863088+00:00",
+    "scraped_at": "2026-04-29T05:50:10.002678+00:00",
     "extra": {
       "auction_code": "104",
       "lot_id": "110",
@@ -1676,7 +1713,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/105/111/photo.13_58_48.331279.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/105/111/photo.13_58_48.346905.jpg"
     ],
-    "scraped_at": "2026-04-28T05:54:59.554480+00:00",
+    "scraped_at": "2026-04-29T05:50:11.532537+00:00",
     "extra": {
       "auction_code": "105",
       "lot_id": "111",
@@ -1713,7 +1750,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/106/112/photo.13_36_59.756735.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/106/112/photo.13_36_59.772361.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:00.842998+00:00",
+    "scraped_at": "2026-04-29T05:50:13.000364+00:00",
     "extra": {
       "auction_code": "106",
       "lot_id": "112",
@@ -1750,7 +1787,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/107/113/photo.13_50_53.144336.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/107/113/photo.13_50_53.159957.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:02.342291+00:00",
+    "scraped_at": "2026-04-29T05:50:14.970388+00:00",
     "extra": {
       "auction_code": "107",
       "lot_id": "113",
@@ -1787,7 +1824,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/111/117/photo.10_07_59.293139.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/111/117/photo.10_07_59.308754.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:08.699529+00:00",
+    "scraped_at": "2026-04-29T05:50:21.166606+00:00",
     "extra": {
       "auction_code": "111",
       "lot_id": "117",
@@ -1824,7 +1861,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/112/118/photo.10_23_52.445219.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/112/118/photo.10_23_52.460838.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:10.207872+00:00",
+    "scraped_at": "2026-04-29T05:50:22.838162+00:00",
     "extra": {
       "auction_code": "112",
       "lot_id": "118",
@@ -1857,7 +1894,7 @@
     "images": [
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/119/1.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:11.709619+00:00",
+    "scraped_at": "2026-04-29T05:50:24.178184+00:00",
     "extra": {
       "auction_code": "113",
       "lot_id": "119",
@@ -1894,7 +1931,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/114/120/photo.09_54_08.053316.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/114/120/photo.09_54_08.068948.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:13.926427+00:00",
+    "scraped_at": "2026-04-29T05:50:26.356217+00:00",
     "extra": {
       "auction_code": "114",
       "lot_id": "120",
@@ -1931,7 +1968,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/115/121/photo.11_24_25.749285.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/115/121/photo.11_24_25.764912.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:15.936763+00:00",
+    "scraped_at": "2026-04-29T05:50:28.004138+00:00",
     "extra": {
       "auction_code": "115",
       "lot_id": "121",
@@ -1968,7 +2005,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/117/123/photo.11_14_10.961797.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/117/123/photo.11_14_10.977428.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:18.801407+00:00",
+    "scraped_at": "2026-04-29T05:50:30.815716+00:00",
     "extra": {
       "auction_code": "117",
       "lot_id": "123",
@@ -2005,7 +2042,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/119/125/photo.15_51_04.198456.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/119/125/photo.15_51_04.214078.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:21.858113+00:00",
+    "scraped_at": "2026-04-29T05:50:33.877863+00:00",
     "extra": {
       "auction_code": "119",
       "lot_id": "125",
@@ -2042,7 +2079,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/120/126/photo.16_25_28.759155.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/120/126/photo.16_25_28.774774.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:23.355096+00:00",
+    "scraped_at": "2026-04-29T05:50:35.411211+00:00",
     "extra": {
       "auction_code": "120",
       "lot_id": "126",
@@ -2078,7 +2115,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/121/127/photo.09_51_05.275674.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/121/127/photo.09_51_05.291299.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:25.561351+00:00",
+    "scraped_at": "2026-04-29T05:50:37.735352+00:00",
     "extra": {
       "auction_code": "121",
       "lot_id": "127",
@@ -2115,7 +2152,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/122/128/photo.13_04_50.663379.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/122/128/photo.13_04_50.678995.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:27.051804+00:00",
+    "scraped_at": "2026-04-29T05:50:39.220949+00:00",
     "extra": {
       "auction_code": "122",
       "lot_id": "128",
@@ -2152,7 +2189,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/124/130/photo.10_15_28.934642.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/124/130/photo.10_15_28.997140.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:30.286305+00:00",
+    "scraped_at": "2026-04-29T05:50:42.326680+00:00",
     "extra": {
       "auction_code": "124",
       "lot_id": "130",
@@ -2189,7 +2226,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/125/131/photo.10_54_57.816409.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/125/131/photo.10_54_57.832029.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:31.860476+00:00",
+    "scraped_at": "2026-04-29T05:50:44.231337+00:00",
     "extra": {
       "auction_code": "125",
       "lot_id": "131",
@@ -2226,7 +2263,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/127/133/photo.11_39_26.053483.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/127/133/photo.11_39_26.069104.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:34.951409+00:00",
+    "scraped_at": "2026-04-29T05:50:47.622783+00:00",
     "extra": {
       "auction_code": "127",
       "lot_id": "133",
@@ -2263,7 +2300,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/128/134/photo.12_52_40.190641.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/128/134/photo.12_52_40.206270.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:36.952523+00:00",
+    "scraped_at": "2026-04-29T05:50:49.236818+00:00",
     "extra": {
       "auction_code": "128",
       "lot_id": "134",
@@ -2300,7 +2337,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/129/135/photo.13_41_46.303912.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/129/135/photo.13_41_46.319529.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:38.536117+00:00",
+    "scraped_at": "2026-04-29T05:50:50.626177+00:00",
     "extra": {
       "auction_code": "129",
       "lot_id": "135",
@@ -2337,7 +2374,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/131/137/photo.10_16_24.237621.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/131/137/photo.10_16_24.253248.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:41.725716+00:00",
+    "scraped_at": "2026-04-29T05:50:53.903296+00:00",
     "extra": {
       "auction_code": "131",
       "lot_id": "137",
@@ -2374,7 +2411,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/132/138/photo.10_18_42.715680.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/132/138/photo.10_18_42.731309.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:43.116630+00:00",
+    "scraped_at": "2026-04-29T05:50:55.407770+00:00",
     "extra": {
       "auction_code": "132",
       "lot_id": "138",
@@ -2411,7 +2448,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/133/139/photo.10_20_09.856000.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/133/139/photo.10_20_09.871618.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:44.727916+00:00",
+    "scraped_at": "2026-04-29T05:50:56.842139+00:00",
     "extra": {
       "auction_code": "133",
       "lot_id": "139",
@@ -2448,7 +2485,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/134/140/photo.10_21_29.860837.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/134/140/photo.10_21_29.876474.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:46.747134+00:00",
+    "scraped_at": "2026-04-29T05:50:58.445865+00:00",
     "extra": {
       "auction_code": "134",
       "lot_id": "140",
@@ -2485,7 +2522,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/135/141/photo.10_23_06.995810.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/135/141/photo.10_23_07.011439.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:55:48.730749+00:00",
+    "scraped_at": "2026-04-29T05:51:00.411176+00:00",
     "extra": {
       "auction_code": "135",
       "lot_id": "141",
@@ -2522,7 +2559,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/136/142/photo.15_15_56.894722.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/136/142/photo.15_15_56.910346.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:50.334625+00:00",
+    "scraped_at": "2026-04-29T05:51:01.885186+00:00",
     "extra": {
       "auction_code": "136",
       "lot_id": "142",
@@ -2558,7 +2595,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/137/143/photo.09_41_58.656939.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/137/143/photo.09_41_58.672565.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:51.106833+00:00",
+    "scraped_at": "2026-04-29T05:51:02.681301+00:00",
     "extra": {
       "auction_code": "137",
       "lot_id": "143",
@@ -2595,7 +2632,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/138/144/photo.11_38_42.930755.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/138/144/photo.11_38_42.946396.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:53.329233+00:00",
+    "scraped_at": "2026-04-29T05:51:04.957209+00:00",
     "extra": {
       "auction_code": "138",
       "lot_id": "144",
@@ -2632,7 +2669,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/140/146/photo.14_54_30.960208.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/140/146/photo.14_54_30.975845.jpg"
     ],
-    "scraped_at": "2026-04-28T05:55:55.792903+00:00",
+    "scraped_at": "2026-04-29T05:51:07.348756+00:00",
     "extra": {
       "auction_code": "140",
       "lot_id": "146",
@@ -2642,6 +2679,43 @@
       "stamp_tax_pct": 0.0,
       "other_fees_description": "Depósito/garantía: 5%",
       "total_cost_estimate": 3932250.0
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "csjn:141",
+    "source": "csjn",
+    "source_url": "https://subastaselectronicasjudiciales.csjn.gov.ar/Auctions/Details/141",
+    "title": "AUTOMOTOR - VOLSKSWAGEN - GOL TREND 1.6 MSI 5 PUERTAS - A",
+    "description": "Subasta\n                        Mueble (Registrable)Cód.COM70AUTOMOTOR- VOLSKSWAGEN- GOL TREND 1.6 MSI 5 PUERTAS- AÑO 2018- COLOR  AZUL- ESTADO BUENO-La inscripción cierra en:Descripción del bienAutomotor marca Volkswagen, modelo  GOL TREND 1.6 MSI, tipo Sedan 5 puertas, año 2018, motor Nº CFZT05824, chasis Nº 9BWAB45U7JT077889, dominio AC632HX, color azul. Cuenta con 182.192 km. según tacómetro. El estado del vehículo es bueno.\nDeudas: patentes $ 964,114.91 al 31/10/2025.\nLugar y fecha de exhib",
+    "category": "vehicles",
+    "base_price": 5300000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-05-13T10:00:00",
+    "ends_at": "2026-06-01T10:00:00",
+    "location": {
+      "province": "CABA",
+      "city": ""
+    },
+    "images": [
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/141/147/photo.12_00_05.234822.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/141/147/photo.12_00_05.250448.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/141/147/photo.12_00_05.312950.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/141/147/photo.12_00_05.328580.jpg",
+      "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/141/147/photo.12_00_05.344201.jpg"
+    ],
+    "scraped_at": "2026-04-29T05:51:08.844014+00:00",
+    "extra": {
+      "auction_code": "141",
+      "lot_id": "147",
+      "commission_pct": 10.0,
+      "csjn_fee_pct": 0.25,
+      "iva_pct": 0.0,
+      "stamp_tax_pct": 0.0,
+      "other_fees_description": "",
+      "total_cost_estimate": 5843250.0
     },
     "lots": [],
     "lot_count": 0
@@ -2665,7 +2739,7 @@
     "images": [
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/151/1.jpg"
     ],
-    "scraped_at": "2026-04-28T05:56:03.116158+00:00",
+    "scraped_at": "2026-04-29T05:51:15.038501+00:00",
     "extra": {
       "auction_code": "145",
       "lot_id": "151",
@@ -2698,7 +2772,7 @@
     "images": [
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/146/152/photo.09_02_50.223706.jpg"
     ],
-    "scraped_at": "2026-04-28T05:56:05.003788+00:00",
+    "scraped_at": "2026-04-29T05:51:16.552292+00:00",
     "extra": {
       "auction_code": "146",
       "lot_id": "152",
@@ -2735,7 +2809,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/147/153/photo.10_38_33.474670.jpeg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/147/153/photo.10_38_33.490322.jpeg"
     ],
-    "scraped_at": "2026-04-28T05:56:06.824005+00:00",
+    "scraped_at": "2026-04-29T05:51:18.757840+00:00",
     "extra": {
       "auction_code": "147",
       "lot_id": "153",
@@ -2772,7 +2846,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/161/167/photo.09_52_10.858205.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/161/167/photo.09_52_10.873830.jpg"
     ],
-    "scraped_at": "2026-04-28T05:56:29.436899+00:00",
+    "scraped_at": "2026-04-29T05:51:41.017483+00:00",
     "extra": {
       "auction_code": "161",
       "lot_id": "167",
@@ -2809,7 +2883,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/165/171/photo.09_34_06.334046.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/165/171/photo.09_34_06.349655.jpg"
     ],
-    "scraped_at": "2026-04-28T05:56:37.370168+00:00",
+    "scraped_at": "2026-04-29T05:51:47.636464+00:00",
     "extra": {
       "auction_code": "165",
       "lot_id": "171",
@@ -2846,7 +2920,7 @@
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/166/172/photo.13_33_03.988746.jpg",
       "https://subastaselectronicasjudiciales.csjn.gov.ar/AuctionImages/166/172/photo.13_33_04.004382.jpg"
     ],
-    "scraped_at": "2026-04-28T05:56:38.866211+00:00",
+    "scraped_at": "2026-04-29T05:51:49.063953+00:00",
     "extra": {
       "auction_code": "166",
       "lot_id": "172",

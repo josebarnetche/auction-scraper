@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-29T05:48:39.710924+00:00",
+    "scraped_at": "2026-04-30T05:53:06.862517+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-29T05:48:39.711267+00:00",
+    "scraped_at": "2026-04-30T05:53:06.862685+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-29T05:48:39.711479+00:00",
+    "scraped_at": "2026-04-30T05:53:06.862847+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +82,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-29T05:48:39.711682+00:00",
+    "scraped_at": "2026-04-30T05:53:06.862991+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,103 +104,55 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-04-29T05:48:39.711867+00:00",
+    "scraped_at": "2026-04-30T05:53:06.863126+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_41986",
+    "id": "global_remates:lot_41981",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41986",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41981",
+    "title": "Prestige Auto AUTOELEVADOR DIESEL, MARCA LINDE HT2... Carlos24",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 4000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-30T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3238/41981/3238_Lote_82.jpg"
+    ],
+    "scraped_at": "2026-04-30T05:53:06.864883+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_41985",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41985",
     "title": "Prestige Auto AUTOELEVADOR DIESEL, CAPACIDAD: 2,5 ... Carlos24",
     "description": "",
     "category": "vehicles",
-    "base_price": 2000000.0,
+    "base_price": 3650000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-04-30T12:08:00",
+    "ends_at": "2026-04-30T12:07:00",
     "location": {
       "province": "",
       "city": ""
     },
     "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3238/41986/3238_Lote_87.jpg"
+      "https://www.globalremates.com.ar/Register/Auctions/3238/41985/3238_Lote_86.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.715300+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_41993",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41993",
-    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... Carlos24",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 2600000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-30T12:15:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3238/41993/3238_Lote_94.jpg"
-    ],
-    "scraped_at": "2026-04-29T05:48:39.716498+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_41996",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41996",
-    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... iron recup",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 3450000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-30T12:18:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3238/41996/3238_Lote_97.jpg"
-    ],
-    "scraped_at": "2026-04-29T05:48:39.719214+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_41998",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=41998",
-    "title": "Prestige Auto AUTOELEVADOR DIESEL MARCA JUNGHEINRI... Carlos24",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 2600000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-04-30T12:20:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3238/41998/3238_Lote_99.jpg"
-    ],
-    "scraped_at": "2026-04-29T05:48:39.719812+00:00",
+    "scraped_at": "2026-04-30T05:53:06.865281+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -209,7 +161,7 @@
     "id": "global_remates:lot_42016",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42016",
-    "title": "Prestige Auto TRACTOR ELÉCTRIC0, MARCA TAYLOR DUNN...",
+    "title": "Prestige Auto TRACTOR ELÉCTRIC0, MARCA TAYLOR DUNN... Carlos24",
     "description": "",
     "category": "vehicles",
     "base_price": 1200000.0,
@@ -224,7 +176,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3238/42016/3238_Lote_117.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.724887+00:00",
+    "scraped_at": "2026-04-30T05:53:06.865651+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42018",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42018",
+    "title": "Prestige Auto TRACTOR ELÉCTRICO, MARCA YALE MT30UX... Carlos24",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 600000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-04-30T12:40:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3238/42018/3238_Lote_119.jpg"
+    ],
+    "scraped_at": "2026-04-30T05:53:06.865991+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42033/3224_Lote_119.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.725554+00:00",
+    "scraped_at": "2026-04-30T05:53:06.866354+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42039/3224_Lote_126.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.726175+00:00",
+    "scraped_at": "2026-04-30T05:53:06.866719+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42047/3224_Lote_137.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.726810+00:00",
+    "scraped_at": "2026-04-30T05:53:06.867050+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42021/3239_Lote_24.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.727485+00:00",
+    "scraped_at": "2026-04-30T05:53:06.867355+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42022/3239_Lote_25.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.728054+00:00",
+    "scraped_at": "2026-04-30T05:53:06.867648+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42026/3239_Lote_29.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.728561+00:00",
+    "scraped_at": "2026-04-30T05:53:06.867975+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3242/42057/3242_Lote01.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.729172+00:00",
+    "scraped_at": "2026-04-30T05:53:06.868310+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -416,7 +392,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3242/42058/3242_Lote02.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.729779+00:00",
+    "scraped_at": "2026-04-30T05:53:06.868633+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +416,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42051/3225_Lote_01.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.731556+00:00",
+    "scraped_at": "2026-04-30T05:53:06.869009+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -464,7 +440,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42053/3225_Lote_03.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.732187+00:00",
+    "scraped_at": "2026-04-30T05:53:06.869399+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -488,7 +464,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42054/3225_Lote_04.jpg"
     ],
-    "scraped_at": "2026-04-29T05:48:39.732753+00:00",
+    "scraped_at": "2026-04-30T05:53:06.870004+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

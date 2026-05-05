@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3238",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3238",
-    "title": "Prestige Auto",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-04T05:58:25.180730+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3240",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3240",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-04T05:58:25.180887+00:00",
+    "scraped_at": "2026-05-05T05:37:23.998201+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-04T05:58:25.181021+00:00",
+    "scraped_at": "2026-05-05T05:37:23.998421+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-04T05:58:25.181158+00:00",
+    "scraped_at": "2026-05-05T05:37:23.998664+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-04T05:58:25.181283+00:00",
+    "scraped_at": "2026-05-05T05:37:23.998897+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3052",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
+    "title": "Global Maquinarias",
+    "description": "",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-05-05T05:37:23.999123+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42033/3224_Lote_119.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.183008+00:00",
+    "scraped_at": "2026-05-05T05:37:24.001654+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42039/3224_Lote_126.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.183376+00:00",
+    "scraped_at": "2026-05-05T05:37:24.002162+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3240/42047/3224_Lote_137.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.183727+00:00",
+    "scraped_at": "2026-05-05T05:37:24.002509+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -185,7 +185,7 @@
     "id": "global_remates:lot_42021",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42021",
-    "title": "Transpa FORD RANGER DC 4X4 XLS MT 3.2L D, AÑ...",
+    "title": "Transpa FORD RANGER DC 4X4 XLS MT 3.2L D, AÑ... GM93",
     "description": "",
     "category": "vehicles",
     "base_price": 15000000.0,
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42021/3239_Lote_24.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.184037+00:00",
+    "scraped_at": "2026-05-05T05:37:24.002902+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42022/3239_Lote_25.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.184342+00:00",
+    "scraped_at": "2026-05-05T05:37:24.003290+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3239/42026/3239_Lote_29.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.184640+00:00",
+    "scraped_at": "2026-05-05T05:37:24.003588+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3242/42057/3242_Lote01.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.184996+00:00",
+    "scraped_at": "2026-05-05T05:37:24.003910+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3242/42058/3242_Lote02.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.185322+00:00",
+    "scraped_at": "2026-05-05T05:37:24.004372+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42051/3225_Lote_01.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.185641+00:00",
+    "scraped_at": "2026-05-05T05:37:24.004938+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42053/3225_Lote_03.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.185987+00:00",
+    "scraped_at": "2026-05-05T05:37:24.005314+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42054/3225_Lote_04.jpg"
     ],
-    "scraped_at": "2026-05-04T05:58:25.186301+00:00",
+    "scraped_at": "2026-05-05T05:37:24.005629+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

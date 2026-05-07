@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3240",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3240",
-    "title": "Agro Bayer S.R.L.",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-06T05:51:30.577487+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3239",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3239",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-06T05:51:30.577645+00:00",
+    "scraped_at": "2026-05-07T05:55:52.989187+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-06T05:51:30.577781+00:00",
+    "scraped_at": "2026-05-07T05:55:52.989359+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-06T05:51:30.577901+00:00",
+    "scraped_at": "2026-05-07T05:55:52.989500+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3243",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3243",
+    "title": "Visuar",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-05-07T05:55:52.989627+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,79 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-06T05:51:30.578045+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42021",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42021",
-    "title": "Transpa FORD RANGER DC 4X4 XLS MT 3.2L D, AÑ... GM93",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 15000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-06T12:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3239/42021/3239_Lote_24.jpg"
-    ],
-    "scraped_at": "2026-05-06T05:51:30.579585+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42022",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42022",
-    "title": "Transpa TOYOTA HILUX 4X4 CAB. DOBLE DX PACK ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 12500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-06T12:04:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3239/42022/3239_Lote_25.jpg"
-    ],
-    "scraped_at": "2026-05-06T05:51:30.579907+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42026",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42026",
-    "title": "Transpa PEUGEOT ALLURE PLUS THP, AÑO: 2017, ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 6500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-06T12:08:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3239/42026/3239_Lote_29.jpg"
-    ],
-    "scraped_at": "2026-05-06T05:51:30.580240+00:00",
+    "scraped_at": "2026-05-07T05:55:52.989745+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3242/42057/3242_Lote01.jpg"
     ],
-    "scraped_at": "2026-05-06T05:51:30.580728+00:00",
+    "scraped_at": "2026-05-07T05:55:52.991696+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3242/42058/3242_Lote02.jpg"
     ],
-    "scraped_at": "2026-05-06T05:51:30.581053+00:00",
+    "scraped_at": "2026-05-07T05:55:52.992079+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42051/3225_Lote_01.jpg"
     ],
-    "scraped_at": "2026-05-06T05:51:30.581388+00:00",
+    "scraped_at": "2026-05-07T05:55:52.992426+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42053/3225_Lote_03.jpg"
     ],
-    "scraped_at": "2026-05-06T05:51:30.581694+00:00",
+    "scraped_at": "2026-05-07T05:55:52.992760+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +224,55 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3241/42054/3225_Lote_04.jpg"
     ],
-    "scraped_at": "2026-05-06T05:51:30.582084+00:00",
+    "scraped_at": "2026-05-07T05:55:52.993107+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42059",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42059",
+    "title": "Visuar AUTOELEVADOR, ELÉCTRICO, MARCA TCM ...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 430000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-29T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3243/42059/3192_Lote_02.jpg"
+    ],
+    "scraped_at": "2026-05-07T05:55:52.993402+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42061",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42061",
+    "title": "Visuar AUTOELEVADOR, ELÉCTRICO, MARCA UNIC...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 240000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-05-29T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3243/42061/3192_Lote_04.jpg"
+    ],
+    "scraped_at": "2026-05-07T05:55:52.993689+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

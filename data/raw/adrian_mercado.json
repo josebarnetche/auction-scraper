@@ -19,7 +19,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4294/e3e63651a3a088fdf5749f1abcc7eb44-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4294/e3e63651a3a088fdf5749f1abcc7eb44-mobile.jpg"
     ],
-    "scraped_at": "2026-05-22T06:44:40.612422+00:00",
+    "scraped_at": "2026-05-23T06:08:56.095907+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4294_condition_report_34225080.pdf",
@@ -1061,7 +1061,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4264/0ef0e55b863282de8f2943338277428c-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4264/0ef0e55b863282de8f2943338277428c-mobile.jpg"
     ],
-    "scraped_at": "2026-05-22T06:44:48.719176+00:00",
+    "scraped_at": "2026-05-23T06:09:04.254222+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4264_condition_report_34225080.pdf",
@@ -1071,13 +1071,128 @@
     },
     "lots": [
       {
+        "lot_id": "am:4264:1",
+        "lot_number": 1,
+        "title": "(DOM. PEC109) Sedan 5 puertas Peugeot, mod. partner patagónica hdi 1.6 vtc plus, año 2015 (229.479 k",
+        "description": "(DOM. PEC109) Sedan 5 puertas Peugeot, mod. partner patagónica hdi 1.6 vtc plus, año 2015 (229.479 k",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 280701.75,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185549/fdadbdc6ff0421ba601b6c6db5b64ee5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185549/00eabccdbd7fc74cf392c5ad1c34db65-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185549/19ce423c08e79e09011802d6bf18785d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185549/17fe1c8f974d9dcea39dbd047dd62383-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185549/b8214e22754aed7aa7b5340b910f67e9-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:2",
+        "lot_number": 2,
+        "title": "(DOM. AC538QC) Pick up cabina doble Renault, mod. duster Oroch privilege 2.0, año 2018, (326.642 km.",
+        "description": "(DOM. AC538QC) Pick up cabina doble Renault, mod. duster Oroch privilege 2.0, año 2018, (326.642 km.",
+        "base_price": 600000000.0,
+        "currency": "ARS",
+        "base_price_usd": 421052.63,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185550/ad2413e64c5a3751c71603d39d4722a0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185550/3568897ecf9235b01d18edee7e7a844c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185550/5c47cb15cdb2728370a69b813185227c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185550/96d8fdea4762531eee14061f2ed1f46e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185550/e8553c9026acb2e085abb1cafd4062df-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:3",
+        "lot_number": 3,
+        "title": "(DOM. JDL 324) Pick up Ford, mod. ranger cs 4x2 xl plus 3.0, año 2010, (problema en los cilindros, p",
+        "description": "(DOM. JDL 324) Pick up Ford, mod. ranger cs 4x2 xl plus 3.0, año 2010, (problema en los cilindros, p",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 280701.75,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185551/de0d9178be2059d4aed24b03ccbfcea9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185551/7c42a886b26d6fadab7ff672c2d44de0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185551/df2ed664d38b0f674d80ada3bda1d30b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185551/3e31cac5aab66253a3d06fd72107fbec-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185551/f1441c0c37332e88be570f4b4b4b03f6-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:11",
+        "lot_number": 11,
+        "title": "(INT. FR 05) Frezadora de asfalto Bitelli, mod. sf 100 t4, tipo 388, año 1997, con motor Deutz 6 cil",
+        "description": "(INT. FR 05) Frezadora de asfalto Bitelli, mod. sf 100 t4, tipo 388, año 1997, con motor Deutz 6 cil",
+        "base_price": 2400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1684210.53,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185552/e77a75e074099f435f01bbb87e2366f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185552/9ef72683aa076a688048bb50490992d6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185552/9585068c59ea11cc943d0c3fd6206462-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185552/5f8d50fc5d8a2d95923a1b79d95b7985-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185552/fb2bba96a2f56a5b0c1d62ae50067f8a-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:20",
+        "lot_number": 20,
+        "title": "(INT. CO 39) Vibrocompactador articulado pata de cabra Dynapac, mod. ca-260, año 2007, ancho util 2",
+        "description": "(INT. CO 39) Vibrocompactador articulado pata de cabra Dynapac, mod. ca-260, año 2007, ancho util 2",
+        "base_price": 2400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1684210.53,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185553/de6bc6b394aafea9c2cae6c11aa8ed24-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185553/c683e60867f1c9a0a20a69ce3d000ab0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185553/497486bd1280e775fcbf16f66ef7fbea-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185553/ad85e8cb3d222705f07582761609f68d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185553/83f1071d1db78742987986481b5a9097-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
         "lot_id": "am:4264:27",
         "lot_number": 27,
         "title": "(Dom. JIQ-821) - Pick-Up Ford, mod. Ranger DC 4X4 XL T 3.0L D , año 2010, aprox. 595.000km , barra...",
         "description": "(Dom. JIQ-821) - Pick-Up Ford, mod. Ranger DC 4X4 XL T 3.0L D , año 2010, aprox. 595.000km , barra...",
-        "base_price": 600000000.0,
+        "base_price": 560000000.0,
         "currency": "ARS",
-        "base_price_usd": 421052.63,
+        "base_price_usd": 392982.46,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1098,9 +1213,9 @@
         "lot_number": 28,
         "title": "(Dom. GXI 010) - Pick-Up Ford, mod. Ranger 2 Dc 4x2 XLT 3.0 Ld, año 2008, Kms. desconocidos por odom",
         "description": "(Dom. GXI 010) - Pick-Up Ford, mod. Ranger 2 Dc 4x2 XLT 3.0 Ld, año 2008, Kms. desconocidos por odom",
-        "base_price": 190000000.0,
+        "base_price": 240000000.0,
         "currency": "ARS",
-        "base_price_usd": 133333.33,
+        "base_price_usd": 168421.05,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1117,13 +1232,82 @@
         "ai_analyzed_at": null
       },
       {
+        "lot_id": "am:4264:30",
+        "lot_number": 30,
+        "title": "(DOM. GNU313) Furgón Iveco, mod. Daily 40.13, año 2007, aprox. 613.115 km, (sin funcionar, faltantes",
+        "description": "(DOM. GNU313) Furgón Iveco, mod. Daily 40.13, año 2007, aprox. 613.115 km, (sin funcionar, faltantes",
+        "base_price": 360000000.0,
+        "currency": "ARS",
+        "base_price_usd": 252631.58,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185454/13e47364e363aea765e2c4d1f48fcf9b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185454/d85bae5c955b92757d0989c9c43b8ba3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185454/0c6cae661a0ff45169532f6663796f8c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185454/232654238ec0b9cb929b631bdc4f5594-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185454/1cb152ac92b2b8da5dedea86664aaa24-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:48",
+        "lot_number": 48,
+        "title": "Planta de Hormigón Indumix, mod. 70, cap. 100 m3/h., año 1996, compuesta por: 2 Silos en tándem de",
+        "description": "Planta de Hormigón Indumix, mod. 70, cap. 100 m3/h., año 1996, compuesta por: 2 Silos en tándem de",
+        "base_price": 1400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 982456.14,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185457/169593d3b02a2ba9a78ee5b98809aad4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185457/e25598c9b56a57e0e4916e4746a1d137-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185457/eda00908c84834f04f32c3e24c2b5665-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185457/3d7c7f30400198b829e957a47320ec65-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185457/b9d876577e7e3b096a24d60376520d86-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:49",
+        "lot_number": 49,
+        "title": "Planta Asfáltica Ross Mix, mod. Tdm, año 2000, cap. 200 tn/h., compuesta por: Silo de espera cap. 25",
+        "description": "Planta Asfáltica Ross Mix, mod. Tdm, año 2000, cap. 200 tn/h., compuesta por: Silo de espera cap. 25",
+        "base_price": 2800000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1964912.28,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186226/35e171e23d17ed1d37209e20343b1261-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186226/f2a0b3be0542533401c1f12e742c5640-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186226/197b9b164df1763e7a9cdf4e682038ef-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186226/9cbafe0d1f631d9e40ce01ab1036c7d4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186226/b3a5187212f546679036c21a28740163-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
         "lot_id": "am:4264:53",
         "lot_number": 53,
         "title": "Planta de Asfalto Ciber UADM 100 - Serie 262, año 1997, compuesta por: 4 Silos para áridos con cinta",
         "description": "Planta de Asfalto Ciber UADM 100 - Serie 262, año 1997, compuesta por: 4 Silos para áridos con cinta",
-        "base_price": 2100000000.0,
+        "base_price": 2600000000.0,
         "currency": "ARS",
-        "base_price_usd": 1473684.21,
+        "base_price_usd": 1824561.4,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1140,13 +1324,128 @@
         "ai_analyzed_at": null
       },
       {
+        "lot_id": "am:4264:59",
+        "lot_number": 59,
+        "title": "Rodillo Compactador neumático Tortone, mod. SP 12000, año 1980, motor diesel 6 cilindros turbo, con",
+        "description": "Rodillo Compactador neumático Tortone, mod. SP 12000, año 1980, motor diesel 6 cilindros turbo, con",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 280701.75,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186227/1d970411014e5f09d1952838e317cdb3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186227/d41effd6021069b736713c512ffd9da7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186227/1fef5070dd3056166f7889e9ca197d1d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186227/cd6fbb5fa933646c100c7155ca6dda90-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186227/07ba08ff4703a3b2bccd4b8394f8d687-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:62",
+        "lot_number": 62,
+        "title": "Compactador de Suelo Dynapac, mod. CT-251, año 1992, motor diésel 6 cilindros turbo (200 hp.), rodad",
+        "description": "Compactador de Suelo Dynapac, mod. CT-251, año 1992, motor diésel 6 cilindros turbo (200 hp.), rodad",
+        "base_price": 1400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 982456.14,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186228/b1a96a9668ef5e4e967e82b889372abb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186228/0b98ed2d3c2475f9e16dedf695ebf870-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186228/0c06e492e4401d0a5fff1caee5a03e25-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186228/3c79a5376ddab2223aabed3e189a4375-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186228/a03c64bc6afd3f2409f3228d1cd039b8-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:65",
+        "lot_number": 65,
+        "title": "Compactador de Suelo hidráulico articulado Dynapac, mod. CT 262, año 2004, motor diésel Cummins 6 ci",
+        "description": "Compactador de Suelo hidráulico articulado Dynapac, mod. CT 262, año 2004, motor diésel Cummins 6 ci",
+        "base_price": 1800000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1263157.89,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186233/ab9e1ac495571e8f139825c357146ca3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186233/8f1527bac0d465476f399f27a8cf27b1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186233/6bc2a7808d558ad3a2fc429bc080bd00-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186233/8b4da42957a3afb09b05cdcca6c6c4a6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186233/37820f05698321e70b13620b22057706-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:69",
+        "lot_number": 69,
+        "title": "(INT. FR 001) Fresadora hidráulica sobre neumáticos Dynapac, mod. PL 1000 RS, año 2007, motor diesel",
+        "description": "(INT. FR 001) Fresadora hidráulica sobre neumáticos Dynapac, mod. PL 1000 RS, año 2007, motor diesel",
+        "base_price": 2200000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1543859.65,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185458/08a2c0b76e654a4fadd15390dc2c646a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185458/6e040de9a072dc41807dd5fc8cc134e6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185458/86759def749732e90a182b6f2747d2f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185458/8f2f940d953ad41d200288f1e36fd56e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185458/25155cd4c797f6929712aa1b532c64b6-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:71",
+        "lot_number": 71,
+        "title": "Pala Cargadora Frontal hidráulica articulada sobre neumáticos CAT, mod. 980C, año 1980, motor Cat 6",
+        "description": "Pala Cargadora Frontal hidráulica articulada sobre neumáticos CAT, mod. 980C, año 1980, motor Cat 6",
+        "base_price": 2400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1684210.53,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/185456/6c623052842388ab123b40c62fa99b6f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185456/c1ea6311a70a0902a87330305652c468-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185456/cc0651857f9932c9b1680e5d95a75d2a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185456/632963c5b90b99ca0e8c975bd547d9e6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/185456/ccbdfee6824dedea6877ff8c73d0bf81-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
         "lot_id": "am:4264:72",
         "lot_number": 72,
         "title": "Pala Cargadora Frontal hidráulica articulada sobre neumáticos CAT, mod. 928F, año 1994, con motor de",
         "description": "Pala Cargadora Frontal hidráulica articulada sobre neumáticos CAT, mod. 928F, año 1994, con motor de",
-        "base_price": 1700000000.0,
+        "base_price": 2000000000.0,
         "currency": "ARS",
-        "base_price_usd": 1192982.46,
+        "base_price_usd": 1403508.77,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1190,9 +1489,9 @@
         "lot_number": 75,
         "title": "(LOTE RETIRADO DE LA VENTA) Pala Cargadora Frontal hidráulica articulada sobre neumáticos Lonking, m...",
         "description": "(LOTE RETIRADO DE LA VENTA) Pala Cargadora Frontal hidráulica articulada sobre neumáticos Lonking, m...",
-        "base_price": 2200000000.0,
+        "base_price": 50.0,
         "currency": "ARS",
-        "base_price_usd": 1543859.65,
+        "base_price_usd": 0.04,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1209,13 +1508,36 @@
         "ai_analyzed_at": null
       },
       {
+        "lot_id": "am:4264:76",
+        "lot_number": 76,
+        "title": "Excavadora hidráulica sobre oruga Cat, mod. 225B, año 1989, motor diésel 8V cilindros, cap. balde 1",
+        "description": "Excavadora hidráulica sobre oruga Cat, mod. 225B, año 1989, motor diésel 8V cilindros, cap. balde 1",
+        "base_price": 1200000000.0,
+        "currency": "ARS",
+        "base_price_usd": 842105.26,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186229/c413a28c84f01c398db627ad662f3a7b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186229/d20cec0fcabf0e1deb992f4ff341a260-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186229/e957e0413877927677dbd5a398fc4721-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186229/92450f39dfab57f6119457406d945ccb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186229/6f33a6eb0cdacd769a5f5ee571aa82a3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
         "lot_id": "am:4264:77",
         "lot_number": 77,
         "title": "Excavadora hidráulica sobre oruga Hyundai, mod. Robex 210 LC-7, año 2007, con motor diésel Cummins 6",
         "description": "Excavadora hidráulica sobre oruga Hyundai, mod. Robex 210 LC-7, año 2007, con motor diésel Cummins 6",
-        "base_price": 1400000000.0,
+        "base_price": 1600000000.0,
         "currency": "ARS",
-        "base_price_usd": 982456.14,
+        "base_price_usd": 1122807.02,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1236,9 +1558,9 @@
         "lot_number": 78,
         "title": "Excavadora hidráulica sobre oruga Hyundai, mod. Robex 210 LC-7, año 2009, con motor diésel Cummins 6",
         "description": "Excavadora hidráulica sobre oruga Hyundai, mod. Robex 210 LC-7, año 2009, con motor diésel Cummins 6",
-        "base_price": 1500000000.0,
+        "base_price": 1800000000.0,
         "currency": "ARS",
-        "base_price_usd": 1052631.58,
+        "base_price_usd": 1263157.89,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1259,9 +1581,9 @@
         "lot_number": 79,
         "title": "(LOTE RETIRADO DE LA VENTA) Excavadora hidráulica sobre oruga CAT, mod. 320 DL, año 2011, con motor...",
         "description": "(LOTE RETIRADO DE LA VENTA) Excavadora hidráulica sobre oruga CAT, mod. 320 DL, año 2011, con motor...",
-        "base_price": 3000000000.0,
+        "base_price": 50.0,
         "currency": "ARS",
-        "base_price_usd": 2105263.16,
+        "base_price_usd": 0.04,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1278,13 +1600,36 @@
         "ai_analyzed_at": null
       },
       {
+        "lot_id": "am:4264:81",
+        "lot_number": 81,
+        "title": "Motoniveladora hidráulica articulada Cat, mod. 16 G, año 1979, motor diésel 6 cilindros turbo (270 h",
+        "description": "Motoniveladora hidráulica articulada Cat, mod. 16 G, año 1979, motor diésel 6 cilindros turbo (270 h",
+        "base_price": 3400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 2385964.91,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186230/1136822bc046bca1b2a1bd0112d5090b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186230/3f5c8b978bc97dff20fde654c006fb9e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186230/785535cf30df83c47278bda69771614f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186230/4645145af7a83238b4fc95755cffc711-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186230/60ed724f4f98167d42ccf97c12363a61-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
         "lot_id": "am:4264:83",
         "lot_number": 83,
         "title": "Motoniveladora hidráulica articulada Volvo, mod. G940, año 2010, con motor diésel Cat 6 cilindros tu",
         "description": "Motoniveladora hidráulica articulada Volvo, mod. G940, año 2010, con motor diésel Cat 6 cilindros tu",
-        "base_price": 3000000000.0,
+        "base_price": 2800000000.0,
         "currency": "ARS",
-        "base_price_usd": 2105263.16,
+        "base_price_usd": 1964912.28,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1294,6 +1639,29 @@
           "https://amercado.azureedge.net/cms/resources/galleries/183372/3bd630a2072e593bb2a820836fd3580f-255x190.jpg",
           "https://amercado.azureedge.net/cms/resources/galleries/183372/c96f10e94f42308dba96a273a3160933-255x190.jpg",
           "https://amercado.azureedge.net/cms/resources/galleries/183372/aa7ccea7dc00426d8c02bd6511385163-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:98",
+        "lot_number": 98,
+        "title": "Planta Estabilizadora H&B, mod. S250, mod. 1963, compuesta por: Tolva para mezclado, motor diésel Ca",
+        "description": "Planta Estabilizadora H&B, mod. S250, mod. 1963, compuesta por: Tolva para mezclado, motor diésel Ca",
+        "base_price": 860000000.0,
+        "currency": "ARS",
+        "base_price_usd": 603508.77,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186231/4354a3f277fabb83889d9d8460e8b82b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186231/40bf2a5deb3330335f08f1b0e5de692a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186231/0a466e1c8a6804d25cfe41779ff6930a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186231/e97fcd536228a3e8569c4005302b0a67-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186231/ce7a951a9dc713460101683173085c01-255x190.jpg"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,
@@ -1328,9 +1696,9 @@
         "lot_number": 100,
         "title": "Vibrocompactador hidráulico articulado de Suelo Pata de cabra CAT, mod. 825 B, año 1975, con motor d",
         "description": "Vibrocompactador hidráulico articulado de Suelo Pata de cabra CAT, mod. 825 B, año 1975, con motor d",
-        "base_price": 1300000000.0,
+        "base_price": 1400000000.0,
         "currency": "ARS",
-        "base_price_usd": 912280.7,
+        "base_price_usd": 982456.14,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1351,9 +1719,9 @@
         "lot_number": 101,
         "title": "(LOTE RETIRADO DE LA VENTA) Reciclador/Estabilizador hidráulico de Suelo sobre neumáticos Wirtgen, m...",
         "description": "(LOTE RETIRADO DE LA VENTA) Reciclador/Estabilizador hidráulico de Suelo sobre neumáticos Wirtgen, m...",
-        "base_price": 15000000000.0,
+        "base_price": 50.0,
         "currency": "ARS",
-        "base_price_usd": 10526315.79,
+        "base_price_usd": 0.04,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1368,9 +1736,78 @@
         "ai_market_value_usd": null,
         "ai_opportunity_score": null,
         "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:102",
+        "lot_number": 102,
+        "title": "(int. CA 21) Pala cargadora Hyundai mod. HL 757-7, año 2011, potencia 173 hp, (2.571 hs de uso según...",
+        "description": "(int. CA 21) Pala cargadora Hyundai mod. HL 757-7, año 2011, potencia 173 hp, (2.571 hs de uso según...",
+        "base_price": 3000000000.0,
+        "currency": "ARS",
+        "base_price_usd": 2105263.16,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186234/065ea49cc7c1806b977a7599daa7891a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186234/e39e5b744f72ce3af63334cdeb22c1f5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186234/3699c7bec86b4cb20f824f8c53bc1b13-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186234/a345955c349e1c97098a1dfe4ae40c0a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186234/f78c2a80d50ef35fb287a538785397c8-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:103",
+        "lot_number": 103,
+        "title": "(int. MV 235)(Dom. AB317PK) Pick Up Renault mod. Oroch 1.6 Dynamique, doble cabina, año 2017, aprox.",
+        "description": "(int. MV 235)(Dom. AB317PK) Pick Up Renault mod. Oroch 1.6 Dynamique, doble cabina, año 2017, aprox.",
+        "base_price": 560000000.0,
+        "currency": "ARS",
+        "base_price_usd": 392982.46,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186236/2a6116319a64a7d3b288f653c5dbc752-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186236/a44b08e57b354fb17c6e5b076066ca6f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186236/0a22c4f67f15136ee65fc6fda58c2047-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186236/0ec68abc95271c228c36204b32cbac67-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186236/eed7e06a10a998d633a79bb7b592345e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4264:104",
+        "lot_number": 104,
+        "title": "(int. MV 167) (Dom. MOA960) Furgón Mercedes Benz mod. Sprinter 515 CDI-F 4325 TE V2, año 2013, poten",
+        "description": "(int. MV 167) (Dom. MOA960) Furgón Mercedes Benz mod. Sprinter 515 CDI-F 4325 TE V2, año 2013, poten",
+        "base_price": 1000000000.0,
+        "currency": "ARS",
+        "base_price_usd": 701754.39,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/186237/30325efa6b08f9d9a5dd0411d19c7470-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186237/e9915f537f15f34a41012d9b2d889188-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186237/86ff22a0179bd1721b6aedd4682790b3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186237/85b51deeb3ad1d86c1a1d274888276f7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/186237/1086d8304f5587120920af4b05c8f3a9-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
       }
     ],
-    "lot_count": 13
+    "lot_count": 32
   },
   {
     "id": "adrian_mercado:4279",
@@ -1392,7 +1829,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4279/e6ed55f8c1a25f94ae7d77bbab80f566-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4279/e6ed55f8c1a25f94ae7d77bbab80f566-mobile.jpg"
     ],
-    "scraped_at": "2026-05-22T06:44:57.218862+00:00",
+    "scraped_at": "2026-05-23T06:09:12.455886+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4279_condition_report_34225080.pdf",
@@ -1423,7 +1860,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4328/fe039b69444acae2c9f3838c20720b15-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4328/fe039b69444acae2c9f3838c20720b15-mobile.jpg"
     ],
-    "scraped_at": "2026-05-22T06:45:05.321768+00:00",
+    "scraped_at": "2026-05-23T06:09:20.590842+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4328_condition_report_34225080.pdf",
@@ -1443,2182 +1880,32 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4312",
+    "id": "adrian_mercado:4323",
     "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/accesorios-para-maquinaria-martillos-hidraulicos-y-metros-de-guardarail-4312",
-    "title": "Accesorios para maquinaria, martillos hidráulicos y metros de Guardarail.",
-    "description": "Ubicación Ubicación Ubicación: Benjamín Franklin, X5850 Río Tercero, Córdoba Fecha y horario de exhibición: Miércoles 20/05 y Jueves 21/05 de 9:00 a 16:00 hs A coordinar Datos de contacto: Emanuel +54 9 3516 41-1413",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/6500-posiciones-de-racks-selectivos-mecalux-cap-2400-kg-por-nivel-4323",
+    "title": "6500 posiciones de racks selectivos Mecalux, cap. 2400 kg por nivel",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Malvinas 2478, Libertad, Buenos Aires Condiciones generales Descargar",
     "category": "machinery",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-05-22T00:00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-22T06:45:13.330769+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4312_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4312_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4312_condition_report_34225080.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4312:1",
-        "lot_number": 1,
-        "title": "Accesorio esparcidor, para Bobcat con ruedas .-",
-        "description": "Accesorio esparcidor, para Bobcat con ruedas .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186079/1bf7e3b77d64c32fd040aaae102f0a9a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186079/820eeda4474fcf64a3a4156d000559e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186079/77d0db5c646f92895ed5565da9ab61fc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186079/0128ebaa84e09bc014e9a870bc1a2c48-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:2",
-        "lot_number": 2,
-        "title": "Accesorio barredora, para Bobcat mod. SW98 .-",
-        "description": "Accesorio barredora, para Bobcat mod. SW98 .-",
-        "base_price": 300000000.0,
-        "currency": "ARS",
-        "base_price_usd": 210526.32,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186080/365cd35f3b17d8b26caf336da68bb29e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186080/db71fc7f8e148538c3b4007c83ad27af-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186080/12adfd4cb6bdb510fa4032ce69a51b69-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:3",
-        "lot_number": 3,
-        "title": "Martillo hidráulico para miniexcavadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico para miniexcavadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 400000000.0,
-        "currency": "ARS",
-        "base_price_usd": 280701.75,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186081/aeae61a9fc57d7b451bdb8fcc531fa3c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:4",
-        "lot_number": 4,
-        "title": "Martillo hidráulico para miniexcavadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico para miniexcavadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 400000000.0,
-        "currency": "ARS",
-        "base_price_usd": 280701.75,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186082/35f508ad5287cc897f1daf4c9265418e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:5",
-        "lot_number": 5,
-        "title": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186083/11110900c83e660146507dc664b189a2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186083/e2fd54cdf5e191254ec181c8c1c0ac53-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:6",
-        "lot_number": 6,
-        "title": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186084/b064a9a15721e2cbdd8040c35889cafe-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186084/d9f9917f99b4f25bf03d65ec184f740f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:7",
-        "lot_number": 7,
-        "title": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186085/cdd02a6a4e2c0e16e38a4656e6d13fbd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186085/bb3e512f0039b5e1a8649ae5b6276c96-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:8",
-        "lot_number": 8,
-        "title": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186086/81b3ceddc00336df95f7104126329b24-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186086/1dbad4e255c88b8e7972176863ded96f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:9",
-        "lot_number": 9,
-        "title": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "description": "Martillo hidráulico con placa para minicargadora Eddie mod. 53, para equipos 2.5 a 4.5 tn .-",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186087/d14481819c3fe336deb02920fa772106-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186087/172a078ad7ed0e58991cd2c51469faf8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:10",
-        "lot_number": 10,
-        "title": "Martillo hidráulico para excavadora Eddie mod. 125, para equipos de 15 a 18 tn .-",
-        "description": "Martillo hidráulico para excavadora Eddie mod. 125, para equipos de 15 a 18 tn .-",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186088/0c1307be3d865c6c167db4da71a18cfa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186088/4a783b6a5c305cf434f12ec201d1864a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:11",
-        "lot_number": 11,
-        "title": "Martillo hidráulico para excavadora Eddie mod. 125, para equipos de 15 a 18 tn .-",
-        "description": "Martillo hidráulico para excavadora Eddie mod. 125, para equipos de 15 a 18 tn .-",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186110/62f861cc8c68e560d6e2cd53993e591e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186110/c8d037005ceb8cb51c2bea50c5ac2951-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:12",
-        "lot_number": 12,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186111/289671d483a7862a0564f34fc44035fb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186111/110482dcdd6a94721658d4444f74ddb5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186111/920c913227a9ebe24d882c231f269961-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186111/a1736d74a782d843038581eb82343b27-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186111/bfdbda3b55ffc2b7f388fc03f24a77eb-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:13",
-        "lot_number": 13,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186112/f343f64d3b6befea24a91224528d457a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186112/10a20291156d3ee2564a2e8fc32d3069-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186112/30c5f3cd9407f4dcfd5cf5221d69dd8c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186112/ed32eaa806a32fe3542ecd0de7459c14-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186112/eb7a60852bfacc34d266a0b05e08bea5-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:14",
-        "lot_number": 14,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186113/4a03ed62940ae46b488624bacd31b55d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186113/c2c3bdba9502f847647fca9a421840ef-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186113/0ac6ac5783d8093fb210d91cc824c146-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186113/32287eecf8eca07924178c24d5a5f8c3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186113/c6427622d20b5bccb23fe601886ab007-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:15",
-        "lot_number": 15,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186114/086514607e35a8f097a420898e850f9d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186114/5bd473a7be68b485b918b0d5e52b7f7e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186114/02839c151f3f6e9ef8f8386d00dab444-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186114/e25909b5ba7bfaec9a37fd6ef8d8dfca-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186114/a5feb9318d890b0f14b6431dba00cc14-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:16",
-        "lot_number": 16,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186115/0d6ffe316f0337789d8e00bffa94bd0a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186115/4bd3a101b5568eccf7be198a7c724513-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186115/0fbfb1a040042d75eacd652f8e98f06f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186115/ec7c105515369e359f5732da119a2120-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186115/01b31bd9d732d98cb3e47428fbfb1578-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:17",
-        "lot_number": 17,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186116/d1d39dfcc031553523d69d8986d6b992-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186116/03b477436d16dc8a4d576e9240e72bf5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186116/161502e9ef30eb96482b1c1e5e0c01a3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186116/3c23d3ec1689abc2ccb4233266b5cf3a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186116/ad789b046e78e72cabcfcef5c7bc18a5-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:18",
-        "lot_number": 18,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186117/435332216890e9d5afaa65e8b791cf5c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186117/a083220d678a55e703c184b86d9e1228-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186117/45f3b28890ffc467d63eed66a49b12e5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186117/765ebd504702b2cb6ad6c777301da849-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186117/a6a066ccc90680135ed9e9862899096d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:19",
-        "lot_number": 19,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186118/490f15759f0e0023a96f045e01b70ac1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186118/d2571d68b53a94140dd3d94e86f9304b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186118/73c247361ba3aedf88a961f523e8b259-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186118/53379f15b44a10fbe0237da49c20e400-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186118/e34d9c356323b3e18b5df773d0889e59-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:20",
-        "lot_number": 20,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186119/67e00aa0ac811a1ad4b470c06895dc76-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186119/da79a8c59d465644f46d9395ffbd6541-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186119/1fa852b570907d04b920b34e7e22706d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186119/588ee9ee1dd8c8b5e3f96c4c653e188b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186119/5657ced2654d90607ecd743ef7e6c46a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:21",
-        "lot_number": 21,
-        "title": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "description": "152,4 mts lineales de Guardarail, conteniendo: 20 Defensas Largas Livianas (7,62 mts x 2,5 mm), 90 p",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186109/0c33de4adf95ba02de349388c2044e6e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186109/f6045efa4f68707e096e6d8445f78fa1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186109/8a94787a14279f045622c857c3a6b104-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186109/1295cef2c645e6a6038175c122b537eb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186109/9141f096dfb19669c792cd3bd138480c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:22",
-        "lot_number": 22,
-        "title": "100u. de Alas terminales para guardarail, tipo común .-",
-        "description": "100u. de Alas terminales para guardarail, tipo común .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186120/0077050ac0c512adcab900b468bfd9a7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186120/18dbdb1026fd24170a4aad7e1e95c743-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:23",
-        "lot_number": 23,
-        "title": "100u. de Alas terminales para guardarail, tipo común .-",
-        "description": "100u. de Alas terminales para guardarail, tipo común .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186121/297c1cfc910f2f0aa893221d6b7c8b86-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186121/ab8abd07ff12c90efc0a083d1f87930b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:24",
-        "lot_number": 24,
-        "title": "100u. de Alas terminales para guardarail, tipo común .-",
-        "description": "100u. de Alas terminales para guardarail, tipo común .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186122/9557ea3fbbb4a0d8e17cce41db50485d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186122/a7bb1963ae23a434f6000b35834d6eb9-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:25",
-        "lot_number": 25,
-        "title": "100u. de Alas terminales para guardarail, tipo común .-",
-        "description": "100u. de Alas terminales para guardarail, tipo común .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186123/086c5a6a5e5b0b56cc86196402eb6f5d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186123/9eda53cdb8c520a66baff6c43331cdf2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:26",
-        "lot_number": 26,
-        "title": "100u. de Alas terminales para guardarail, tipo común .-",
-        "description": "100u. de Alas terminales para guardarail, tipo común .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186124/df7e82fad490d77f4fd020c169b3f683-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186124/c132859c8462ea7264a4cc0445a27021-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4312:27",
-        "lot_number": 27,
-        "title": "100u. de Alas terminales para guardarail, tipo común .-",
-        "description": "100u. de Alas terminales para guardarail, tipo común .-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/186125/5ca3adfb89694bfba597b41bf03154c4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/186125/8db5c964815ae1e3fcbad07332dd2eea-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 27
-  },
-  {
-    "id": "adrian_mercado:4290",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-tractores-agricolas-y-vehiculos-livianos-4290",
-    "title": "Subasta de Tractores Agrícolas y Vehículos Livianos.",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Tte. Gral. Morillas, Ezeiza, Buenos Aires Fecha y horario de exhibición: Miércoles 20/05 y Jueves 21/05, de 9:00 a 16:00 hs Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-22T00:00:00",
+    "ends_at": "2026-05-27T00:00:00",
     "location": {
       "province": "Buenos Aires",
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:45:21.424666+00:00",
+    "scraped_at": "2026-05-23T06:09:29.285269+00:00",
     "extra": {
       "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4290_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4290_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4290_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "tractor",
-        "min_usd": 8000,
-        "max_usd": 150000,
-        "typical_usd": 35000,
-        "category": "machinery"
-      }
-    },
-    "lots": [
-      {
-        "lot_id": "am:4290:1",
-        "lot_number": 1,
-        "title": "Tractor agrícola Zetor, año 2019, tracción 4x4, motor diesel Zetor 4 cilindros turbo, con toma de fu",
-        "description": "Tractor agrícola Zetor, año 2019, tracción 4x4, motor diesel Zetor 4 cilindros turbo, con toma de fu",
-        "base_price": 300000000.0,
-        "currency": "ARS",
-        "base_price_usd": 210526.32,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185209/adb1265d2ddb64dc042a151dee310da6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185209/3ba31b44b797bc15d4e45413d930b8ad-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185209/cedff0ca21620bc0fb60c65f717ae65d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185209/d3eee19e08be2c111e862ca2af74a03c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185209/62350e5d2a79afebf608354f09f6b4e7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4290:2",
-        "lot_number": 2,
-        "title": "Tractor agricola Case, mod. Farmall 75, año desconocido, motor diesel Iveco de 4 cilindros turbo, tr",
-        "description": "Tractor agricola Case, mod. Farmall 75, año desconocido, motor diesel Iveco de 4 cilindros turbo, tr",
-        "base_price": 400000000.0,
-        "currency": "ARS",
-        "base_price_usd": 280701.75,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185210/c7f3362933ffed355486b2c56678b698-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185210/423b7a4f1151540bfd6988a1801f086b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185210/3037b8fca6cf9273e5ba601c65aec662-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185210/3ba32f05275126562328a13fd0c1c8c9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185210/ea2fbe8dbfbdb3a321cc6e34541a7042-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4290:3",
-        "lot_number": 3,
-        "title": "Tractor agrícola Zetor, año 1999, motor diesel Zetor 4 cilindros turbo, tracción 4x2, con toma de fu",
-        "description": "Tractor agrícola Zetor, año 1999, motor diesel Zetor 4 cilindros turbo, tracción 4x2, con toma de fu",
-        "base_price": 200000000.0,
-        "currency": "ARS",
-        "base_price_usd": 140350.88,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185211/18b76b1b25db2493e176f9d1ab093ee9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185211/4d49af9721090737dafd94d6a01697fd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185211/0e41a344876ab66009e571e90b30b55b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185211/435fab15c2a474b254ad20b03d728706-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185211/e0dc42aa3a06e6c33cfd3300cb244fe2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4290:4",
-        "lot_number": 4,
-        "title": "Tractor agricola Case, mod. Farmall 80, año desconocido, motor diesel Iveco de 4 cilindros aspirad",
-        "description": "Tractor agricola Case, mod. Farmall 80, año desconocido, motor diesel Iveco de 4 cilindros aspirad",
-        "base_price": 600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 421052.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185212/e0530fbfcd125caa7a3b62bdaa878e26-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185212/6156905afe220295a641cb35a58e519a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185212/3a706b9604d00bbea71c68aeab64c4e3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185212/90980b45247099a5e0b28fa9408c79e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185212/945f61ed949a9aa874ded617715f02d9-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4290:6",
-        "lot_number": 6,
-        "title": "Tractor agrícola Case, mod. FE 175A, (con eje trasero, eje delantero, caja de transmisión, gancho de",
-        "description": "Tractor agrícola Case, mod. FE 175A, (con eje trasero, eje delantero, caja de transmisión, gancho de",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185213/68c6f16431b4d1fd37975f5ea6cd5603-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185213/5090744775faa9c8369345f86cd375c0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185213/e719ee937295008408ef5378fdfb5685-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185213/429cef2a2cb1786c204c964b68992c35-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185213/38c9903c976cb40250e9b02d1231d5ca-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4290:7",
-        "lot_number": 7,
-        "title": "Int: 350 224 (Dom: OLK348) Pick-up Volkswagen, mod. Saveiro 1.6 L GP, año 2014, (km. desconocidos, s",
-        "description": "Int: 350 224 (Dom: OLK348) Pick-up Volkswagen, mod. Saveiro 1.6 L GP, año 2014, (km. desconocidos, s",
-        "base_price": 300000000.0,
-        "currency": "ARS",
-        "base_price_usd": 210526.32,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185214/3fa5da6493a9beda909f9ec5f229bdee-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185214/572e41447db35348b207e6a9a73920e6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185214/379e27b42d5312892e1dd2257a424f3e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185214/27b1d09b23c76250ed4f47975761f3a4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185214/0c1f2e063212fdcadc80010eac3d29f1-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 6
-  },
-  {
-    "id": "adrian_mercado:4304",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/pick-up-volkswagen-amarok-y-motocompresor-compair-4304",
-    "title": "Pick Up Volkswagen Amarok y motocompresor Compair",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Belgrano 2960 de VILLA DOLORES, CÓRDOBA Fecha y horario de exhibición: Miércoles 20/05 y Jueves 21/05 de 09:00 a 16:00 hs Datos de contacto: . Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-22T00:00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-22T06:45:29.518259+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4304_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4304_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4304_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "amarok",
-        "min_usd": 18000,
-        "max_usd": 55000,
-        "typical_usd": 32000,
-        "category": "vehicles"
-      }
-    },
-    "lots": [
-      {
-        "lot_id": "am:4304:2",
-        "lot_number": 2,
-        "title": "Motocompresor Compair (origen alemán, Ingersoll Rand), año 2016, mod. C-125, caudal máx. 12,5 m³/min",
-        "description": "Motocompresor Compair (origen alemán, Ingersoll Rand), año 2016, mod. C-125, caudal máx. 12,5 m³/min",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185218/d3ee054403bfd41df9c8dfa1c35354d3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185218/dbf7d3b437775314e87d4a7917a01495-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185218/ed6b2bd690df33dd8778b4102f30583c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185218/f5e30af4fa5298a734e194f69a35b315-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185218/1289ab3ad5d3946b8dbc140e08bfbbbc-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4304:5",
-        "lot_number": 5,
-        "title": "(Dom. JGU 348) Pick Up Volkswagen, mod. Amarok 2.0 L TDI, año 2010, tracción 4x2, 370.000 km. aprox....",
-        "description": "(Dom. JGU 348) Pick Up Volkswagen, mod. Amarok 2.0 L TDI, año 2010, tracción 4x2, 370.000 km. aprox....",
-        "base_price": 400000000.0,
-        "currency": "ARS",
-        "base_price_usd": 280701.75,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185219/a7d15fee8be8d749a7f946884cb4207b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185219/c5765af4696ef73874c0d6bf79f19fd4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185219/e2ad0846e15cfe420a48defc623bdd9c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185219/043bf369134f993a49b5fd0ccce9ce7d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185219/075e74b1aad1c0bec4caf2bdb7bd8fc8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 2
-  },
-  {
-    "id": "adrian_mercado:4303",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-tinglados-nuevos-de-un-agua-de-10-x-15-mts-y-de-dos-aguas-de-12-x-15-mts-4303",
-    "title": "Subasta de tinglados nuevos, de un agua de 10 x 15 mts  y de dos aguas de 12 x 15 mts.",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Félix Aguirre 1052, N3328 Jardín America, Misiones Fecha y horario de exhibición: Miércoles 20/05 y 21/05 de 9:00 a 16:00 hs Condiciones generales Descargar",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-22T00:00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-22T06:45:37.608539+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4303_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4303_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4303_condition_report_bbd2b7a8.pdf"
+        "data/documents/adrian_mercado/adrian_mercado:4323_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4323_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4323_condition_report_bbd2b7a8.pdf"
       ]
     },
-    "lots": [
-      {
-        "lot_id": "am:4303:1",
-        "lot_number": 1,
-        "title": "Tinglado de un agua, de 10 x 15 mts., con estructuras de perfiles ¨C¨ de 120 mm. x 40 mm., de 2 mm d",
-        "description": "Tinglado de un agua, de 10 x 15 mts., con estructuras de perfiles ¨C¨ de 120 mm. x 40 mm., de 2 mm d",
-        "base_price": 600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 421052.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185216/4160ddd8d12bc9aa94ff365903a3ab88-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185216/b9f5527eef25324edb571b81cc07a28f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185216/066d381139707e80b43f86dca116bc37-255x190.png",
-          "https://amercado.azureedge.net/cms/resources/galleries/185216/26d596825fa4ccfba53cb3dd5541ebea-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185216/eadde6be695b6710d90de5df6d8c3515-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4303:2",
-        "lot_number": 2,
-        "title": "Tinglado de DOS AGUA de 12 x 15 mts. con estructuras de perfiles ¨C¨ de 120x50 de 1,6mm y de 80x40 d...",
-        "description": "Tinglado de DOS AGUA de 12 x 15 mts. con estructuras de perfiles ¨C¨ de 120x50 de 1,6mm y de 80x40 d...",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185217/a0275d7124aa0f5eb7bd843aec3efc13-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185217/ee97fa691ee6e629b0a72815ffcc9a2b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185217/cad7cb00d635ec7d7f03dbf87fbd0cbc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185217/15bf909fa038fae367ed2da0ab6eaa54-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185217/9b2eb8062a9ff3ccdd1a7000c213e098-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 2
-  },
-  {
-    "id": "adrian_mercado:4322",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/gran-subasta-de-maquinaria-vial-construccion-y-vehiculos-pesados-4322",
-    "title": "Gran Subasta de Maquinaria Vial, Construcción y Vehículos Pesados.",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Av. Año de Juárez, San Luis Tlaxialtemalco, Xochimilco, 16610 Ciudad de México, CDMX, México Ubicación 2 Ubicación: Carlos Spegazzini, Buenos Aires Fecha y horario de exhibición: Miércoles 20/05 y Jueves 21/05 A coordinar Datos de contacto: Marcelo 11 5349-5214 Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-22T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-22T06:45:45.714533+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4322_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4322_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4322_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4322:1",
-        "lot_number": 1,
-        "title": "(Dom. LXQ 322) (INT. CA 200023) Chasis con cabina Scania, mod. P 380 CB 8X4, año 2007, tracción 8x4,",
-        "description": "(Dom. LXQ 322) (INT. CA 200023) Chasis con cabina Scania, mod. P 380 CB 8X4, año 2007, tracción 8x4,",
-        "base_price": 6000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 4210526.32,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185734/b7c51ece54aadbd9e5bedee7ae670cee-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185734/23329aef93d769571e6311eb9e1d9728-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185734/863e67b3fbe933a350acec8416edb616-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185734/f7d3e9514378f2232cfa314dc9703e3e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185734/e69f6762c12a07c4520d0efcc4934c13-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:2",
-        "lot_number": 2,
-        "title": "(Dom. AB 766 YM) (INT. CA 200012) Chasis con cabina Scania, mod. P420, año 2011 , tracción 8x4, Con",
-        "description": "(Dom. AB 766 YM) (INT. CA 200012) Chasis con cabina Scania, mod. P420, año 2011 , tracción 8x4, Con",
-        "base_price": 7000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 4912280.7,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185735/54a0480c36afe83a07462a2f34e5dada-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185735/ca85a0230aca2d748a50d32350102453-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185735/1c7730fc8303edc396a39fcc91f16fb7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185735/1d5eae4d11d54b6b3d3866870fd59b1b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185735/8f2407a7bc2fc1504ef334ce806877d8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:3",
-        "lot_number": 3,
-        "title": "(OE500015) (Dom. RIK 437) Semirremolque batea Inderol de 2 ejes + 1, año 1994, carga máx. 27.500 kg.",
-        "description": "(OE500015) (Dom. RIK 437) Semirremolque batea Inderol de 2 ejes + 1, año 1994, carga máx. 27.500 kg.",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185736/8111899180e374162f703fc6b12e7947-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185736/968220115da7eb3287b2579d2bb77ecf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185736/4fb6bdeb46dab41154cacaf7afa915f3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185736/e555d871b43803e8b68885a79c68c9d2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185736/cfefc0c92f82338fe44f018e98cb5873-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:4",
-        "lot_number": 4,
-        "title": "(Int: PEA06) Elevador telescópico JLG, mod. E400A, año 2007, cap. 500 lbs. (225 kg.), altura máx. 4",
-        "description": "(Int: PEA06) Elevador telescópico JLG, mod. E400A, año 2007, cap. 500 lbs. (225 kg.), altura máx. 4",
-        "base_price": 1500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1052631.58,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185737/8b2081b953ad973bf11662e20e4e75ff-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185737/83121053ca01d9795b83e2aa421f5483-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185737/4f2f5f8ef28884162c60cbd0017f08dd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185737/e745b04d0a224b8fe04e4d96f2e36c0b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185737/14ab1286a05ed49b620cc7dfa8722d14-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:5",
-        "lot_number": 5,
-        "title": "(Int: PEA10) Plataforma tijera elevadora JLG, mod. 2646 ES, año 2010, cap. 454 kg., altura máx. 7.90",
-        "description": "(Int: PEA10) Plataforma tijera elevadora JLG, mod. 2646 ES, año 2010, cap. 454 kg., altura máx. 7.90",
-        "base_price": 600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 421052.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185739/8a9b7d4d08a5c2fe83f80821a517b42d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185739/89fc3e42d599f7f65ac3b9e2b845fd90-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185739/851bdc998529c3e7815693c76810eae1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185739/8fb85ee28428c0ab7b418ab6403089d8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185739/262b095cae6caab16b6b97262c1f8ccc-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:6",
-        "lot_number": 6,
-        "title": "(Int. OE 500001) - Manipulador telescópico Genie, mod. GTH 4017SX, año 2010, cap. 4000 kg., altura m",
-        "description": "(Int. OE 500001) - Manipulador telescópico Genie, mod. GTH 4017SX, año 2010, cap. 4000 kg., altura m",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185742/9b3ad74012efdd392a7fbd95e49f142c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185742/b829e7efc805040147f4a602f66be517-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185742/9fdf7652bb35eb5e432163b5da7f128c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185742/b1bc030d01207596dc875c1c9d5077df-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185742/fb0a7bca6fa0eaa01acd500e8e575c52-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:7",
-        "lot_number": 7,
-        "title": "(INT. PR 600022) Excavadora hidráulica sobre orugas Hyundai, mod. Robex 330lc-9s, año 2016, cap. de",
-        "description": "(INT. PR 600022) Excavadora hidráulica sobre orugas Hyundai, mod. Robex 330lc-9s, año 2016, cap. de",
-        "base_price": 8000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5614035.09,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185745/51cf301dd478bc7788dcbfaa2bd2ee1a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185745/aa1384561b733b2dd0768513d5aafb5b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185745/62ee04361708bee461caaef5660141be-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185745/18dadf06cb329db55e037c7654a15712-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185745/874f336bd3c7ff2e5e9747cceba3677e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:8",
-        "lot_number": 8,
-        "title": "(INT. PR 600026), (Dom. BBU 53) Excavadora hidráulica sobre orugas Komatsu, mod. Pc -200 lc-7, año 2",
-        "description": "(INT. PR 600026), (Dom. BBU 53) Excavadora hidráulica sobre orugas Komatsu, mod. Pc -200 lc-7, año 2",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185750/34ef04b8f0f8489a696b554794a4cf9e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185750/ec5025d340be8ca0e692355864e06ef4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185750/cf9804865678d45fccaafa9f19cbb589-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185750/032b58041af7c25468378ffbe03020e5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185750/f29b96d50257aa356ea353237f16b3ab-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:9",
-        "lot_number": 9,
-        "title": "(INT. PR 600024), (Dom. BMX 49) Excavadora hidráulica sobre orugas Komatsu, mod. Pc 200lc-8, año 200",
-        "description": "(INT. PR 600024), (Dom. BMX 49) Excavadora hidráulica sobre orugas Komatsu, mod. Pc 200lc-8, año 200",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185753/010cf44cfde1ce264e1b65a5a0c79cfd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185753/33f54502704dbe67b31126ed3be77638-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185753/21b1e4d630ff3fe2627b730b13d54dc0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185753/8558e2f6d09bd2c52f15b8ecbd9e64b1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185753/dd8e0bcbe1d43e03116b3b677627259d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:10",
-        "lot_number": 10,
-        "title": "(Int. PR 600012) Pala cargadora frontal hidráulica articulada sobre neumáticos Komatsu, mod. WA250-6",
-        "description": "(Int. PR 600012) Pala cargadora frontal hidráulica articulada sobre neumáticos Komatsu, mod. WA250-6",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185756/7319218800c623f28a5e70e7453c4fed-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185756/7e5830486f96e4c0b28bcffe2a6f44fc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185756/25f2ffe6ac98d3032119b6f58d296b17-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185756/73a470b0cf28bf152bda7d37d56239ec-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185756/fa3488536d81898ded19473bc1eb69ab-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:11",
-        "lot_number": 11,
-        "title": "Motoniveladora Tiangong modelo PY 1606 , año 2007 motor Cummins de 140 hp, peso operativo 14100 kg.",
-        "description": "Motoniveladora Tiangong modelo PY 1606 , año 2007 motor Cummins de 140 hp, peso operativo 14100 kg.",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185759/09e81ac87b15a6360df4cf17c767be70-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185759/981a1140eb935eb2dc391ceaf17677ae-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185759/93b885947fe149bc3cbfea43e834689e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185759/a2323712d96bf93921626e19360ed235-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185759/3250f8b92784502ffaf528ebbd4ac863-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:12",
-        "lot_number": 12,
-        "title": "Motohormigonera autocargable Bounous, año 2013, motor Perkins 4 cilindros , (600 aprox. hs. de uso),",
-        "description": "Motohormigonera autocargable Bounous, año 2013, motor Perkins 4 cilindros , (600 aprox. hs. de uso),",
-        "base_price": 2000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1403508.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185762/3a440b2693def7e33bcfee2f59b58dbc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185762/a29eb057d7c11d09660eb6c3c705cff8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185762/c26a30e46958f849494f451d8f5f5e1b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185762/856bcd7937cdbad896251e4d822e63f1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185762/fb571b610b171ea8060d754989b7d1e2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:13",
-        "lot_number": 13,
-        "title": "(Dom, dns68 ) Compactador Juma mod jm62 hp, año 2017, (1500 aprox. horas de uso ), motor calentó.-(S",
-        "description": "(Dom, dns68 ) Compactador Juma mod jm62 hp, año 2017, (1500 aprox. horas de uso ), motor calentó.-(S",
-        "base_price": 2000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1403508.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185764/7286494e7213ffa02ef01076aeebc110-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185764/a8d6866eb6d30de781032aa394c0924b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185764/b1f4c54ddbd0dbb5a1f6140f718cc779-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185764/81a450d2bb89b9a5ca2f3662fb271f50-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:14",
-        "lot_number": 14,
-        "title": "Terminadora de asfalto sobre oruga Dynapac, mod. FC 141C, año 1998, 10.000 aprox. horas de uso, moto",
-        "description": "Terminadora de asfalto sobre oruga Dynapac, mod. FC 141C, año 1998, 10.000 aprox. horas de uso, moto",
-        "base_price": 1500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1052631.58,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185766/b959ac9c8594e4f8b08d4339e157b620-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185766/ecbda0fb5c84fb2200769575bfc4dcb0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185766/cf2a9cf196f0b853b3f98861b1099093-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:15",
-        "lot_number": 15,
-        "title": "Cargadora frontal hidráulica articulada sobre neumáticos Caterpillar, mod. 980H, año 2011 (cap. 30 t",
-        "description": "Cargadora frontal hidráulica articulada sobre neumáticos Caterpillar, mod. 980H, año 2011 (cap. 30 t",
-        "base_price": 5000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 3508771.93,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185768/96d121b0da97cb652d53a7aba491995c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185768/ab1b793560471b3d18b5c881d14381ef-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185768/24b8ee0638507dcfce08d33e328e0c52-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185768/83d932cdb7210030876d23335eb985a0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185768/9a248e0e0f52bd42e35322e29ec38d30-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:16",
-        "lot_number": 16,
-        "title": "(Dom. IXA 412) Camión tatú Volkswagen, mod. 31.320, 6x4, Constellation, año 2010, 300.000 aprox. km.",
-        "description": "(Dom. IXA 412) Camión tatú Volkswagen, mod. 31.320, 6x4, Constellation, año 2010, 300.000 aprox. km.",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185904/2eb3a0ad01ff0cc6816fa59e8cfd7cc2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185904/d04ac4c5f5d09bfa5aaddb3b8df6887f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185904/1f13557647ee2dc42491fcfd1ded0649-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185904/49c17b0fea9b67d88db186ef8e5d640e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:17",
-        "lot_number": 17,
-        "title": "Contenedor marítimo, de 40 pies.-",
-        "description": "Contenedor marítimo, de 40 pies.-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185905/c1f3f703cc3c9f793167334e8474906a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185905/a12ac719c4755d739170db0d028bc1db-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185905/8bcc78b0852348a61ae47b26cde58e22-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4322:18",
-        "lot_number": 18,
-        "title": "Casilla oficina para obrador de 20 pies aprox.-",
-        "description": "Casilla oficina para obrador de 20 pies aprox.-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185907/cf94d444170ecb873ca425ac951b3690-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185907/0e7c9ffac826ed175f664ab07d8b7ae7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 18
-  },
-  {
-    "id": "adrian_mercado:4286",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-ingeniero-jose-maria-casas-s-a-4286",
-    "title": "Por c/o de Ingeniero Jose Maria Casas S.A.",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Fray Luis Beltrán 2117, B1655 Villa José León Suárez, Buenos Aires Fecha y horario de exhibición: Miercoles 20/05 y Jueves 21/05 de 9:00 a 16:00 hs Condiciones generales Descargar",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-22T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-22T06:45:53.817144+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4286_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4286_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4286_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4286:1",
-        "lot_number": 1,
-        "title": "Int: 403 Dom: FNI635 Furgón cerrado Mercedes Benz, mod. Sprinter 311 CDI/F 3000, año 2006, km. 398.5",
-        "description": "Int: 403 Dom: FNI635 Furgón cerrado Mercedes Benz, mod. Sprinter 311 CDI/F 3000, año 2006, km. 398.5",
-        "base_price": 600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 421052.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185480/4b6297e1f317819d4c57e4bd8160b98b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185480/0d28e4381f0bf2dfbec32ed29de79b3d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185480/b650502f0a2c6a59a4bbda12d1608df8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185480/21814abf220c613973c497552aba13de-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185480/5ef86c253a633d1145f976314a9415d4-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:2",
-        "lot_number": 2,
-        "title": "Int: 104 (Dom: SXC399) Chasis con cabina Ford, mod. F-7000, año 1979, tracción 4x2, km. 86.974 (segú...",
-        "description": "Int: 104 (Dom: SXC399) Chasis con cabina Ford, mod. F-7000, año 1979, tracción 4x2, km. 86.974 (segú...",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185481/bf683b25ac690dc02c513e48dd377645-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185481/d834896bfc93135907bc09337d83e86a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185481/bf519a38c0ab0470a779991dfa8235a7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185481/e4177f384731b69a49c0603345281dc6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185481/f2935987ec1505bd1906d2824fcd12f8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:3",
-        "lot_number": 3,
-        "title": "Int: 300 Dom: CLS584 Chasis largo con cabina Mercedes Benz, mod. 1622, año 1988, km. 186.193 (según...",
-        "description": "Int: 300 Dom: CLS584 Chasis largo con cabina Mercedes Benz, mod. 1622, año 1988, km. 186.193 (según...",
-        "base_price": 3500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2456140.35,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185482/0395e770516134da3bf8d9f90deba209-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185482/3e90ecd49aee20ae03df74ebc617488c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185482/0f29a4f44da896c40a5151507781044e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185482/1c9cd6203419aa612545800da9f986fd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185482/3cc34280742b03c8cfb778d2f31d96bc-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:4",
-        "lot_number": 4,
-        "title": "Int: 39 (Dom: CIR330) Chasis largo con cabina Astra, mod. HD7 84.38, año 1998, tracción 8x4, km. 145...",
-        "description": "Int: 39 (Dom: CIR330) Chasis largo con cabina Astra, mod. HD7 84.38, año 1998, tracción 8x4, km. 145...",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185483/bd97f3f02c46eb9bbcc1aa4888b53cda-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185483/b43c4db32417c5ee871df7618a408c2e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185483/5cff8d8306f2e24459eaa2437b492953-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185483/b3e93dd03384b3ed8ea64bc48357eac5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185483/d545d1db723ea00bc9da29af59072abe-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:5",
-        "lot_number": 5,
-        "title": "Int: 38 (Dom: CVQ271) Chasis largo con cabina Astra, mod. HD7 84.38, año 1999, tracción 8x4, (km. de...",
-        "description": "Int: 38 (Dom: CVQ271) Chasis largo con cabina Astra, mod. HD7 84.38, año 1999, tracción 8x4, (km. de...",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185484/0c300f6a734e4e2fc3557aa04dade01e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185484/bbd10ef0ffe0f880d7034c228bcefc3b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185484/6730b307f31e25a07b6e15288b75a2a1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185484/22c18f7404a919d7f3e575bcc709c5ee-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185484/236be147eb36ff807502ecf074ef832f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:6",
-        "lot_number": 6,
-        "title": "Int: 106 Dom: GUN229 Chasis con cabina dormitorio Iveco, mod. Cavallino 180E32, año 2007, tracción 4...",
-        "description": "Int: 106 Dom: GUN229 Chasis con cabina dormitorio Iveco, mod. Cavallino 180E32, año 2007, tracción 4...",
-        "base_price": 2000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1403508.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185486/44c0529750db88d5b182b2e92330d83b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185486/6b4703e6c1834dedb0c0e769a3c75653-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185486/906cce03f4f8b2b5d801e886baaeb2ba-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185486/164c62096d1733cb1d6a1aacfc4a4e63-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185486/9f88dbf64b42de4c3eaf265c0982d87e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:7",
-        "lot_number": 7,
-        "title": "Int: 109 Dom: LRJ945 Tractor de carretera con cabina dormitorio Iveco, mod. Cursor 450E33T, año 2012...",
-        "description": "Int: 109 Dom: LRJ945 Tractor de carretera con cabina dormitorio Iveco, mod. Cursor 450E33T, año 2012...",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185487/f275a0e48a4df26214bd10a22ea89b1f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185487/31126e711d005ce269fd18b78bc784c8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185487/ebb6ca59808b6dfe7b2207ec921a3528-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185487/6f806c22dd11ce74ce03580cba2e2b73-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185487/72aae3379122fa5c5c51f38f43e144b8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:8",
-        "lot_number": 8,
-        "title": "Int: 120 (Dom: MTL850) Tractor de carretera con cabina dormitorio Iveco, mod. Cursor 450E33T, año 20...",
-        "description": "Int: 120 (Dom: MTL850) Tractor de carretera con cabina dormitorio Iveco, mod. Cursor 450E33T, año 20...",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185488/2bf68712fec0371d86bca1d9eabb486c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185488/43cdfd665a633bf4fbdb4a5fc8a321e5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185488/d6b6f6010d61ff9348b874f926700bc9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185488/e9d459f78c923cd281975582cab69f57-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185488/a4acaa6d1919c5a0fa07dda80e08089d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:9",
-        "lot_number": 9,
-        "title": "Int: 1202 (Dom: AED824) Acoplado playo de 2 ejes + 1 direccional con lanza, año 1995, medidas de 12",
-        "description": "Int: 1202 (Dom: AED824) Acoplado playo de 2 ejes + 1 direccional con lanza, año 1995, medidas de 12",
-        "base_price": 200000000.0,
-        "currency": "ARS",
-        "base_price_usd": 140350.88,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185489/148c6bc68b769a1213fcce059cb597f8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185489/f543ed2c44a454a15447c84678aa6dfa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185489/be961c75acada0b1c02eb1ea9d2819d9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185489/c526effb57adff53c04a513f2c61d7c6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185489/94161eb5870a3a42fe833e286da9cfb8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:10",
-        "lot_number": 10,
-        "title": "Int: 1004 (Dom: KGO796) Acoplado bivuelco lateral de 2 ejes + 1 direccional Bianchi, mod. AC3860-053",
-        "description": "Int: 1004 (Dom: KGO796) Acoplado bivuelco lateral de 2 ejes + 1 direccional Bianchi, mod. AC3860-053",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185490/3207ba0956692cef656aee8a0c585e0b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185490/a4c47117dbd5cb4551fd6ebf2119ce7f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185490/3918dfc365943a1dfb121dfbdbd1f698-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185490/ffcf37195115c57668356ba0e2dc8f07-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185490/bc1ce11fa210a24930649ee9e59538b6-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:11",
-        "lot_number": 11,
-        "title": "Int: 1005 (Dom: KYL947) Acoplado bivuelco lateral de 2 ejes + 1 direccional Bianchi, mod. AC3860-053",
-        "description": "Int: 1005 (Dom: KYL947) Acoplado bivuelco lateral de 2 ejes + 1 direccional Bianchi, mod. AC3860-053",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185491/bf89dfb742d12f2052fdaf5d646a6632-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185491/9f69a6f8925e2c6a711a2ac5720ddfee-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185491/959cec04aeee0975233c6abf9f6e57d5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185491/5aa516a8cb33e52c9b6d7f10921299a3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185491/a263d2c30f2bc7a3fa6700df177c877d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:12",
-        "lot_number": 12,
-        "title": "Int: 1011( Dom: HWV644) Semirremolque batea volcadora Bianchi, de 2 ejes + 1 neumático direccional ,",
-        "description": "Int: 1011( Dom: HWV644) Semirremolque batea volcadora Bianchi, de 2 ejes + 1 neumático direccional ,",
-        "base_price": 600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 421052.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185492/658db5b58035bbf3522e954a5b904225-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185492/6735cbac04b13cebc8ddd226625f1f3c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185492/a1218b688210fb266a6c05934adcb79e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185492/543af24f7fcadaf5749c9c1f01b47d3e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185492/3f5da2ceb7deab31d7c81fa3c898f1d7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:13",
-        "lot_number": 13,
-        "title": "(Via 3 Srl) (Dom: HGR079)Semirremolque tolva de 2 ejes + 1 neumático Randon, mod. SR SL 02+01, año 2...",
-        "description": "(Via 3 Srl) (Dom: HGR079)Semirremolque tolva de 2 ejes + 1 neumático Randon, mod. SR SL 02+01, año 2...",
-        "base_price": 2000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1403508.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185493/4f76306d0343796a929d0bb3be6eb80c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185493/6f202457e715230958f1b6e9c621b9df-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185493/c6790a2ab980a1f05aebfe7cd4c70716-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185493/309363c854ad2a7875dad7e9c6f611fb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185493/feaaf26cf6e740f17fc986fc2a04136c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:14",
-        "lot_number": 14,
-        "title": "2 Rastras de tiro para arado (1 Walter hidráulica de 18 discos, ancho útil 2,00 mts., extensible con...",
-        "description": "2 Rastras de tiro para arado (1 Walter hidráulica de 18 discos, ancho útil 2,00 mts., extensible con...",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185494/91f89f1e3b77e67e8c1ad49981f34f8c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185494/8342b73110283547cf90465a6562e6f0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185494/64ce4fbf2e3f0c3ba4a385f411eef700-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185494/3caface031ba596cc7dad4758e3c8930-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185494/974a80f028a29c416db1a2fd51df0aa7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:15",
-        "lot_number": 15,
-        "title": "2 Implementos rodillos compactador pata de cabra Conan, ancho útil 1150 mm., sin lanza, como se encu",
-        "description": "2 Implementos rodillos compactador pata de cabra Conan, ancho útil 1150 mm., sin lanza, como se encu",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185495/517f5e1fe8348c8c417314668b59c4d3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185495/640813f5717ca525dff1e0fe34b7af92-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185495/09c8b8e0b8ddc3d676970afdea403b42-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185495/c2d3230ef6e82ff714232e9f0b925886-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185495/020fb306c1bd8387e0a4185421b9af3c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:16",
-        "lot_number": 16,
-        "title": "Rodillo vibrocompactador de tiro pata de cabra, ancho útil 1.450 mm., con motor Deutz bicilindrico,",
-        "description": "Rodillo vibrocompactador de tiro pata de cabra, ancho útil 1.450 mm., con motor Deutz bicilindrico,",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185496/7f0ed397fb667235a7c3414bbe023ef1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185496/ecec2d2ded2e3f6edb6fb4beadbbf8fa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185496/2dd2b34aeca0561127989a1dda8cb655-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185496/22ec794f91414751b04ad3c01cfe8fa3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185496/19e8086e8f95516cbf08a706ef9db2cb-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:17",
-        "lot_number": 17,
-        "title": "Vibro apisonador con plancha de 800 x 500 mm. de ancho, motor a explosión Honda, mod. GX160, cap. 5,",
-        "description": "Vibro apisonador con plancha de 800 x 500 mm. de ancho, motor a explosión Honda, mod. GX160, cap. 5,",
-        "base_price": 10000000.0,
-        "currency": "ARS",
-        "base_price_usd": 7017.54,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185514/44524c3dd3f9e7cb24e783df012605fc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185514/8ace391ac35dca69667cfe3e188164d0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185514/56a7945e041be9716c6471ca2bafad8f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185514/45324f0ad6eb87243eaf547dad20bacf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185514/ddc18b143b223b11ba7f4e62752fe568-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:18",
-        "lot_number": 18,
-        "title": "Motocompresor de aire a tornillo Nortof con motor diesel Deutz 3 cilindros aspirado, sobre tráiler d",
-        "description": "Motocompresor de aire a tornillo Nortof con motor diesel Deutz 3 cilindros aspirado, sobre tráiler d",
-        "base_price": 50000000.0,
-        "currency": "ARS",
-        "base_price_usd": 35087.72,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185497/8951ee6b279313ea073c9ab4848a4169-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185497/eae31213be56303ea51375a44b761663-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185497/4e0f18635d31e80455471f27b2394aaa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185497/7938f502c11420377e4eb9710aadd7ea-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185497/e14b70f4f43de4b66f083212cd45ecf7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:19",
-        "lot_number": 19,
-        "title": "Motocompresor de aire a tornillo Sullair, mod. 185DP 2W JD, con motor diesel John Deere 4 cilindros",
-        "description": "Motocompresor de aire a tornillo Sullair, mod. 185DP 2W JD, con motor diesel John Deere 4 cilindros",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185498/cbf637b13929632b757592d5f3514e6d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185498/b46f39d0a6821d7f7af9cf700eef330b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185498/a2982b7b46cce418cd15fe9811a96035-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185498/7c7ad833dc16a8eb83a8249421c3d947-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185498/decb910707ddeb697ca8ab538433a048-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:20",
-        "lot_number": 20,
-        "title": "Rodillo vibrocompactador tandem operador en pie Bomag, mod. DBW35, ancho útil de rodillo 400 mm., Co...",
-        "description": "Rodillo vibrocompactador tandem operador en pie Bomag, mod. DBW35, ancho útil de rodillo 400 mm., Co...",
-        "base_price": 50000000.0,
-        "currency": "ARS",
-        "base_price_usd": 35087.72,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185499/f235e48ea09fb2ec5e36d2088542d329-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185499/4904c550523fc14401b56dfd6e1e9f80-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185499/d96474004cbd8cd0f2342dd05d56fdaa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185499/1c213aeb1b013e447615301c54870ee1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185499/d80f6e04c34c83ae0c5a23867e330377-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:21",
-        "lot_number": 21,
-        "title": "Rodillo vibrocompactador tandem operador en pie Masalta, mod. MDR05, ancho útil de rodillo 650 mm.,...",
-        "description": "Rodillo vibrocompactador tandem operador en pie Masalta, mod. MDR05, ancho útil de rodillo 650 mm.,...",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185500/937f27544902ab26b00aea4649395a13-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185500/a0ee219bda7c2d755d0bf8560a612fc7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185500/dc917848183a3dc7da9031eaa1b8a432-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185500/e10cf379306589a26da073435cdfa92d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185500/906589fa90b7453c5849dbb32e035cd9-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:22",
-        "lot_number": 22,
-        "title": "(Int: 575) Rodillo compactador tandem moto propulsado hombre a bordo Abg. Werke, tipo. SW, ancho úti",
-        "description": "(Int: 575) Rodillo compactador tandem moto propulsado hombre a bordo Abg. Werke, tipo. SW, ancho úti",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185501/d215e9e60b4c586fb06b8cc5f6f5df4c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185501/0e1464073438b894b41b3dd0d9521373-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185501/e304048bd61606ba22e20d1eda5edbba-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185501/411eeb8a564594e98cdeecc88a988b76-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185501/81a25f528034631e3cd26cfd1f0e97ab-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:23",
-        "lot_number": 23,
-        "title": "(Int: 576) Rodillo compactador tandem motopropulsado hombre a bordo Abg Werke, tipo. W125, ancho úti",
-        "description": "(Int: 576) Rodillo compactador tandem motopropulsado hombre a bordo Abg Werke, tipo. W125, ancho úti",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185502/14c6903daf0a0293db2d6d4ae2befe68-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185502/d368f0848847a57408b565088d71a7b1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185502/31d077a3955dc136b08a6848cd059c9f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185502/63833ed5276b7f0cdeb832821d873906-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185502/3994c5abff98674d578f96b07642debb-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:24",
-        "lot_number": 24,
-        "title": "(Int: 572) Rodillo vibrocompactador articulado combinado Hamm, mod. HD13K, año 2013, peso operativo...",
-        "description": "(Int: 572) Rodillo vibrocompactador articulado combinado Hamm, mod. HD13K, año 2013, peso operativo...",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185503/5f0f6658774943a9662d2bd29bbee17c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185503/f149b412e781319c4b0be741eb128f4d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185503/c0f4baaca62d686d6e0d5c754d61b277-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185503/bacdc751a31c39ec34a01fc36db495bf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185503/e4ed8d7a8ca999e897664c8c5f48e096-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:25",
-        "lot_number": 25,
-        "title": "(Int: 570) Rodillo vibrocompactador articulado pata de cabra Dynapac, mod. CA 25, ancho útil de rodi...",
-        "description": "(Int: 570) Rodillo vibrocompactador articulado pata de cabra Dynapac, mod. CA 25, ancho útil de rodi...",
-        "base_price": 1500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1052631.58,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185504/3b3a69443b67033720ff1416286260aa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185504/6e67c0b2d6161d1013346382c491c64a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185504/2e409633b8e69250420eabeb638af5c2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185504/f530a4677f050ca0bdbe8f9e67ed85eb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185504/91e47dc184a7d14b801a2dc63424515f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:26",
-        "lot_number": 26,
-        "title": "(Int: 200) Pala cargadora frontal hidráulica articulada sobre neumáticos Michigan, mod. 55C, año 198...",
-        "description": "(Int: 200) Pala cargadora frontal hidráulica articulada sobre neumáticos Michigan, mod. 55C, año 198...",
-        "base_price": 500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 350877.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185505/d8f49e23a69d9801d4bdd8a8b1a801f7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185505/89ead34571de325e7648da5f8dd750f9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185505/371d022b29004b898400c46bbc0fdedd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185505/7c43af27cfed40911e4bc5a6c813f2b2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185505/8bfc9773d1716307193a37f759dbfc7d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:27",
-        "lot_number": 27,
-        "title": "Int: 201 Palacargadora frontal hidráulica articulada sobre neumáticos Case, mod. W20D, año 1996, cap",
-        "description": "Int: 201 Palacargadora frontal hidráulica articulada sobre neumáticos Case, mod. W20D, año 1996, cap",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185506/58c6ea56b11190eb6a7f3e5f42f1ada3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185506/4961dbcacce11d3d36435d193b2d1758-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185506/d88be3dcfa4fe01f101a385b2fbea2f4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185506/6da61a8daac5f785ae6d8ff6a5893cd3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185506/1cc8ec13aa4700f6940761c06297d760-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:28",
-        "lot_number": 28,
-        "title": "(Int: 206) Dom: ADE17 Palacargadora frontal hidráulica articulada sobre neumáticos Caterpillar, mod....",
-        "description": "(Int: 206) Dom: ADE17 Palacargadora frontal hidráulica articulada sobre neumáticos Caterpillar, mod....",
-        "base_price": 1500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1052631.58,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185507/94e83e69e6622e58381feb283a3b14c1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185507/0495feced1c9da7bb31dcabd4dfef9ec-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185507/ba08945e07f2a770b5b3f3454e44bf22-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185507/bc60498e40933b14205c82b946cf4b63-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185507/8997ced3256b5db55719c59ef3b2b028-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:29",
-        "lot_number": 29,
-        "title": "(Int: 209) Dom: BWW58 Pala cargadora frontal hidráulica articulada sobre neumáticos Xcmg Intensus, m...",
-        "description": "(Int: 209) Dom: BWW58 Pala cargadora frontal hidráulica articulada sobre neumáticos Xcmg Intensus, m...",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185508/b9521c17a00ad5797acda138c517bfe4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185508/217ab29edba90d44849d2f78f703ec44-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185508/c59322cd5d27a6791d72c0324fb7ef56-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185508/3d4ad7cf65e22ba77e06efa24625ff8b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185508/cbee6e1fb001100effb43d95df15493a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:30",
-        "lot_number": 30,
-        "title": "(Int: 203) Dom: ADE62 Pala cargadora frontal hidráulica articulada sobre neumáticos Xcmg, mod. LW321...",
-        "description": "(Int: 203) Dom: ADE62 Pala cargadora frontal hidráulica articulada sobre neumáticos Xcmg, mod. LW321...",
-        "base_price": 1000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 701754.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185509/aa3dbba77cea98b942fc05851efbfa25-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185509/e964d9f675559fdb51676f588677b8a8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185509/6d81c920c5ada134f11186bd34d73236-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185509/6202b9af1c754c4e9928e4534a089ef6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185509/c46d94ead368f698566844c07da9924f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:31",
-        "lot_number": 31,
-        "title": "(Int: 207) Dom: AYI89 Pala cargadora frontal hidráulica articulada sobre neumáticos Caterpillar, mod...",
-        "description": "(Int: 207) Dom: AYI89 Pala cargadora frontal hidráulica articulada sobre neumáticos Caterpillar, mod...",
-        "base_price": 2000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1403508.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185510/20cf73532c28212ecfef71c62025aa99-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185510/6a9418beeed24dd1c79960743ac8fa8d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185510/25b4ca8dee762b062fd1a071e63124e2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185510/c20e1a2dde2fff661d392cd93d853594-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185510/d9648037533ac1e0cacef0c61196b7aa-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:32",
-        "lot_number": 32,
-        "title": "(Int: 500) Excavadora hidráulica sobre orugas Hidromac, mod. H145 turbo, año 1997, cap. De balde 1 m",
-        "description": "(Int: 500) Excavadora hidráulica sobre orugas Hidromac, mod. H145 turbo, año 1997, cap. De balde 1 m",
-        "base_price": 1500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1052631.58,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185511/68a6d4dc78c8c5ff9a7edcbc999214b3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185511/14044d976f21b9e18ca8044c0a233bb7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185511/6e1ca12d4cfe872358f3da92b88bbd57-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185511/8b7394f51a7062b96c54c352e3ff7b18-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185511/a561acda9e04ed1397eaa48eee447725-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:33",
-        "lot_number": 33,
-        "title": "(Int: 501) Dom: BMZ68 Excavadora hidráulica sobre orugas Hyundai, mod. Robex 210 LC-7, año 2005, cap",
-        "description": "(Int: 501) Dom: BMZ68 Excavadora hidráulica sobre orugas Hyundai, mod. Robex 210 LC-7, año 2005, cap",
-        "base_price": 3000000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2105263.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185512/d6d116664e08d2c5257be6bdab0a5741-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185512/9c3b3d68691a1bfaaffb6aee6f359393-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185512/aa7257bef972ab11148adf5c07108ffa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185512/295a49348743cf6e9481c51450e65e6f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185512/25cdd9643856954475bb94816034c11c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4286:34",
-        "lot_number": 34,
-        "title": "Implemento martillo hidráulico Italdem, mod. K1000, (para excavadora Hidromac).-",
-        "description": "Implemento martillo hidráulico Italdem, mod. K1000, (para excavadora Hidromac).-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 70175.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/185513/a31c7725de0f075a3752675c0f57518e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185513/e466e816a40f64ad058e964b74f9d853-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185513/166e23449dc71b75e5568ac7c180a7b7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185513/104fc2a670c573d8e66381d6b3804256-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/185513/41e0ad95807f4198955248210d7166df-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 34
+    "lots": [],
+    "lot_count": 0
   },
   {
     "id": "adrian_mercado:4292",
@@ -3637,7 +1924,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:01.920073+00:00",
+    "scraped_at": "2026-05-23T06:09:37.417660+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4292_condition_report_34225080.pdf",
@@ -3676,7 +1963,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:10.039591+00:00",
+    "scraped_at": "2026-05-23T06:09:45.550801+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4295_condition_report_34225080.pdf",
@@ -3712,7 +1999,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:18.139778+00:00",
+    "scraped_at": "2026-05-23T06:09:53.669332+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4284_condition_report_34225080.pdf",
@@ -3740,7 +2027,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:26.157793+00:00",
+    "scraped_at": "2026-05-23T06:10:01.674601+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4302_condition_report_34225080.pdf",
@@ -3779,7 +2066,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:34.263616+00:00",
+    "scraped_at": "2026-05-23T06:10:09.791159+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4308_condition_report_34225080.pdf",
@@ -3827,7 +2114,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:42.364117+00:00",
+    "scraped_at": "2026-05-23T06:10:17.898829+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4320_condition_report_34225080.pdf",
@@ -3874,7 +2161,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:50.455907+00:00",
+    "scraped_at": "2026-05-23T06:10:26.017912+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4272_condition_report_34225080.pdf",
@@ -3913,7 +2200,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:46:58.562736+00:00",
+    "scraped_at": "2026-05-23T06:10:34.210744+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4281_condition_report_34225080.pdf",
@@ -3949,7 +2236,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:06.655464+00:00",
+    "scraped_at": "2026-05-23T06:10:42.323295+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4296_condition_report_34225080.pdf",
@@ -3996,7 +2283,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:14.813738+00:00",
+    "scraped_at": "2026-05-23T06:10:50.436401+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4330_condition_report_34225080.pdf",
@@ -4024,7 +2311,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:22.820988+00:00",
+    "scraped_at": "2026-05-23T06:10:58.442364+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4209_condition_report_34225080.pdf",
@@ -4063,7 +2350,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:31.427505+00:00",
+    "scraped_at": "2026-05-23T06:11:06.871208+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4254_condition_report_34225080.pdf",
@@ -4110,7 +2397,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:39.556770+00:00",
+    "scraped_at": "2026-05-23T06:11:14.996607+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4336_condition_report_34225080.pdf",
@@ -4146,7 +2433,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:47.692496+00:00",
+    "scraped_at": "2026-05-23T06:11:23.138150+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4278_condition_report_34225080.pdf",
@@ -4182,13 +2469,53 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:47:55.793782+00:00",
+    "scraped_at": "2026-05-23T06:11:31.263538+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4298_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4298_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4298_condition_report_bbd2b7a8.pdf"
       ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4310",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/vehiculos-utilitarios-pick-ups-de-flota-equipos-de-izaje-y-herramientas-industriales-4310",
+    "title": "Vehículos utilitarios, pick-ups de flota, equipos de izaje y herramientas industriales.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: 24 de Septiembre 246, S2000 Rosario, Santa Fe Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-06-05T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-05-23T06:11:39.392128+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4310_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4310_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4310_condition_report_bbd2b7a8.pdf"
+      ],
+      "is_opportunity": true,
+      "opportunity_reason": "factory",
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "fleet",
+          "factory"
+        ],
+        "confidence": 0.6,
+        "why_premium": "Detected: fleet, factory"
+      }
     },
     "lots": [],
     "lot_count": 0
@@ -4210,7 +2537,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:48:03.905640+00:00",
+    "scraped_at": "2026-05-23T06:11:47.517668+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4317_condition_report_34225080.pdf",
@@ -4786,7 +3113,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:48:12.058436+00:00",
+    "scraped_at": "2026-05-23T06:11:55.651342+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4321_condition_report_34225080.pdf",
@@ -4814,7 +3141,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:48:20.163002+00:00",
+    "scraped_at": "2026-05-23T06:12:03.769244+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4325_condition_report_34225080.pdf",
@@ -4842,7 +3169,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:48:28.265502+00:00",
+    "scraped_at": "2026-05-23T06:12:11.892224+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4332_condition_report_34225080.pdf",
@@ -4872,13 +3199,13 @@
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": null,
+    "ends_at": "2026-06-05T00:00:00",
     "location": {
       "province": "Buenos Aires",
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:48:36.376837+00:00",
+    "scraped_at": "2026-05-23T06:12:20.021278+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4340_condition_report_34225080.pdf",
@@ -5766,7 +4093,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-22T06:48:44.477612+00:00",
+    "scraped_at": "2026-05-23T06:12:28.161213+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
@@ -5786,7 +4113,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:69501932",
+    "id": "adrian_mercado:70571642",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "¡Crédito ilimitado para Ofertar!",
@@ -5804,7 +4131,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-05-22T06:44:27.619062+00:00",
+    "scraped_at": "2026-05-23T06:08:43.066695+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

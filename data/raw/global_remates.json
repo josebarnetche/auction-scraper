@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3242",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3242",
-    "title": "Procesos Patagonicos S.R.L.",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-05-28T06:49:00.160850+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3241",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3241",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-28T06:49:00.160991+00:00",
+    "scraped_at": "2026-05-29T06:48:55.535592+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-28T06:49:00.161111+00:00",
+    "scraped_at": "2026-05-29T06:48:55.535738+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-28T06:49:00.161226+00:00",
+    "scraped_at": "2026-05-29T06:48:55.535871+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-05-28T06:49:00.161324+00:00",
+    "scraped_at": "2026-05-29T06:48:55.535974+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3246",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3246",
+    "title": "Global Maquinarias",
+    "description": "",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-05-29T06:48:55.536089+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3243/42059/3192_Lote_02.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.162895+00:00",
+    "scraped_at": "2026-05-29T06:48:55.537829+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3243/42061/3192_Lote_04.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.163177+00:00",
+    "scraped_at": "2026-05-29T06:48:55.538153+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -161,10 +161,10 @@
     "id": "global_remates:lot_42163",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42163",
-    "title": "Corteva Agriscience TOYOTA HILUX 4X2 D/C DX 2.4 TDI 6 M/... ERISK",
+    "title": "Corteva Agriscience TOYOTA HILUX 4X2 D/C DX 2.4 TDI 6 M/... Cuti",
     "description": "",
     "category": "vehicles",
-    "base_price": 25894340.0,
+    "base_price": 26394340.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3248/42163/3248_Lote_03.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.163481+00:00",
+    "scraped_at": "2026-05-29T06:48:55.538490+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3248/42167/3248_Lote_07.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.163739+00:00",
+    "scraped_at": "2026-05-29T06:48:55.538792+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -209,10 +209,10 @@
     "id": "global_remates:lot_42169",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42169",
-    "title": "Corteva Agriscience TOYOTA COROLLA XLT 1.8 CVT, MOD. 20... julf3",
+    "title": "Corteva Agriscience TOYOTA COROLLA XLT 1.8 CVT, MOD. 20... Cuti",
     "description": "",
     "category": "vehicles",
-    "base_price": 13940080.0,
+    "base_price": 14240080.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -224,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3248/42169/3248_Lote_09.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.163987+00:00",
+    "scraped_at": "2026-05-29T06:48:55.539085+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3245/42101/3245_Lote_03.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.164263+00:00",
+    "scraped_at": "2026-05-29T06:48:55.539425+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3245/42102/3245_Lote_04.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.164535+00:00",
+    "scraped_at": "2026-05-29T06:48:55.539723+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3245/42103/3245_Lote_05.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.164790+00:00",
+    "scraped_at": "2026-05-29T06:48:55.540010+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3244/42064/3195_Lote_02.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.165045+00:00",
+    "scraped_at": "2026-05-29T06:48:55.540315+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3244/42069/3195_Lote_07.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.165311+00:00",
+    "scraped_at": "2026-05-29T06:48:55.540616+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3244/42076/3195_Lote_16.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.165553+00:00",
+    "scraped_at": "2026-05-29T06:48:55.540898+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +392,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3244/42082/3195_Lote_23.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.165786+00:00",
+    "scraped_at": "2026-05-29T06:48:55.541171+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -416,7 +416,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3244/42098/3195_Lote_43.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.166034+00:00",
+    "scraped_at": "2026-05-29T06:48:55.541487+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +440,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3246/42104/3246_Lote_01.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.166281+00:00",
+    "scraped_at": "2026-05-29T06:48:55.541775+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -464,7 +464,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3246/42105/3246_Lote_02.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.166562+00:00",
+    "scraped_at": "2026-05-29T06:48:55.542079+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -488,7 +488,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3246/42106/3246_Lote_03.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.166824+00:00",
+    "scraped_at": "2026-05-29T06:48:55.542402+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -512,7 +512,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3247/42109/3227_Lote_03.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.167073+00:00",
+    "scraped_at": "2026-05-29T06:48:55.542685+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -536,7 +536,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3247/42115/3227_Lote_09.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.167320+00:00",
+    "scraped_at": "2026-05-29T06:48:55.542962+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -560,7 +560,55 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3247/42117/3227_Lote_11.jpg"
     ],
-    "scraped_at": "2026-05-28T06:49:00.167553+00:00",
+    "scraped_at": "2026-05-29T06:48:55.543255+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42173",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42173",
+    "title": "Global Maquinarias LOTE DE 10 BICICLETAS MTB 29\" X-RACE...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 4000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-06-23T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3249/42173/3249_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-05-29T06:48:55.543536+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42175",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42175",
+    "title": "Global Maquinarias LOTE DE 10 BICICLETAS MTB 29\" X-RACE...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 4000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-06-23T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3249/42175/3249_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-05-29T06:48:55.543807+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

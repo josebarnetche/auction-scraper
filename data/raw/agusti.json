@@ -1,908 +1,5 @@
 [
   {
-    "id": "agusti:3225_1",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=1",
-    "title": "RENAULT DUSTER CONFORT 1.6 4X2 ABS RUR",
-    "description": "USADO, CON DETERIOROS Y FALTANTES, EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000001/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:00.582989+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_2",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=2",
-    "title": "PICK UP NISSAN FRONTIER CD S 2.3 D 4X4",
-    "description": "USADO, CON DETERIOROS Y FALTANTES, EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 1540000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000002/000007.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:04.734172+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "frontier",
-        "min_usd": 12000,
-        "max_usd": 45000,
-        "typical_usd": 25000,
-        "category": "vehicles"
-      },
-      "discount_percent": 95.1,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_3",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=3",
-    "title": "PICK UP DOBLE CABINA RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 8000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000003/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:08.883466+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_4",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=4",
-    "title": "RENAULT KANGOO PH3 CONFORT 1.6 5ASIENT",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRE Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "real_estate",
-    "base_price": 6500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000004/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:13.033819+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_5",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=5",
-    "title": "PICK UP DOBLE CABINA RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 8000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000005/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:17.182746+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_6",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=6",
-    "title": "PICK UP FORD NUEVA RANGER CS 4X4 XL 2.",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 12000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000006/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:21.331015+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 65.7,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_7",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=7",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000007/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:25.482770+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_8",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=8",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000008/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:29.646682+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_9",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=9",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000009/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:33.798198+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_10",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=10",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000010/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:37.951439+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_11",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=11",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000011/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:42.101458+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_12",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=12",
-    "title": "RENAULT KANGOO PH3 CONFORT 1.6 5ASIENT",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "real_estate",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000012/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:46.252016+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_13",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=13",
-    "title": "RENAULT KANGOO PH3 CONFORT 1.6 5ASIENT",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "real_estate",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000013/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:50.406116+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_14",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=14",
-    "title": "RENAULT KANGOO PH3 CONFORT 1.6 5ASIENT",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "real_estate",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000014/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:54.556118+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_15",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=15",
-    "title": "RENAULT KANGOO PH3 CONFORT 1.6 5ASIENT",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "real_estate",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000015/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:49:58.704800+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_16",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=16",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000016/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:02.856555+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_17",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=17",
-    "title": "PICK UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000017/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:07.010745+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 71.4,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_18",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=18",
-    "title": "PICK UP CABINA DOBLE RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000018/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:11.161413+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_19",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=19",
-    "title": "PIK UP CABINA DOBLE RENAULT DUSTER ORO",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 8500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000019/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:15.311708+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_20",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=20",
-    "title": "RENAULT KANGOO PH3 CONFORT 1.6 5ASIENT",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "real_estate",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000020/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:19.462620+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_21",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=21",
-    "title": "PICK-UP CABINA DOBLE RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 8500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000021/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:23.629445+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_22",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=22",
-    "title": "PICK-UP CABINA DOBLE RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
-    "category": "vehicles",
-    "base_price": 8500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000004.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000005.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000006.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000007.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000008.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000022/000009.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:27.779422+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_23",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=23",
-    "title": "PICK-UP CABINA DOBLE RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: RUTA PROVINCIAL N° 302, KM 7   0 Tucuman CEVIL POZO CONTACTO: A CONFIRMAR VISITAS: A CONFIRMAR // COORDINAR LAS MISMAS CON AL MENOS 48HS DE ANTICIPACION COMUNICANDOSE A LOS SIGUIENTES NUMEROS: 4632-7755 O 4631-0676.",
-    "category": "vehicles",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Tucumán",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000023/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000023/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000023/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000023/000004.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:31.930261+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_24",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=24",
-    "title": "PICK-UP CABINA DOBLE RENAULT DUSTER OR",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: RUTA PROVINCIAL N° 302, KM 7   0 Tucuman CEVIL POZO CONTACTO: A CONFIRMAR VISITAS: A CONFIRMAR // COORDINAR LAS MISMAS CON AL MENOS 48HS DE ANTICIPACION COMUNICANDOSE A LOS SIGUIENTES NUMEROS: 4632-7755 O 4631-0676.",
-    "category": "vehicles",
-    "base_price": 6500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Tucumán",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000024/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000024/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000024/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000024/000004.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:36.081409+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3225_25",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3225&lid=25",
-    "title": "PICK-UP FORD RANGER2 DC 4X4 XL SAFETY",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: RUTA PROVINCIAL N° 302, KM 7   0 Tucuman CEVIL POZO CONTACTO: A CONFIRMAR VISITAS: A CONFIRMAR // COORDINAR LAS MISMAS CON AL MENOS 48HS DE ANTICIPACION COMUNICANDOSE A LOS SIGUIENTES NUMEROS: 4632-7755 O 4631-0676.",
-    "category": "vehicles",
-    "base_price": 8000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Tucumán",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000025/000001.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000025/000002.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000025/000003.jpg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003225/00000025/000004.jpg"
-    ],
-    "scraped_at": "2026-05-29T06:50:40.233003+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      },
-      "discount_percent": 77.1,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "agusti:3231_1",
     "source": "agusti",
     "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3231&lid=1",
@@ -925,7 +22,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000001/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000001/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:50:44.386076+00:00",
+    "scraped_at": "2026-05-30T06:19:06.327153+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -958,7 +55,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000002/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000002/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:50:48.537882+00:00",
+    "scraped_at": "2026-05-30T06:19:10.503457+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -990,7 +87,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000003/000017.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000003/000018.jpg"
     ],
-    "scraped_at": "2026-05-29T06:50:52.714958+00:00",
+    "scraped_at": "2026-05-30T06:19:14.680503+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1020,7 +117,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000004/000006.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000004/000007.jpg"
     ],
-    "scraped_at": "2026-05-29T06:50:56.866130+00:00",
+    "scraped_at": "2026-05-30T06:19:18.856906+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1051,7 +148,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000005/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000005/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:01.024820+00:00",
+    "scraped_at": "2026-05-30T06:19:23.036495+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1079,7 +176,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000006/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000006/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:05.177763+00:00",
+    "scraped_at": "2026-05-30T06:19:27.216616+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1112,7 +209,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000007/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000007/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:09.329715+00:00",
+    "scraped_at": "2026-05-30T06:19:31.393411+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1145,7 +242,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000008/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000008/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:13.476805+00:00",
+    "scraped_at": "2026-05-30T06:19:35.570431+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1178,7 +275,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000009/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000009/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:17.625620+00:00",
+    "scraped_at": "2026-05-30T06:19:39.749798+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1209,7 +306,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000010/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000010/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:21.772987+00:00",
+    "scraped_at": "2026-05-30T06:19:43.929756+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1241,7 +338,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000011/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000011/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:25.922141+00:00",
+    "scraped_at": "2026-05-30T06:19:48.108339+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1273,7 +370,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000012/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000012/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:30.071506+00:00",
+    "scraped_at": "2026-05-30T06:19:52.290157+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -1317,7 +414,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000013/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000013/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:34.221320+00:00",
+    "scraped_at": "2026-05-30T06:19:56.470024+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1349,7 +446,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000014/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000014/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:38.374329+00:00",
+    "scraped_at": "2026-05-30T06:20:00.670011+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1381,7 +478,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000016/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000016/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:42.539212+00:00",
+    "scraped_at": "2026-05-30T06:20:04.846724+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1413,7 +510,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000017/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000017/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:46.689913+00:00",
+    "scraped_at": "2026-05-30T06:20:09.030049+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1445,7 +542,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000018/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000018/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:50.839012+00:00",
+    "scraped_at": "2026-05-30T06:20:13.208075+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1476,7 +573,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000020/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000020/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:54.990796+00:00",
+    "scraped_at": "2026-05-30T06:20:17.386585+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1508,7 +605,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000021/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000021/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:51:59.141721+00:00",
+    "scraped_at": "2026-05-30T06:20:21.567674+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1539,7 +636,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000022/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000022/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:03.298915+00:00",
+    "scraped_at": "2026-05-30T06:20:25.745113+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -1583,7 +680,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000023/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000023/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:07.453689+00:00",
+    "scraped_at": "2026-05-30T06:20:29.923656+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -1627,7 +724,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000024/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000024/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:11.604316+00:00",
+    "scraped_at": "2026-05-30T06:20:34.102272+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1659,7 +756,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000028/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000028/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:15.765441+00:00",
+    "scraped_at": "2026-05-30T06:20:38.285505+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1691,7 +788,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000032/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000032/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:19.914933+00:00",
+    "scraped_at": "2026-05-30T06:20:42.464876+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1723,7 +820,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000034/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000034/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:24.066819+00:00",
+    "scraped_at": "2026-05-30T06:20:46.643281+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -1767,7 +864,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000036/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000036/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:28.215571+00:00",
+    "scraped_at": "2026-05-30T06:20:50.822482+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -1810,7 +907,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000042/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000042/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:32.366658+00:00",
+    "scraped_at": "2026-05-30T06:20:55.000626+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1842,7 +939,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000043/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000043/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:36.516296+00:00",
+    "scraped_at": "2026-05-30T06:20:59.179314+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1874,7 +971,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000044/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000044/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:40.665466+00:00",
+    "scraped_at": "2026-05-30T06:21:03.357642+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1906,7 +1003,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000045/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000045/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:44.953021+00:00",
+    "scraped_at": "2026-05-30T06:21:07.537929+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1938,7 +1035,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000046/000017.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000046/000018.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:49.100521+00:00",
+    "scraped_at": "2026-05-30T06:21:11.740128+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1970,7 +1067,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000048/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000048/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:53.247275+00:00",
+    "scraped_at": "2026-05-30T06:21:15.918196+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2001,7 +1098,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000051/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000051/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:52:57.396328+00:00",
+    "scraped_at": "2026-05-30T06:21:20.098578+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2029,7 +1126,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000062/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000062/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:01.546743+00:00",
+    "scraped_at": "2026-05-30T06:21:24.273713+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2060,7 +1157,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000063/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000063/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:05.694913+00:00",
+    "scraped_at": "2026-05-30T06:21:28.453972+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2088,7 +1185,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000064/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000064/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:09.843815+00:00",
+    "scraped_at": "2026-05-30T06:21:32.635623+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2116,7 +1213,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000065/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000065/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:13.998385+00:00",
+    "scraped_at": "2026-05-30T06:21:36.813040+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2148,7 +1245,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000066/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000066/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:18.147918+00:00",
+    "scraped_at": "2026-05-30T06:21:40.991611+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2192,7 +1289,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000067/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000067/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:22.299061+00:00",
+    "scraped_at": "2026-05-30T06:21:45.169734+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2224,7 +1321,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000068/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000068/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:26.447124+00:00",
+    "scraped_at": "2026-05-30T06:21:49.347547+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2268,7 +1365,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000069/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000069/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:30.597539+00:00",
+    "scraped_at": "2026-05-30T06:21:53.529033+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2300,7 +1397,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000070/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000070/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:34.748088+00:00",
+    "scraped_at": "2026-05-30T06:21:57.706791+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2328,7 +1425,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000071/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000071/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:38.898696+00:00",
+    "scraped_at": "2026-05-30T06:22:01.883634+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2356,7 +1453,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000072/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003231/00000072/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:43.049404+00:00",
+    "scraped_at": "2026-05-30T06:22:06.063712+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2388,7 +1485,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000001/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000001/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:47.199732+00:00",
+    "scraped_at": "2026-05-30T06:22:10.241287+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2441,7 +1538,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000002/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000002/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:51.351209+00:00",
+    "scraped_at": "2026-05-30T06:22:14.421512+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2495,7 +1592,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000003/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000003/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:55.501333+00:00",
+    "scraped_at": "2026-05-30T06:22:18.608038+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2547,7 +1644,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000004/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000004/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:53:59.651306+00:00",
+    "scraped_at": "2026-05-30T06:22:22.788863+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2600,7 +1697,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000005/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000005/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:54:03.802191+00:00",
+    "scraped_at": "2026-05-30T06:22:26.966515+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2653,7 +1750,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000006/000017.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000006/000018.jpg"
     ],
-    "scraped_at": "2026-05-29T06:54:07.952046+00:00",
+    "scraped_at": "2026-05-30T06:22:31.151624+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2707,7 +1804,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000007/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003233/00000007/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:54:12.105273+00:00",
+    "scraped_at": "2026-05-30T06:22:35.330344+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -2760,7 +1857,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003234/00000001/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003234/00000001/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:54:16.254943+00:00",
+    "scraped_at": "2026-05-30T06:22:39.509184+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2791,7 +1888,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003234/00000002/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003234/00000002/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:54:20.402846+00:00",
+    "scraped_at": "2026-05-30T06:22:43.685828+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2822,144 +1919,8 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003234/00000003/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003234/00000003/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:54:24.561457+00:00",
+    "scraped_at": "2026-05-30T06:22:47.875072+00:00",
     "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3235_1",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3235&lid=1",
-    "title": "CHASIS C/CABINA DOR SCANIA P340 B4X2 D",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL STADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: RUTA 7 INDUSTRIALES NEUQUINOS Y CALLE  4 Neuquen NEUQUEN CONTACTO: GASTON AHUMADA VISITAS: LOS DIAS 27 Y 28 DE MAYO, DE 9 A 16HS.",
-    "category": "vehicles",
-    "base_price": 43000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Neuquén",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000001/000001.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000001/000002.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000001/000003.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000001/000004.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000001/000005.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000001/000006.jfif"
-    ],
-    "scraped_at": "2026-05-29T06:54:28.711985+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "scania",
-        "min_usd": 30000,
-        "max_usd": 120000,
-        "typical_usd": 55000,
-        "category": "vehicles"
-      },
-      "discount_percent": 37.5,
-      "is_opportunity": true,
-      "opportunity_reason": "factory",
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "factory",
-        "premium_types": [
-          "factory"
-        ],
-        "confidence": 0.3,
-        "why_premium": "Detected: factory"
-      }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3235_2",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3235&lid=2",
-    "title": "CHASIS C/ CABINA FORD CARGO 1722 CON H",
-    "description": "USADO CON DETERIOROS Y FALTANTES EN EL STADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: RUTA 7 INDUSTRIALES NEUQUINOS Y CALLE  4 Neuquen NEUQUEN CONTACTO: GASTON AHUMADA VISITAS: LOS DIAS 27 Y 28 DE MAYO, DE 9 A 16HS.",
-    "category": "vehicles",
-    "base_price": 38000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Neuquén",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000001.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000002.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000003.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000004.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000005.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000006.jfif",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000002/000007.jfif"
-    ],
-    "scraped_at": "2026-05-29T06:54:32.863076+00:00",
-    "extra": {
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "factory",
-        "premium_types": [
-          "factory"
-        ],
-        "confidence": 0.3,
-        "why_premium": "Detected: factory"
-      },
-      "is_opportunity": true,
-      "opportunity_reason": "factory"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "agusti:3235_3",
-    "source": "agusti",
-    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3235&lid=3",
-    "title": "CHASIS CON CABINA FORD F-4000 D CON HI",
-    "description": "USADO, CON DETERIOROS Y FALTANTES EN EL ESTADSO EN QUE SE ENCUENTRA Y EXHIBE\" Video del Lote: Ver Detalles: Exhibición: TIRSO LOPEZ 550 - B° PARQUE INDUSTRIAL 550 Chubut COMODORO RIVADAVIA CONTACTO: JOSE BARRIENTOS VISITAS: 27 Y 28 DE MAYODE 9 A 16 HS .",
-    "category": "vehicles",
-    "base_price": 48000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-05-29T00:00:00",
-    "location": {
-      "province": "Chubut",
-      "city": ""
-    },
-    "images": [
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000001.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000002.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000003.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000004.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000005.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000006.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000007.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000008.jpeg",
-      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003235/00000003/000009.jpeg"
-    ],
-    "scraped_at": "2026-05-29T06:54:37.013559+00:00",
-    "extra": {
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "factory",
-        "premium_types": [
-          "factory"
-        ],
-        "confidence": 0.3,
-        "why_premium": "Detected: factory"
-      },
-      "is_opportunity": true,
-      "opportunity_reason": "factory"
-    },
     "lots": [],
     "lot_count": 0
   },
@@ -2991,7 +1952,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000001/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000001/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:54:41.165056+00:00",
+    "scraped_at": "2026-05-30T06:22:52.055720+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3036,7 +1997,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000002/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000002/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:54:45.317900+00:00",
+    "scraped_at": "2026-05-30T06:22:56.232596+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3081,7 +2042,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000003/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000003/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:54:49.468713+00:00",
+    "scraped_at": "2026-05-30T06:23:00.412241+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3126,7 +2087,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000004/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000004/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:54:53.623961+00:00",
+    "scraped_at": "2026-05-30T06:23:04.591635+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3171,7 +2132,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000005/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000005/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:54:57.795178+00:00",
+    "scraped_at": "2026-05-30T06:23:08.770377+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3216,7 +2177,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000006/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003236/00000006/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:55:01.949005+00:00",
+    "scraped_at": "2026-05-30T06:23:12.952625+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3256,7 +2217,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000001/000004.png",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000001/000005.png"
     ],
-    "scraped_at": "2026-05-29T06:55:06.101567+00:00",
+    "scraped_at": "2026-05-30T06:23:17.131224+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3283,7 +2244,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000002/000003.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000002/000004.jpg"
     ],
-    "scraped_at": "2026-05-29T06:55:10.255633+00:00",
+    "scraped_at": "2026-05-30T06:23:21.310240+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3324,7 +2285,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000003/000005.png",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000003/000006.png"
     ],
-    "scraped_at": "2026-05-29T06:55:14.409500+00:00",
+    "scraped_at": "2026-05-30T06:23:25.488699+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3364,7 +2325,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000004/000004.png",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000004/000005.png"
     ],
-    "scraped_at": "2026-05-29T06:55:18.565568+00:00",
+    "scraped_at": "2026-05-30T06:23:29.666076+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3403,7 +2364,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000005/000003.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000005/000004.png"
     ],
-    "scraped_at": "2026-05-29T06:55:22.719944+00:00",
+    "scraped_at": "2026-05-30T06:23:33.846478+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3442,7 +2403,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000006/000003.png",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003237/00000006/000004.jpg"
     ],
-    "scraped_at": "2026-05-29T06:55:26.871387+00:00",
+    "scraped_at": "2026-05-30T06:23:38.026815+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3487,7 +2448,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000001/000009.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000001/000010.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:55:31.024205+00:00",
+    "scraped_at": "2026-05-30T06:23:42.205420+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3518,7 +2479,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000002/000007.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000002/000008.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:55:35.184710+00:00",
+    "scraped_at": "2026-05-30T06:23:46.386191+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3550,7 +2511,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000003/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000003/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:55:39.340447+00:00",
+    "scraped_at": "2026-05-30T06:23:50.566149+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3578,7 +2539,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000004/000004.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000004/000005.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:55:43.492556+00:00",
+    "scraped_at": "2026-05-30T06:23:54.745182+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3607,7 +2568,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000005/000005.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000005/000006.jpg"
     ],
-    "scraped_at": "2026-05-29T06:55:47.643351+00:00",
+    "scraped_at": "2026-05-30T06:23:58.922631+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3636,7 +2597,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000006/000005.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000006/000006.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:55:51.798559+00:00",
+    "scraped_at": "2026-05-30T06:24:03.105297+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3664,7 +2625,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000007/000004.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000007/000005.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:55:55.954099+00:00",
+    "scraped_at": "2026-05-30T06:24:07.281319+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3691,7 +2652,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000008/000003.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000008/000004.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:56:00.106997+00:00",
+    "scraped_at": "2026-05-30T06:24:11.468996+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3721,7 +2682,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000009/000006.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000009/000007.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:04.270255+00:00",
+    "scraped_at": "2026-05-30T06:24:15.647202+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3761,7 +2722,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000010/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000010/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:08.422866+00:00",
+    "scraped_at": "2026-05-30T06:24:19.827526+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3801,7 +2762,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000011/000006.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000011/000007.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:56:12.575686+00:00",
+    "scraped_at": "2026-05-30T06:24:24.006549+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3845,7 +2806,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000012/000008.JPEG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000012/000009.JPEG"
     ],
-    "scraped_at": "2026-05-29T06:56:16.729536+00:00",
+    "scraped_at": "2026-05-30T06:24:28.185834+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3888,7 +2849,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000013/000007.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000013/000008.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:56:20.882013+00:00",
+    "scraped_at": "2026-05-30T06:24:32.365655+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3924,7 +2885,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000019/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:56:25.032852+00:00",
+    "scraped_at": "2026-05-30T06:24:36.540879+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -3969,7 +2930,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000001/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000001/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:56:29.184912+00:00",
+    "scraped_at": "2026-05-30T06:24:40.719789+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4002,7 +2963,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000002/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000002/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:56:33.337651+00:00",
+    "scraped_at": "2026-05-30T06:24:44.898633+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4033,7 +2994,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000001/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000001/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:37.489634+00:00",
+    "scraped_at": "2026-05-30T06:24:49.082189+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4066,7 +3027,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000002/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000002/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:41.641094+00:00",
+    "scraped_at": "2026-05-30T06:24:53.264373+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4098,7 +3059,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000003/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000003/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:45.802694+00:00",
+    "scraped_at": "2026-05-30T06:24:57.445220+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4131,7 +3092,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000004/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000004/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:49.955640+00:00",
+    "scraped_at": "2026-05-30T06:25:01.627630+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4176,7 +3137,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000005/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000005/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:54.115156+00:00",
+    "scraped_at": "2026-05-30T06:25:05.811481+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4219,7 +3180,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000006/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000006/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:56:58.268623+00:00",
+    "scraped_at": "2026-05-30T06:25:09.994111+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4264,7 +3225,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000007/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000007/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:02.422865+00:00",
+    "scraped_at": "2026-05-30T06:25:14.191624+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4307,7 +3268,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000008/000007.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000008/000008.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:06.577145+00:00",
+    "scraped_at": "2026-05-30T06:25:18.373897+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4352,7 +3313,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000009/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000009/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:10.741066+00:00",
+    "scraped_at": "2026-05-30T06:25:22.552157+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4384,7 +3345,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000010/000008.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000010/000009.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:14.894520+00:00",
+    "scraped_at": "2026-05-30T06:25:26.730836+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4429,7 +3390,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000001/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000001/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:57:19.048540+00:00",
+    "scraped_at": "2026-05-30T06:25:30.911725+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4474,7 +3435,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000002/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000002/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:57:23.207743+00:00",
+    "scraped_at": "2026-05-30T06:25:35.094363+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4519,7 +3480,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000003/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000003/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:57:27.372121+00:00",
+    "scraped_at": "2026-05-30T06:25:39.274472+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4564,7 +3525,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000004/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000004/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:57:31.529900+00:00",
+    "scraped_at": "2026-05-30T06:25:43.456560+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4596,7 +3557,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000005/000008.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003264/00000005/000009.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:57:35.683359+00:00",
+    "scraped_at": "2026-05-30T06:25:47.637635+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4622,7 +3583,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000018/000002.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000018/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:39.835938+00:00",
+    "scraped_at": "2026-05-30T06:25:51.823476+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4646,7 +3607,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000021/000001.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:57:44.001258+00:00",
+    "scraped_at": "2026-05-30T06:25:56.001523+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4672,7 +3633,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000022/000002.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000022/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:48.152865+00:00",
+    "scraped_at": "2026-05-30T06:26:00.183209+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4698,7 +3659,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000001/000002.jfif",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000001/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:52.308076+00:00",
+    "scraped_at": "2026-05-30T06:26:04.364577+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4724,7 +3685,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000002/000002.jfif",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000002/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:57:56.459675+00:00",
+    "scraped_at": "2026-05-30T06:26:08.548818+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4750,7 +3711,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000003/000002.jfif",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000003/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:58:00.610890+00:00",
+    "scraped_at": "2026-05-30T06:26:12.731514+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4776,7 +3737,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000004/000002.jfif",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003256/00000004/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:58:04.764091+00:00",
+    "scraped_at": "2026-05-30T06:26:16.913743+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4808,7 +3769,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000006/000008.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000006/000009.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:58:08.916563+00:00",
+    "scraped_at": "2026-05-30T06:26:21.098307+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4851,7 +3812,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000011/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000011/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:58:13.069905+00:00",
+    "scraped_at": "2026-05-30T06:26:25.280507+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -4893,7 +3854,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000012/000006.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000012/000007.jpg"
     ],
-    "scraped_at": "2026-05-29T06:58:17.223126+00:00",
+    "scraped_at": "2026-05-30T06:26:29.464187+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4917,7 +3878,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000001/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:21.519050+00:00",
+    "scraped_at": "2026-05-30T06:26:33.645688+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4941,7 +3902,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000002/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:25.670562+00:00",
+    "scraped_at": "2026-05-30T06:26:37.827889+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4965,7 +3926,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000003/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:29.828122+00:00",
+    "scraped_at": "2026-05-30T06:26:42.008501+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4989,7 +3950,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000004/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:33.992008+00:00",
+    "scraped_at": "2026-05-30T06:26:46.187371+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5013,7 +3974,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000005/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:38.145719+00:00",
+    "scraped_at": "2026-05-30T06:26:50.367765+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5037,7 +3998,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000006/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:42.299007+00:00",
+    "scraped_at": "2026-05-30T06:26:54.549944+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5061,7 +4022,39 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003252/00000007/000001.png"
     ],
-    "scraped_at": "2026-05-29T06:58:46.453095+00:00",
+    "scraped_at": "2026-05-30T06:26:58.732181+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "agusti:3265_1",
+    "source": "agusti",
+    "source_url": "https://www.agustisubastas.com.ar/Default.aspx?mnu=detalle&sid=3265&lid=1",
+    "title": "LINEA DE TREFILACION DE CABLES DE COBR",
+    "description": "USADO EN EL ESTADO EN QUE SE ENCUENTRA Y EXHIBE Video del Lote: Ver Detalles: Exhibición: AUT.",
+    "category": "other",
+    "base_price": 3000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-06-23T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000001.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000002.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000003.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000004.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000005.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000006.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000007.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000008.jpg",
+      "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003265/00000001/000009.jpg"
+    ],
+    "scraped_at": "2026-05-30T06:27:02.916881+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5094,7 +4087,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000005/000009.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003251/00000005/000010.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:58:50.604937+00:00",
+    "scraped_at": "2026-05-30T06:27:07.102453+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5145,7 +4138,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003258/00000001/000006.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003258/00000001/000007.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:58:54.757466+00:00",
+    "scraped_at": "2026-05-30T06:27:11.285199+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5171,7 +4164,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000001/000002.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000001/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:58:58.910712+00:00",
+    "scraped_at": "2026-05-30T06:27:15.470364+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5197,7 +4190,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000002/000002.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000002/000003.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:03.064726+00:00",
+    "scraped_at": "2026-05-30T06:27:19.652351+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5225,7 +4218,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000003/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000003/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:07.217773+00:00",
+    "scraped_at": "2026-05-30T06:27:23.832485+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5254,7 +4247,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000004/000005.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000004/000006.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:11.383573+00:00",
+    "scraped_at": "2026-05-30T06:27:28.014782+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5296,7 +4289,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000005/000006.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000005/000007.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:15.538445+00:00",
+    "scraped_at": "2026-05-30T06:27:32.194603+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5338,7 +4331,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000006/000006.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000006/000007.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:19.692106+00:00",
+    "scraped_at": "2026-05-30T06:27:36.377473+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5378,7 +4371,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000007/000004.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000007/000005.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:59:23.846247+00:00",
+    "scraped_at": "2026-05-30T06:27:40.557793+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5417,7 +4410,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000008/000003.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000008/000004.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:59:28.001497+00:00",
+    "scraped_at": "2026-05-30T06:27:44.738177+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5456,7 +4449,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000009/000003.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000009/000004.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:59:32.154562+00:00",
+    "scraped_at": "2026-05-30T06:27:48.919986+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5494,7 +4487,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000010/000002.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000010/000003.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:59:36.305897+00:00",
+    "scraped_at": "2026-05-30T06:27:53.102350+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5532,7 +4525,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000011/000002.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003260/00000011/000003.jpeg"
     ],
-    "scraped_at": "2026-05-29T06:59:40.464508+00:00",
+    "scraped_at": "2026-05-30T06:27:57.284155+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -5577,7 +4570,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003263/00000001/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003263/00000001/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:44.615964+00:00",
+    "scraped_at": "2026-05-30T06:28:01.464747+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5610,7 +4603,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000014/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000014/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:48.769934+00:00",
+    "scraped_at": "2026-05-30T06:28:05.665619+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5638,7 +4631,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000015/000004.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000015/000005.jpg"
     ],
-    "scraped_at": "2026-05-29T06:59:52.922506+00:00",
+    "scraped_at": "2026-05-30T06:28:09.849391+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5664,7 +4657,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000016/000002.JPG",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000016/000003.JPG"
     ],
-    "scraped_at": "2026-05-29T06:59:57.075541+00:00",
+    "scraped_at": "2026-05-30T06:28:14.031357+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5688,7 +4681,7 @@
     "images": [
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000017/000001.JPG"
     ],
-    "scraped_at": "2026-05-29T07:00:01.228739+00:00",
+    "scraped_at": "2026-05-30T06:28:18.209820+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5716,7 +4709,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000020/000004.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003238/00000020/000005.jpeg"
     ],
-    "scraped_at": "2026-05-29T07:00:05.385554+00:00",
+    "scraped_at": "2026-05-30T06:28:22.391222+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5741,7 +4734,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000001/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000001/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:09.539457+00:00",
+    "scraped_at": "2026-05-30T06:28:26.572311+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5766,7 +4759,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000002/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000002/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:13.694649+00:00",
+    "scraped_at": "2026-05-30T06:28:30.766853+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5791,7 +4784,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000003/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000003/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:17.848021+00:00",
+    "scraped_at": "2026-05-30T06:28:34.948521+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5816,7 +4809,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000004/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000004/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:22.001654+00:00",
+    "scraped_at": "2026-05-30T06:28:39.134662+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5841,7 +4834,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000005/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000005/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:26.157876+00:00",
+    "scraped_at": "2026-05-30T06:28:43.317899+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5866,7 +4859,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000006/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000006/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:30.312866+00:00",
+    "scraped_at": "2026-05-30T06:28:47.497995+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5891,7 +4884,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000007/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000007/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:34.468666+00:00",
+    "scraped_at": "2026-05-30T06:28:51.676404+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5916,7 +4909,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000008/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000008/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:38.622201+00:00",
+    "scraped_at": "2026-05-30T06:28:55.864290+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5941,7 +4934,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000009/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000009/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:42.778573+00:00",
+    "scraped_at": "2026-05-30T06:29:00.046236+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5966,7 +4959,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000010/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000010/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:46.935844+00:00",
+    "scraped_at": "2026-05-30T06:29:04.225466+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -5991,7 +4984,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000011/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000011/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:51.088574+00:00",
+    "scraped_at": "2026-05-30T06:29:08.404743+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6016,7 +5009,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000012/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000012/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:55.243626+00:00",
+    "scraped_at": "2026-05-30T06:29:12.586705+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6041,7 +5034,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000013/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000013/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:00:59.398128+00:00",
+    "scraped_at": "2026-05-30T06:29:16.765841+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6066,7 +5059,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000014/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000014/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:03.559421+00:00",
+    "scraped_at": "2026-05-30T06:29:20.947916+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6091,7 +5084,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000015/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000015/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:07.716524+00:00",
+    "scraped_at": "2026-05-30T06:29:25.130054+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6116,7 +5109,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000016/000001.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003249/00000016/000002.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:11.869659+00:00",
+    "scraped_at": "2026-05-30T06:29:29.317214+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6149,7 +5142,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003250/00000001/000009.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003250/00000001/000010.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:16.021943+00:00",
+    "scraped_at": "2026-05-30T06:29:33.501948+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6177,7 +5170,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000013/000004.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000013/000005.jpeg"
     ],
-    "scraped_at": "2026-05-29T07:01:20.175832+00:00",
+    "scraped_at": "2026-05-30T06:29:37.681463+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6208,7 +5201,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000014/000007.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000014/000008.jpeg"
     ],
-    "scraped_at": "2026-05-29T07:01:24.332452+00:00",
+    "scraped_at": "2026-05-30T06:29:41.862998+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6238,7 +5231,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000015/000006.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000015/000007.jpeg"
     ],
-    "scraped_at": "2026-05-29T07:01:28.485819+00:00",
+    "scraped_at": "2026-05-30T06:29:46.044751+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6267,7 +5260,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000016/000005.png",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000016/000006.png"
     ],
-    "scraped_at": "2026-05-29T07:01:32.640328+00:00",
+    "scraped_at": "2026-05-30T06:29:50.245330+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6294,7 +5287,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000017/000003.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000017/000004.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:36.794492+00:00",
+    "scraped_at": "2026-05-30T06:29:54.423769+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6324,7 +5317,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000018/000006.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000018/000007.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:40.948654+00:00",
+    "scraped_at": "2026-05-30T06:29:58.606980+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6352,7 +5345,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000019/000004.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000019/000005.jpeg"
     ],
-    "scraped_at": "2026-05-29T07:01:45.101606+00:00",
+    "scraped_at": "2026-05-30T06:30:02.787429+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6379,7 +5372,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000020/000003.jpeg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003257/00000020/000004.jpeg"
     ],
-    "scraped_at": "2026-05-29T07:01:49.255434+00:00",
+    "scraped_at": "2026-05-30T06:30:06.968682+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -6406,7 +5399,7 @@
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003259/00000001/000003.jpg",
       "https://imagenes.agustisubastas.com.ar/dtsImages/Lotes/00003259/00000001/000004.jpg"
     ],
-    "scraped_at": "2026-05-29T07:01:53.424614+00:00",
+    "scraped_at": "2026-05-30T06:30:11.154069+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

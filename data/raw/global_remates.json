@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:26:20.127356+00:00",
+    "scraped_at": "2026-06-12T07:18:38.213395+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:26:20.127478+00:00",
+    "scraped_at": "2026-06-12T07:18:38.213538+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:26:20.127577+00:00",
+    "scraped_at": "2026-06-12T07:18:38.213669+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +82,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:26:20.127655+00:00",
+    "scraped_at": "2026-06-12T07:18:38.213798+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,127 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:26:20.127741+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42064",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42064",
-    "title": "Kaufmann e Hijos S.R.L TORNO AUTOMÁTICO, MARCA CAMPORESI HA...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 1400000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-11T12:02:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3244/42064/3195_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-06-11T07:26:20.129314+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42069",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42069",
-    "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB A 42, CANTIDAD: 1...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1900000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-11T12:07:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3244/42069/3195_Lote_07.jpg"
-    ],
-    "scraped_at": "2026-06-11T07:26:20.129605+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42076",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42076",
-    "title": "Kaufmann e Hijos S.R.L FRESADORAS, CANTIDAD: LOTE DE 2 U. L...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 650000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-11T12:14:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3244/42076/3195_Lote_16.jpg"
-    ],
-    "scraped_at": "2026-06-11T07:26:20.129913+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42082",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42082",
-    "title": "Kaufmann e Hijos S.R.L LOTE DE 2 TORNOS, MARCA MOVILIO, CAN...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-11T12:20:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3244/42082/3195_Lote_23.jpg"
-    ],
-    "scraped_at": "2026-06-11T07:26:20.130164+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42098",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42098",
-    "title": "Kaufmann e Hijos S.R.L CALIBRE DIGITAL DE ALTURA, CANTIDAD:...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-11T12:36:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3244/42098/3195_Lote_43.jpg"
-    ],
-    "scraped_at": "2026-06-11T07:26:20.130427+00:00",
+    "scraped_at": "2026-06-12T07:18:38.213951+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3246/42104/3246_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.130673+00:00",
+    "scraped_at": "2026-06-12T07:18:38.215773+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3246/42105/3246_Lote_02.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.130947+00:00",
+    "scraped_at": "2026-06-12T07:18:38.216163+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3246/42106/3246_Lote_03.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.131203+00:00",
+    "scraped_at": "2026-06-12T07:18:38.216531+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3247/42109/3227_Lote_03.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.131466+00:00",
+    "scraped_at": "2026-06-12T07:18:38.216890+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3247/42115/3227_Lote_09.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.131707+00:00",
+    "scraped_at": "2026-06-12T07:18:38.217248+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3247/42117/3227_Lote_11.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.131943+00:00",
+    "scraped_at": "2026-06-12T07:18:38.217582+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3250/42177/3250_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.132174+00:00",
+    "scraped_at": "2026-06-12T07:18:38.217898+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -416,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3250/42178/3250_Lote_02.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.132435+00:00",
+    "scraped_at": "2026-06-12T07:18:38.218248+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3250/42180/3250_Lote_04.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.132667+00:00",
+    "scraped_at": "2026-06-12T07:18:38.218619+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -464,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42173/3249_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.132894+00:00",
+    "scraped_at": "2026-06-12T07:18:38.219058+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -488,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42175/3249_Lote_03.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.133129+00:00",
+    "scraped_at": "2026-06-12T07:18:38.219417+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -512,7 +392,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3251/42182/3251_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:20.133385+00:00",
+    "scraped_at": "2026-06-12T07:18:38.219768+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

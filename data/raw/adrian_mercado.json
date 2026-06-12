@@ -19,7 +19,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4347/13946d3c3b613fdb1661206d4c781ce2-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4347/13946d3c3b613fdb1661206d4c781ce2-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:38.271174+00:00",
+    "scraped_at": "2026-06-12T07:18:55.170724+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4347_condition_report_34225080.pdf",
@@ -354,28 +354,31 @@
     "lot_count": 14
   },
   {
-    "id": "adrian_mercado:4301",
+    "id": "adrian_mercado:4354",
     "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-cerro-vanguardia-sa-4301",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipamiento-industrial-hornos-de-temple-compresores-y-chillers-4354",
     "title": "Ver subasta",
-    "description": "Ubicación Ubicación Ubicación: Unnamed Rd,, Santa Cruz",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: , Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Lunes 15/06 y Martes 16/06 de 10:00 a 12:30hs Condiciones generales Descargar",
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-06-19T00:00:00",
+    "ends_at": "2026-06-17T00:00:00",
     "location": {
-      "province": "Córdoba",
+      "province": "Buenos Aires",
       "city": ""
     },
-    "images": [],
-    "scraped_at": "2026-06-11T07:26:46.286372+00:00",
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4354/74f0e84fa1daaa442fb31e4d55d87e06-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4354/74f0e84fa1daaa442fb31e4d55d87e06-mobile.jpg"
+    ],
+    "scraped_at": "2026-06-12T07:19:03.377908+00:00",
     "extra": {
       "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf"
+        "data/documents/adrian_mercado/adrian_mercado:4354_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4354_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4354_condition_report_bbd2b7a8.pdf"
       ]
     },
     "lots": [],
@@ -401,7 +404,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4353/a667f8080ec642dd24bae7c6b9e25f6a-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4353/a667f8080ec642dd24bae7c6b9e25f6a-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:26:54.616821+00:00",
+    "scraped_at": "2026-06-12T07:19:11.846637+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4353_condition_report_34225080.pdf",
@@ -4990,48 +4993,6 @@
     "lot_count": 212
   },
   {
-    "id": "adrian_mercado:4354",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipamiento-industrial-hornos-de-temple-compresores-y-chillers-4354",
-    "title": "SUBASTA EN VIVOSubasta de equipamiento industrial: hornos de temple, compresores y chillersPor c/o de SKF Argentina S.A.Miércoles\n                    17/6/2026A confirmarID 2104",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: , Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Condiciones generales Descargar",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-17T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4354/74f0e84fa1daaa442fb31e4d55d87e06-desktop.jpg",
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4354/74f0e84fa1daaa442fb31e4d55d87e06-mobile.jpg"
-    ],
-    "scraped_at": "2026-06-11T07:27:02.735552+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4354_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4354_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4354_condition_report_bbd2b7a8.pdf"
-      ],
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "factory",
-        "premium_types": [
-          "factory"
-        ],
-        "confidence": 0.3,
-        "why_premium": "Detected: factory"
-      },
-      "is_opportunity": true,
-      "opportunity_reason": "factory"
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "adrian_mercado:4356",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/camiones-scania-semirremolques-automoviles-y-equipamientos-vs-4356",
@@ -5051,7 +5012,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4356/7686fb98a6eb990c94d06becc66cb730-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4356/7686fb98a6eb990c94d06becc66cb730-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:27:10.839477+00:00",
+    "scraped_at": "2026-06-12T07:19:19.975771+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4356_condition_report_34225080.pdf",
@@ -5090,7 +5051,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4363/769931965fb952db0f688f8f072b80ee-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4363/769931965fb952db0f688f8f072b80ee-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:27:18.944429+00:00",
+    "scraped_at": "2026-06-12T07:19:28.096151+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4363_condition_report_34225080.pdf",
@@ -5751,7 +5712,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4293/7c549b13670d3910f869506957db3f88-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4293/7c549b13670d3910f869506957db3f88-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:27:27.050779+00:00",
+    "scraped_at": "2026-06-12T07:19:36.218158+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4293_condition_report_34225080.pdf",
@@ -5801,7 +5762,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4369/f94b66fc658e74a1bc81ae367052a4f2-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4369/f94b66fc658e74a1bc81ae367052a4f2-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:27:35.161864+00:00",
+    "scraped_at": "2026-06-12T07:19:44.342295+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4369_condition_report_34225080.pdf",
@@ -6546,7 +6507,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4334/0fa84facb51d6b9fe8c9441fa3625403-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4334/0fa84facb51d6b9fe8c9441fa3625403-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:27:43.282305+00:00",
+    "scraped_at": "2026-06-12T07:19:52.478036+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4334_condition_report_34225080.pdf",
@@ -6585,7 +6546,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4254/31812cda9ad7e20b34d2bb7abaae67ea-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4254/31812cda9ad7e20b34d2bb7abaae67ea-mobile.jpg"
     ],
-    "scraped_at": "2026-06-11T07:27:51.394704+00:00",
+    "scraped_at": "2026-06-12T07:20:00.620611+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4254_condition_report_34225080.pdf",
@@ -6632,7 +6593,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:27:59.493541+00:00",
+    "scraped_at": "2026-06-12T07:20:08.736457+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4358_condition_report_34225080.pdf",
@@ -6668,7 +6629,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:07.615878+00:00",
+    "scraped_at": "2026-06-12T07:20:16.857721+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4118_condition_report_34225080.pdf",
@@ -6704,7 +6665,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:15.623301+00:00",
+    "scraped_at": "2026-06-12T07:20:24.862939+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4209_condition_report_34225080.pdf",
@@ -6743,12 +6704,40 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:23.635171+00:00",
+    "scraped_at": "2026-06-12T07:20:32.873769+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4314_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4314_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4314_condition_report_34225080.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4301",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-cerro-vanguardia-sa-4301",
+    "title": "Por c/o de Cerro Vanguardia SA",
+    "description": "Ubicación Ubicación Ubicación: Unnamed Rd,, Santa Cruz",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-06-19T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-06-12T07:20:40.883698+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf"
       ]
     },
     "lots": [],
@@ -6771,7 +6760,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:31.740375+00:00",
+    "scraped_at": "2026-06-12T07:20:48.998100+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4325_condition_report_34225080.pdf",
@@ -6799,7 +6788,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:39.839536+00:00",
+    "scraped_at": "2026-06-12T07:20:57.118420+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4338_condition_report_34225080.pdf",
@@ -6838,7 +6827,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:47.943971+00:00",
+    "scraped_at": "2026-06-12T07:21:05.254847+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4341_condition_report_34225080.pdf",
@@ -6874,7 +6863,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:28:56.069829+00:00",
+    "scraped_at": "2026-06-12T07:21:13.376796+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4372_condition_report_34225080.pdf",
@@ -6896,13 +6885,13 @@
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": null,
+    "ends_at": "2026-06-26T00:00:00",
     "location": {
       "province": "Buenos Aires",
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:29:04.174745+00:00",
+    "scraped_at": "2026-06-12T07:21:21.502915+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4335_condition_report_34225080.pdf",
@@ -6917,6 +6906,34 @@
         "typical_usd": 15000,
         "category": "vehicles"
       }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4349",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/por-co-de-mcm-construccion-modular-4349",
+    "title": "Por c/o de MCM Construcción Modular",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Esandi 3000, R8400 San Carlos de Bariloche, Río Negro Condiciones generales Descargar",
+    "category": "general_goods",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-06-26T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-06-12T07:21:29.617949+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4349_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4349_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4349_condition_report_bbd2b7a8.pdf"
+      ]
     },
     "lots": [],
     "lot_count": 0
@@ -6938,7 +6955,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:29:12.280086+00:00",
+    "scraped_at": "2026-06-12T07:21:37.732386+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4360_condition_report_34225080.pdf",
@@ -6966,7 +6983,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:29:20.377264+00:00",
+    "scraped_at": "2026-06-12T07:21:45.843160+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4333_condition_report_34225080.pdf",
@@ -7002,7 +7019,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-11T07:29:28.488655+00:00",
+    "scraped_at": "2026-06-12T07:21:53.965654+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
@@ -7022,7 +7039,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:63371884",
+    "id": "adrian_mercado:86630586",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "Juan F. Secco S.A.",
@@ -7040,7 +7057,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-06-11T07:26:21.755191+00:00",
+    "scraped_at": "2026-06-12T07:18:39.678773+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",

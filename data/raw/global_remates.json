@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-12T07:18:38.213395+00:00",
+    "scraped_at": "2026-06-13T06:54:28.135060+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-12T07:18:38.213538+00:00",
+    "scraped_at": "2026-06-13T06:54:28.135172+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-12T07:18:38.213669+00:00",
+    "scraped_at": "2026-06-13T06:54:28.135265+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +82,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-12T07:18:38.213798+00:00",
+    "scraped_at": "2026-06-13T06:54:28.135344+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,151 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-12T07:18:38.213951+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42104",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42104",
-    "title": "Global Maquinarias MOLINO P/PLÁSTICO, MARCA SML, MOTOR ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 3800000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-12T11:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3246/42104/3246_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-06-12T07:18:38.215773+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42105",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42105",
-    "title": "Global Maquinarias INYECTORA P/PLÁSTICO, MARCA ROCEM 16...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 15000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-12T11:02:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3246/42105/3246_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-06-12T07:18:38.216163+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42106",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42106",
-    "title": "Global Maquinarias INYECTORA P/PLÁSTICO, MARCA ROCEM 16...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 15000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-12T11:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3246/42106/3246_Lote_03.jpg"
-    ],
-    "scraped_at": "2026-06-12T07:18:38.216531+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42109",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42109",
-    "title": "Global Maquinarias AUTOELEVADOR DIESEL, CAPACIDAD: 2,5 ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 5000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-12T12:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3247/42109/3227_Lote_03.jpg"
-    ],
-    "scraped_at": "2026-06-12T07:18:38.216890+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42115",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42115",
-    "title": "Global Maquinarias AUTOELEVADOR DIESEL, CAPACIDAD: 2,5 ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 7000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-12T12:09:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3247/42115/3227_Lote_09.jpg"
-    ],
-    "scraped_at": "2026-06-12T07:18:38.217248+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42117",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42117",
-    "title": "Global Maquinarias AUTOELEVADOR DIESEL, CAPACIDAD: 5 TO...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 9500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-12T12:11:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3247/42117/3227_Lote_11.jpg"
-    ],
-    "scraped_at": "2026-06-12T07:18:38.217582+00:00",
+    "scraped_at": "2026-06-13T06:54:28.135429+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3250/42177/3250_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-12T07:18:38.217898+00:00",
+    "scraped_at": "2026-06-13T06:54:28.136774+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3250/42178/3250_Lote_02.jpg"
     ],
-    "scraped_at": "2026-06-12T07:18:38.218248+00:00",
+    "scraped_at": "2026-06-13T06:54:28.137032+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3250/42180/3250_Lote_04.jpg"
     ],
-    "scraped_at": "2026-06-12T07:18:38.218619+00:00",
+    "scraped_at": "2026-06-13T06:54:28.137374+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42173/3249_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-12T07:18:38.219058+00:00",
+    "scraped_at": "2026-06-13T06:54:28.137637+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42175/3249_Lote_03.jpg"
     ],
-    "scraped_at": "2026-06-12T07:18:38.219417+00:00",
+    "scraped_at": "2026-06-13T06:54:28.137877+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3251/42182/3251_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-12T07:18:38.219768+00:00",
+    "scraped_at": "2026-06-13T06:54:28.138137+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

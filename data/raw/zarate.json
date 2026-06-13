@@ -1,12 +1,12 @@
 [
   {
-    "id": "zarate:82885202",
+    "id": "zarate:7004987",
     "source": "zarate",
     "source_url": "https://remateszarate.com.ar/subastas-en-curso-v2/",
     "title": "Próximas Subastas",
-    "description": "",
+    "description": "PRÓXIMAS SUBASTAS JUEVES 18 de juniO, 12:00 hrs. Subasta En Línea Garantía Mínima: $ 300.000 FCA COMPAÑÍA FINANCIERA: VEHÍCULOS USADOS Ingresá aquí JUEVES 18 DE JUNIO, 12:00 hrs. Subasta En Línea Garantía Mínima: $ 300.000 VEHÍCULOS AUTOMOTORES USADOS Ingresá aquí JUEVES 18 DE JUNIO, 12:00 hrs. Subasta En Línea Garantía Mínima: $ 300.000 LA MERIDIONAL: VEHÍCULOS AUTOMOTORES USADOS Ingresá aquí JUEVES 18 DE JUNIO, 14:30 hrs. Subasta En Línea Garantía Mínima: $ 500.000 CONTRERAS HNOS.: MÁQUINAS VIALES USADAS Ingresá aquí JUEVES 18 DE JUNIO, 15:30 hrs. Subasta En Línea Garantía Mínima: $ 300.000 NAUTICA NAHUEL: FILTROS Y ELEMENTOS FILTRANTES NUEVOS Ingresá aquí JUEVES 25 DE JUNIO, 14:00 hrs. Subasta En Línea Garantía Mínima: $ 50.000 CESVIAUTO: MOTORES USADOS Ingresá aquí JUEVES 25 DE JUNIO, 16:00 hrs. Subasta En Línea Garantía Mínima: $ 200.000 CONTRERAS HNOS.: MAQUINARIA INDUSTRIAL USADA Ingresá aquí JUEVES 2 DE JULIO, 14:00 hrs. Subasta En Línea Garantía Mínima: $ 300.000 ACA: VEHÍCULOS AUTOMOTORES USADOS Ingresá aquí JUEVES 2 DE JULIO, 14:00 hrs. Subasta En Línea Garantía Mínima: $ 300.000 GALICIA SEGUROS: VEHÍCULOS AUTOMOTORES USADOS Ingresá aquí PARTICIPAR EN NUESTRAS SUBASTAS ES MUY SENCILLO Preguntas frecuentes ¿Quiénes pueden participar de una subasta? Puede participar cualquier persona jurídica o física mayor de 21 años. ¿Qué debo hacer para participar de una subasta? Para participar de la subasta, es necesario cumplir con dos requisitos: Registro en la página web http://www.remateszarate.com.ar Pago de un depósito de garantía, por un monto que se establece en las bases específicas de cada remate. ¿Cómo me registro para participar? Te invitamos a ver nuestro breve instructivo en video. ¿Por qué se realiza un depósito de Garantía? Sobre los bienes o activos se deberá hacer un depósito inicial que equivale a un % del valor base inicial a subastar o lo que determina el martillero. Esta garantía también conocida como Oferta necesaria para acceder a las subastas, ",
     "category": "other",
-    "base_price": 0.0,
+    "base_price": 300000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
@@ -15,9 +15,36 @@
       "province": "Buenos Aires",
       "city": "Zárate"
     },
-    "images": [],
-    "scraped_at": "2026-06-12T07:18:33.321682+00:00",
-    "extra": {},
+    "images": [
+      "https://www.facebook.com/tr?id=850984329779163&ev=PageView&noscript=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/06/002_LOTE_06.jpg?fit=1920%2C1440&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/06/image-1.jpg?fit=1537%2C1023&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/06/001_LOTE_01.jpeg?fit=1600%2C1133&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/05/002_LOTE_01-gigapixel-high-fidelity-v2-2x.jpeg?fit=1920%2C1080&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/04/1.jpg?fit=1107%2C940&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2025/07/img_subastasencurso-6.jpg?fit=1500%2C900&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/05/002_LOTE_01-3.jpg?fit=1920%2C1080&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/06/image-2.jpg?fit=1448%2C1086&ssl=1",
+      "https://i0.wp.com/remateszarate.com.ar/wp-content/uploads/2026/06/037_LOTE_03.jpeg?fit=1600%2C1200&ssl=1"
+    ],
+    "scraped_at": "2026-06-13T06:54:35.047489+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/zarate/zarate:7004987_pdf_e2795761.pdf",
+        "data/documents/zarate/zarate:7004987_pdf_2129d39d.pdf"
+      ],
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
+    },
     "lots": [],
     "lot_count": 0
   },
@@ -38,11 +65,11 @@
       "city": "Zárate"
     },
     "images": [
-      "https://pps.whatsapp.net/v/t61.24694-24/425038261_1380922382786867_8521169830881028550_n.jpg?ccb=11-4&oh=01_Q5Aa4wGGrs3mWe5RL-FzzphSqHzkYT2Xn_aTgWThyzas1EkX0w&oe=6A2F85D7&_nc_sid=5e03e0&_nc_cat=108",
+      "https://pps.whatsapp.net/v/t61.24694-24/425038261_1380922382786867_8521169830881028550_n.jpg?ccb=11-4&oh=01_Q5Aa4wFfdHpxjuwZaIlcS9Zt6ph8awEquyMseg9mgPASsVIKlg&oe=6A30D757&_nc_sid=5e03e0&_nc_cat=108",
       "https://static.whatsapp.net/rsrc.php/yM/r/ys-5GPT4pwS.svg",
       "https://static.whatsapp.net/rsrc.php/yJ/r/twC7frrXavH.svg"
     ],
-    "scraped_at": "2026-06-12T07:18:44.374035+00:00",
+    "scraped_at": "2026-06-13T06:54:39.914563+00:00",
     "extra": {
       "documents": [
         "data/documents/zarate/zarate:5491134772836_terms_b909f029.pdf"

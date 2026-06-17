@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3244",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3244",
-    "title": "Kaufmann e Hijos S.R.L",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-06-16T08:41:20.120382+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3246",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3246",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-16T08:41:20.120511+00:00",
+    "scraped_at": "2026-06-17T08:24:35.088613+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,29 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-16T08:41:20.120636+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3250",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3250",
-    "title": "Renault Argentina",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-06-16T08:41:20.120728+00:00",
+    "scraped_at": "2026-06-17T08:24:35.088711+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,79 +60,51 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-16T08:41:20.120819+00:00",
+    "scraped_at": "2026-06-17T08:24:35.088791+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42177",
+    "id": "global_remates:auction_3132",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42177",
-    "title": "Renault Argentina IMPORTANTE LOTE DE ORGANIZADORES DE ...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3132",
+    "title": "Renault Argentina",
     "description": "",
-    "category": "real_estate",
-    "base_price": 14371000.0,
+    "category": "vehicles",
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-06-16T12:01:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3250/42177/3250_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-06-16T08:41:20.122239+00:00",
+    "images": [],
+    "scraped_at": "2026-06-17T08:24:35.088858+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42178",
+    "id": "global_remates:auction_3251",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42178",
-    "title": "Renault Argentina IMPORTANTE LOTE DE INDUMENTARIA Y AC...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3251",
+    "title": "Global Maquinarias",
     "description": "",
-    "category": "real_estate",
-    "base_price": 41143000.0,
+    "category": "machinery",
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-06-16T12:02:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3250/42178/3250_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-06-16T08:41:20.122502+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42180",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42180",
-    "title": "Renault Argentina IMPORTANTE LOTE DE GORRAS, ACCESORIO...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 14373000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-06-16T12:04:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3250/42180/3250_Lote_04.jpg"
-    ],
-    "scraped_at": "2026-06-16T08:41:20.122786+00:00",
+    "images": [],
+    "scraped_at": "2026-06-17T08:24:35.088927+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42173/3249_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-16T08:41:20.123033+00:00",
+    "scraped_at": "2026-06-17T08:24:35.090051+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42175/3249_Lote_03.jpg"
     ],
-    "scraped_at": "2026-06-16T08:41:20.123274+00:00",
+    "scraped_at": "2026-06-17T08:24:35.090330+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3251/42182/3251_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-16T08:41:20.123528+00:00",
+    "scraped_at": "2026-06-17T08:24:35.090567+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

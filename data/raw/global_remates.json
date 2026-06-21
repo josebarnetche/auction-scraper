@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-20T06:57:13.748325+00:00",
+    "scraped_at": "2026-06-21T07:28:38.920240+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-20T06:57:13.748462+00:00",
+    "scraped_at": "2026-06-21T07:28:38.920367+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,29 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-20T06:57:13.748571+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3132",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3132",
-    "title": "Renault Argentina",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-06-20T06:57:13.748657+00:00",
+    "scraped_at": "2026-06-21T07:28:38.920469+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-20T06:57:13.748750+00:00",
+    "scraped_at": "2026-06-21T07:28:38.920571+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3253",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3253",
+    "title": "Agro Bayer S.R.L.",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-06-21T07:28:38.920770+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42173/3249_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-20T06:57:13.750170+00:00",
+    "scraped_at": "2026-06-21T07:28:38.922878+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3249/42175/3249_Lote_03.jpg"
     ],
-    "scraped_at": "2026-06-20T06:57:13.750450+00:00",
+    "scraped_at": "2026-06-21T07:28:38.923282+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,79 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3251/42182/3251_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-20T06:57:13.750724+00:00",
+    "scraped_at": "2026-06-21T07:28:38.923686+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42186",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42186",
+    "title": "Agro Bayer S.R.L. MAQUINA DE TRATAMIENTO DE SEMILLAS, ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 18000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-08T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3253/42186/3224_Lote_123.jpg"
+    ],
+    "scraped_at": "2026-06-21T07:28:38.924127+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42191",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42191",
+    "title": "Agro Bayer S.R.L. REPUESTO NUEVO DE MAQUINA DE TRATAMI...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 1200000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-08T12:09:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3253/42191/3224_Lote_128.jpg"
+    ],
+    "scraped_at": "2026-06-21T07:28:38.924530+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42195",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42195",
+    "title": "Agro Bayer S.R.L. MAQUINA DE TRATAMIENTO DE SEMILLAS, ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 72000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-08T12:13:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3253/42195/3224_Lote_137.jpg"
+    ],
+    "scraped_at": "2026-06-21T07:28:38.924955+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

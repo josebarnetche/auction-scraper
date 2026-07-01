@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3249",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3249",
-    "title": "Global Maquinarias",
-    "description": "",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-06-30T06:51:57.840804+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3251",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3251",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-30T06:51:57.840948+00:00",
+    "scraped_at": "2026-07-01T07:06:38.641729+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-30T06:51:57.841083+00:00",
+    "scraped_at": "2026-07-01T07:06:38.641880+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-30T06:51:57.841202+00:00",
+    "scraped_at": "2026-07-01T07:06:38.642020+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-06-30T06:51:57.841286+00:00",
+    "scraped_at": "2026-07-01T07:06:38.642117+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3052",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
+    "title": "Global Maquinarias",
+    "description": "",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-01T07:06:38.642243+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3251/42182/3251_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.854989+00:00",
+    "scraped_at": "2026-07-01T07:06:38.643871+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3253/42186/3224_Lote_123.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.855351+00:00",
+    "scraped_at": "2026-07-01T07:06:38.644237+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3253/42191/3224_Lote_128.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.855655+00:00",
+    "scraped_at": "2026-07-01T07:06:38.644570+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3253/42195/3224_Lote_137.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.855941+00:00",
+    "scraped_at": "2026-07-01T07:06:38.644885+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42199/3254_Lote_02.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.856238+00:00",
+    "scraped_at": "2026-07-01T07:06:38.645216+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42204/3254_Lote_07.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.856504+00:00",
+    "scraped_at": "2026-07-01T07:06:38.645525+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42206/3254_Lote_09.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.856761+00:00",
+    "scraped_at": "2026-07-01T07:06:38.645817+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -281,7 +281,7 @@
     "id": "global_remates:lot_42214",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42214",
-    "title": "Grupo Peñaflor TRACTOR AGRÍCOLA DEUTZ AX 4.60 AÑO 1...",
+    "title": "Grupo Peñaflor TRACTOR AGRÍCOLA DEUTZ AX 4.60 AÑO 1... clauhard",
     "description": "",
     "category": "machinery",
     "base_price": 900000.0,
@@ -296,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42214/3254_Lote_17.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.857039+00:00",
+    "scraped_at": "2026-07-01T07:06:38.646131+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42227/3254_Lote_30.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.857324+00:00",
+    "scraped_at": "2026-07-01T07:06:38.646468+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42229/3254_Lote_32.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.857596+00:00",
+    "scraped_at": "2026-07-01T07:06:38.646794+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42231/3254_Lote_34.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.857865+00:00",
+    "scraped_at": "2026-07-01T07:06:38.647103+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +392,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3255/42232/3255_Lote_01.jpg"
     ],
-    "scraped_at": "2026-06-30T06:51:57.858131+00:00",
+    "scraped_at": "2026-07-01T07:06:38.647416+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

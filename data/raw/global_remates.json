@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-01T07:06:38.641729+00:00",
+    "scraped_at": "2026-07-02T06:34:41.129241+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-01T07:06:38.641880+00:00",
+    "scraped_at": "2026-07-02T06:34:41.129384+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-01T07:06:38.642020+00:00",
+    "scraped_at": "2026-07-02T06:34:41.129518+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,18 +82,18 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-01T07:06:38.642117+00:00",
+    "scraped_at": "2026-07-02T06:34:41.129612+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:auction_3052",
+    "id": "global_remates:auction_3256",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
-    "title": "Global Maquinarias",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3256",
+    "title": "ZF Argentina",
     "description": "",
-    "category": "machinery",
+    "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
@@ -104,31 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-01T07:06:38.642243+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42182",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42182",
-    "title": "Global Maquinarias CAMIÓN C/CABINA, VOLKSWAGEN 13-180,...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 30000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-01T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3251/42182/3251_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-07-01T07:06:38.643871+00:00",
+    "scraped_at": "2026-07-02T06:34:41.129735+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3253/42186/3224_Lote_123.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.644237+00:00",
+    "scraped_at": "2026-07-02T06:34:41.131373+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3253/42191/3224_Lote_128.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.644570+00:00",
+    "scraped_at": "2026-07-02T06:34:41.131707+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3253/42195/3224_Lote_137.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.644885+00:00",
+    "scraped_at": "2026-07-02T06:34:41.132051+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42199/3254_Lote_02.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.645216+00:00",
+    "scraped_at": "2026-07-02T06:34:41.132504+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42204/3254_Lote_07.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.645525+00:00",
+    "scraped_at": "2026-07-02T06:34:41.132928+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42206/3254_Lote_09.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.645817+00:00",
+    "scraped_at": "2026-07-02T06:34:41.133276+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42214/3254_Lote_17.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.646131+00:00",
+    "scraped_at": "2026-07-02T06:34:41.133700+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42227/3254_Lote_30.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.646468+00:00",
+    "scraped_at": "2026-07-02T06:34:41.134075+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42229/3254_Lote_32.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.646794+00:00",
+    "scraped_at": "2026-07-02T06:34:41.134387+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3254/42231/3254_Lote_34.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.647103+00:00",
+    "scraped_at": "2026-07-02T06:34:41.134696+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +368,79 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3255/42232/3255_Lote_01.jpg"
     ],
-    "scraped_at": "2026-07-01T07:06:38.647416+00:00",
+    "scraped_at": "2026-07-02T06:34:41.135005+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42235",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42235",
+    "title": "ZF Argentina FORD FOCUS GHIA 2.0 L , AÑO 2010, DO...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 7000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-24T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3256/42235/3245_Lote_04.jpg"
+    ],
+    "scraped_at": "2026-07-02T06:34:41.135290+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42236",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42236",
+    "title": "ZF Argentina PICK-UP VOLKSWAGEN AMAROK 2.0L TDI ...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 13500000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-24T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3256/42236/3245_Lote_05.jpg"
+    ],
+    "scraped_at": "2026-07-02T06:34:41.135629+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42238",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42238",
+    "title": "ZF Argentina AUTOELEVADOR DIESEL, MARCA YALE , CA...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 3000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-24T12:06:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/images/nolot.jpg"
+    ],
+    "scraped_at": "2026-07-02T06:34:41.135931+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

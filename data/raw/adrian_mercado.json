@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:35:00.015430+00:00",
+    "scraped_at": "2026-07-03T06:25:32.673724+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4375_condition_report_34225080.pdf",
@@ -28,8 +28,8 @@
       {
         "lot_id": "am:4375:1",
         "lot_number": 1,
-        "title": "103 Aprox. Moldes vs. en hierro para cordón: (10 moldes cordón recto de 3000 x 150 mm., 17 aprox. Mo...",
-        "description": "103 Aprox. Moldes vs. en hierro para cordón: (10 moldes cordón recto de 3000 x 150 mm., 17 aprox. Mo...",
+        "title": "66 Aprox. Moldes vs. en hierro para cordón: (10 moldes cordón recto de 3000 x 150 mm., 17 aprox. Mol",
+        "description": "66 Aprox. Moldes vs. en hierro para cordón: (10 moldes cordón recto de 3000 x 150 mm., 17 aprox. Mol",
         "base_price": 260000000.0,
         "currency": "ARS",
         "base_price_usd": 170491.8,
@@ -1080,7 +1080,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:35:08.127748+00:00",
+    "scraped_at": "2026-07-03T06:25:40.768321+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4301_condition_report_34225080.pdf",
@@ -1687,7 +1687,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4289/ec9f20ae80d0147795df00baa2e6f1ca-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4289/ec9f20ae80d0147795df00baa2e6f1ca-mobile.jpg"
     ],
-    "scraped_at": "2026-07-02T06:35:16.265736+00:00",
+    "scraped_at": "2026-07-03T06:25:48.883146+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4289_condition_report_34225080.pdf",
@@ -3843,7 +3843,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4419/e752fcb2dc0b70dc7c6e22d31bcd5485-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4419/e752fcb2dc0b70dc7c6e22d31bcd5485-mobile.jpg"
     ],
-    "scraped_at": "2026-07-02T06:35:24.391182+00:00",
+    "scraped_at": "2026-07-03T06:25:56.960520+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4419_condition_report_34225080.pdf",
@@ -3906,7 +3906,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4254/31812cda9ad7e20b34d2bb7abaae67ea-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4254/31812cda9ad7e20b34d2bb7abaae67ea-mobile.jpg"
     ],
-    "scraped_at": "2026-07-02T06:35:32.613022+00:00",
+    "scraped_at": "2026-07-03T06:26:05.072391+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4254_condition_report_34225080.pdf",
@@ -3956,7 +3956,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4365/373da9ff304f4216ad2d602c6e333451-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4365/373da9ff304f4216ad2d602c6e333451-mobile.jpg"
     ],
-    "scraped_at": "2026-07-02T06:35:40.909069+00:00",
+    "scraped_at": "2026-07-03T06:26:13.176045+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4365_condition_report_34225080.pdf",
@@ -3979,94 +3979,6 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4426",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-retroexcavadora-caterpillar-4426",
-    "title": "Subasta de retroexcavadora Caterpillar",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Tte. Pereyra Ramos, Río Negro Condiciones generales Descargar",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-03T00:00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-02T06:35:49.017299+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4426_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4426_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4426_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "excavadora",
-        "min_usd": 15000,
-        "max_usd": 200000,
-        "typical_usd": 45000,
-        "category": "machinery"
-      }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "adrian_mercado:4427",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/automovil-nissan-sentra-2-0-advance-cvt-4427",
-    "title": "Automóvil Nissan Sentra 2.0 Advance CVT",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Parque Chacabuco, Saraza 920, CABA Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-03T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-02T06:35:57.131413+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4427_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4427_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4427_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4427:1",
-        "lot_number": 1,
-        "title": "(Dom. AF229MZ) Automóvil Nissan, mod. Sentra advance 2.0 cvt, automatico, año fabricación 2021, año",
-        "description": "(Dom. AF229MZ) Automóvil Nissan, mod. Sentra advance 2.0 cvt, automatico, año fabricación 2021, año",
-        "base_price": 1500000000.0,
-        "currency": "ARS",
-        "base_price_usd": 983606.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189029/bf93fb481e1421c0e6781e7b458bcc06-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189029/cddcf5e0417d323913592420b5aac355-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189029/da11b6a61bee6c37c223db8902563966-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189029/cbab278e09e675b3dcb32e7f04757dbd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189029/057a98b29b71b2f02f54b799e27f7609-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
     "id": "adrian_mercado:4394",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-autos-nissan-sentra-y-versa-suv-vw-t-cross-y-minibus-ford-transit-corven-sacif-4394",
@@ -4083,7 +3995,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:05.263579+00:00",
+    "scraped_at": "2026-07-03T06:26:21.258063+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4394_condition_report_34225080.pdf",
@@ -4226,6 +4138,118 @@
     "lot_count": 6
   },
   {
+    "id": "adrian_mercado:4429",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-pick-up-ford-mod-ranger-dc-4x2-xl-2-2l-d-ano-2018-cabina-doble-4429",
+    "title": "Subasta de  Pick-Up Ford, mod. Ranger DC 4x2 XL 2.2L D, año 2018, cabina doble",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: El Almendro 4632, B1778 Cdad. Evita, Buenos Aires Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-03T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:26:29.335086+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4429_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4429_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4429_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "ranger",
+        "min_usd": 12000,
+        "max_usd": 50000,
+        "typical_usd": 28000,
+        "category": "vehicles"
+      }
+    },
+    "lots": [
+      {
+        "lot_id": "am:4429:1",
+        "lot_number": 1,
+        "title": "(Dom. AC850LF) - Pick-Up Ford, mod. Ranger DC 4x2 XL 2.2L D, año 2018, cabina doble, tracción 4x2, k",
+        "description": "(Dom. AC850LF) - Pick-Up Ford, mod. Ranger DC 4x2 XL 2.2L D, año 2018, cabina doble, tracción 4x2, k",
+        "base_price": 2000000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1311475.41,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189081/722f3845f28f586103c0870a2565ac14-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189081/d38e8c1dc6b55a26a26d619d3defb531-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189081/c387dde143332a4fc0f7c4ffb3a8cadc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189081/cddcabe74d0aea89a573d3842af47007-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189081/5c300dac44600d3d1815e8b3936dd4b5-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "adrian_mercado:4427",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-automovil-nissan-sentra-4427",
+    "title": "Subasta de automóvil Nissan Sentra",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Parque Chacabuco, Saraza 920, CABA Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-03T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:26:37.416827+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4427_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4427_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4427_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [
+      {
+        "lot_id": "am:4427:1",
+        "lot_number": 1,
+        "title": "(Dom. AF229MZ) Automóvil Nissan, mod. Sentra advance 2.0 cvt, automatico, año fabricación 2021, año",
+        "description": "(Dom. AF229MZ) Automóvil Nissan, mod. Sentra advance 2.0 cvt, automatico, año fabricación 2021, año",
+        "base_price": 1500000000.0,
+        "currency": "ARS",
+        "base_price_usd": 983606.56,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189029/bf93fb481e1421c0e6781e7b458bcc06-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189029/cddcf5e0417d323913592420b5aac355-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189029/da11b6a61bee6c37c223db8902563966-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189029/cbab278e09e675b3dcb32e7f04757dbd-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189029/057a98b29b71b2f02f54b799e27f7609-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
     "id": "adrian_mercado:4374",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-tractores-scania-iveco-y-volvo-de-america-trans-s-r-l-4374",
@@ -4242,7 +4266,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:13.372048+00:00",
+    "scraped_at": "2026-07-03T06:26:45.500101+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4374_condition_report_34225080.pdf",
@@ -4371,7 +4395,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:21.477250+00:00",
+    "scraped_at": "2026-07-03T06:26:53.581297+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4406_condition_report_34225080.pdf",
@@ -4431,7 +4455,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:29.580146+00:00",
+    "scraped_at": "2026-07-03T06:27:01.662877+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4377_condition_report_34225080.pdf",
@@ -4529,7 +4553,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:37.693398+00:00",
+    "scraped_at": "2026-07-03T06:27:09.743548+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4403_condition_report_34225080.pdf",
@@ -4661,6 +4685,66 @@
     "lot_count": 5
   },
   {
+    "id": "adrian_mercado:4426",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-retroexcavadora-caterpillar-4426",
+    "title": "Subasta de retroexcavadora Caterpillar",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Tte. Pereyra Ramos, Río Negro Condiciones generales Descargar",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-03T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:27:17.824173+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4426_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4426_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4426_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "excavadora",
+        "min_usd": 15000,
+        "max_usd": 200000,
+        "typical_usd": 45000,
+        "category": "machinery"
+      }
+    },
+    "lots": [
+      {
+        "lot_id": "am:4426:1",
+        "lot_number": 1,
+        "title": "Retroexcavadora Caterpillar, mod. 438B, año 2004, con balde frontal tipo almeja y anguilon trasero e",
+        "description": "Retroexcavadora Caterpillar, mod. 438B, año 2004, con balde frontal tipo almeja y anguilon trasero e",
+        "base_price": 2000000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1311475.41,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189028/2b60f4f84c61fdccc5a804618e2dc121-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189028/f0d396863a91de9b2a089a9cae854e43-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189028/4593227bfc78cfe3b1e2f1bef6da47db-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189028/708ac24a3e291749abac421a149f0e89-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189028/58ceea3fda74d92356c4258970f00a43-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
     "id": "adrian_mercado:4414",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-modulos-habitacionales-dormitorios-banos-y-salas-4414",
@@ -4677,7 +4761,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:45.799742+00:00",
+    "scraped_at": "2026-07-03T06:27:25.943137+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4414_condition_report_34225080.pdf",
@@ -6040,7 +6124,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:36:53.897829+00:00",
+    "scraped_at": "2026-07-03T06:27:34.022659+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4415_condition_report_34225080.pdf",
@@ -6176,6 +6260,58 @@
     "lot_count": 5
   },
   {
+    "id": "adrian_mercado:4409",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-motocompresor-de-aire-sullair-4409",
+    "title": "Subasta de motocompresor de aire Sullair",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: 3Q93+C3P, Q8322 Cutral Co, Neuquén Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-03T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:27:42.103465+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4409_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4409_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4409_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [
+      {
+        "lot_id": "am:4409:1",
+        "lot_number": 1,
+        "title": "(inv. 250868) Motocompresor de aire Sullair, mod. 375QH, año 2016, cap. 375 cfm., presión máx. 10 kg",
+        "description": "(inv. 250868) Motocompresor de aire Sullair, mod. 375QH, año 2016, cap. 375 cfm., presión máx. 10 kg",
+        "base_price": 600000000.0,
+        "currency": "ARS",
+        "base_price_usd": 393442.62,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188592/cd245dca67a0ba1455457c50b683e54b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188592/687d0ed218edccbf588b007573ec7302-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188592/f44fa1db986a3dc1ade84a1f66869149-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188592/07106a414871922e2dcff53e929564d8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188592/6eeea7fa4f79fee8eeb57a865defe373-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
     "id": "adrian_mercado:4393",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-grupos-electrogenos-sin-uso-empresa-de-venta-y-alquiler-de-equipos-4393",
@@ -6192,7 +6328,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:02.004763+00:00",
+    "scraped_at": "2026-07-03T06:27:50.185141+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4393_condition_report_34225080.pdf",
@@ -6200,8 +6336,515 @@
         "data/documents/adrian_mercado/adrian_mercado:4393_condition_report_bbd2b7a8.pdf"
       ]
     },
-    "lots": [],
-    "lot_count": 0
+    "lots": [
+      {
+        "lot_id": "am:4393:1",
+        "lot_number": 1,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188461/749ddaed231cc3476aaa8fc0868ff79a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188461/8e7ab2fb36f6bd2b5a06d7563732fbdc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188461/0a78e9c17b17a4b10a31a136fe53107e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188461/b5606572819ab784159f4d051e5671b7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188461/6ee480bea7a51eadddf90c3da40a25af-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:2",
+        "lot_number": 2,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188463/002bd66ffffed8d94e3202fec145fcbf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188463/e7ded7dda88207da26c2a597a2cb68d9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188463/1c3d70c9f19667f87590e3f099b30de4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188463/d25f5b215dfb73ab28ad59c3ba816244-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188463/52e90e4071cac8711fcc932c1cbd5262-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:3",
+        "lot_number": 3,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188464/5864fba9bf39e366f73f7a84e1fca71e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188464/8e66e7f08f6e10ea46a98896ef2d98d1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188464/69340da6ffb18d724734e3377e94849a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188464/2913717d49cf1af971a3aa0be1432135-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188464/c8ecf84e3f54412346a12c37adcace05-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:4",
+        "lot_number": 4,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188465/82ea120477ed3cc7c3ed129d32be2c9a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188465/4a2ade79d41c861e4adbde4d6e5c52b2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188465/914c9e3705775f595e73315b447d73dd-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188465/ce1c6722b877254928435abe8408e04a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188465/01bcb0ef6aba2180c361f14f9724bc58-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:5",
+        "lot_number": 5,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188466/aa63aa5eea30ba45a44b4bdcdf33ad08-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188466/5aaf74440c7a766c822c5a4e51a97b6d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188466/584b0b9d214a1fdc1e448fa85853619b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188466/1ddfb66ec3d0185b3172db57364f20e7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188466/50d7eeeabf33e7ab8bdfd642fc49f87b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:6",
+        "lot_number": 6,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188469/d8242674c8ca0eafde113e576b640ac6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188469/6eeebc038762638afb503f825a46e3be-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188469/a414c5f5c5697136ceccd7f43aff0878-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188469/e70c5e24d7716523e1b56c457877475c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188469/afc2724b44a8d5c8469d0bde89f3e642-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:7",
+        "lot_number": 7,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188470/158283159935dff787db3089e5f8014b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188470/7ad4b5aefe580ea4c20114961b571032-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188470/257bc9a7f064aa990c93677ce3a8f2d3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188470/b3d1af430b309dad507eaf26d180e7da-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188470/acb02ca410e061669b9ae59eafa7d827-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:8",
+        "lot_number": 8,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188471/6c791f7e7031499b69d5199fd36b2df5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188471/3d49c617fee8c69a1f19b5ff36695de0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188471/bfdb368a69d0ead089208c9cb5a8ef98-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188471/31d5447ab1973d2d9b2b55085c41fdf7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188471/be706e36ac7e5c1b5f3d2deb2b5779f1-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:9",
+        "lot_number": 9,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188472/5ffddb17aec5bf1711ae9077040a7605-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188472/73b281d925616f8e7cc4274cad1c1bb9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188472/7f2c0f26d8dee5d5a11023546cd43b79-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188472/17c76bdea8ca0ad6d46455e7fd015551-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188472/732a7e994c68a8b883d54e574ef565cc-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:10",
+        "lot_number": 10,
+        "title": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "description": "Generador RC, mod. Eyg9000ge, doble combustible, cap. 7.5 kw.(gasolina), 7.00 kw (lpg), tension nomi...",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188476/6a5ba7ba0328531aaf0f9edeaa1d4a19-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188476/4c76abb7fb0922a6cdf2245e4df6ae17-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188476/6565c52c48e12529b846d75d61edc1f6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188476/a41514bf1b1c9e2a1ca2791e0c8f186f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188476/f1eeb5b46ab5f18cd6954d0b1660181d-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:11",
+        "lot_number": 11,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188477/9be847767611e85b8221f27b105f82e3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188477/97d22d6a9d29fc246cabf33860bdbf5e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188477/9a88774ee5feb1178e95a2c7cb42bf93-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188477/1093dbd34801a6d1c27acd022a24beb2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188477/e5513602fd71d65f8ae5312a78d31aec-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:12",
+        "lot_number": 12,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188478/bd09113fc48dc98601188bbb0f5e8138-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188478/b1138a1c96163dac93942407f2cc20cc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188478/03c027a95a8fac87aa6f59694926a6f3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188478/343f01e54974a47783a056f80ae3b657-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188478/abf1eedc3f13ae05105fb3a19ad515a5-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:13",
+        "lot_number": 13,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188479/9ecb9d180883303d7ee60c47c3b74fe2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188479/e36cf405b300a72796d53808913e7de2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188479/62f965dd5e6aaf172385265562f7e6a8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188479/b755293d709ac413ed6ebf5f1ceb9943-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188479/8eb2e5bb4beb212729cf0b9702772488-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:14",
+        "lot_number": 14,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188480/000c46a6718a20381080752b336eec2a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188480/a850a8904d072830bed9a76ef1ab59c9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188480/caa78036d0488093eca8b907e14d1333-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188480/dfe798cb5a604b948eff0b0137b9f590-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188480/c02b1aa815642996ad19b7555d187093-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:15",
+        "lot_number": 15,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188481/a2a0a638ce16874e2a82966b2fe23411-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188481/0f446121e02ee62c120bef347eec5f15-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188481/9fd817dee053d3b2633a038fbe37c776-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188481/02c263f460948c5896d7253a71b4efcf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188481/697e84bd34fa21aa891aef3c0d2e5cb3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:16",
+        "lot_number": 16,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188482/22ee5473fd4da5059707b600691d473c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188482/70a5d4e478e23981236f9900598d3100-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188482/220faee5851ec5836f3e47c55a06e25d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188482/627655c9fd23e7f9e78c44f05e407424-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188482/ad34ef96a71ab1acd2af61ecd7b9d913-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:17",
+        "lot_number": 17,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188483/ac60acd724af0aaed4afb6671659c2b2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188483/a80ea32aadf2dd5c199ae75af6290b58-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188483/87aee5183897f73ea1234a2e36cf4597-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188483/eedf24b6f9fc818b448b6373443df6a3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188483/ad7310fdf62a487eba0f4e50815211ed-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:18",
+        "lot_number": 18,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188484/8ee206e21f58f305a26816a2a7ae7ddf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188484/cbe13e52d4de962e444b74bf501664f8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188484/b652501c4c6e54ec3df3617a14a033d4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188484/358ad00465e200670462c8be773a7a2f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188484/a591946fcfa77919c0cf64144d155816-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:19",
+        "lot_number": 19,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188485/5c78e76b4e32c44e0a6226d6cc16d944-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188485/082638498e4b064690cc0aaefe2dd208-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188485/50aa0d61dbf82e741dd77d4253459856-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188485/a27aa74e8bb86fa818b0d394fb4c1325-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188485/c8978f57ee4c6fe56089d400b09127ee-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:20",
+        "lot_number": 20,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188486/3e463546c7d4ba14d1403daafba9b516-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188486/ffd9c7f7252e8454fd61f1227a55f256-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188486/4e66cb3f1896961da096c71bef351a3f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188486/411f52565bd7b0f756e8a5ffd4ea3aad-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188486/ee5c635da96d002808ba59b810c984df-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:21",
+        "lot_number": 21,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188487/bb12cf80c3c9f60dbd04ecbfcdc48faa-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188487/0bf32624a50ef30aee0131c8db9fe004-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188487/9b1bb35594db37b22bc05ab342650235-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188487/b825e37333d723af437dd9bd5df04ded-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188487/48c6c0abb76668b90836b79badd7dcb6-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4393:22",
+        "lot_number": 22,
+        "title": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "description": "Generador RC, mod. Eyg9500ge, doble combustible, cap. 8.5 kw.(gasolina), 7.65 kw (lpg), tension nomi",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 26229.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188488/6f98020d947cd41f4d136b41ee8a8461-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188488/8037381209ee1fdbc510633a7e6caf52-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188488/c6147309127c29badb19ced1e97f7037-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188488/1dbb63c4612917606d795bf96c88522c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188488/43835d0fe60ec8f9056698910068cc9e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 22
   },
   {
     "id": "adrian_mercado:4360",
@@ -6220,7 +6863,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:10.116009+00:00",
+    "scraped_at": "2026-07-03T06:27:58.275944+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4360_condition_report_34225080.pdf",
@@ -6248,7 +6891,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:18.220994+00:00",
+    "scraped_at": "2026-07-03T06:28:06.360111+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4373_condition_report_34225080.pdf",
@@ -6264,7 +6907,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipamiento-comercial-y-activos-varios-4379",
     "title": "Subasta de equipamiento comercial y activos varios",
-    "description": "Ubicación Ubicación Ubicación: Dr. Ángel C. Rotta 342, Monte Grande, Buenos Aires",
+    "description": "Ubicación Ubicación Ubicación: Dr. Ángel C. Rotta 342, Monte Grande, Buenos Aires Fecha y horario de exhibición: Lunes 06/07 de 10:00 a 14:00 hs.",
     "category": "machinery",
     "base_price": 0.0,
     "currency": "ARS",
@@ -6276,7 +6919,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:26.244021+00:00",
+    "scraped_at": "2026-07-03T06:28:14.374445+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4379_condition_report_34225080.pdf",
@@ -6304,7 +6947,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:34.371279+00:00",
+    "scraped_at": "2026-07-03T06:28:22.469851+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4333_condition_report_34225080.pdf",
@@ -6340,7 +6983,7 @@
       "city": "Rosario Viernes"
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:42.486017+00:00",
+    "scraped_at": "2026-07-03T06:28:30.554480+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4367_condition_report_34225080.pdf",
@@ -6371,42 +7014,6 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4385",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipamiento-vial-maquinaria-pesada-camiones-y-vehiculos-4385",
-    "title": "Subasta de equipamiento vial, maquinaria pesada, camiones y vehículos",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Avenida Leandro N. Alem & Falucho, J5400 San Juan Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-17T00:00:00",
-    "location": {
-      "province": "Córdoba",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-02T06:37:50.615355+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "camion",
-        "min_usd": 15000,
-        "max_usd": 120000,
-        "typical_usd": 45000,
-        "category": "vehicles"
-      }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "adrian_mercado:4386",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-furgones-sprinter-pick-ups-ford-manipuladores-manitou-y-gruas-alsina-construcciones-4386",
@@ -6423,7 +7030,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:37:58.735274+00:00",
+    "scraped_at": "2026-07-03T06:28:38.649519+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4386_condition_report_34225080.pdf",
@@ -6437,6 +7044,42 @@
         "max_usd": 45000,
         "typical_usd": 18000,
         "category": "vehicles"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4396",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-retroexcavadoras-tractor-agricola-y-tanque-regador-conylog-s-r-l-4396",
+    "title": "Subasta de retroexcavadoras, tractor agrícola y tanque regador - CONYLOG S.R.L.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: W9H3+CVG, Villa Gdor. Galvez, Santa Fe Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-17T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:28:46.724954+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4396_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4396_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4396_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "tractor",
+        "min_usd": 8000,
+        "max_usd": 150000,
+        "typical_usd": 35000,
+        "category": "machinery"
       }
     },
     "lots": [],
@@ -6459,7 +7102,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:06.843758+00:00",
+    "scraped_at": "2026-07-03T06:28:54.808699+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4401_condition_report_34225080.pdf",
@@ -6495,7 +7138,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:14.941560+00:00",
+    "scraped_at": "2026-07-03T06:29:02.901895+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4402_condition_report_34225080.pdf",
@@ -6531,7 +7174,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:23.072639+00:00",
+    "scraped_at": "2026-07-03T06:29:11.012609+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4404_condition_report_34225080.pdf",
@@ -6567,7 +7210,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:31.171446+00:00",
+    "scraped_at": "2026-07-03T06:29:19.099301+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4408_condition_report_34225080.pdf",
@@ -6603,13 +7246,49 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:39.289667+00:00",
+    "scraped_at": "2026-07-03T06:29:27.186062+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4339_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4339_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4339_condition_report_bbd2b7a8.pdf"
       ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4385",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipamiento-vial-maquinaria-pesada-camiones-y-vehiculos-4385",
+    "title": "Subasta de equipamiento vial, maquinaria pesada, camiones y vehículos",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Avenida Leandro N. Alem & Falucho, J5400 San Juan Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-24T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:29:35.283672+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "camion",
+        "min_usd": 15000,
+        "max_usd": 120000,
+        "typical_usd": 45000,
+        "category": "vehicles"
+      }
     },
     "lots": [],
     "lot_count": 0
@@ -6631,7 +7310,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:47.391624+00:00",
+    "scraped_at": "2026-07-03T06:29:43.363860+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4345_condition_report_34225080.pdf",
@@ -6645,6 +7324,42 @@
         "max_usd": 15000,
         "typical_usd": 8000,
         "category": "vehicles"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4348",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-prensas-balancines-camiones-acoplados-grua-movil-y-elevador-telescopico-mabe-s-a-4348",
+    "title": "Subasta de prensas, balancines, camiones, acoplados, grúa móvil y elevador telescópico - MABE S.A.",
+    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Términos y condiciones Descargar Ubicación Ubicación: MJMG+7W, San Luis Ubicación 2 Ubicación: 9J5X+5VH, Luque, Córdoba Ubicación 3 Ubicación: 936J+36, Río Segundo, Córdoba Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-31T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-03T06:29:51.444620+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4348_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4348_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4348_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "prensa",
+        "min_usd": 3000,
+        "max_usd": 60000,
+        "typical_usd": 12000,
+        "category": "machinery"
       }
     },
     "lots": [],
@@ -6667,7 +7382,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-02T06:38:55.531807+00:00",
+    "scraped_at": "2026-07-03T06:29:59.536132+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
@@ -6687,7 +7402,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:78608943",
+    "id": "adrian_mercado:23902217",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "BG CONS S.R.L.: Maquinaria vial y plantas de hormigón",
@@ -6705,7 +7420,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-07-02T06:34:45.145294+00:00",
+    "scraped_at": "2026-07-03T06:25:19.857249+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",

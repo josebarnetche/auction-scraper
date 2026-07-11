@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:37:54.425912+00:00",
+    "scraped_at": "2026-07-11T05:34:08.606982+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4386_condition_report_34225080.pdf",
@@ -44,7 +44,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:38:02.547454+00:00",
+    "scraped_at": "2026-07-11T05:34:16.710817+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4408_condition_report_34225080.pdf",
@@ -72,7 +72,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:38:10.660461+00:00",
+    "scraped_at": "2026-07-11T05:34:24.792265+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4401_condition_report_34225080.pdf",
@@ -103,7 +103,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4254/31812cda9ad7e20b34d2bb7abaae67ea-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4254/31812cda9ad7e20b34d2bb7abaae67ea-mobile.jpg"
     ],
-    "scraped_at": "2026-07-10T06:38:18.773705+00:00",
+    "scraped_at": "2026-07-11T05:34:32.899295+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4254_condition_report_34225080.pdf",
@@ -153,7 +153,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4443/e752fcb2dc0b70dc7c6e22d31bcd5485-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4443/e752fcb2dc0b70dc7c6e22d31bcd5485-mobile.jpg"
     ],
-    "scraped_at": "2026-07-10T06:38:26.862423+00:00",
+    "scraped_at": "2026-07-11T05:34:40.976925+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4443_condition_report_34225080.pdf",
@@ -216,7 +216,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4365/373da9ff304f4216ad2d602c6e333451-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4365/373da9ff304f4216ad2d602c6e333451-mobile.jpg"
     ],
-    "scraped_at": "2026-07-10T06:38:34.948267+00:00",
+    "scraped_at": "2026-07-11T05:34:49.050356+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4365_condition_report_34225080.pdf",
@@ -255,7 +255,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:38:43.043851+00:00",
+    "scraped_at": "2026-07-11T05:34:57.145002+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4424_condition_report_34225080.pdf",
@@ -294,7 +294,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:38:51.131695+00:00",
+    "scraped_at": "2026-07-11T05:35:05.240370+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4333_condition_report_34225080.pdf",
@@ -310,8 +310,636 @@
         "category": "machinery"
       }
     },
-    "lots": [],
-    "lot_count": 0
+    "lots": [
+      {
+        "lot_id": "am:4333:1",
+        "lot_number": 1,
+        "title": "Bascula de mesa Dolz, cap minima 2.500 grs., cap maxima 100 kg., con pesas.-",
+        "description": "Bascula de mesa Dolz, cap minima 2.500 grs., cap maxima 100 kg., con pesas.-",
+        "base_price": 3000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1986.75,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187833/922d9eb9ea2959975bc8b4056a93a10d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187833/16dc589180191eb7c2e28051d4dcd90a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187833/a276d99282f9479dc57e6914aad10781-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:2",
+        "lot_number": 2,
+        "title": "Bascula de pie Roma, cap. 600 kg., base de 800 x 550 mm., con pesas.-",
+        "description": "Bascula de pie Roma, cap. 600 kg., base de 800 x 550 mm., con pesas.-",
+        "base_price": 12000000.0,
+        "currency": "ARS",
+        "base_price_usd": 7947.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187834/c2a36f24990ec85980d3dd39b2bc93ba-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187834/bb3b680ead19b0957a99ec32bdad102b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187834/9e5a53ef2ef683332d781bb5d0e144f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187834/a3ad2009026a59d923362330df2c1791-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:3",
+        "lot_number": 3,
+        "title": "2 Estaciones para soldadura (caseras) de 1 y 2 cabezales, ambas con faltantes.-",
+        "description": "2 Estaciones para soldadura (caseras) de 1 y 2 cabezales, ambas con faltantes.-",
+        "base_price": 4000000.0,
+        "currency": "ARS",
+        "base_price_usd": 2649.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187835/7b4dc5b233e22d53f96925d05a6b3fb5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187835/bf310de50b1bdbf2a76e5a9062f3078f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187835/a7b284d7fe8ed58d45e22cafe512ad1c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187835/d8cfabf509a41645928e445cc68526eb-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:4",
+        "lot_number": 4,
+        "title": "Despuntadora para metales no ferrosos (casera), diametro alambre hasta 1,5 mm., con motor trifasico",
+        "description": "Despuntadora para metales no ferrosos (casera), diametro alambre hasta 1,5 mm., con motor trifasico",
+        "base_price": 8000000.0,
+        "currency": "ARS",
+        "base_price_usd": 5298.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187837/0da7bff317aa25a1cd6441fd838e4e54-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187837/bfbc5d84cda91666aa270e646d794768-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187837/576e088e68909b739937bffe3e5d03d8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187837/f3c9eaf7701cc80fc6d22d2c4826dc4d-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:5",
+        "lot_number": 5,
+        "title": "Cortadora/Fresadora para alambre (casera), con motor trifasico.-",
+        "description": "Cortadora/Fresadora para alambre (casera), con motor trifasico.-",
+        "base_price": 5000000.0,
+        "currency": "ARS",
+        "base_price_usd": 3311.26,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187838/8b7792cef102269efd1a3451e4c823c8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187838/748135d134f51316313bda5d9bd4072d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187838/cc42f530b30179b400a791c80a905285-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187838/d50137ebee71f60119e4bb16b660a649-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:6",
+        "lot_number": 6,
+        "title": "Cortadora/Perforadora automatica para alambre (casera), con lubricacion y motor de 0,55 kw.-",
+        "description": "Cortadora/Perforadora automatica para alambre (casera), con lubricacion y motor de 0,55 kw.-",
+        "base_price": 8000000.0,
+        "currency": "ARS",
+        "base_price_usd": 5298.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187839/297468c249aeae0eb5b6174671a349dc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187839/e7a2049b2597d7cda103e32ac29c6e24-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187839/cd00cfee80e151a4f8bd3f362d054e80-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187839/a6ac3f0f23978252be7bd3c6635e96f4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187839/e638e0ec581831bff0174422e506102b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:7",
+        "lot_number": 7,
+        "title": "Cortadora/Perforadora para alambre, de doble cuchilla, con 2 motores, (pata de motor a reparar).-",
+        "description": "Cortadora/Perforadora para alambre, de doble cuchilla, con 2 motores, (pata de motor a reparar).-",
+        "base_price": 6000000.0,
+        "currency": "ARS",
+        "base_price_usd": 3973.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187840/8f9635564e40bf60bd4f95bc48eef732-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187840/ab419feb2287113010e4334fccbc782a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187840/e1bb3a43b7ff45ffb77215ff8cd5c194-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187840/0c6b0d078b192ced7e80394e5b8754b7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187840/9441c48151f6776e1c5cf46446e5dd05-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:8",
+        "lot_number": 8,
+        "title": "Balancin frontal, con motor de 1, 4 hp., sobre estructura metalica.-",
+        "description": "Balancin frontal, con motor de 1, 4 hp., sobre estructura metalica.-",
+        "base_price": 3000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1986.75,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187841/3cd196b8fda50a303f60147785f78768-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187841/3e87f42029622bd8244a2eff836c9a54-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187841/d6948fe2de52159adcd1d2a3c6a80f5e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187841/a28ab434b0b5c1f8359a7194d94d1afd-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:9",
+        "lot_number": 9,
+        "title": "Soldadora eléctrica por arco Soldelec, cap. 275 amp., con pinza masa y pinza porta electrodos.-",
+        "description": "Soldadora eléctrica por arco Soldelec, cap. 275 amp., con pinza masa y pinza porta electrodos.-",
+        "base_price": 7000000.0,
+        "currency": "ARS",
+        "base_price_usd": 4635.76,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187842/069289605b4aa6e9417f28b9d78520cd-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187842/31a88f7665431c71e72d9672ac2c4092-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187842/9bc68fcc2b2212d1d4f23851b931baec-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:10",
+        "lot_number": 10,
+        "title": "Pulidora MDM, de 8 tambores en pvc, con 2 motorreductores de 1/2 hp. c/u.-",
+        "description": "Pulidora MDM, de 8 tambores en pvc, con 2 motorreductores de 1/2 hp. c/u.-",
+        "base_price": 42000000.0,
+        "currency": "ARS",
+        "base_price_usd": 27814.57,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187843/a57c092a14bf86f5865ea5601f22cdcb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187843/6249be3daf76012a45d2af064cbf3aa8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187843/08c9aed5dc4a14d920d6b7d4da57e340-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187843/fce80b4f47b6eb3c75ef05607b9b5252-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:11",
+        "lot_number": 11,
+        "title": "Molino a cuchillas, con muñeco de 3 cuchillas y motor de 1,5 hp.-",
+        "description": "Molino a cuchillas, con muñeco de 3 cuchillas y motor de 1,5 hp.-",
+        "base_price": 8000000.0,
+        "currency": "ARS",
+        "base_price_usd": 5298.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187844/0e9a15a4eabfea6d3c91165432026081-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187844/89e208e06bd0ef5986dea0e74b046558-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187844/7393539b097c67f99ded4bae9842cec6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187844/21a506b10625a9a46fdb5d1f68274277-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:12",
+        "lot_number": 12,
+        "title": "Zaranda vibratoria, cama de 890 x 390 mm, con motor electrico de 0,37 kw.-",
+        "description": "Zaranda vibratoria, cama de 890 x 390 mm, con motor electrico de 0,37 kw.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10596.03,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187845/586e431d7b0a18568522200ab641f792-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187845/4fcca8068033ee759c2c662cd100826e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187845/38a988cf0917fba09b4e8e6af3a29e17-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:13",
+        "lot_number": 13,
+        "title": "Perforadora multiple (casera) para 28 (con 13 husillos) cap. 1/64 a 5/32 pulgadas, con 2 motores ele",
+        "description": "Perforadora multiple (casera) para 28 (con 13 husillos) cap. 1/64 a 5/32 pulgadas, con 2 motores ele",
+        "base_price": 8000000.0,
+        "currency": "ARS",
+        "base_price_usd": 5298.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187846/bf5813ced30201efe26c92c7a21f6ffc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187846/6355858d2a8a7e44bea720c5c27be63f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187846/6df4fc9a6ad63f92a238f9e75ed72492-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187846/67e52a9fbb02c325515a8a55fa5ced15-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187846/835102edb0c39fda4544e91182ec2f2c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:14",
+        "lot_number": 14,
+        "title": "Laminadora motorizada (casera), ancho util 1,5 mm diametro, altura regulable, con alimentador, lubri",
+        "description": "Laminadora motorizada (casera), ancho util 1,5 mm diametro, altura regulable, con alimentador, lubri",
+        "base_price": 12000000.0,
+        "currency": "ARS",
+        "base_price_usd": 7947.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187847/fc8a2214c1a4a4604a64635fe845f5e1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187847/b9b6a39a7e0b9fc999cbc9aa365ed122-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187847/48607a2f3046db2653a9cc60c53c7ba8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187847/38f7faedd665493dbc730bcf60919896-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187847/9d0b4150cb6c2b8fcf147794ed1636e3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:15",
+        "lot_number": 15,
+        "title": "Trefiladora/Despuntadora para alambre (casera), diametro alambre hasta 4 mm., cabezal motorizado de",
+        "description": "Trefiladora/Despuntadora para alambre (casera), diametro alambre hasta 4 mm., cabezal motorizado de",
+        "base_price": 35000000.0,
+        "currency": "ARS",
+        "base_price_usd": 23178.81,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187848/8fce079f15440f3957c5d1f11fe02501-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187848/ebd0881b56936101718056f7784eda89-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187848/ef5c42bf572e2caa7e7eed45ab1bdc7a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187848/7f8c8e39dde154c851b29ada0e170a8c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:16",
+        "lot_number": 16,
+        "title": "Bobinador motorizado con motor de 2 hp.-",
+        "description": "Bobinador motorizado con motor de 2 hp.-",
+        "base_price": 12000000.0,
+        "currency": "ARS",
+        "base_price_usd": 7947.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187849/ec174bced836bea3c629fa577b70eb0d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187849/0a27a76effd14ae4978ab60d0766aaef-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187849/4f2d898a8566702bd6c02d4b3220870c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:17",
+        "lot_number": 17,
+        "title": "Enderezadora/Cortadora para alambre automatica electroneumatica Felss, tipo DA 10, diametro alambre",
+        "description": "Enderezadora/Cortadora para alambre automatica electroneumatica Felss, tipo DA 10, diametro alambre",
+        "base_price": 80000000.0,
+        "currency": "ARS",
+        "base_price_usd": 52980.13,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187850/994fd8f81cd6e70186db1920d645ebf6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187850/7919769161055b993dd449b739be7da0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187850/1c16ba5e10c4a57003c143d4d23454f3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187850/ea2aefe5f71f978a07965b79db0cde6c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:18",
+        "lot_number": 18,
+        "title": "Conificadora para alambre automatica Fells Matic, tipo HA16-A27X, con cabezal motorizado de 1,5 kw.,",
+        "description": "Conificadora para alambre automatica Fells Matic, tipo HA16-A27X, con cabezal motorizado de 1,5 kw.,",
+        "base_price": 160000000.0,
+        "currency": "ARS",
+        "base_price_usd": 105960.26,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187851/b5c91bec6582fa832d6138b389c1fdfa-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187851/4f9679e1702d9981696e316f6ad90663-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187851/0ad33e7a038f58047737f6476df7180b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187851/025fbcf2c24feaad108b0fa865bb149e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187851/05db5428376a17c00f6d56382a65ca9b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:19",
+        "lot_number": 19,
+        "title": "Conificadora para alambre Fells, tipo HA15-2K, con cabezal motorizado de 1,5 kw., cabezal de corte c",
+        "description": "Conificadora para alambre Fells, tipo HA15-2K, con cabezal motorizado de 1,5 kw., cabezal de corte c",
+        "base_price": 160000000.0,
+        "currency": "ARS",
+        "base_price_usd": 105960.26,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187852/c8c5c66a0fe18172aae9b428339f3b49-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187852/24217582022fca0e0ef2a66b1e6b7066-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187852/e173146bba1a62d4bd99540bccaf1c3a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187852/7a80056b7d4fefe403d4ebf3fa322295-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187852/15a441867d331877f8b21b882faec70e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:20",
+        "lot_number": 20,
+        "title": "Conificadora para alambre Felss, tipo HA12-3, de doble cabezal motorizado, de 1,5 kw., cabezal de co",
+        "description": "Conificadora para alambre Felss, tipo HA12-3, de doble cabezal motorizado, de 1,5 kw., cabezal de co",
+        "base_price": 100000000.0,
+        "currency": "ARS",
+        "base_price_usd": 66225.17,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187853/8c9a77d005fd313561bc0c6ae6a9994a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187853/283d2963d67b0c22422acc722d2fc37f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187853/47ff5d1af9e2825be484b54274800c77-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187853/e4b4ded93c584b26a420bccc91f7ced4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187853/db4d516d1dfd4305947d81b407abfb8f-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:21",
+        "lot_number": 21,
+        "title": "Conificadora para alambre Felss, de triple cabezal motorizado de 1,1 kw., cabezal de corte con motor",
+        "description": "Conificadora para alambre Felss, de triple cabezal motorizado de 1,1 kw., cabezal de corte con motor",
+        "base_price": 110000000.0,
+        "currency": "ARS",
+        "base_price_usd": 72847.68,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187854/06ff048eb29bbaccc581fdfc278eff7a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187854/e3081e7c8a077a385fb0a5559f7d6bbf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187854/85122448d63b97712ada7a6ea96071cb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187854/8624ff20474d905b3427824fc05adfd7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187854/8d488d3204907e6af508969860477622-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:22",
+        "lot_number": 22,
+        "title": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
+        "description": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
+        "base_price": 24000000.0,
+        "currency": "ARS",
+        "base_price_usd": 15894.04,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187855/08aaf27249b5c5e94d0da81bd93ed268-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187855/e0e46bf29ab3d9ecd4d8f0e0e59a5621-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187855/5e977114f9b83f4b1348845b636b00c6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187855/63cac02516450b8830325a5061f849d2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187855/07e1159ff959ba5656b83ca649fe6c42-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:23",
+        "lot_number": 23,
+        "title": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
+        "description": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
+        "base_price": 24000000.0,
+        "currency": "ARS",
+        "base_price_usd": 15894.04,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187856/816db49e331696c29bd40825d74a2ea1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187856/91b72908c45cb3bcd0baeeb34fb11e45-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187856/595a2f40855e709764d0ea40867290b6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187856/641830b2647ff27c9a926d648aba28d1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187856/dbf2274b05887dc29aff5c928eb659ce-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:24",
+        "lot_number": 24,
+        "title": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
+        "description": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
+        "base_price": 24000000.0,
+        "currency": "ARS",
+        "base_price_usd": 15894.04,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187857/afee3054b53550f65ca4524b7a0eab18-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187857/61efc2cc5a5c8da86e9496244af02642-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187857/8dfd7a4e4ac1105bd3712becbfc096a1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187857/cc9eae985c255910d4b8d7faac3e311d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187857/59f815a6286036878f8b534856d224be-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:25",
+        "lot_number": 25,
+        "title": "Torno automático, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas con mo...",
+        "description": "Torno automático, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas con mo...",
+        "base_price": 24000000.0,
+        "currency": "ARS",
+        "base_price_usd": 15894.04,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187858/0c9a37708b19a3fc374bb47147dcf9fb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187858/278503723c4656018de619cee46db251-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187858/2e1d7a5f9e48d88fd600026ccda10d8f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187858/dd21342340582c1ebe109da0c8b2ec3b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187858/b964c5eb0012bd18ea5d6374f11e28f3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:26",
+        "lot_number": 26,
+        "title": "Torno automatico Tornos, tipo C4, pasaje de barra 6 mm., con tablero electrico y alimentador para 12",
+        "description": "Torno automatico Tornos, tipo C4, pasaje de barra 6 mm., con tablero electrico y alimentador para 12",
+        "base_price": 24000000.0,
+        "currency": "ARS",
+        "base_price_usd": 15894.04,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187860/57f15f5396f14db6c3f204108116ecc2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187860/ba60910c4fad577f0fde71e9b93377a0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187860/0d9a3894cf95bc7e56f1caf1db689275-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187860/e1f0da3c310d2b8816c4087dc016e01c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187860/e26271397e81b885e821212349957ea3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:27",
+        "lot_number": 27,
+        "title": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
+        "description": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
+        "base_price": 30000000.0,
+        "currency": "ARS",
+        "base_price_usd": 19867.55,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187861/cb057572be36711696b4d5b6f6d4fa67-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187861/bb88298adbc9f508ae52ae2d7bcc48ea-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187861/2c729259d28156c1d5e6fab0dc786271-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187861/c8645a53ac1adcf77ed503b92e143c30-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187861/2bf28b6207b02867de1aff5820587a3b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4333:28",
+        "lot_number": 28,
+        "title": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
+        "description": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
+        "base_price": 30000000.0,
+        "currency": "ARS",
+        "base_price_usd": 19867.55,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/187863/c9b6c5cbc739bce385d8d4ba2678d8ce-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187863/b2d3760e1bb625c117079a6a997f8741-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187863/a93db5ef3c7692027d3ee0c99b8c07ff-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187863/c993507dad4ab3ad65c3264b30f41f58-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/187863/3a325884b14021628d40f203a9cd489f-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 28
   },
   {
     "id": "adrian_mercado:4367",
@@ -330,7 +958,7 @@
       "city": "Rosario Viernes"
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:38:59.246994+00:00",
+    "scraped_at": "2026-07-11T05:35:13.321049+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4367_condition_report_34225080.pdf",
@@ -377,7 +1005,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:07.346775+00:00",
+    "scraped_at": "2026-07-11T05:35:21.396243+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4396_condition_report_34225080.pdf",
@@ -393,8 +1021,211 @@
         "category": "machinery"
       }
     },
-    "lots": [],
-    "lot_count": 0
+    "lots": [
+      {
+        "lot_id": "am:4396:1",
+        "lot_number": 1,
+        "title": "Retro pala Case mod 580 n (americana), año 2013, tracción 4x2, (aprox. 7.000 hs). (Funcionando).-",
+        "description": "Retro pala Case mod 580 n (americana), año 2013, tracción 4x2, (aprox. 7.000 hs). (Funcionando).-",
+        "base_price": 2200000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1456953.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188403/da714c3321776d8f8f699e61a9347858-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188403/1fafa083bc659a5b7127120afa4fd833-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188403/5dcce3c15111e50428a78e56630d6100-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188403/2c2338bd65108b235fb046b0e4c90ff2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188403/3a5cd394c271ea5dc806b23102689c62-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:2",
+        "lot_number": 2,
+        "title": "Retro pala New Holland mod B 90B, año 2016, tracción 4x4, (aprox. 6.795 horas) (funcionando).-",
+        "description": "Retro pala New Holland mod B 90B, año 2016, tracción 4x4, (aprox. 6.795 horas) (funcionando).-",
+        "base_price": 2400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1589403.97,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188404/f6321a79afaa1fd069ba9c47543e2cb3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188404/ec002e3d37be6d94eac576875a48388e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188404/d0a2e25a154ee1bebefa2251b79c4256-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188404/bed0415cce19f6e3eced94bd373b347c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188404/a310a3c4cb14f4c8931e905e9294b128-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:3",
+        "lot_number": 3,
+        "title": "Tanque regador cap. 12.000 lts, de 2 ejes con lanza, (Funcionando).-",
+        "description": "Tanque regador cap. 12.000 lts, de 2 ejes con lanza, (Funcionando).-",
+        "base_price": 180000000.0,
+        "currency": "ARS",
+        "base_price_usd": 119205.3,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188405/c1f0f2fe6da2393677e62a577c1e633c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188405/404dd5dc8a3eddc17197b2046e55d4a5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188405/a488ff21f31955fa282d4d94ac6aabd3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188405/d58581df4d85e6073d4ded6844eaa7c5-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:4",
+        "lot_number": 4,
+        "title": "(LOTE RETIRADO DE LA VENTA) (Dom. AD348BV) Automóvil Toyota mod. Yaris xs 1.5 6m/t, año 2018, (aprox",
+        "description": "(LOTE RETIRADO DE LA VENTA) (Dom. AD348BV) Automóvil Toyota mod. Yaris xs 1.5 6m/t, año 2018, (aprox",
+        "base_price": 50.0,
+        "currency": "ARS",
+        "base_price_usd": 0.03,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188821/7d5cb56d6dee2942b1071040d992b5d7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188821/5f15e0f4fc952354958a54b8356da879-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188821/acf78b76833d03d0b857ee28f7f595be-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188821/2f1bb05afd534e7139953ebe33e203aa-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188821/ed1ebe6c1cfe6067b11d38127027cf88-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:5",
+        "lot_number": 5,
+        "title": "(Dom. AB942MQ) SUV Hyundai (tipo todo terreno) mod. santa fe 4wd, año 2017, automática, (aprox. 201.",
+        "description": "(Dom. AB942MQ) SUV Hyundai (tipo todo terreno) mod. santa fe 4wd, año 2017, automática, (aprox. 201.",
+        "base_price": 1000000000.0,
+        "currency": "ARS",
+        "base_price_usd": 662251.66,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188822/8179a23ac09875d7b60c3c0c9574e3f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188822/5c4373bdc18684e4c015957c19fc6f9c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188822/32de91d0f2c82de44129f9f7f2961989-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188822/ef61ad2e7961ce8af8688959e5070100-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188822/05ae2c77323c9b3f47883a297d93881f-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:6",
+        "lot_number": 6,
+        "title": "Tractor agricola Apache Solís mod 90wt, año 2014, chasis azlde410051w, 4 x2, con levante 3 puntos, t",
+        "description": "Tractor agricola Apache Solís mod 90wt, año 2014, chasis azlde410051w, 4 x2, con levante 3 puntos, t",
+        "base_price": 320000000.0,
+        "currency": "ARS",
+        "base_price_usd": 211920.53,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/188823/312d1b9755d313abe772064c2bf2928e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188823/deb8ec3d2714b430c1358b66f49a8114-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/188823/42d05709ba8a180a0f611dc42b3b0118-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:7",
+        "lot_number": 7,
+        "title": "Implemento martillo hidráulico Socomec, para minicargadora.-",
+        "description": "Implemento martillo hidráulico Socomec, para minicargadora.-",
+        "base_price": 140000000.0,
+        "currency": "ARS",
+        "base_price_usd": 92715.23,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189031/724585f1d32186f363bd9ef912dc6185-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189031/5811176dc63f8e2183c4271c0cab0a69-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189031/8cedd4c10cb84b25f783bede7d2a22fb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189031/d9e339688e17e9ab40bca677e6fb6e2d-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:8",
+        "lot_number": 8,
+        "title": "Lote de 23 cubiertas, medidas 7 de 235/65 R17 , 7 de 12L -16.5, 2 de 265/60 R18, 2 de 11L-16, 2 de 2",
+        "description": "Lote de 23 cubiertas, medidas 7 de 235/65 R17 , 7 de 12L -16.5, 2 de 265/60 R18, 2 de 11L-16, 2 de 2",
+        "base_price": 220000000.0,
+        "currency": "ARS",
+        "base_price_usd": 145695.36,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189032/06478fe08672c0e0715f4d8c712c406b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189032/a6d119e9341857e48d2070671a22f4f0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189032/46899529ea87f95584dbd663b8677852-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189032/ce8e5be0d6b6f975103341c0237137e2-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4396:9",
+        "lot_number": 9,
+        "title": "Motoniveladora New Holland mod rg170b, año 2015, aprox (7376 horas de uso), con escarificador chicos",
+        "description": "Motoniveladora New Holland mod rg170b, año 2015, aprox (7376 horas de uso), con escarificador chicos",
+        "base_price": 4400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 2913907.28,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189339/e95b747fdd8b57efcf9e46c0209cf1f1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189339/1a31f88d60dc9ce68cdbc13088deea19-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189339/1c80847c60c0b80c0e77b98de8cb70b1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189339/c8a28598049faf735200cafaa9f49e7a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189339/ce31b8312903ebc84e4246a571858204-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 9
   },
   {
     "id": "adrian_mercado:4402",
@@ -413,7 +1244,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:15.452313+00:00",
+    "scraped_at": "2026-07-11T05:35:29.485661+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4402_condition_report_34225080.pdf",
@@ -449,7 +1280,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:23.562373+00:00",
+    "scraped_at": "2026-07-11T05:35:37.586650+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4404_condition_report_34225080.pdf",
@@ -485,7 +1316,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:31.647621+00:00",
+    "scraped_at": "2026-07-11T05:35:45.653026+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4438_condition_report_34225080.pdf",
@@ -529,6 +1360,112 @@
     "lot_count": 1
   },
   {
+    "id": "adrian_mercado:4439",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/3-autoelevadores-yale-gas-y-naftagas-de-2-5-a-3-5-tn-4439",
+    "title": "3 autoelevadores Yale gas y nafta/gas de 2.5 a 3.5 tn.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: San Lorenzo 4732, Munro, Buenos Aires Fecha y horario de exhibición: Miercoles 15/7 y Jueves 16/7 de 9:00 a 16:00 hs Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-17T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-11T05:35:53.731262+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4439_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4439_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4439_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "autoelevador",
+        "min_usd": 6000,
+        "max_usd": 60000,
+        "typical_usd": 15000,
+        "category": "machinery"
+      }
+    },
+    "lots": [
+      {
+        "lot_id": "am:4439:2",
+        "lot_number": 2,
+        "title": "(Int. Y-957) - Autoelevador nafta-gas Yale, mod. GTP-25-RK, año 2013, cap. 2500 kg., motor 4 cilindr...",
+        "description": "(Int. Y-957) - Autoelevador nafta-gas Yale, mod. GTP-25-RK, año 2013, cap. 2500 kg., motor 4 cilindr...",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 264900.66,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189215/44589dcc822d00a443cb625d6c3ed744-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189215/b08578da1e71cab01bb8b1c310c23f02-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189215/78258553be718cd188e7de6ff47bbf86-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189215/83332f9282c8222d9ee1ebd3ac739243-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189215/8129257779c49d2698332c0c38e495e5-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4439:4",
+        "lot_number": 4,
+        "title": "(Int. Y-787) Autoelevador nafta-gas Yale, mod. GP35TK, año 2008, cap. 2500 kg., motor 4 cilindros, t",
+        "description": "(Int. Y-787) Autoelevador nafta-gas Yale, mod. GP35TK, año 2008, cap. 2500 kg., motor 4 cilindros, t",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 264900.66,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189275/6d98447c91da7561b77af678e34789d9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189275/e81bd3a76202df250dd98cd542051838-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189275/a4242d0021aace7c5b227648af3de337-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189275/be1d849668f8b8802f356cd641c29d07-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189275/46a6a6578aa39e2243785d3ec64f8604-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4439:6",
+        "lot_number": 6,
+        "title": "(Int. Y-1029) - Autoelevador nafta-gas Yale, mod. GTP-25-RK, año 2015, cap. 2500 kg., motor 4 cilind...",
+        "description": "(Int. Y-1029) - Autoelevador nafta-gas Yale, mod. GTP-25-RK, año 2015, cap. 2500 kg., motor 4 cilind...",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 264900.66,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/189216/4fd279b0ffbf7af402cd8bd5876f6af5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189216/4dd4033e94b0e8403f4a1fe6ed86076d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189216/6e8983b494373096dfd94bd8ce5c1b89-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189216/fdf21d9112711390e191e58ed46c528b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/189216/760f577fd524a305b75156eca3407267-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 3
+  },
+  {
     "id": "adrian_mercado:4440",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-motocompresor-de-aire-sullair-4440",
@@ -545,7 +1482,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:39.743123+00:00",
+    "scraped_at": "2026-07-11T05:36:01.805323+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4440_condition_report_34225080.pdf",
@@ -596,7 +1533,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:47.823840+00:00",
+    "scraped_at": "2026-07-11T05:36:09.874452+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4442_condition_report_34225080.pdf",
@@ -1200,7 +2137,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:39:55.922460+00:00",
+    "scraped_at": "2026-07-11T05:36:17.949667+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4447_condition_report_34225080.pdf",
@@ -1222,9 +2159,9 @@
         "lot_number": 17,
         "title": "(Dom. JQR 097) Chasis con cabina Iveco, mod. 170E22, año 2006, tracción 4x2, (km. 122.830 según odóm...",
         "description": "(Dom. JQR 097) Chasis con cabina Iveco, mod. 170E22, año 2006, tracción 4x2, (km. 122.830 según odóm...",
-        "base_price": 2000000000.0,
+        "base_price": 1400000000.0,
         "currency": "ARS",
-        "base_price_usd": 1324503.31,
+        "base_price_usd": 927152.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1245,9 +2182,9 @@
         "lot_number": 18,
         "title": "(Dom. JBD 313) Chasis con cabina Iveco, mod. 170E22, año 2010, tracción 4x2, (km. 124.710 según odóm",
         "description": "(Dom. JBD 313) Chasis con cabina Iveco, mod. 170E22, año 2010, tracción 4x2, (km. 124.710 según odóm",
-        "base_price": 3000000000.0,
+        "base_price": 2000000000.0,
         "currency": "ARS",
-        "base_price_usd": 1986754.97,
+        "base_price_usd": 1324503.31,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1268,9 +2205,9 @@
         "lot_number": 19,
         "title": "(Dom. FFN 767) Tractor de carretera con cabina dormitorio Mercedes Benz, mod. LS 1634/45, año 2005,",
         "description": "(Dom. FFN 767) Tractor de carretera con cabina dormitorio Mercedes Benz, mod. LS 1634/45, año 2005,",
-        "base_price": 2000000000.0,
+        "base_price": 1200000000.0,
         "currency": "ARS",
-        "base_price_usd": 1324503.31,
+        "base_price_usd": 794701.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1291,9 +2228,9 @@
         "lot_number": 20,
         "title": "(Dom. IYP 688) Chasis con cabina Iveco, mod. 170E22, año aprox. 2010, (km. 872.096 según odómetro al",
         "description": "(Dom. IYP 688) Chasis con cabina Iveco, mod. 170E22, año aprox. 2010, (km. 872.096 según odómetro al",
-        "base_price": 1500000000.0,
+        "base_price": 1200000000.0,
         "currency": "ARS",
-        "base_price_usd": 993377.48,
+        "base_price_usd": 794701.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1314,9 +2251,9 @@
         "lot_number": 22,
         "title": "(Dom. JQR 095) Chasis con cabina dormitorio Iveco, mod. 17-220 Attack, año 2011, (km. 812.372 según",
         "description": "(Dom. JQR 095) Chasis con cabina dormitorio Iveco, mod. 17-220 Attack, año 2011, (km. 812.372 según",
-        "base_price": 1000000000.0,
+        "base_price": 700000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 463576.16,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1337,9 +2274,9 @@
         "lot_number": 23,
         "title": "(Int: 103) (Dom. MCX 958) Tractor de carretera con cabina dormitorio Scania, mod. G 380 A4x2, año 20",
         "description": "(Int: 103) (Dom. MCX 958) Tractor de carretera con cabina dormitorio Scania, mod. G 380 A4x2, año 20",
-        "base_price": 3000000000.0,
+        "base_price": 2000000000.0,
         "currency": "ARS",
-        "base_price_usd": 1986754.97,
+        "base_price_usd": 1324503.31,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1360,9 +2297,9 @@
         "lot_number": 24,
         "title": "(Dom. JOV 889) Chasis largo con cabina dormitorio Iveco, mod. 170E22T, año 2011, (km. 250.640 según",
         "description": "(Dom. JOV 889) Chasis largo con cabina dormitorio Iveco, mod. 170E22T, año 2011, (km. 250.640 según",
-        "base_price": 1500000000.0,
+        "base_price": 1000000000.0,
         "currency": "ARS",
-        "base_price_usd": 993377.48,
+        "base_price_usd": 662251.66,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1383,9 +2320,9 @@
         "lot_number": 25,
         "title": "(Dom. JOV 888) Chasis largo con cabina dormitorio Iveco, mod. 170E22, año aprox. 2011, (km. 220.863",
         "description": "(Dom. JOV 888) Chasis largo con cabina dormitorio Iveco, mod. 170E22, año aprox. 2011, (km. 220.863",
-        "base_price": 1500000000.0,
+        "base_price": 1000000000.0,
         "currency": "ARS",
-        "base_price_usd": 993377.48,
+        "base_price_usd": 662251.66,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1406,9 +2343,9 @@
         "lot_number": 28,
         "title": "(Dom. FUH 385) Chasis con cabina dormitorio Mercedes, mod. LS 1634/45, año 2006, tracción 6x2, (km.",
         "description": "(Dom. FUH 385) Chasis con cabina dormitorio Mercedes, mod. LS 1634/45, año 2006, tracción 6x2, (km.",
-        "base_price": 2000000000.0,
+        "base_price": 1400000000.0,
         "currency": "ARS",
-        "base_price_usd": 1324503.31,
+        "base_price_usd": 927152.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1429,9 +2366,9 @@
         "lot_number": 33,
         "title": "(Dom. FIK 105) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
         "description": "(Dom. FIK 105) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
-        "base_price": 1000000000.0,
+        "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 529801.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1452,9 +2389,9 @@
         "lot_number": 34,
         "title": "(Dom. FWH 875) Semirremolque silo (para transporte de productos a granel) de 1 eje + 1 fijo Randon,...",
         "description": "(Dom. FWH 875) Semirremolque silo (para transporte de productos a granel) de 1 eje + 1 fijo Randon,...",
-        "base_price": 1000000000.0,
+        "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 529801.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1475,9 +2412,9 @@
         "lot_number": 35,
         "title": "(Dom. FIK 100) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
         "description": "(Dom. FIK 100) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
-        "base_price": 1000000000.0,
+        "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 529801.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1498,9 +2435,9 @@
         "lot_number": 36,
         "title": "(Dom. FIK 102) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
         "description": "(Dom. FIK 102) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
-        "base_price": 1000000000.0,
+        "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 529801.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1521,9 +2458,9 @@
         "lot_number": 37,
         "title": "(Dom. FVE 367) Semirremolque silo (para transporte de productos a granel) de 1 eje + 1 fijo Randon,...",
         "description": "(Dom. FVE 367) Semirremolque silo (para transporte de productos a granel) de 1 eje + 1 fijo Randon,...",
-        "base_price": 1000000000.0,
+        "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 529801.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1544,9 +2481,9 @@
         "lot_number": 38,
         "title": "(Dom. FYZ 355) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
         "description": "(Dom. FYZ 355) Semirremolque silo (para transporte de productos a granel), de 1 eje + 1 fijo Randon,...",
-        "base_price": 1000000000.0,
+        "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 662251.66,
+        "base_price_usd": 529801.32,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1590,9 +2527,9 @@
         "lot_number": 41,
         "title": "(Dom. AF 034 HW) Pick-up Toyota, mod. Hilux 4x4 DC 2.4 TDI 6 MT, año 2021, (km. 97.135 según odómetr",
         "description": "(Dom. AF 034 HW) Pick-up Toyota, mod. Hilux 4x4 DC 2.4 TDI 6 MT, año 2021, (km. 97.135 según odómetr",
-        "base_price": 2000000000.0,
+        "base_price": 1600000000.0,
         "currency": "ARS",
-        "base_price_usd": 1324503.31,
+        "base_price_usd": 1059602.65,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1611,11 +2548,11 @@
       {
         "lot_id": "am:4447:42",
         "lot_number": 42,
-        "title": "(Dom. AD 096 FF) Todo terreno Mercedes Benz, mod. GLC 300 Coupé AMG-LINE, año 2018, (km. 38.002 segú",
-        "description": "(Dom. AD 096 FF) Todo terreno Mercedes Benz, mod. GLC 300 Coupé AMG-LINE, año 2018, (km. 38.002 segú",
-        "base_price": 5000000000.0,
+        "title": "Lote retirado de la venta. (Dom. AD 096 FF) Todo terreno Mercedes Benz, mod. GLC 300 Coupé AMG-LINE,...",
+        "description": "Lote retirado de la venta. (Dom. AD 096 FF) Todo terreno Mercedes Benz, mod. GLC 300 Coupé AMG-LINE,...",
+        "base_price": 50.0,
         "currency": "ARS",
-        "base_price_usd": 3311258.28,
+        "base_price_usd": 0.03,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1674,7 +2611,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:04.033143+00:00",
+    "scraped_at": "2026-07-11T05:36:26.030183+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4339_condition_report_34225080.pdf",
@@ -1710,7 +2647,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:12.121707+00:00",
+    "scraped_at": "2026-07-11T05:36:34.101216+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4370_condition_report_34225080.pdf",
@@ -1746,7 +2683,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:20.209620+00:00",
+    "scraped_at": "2026-07-11T05:36:42.187875+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4392_condition_report_34225080.pdf",
@@ -1782,7 +2719,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:28.302290+00:00",
+    "scraped_at": "2026-07-11T05:36:50.258647+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4345_condition_report_34225080.pdf",
@@ -1818,7 +2755,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:36.401066+00:00",
+    "scraped_at": "2026-07-11T05:36:58.343146+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4385_condition_report_34225080.pdf",
@@ -1832,6 +2769,42 @@
         "max_usd": 120000,
         "typical_usd": 45000,
         "category": "vehicles"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4388",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-excavadoras-maquinaria-vial-grupos-electrogenos-camiones-cisterna-y-semirremolque-techint-s-a-4388",
+    "title": "Subasta de excavadoras, maquinaria vial, grupos electrógenos, camiones cisterna y semirremolque - TECHINT S.A.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Gral. Juan Domingo Perón 4304, Benavidez, Buenos Aires Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-31T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-07-11T05:37:06.438080+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4388_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4388_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4388_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "excavadora",
+        "min_usd": 15000,
+        "max_usd": 200000,
+        "typical_usd": 45000,
+        "category": "machinery"
       }
     },
     "lots": [],
@@ -1854,7 +2827,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:44.503020+00:00",
+    "scraped_at": "2026-07-11T05:37:14.526510+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4348_condition_report_34225080.pdf",
@@ -1890,7 +2863,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-10T06:40:52.600863+00:00",
+    "scraped_at": "2026-07-11T05:37:22.611400+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
@@ -1910,7 +2883,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:49539775",
+    "id": "adrian_mercado:63604730",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "Alsina Construcciones",
@@ -1928,7 +2901,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-07-10T06:37:41.464765+00:00",
+    "scraped_at": "2026-07-11T05:33:55.878231+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",

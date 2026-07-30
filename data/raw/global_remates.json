@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-29T05:44:35.004049+00:00",
+    "scraped_at": "2026-07-30T05:33:34.124535+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-29T05:44:35.004206+00:00",
+    "scraped_at": "2026-07-30T05:33:34.124629+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-29T05:44:35.004324+00:00",
+    "scraped_at": "2026-07-30T05:33:34.124711+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +82,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-29T05:44:35.004443+00:00",
+    "scraped_at": "2026-07-30T05:33:34.124794+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,55 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-29T05:44:35.004566+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42239",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42239",
-    "title": "Global Rural IMPORTANTE PLANTA DE ACOPIO DE CEREA...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 275000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-29T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3257/42239/3257_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-07-29T05:44:35.006157+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42240",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42240",
-    "title": "MANSERGA S.A. LOTE DE 8 LUSTRADORAS Y LUSTRA-LAV...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3258/42240/3258_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-07-29T05:44:35.006477+00:00",
+    "scraped_at": "2026-07-30T05:33:34.124865+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +128,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3259/42243/3259_Lote_01.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.006808+00:00",
+    "scraped_at": "2026-07-30T05:33:34.126155+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42240",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42240",
+    "title": "MANSERGA S.A. LOTE DE 8 LUSTRADORAS Y LUSTRA-LAV...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 3000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-07-30T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3258/42240/3258_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-07-30T05:33:34.126394+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3258/42241/3258_Lote_02.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.007174+00:00",
+    "scraped_at": "2026-07-30T05:33:34.126601+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3259/42245/3259_Lote_03.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.007527+00:00",
+    "scraped_at": "2026-07-30T05:33:34.126824+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3259/42246/3259_Lote_04.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.007846+00:00",
+    "scraped_at": "2026-07-30T05:33:34.127042+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -270,9 +246,9 @@
       "city": ""
     },
     "images": [
-      "https://www.globalremates.com.ar/images/nolot.jpg"
+      "https://www.globalremates.com.ar/Register/Auctions/3259/42254/3259_lote_12.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.008146+00:00",
+    "scraped_at": "2026-07-30T05:33:34.127258+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -294,9 +270,9 @@
       "city": ""
     },
     "images": [
-      "https://www.globalremates.com.ar/images/nolot.jpg"
+      "https://www.globalremates.com.ar/Register/Auctions/3259/42264/3259_lote_22.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.008448+00:00",
+    "scraped_at": "2026-07-30T05:33:34.127471+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3260/42269/3195_Lote_52.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.008787+00:00",
+    "scraped_at": "2026-07-30T05:33:34.127665+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3260/42271/3195_Lote_54.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.009280+00:00",
+    "scraped_at": "2026-07-30T05:33:34.127852+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3260/42273/3195_Lote_56.jpg"
     ],
-    "scraped_at": "2026-07-29T05:44:35.009710+00:00",
+    "scraped_at": "2026-07-30T05:33:34.128043+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

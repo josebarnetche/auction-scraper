@@ -1,93 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3256",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3256",
-    "title": "ZF Argentina",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-30T05:33:34.124535+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3257",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3257",
-    "title": "Global Rural",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-30T05:33:34.124629+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3258",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3258",
-    "title": "MANSERGA S.A.",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-30T05:33:34.124711+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3259",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3259",
-    "title": "Global Maquinarias",
-    "description": "",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-07-30T05:33:34.124794+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3260",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3260",
@@ -104,175 +16,95 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-07-30T05:33:34.124865+00:00",
+    "scraped_at": "2026-08-01T05:48:55.263107+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42243",
+    "id": "global_remates:auction_3263",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42243",
-    "title": "Global Maquinarias IMPORTANTE INYECTORA , MARCA SEMERAR...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3263",
+    "title": "Nestlé Argentina S.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-01T05:48:55.263402+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3264",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3264",
+    "title": "Tassaroli S.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-01T05:48:55.263613+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3132",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3132",
+    "title": "Renault Argentina",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-01T05:48:55.263820+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3052",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
+    "title": "Global Maquinarias",
     "description": "",
     "category": "machinery",
-    "base_price": 6000000.0,
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-07-30T12:01:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3259/42243/3259_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.126155+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42240",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42240",
-    "title": "MANSERGA S.A. LOTE DE 8 LUSTRADORAS Y LUSTRA-LAV...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3258/42240/3258_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.126394+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42241",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42241",
-    "title": "MANSERGA S.A. LOTE DE 9 LUSTRADORAS Y LUSTRA-LAV...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3200000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:02:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3258/42241/3258_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.126601+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42245",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42245",
-    "title": "Global Maquinarias INYECTORA , MARCA ORIENTE , SERIE 1...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 3000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3259/42245/3259_Lote_03.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.126824+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42246",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42246",
-    "title": "Global Maquinarias INYECTORA , MARCA FRAVIPLAST FTDA 1...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 1700000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:04:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3259/42246/3259_Lote_04.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.127042+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42254",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42254",
-    "title": "Global Maquinarias BALANCÍN, CANTIDAD: 1 U. ,Loc: CABA...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 200000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:12:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3259/42254/3259_lote_12.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.127258+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42264",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42264",
-    "title": "Global Maquinarias TORRE DE ENFRIAMIENTO CANTIDAD: 1 U....",
-    "description": "",
-    "category": "machinery",
-    "base_price": 900000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-07-30T12:22:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3259/42264/3259_lote_22.jpg"
-    ],
-    "scraped_at": "2026-07-30T05:33:34.127471+00:00",
+    "images": [],
+    "scraped_at": "2026-08-01T05:48:55.264007+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3260/42269/3195_Lote_52.jpg"
     ],
-    "scraped_at": "2026-07-30T05:33:34.127665+00:00",
+    "scraped_at": "2026-08-01T05:48:55.266273+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3260/42271/3195_Lote_54.jpg"
     ],
-    "scraped_at": "2026-07-30T05:33:34.127852+00:00",
+    "scraped_at": "2026-08-01T05:48:55.266737+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +176,223 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3260/42273/3195_Lote_56.jpg"
     ],
-    "scraped_at": "2026-07-30T05:33:34.128043+00:00",
+    "scraped_at": "2026-08-01T05:48:55.267156+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42304",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42304",
+    "title": "Nestlé Argentina S.A. ENVASADORA AUTOMÁTICA, MARCA MAINAR ...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 3900000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3263/42304/3262_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.267711+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42321",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42321",
+    "title": "Tassaroli S.A. PRENSA FRICCION 0,7 TN, MARCA FISER ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 400000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3264/42321/3261_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.268218+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42305",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42305",
+    "title": "Nestlé Argentina S.A. TORNO PARALELO, CANTIDAD: 1 U. Loc: ...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 950000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:02:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3263/42305/3262_Lote_04.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.268754+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42310",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42310",
+    "title": "Nestlé Argentina S.A. CONTROLADORA DE PESO, MARCA VARPE 20...",
+    "description": "",
+    "category": "other",
+    "base_price": 200000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:07:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3263/42310/3262_Lote_09.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.269317+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42329",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42329",
+    "title": "Tassaroli S.A. TORNO PARALELO, MARCA WECHECO T-44S...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 3000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:09:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3264/42329/3261_Lote_10.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.269917+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42331",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42331",
+    "title": "Tassaroli S.A. RECTIFICADORA BOLLATTI , CANTIDAD 1 ...",
+    "description": "",
+    "category": "general_goods",
+    "base_price": 800000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:11:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3264/42331/3261_Lote_12.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.270469+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42315",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42315",
+    "title": "Nestlé Argentina S.A. CONTROLADOR DE PESO DIGITAL, MARCA O...",
+    "description": "",
+    "category": "other",
+    "base_price": 400000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:12:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3263/42315/3262_Lote_14.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.271073+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42333",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42333",
+    "title": "Tassaroli S.A. ELEVADOR MANUAL TRANSPORTABLE , CANT...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 300000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:13:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3264/42333/3261_Lote_14.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.271572+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42334",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42334",
+    "title": "Tassaroli S.A. MINI TRACTOR CORTADORA DE CESPED, CA...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 1200000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T12:14:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3264/42334/3261_Lote_15.jpg"
+    ],
+    "scraped_at": "2026-08-01T05:48:55.272160+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

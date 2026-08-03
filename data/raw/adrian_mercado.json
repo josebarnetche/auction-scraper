@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:49:52.250456+00:00",
+    "scraped_at": "2026-08-03T06:14:09.828570+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4458_condition_report_34225080.pdf",
@@ -68,7 +68,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:00.330680+00:00",
+    "scraped_at": "2026-08-03T06:14:17.904910+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4388_condition_report_34225080.pdf",
@@ -1929,7 +1929,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:08.389951+00:00",
+    "scraped_at": "2026-08-03T06:14:25.974741+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4460_condition_report_34225080.pdf",
@@ -1957,7 +1957,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:16.471799+00:00",
+    "scraped_at": "2026-08-03T06:14:34.053521+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4357_condition_report_34225080.pdf",
@@ -1988,7 +1988,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4486/a667f8080ec642dd24bae7c6b9e25f6a-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4486/a667f8080ec642dd24bae7c6b9e25f6a-mobile.jpg"
     ],
-    "scraped_at": "2026-08-02T05:50:24.542290+00:00",
+    "scraped_at": "2026-08-03T06:14:42.119681+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4486_condition_report_34225080.pdf",
@@ -3497,6 +3497,42 @@
     "lot_count": 68
   },
   {
+    "id": "adrian_mercado:4238",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-agro-tractores-pulverizadoras-y-maquinaria-de-siembra-4238",
+    "title": "Subasta Agro: Tractores, Pulverizadoras y Maquinaria de Siembra.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: ruta 7 km 140, B6725 Carmen de Areco, Buenos Aires Condiciones generales Descargar",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-07T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-03T06:14:50.309791+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "tractor",
+        "min_usd": 8000,
+        "max_usd": 150000,
+        "typical_usd": 35000,
+        "category": "machinery"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "adrian_mercado:4399",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-planta-clasificadora-palas-cargadoras-camiones-volcadores-y-semis-bateas-defamaq-srl-4399",
@@ -3513,7 +3549,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:32.608715+00:00",
+    "scraped_at": "2026-08-03T06:14:58.373748+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4399_condition_report_34225080.pdf",
@@ -3560,7 +3596,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:40.671687+00:00",
+    "scraped_at": "2026-08-03T06:15:06.426917+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4412_condition_report_34225080.pdf",
@@ -3599,7 +3635,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:48.736377+00:00",
+    "scraped_at": "2026-08-03T06:15:14.494989+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4428_condition_report_34225080.pdf",
@@ -3635,7 +3671,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:50:56.800121+00:00",
+    "scraped_at": "2026-08-03T06:15:22.553056+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4431_condition_report_34225080.pdf",
@@ -3663,49 +3699,13 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:51:04.853059+00:00",
+    "scraped_at": "2026-08-03T06:15:30.607855+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4455_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4455_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4455_condition_report_bbd2b7a8.pdf"
       ]
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "adrian_mercado:4238",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-agro-tractores-pulverizadoras-y-maquinaria-de-siembra-4238",
-    "title": "Subasta Agro: Tractores, Pulverizadoras y Maquinaria de Siembra.",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: ruta 7 km 140, B6725 Carmen de Areco, Buenos Aires Condiciones generales Descargar",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-07T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-08-02T05:51:12.919762+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "tractor",
-        "min_usd": 8000,
-        "max_usd": 150000,
-        "typical_usd": 35000,
-        "category": "machinery"
-      }
     },
     "lots": [],
     "lot_count": 0
@@ -3727,7 +3727,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:51:20.983514+00:00",
+    "scraped_at": "2026-08-03T06:15:38.672961+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4451_condition_report_34225080.pdf",
@@ -3755,7 +3755,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:51:29.049497+00:00",
+    "scraped_at": "2026-08-03T06:15:46.744824+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4459_condition_report_34225080.pdf",
@@ -3791,7 +3791,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:51:37.113585+00:00",
+    "scraped_at": "2026-08-03T06:15:54.799178+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4469_condition_report_34225080.pdf",
@@ -4321,7 +4321,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:51:45.175161+00:00",
+    "scraped_at": "2026-08-03T06:16:02.851856+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4435_condition_report_34225080.pdf",
@@ -4349,7 +4349,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:51:53.244662+00:00",
+    "scraped_at": "2026-08-03T06:16:10.907249+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4461_condition_report_34225080.pdf",
@@ -4396,7 +4396,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:52:01.299488+00:00",
+    "scraped_at": "2026-08-03T06:16:18.961204+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4474_condition_report_34225080.pdf",
@@ -4573,7 +4573,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-02T05:52:09.364848+00:00",
+    "scraped_at": "2026-08-03T06:16:27.022131+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4468_condition_report_34225080.pdf",
@@ -4593,7 +4593,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:38041673",
+    "id": "adrian_mercado:45234341",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "Subasta de inmueble por Banco De La Nación Argentina",
@@ -4611,7 +4611,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-08-02T05:49:39.621180+00:00",
+    "scraped_at": "2026-08-03T06:13:56.996616+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

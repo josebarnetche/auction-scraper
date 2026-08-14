@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:46:43.876811+00:00",
+    "scraped_at": "2026-08-14T04:44:08.496408+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4458_condition_report_34225080.pdf",
@@ -71,7 +71,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4480/b303ac0a63dbd7a14c3db9cea359fda7-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4480/b303ac0a63dbd7a14c3db9cea359fda7-mobile.jpg"
     ],
-    "scraped_at": "2026-08-13T04:46:51.943281+00:00",
+    "scraped_at": "2026-08-14T04:44:16.623917+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4480_condition_report_34225080.pdf",
@@ -123,7 +123,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:47:00.036113+00:00",
+    "scraped_at": "2026-08-14T04:44:24.737960+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4357_condition_report_34225080.pdf",
@@ -2439,7 +2439,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4486/a667f8080ec642dd24bae7c6b9e25f6a-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4486/a667f8080ec642dd24bae7c6b9e25f6a-mobile.jpg"
     ],
-    "scraped_at": "2026-08-13T04:47:08.116745+00:00",
+    "scraped_at": "2026-08-14T04:44:32.832517+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4486_condition_report_34225080.pdf",
@@ -3948,6 +3948,37 @@
     "lot_count": 68
   },
   {
+    "id": "adrian_mercado:4464",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-grupos-electrogenos-diesel-de-72-a-200-kva-rothbaro-s-r-l-4464",
+    "title": "SUBASTA EN VIVOSubasta de grupos electrógenos diésel de 72 a 200 kVA - ROTHBARO S.R.L.Grupos electrógenos diésel JCB, Cummins, Gelec y Perkins insonorizados de 72 a 200 kVA con tablero digital y sobre trineo. Matheu, Buenos AiresViernes\n                    21/8/202615:45 hID 2217",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Avenida Sarmiento, Ruta 25 565, Matheu, Buenos Aires Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4464/ccf0f34119846d1de9046b248dfa7c12-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4464/ccf0f34119846d1de9046b248dfa7c12-mobile.jpg"
+    ],
+    "scraped_at": "2026-08-14T04:44:40.908982+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4464_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4464_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4464_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "adrian_mercado:4476",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-autoelevadores-diesel-y-gruas-telescopicas-rental-s-a-4476",
@@ -3967,7 +3998,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4476/b09d92faea10979abc19eb0427dd7256-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4476/b09d92faea10979abc19eb0427dd7256-mobile.jpg"
     ],
-    "scraped_at": "2026-08-13T04:47:16.182484+00:00",
+    "scraped_at": "2026-08-14T04:44:49.004378+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4476_condition_report_34225080.pdf",
@@ -4006,12 +4037,51 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4471/bc9b02df88163c601cccf32247c34f77-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4471/bc9b02df88163c601cccf32247c34f77-mobile.jpg"
     ],
-    "scraped_at": "2026-08-13T04:47:24.246727+00:00",
+    "scraped_at": "2026-08-14T04:44:57.101877+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4471_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4471_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4471_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "autoelevador",
+        "min_usd": 6000,
+        "max_usd": 60000,
+        "typical_usd": 15000,
+        "category": "machinery"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4452",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-balancines-tornos-mecanizado-cnc-rectificadoras-y-guillotinas-fabio-hnos-s-a-4452",
+    "title": "SUBASTA EN VIVOSubasta de balancines, tornos, mecanizado CNC, rectificadoras y guillotinas - FABIO HNOS S.A.Más de 30 balancines de hasta 150 Tn, tornos CNC y paralelos, fresadora CNC, rectificadoras, guillotinas y autoelevador. Zeballos, Buenos Aires.Jueves\n                    27/8/2026A confirmarID 2205",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: 5QV7+R4 Zeballos, Buenos Aires Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-27T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4452/e00313f6a838bb588bf6f371311664a9-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4452/e00313f6a838bb588bf6f371311664a9-mobile.jpg"
+    ],
+    "scraped_at": "2026-08-14T04:45:05.211896+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4452_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4452_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4452_condition_report_bbd2b7a8.pdf"
       ],
       "market_data": {
         "source": "market_reference",
@@ -4045,7 +4115,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4462/da47afcb5f143d0ec35fb418d97a67db-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4462/da47afcb5f143d0ec35fb418d97a67db-mobile.jpg"
     ],
-    "scraped_at": "2026-08-13T04:47:32.325259+00:00",
+    "scraped_at": "2026-08-14T04:45:13.317573+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4462_condition_report_34225080.pdf",
@@ -4087,7 +4157,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4502/06affa0b44b28216b5bbc821a63f7a03-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4502/06affa0b44b28216b5bbc821a63f7a03-mobile.jpg"
     ],
-    "scraped_at": "2026-08-13T04:47:40.409303+00:00",
+    "scraped_at": "2026-08-14T04:45:21.414049+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4502_condition_report_34225080.pdf",
@@ -5907,2556 +5977,6 @@
     "lot_count": 79
   },
   {
-    "id": "adrian_mercado:4451",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-caldera-a-vapor-tanques-compresor-de-aire-y-secador-4451",
-    "title": "Subasta de caldera a vapor, tanques, compresor de aire y secador",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Tte. Gral. Julio Argentino Roca 570, B1686 Hurlingham, Buenos Aires Fecha y horario de exhibición: Martes 11-08 y Miércoles 12-08 de 10:00 a 16:00 horas Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-13T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-08-13T04:47:48.491930+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4451_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4451_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4451_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4451:1",
-        "lot_number": 1,
-        "title": "18 aprox. Motores vibratorios monofasicos 220v, cap. 1 kn c/u., (sin uso).-",
-        "description": "18 aprox. Motores vibratorios monofasicos 220v, cap. 1 kn c/u., (sin uso).-",
-        "base_price": 140000000.0,
-        "currency": "ARS",
-        "base_price_usd": 90909.09,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189961/a54f135985d6e42f978f524dbcd9bc92-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189961/4fc1b3eddbd1f66529866b6db3952303-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189961/f7a9c3a98309447c98fe284ce3b182dc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189961/394ca16eb436a9fc5af85ffc633d095f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189961/6449a69cc8c6b8db3d6c92e7e2405ca4-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:2",
-        "lot_number": 2,
-        "title": "Bomba a diafragma TR, mod. 40 PTFF, año 2021, salida de 1 1/2 pulgada diametro, caudal 151 lts/min.,",
-        "description": "Bomba a diafragma TR, mod. 40 PTFF, año 2021, salida de 1 1/2 pulgada diametro, caudal 151 lts/min.,",
-        "base_price": 35000000.0,
-        "currency": "ARS",
-        "base_price_usd": 22727.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189962/987d84b793b59d71c5c874713e502d93-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189962/85ecb7a346cce59d1d429893fdea0813-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189962/0efba9fe9b9188b3d1cdac5cba754593-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189962/5a3611e7ad4cf4d4d429396e49790cc6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189962/bb3a5af2923ef433eae4a32f73a131e1-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:3",
-        "lot_number": 3,
-        "title": "Bomba a diafragma TR, mod. 50 PTFF, año 2021, salida de 2 pulgada diametro, caudal 378,5 lts/min., a",
-        "description": "Bomba a diafragma TR, mod. 50 PTFF, año 2021, salida de 2 pulgada diametro, caudal 378,5 lts/min., a",
-        "base_price": 40000000.0,
-        "currency": "ARS",
-        "base_price_usd": 25974.03,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189963/e400d60645441d63cb9885cda6c289c8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189963/318a76e3ca7f95c6b8a773db52978197-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189963/e2b2047b5b92b527f8a5f20fa2532eee-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189963/e92b8f7c85932bdfdd45e74d825f9f91-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189963/25fc822d4c86664aaa06a436cd876075-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:4",
-        "lot_number": 4,
-        "title": "Bomba a diafragma TR, mod. 50 PTFF, año 2021, salida de 2 pulgada diametro, caudal 378,5 lts/min., a",
-        "description": "Bomba a diafragma TR, mod. 50 PTFF, año 2021, salida de 2 pulgada diametro, caudal 378,5 lts/min., a",
-        "base_price": 40000000.0,
-        "currency": "ARS",
-        "base_price_usd": 25974.03,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189964/a2273d0b633cbc901ace2c96efbb8d2d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189964/893914cf33e529138b6e85ddb9e58dee-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189964/e747a2f3be5acb49d5146dc2d92a86da-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189964/4046f3e476b9c6894641b7abbb819067-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:5",
-        "lot_number": 5,
-        "title": "Bomba a diafragma TR, mod. 50 PTFF, año 2021, salida de 2 pulgada diametro, caudal 0-3000 kg., altur",
-        "description": "Bomba a diafragma TR, mod. 50 PTFF, año 2021, salida de 2 pulgada diametro, caudal 0-3000 kg., altur",
-        "base_price": 40000000.0,
-        "currency": "ARS",
-        "base_price_usd": 25974.03,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189966/427e6c76cd26b244d7d6f4b00aa8102e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189966/1d43a02b336f516dffee41fe026bdf9b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189966/0eef03f6d71859f36c586111b6919970-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189966/628cdc2f82507842129b5354ac3aa013-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189966/6c90b5ffb171bccf9d7055387980ba2c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:6",
-        "lot_number": 6,
-        "title": "Centrifuga Industrial Ferrum, canasto en inox de 600 mm diametro x 300 mm profundidad, con motor (72",
-        "description": "Centrifuga Industrial Ferrum, canasto en inox de 600 mm diametro x 300 mm profundidad, con motor (72",
-        "base_price": 45000000.0,
-        "currency": "ARS",
-        "base_price_usd": 29220.78,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189967/17c5157af6bb2c71e2e1aa4dd7911d0c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189967/8a87ffeddbb8a89b5013e49518cd6fc9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189967/848d83f6430c073322dcd384165c74be-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189967/8d3e4bf908aefc68871b1e0c52382ee7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189967/c7e6229f7e08a56769f4205c59b54542-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:7",
-        "lot_number": 7,
-        "title": "Arenadora Industrial, mod. TB7016P, año 2021, diametro de boquilla 8 mm., presion de admision 0,7 -",
-        "description": "Arenadora Industrial, mod. TB7016P, año 2021, diametro de boquilla 8 mm., presion de admision 0,7 -",
-        "base_price": 45000000.0,
-        "currency": "ARS",
-        "base_price_usd": 29220.78,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189968/86371c7261a02128a60f5f2b2597e8b7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189968/509496fd51d7c01816af9895e8ab2ec6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189968/13994d5ffb708d099069490353978075-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189968/b2fef8f204cc10b5e4dd0a52567b2822-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189968/83bb8c2f2d2e506d113cc43c4b9aa919-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:8",
-        "lot_number": 8,
-        "title": "Porton levadizo en hierro, medidas: 5,30 x 2,70 mts altura + tramo superior de 5,30 x 0,70 mts altur",
-        "description": "Porton levadizo en hierro, medidas: 5,30 x 2,70 mts altura + tramo superior de 5,30 x 0,70 mts altur",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189969/f4352ddbadfd783bfb22dc9e1dad73d2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189969/b284f7ac5f6c874e2e3761b9465a1b2a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189969/ad97973c9b2e3447eb1a4debe2a3ad3f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189969/21f6ba17208b4c7b5496228538f1e456-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189969/a669e21cd7d6100d3a242872e714747e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:9",
-        "lot_number": 9,
-        "title": "8 Carros clasificadores en hierro portabandejas, transportables (1 sin ruedas) y Exhibidor en hierro",
-        "description": "8 Carros clasificadores en hierro portabandejas, transportables (1 sin ruedas) y Exhibidor en hierro",
-        "base_price": 8000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5194.81,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189970/4484f952ed9f93f81b818258cb2ff63b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189970/b5e5c8b7fe9d50fa09127db07de02478-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189970/4f3e27d6cc742aba211fde49ca7af877-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189970/500b140d92afa0bc0e2946b05d2efe21-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189970/1a90bc9f76cac5ac21e47646133772fd-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:10",
-        "lot_number": 10,
-        "title": "4 Pallets conteninedo cantidad de accesorios en galvanizado para agua (curvas con diametro 1 1/4 pul",
-        "description": "4 Pallets conteninedo cantidad de accesorios en galvanizado para agua (curvas con diametro 1 1/4 pul",
-        "base_price": 65000000.0,
-        "currency": "ARS",
-        "base_price_usd": 42207.79,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189971/2970818c82643bd8a4c2f7edbe68742b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189971/5189858be0a7a7a2633bb36b6909063c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189971/c7e06a70fd7954f815faa5240dea4095-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189971/926892becfe1d85341140ba23c4c1fbd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189971/eae468760b4915b6f9f0f3d1027a04cb-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:11",
-        "lot_number": 11,
-        "title": "Cantidad de Alfombras, medidas: 450 x 450 mm y 4 Bolsas de Scrap en PVC, (todo en el estado en que s",
-        "description": "Cantidad de Alfombras, medidas: 450 x 450 mm y 4 Bolsas de Scrap en PVC, (todo en el estado en que s",
-        "base_price": 7000000.0,
-        "currency": "ARS",
-        "base_price_usd": 4545.45,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189972/cb9725e0147fe731dc87cc654c0457e2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189972/22b06384f73cc35ef858c254feb1f8fe-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189972/7d80a3f99dcffa0ba353af44abdb80d8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189972/e5abb4fee34754def6ff477d4605bc69-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189972/91bfa910cc35c0552262481f2d4c9e12-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:12",
-        "lot_number": 12,
-        "title": "2 Heladeras (1 con congelador y 1 vertical exhibidora), Incubadora, Microondas, Lavarropa y TV tubo",
-        "description": "2 Heladeras (1 con congelador y 1 vertical exhibidora), Incubadora, Microondas, Lavarropa y TV tubo",
-        "base_price": 8000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5194.81,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189973/95d913169cb8f7c31b393a377c51bf12-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189973/4c914f12529e248ab858893e9859e9c7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189973/7ec39395e97f0519848a038787de0829-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189973/6d9aa0a4e04d61e4d817bfbbef6ddd2a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189973/2b96025c0f7451c448317ef3c6b97c57-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:13",
-        "lot_number": 13,
-        "title": "2 Recipientes en hierro, interior ebonitado, cap. 60 lts. c/u. (medidas: 1,00 x 0,60 mts diametro),",
-        "description": "2 Recipientes en hierro, interior ebonitado, cap. 60 lts. c/u. (medidas: 1,00 x 0,60 mts diametro),",
-        "base_price": 10000000.0,
-        "currency": "ARS",
-        "base_price_usd": 6493.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189974/3576372ffdb0f457a74ac14a0d4c59ca-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189974/6a5fe0355ac2f747f8dbade8a9c3c421-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189974/63de810a8ad734da6b3861f21fbfd23c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189974/63d4c0719653a9b031aa5636dddf273f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:14",
-        "lot_number": 14,
-        "title": "3 Recipientes en inox, cap. aprox. 50/60 lts.-",
-        "description": "3 Recipientes en inox, cap. aprox. 50/60 lts.-",
-        "base_price": 8000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5194.81,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189975/f0245f7d45a5e22784b49d7fd715298a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189975/55068cc0714d946270aa54733e5dd95d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189975/1cc0c669db9fe23c2d701b56cc5d4c06-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:15",
-        "lot_number": 15,
-        "title": "4 Bombas para material vizcoso, (2 Graco y 2 Vinks), (en el estado en que se encuentran y exhiben).-",
-        "description": "4 Bombas para material vizcoso, (2 Graco y 2 Vinks), (en el estado en que se encuentran y exhiben).-",
-        "base_price": 10000000.0,
-        "currency": "ARS",
-        "base_price_usd": 6493.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189976/6af59ae77d96ba5d46093afdee873363-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189976/4f0e9cd174e48be62db11f3661eb1c12-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189976/9a410b819cc331a5e12c582ac8e7c49f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189976/d7b8799e8ded03ef5e740d6d2ea72a84-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189976/66e7ffe1c7277b9a348fec784c38f3f4-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:16",
-        "lot_number": 16,
-        "title": "Secador de aire Atlas Copco, mod. FD 160, año 1997, presion de aire 13 bar, presion de refrigeracion",
-        "description": "Secador de aire Atlas Copco, mod. FD 160, año 1997, presion de aire 13 bar, presion de refrigeracion",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189977/a8fa8736f86600f8669cdcf417e99838-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189977/2b9a93cbd3a18c076ccdfce04e78891b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189977/9de18b2888c95d98a63744461efb09a7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189977/5adcc1181472c2a56e8b86dc91aa049a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:17",
-        "lot_number": 17,
-        "title": "Central hidraulica, con motor y 13 aprox, Tableros electricos vs, (en el estado en que se encuentran",
-        "description": "Central hidraulica, con motor y 13 aprox, Tableros electricos vs, (en el estado en que se encuentran",
-        "base_price": 35000000.0,
-        "currency": "ARS",
-        "base_price_usd": 22727.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189978/a6bb8cc07fbc2cfcb37718298e6e9276-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189978/7fc556b2cdff5d9e58f7f597774371f0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189978/6846f433823bfc34a620df8ebc7ae82d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189978/c8e766d23349ecbb0281ccc4a4855ebc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189978/c8554992137372c91624e98c2a69ad48-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:18",
-        "lot_number": 18,
-        "title": "Compresor de aire a tornillo Sullair, motor de 30 hp., transportable, (en el estado en que se encuen",
-        "description": "Compresor de aire a tornillo Sullair, motor de 30 hp., transportable, (en el estado en que se encuen",
-        "base_price": 55000000.0,
-        "currency": "ARS",
-        "base_price_usd": 35714.29,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189979/468981143c0040440d3605f5bd9e3cab-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189979/b23e15f05c1e849a8169a787bc09e21f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189979/de54788453a1ab1094538d1996a64ed6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189979/da6f8d3648eb006826a3007a9281e42a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189979/5a2e7b5c0412b8e6de87230a085fd87e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:19",
-        "lot_number": 19,
-        "title": "2 Agitadores para Tambores cap. 20 y 200 lts, (1 con motor y reductor, en el estado en que se encuen",
-        "description": "2 Agitadores para Tambores cap. 20 y 200 lts, (1 con motor y reductor, en el estado en que se encuen",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189980/8b494f7d875eb0e67605c8150e15f2df-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189980/1615f724e73fc012f755d9daaec27457-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189980/3d145d53687bad36997dcac813c55306-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189980/243df9312250a585d1445b5c9c538388-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189980/20df588dea750e963bede21e02f94109-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:20",
-        "lot_number": 20,
-        "title": "Cinta transportadora con banda en pvc de 2,70 mts largo x 320 mm ancho, motor cap. 1 hp., tolva supe",
-        "description": "Cinta transportadora con banda en pvc de 2,70 mts largo x 320 mm ancho, motor cap. 1 hp., tolva supe",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189981/5814f013fccdc0aeb9bee2b5762057d0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189981/05505741522ff485eb87a06a435f1af7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189981/d14ac5d3f6992f1f404921e64a59db33-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189981/ed1d817ce624d8220ee05d6433a48e15-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189981/3b4cd71a40968b60871ccde7ae9e04e9-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:21",
-        "lot_number": 21,
-        "title": "Inyectora para plastico (pesada) Kuasy, mod. 630/160-I, (para repuestos, en el estado en que se encu",
-        "description": "Inyectora para plastico (pesada) Kuasy, mod. 630/160-I, (para repuestos, en el estado en que se encu",
-        "base_price": 55000000.0,
-        "currency": "ARS",
-        "base_price_usd": 35714.29,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189982/0a374de578a36daa962649a2a3fef7e6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189982/b5e15cfa793820d6c4a96a5f778b14fc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189982/0844b1ab1bd81849181e87f2f6992e0c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189982/65a400ab5e0baba15e2ef41706238051-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189982/0e10a6fe52a6bf4e77d1593eeb44c831-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:22",
-        "lot_number": 22,
-        "title": "Tanque vertical en inox., cap 1 m3., con base en hierro.-",
-        "description": "Tanque vertical en inox., cap 1 m3., con base en hierro.-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189984/eecf688a8a75e8ca86db7f31408adb05-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189984/69d661fa62ffa3579ff0c12ee1f5f5c5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189984/2a5a20761d7e5ca4314ca7913588bc8c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:23",
-        "lot_number": 23,
-        "title": "2 Bateas PP, con estructura en inox., (1 de 1,00 x 0,50 mts y 1 de 1,00 x 1,00 mts, Cubas Electrolit",
-        "description": "2 Bateas PP, con estructura en inox., (1 de 1,00 x 0,50 mts y 1 de 1,00 x 1,00 mts, Cubas Electrolit",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189985/37d55440e6ae0e8f360b79badac2dd6c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189985/250a36d0a64546928f4cc918522c9b24-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189985/a391d4e5da8d83e40fb2e06d3ae6fded-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189985/3bf1bb0931ca7e2148fd01dbf172c84e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189985/da0761be2ef282eb4602a8b06558c354-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:24",
-        "lot_number": 24,
-        "title": "3 Ciclones separador de polvo en inox. (de 1,10 x 1,80 y 3,00 mts largo), (todos con faltantes, en e",
-        "description": "3 Ciclones separador de polvo en inox. (de 1,10 x 1,80 y 3,00 mts largo), (todos con faltantes, en e",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189986/560f8d3ad3f399fda1875a458813fcc6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189986/c8362b848524a1ed13bc6b2019ead080-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189986/5ab57f3c36b52a72f507c0144e9faafb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189986/790d0ee4b8a66f49c11181aba2171a66-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189986/e1af01844d455e81888f01756abd8a0b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:25",
-        "lot_number": 25,
-        "title": "2 Zarandas clasificadoras para polvo y Estructura metalica con tolva superior para llenado de bolsas",
-        "description": "2 Zarandas clasificadoras para polvo y Estructura metalica con tolva superior para llenado de bolsas",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189987/ecd7c8de437f92d4e339a297c8d963ad-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189987/f3cfdf7a15773d5dd589790c83878d94-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189987/920f1226f621a190abf3b5eb561899c8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189987/d8a3a878a95dc62913f5600c7cbb88d3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189987/fd695d318a4fe485aa7cba291c582ed2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:26",
-        "lot_number": 26,
-        "title": "2 Tanques verticales en hierro, (1 de 2,40 mts altura y 1 rojo ...).-",
-        "description": "2 Tanques verticales en hierro, (1 de 2,40 mts altura y 1 rojo ...).-",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189988/a8a93ae50c7715df11ac571a76712076-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189988/6461f96344e80b2b1c010f2508f87692-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189988/e6764c90f53e85402b44f017f079d7e7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189988/e586636b176fd25840f6ec6e5b28242a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:27",
-        "lot_number": 27,
-        "title": "2 Troneras en inox. de 0,84 x 0,70 mts, 2 Puertas en inox. de 2,07 x 0,70 mts c/u y 4 tapas en inox.",
-        "description": "2 Troneras en inox. de 0,84 x 0,70 mts, 2 Puertas en inox. de 2,07 x 0,70 mts c/u y 4 tapas en inox.",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38961.04,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189989/babd85a00f6850667d93f6aa280b612b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189989/2362e7aae3b89cbbf81d1a43719ccf20-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189989/fe0215b841c1beacd4e5c5ea602802aa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189989/c02b3347b3eca700a639a44d81c4a598-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:28",
-        "lot_number": 28,
-        "title": "Tanque vertical en inox. encamisado, cap. 80 lts., con 11 tamices en inox. de 450 mm diametro, trans",
-        "description": "Tanque vertical en inox. encamisado, cap. 80 lts., con 11 tamices en inox. de 450 mm diametro, trans",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189990/84247524cf42b4878d90a05227653180-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189990/ecd46075dd7edd5989804348254674b3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189990/de00d6dfc1583fba833e895e3dd423f4-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:29",
-        "lot_number": 29,
-        "title": "3 Cuerpos de Estanteria Rack portapallets, con 4 Bastidores de 6,50 mts alto x 1,00 mts profundidad,",
-        "description": "3 Cuerpos de Estanteria Rack portapallets, con 4 Bastidores de 6,50 mts alto x 1,00 mts profundidad,",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189991/6081cfb20c54a5bb17377659f4e248c4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189991/0100bb968d1a4dfa41b2b0913fb9568c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189991/4c78f1dda6c6053f636a3d9f147c9921-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189991/b7bfe99f2cf453fddfcd7f3c1cfc154f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189991/88c41bd7bb0f9ecfdb58d29ff1ec8a0b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:30",
-        "lot_number": 30,
-        "title": "Tanque horizontal en inox., cap. 4000 lts., con boca de inspeccion, descarga inferior y entradas vs.",
-        "description": "Tanque horizontal en inox., cap. 4000 lts., con boca de inspeccion, descarga inferior y entradas vs.",
-        "base_price": 35000000.0,
-        "currency": "ARS",
-        "base_price_usd": 22727.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189992/364ccd876c0a597f8e4d52c2a2de1f03-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189992/a4529acc99784f2622a838accc26aa69-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189992/8d9c3d175f102a91083333c10a5b7665-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:31",
-        "lot_number": 31,
-        "title": "Tanque horizontal en inox., cap. 4000 lts., con boca de inspeccion, descarga inferior y entradas vs.",
-        "description": "Tanque horizontal en inox., cap. 4000 lts., con boca de inspeccion, descarga inferior y entradas vs.",
-        "base_price": 35000000.0,
-        "currency": "ARS",
-        "base_price_usd": 22727.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189993/f407db4b5e1d3de4bf5dce80a02a8854-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189993/9cca414423527fb989122820e9453d4e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189993/eb02eb68c66add3c78fa095292a93256-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189993/3ad62197f4fab5788bcbefa3c5106af5-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:32",
-        "lot_number": 32,
-        "title": "Tanque horizontal en inox., cap. 4000 lts., con boca de inspeccion, descarga inferior y entradas vs.",
-        "description": "Tanque horizontal en inox., cap. 4000 lts., con boca de inspeccion, descarga inferior y entradas vs.",
-        "base_price": 35000000.0,
-        "currency": "ARS",
-        "base_price_usd": 22727.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189994/0e1ce65ed14b441e359784104d56ba83-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189994/1b8daeff329ccb294cd9f287437a68d3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189994/14c311c01c82f35d2da5cbcbb2f794c3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:33",
-        "lot_number": 33,
-        "title": "Tanque vertical Dilutor en inox., cap. 5 m3, (2,00 mts diametro), calefaccionado, con base en hierro",
-        "description": "Tanque vertical Dilutor en inox., cap. 5 m3, (2,00 mts diametro), calefaccionado, con base en hierro",
-        "base_price": 120000000.0,
-        "currency": "ARS",
-        "base_price_usd": 77922.08,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189995/fb96ded2486ebb354cfea85089d4c764-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189995/33ef048cf5a8c51f677c35c0b529983e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189995/fb0563dd579f217c069a8d53ea1d4f26-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189995/fab25ca6739a114977c3cb32f995afb5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189995/1e9016ce00353bd2f63e9335dd8e78d4-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:34",
-        "lot_number": 34,
-        "title": "Tanque vertical Dilutor en inox., cap. 5 m3, (2,00 mts diametro), con agitador motor de 1,5 hp y bas",
-        "description": "Tanque vertical Dilutor en inox., cap. 5 m3, (2,00 mts diametro), con agitador motor de 1,5 hp y bas",
-        "base_price": 120000000.0,
-        "currency": "ARS",
-        "base_price_usd": 77922.08,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189996/14f37466a8fe01eeca3ca7958056ff5f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189996/e0eef6b86e7c08953f4c457a95b86b39-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189996/8a9591e0f3e289e44ef1fc83bc1635c2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189996/e2fc0af6d2c855f8b7fc2aab6881a55d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189996/098c38d672ef44838b4e0dd79530cafc-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:35",
-        "lot_number": 35,
-        "title": "Tanque vertical en Prfv, si base, cap. 21.000 lts., base plana, con boca de inspeccion, descarga lat",
-        "description": "Tanque vertical en Prfv, si base, cap. 21.000 lts., base plana, con boca de inspeccion, descarga lat",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189997/69fe8855e3dd0025acf9594a4ed67f63-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189997/3e801e4f3cb1434d211c9039969d62f6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189997/3d1a81a11de5a67538a4ef75af1dcc86-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189997/7814919836a6ef32cb439d23c9c5b0fc-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:36",
-        "lot_number": 36,
-        "title": "Tanque vertical en Prfv, cap. 40 m3, con fondo conico, tapa superior, descarga inferior y base de 4",
-        "description": "Tanque vertical en Prfv, cap. 40 m3, con fondo conico, tapa superior, descarga inferior y base de 4",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/189999/9ce4cd26dcbea03009a932c872de5e29-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189999/66b4bd4c22d5995341f2991266c8df9c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189999/5904e301c6d04a7751b919edbe154039-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/189999/9a4700f41576fef19d8bd86758f89e61-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:37",
-        "lot_number": 37,
-        "title": "Tanque vertical en hierro, cap. 14.000 lts., base plana, con boca de inspeccion, descarga lateral y",
-        "description": "Tanque vertical en hierro, cap. 14.000 lts., base plana, con boca de inspeccion, descarga lateral y",
-        "base_price": 80000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51948.05,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190000/c68f102f7d05d731437b23c389c19c5c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190000/f1deaa9de32b1af59a062d627b696360-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190000/5cd10c2c55a7005097b72939891495b2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:38",
-        "lot_number": 38,
-        "title": "Tanque vertical en hierro, cap. 14.000 lts., base plana, con boca de inspeccion, descarga lateral y",
-        "description": "Tanque vertical en hierro, cap. 14.000 lts., base plana, con boca de inspeccion, descarga lateral y",
-        "base_price": 80000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51948.05,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190001/5c0b9d7a98bf114f0d2a8e234f315a50-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190001/51e1ffa9538f1540a51e1ac7651714ff-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190001/f6084e1edafb797bde2277ee99c65697-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:39",
-        "lot_number": 39,
-        "title": "Tanque vertical en Prfv, cap. 40 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 40 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190003/c1389ddf431ff30cc914f4098ad5c8f1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190003/1575549130a01288a55687d0df1b894e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190003/c6042efa8a87369966493d3b87c52351-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:40",
-        "lot_number": 40,
-        "title": "Tanque vertical en Prfv, cap. 40 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 40 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190004/f5a557e82bf65657a478b51c785bd9b0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190004/5982ad6499d41cc881c74c85452cf854-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190004/9b7349494f2b0eff9baad7883da179f5-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:41",
-        "lot_number": 41,
-        "title": "Tanque vertical en Prfv, cap. 40 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 40 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190005/a0b1a74969e57b5f18c2a73404855d13-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190005/1b6c63671d4031d15dd77c26f72de4a9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190005/35e015733555a60161b699b4ebd9ee7d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:42",
-        "lot_number": 42,
-        "title": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190006/c0d2c4cd386ece69da9ae1d6e33ae40b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190006/f2785ad363d7fe088f866460819e271e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:43",
-        "lot_number": 43,
-        "title": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190008/a163e72cd2fd07696e73f8ea74fbc6d3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190008/e374a3408146e2219f12306c9f475b08-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190008/1f15dbedcbfb577e44cf7b98522c722b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:44",
-        "lot_number": 44,
-        "title": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190011/1b242559dcd2f82cc23ac5b1aedcd337-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190011/f8b06b1ad4fad3ebb3af37afc0d2b9c6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190011/e156f72ae90fa36b1fcb77b961b48795-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:45",
-        "lot_number": 45,
-        "title": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190012/3e818f43a0160339c491ef4a6ffbf080-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190012/5bdb7cae015abeea534e62148c4ff294-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190012/dc3843f6226f0a4239ee7478a5994fb8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:46",
-        "lot_number": 46,
-        "title": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "description": "Tanque vertical en Prfv, cap. 45 m3, con boca de inspeccion, descarga lateral y entradas vs, sin bas",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190013/0f1f0f4cb3e26e215c451fb7ab4e97c3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190013/fe91c14084bc676890194e89e22a8717-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190013/a7c40083d771ecd3baf4b89f498d05d7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:47",
-        "lot_number": 47,
-        "title": "Trailer para con baulera para transporte de Equipo contra incendio, medidas: 2,10 x 1,00 x 0,80 mts",
-        "description": "Trailer para con baulera para transporte de Equipo contra incendio, medidas: 2,10 x 1,00 x 0,80 mts",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190016/b66c50cb41e58480ca7297765b2d48b0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190016/79ac6569f031ffe631f56cb0d9540592-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190016/4fe620bcc450c5ea7402c0d543ac474a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190016/526170a5bfb3ce4d33f771b640a7e18f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190016/ff5f2607eaa71b6585f398390f3ed531-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:48",
-        "lot_number": 48,
-        "title": "Caldera a vapor humotubular Markowicz, mod. LNR80, año 2016, cap. 1200 kg/h., presion de trabajo 8 k",
-        "description": "Caldera a vapor humotubular Markowicz, mod. LNR80, año 2016, cap. 1200 kg/h., presion de trabajo 8 k",
-        "base_price": 300000000.0,
-        "currency": "ARS",
-        "base_price_usd": 194805.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190018/829d0276ea26c085ee1820d15c2896c8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190018/7f11deba45c4d39b589c03de97c45649-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190018/8fa98974519cf144b060407b0e8fb5a4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190018/3dbb0501b0401a9bfbc13a57d67262a1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190018/61a290064b96b651ee356a540bbc3a2c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:49",
-        "lot_number": 49,
-        "title": "Batea e inox, cap. 2500 lts., con puerta superior, boca de inspeccion y descarga lateral.-",
-        "description": "Batea e inox, cap. 2500 lts., con puerta superior, boca de inspeccion y descarga lateral.-",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190020/93349e688f8f310f45f45cbd2c050e0f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190020/c4aba1785d9eae2562bca231b5a28d59-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190020/ce87f2ea12adfc1c00211cf0cb0827ec-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:50",
-        "lot_number": 50,
-        "title": "Batea e inox, cap. 6500 lts., con 6 puertas superiores.-",
-        "description": "Batea e inox, cap. 6500 lts., con 6 puertas superiores.-",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38961.04,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190023/3c0d759748a2faa179b53f92cf45078a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190023/ae5e366140988f2b27080a0ed51b95a0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190023/37ae7419b8d73c6b14c4057c0a860045-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190023/9964883277aca0559f0f68b767c8f560-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190023/7111443988620559a231a36abf20adb8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:51",
-        "lot_number": 51,
-        "title": "Batea e inox, cap. 6500 lts., con 6 puertas superiores.-",
-        "description": "Batea e inox, cap. 6500 lts., con 6 puertas superiores.-",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38961.04,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190026/b4eacce4575c7525cd59065ff6258330-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190026/299370252ab8355e7415b6eb1dbf01f9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190026/a1e3d39506cc6510bb6e4b69a56d3e13-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190026/dac59965b175146d2ce56ad4955692ac-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190026/b22dc0f52c5d37d83c46d648ee81c141-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:52",
-        "lot_number": 52,
-        "title": "Batea e inox, cap. 6500 lts., con 6 puertas superiores.-",
-        "description": "Batea e inox, cap. 6500 lts., con 6 puertas superiores.-",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38961.04,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190030/a19b4b214fd9f509ee1dd89ee66fe813-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190030/46f980750ffdd5e90900f3785cbab401-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190030/cbbb30a2094d5009c16677761e2f9670-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190030/35b0cd538b9fab9890acf76c03941188-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:53",
-        "lot_number": 53,
-        "title": "3 Ductos en inox de 1130 mm altura, con 4 salidas bridadas (1 de 4 pulgadas, 2 de 450 mm y 1 de 650",
-        "description": "3 Ductos en inox de 1130 mm altura, con 4 salidas bridadas (1 de 4 pulgadas, 2 de 450 mm y 1 de 650",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190034/7bcb8290a34b87cb496766cbcf11a17b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190034/757e4c586283b84bae89e504db3f1cb2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190034/8b74c6e424adea559684015f0a72c0e0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190034/5c1ea978e627310afa56e14bf6197d3c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:54",
-        "lot_number": 54,
-        "title": "Pulverizador para particulas compuesto por: 6 Turbinas con motor y serpentina en inox, 4 camillas de",
-        "description": "Pulverizador para particulas compuesto por: 6 Turbinas con motor y serpentina en inox, 4 camillas de",
-        "base_price": 80000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51948.05,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190039/efc5b2edac560d5011854b425fef572c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190039/f1119d06022a34b31474c1156fc8e011-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190039/e071843ec1c7a9e6e7f2b9da693db168-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190039/fd3354ecd2b4c97e95001e23f6602c2e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190039/f6736c16d2b79bae2ac120dedaa3c7af-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:55",
-        "lot_number": 55,
-        "title": "Mesa Escuadradora para madera SOSN, mod MJ6128TAZ, mesa de 2,80 x 1,00 mts, motor principal de 6,7 k",
-        "description": "Mesa Escuadradora para madera SOSN, mod MJ6128TAZ, mesa de 2,80 x 1,00 mts, motor principal de 6,7 k",
-        "base_price": 150000000.0,
-        "currency": "ARS",
-        "base_price_usd": 97402.6,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190059/6f0831cca045682a9d85d6ad340c94a5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190059/27e7f881b8a0e5174672686fd4b42927-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190059/4c885a5dd2803fb2b9502ab24bb5c355-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190059/3c72f793b2c0a455efe1465e48a618c4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190059/180fed75576dc98518207fbff7ad8678-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:56",
-        "lot_number": 56,
-        "title": "Router B-CAM a CNC, serie BC201203104, año 2020, mesa de 3,00 x 1,50 mts., potencia 23 kw., apto (Ma...",
-        "description": "Router B-CAM a CNC, serie BC201203104, año 2020, mesa de 3,00 x 1,50 mts., potencia 23 kw., apto (Ma...",
-        "base_price": 600000000.0,
-        "currency": "ARS",
-        "base_price_usd": 389610.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190075/d702c5f402f9d63bbb8f79f8c09790bb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190075/54842fca421122c4dbdc80ecf8ed8530-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190075/e041c7c796e5be85f721fb441688effb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190075/dcd7d6bed56c4562155354c422009f61-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190075/d95cdbbefd1e8f7b03df1246dfbe5e93-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:57",
-        "lot_number": 57,
-        "title": "Punzonadora automatica electrohidraulica de torreta Trumpf, mod. Trumatic 240, año 1989, garganta de",
-        "description": "Punzonadora automatica electrohidraulica de torreta Trumpf, mod. Trumatic 240, año 1989, garganta de",
-        "base_price": 250000000.0,
-        "currency": "ARS",
-        "base_price_usd": 162337.66,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190080/b51e38402fcd9be56fb385dfc64eab2c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190080/bc68c24581ef8c6a11849dd50b619ce9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190080/e1c249f1e12010c23ce67c7272a0bd47-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190080/0e80262e03df816944a324de6effd12b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190080/02888ffa28feca971d67be3414488cfc-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:58",
-        "lot_number": 58,
-        "title": "Planta para molienda de Polvos compuesta por: Filtro de mangas Tepelco (sin uso), Zaranda clasificad",
-        "description": "Planta para molienda de Polvos compuesta por: Filtro de mangas Tepelco (sin uso), Zaranda clasificad",
-        "base_price": 250000000.0,
-        "currency": "ARS",
-        "base_price_usd": 162337.66,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190085/c18a2186f5d6d190d4373c741ce7ac71-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190085/5256a0ee57ff165597895627afb2964a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190085/1494fe0bf81b1c1b996bde4ade7a7dbe-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190085/d50c4ca6929ddc74a228f448dc001beb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190085/25c6e8f03afa4e074b5dda04903806ff-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:59",
-        "lot_number": 59,
-        "title": "Molino Giratorio Industrial …, con motor de aprox 15 hp.-",
-        "description": "Molino Giratorio Industrial …, con motor de aprox 15 hp.-",
-        "base_price": 150000000.0,
-        "currency": "ARS",
-        "base_price_usd": 97402.6,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190089/27acdd9f63bd9b97e33c726d80ee8031-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190089/a020087de377789806a438880aae7030-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190089/6754f2dfaacbd0084e6d35460e4ace70-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190089/2ac3b13cddb3b64b20e8854ed84a80d0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190089/09c910cb0bcc8ace0068f68efb60ac77-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:60",
-        "lot_number": 60,
-        "title": "Cabina para Seguridad en Prfv, medidas: 1,00 x 1,00 x 2,00 mts altura.-",
-        "description": "Cabina para Seguridad en Prfv, medidas: 1,00 x 1,00 x 2,00 mts altura.-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190091/0c56c252ab65db5d91e6ca865bc19885-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:61",
-        "lot_number": 61,
-        "title": "3 CUERPOS DE TANQUE DE FV DE TORRE DE ENFRIAMIENTO",
-        "description": "3 CUERPOS DE TANQUE DE FV DE TORRE DE ENFRIAMIENTO",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190093/3e68b7f6b57045b82e0ef5d8f298069a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190093/a5d540625eb0ec211a65aa4b031ba1dc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190093/d7db81c413e350f99076d51fb4652944-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190093/3885085d3c3e74602533c2a9d1c93be1-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4451:62",
-        "lot_number": 62,
-        "title": "PUENTE GRUA DE 6TN CON APAREJO DE 2 TN ANCHO 9 METROS X 25 LARGO PULMON DE HIERRO PARA SIST DE INCEN",
-        "description": "PUENTE GRUA DE 6TN CON APAREJO DE 2 TN ANCHO 9 METROS X 25 LARGO PULMON DE HIERRO PARA SIST DE INCEN",
-        "base_price": 200000000.0,
-        "currency": "ARS",
-        "base_price_usd": 129870.13,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190094/e50b31131ee2fb349b0c52e8f3e9932f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190094/d4f6cff9f9c212cdf548028e812768e2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 62
-  },
-  {
-    "id": "adrian_mercado:4515",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-autoelevador-maquinaria-industrial-compresor-moldes-y-materiales-de-construccion-4515",
-    "title": "Subasta de autoelevador, maquinaria industrial, compresor, moldes y materiales de construcción",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Blas Parera, José Ingenieros esq, B1852 Burzaco, Buenos Aires Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-13T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-08-13T04:47:56.564866+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4515_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4515_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4515_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "autoelevador",
-        "min_usd": 6000,
-        "max_usd": 60000,
-        "typical_usd": 15000,
-        "category": "machinery"
-      },
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "factory",
-        "premium_types": [
-          "factory"
-        ],
-        "confidence": 0.3,
-        "why_premium": "Detected: factory"
-      },
-      "is_opportunity": true,
-      "opportunity_reason": "factory"
-    },
-    "lots": [
-      {
-        "lot_id": "am:4515:3",
-        "lot_number": 3,
-        "title": "Soldadora eléctrica por arco Aleba, cap. 250 amp. con pinzas (transportable) y 2 cargadores de bater",
-        "description": "Soldadora eléctrica por arco Aleba, cap. 250 amp. con pinzas (transportable) y 2 cargadores de bater",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191623/33eb4f76b26a2094b3383f3ad7b3190e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191623/5857a7b96950f29039444416f944f381-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191623/e5ddaaedeb0b4d3bad096fac96f7a8e5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191623/013456d20b8ba8ed1f75f4bf8240c351-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:5",
-        "lot_number": 5,
-        "title": "Grupo electrógeno monofásico Motomel, mod. M5500e, salida nominal 4kw, salida max. 4.5kw, con motor",
-        "description": "Grupo electrógeno monofásico Motomel, mod. M5500e, salida nominal 4kw, salida max. 4.5kw, con motor",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191624/fd7793a8d55a828bd1a63ff53e32804b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191624/251ffd5d198ab4fe4dc592903eabc06a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191624/4e9ea5deed38040fd8120fede07a0707-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191624/221669ff97ad65e19616ae539eabeda2-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:10",
-        "lot_number": 10,
-        "title": "Compresor a tornillo Kaeser, mod. Sk22, año 2015, potencia nominal 11.0 kw., presion de servicio max",
-        "description": "Compresor a tornillo Kaeser, mod. Sk22, año 2015, potencia nominal 11.0 kw., presion de servicio max",
-        "base_price": 250000000.0,
-        "currency": "ARS",
-        "base_price_usd": 162337.66,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191625/d082b64a5220bf4d8fbc609d2796327d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191625/b1e7d86d8a4dfa5bbef34edf6f926711-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191625/a1259e8f03df0bef3ba98d37d36f50a7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191625/4efe3ee09e77f4faba2b5cdbe1982771-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191625/7898a40e0ac99b8d78f48ad151f492e8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:11",
-        "lot_number": 11,
-        "title": "2 cilindros hidráulicos Hidromec, (sin uso).-",
-        "description": "2 cilindros hidráulicos Hidromec, (sin uso).-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191639/3262525662ee5d68396898690de83488-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191639/bcfd335932158dae14d10adf59cdd8d5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191639/1e51f3d3be48e5df3c39c66e7d0a44d0-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:15",
-        "lot_number": 15,
-        "title": "2 Dispersores verticales, con motor de 10 hp., levante hidráulico, tablero y central hidráulica de 2",
-        "description": "2 Dispersores verticales, con motor de 10 hp., levante hidráulico, tablero y central hidráulica de 2",
-        "base_price": 150000000.0,
-        "currency": "ARS",
-        "base_price_usd": 97402.6,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191626/800bcd8d367abe019d56bc930de43ee2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191626/3a3a429e345f49e1cdf0e076c2c2a329-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191626/50ad6c13607d6dc4e74a82cb1420bb45-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191626/3f24a15afc030d3d4cbe00706f8cf13f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191626/9557138429ca0ec4258467cfbef7bafe-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:16",
-        "lot_number": 16,
-        "title": "2 ollas en hierro, cap. 550 lts. c/u., carga superior y descarga inferior, (transportables).-",
-        "description": "2 ollas en hierro, cap. 550 lts. c/u., carga superior y descarga inferior, (transportables).-",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191627/4d0d2d9ae7199ed098a4d92025663939-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191627/5310877536a6fb6ca97b286fc05fe361-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191627/deba4673ff93760866d6f5e3d7778e6f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:19",
-        "lot_number": 19,
-        "title": "Mezcladora hormigonera, cap. 300 lts. Aprox., con motor de 2 hp., de vuelco manual y estructura metá",
-        "description": "Mezcladora hormigonera, cap. 300 lts. Aprox., con motor de 2 hp., de vuelco manual y estructura metá",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191628/65d5d0a255ebf94bea1303c704b9382a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191628/309a4562be1db070fb50c6da45e90686-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191628/c05a41231c5e3e7d20d051bbe92cfece-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191628/ebe6c35080b194d94cafc3cb50e6be5b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:20",
-        "lot_number": 20,
-        "title": "Mezcladora / hormigonera, cap. 300 lts. Aprox., con motor de 2 hp., (de vuelco manual), transportabl",
-        "description": "Mezcladora / hormigonera, cap. 300 lts. Aprox., con motor de 2 hp., (de vuelco manual), transportabl",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191629/bb1227884cadec80fb8045e74133c1cb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191629/3ab5e726d1eead68944bb8d1aedbf18b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191629/46b29808d28cf66240e2911094f31da8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191629/d94c98e255ae9f91423b07b23901b928-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191629/17be488af9e634212f3359a5e9f280d3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:23",
-        "lot_number": 23,
-        "title": "Cinta transportadora vibratoria, de 4.50 mts., banda de 400 mm de ancho, con motor y reductor de 1 h",
-        "description": "Cinta transportadora vibratoria, de 4.50 mts., banda de 400 mm de ancho, con motor y reductor de 1 h",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191638/ea997ca7a483446889ab8de806cff298-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191638/8e1ca2dd21c987f2b78c9fbe3c82c9ad-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191638/43d988cf58cc74985fd876ab5a172f2c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191638/96b95a445beaf267ff939166c0451447-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191638/e5a1eceb6cb8f5e64d934b5d9c0bd5cd-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:24",
-        "lot_number": 24,
-        "title": "2 Cintas transportadoras de 3.00 mts., para banda de 200 y 550 mm. de ancho. y motor.-",
-        "description": "2 Cintas transportadoras de 3.00 mts., para banda de 200 y 550 mm. de ancho. y motor.-",
-        "base_price": 12000000.0,
-        "currency": "ARS",
-        "base_price_usd": 7792.21,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191630/ef6152e7bf09d81e647a3397175858df-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191630/9f9d18fe944c9dffe62383dfcea45da8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191630/04df8db7c7392df921ce9009dfeed643-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191630/ae22806194abc16beced74892da73f9d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191630/ffa8cd0b55532eed7c90ede06588b517-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:25",
-        "lot_number": 25,
-        "title": "Mesa a rodillo de 2 tramos, largo total 6.00 mts. (1 tramo de 4.00 mts. Y 1 tramo de 2 mts.).-",
-        "description": "Mesa a rodillo de 2 tramos, largo total 6.00 mts. (1 tramo de 4.00 mts. Y 1 tramo de 2 mts.).-",
-        "base_price": 12000000.0,
-        "currency": "ARS",
-        "base_price_usd": 7792.21,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191640/752c7c37dc94516e6f3210f7256a7af3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191640/2065ef2ebebc365644d7136a4e0597b0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191640/2ffb1c68ddb30e8e2f4aff30d99826ce-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:26",
-        "lot_number": 26,
-        "title": "50 aprox. Moldes en chapa para baldosas (modelos y medidas vs.).-",
-        "description": "50 aprox. Moldes en chapa para baldosas (modelos y medidas vs.).-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191631/8a0f8e82649dca27f0fd86e43564a873-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191631/9750125412b15905c561d412738a5617-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:27",
-        "lot_number": 27,
-        "title": "83 aprox. Moldes en caucho de silicona para baldosas de 50 x 50 cm., de revestimiento símil piedra.",
-        "description": "83 aprox. Moldes en caucho de silicona para baldosas de 50 x 50 cm., de revestimiento símil piedra.",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191632/5784707d172cad1a57ee2cbbe4ea98e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191632/41f153dbcf501c2e7aa0bb9d93815cd6-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:28",
-        "lot_number": 28,
-        "title": "4650 aprox. Moldes en pvc para baldosas en medidas y modelos vs.-",
-        "description": "4650 aprox. Moldes en pvc para baldosas en medidas y modelos vs.-",
-        "base_price": 750000000.0,
-        "currency": "ARS",
-        "base_price_usd": 487012.99,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191641/db8f790111ca2e7baf66436fe6753244-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191641/3155ae3e2edd2fe4d223fce454d3ef71-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:29",
-        "lot_number": 29,
-        "title": "16 aprox. Estructuras porta moldes (12 de ellos para 60 moldes de 900 mm x 450 mm. Y 3 de ellos para",
-        "description": "16 aprox. Estructuras porta moldes (12 de ellos para 60 moldes de 900 mm x 450 mm. Y 3 de ellos para",
-        "base_price": 120000000.0,
-        "currency": "ARS",
-        "base_price_usd": 77922.08,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191633/eed169dd58a15024454566274a4b4dd1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191633/108ad6346236ef620a1f9bac43a4b4d3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191633/44851253f2ce7470f2cd0c32e56585b3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191633/54baac24610144aee01aa8f0a8d27d8a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:30",
-        "lot_number": 30,
-        "title": "Cinta transportadora calefaccionada, de 6.00 mts. De largo x 0.50 mts. De ancho, con ventosas neumat",
-        "description": "Cinta transportadora calefaccionada, de 6.00 mts. De largo x 0.50 mts. De ancho, con ventosas neumat",
-        "base_price": 40000000.0,
-        "currency": "ARS",
-        "base_price_usd": 25974.03,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191643/3184144ef3601dde3bed1580d3c8e987-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191643/7eb8c7335f886b10e81eca8a79a296b4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191643/51a037ec15161b8e49f8950163631233-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191643/0b41d7381e0c1da60775c2fb24d4be51-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191643/587e7e8e3cedf6fe746e40cc6f9c6288-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:31",
-        "lot_number": 31,
-        "title": "Moledora de cascote Ferrotecnica, de 1300 mm. De diámetro, con motor de 2.55 kw., y estructura metál",
-        "description": "Moledora de cascote Ferrotecnica, de 1300 mm. De diámetro, con motor de 2.55 kw., y estructura metál",
-        "base_price": 55000000.0,
-        "currency": "ARS",
-        "base_price_usd": 35714.29,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191642/4e7ea6cb5458da04bda9a8e28f0608c3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191642/80fcde10f613eb7733f91ad11ca14272-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191642/5c87dfb32e14eee7fa132ea01db28ebb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191642/f967d105cb00a9e1b2e79c2f5e14b4a7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191642/7991e101990756b7dc2aa3557fd88697-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:32",
-        "lot_number": 32,
-        "title": "Moledora de cascote Raz, de 1600 mm. De diam., con motor y estructura metálica.-",
-        "description": "Moledora de cascote Raz, de 1600 mm. De diam., con motor y estructura metálica.-",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38961.04,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191644/fdcb68210585109f2c2c7f339662d731-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191644/b61f816ecd44352d91b2b58c0fa30982-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191644/10d347a6d71213b949d70ab706267fe7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191644/a1c04e12a5e1f4c3c34c5e2ae43fd974-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:34",
-        "lot_number": 34,
-        "title": "7 cuerpos compartidos de racks porta pallets compuesto por: 4 bastidores de 3.70 mts. De altura x 1.",
-        "description": "7 cuerpos compartidos de racks porta pallets compuesto por: 4 bastidores de 3.70 mts. De altura x 1.",
-        "base_price": 120000000.0,
-        "currency": "ARS",
-        "base_price_usd": 77922.08,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191634/4720a4da0d0c6390c1f54d1f3fa23a2e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191634/9953823fe75adc7c4af9e4c08002a5d2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191634/2942c59a89cc476a835134dd5a649f35-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191634/afb30cf757e12f08ab872b31a1313101-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:37",
-        "lot_number": 37,
-        "title": "259 aprox. Bolsas de pastina, Premotec, de 5 kg. C/u.-",
-        "description": "259 aprox. Bolsas de pastina, Premotec, de 5 kg. C/u.-",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12987.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191635/eab7f532342c291e6ded4e1969163e55-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191635/9e5f0aceac208c7b3856371584364d5c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191635/c835a880506a312dd37bfcc5d9ff0394-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191635/401ddc7ace4f5278b25c8521fba450f0-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:38",
-        "lot_number": 38,
-        "title": "14 Pallets de pisos atérmicos, Premotec, mod. Solarium, (250 m2 aprox.) en baldosas de 50 cm x 50 cm",
-        "description": "14 Pallets de pisos atérmicos, Premotec, mod. Solarium, (250 m2 aprox.) en baldosas de 50 cm x 50 cm",
-        "base_price": 120000000.0,
-        "currency": "ARS",
-        "base_price_usd": 77922.08,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191636/7742d2c8c88dc6e2a17c05aae7438494-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191636/19b12101f2ef05778090d4052993f583-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191636/67a3fbf7a679e2ef54260eac6710bb5c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191636/fe1cccaf2ea5bb0b060b2c814a198914-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:39",
-        "lot_number": 39,
-        "title": "3 pallets de Grillas en hormigón (para césped), Premotec, medidas 33 x 33 x 6 cm. (28 m2 aprox.).-",
-        "description": "3 pallets de Grillas en hormigón (para césped), Premotec, medidas 33 x 33 x 6 cm. (28 m2 aprox.).-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191637/bd4463d24ebbd82f5c525fad54a44f23-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191637/e8d2425bf8ff271a002281b5339a288a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191637/111cfdfe1febd33d41008e35dbfc8b0e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:41",
-        "lot_number": 41,
-        "title": "(5 pallets) 77,16 m2 de baldosas Premotec, mod. Travertino, medidas 30x50 cm. (en colores vs. Oxido,",
-        "description": "(5 pallets) 77,16 m2 de baldosas Premotec, mod. Travertino, medidas 30x50 cm. (en colores vs. Oxido,",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191647/0173bb11afe2afb951f938b202078cd5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191647/5cd0fa93b0bb93658985c32f37e68565-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191647/09b445074e8d3966e0ba6ca958cddcea-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:45",
-        "lot_number": 45,
-        "title": "(2 pallets) 45 m2 de Baldosas Premotec, mod. Rúa, (en colores y medidas vs.).-",
-        "description": "(2 pallets) 45 m2 de Baldosas Premotec, mod. Rúa, (en colores y medidas vs.).-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191648/081101c4637ba7c54daddb0676e57a81-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191648/74b7e6079e3554d365949ac31e51d8e9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191648/fb935a53361ecc063ef921f1838cef56-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:46",
-        "lot_number": 46,
-        "title": "2 Ventiladores centrífugos, con cañerías y chimeneas.-",
-        "description": "2 Ventiladores centrífugos, con cañerías y chimeneas.-",
-        "base_price": 25000000.0,
-        "currency": "ARS",
-        "base_price_usd": 16233.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191645/0e6cde7dd30772db9a326d3f0f993a69-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191645/776559042087b6197135eb3802dac23e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191645/6a1009954285a490054aaafbe4d9c57e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191645/764f94cfd0b922b00c35658881059681-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191645/d51a2e5525cde0e5302ed45312fe554d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4515:47",
-        "lot_number": 47,
-        "title": "Prensa hid. De 4 columnas Cilar, cap. 80 tns aprox., mesa de 1.60 x 1.20 mts., (sin equipo hid.).-",
-        "description": "Prensa hid. De 4 columnas Cilar, cap. 80 tns aprox., mesa de 1.60 x 1.20 mts., (sin equipo hid.).-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9740.26,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/191646/f3b79f271fc0c644a021a4525ebe1692-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191646/79e46886a6b42fecb5a0c6221d15a510-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191646/0752e10e6e1e5e64bfc31f574849bb06-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/191646/7e7e7e0af725af232d84d61723695001-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 26
-  },
-  {
-    "id": "adrian_mercado:4469",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-maquinaria-metalurgica-tornos-automaticos-conificadoras-y-mas-4469",
-    "title": "Subasta de maquinaria metalúrgica: tornos automáticos, conificadoras y más",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Buenos Aires Fecha y horario de exhibición: A coordinar con nuestra oficina . Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-13T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-08-13T04:48:04.631506+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4469_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4469_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4469_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "torno",
-        "min_usd": 3000,
-        "max_usd": 40000,
-        "typical_usd": 8000,
-        "category": "machinery"
-      }
-    },
-    "lots": [
-      {
-        "lot_id": "am:4469:3",
-        "lot_number": 3,
-        "title": "Soldadora de alta frecuencia automatica MTC, mod. 600, cap. 3 kw., con movimientos neumaticos, (se d",
-        "description": "Soldadora de alta frecuencia automatica MTC, mod. 600, cap. 3 kw., con movimientos neumaticos, (se d",
-        "base_price": 4000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2597.4,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190070/e307091381bb1f444825a62cb12ca843-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190070/c41634a4d50e27ed5a6ea6b52fbcaa04-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190070/d326550c93dab2b2be4a6e43ec3c5a6b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190070/c68994071a23715127b35d228e60f2ae-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:4",
-        "lot_number": 4,
-        "title": "Despuntadora para metales no ferrosos (casera), diametro alambre hasta 1,5 mm., con motor trifasico",
-        "description": "Despuntadora para metales no ferrosos (casera), diametro alambre hasta 1,5 mm., con motor trifasico",
-        "base_price": 8000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5194.81,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190063/0da7bff317aa25a1cd6441fd838e4e54-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190063/bfbc5d84cda91666aa270e646d794768-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190063/576e088e68909b739937bffe3e5d03d8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190063/f3c9eaf7701cc80fc6d22d2c4826dc4d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:5",
-        "lot_number": 5,
-        "title": "Cortadora/Fresadora para alambre (casera), con motor trifasico.-",
-        "description": "Cortadora/Fresadora para alambre (casera), con motor trifasico.-",
-        "base_price": 5000000.0,
-        "currency": "ARS",
-        "base_price_usd": 3246.75,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190047/8b7792cef102269efd1a3451e4c823c8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190047/748135d134f51316313bda5d9bd4072d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190047/cc42f530b30179b400a791c80a905285-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190047/d50137ebee71f60119e4bb16b660a649-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:7",
-        "lot_number": 7,
-        "title": "Cortadora/Perforadora para alambre, de doble cuchilla, con 2 motores, (pata de motor a reparar).-",
-        "description": "Cortadora/Perforadora para alambre, de doble cuchilla, con 2 motores, (pata de motor a reparar).-",
-        "base_price": 6000000.0,
-        "currency": "ARS",
-        "base_price_usd": 3896.1,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190071/8f9635564e40bf60bd4f95bc48eef732-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190071/ab419feb2287113010e4334fccbc782a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190071/e1bb3a43b7ff45ffb77215ff8cd5c194-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190071/0c6b0d078b192ced7e80394e5b8754b7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190071/9441c48151f6776e1c5cf46446e5dd05-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:8",
-        "lot_number": 8,
-        "title": "Balancin frontal, con motor de 1, 4 hp., sobre estructura metalica.-",
-        "description": "Balancin frontal, con motor de 1, 4 hp., sobre estructura metalica.-",
-        "base_price": 3000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1948.05,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190064/3cd196b8fda50a303f60147785f78768-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190064/3e87f42029622bd8244a2eff836c9a54-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190064/d6948fe2de52159adcd1d2a3c6a80f5e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190064/a28ab434b0b5c1f8359a7194d94d1afd-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:9",
-        "lot_number": 9,
-        "title": "Soldadora eléctrica por arco Soldelec, cap. 275 amp., con pinza masa y pinza porta electrodos.-",
-        "description": "Soldadora eléctrica por arco Soldelec, cap. 275 amp., con pinza masa y pinza porta electrodos.-",
-        "base_price": 7000000.0,
-        "currency": "ARS",
-        "base_price_usd": 4545.45,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190048/069289605b4aa6e9417f28b9d78520cd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190048/31a88f7665431c71e72d9672ac2c4092-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190048/9bc68fcc2b2212d1d4f23851b931baec-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:10",
-        "lot_number": 10,
-        "title": "Pulidora MDM, de 8 tambores en pvc, con 2 motorreductores de 1/2 hp. c/u.-",
-        "description": "Pulidora MDM, de 8 tambores en pvc, con 2 motorreductores de 1/2 hp. c/u.-",
-        "base_price": 42000000.0,
-        "currency": "ARS",
-        "base_price_usd": 27272.73,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190049/a57c092a14bf86f5865ea5601f22cdcb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190049/6249be3daf76012a45d2af064cbf3aa8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190049/08c9aed5dc4a14d920d6b7d4da57e340-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190049/fce80b4f47b6eb3c75ef05607b9b5252-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:11",
-        "lot_number": 11,
-        "title": "Molino a cuchillas, con muñeco de 3 cuchillas y motor de 1,5 hp.-",
-        "description": "Molino a cuchillas, con muñeco de 3 cuchillas y motor de 1,5 hp.-",
-        "base_price": 8000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5194.81,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190050/0e9a15a4eabfea6d3c91165432026081-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190050/89e208e06bd0ef5986dea0e74b046558-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190050/7393539b097c67f99ded4bae9842cec6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190050/21a506b10625a9a46fdb5d1f68274277-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:12",
-        "lot_number": 12,
-        "title": "Zaranda vibratoria, cama de 890 x 390 mm, con motor electrico de 0,37 kw.-",
-        "description": "Zaranda vibratoria, cama de 890 x 390 mm, con motor electrico de 0,37 kw.-",
-        "base_price": 16000000.0,
-        "currency": "ARS",
-        "base_price_usd": 10389.61,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190065/586e431d7b0a18568522200ab641f792-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190065/4fcca8068033ee759c2c662cd100826e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190065/38a988cf0917fba09b4e8e6af3a29e17-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:13",
-        "lot_number": 13,
-        "title": "Perforadora multiple (casera) para 28 (con 13 husillos) cap. 1/64 a 5/32 pulgadas, con 2 motores ele",
-        "description": "Perforadora multiple (casera) para 28 (con 13 husillos) cap. 1/64 a 5/32 pulgadas, con 2 motores ele",
-        "base_price": 8000000.0,
-        "currency": "ARS",
-        "base_price_usd": 5194.81,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190051/bf5813ced30201efe26c92c7a21f6ffc-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190051/6355858d2a8a7e44bea720c5c27be63f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190051/6df4fc9a6ad63f92a238f9e75ed72492-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190051/67e52a9fbb02c325515a8a55fa5ced15-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190051/835102edb0c39fda4544e91182ec2f2c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:14",
-        "lot_number": 14,
-        "title": "Laminadora motorizada (casera), ancho util 1,5 mm diametro, altura regulable, con alimentador, lubri",
-        "description": "Laminadora motorizada (casera), ancho util 1,5 mm diametro, altura regulable, con alimentador, lubri",
-        "base_price": 12000000.0,
-        "currency": "ARS",
-        "base_price_usd": 7792.21,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190072/fc8a2214c1a4a4604a64635fe845f5e1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190072/b9b6a39a7e0b9fc999cbc9aa365ed122-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190072/48607a2f3046db2653a9cc60c53c7ba8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190072/38f7faedd665493dbc730bcf60919896-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190072/9d0b4150cb6c2b8fcf147794ed1636e3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:16",
-        "lot_number": 16,
-        "title": "Bobinador motorizado con motor de 2 hp.-",
-        "description": "Bobinador motorizado con motor de 2 hp.-",
-        "base_price": 12000000.0,
-        "currency": "ARS",
-        "base_price_usd": 7792.21,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190073/ec174bced836bea3c629fa577b70eb0d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190073/0a27a76effd14ae4978ab60d0766aaef-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190073/4f2d898a8566702bd6c02d4b3220870c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:17",
-        "lot_number": 17,
-        "title": "Enderezadora/Cortadora para alambre automatica electroneumatica Felss, tipo DA 10, diametro alambre",
-        "description": "Enderezadora/Cortadora para alambre automatica electroneumatica Felss, tipo DA 10, diametro alambre",
-        "base_price": 80000000.0,
-        "currency": "ARS",
-        "base_price_usd": 51948.05,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190052/994fd8f81cd6e70186db1920d645ebf6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190052/7919769161055b993dd449b739be7da0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190052/1c16ba5e10c4a57003c143d4d23454f3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190052/ea2aefe5f71f978a07965b79db0cde6c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:18",
-        "lot_number": 18,
-        "title": "Conificadora para alambre automatica Fells Matic, tipo HA16-A27X, con cabezal motorizado de 1,5 kw.,",
-        "description": "Conificadora para alambre automatica Fells Matic, tipo HA16-A27X, con cabezal motorizado de 1,5 kw.,",
-        "base_price": 160000000.0,
-        "currency": "ARS",
-        "base_price_usd": 103896.1,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190067/b5c91bec6582fa832d6138b389c1fdfa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190067/4f9679e1702d9981696e316f6ad90663-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190067/0ad33e7a038f58047737f6476df7180b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190067/025fbcf2c24feaad108b0fa865bb149e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190067/05db5428376a17c00f6d56382a65ca9b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:19",
-        "lot_number": 19,
-        "title": "Conificadora para alambre Fells, tipo HA15-2K, con cabezal motorizado de 1,5 kw., cabezal de corte c",
-        "description": "Conificadora para alambre Fells, tipo HA15-2K, con cabezal motorizado de 1,5 kw., cabezal de corte c",
-        "base_price": 160000000.0,
-        "currency": "ARS",
-        "base_price_usd": 103896.1,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190066/c8c5c66a0fe18172aae9b428339f3b49-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190066/24217582022fca0e0ef2a66b1e6b7066-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190066/e173146bba1a62d4bd99540bccaf1c3a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190066/7a80056b7d4fefe403d4ebf3fa322295-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190066/15a441867d331877f8b21b882faec70e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:21",
-        "lot_number": 21,
-        "title": "Conificadora para alambre Felss, de triple cabezal motorizado de 1,1 kw., cabezal de corte con motor",
-        "description": "Conificadora para alambre Felss, de triple cabezal motorizado de 1,1 kw., cabezal de corte con motor",
-        "base_price": 110000000.0,
-        "currency": "ARS",
-        "base_price_usd": 71428.57,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190053/06ff048eb29bbaccc581fdfc278eff7a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190053/e3081e7c8a077a385fb0a5559f7d6bbf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190053/85122448d63b97712ada7a6ea96071cb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190053/8624ff20474d905b3427824fc05adfd7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190053/8d488d3204907e6af508969860477622-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:22",
-        "lot_number": 22,
-        "title": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
-        "description": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
-        "base_price": 24000000.0,
-        "currency": "ARS",
-        "base_price_usd": 15584.42,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190054/08aaf27249b5c5e94d0da81bd93ed268-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190054/e0e46bf29ab3d9ecd4d8f0e0e59a5621-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190054/5e977114f9b83f4b1348845b636b00c6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190054/63cac02516450b8830325a5061f849d2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190054/07e1159ff959ba5656b83ca649fe6c42-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:23",
-        "lot_number": 23,
-        "title": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
-        "description": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
-        "base_price": 24000000.0,
-        "currency": "ARS",
-        "base_price_usd": 15584.42,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190055/816db49e331696c29bd40825d74a2ea1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190055/91b72908c45cb3bcd0baeeb34fb11e45-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190055/595a2f40855e709764d0ea40867290b6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190055/641830b2647ff27c9a926d648aba28d1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190055/dbf2274b05887dc29aff5c928eb659ce-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:24",
-        "lot_number": 24,
-        "title": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
-        "description": "Torno automatico Tornos, pasaje de barra 6 mm., con tablero electrico y alimentador para 12 varillas",
-        "base_price": 24000000.0,
-        "currency": "ARS",
-        "base_price_usd": 15584.42,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190056/afee3054b53550f65ca4524b7a0eab18-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190056/61efc2cc5a5c8da86e9496244af02642-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190056/8dfd7a4e4ac1105bd3712becbfc096a1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190056/cc9eae985c255910d4b8d7faac3e311d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190056/59f815a6286036878f8b534856d224be-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:26",
-        "lot_number": 26,
-        "title": "Torno automatico Tornos, tipo C4, pasaje de barra 6 mm., con tablero electrico y alimentador para 12",
-        "description": "Torno automatico Tornos, tipo C4, pasaje de barra 6 mm., con tablero electrico y alimentador para 12",
-        "base_price": 24000000.0,
-        "currency": "ARS",
-        "base_price_usd": 15584.42,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190068/57f15f5396f14db6c3f204108116ecc2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190068/ba60910c4fad577f0fde71e9b93377a0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190068/0d9a3894cf95bc7e56f1caf1db689275-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190068/e1f0da3c310d2b8816c4087dc016e01c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190068/e26271397e81b885e821212349957ea3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:27",
-        "lot_number": 27,
-        "title": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
-        "description": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190057/cb057572be36711696b4d5b6f6d4fa67-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190057/bb88298adbc9f508ae52ae2d7bcc48ea-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190057/2c729259d28156c1d5e6fab0dc786271-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190057/c8645a53ac1adcf77ed503b92e143c30-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190057/2bf28b6207b02867de1aff5820587a3b-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4469:28",
-        "lot_number": 28,
-        "title": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
-        "description": "Torno automatico Tornos, tipo T4, pasaje de barra 6 mm., con tablero electrico y alimentador para 30",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19480.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190058/c9b6c5cbc739bce385d8d4ba2678d8ce-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190058/b2d3760e1bb625c117079a6a997f8741-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190058/a93db5ef3c7692027d3ee0c99b8c07ff-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190058/c993507dad4ab3ad65c3264b30f41f58-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190058/3a325884b14021628d40f203a9cd489f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 22
-  },
-  {
     "id": "adrian_mercado:4463",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-molinos-dispersores-equipamiento-de-laboratorio-herramientas-e-instalaciones-4463",
@@ -8473,12 +5993,40 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:48:12.708169+00:00",
+    "scraped_at": "2026-08-14T04:45:29.501123+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4463_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4463_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4463_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4467",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-telecom-argentina-s-a-4467",
+    "title": "Subasta de Telecom Argentina S.A.",
+    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Ubicación 4 Ubicación 5 Ubicación 6 Ubicación 7 Ubicación 8 Ubicación 9 Términos y condiciones Descargar Ubicación Ubicación: Av. Paraguay 2789, A4400 Salta Ubicación 2 Ubicación: Buenos Aires 661, T4000 San Miguel de Tucumán, Tucumán Ubicación 3 Ubicación: Gral. Manuel Belgrano 760, T4105 Manantial, Tucumán Ubicación 4 Ubicación: Diag. Lisandro de la Torre 2460, T4001 San Miguel de Tucumán, Tucumán Ubicación 5 Ubicación: Leyria, B7300 Azul, Buenos Aires Ubicación 6 Ubicación: Alsina, B7400 Olavarría, Buenos Aires Ubicación 7 Ubicación: Alvear, B6740 Chacabuco, Buenos Aires Ubicación 8 Ubicación: C. 42, B2720 Colón, Buenos Aires Ubicación 9 Ubicación: 883V+HGH, San Pedro, Buenos Aires Condiciones generales Descargar",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-14T04:45:37.597258+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4467_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4467_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4467_condition_report_bbd2b7a8.pdf"
       ]
     },
     "lots": [],
@@ -8501,7 +6049,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:48:20.776818+00:00",
+    "scraped_at": "2026-08-14T04:45:45.712161+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4510_condition_report_34225080.pdf",
@@ -8576,7 +6124,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:48:28.842596+00:00",
+    "scraped_at": "2026-08-14T04:45:53.802946+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4493_condition_report_34225080.pdf",
@@ -8623,7 +6171,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:48:36.907048+00:00",
+    "scraped_at": "2026-08-14T04:46:01.876946+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4477_condition_report_34225080.pdf",
@@ -8637,6 +6185,42 @@
         "max_usd": 120000,
         "typical_usd": 45000,
         "category": "machinery"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4507",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-repuestos-para-camiones-scania-y-mercedes-benz-horcrisa-s-a-u-4507",
+    "title": "Subasta de repuestos para camiones Scania y Mercedes-Benz - HORCRISA S.A.U.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: 7C5J+JJ5, Isidro Casanova, Buenos Aires Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-21T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-14T04:46:09.976898+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4507_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4507_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4507_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "camion",
+        "min_usd": 15000,
+        "max_usd": 120000,
+        "typical_usd": 45000,
+        "category": "vehicles"
       }
     },
     "lots": [],
@@ -8659,7 +6243,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:48:44.975241+00:00",
+    "scraped_at": "2026-08-14T04:46:18.068901+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4501_condition_report_34225080.pdf",
@@ -8675,7 +6259,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-por-renovacion-de-flota-chasis-con-cabina-grupo-electrogeno-trailer-y-minicargadora-sacde-s-a-4461",
     "title": "Subasta por renovación de flota: chasis con cabina, grupo electrógeno, tráiler y minicargadora - SACDE S.A.",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Hipólito Yrigoyen 3924, San Fernando, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Términos y condiciones Descargar Ubicación Ubicación: Av. Hipólito Yrigoyen 3924, San Fernando, Buenos Aires Ubicación 2 Ubicación: B1723 Mariano Acosta, Buenos Aires Ubicación 3 Ubicación: 5FVV+7QM, El Jagüel, Buenos Aires Condiciones generales Descargar",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -8687,7 +6271,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:48:53.042352+00:00",
+    "scraped_at": "2026-08-14T04:46:26.157668+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4461_condition_report_34225080.pdf",
@@ -8734,7 +6318,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:01.110525+00:00",
+    "scraped_at": "2026-08-14T04:46:34.247349+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4435_condition_report_34225080.pdf",
@@ -8762,7 +6346,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:09.190719+00:00",
+    "scraped_at": "2026-08-14T04:46:42.355494+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4492_condition_report_34225080.pdf",
@@ -8809,7 +6393,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:17.257598+00:00",
+    "scraped_at": "2026-08-14T04:46:50.451026+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4474_condition_report_34225080.pdf",
@@ -8986,7 +6570,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:25.319065+00:00",
+    "scraped_at": "2026-08-14T04:46:58.539835+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4497_condition_report_34225080.pdf",
@@ -9022,7 +6606,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:33.393619+00:00",
+    "scraped_at": "2026-08-14T04:47:06.631749+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4468_condition_report_34225080.pdf",
@@ -9058,7 +6642,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:41.466337+00:00",
+    "scraped_at": "2026-08-14T04:47:14.724603+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4488_condition_report_34225080.pdf",
@@ -9086,7 +6670,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:49.532103+00:00",
+    "scraped_at": "2026-08-14T04:47:22.793172+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4498_condition_report_34225080.pdf",
@@ -9183,7 +6767,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-08-13T04:49:57.605651+00:00",
+    "scraped_at": "2026-08-14T04:47:30.888581+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4238_condition_report_34225080.pdf",
@@ -9203,7 +6787,59 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:95947208",
+    "id": "adrian_mercado:4509",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-inmueble-terreno-de-750-m2-banco-nacion-4509",
+    "title": "Subasta de inmueble - Terreno  de 750 m2 - BANCO NACIÓN",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: España & Rivadavia, B6346 Pellegrini, Buenos Aires Condiciones generales Descargar",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-11T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-08-14T04:47:38.969819+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4509_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4509_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4509_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [
+      {
+        "lot_id": "am:4509:1",
+        "lot_number": 1,
+        "title": "Lote en esquina ubicado sobre las calles Rivadavia y España, a solo 100 metros de la Terminal de Ómn",
+        "description": "Lote en esquina ubicado sobre las calles Rivadavia y España, a solo 100 metros de la Terminal de Ómn",
+        "base_price": 3650000.0,
+        "currency": "ARS",
+        "base_price_usd": 2370.13,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/191525/8c0d410fae441fc78bb000dc96fc03a3-255x190.png",
+          "https://amercado.azureedge.net/cms/resources/galleries/191525/05c7f825f680b7c63cf0577c1b950b1c-255x190.png",
+          "https://amercado.azureedge.net/cms/resources/galleries/191525/5f1a4ebc204340fc0176d29a967f00a5-255x190.png",
+          "https://amercado.azureedge.net/cms/resources/galleries/191525/df3b0efd468469d35086f19323d8a3db-255x190.png",
+          "https://amercado.azureedge.net/cms/resources/galleries/191525/8d0d99a30369c680f05ac73e7b946bd9-255x190.png"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "adrian_mercado:38061964",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "Subasta de inmueble por Banco De La Nación Argentina",
@@ -9221,7 +6857,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-08-13T04:46:31.129827+00:00",
+    "scraped_at": "2026-08-14T04:43:55.450277+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

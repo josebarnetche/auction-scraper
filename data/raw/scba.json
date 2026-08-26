@@ -22,7 +22,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5120/5257/photo.12_08_52.989561.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5120/5257/photo.12_08_53.005187.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:42:28.593899+00:00",
+    "scraped_at": "2026-08-26T03:47:58.178341+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -50,7 +50,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5121/5258/photo.11_08_33.018014.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5121/5258/photo.11_08_33.018014.jpg"
     ],
-    "scraped_at": "2026-08-25T03:42:32.588600+00:00",
+    "scraped_at": "2026-08-26T03:48:03.936948+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -77,7 +77,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5122/5259/photo.11_24_51.285670.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5122/5259/photo.11_24_51.285670.jpg"
     ],
-    "scraped_at": "2026-08-25T03:42:36.420414+00:00",
+    "scraped_at": "2026-08-26T03:48:10.667909+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -105,7 +105,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5123/5260/photo.12_04_57.043945.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5123/5260/photo.12_04_57.043945.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:42:40.747402+00:00",
+    "scraped_at": "2026-08-26T03:48:14.746269+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -133,7 +133,91 @@
       "https://subastas.scba.gov.ar/AuctionImages/4608/4711/photo.12_49_10.235229.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4608/4711/photo.12_49_10.235229.jpg"
     ],
-    "scraped_at": "2026-08-25T03:42:44.820681+00:00",
+    "scraped_at": "2026-08-26T03:48:20.076675+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "scba:5125",
+    "source": "scba",
+    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5125",
+    "title": "Subasta\n                        InmuebleCód.BB813",
+    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-08-25T11:00:00",
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.scba.gov.ar/AuctionImages/5125/5262/photo.10_15_10.856765.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5125/5262/photo.10_15_10.841247.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5125/5262/photo.10_15_10.825614.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5125/5262/photo.10_15_10.809872.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5125/5262/photo.10_15_10.809872.jpg"
+    ],
+    "scraped_at": "2026-08-26T03:48:23.992251+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "scba:5126",
+    "source": "scba",
+    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5126",
+    "title": "Subasta\n                        InmuebleCód.SM355",
+    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-08-25T10:00:00",
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.scba.gov.ar/AuctionImages/5126/5263/photo.10_35_47.652215.png",
+      "https://subastas.scba.gov.ar/AuctionImages/5126/5263/photo.10_35_47.636590.png",
+      "https://subastas.scba.gov.ar/AuctionImages/5126/5263/photo.10_35_47.620964.png",
+      "https://subastas.scba.gov.ar/AuctionImages/5126/5263/photo.10_35_47.605323.png",
+      "https://subastas.scba.gov.ar/AuctionImages/5126/5263/photo.10_35_47.605323.png"
+    ],
+    "scraped_at": "2026-08-26T03:48:28.094083+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "scba:5127",
+    "source": "scba",
+    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5127",
+    "title": "Subasta\n                        InmuebleCód.BB814",
+    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-08-25T11:00:00",
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.scba.gov.ar/AuctionImages/5127/5264/photo.11_38_48.952946.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5127/5264/photo.11_38_48.937283.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5127/5264/photo.11_38_48.921649.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5127/5264/photo.11_38_48.906023.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5127/5264/photo.11_38_48.906023.jpg"
+    ],
+    "scraped_at": "2026-08-26T03:48:31.916653+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -161,7 +245,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4794/4912/photo.11_16_23.599140.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4794/4912/photo.11_16_23.599140.jpg"
     ],
-    "scraped_at": "2026-08-25T03:42:48.835039+00:00",
+    "scraped_at": "2026-08-26T03:48:37.828730+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -189,7 +273,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4844/4962/photo.08_52_29.725047.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4844/4962/photo.08_52_29.725047.jpg"
     ],
-    "scraped_at": "2026-08-25T03:42:52.861857+00:00",
+    "scraped_at": "2026-08-26T03:48:44.276981+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -217,7 +301,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4847/4965/photo.08_50_13.779919.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4847/4965/photo.08_50_13.779919.jpg"
     ],
-    "scraped_at": "2026-08-25T03:42:56.725425+00:00",
+    "scraped_at": "2026-08-26T03:48:49.677865+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -245,7 +329,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4848/4966/photo.09_44_38.855763.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4848/4966/photo.09_44_38.855763.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:00.812911+00:00",
+    "scraped_at": "2026-08-26T03:48:54.678665+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -273,7 +357,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4852/4970/photo.20_30_08.190373.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4852/4970/photo.20_30_08.190373.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:04.676409+00:00",
+    "scraped_at": "2026-08-26T03:49:00.562908+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -301,7 +385,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4883/5005/photo.11_37_38.985225.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4883/5005/photo.11_37_38.985225.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:08.782494+00:00",
+    "scraped_at": "2026-08-26T03:49:04.486871+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -329,7 +413,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4884/5006/photo.11_57_23.698182.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4884/5006/photo.11_57_23.698182.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:12.913829+00:00",
+    "scraped_at": "2026-08-26T03:49:08.447270+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -357,7 +441,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4885/5007/photo.12_20_34.390127.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4885/5007/photo.12_20_34.390127.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:17.367670+00:00",
+    "scraped_at": "2026-08-26T03:49:12.508005+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -385,7 +469,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4886/5008/photo.12_44_26.036876.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4886/5008/photo.12_44_26.036876.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:21.832361+00:00",
+    "scraped_at": "2026-08-26T03:49:19.595304+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -413,7 +497,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4894/5016/photo.08_48_29.183178.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4894/5016/photo.08_48_29.183178.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:27.006471+00:00",
+    "scraped_at": "2026-08-26T03:49:23.607723+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +524,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4897/5019/photo.10_22_58.223185.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4897/5019/photo.10_22_58.223185.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:30.772392+00:00",
+    "scraped_at": "2026-08-26T03:49:27.444170+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -467,7 +551,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4898/5020/photo.10_42_25.762783.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4898/5020/photo.10_42_25.762783.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:34.557316+00:00",
+    "scraped_at": "2026-08-26T03:49:31.584053+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -495,7 +579,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4910/5033/photo.10_15_25.006416.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4910/5033/photo.10_15_25.006416.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:38.869128+00:00",
+    "scraped_at": "2026-08-26T03:49:35.559991+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -523,7 +607,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4918/5041/photo.10_47_38.962353.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4918/5041/photo.10_47_38.962353.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:43.464716+00:00",
+    "scraped_at": "2026-08-26T03:49:39.425525+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -551,63 +635,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4929/5054/photo.10_00_20.080939.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4929/5054/photo.10_00_20.080939.jpg"
     ],
-    "scraped_at": "2026-08-25T03:43:47.295511+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:4931",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/4931",
-    "title": "Subasta\n                        InmuebleCód.LP485",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-06-02T10:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/4931/5056/photo.11_12_46.271270.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4931/5056/photo.11_12_46.255644.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4931/5056/photo.11_12_46.240042.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4931/5056/photo.11_12_46.224382.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4931/5056/photo.11_12_46.224382.jpg"
-    ],
-    "scraped_at": "2026-08-25T03:43:51.300755+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:4935",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/4935",
-    "title": "Subasta\n                        Mueble (Registrable)Cód.LM62",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-06-03T11:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/4935/5060/photo.09_59_32.473199.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4935/5060/photo.09_59_32.457526.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4935/5060/photo.09_59_32.441925.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4935/5060/photo.09_59_32.426285.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4935/5060/photo.09_59_32.426285.jpg"
-    ],
-    "scraped_at": "2026-08-25T03:43:55.203374+00:00",
+    "scraped_at": "2026-08-26T03:49:43.781606+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -635,35 +663,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4937/5062/photo.12_53_48.743503.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4937/5062/photo.12_53_48.743503.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:43:58.963833+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:4941",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/4941",
-    "title": "Subasta\n                        Mueble (Registrable)Cód.SM342",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-06-04T10:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/4941/5066/photo.09_25_42.406439.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4941/5066/photo.09_25_42.390784.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4941/5066/photo.09_25_42.375176.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4941/5066/photo.09_25_42.359548.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4941/5066/photo.09_25_42.359548.jpeg"
-    ],
-    "scraped_at": "2026-08-25T03:44:02.749841+00:00",
+    "scraped_at": "2026-08-26T03:49:47.903740+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -691,7 +691,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4942/5067/photo.11_10_02.646984.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4942/5067/photo.11_10_02.646984.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:07.157507+00:00",
+    "scraped_at": "2026-08-26T03:49:52.214687+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -719,7 +719,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4944/5069/photo.12_21_29.229669.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4944/5069/photo.12_21_29.229669.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:44:10.874174+00:00",
+    "scraped_at": "2026-08-26T03:49:56.169709+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -747,7 +747,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4946/5071/photo.13_20_52.197636.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4946/5071/photo.13_20_52.197636.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:44:15.715711+00:00",
+    "scraped_at": "2026-08-26T03:50:02.166466+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -775,7 +775,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4947/5072/photo.08_48_34.448497.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4947/5072/photo.08_48_34.448497.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:20.325997+00:00",
+    "scraped_at": "2026-08-26T03:50:06.166194+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -803,7 +803,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4949/5074/photo.10_23_46.338051.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4949/5074/photo.09_51_53.721073.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:24.263324+00:00",
+    "scraped_at": "2026-08-26T03:50:10.651671+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -831,7 +831,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4956/5081/photo.03_23_52.293491.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4956/5081/photo.03_23_52.293491.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:28.796222+00:00",
+    "scraped_at": "2026-08-26T03:50:14.703328+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -859,7 +859,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4963/5088/photo.12_47_13.012975.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4963/5088/photo.12_47_13.012975.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:32.791014+00:00",
+    "scraped_at": "2026-08-26T03:50:20.136419+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -887,35 +887,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4965/5091/photo.13_00_54.038875.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4965/5091/photo.13_00_54.038875.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:36.620902+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:4967",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/4967",
-    "title": "Subasta\n                        Mueble (Registrable)Cód.SM343",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-06-09T09:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/4967/5093/photo.09_46_01.670185.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4967/5093/photo.09_46_01.654564.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4967/5093/photo.09_46_01.638938.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4967/5093/photo.09_46_01.623316.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4967/5093/photo.09_46_01.623316.jpeg"
-    ],
-    "scraped_at": "2026-08-25T03:44:40.554117+00:00",
+    "scraped_at": "2026-08-26T03:50:24.794873+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -943,35 +915,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4968/5094/photo.10_51_55.820875.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4968/5094/photo.10_51_55.820875.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:44.357972+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:4970",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/4970",
-    "title": "Subasta\n                        Mueble (Registrable)Cód.BB784",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-06-10T11:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/4970/5096/photo.12_12_58.620027.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4970/5096/photo.12_12_58.604403.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4970/5096/photo.12_12_58.588784.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4970/5096/photo.12_12_58.573174.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/4970/5096/photo.12_12_58.588784.jpg"
-    ],
-    "scraped_at": "2026-08-25T03:44:48.132328+00:00",
+    "scraped_at": "2026-08-26T03:50:28.647512+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -999,7 +943,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4971/5097/photo.09_41_08.912038.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4971/5097/photo.09_41_08.912038.jpg"
     ],
-    "scraped_at": "2026-08-25T03:44:53.288332+00:00",
+    "scraped_at": "2026-08-26T03:50:33.886006+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1027,35 +971,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4975/5101/photo.13_15_17.170483.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4975/5101/photo.13_15_17.170483.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:44:57.057543+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:4978",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/4978",
-    "title": "Subasta\n                        Mueble (Registrable)Cód.LM64",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-06-12T11:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/4978/5104/photo.14_19_02.123232.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4978/5104/photo.14_19_02.107612.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4978/5104/photo.14_19_02.091969.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4978/5104/photo.14_19_02.076351.jpeg",
-      "https://subastas.scba.gov.ar/AuctionImages/4978/5104/photo.14_19_02.076351.jpeg"
-    ],
-    "scraped_at": "2026-08-25T03:45:01.524004+00:00",
+    "scraped_at": "2026-08-26T03:50:38.298265+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1083,7 +999,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4979/5105/photo.10_21_03.994248.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4979/5105/photo.10_21_03.994248.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:05.350175+00:00",
+    "scraped_at": "2026-08-26T03:50:42.970693+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1111,7 +1027,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4980/5108/photo.13_00_21.615968.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4980/5108/photo.13_00_21.615968.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:09.749765+00:00",
+    "scraped_at": "2026-08-26T03:50:46.958939+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1137,7 +1053,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4982/5110/photo.10_23_15.099135.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4982/5110/photo.10_23_15.112316.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:45:15.969824+00:00",
+    "scraped_at": "2026-08-26T03:50:50.900831+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1165,7 +1081,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4983/5111/photo.12_33_37.731618.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4983/5111/photo.12_33_37.731618.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:20.097436+00:00",
+    "scraped_at": "2026-08-26T03:50:54.885165+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1193,7 +1109,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4985/5113/photo.11_55_51.605688.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4985/5113/photo.11_55_51.605688.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:45:23.934952+00:00",
+    "scraped_at": "2026-08-26T03:50:59.987185+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1221,7 +1137,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4986/5114/photo.10_04_47.129298.jfif",
       "https://subastas.scba.gov.ar/AuctionImages/4986/5114/photo.10_04_47.129298.jfif"
     ],
-    "scraped_at": "2026-08-25T03:45:27.724641+00:00",
+    "scraped_at": "2026-08-26T03:51:03.924997+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1249,7 +1165,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4987/5115/photo.12_07_30.045413.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4987/5115/photo.12_07_30.045413.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:31.618174+00:00",
+    "scraped_at": "2026-08-26T03:51:07.659846+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1274,7 +1190,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4988/5116/photo.10_47_15.911313.png",
       "https://subastas.scba.gov.ar/AuctionImages/4988/5116/photo.10_47_15.911313.png"
     ],
-    "scraped_at": "2026-08-25T03:45:35.546473+00:00",
+    "scraped_at": "2026-08-26T03:51:11.871617+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1302,7 +1218,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4989/5117/photo.10_08_35.992507.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4989/5117/photo.10_08_35.992507.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:45:39.332283+00:00",
+    "scraped_at": "2026-08-26T03:51:15.763849+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1330,7 +1246,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4990/5118/photo.10_43_06.029151.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4990/5118/photo.10_43_06.029151.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:45:43.200734+00:00",
+    "scraped_at": "2026-08-26T03:51:20.407315+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1358,7 +1274,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4991/5119/photo.13_09_31.189701.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4991/5119/photo.13_09_31.189701.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:47.123929+00:00",
+    "scraped_at": "2026-08-26T03:51:27.753090+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1386,7 +1302,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4992/5120/photo.12_06_36.399450.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4992/5120/photo.12_06_36.399450.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:45:51.028569+00:00",
+    "scraped_at": "2026-08-26T03:51:31.915563+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1414,7 +1330,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4993/5121/photo.10_25_09.751177.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4993/5121/photo.10_25_09.751177.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:54.847697+00:00",
+    "scraped_at": "2026-08-26T03:51:35.834477+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1442,7 +1358,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4994/5122/photo.10_30_18.762526.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4994/5122/photo.10_30_18.762526.jpg"
     ],
-    "scraped_at": "2026-08-25T03:45:58.735171+00:00",
+    "scraped_at": "2026-08-26T03:51:40.246770+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1470,7 +1386,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4995/5123/photo.10_30_34.397390.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4995/5123/photo.10_30_34.397390.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:02.586706+00:00",
+    "scraped_at": "2026-08-26T03:51:44.661048+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1498,7 +1414,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4996/5124/photo.10_35_03.740559.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/4996/5124/photo.10_35_03.740559.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:46:08.415689+00:00",
+    "scraped_at": "2026-08-26T03:51:49.287537+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1526,7 +1442,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4997/5125/photo.10_35_47.066576.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4997/5125/photo.10_35_47.066576.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:13.091831+00:00",
+    "scraped_at": "2026-08-26T03:51:55.087227+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1554,7 +1470,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4998/5126/photo.10_41_02.665195.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4998/5126/photo.10_41_02.665195.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:17.980479+00:00",
+    "scraped_at": "2026-08-26T03:51:58.947518+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1582,7 +1498,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/4999/5127/photo.10_45_21.635615.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/4999/5127/photo.10_45_21.635615.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:21.811828+00:00",
+    "scraped_at": "2026-08-26T03:52:03.365192+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1608,7 +1524,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5000/5128/photo.10_50_13.261751.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5000/5128/photo.10_50_13.261751.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:25.524546+00:00",
+    "scraped_at": "2026-08-26T03:52:07.234799+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1636,7 +1552,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5001/5129/photo.10_58_46.406281.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5001/5129/photo.10_58_46.406281.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:29.413809+00:00",
+    "scraped_at": "2026-08-26T03:52:11.851852+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1664,7 +1580,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5002/5130/photo.12_44_46.318652.JPG",
       "https://subastas.scba.gov.ar/AuctionImages/5002/5130/photo.12_44_46.318652.JPG"
     ],
-    "scraped_at": "2026-08-25T03:46:33.342659+00:00",
+    "scraped_at": "2026-08-26T03:52:16.568729+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1692,7 +1608,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5003/5131/photo.12_53_33.806755.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5003/5131/photo.12_53_33.806755.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:46:37.342695+00:00",
+    "scraped_at": "2026-08-26T03:52:20.440685+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1720,7 +1636,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5004/5132/photo.10_25_39.065684.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5004/5132/photo.13_52_33.869472.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:41.171233+00:00",
+    "scraped_at": "2026-08-26T03:52:25.165033+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1748,7 +1664,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5005/5133/photo.10_17_45.665961.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5005/5133/photo.10_17_45.665961.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:46:45.354542+00:00",
+    "scraped_at": "2026-08-26T03:52:29.068750+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1776,7 +1692,90 @@
       "https://subastas.scba.gov.ar/AuctionImages/5006/5134/photo.12_52_05.434346.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5006/5134/photo.12_52_05.434346.jpg"
     ],
-    "scraped_at": "2026-08-25T03:46:50.626149+00:00",
+    "scraped_at": "2026-08-26T03:52:32.995480+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "scba:5007",
+    "source": "scba",
+    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5007",
+    "title": "Subasta\n                        InmuebleCód.ME146",
+    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-07-02T11:00:00",
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.scba.gov.ar/AuctionImages/5007/5135/photo.09_01_34.589570.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5007/5135/photo.09_01_34.588057.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5007/5135/photo.09_01_34.572412.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5007/5135/photo.09_01_34.588057.jpg"
+    ],
+    "scraped_at": "2026-08-26T03:52:36.841660+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "scba:5008",
+    "source": "scba",
+    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5008",
+    "title": "Subasta\n                        InmuebleCód.MP560",
+    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-07-03T10:00:00",
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.scba.gov.ar/AuctionImages/5008/5136/photo.10_47_37.490084.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5008/5136/photo.10_47_37.474448.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5008/5136/photo.10_47_37.458813.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5008/5136/photo.10_47_37.443172.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5008/5136/photo.10_47_37.443172.jpg"
+    ],
+    "scraped_at": "2026-08-26T03:52:40.982553+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "scba:5009",
+    "source": "scba",
+    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5009",
+    "title": "Subasta\n                        InmuebleCód.TL177",
+    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": "2026-07-02T12:00:00",
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://subastas.scba.gov.ar/AuctionImages/5009/5137/photo.14_37_07.407151.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5009/5137/photo.14_37_07.391512.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5009/5137/photo.14_37_07.375996.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5009/5137/photo.14_37_07.360262.jpg",
+      "https://subastas.scba.gov.ar/AuctionImages/5009/5137/photo.14_37_07.360262.jpg"
+    ],
+    "scraped_at": "2026-08-26T03:52:45.534312+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1802,7 +1801,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5010/5138/photo.10_14_29.871295.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5010/5138/photo.10_14_29.871295.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:09.451725+00:00",
+    "scraped_at": "2026-08-26T03:52:49.579727+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1830,7 +1829,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5011/5139/photo.13_53_22.867464.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5011/5139/photo.13_53_22.867464.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:18.069023+00:00",
+    "scraped_at": "2026-08-26T03:52:55.679812+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1858,7 +1857,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5012/5140/photo.11_51_56.655350.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5012/5140/photo.11_51_56.655350.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:21.974529+00:00",
+    "scraped_at": "2026-08-26T03:52:59.443236+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1886,7 +1885,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5013/5141/photo.12_12_41.631839.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5013/5141/photo.12_12_41.631839.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:26.560722+00:00",
+    "scraped_at": "2026-08-26T03:53:04.181847+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1914,7 +1913,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5014/5142/photo.12_43_29.405955.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5014/5142/photo.12_43_29.405955.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:31.098309+00:00",
+    "scraped_at": "2026-08-26T03:53:07.998471+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1942,7 +1941,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5015/5143/photo.13_07_42.989212.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5015/5143/photo.13_07_42.989212.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:34.889718+00:00",
+    "scraped_at": "2026-08-26T03:53:12.314054+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1970,7 +1969,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5016/5144/photo.13_19_18.665507.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5016/5144/photo.13_19_18.665507.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:39.373826+00:00",
+    "scraped_at": "2026-08-26T03:53:16.402737+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -1998,7 +1997,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5017/5145/photo.13_25_26.204902.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5017/5145/photo.13_25_26.283037.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:44.020858+00:00",
+    "scraped_at": "2026-08-26T03:53:20.322510+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2026,7 +2025,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5018/5146/photo.09_16_26.781334.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5018/5146/photo.09_16_26.781334.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:47.988856+00:00",
+    "scraped_at": "2026-08-26T03:53:24.985128+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2054,7 +2053,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5019/5147/photo.13_26_57.797099.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5019/5147/photo.13_26_57.797099.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:52.314330+00:00",
+    "scraped_at": "2026-08-26T03:53:29.180255+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2082,7 +2081,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5020/5148/photo.11_26_03.820873.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5020/5148/photo.11_26_03.820873.jpg"
     ],
-    "scraped_at": "2026-08-25T03:48:56.429265+00:00",
+    "scraped_at": "2026-08-26T03:53:33.129099+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2110,7 +2109,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5021/5149/photo.11_14_19.786073.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5021/5149/photo.11_14_19.786073.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:02.026463+00:00",
+    "scraped_at": "2026-08-26T03:53:37.406498+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2138,7 +2137,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5022/5150/photo.08_46_41.864123.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5022/5150/photo.08_46_41.864123.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:49:05.770273+00:00",
+    "scraped_at": "2026-08-26T03:53:44.602957+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2166,7 +2165,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5023/5151/photo.10_04_44.583002.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5023/5151/photo.10_04_44.598623.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:09.667070+00:00",
+    "scraped_at": "2026-08-26T03:53:48.519448+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2194,7 +2193,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5024/5152/photo.10_08_16.475345.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5024/5152/photo.10_08_16.553616.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:14.799225+00:00",
+    "scraped_at": "2026-08-26T03:53:54.411097+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2222,7 +2221,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5025/5153/photo.14_29_40.934646.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5025/5153/photo.14_29_40.934646.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:49:18.565855+00:00",
+    "scraped_at": "2026-08-26T03:53:58.194846+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2250,7 +2249,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5026/5154/photo.11_19_41.813156.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5026/5154/photo.11_19_41.813156.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:22.409515+00:00",
+    "scraped_at": "2026-08-26T03:54:03.410968+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2278,7 +2277,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5027/5155/photo.12_48_50.194829.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5027/5155/photo.12_48_50.194829.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:26.578803+00:00",
+    "scraped_at": "2026-08-26T03:54:07.226985+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2306,7 +2305,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5028/5156/photo.13_20_57.680841.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5028/5156/photo.13_20_57.696466.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:30.377394+00:00",
+    "scraped_at": "2026-08-26T03:54:11.405953+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2334,7 +2333,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5029/5157/photo.14_26_19.629938.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5029/5157/photo.14_26_19.629938.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:34.174223+00:00",
+    "scraped_at": "2026-08-26T03:54:20.830765+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2362,7 +2361,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5030/5158/photo.09_51_40.813472.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5030/5158/photo.09_51_40.813472.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:38.140775+00:00",
+    "scraped_at": "2026-08-26T03:54:25.062908+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2390,7 +2389,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5031/5159/photo.09_52_17.185145.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5031/5159/photo.09_52_17.185145.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:49:41.906268+00:00",
+    "scraped_at": "2026-08-26T03:54:29.133933+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2418,7 +2417,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5032/5160/photo.11_45_39.644656.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5032/5160/photo.11_45_39.644656.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:45.691402+00:00",
+    "scraped_at": "2026-08-26T03:54:33.111867+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2446,7 +2445,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5033/5161/photo.13_54_47.480599.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5033/5161/photo.13_54_47.480599.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:50.285707+00:00",
+    "scraped_at": "2026-08-26T03:54:37.145670+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2474,7 +2473,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5034/5162/photo.10_30_54.454602.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5034/5162/photo.10_30_54.454602.jpg"
     ],
-    "scraped_at": "2026-08-25T03:49:54.215973+00:00",
+    "scraped_at": "2026-08-26T03:54:41.306431+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2502,7 +2501,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5035/5163/photo.10_29_06.548568.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5035/5163/photo.10_29_06.548568.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:49:59.625303+00:00",
+    "scraped_at": "2026-08-26T03:54:45.074470+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2530,7 +2529,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5036/5164/photo.11_10_00.624933.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5036/5164/photo.11_10_00.624933.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:03.820235+00:00",
+    "scraped_at": "2026-08-26T03:54:48.869441+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2558,7 +2557,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5037/5165/photo.12_17_27.855922.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5037/5165/photo.12_17_27.855922.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:50:07.611357+00:00",
+    "scraped_at": "2026-08-26T03:54:54.387754+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2586,7 +2585,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5038/5166/photo.13_39_46.483892.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5038/5166/photo.13_39_46.483892.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:50:11.519301+00:00",
+    "scraped_at": "2026-08-26T03:55:02.318671+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2614,7 +2613,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5039/5167/photo.10_38_55.395378.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5039/5167/photo.10_38_55.395378.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:17.344795+00:00",
+    "scraped_at": "2026-08-26T03:55:08.991559+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2642,7 +2641,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5040/5168/photo.11_43_45.775412.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5040/5168/photo.11_43_45.775412.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:50:21.243770+00:00",
+    "scraped_at": "2026-08-26T03:55:14.095021+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2670,7 +2669,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5041/5169/photo.09_05_15.248196.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5041/5169/photo.09_05_15.248196.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:25.148339+00:00",
+    "scraped_at": "2026-08-26T03:55:18.203436+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2698,7 +2697,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5042/5170/photo.09_59_18.148841.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5042/5170/photo.09_59_18.148841.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:29.046229+00:00",
+    "scraped_at": "2026-08-26T03:55:22.079894+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2726,7 +2725,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5043/5175/photo.10_37_18.320645.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5043/5175/photo.10_37_18.320645.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:32.983865+00:00",
+    "scraped_at": "2026-08-26T03:55:26.310862+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2754,7 +2753,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5044/5176/photo.11_40_14.437686.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5044/5176/photo.11_40_14.437686.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:50:36.744745+00:00",
+    "scraped_at": "2026-08-26T03:55:32.225548+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2781,7 +2780,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5045/5177/photo.13_17_44.585872.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5045/5177/photo.13_17_44.585872.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:40.999945+00:00",
+    "scraped_at": "2026-08-26T03:55:36.321673+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2809,7 +2808,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5046/5178/photo.13_17_47.752991.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5046/5178/photo.13_17_47.752991.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:50:45.084293+00:00",
+    "scraped_at": "2026-08-26T03:55:40.118074+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2836,7 +2835,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5047/5179/photo.14_15_18.804894.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5047/5179/photo.14_15_18.804894.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:49.100096+00:00",
+    "scraped_at": "2026-08-26T03:55:45.575459+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2861,7 +2860,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5048/5180/photo.14_36_21.563975.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5048/5180/photo.14_36_21.563975.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:52.944521+00:00",
+    "scraped_at": "2026-08-26T03:55:51.002457+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2888,7 +2887,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5049/5181/photo.14_45_52.793005.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5049/5181/photo.14_45_52.793005.jpg"
     ],
-    "scraped_at": "2026-08-25T03:50:56.845809+00:00",
+    "scraped_at": "2026-08-26T03:55:54.761831+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2916,7 +2915,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5050/5182/photo.09_50_28.847178.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5050/5182/photo.09_50_28.847178.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:51:01.164368+00:00",
+    "scraped_at": "2026-08-26T03:55:59.468755+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2944,7 +2943,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5051/5183/photo.10_06_17.092759.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5051/5183/photo.10_06_17.092759.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:05.013272+00:00",
+    "scraped_at": "2026-08-26T03:56:04.569916+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -2972,7 +2971,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5052/5184/photo.10_41_37.339833.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5052/5184/photo.10_41_37.339833.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:08.883980+00:00",
+    "scraped_at": "2026-08-26T03:56:08.979835+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3000,7 +2999,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5053/5185/photo.10_55_45.010753.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5053/5185/photo.10_55_45.010753.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:13.681566+00:00",
+    "scraped_at": "2026-08-26T03:56:12.946511+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3028,7 +3027,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5054/5186/photo.11_02_59.690281.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5054/5186/photo.11_02_59.690281.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:17.493826+00:00",
+    "scraped_at": "2026-08-26T03:56:21.211294+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3056,7 +3055,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5056/5188/photo.09_03_42.504922.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5056/5188/photo.09_03_42.504922.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:21.423721+00:00",
+    "scraped_at": "2026-08-26T03:56:26.977201+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3084,7 +3083,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5057/5189/photo.09_19_09.987754.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5057/5189/photo.09_19_09.987754.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:25.731892+00:00",
+    "scraped_at": "2026-08-26T03:56:31.948511+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3112,7 +3111,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5058/5190/photo.10_11_37.553927.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5058/5190/photo.10_16_44.235790.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:29.771011+00:00",
+    "scraped_at": "2026-08-26T03:56:38.932980+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3137,7 +3136,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5059/5191/photo.10_33_22.855051.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5059/5191/photo.10_33_22.855051.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:33.737151+00:00",
+    "scraped_at": "2026-08-26T03:56:48.727213+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3162,7 +3161,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5060/5192/photo.10_28_53.685659.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5060/5192/photo.10_28_53.685659.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:38.520754+00:00",
+    "scraped_at": "2026-08-26T03:56:56.993747+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3190,7 +3189,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5061/5193/photo.12_07_42.763319.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5061/5193/photo.12_07_42.763319.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:42.474347+00:00",
+    "scraped_at": "2026-08-26T03:57:04.858575+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3218,7 +3217,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5062/5194/photo.12_28_34.487396.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5062/5194/photo.12_28_34.487396.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:47.281597+00:00",
+    "scraped_at": "2026-08-26T03:57:09.163985+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3246,7 +3245,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5063/5195/photo.13_33_22.918517.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5063/5195/photo.13_33_22.918517.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:51.134447+00:00",
+    "scraped_at": "2026-08-26T03:57:14.391432+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3273,7 +3272,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5064/5196/photo.09_51_48.280157.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5064/5196/photo.09_51_48.312539.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:54.948860+00:00",
+    "scraped_at": "2026-08-26T03:57:19.520316+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3301,7 +3300,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5065/5197/photo.10_13_09.425795.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5065/5197/photo.10_13_09.441450.jpg"
     ],
-    "scraped_at": "2026-08-25T03:51:59.785466+00:00",
+    "scraped_at": "2026-08-26T03:57:23.287608+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3329,7 +3328,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5066/5198/photo.10_44_29.021590.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5066/5198/photo.10_44_29.037246.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:03.622685+00:00",
+    "scraped_at": "2026-08-26T03:57:27.106414+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3357,7 +3356,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5067/5199/photo.11_00_15.320373.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5067/5199/photo.11_00_15.320373.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:07.398400+00:00",
+    "scraped_at": "2026-08-26T03:57:30.884683+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3385,7 +3384,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5068/5200/photo.11_12_54.982205.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5068/5200/photo.11_12_54.982205.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:11.437232+00:00",
+    "scraped_at": "2026-08-26T03:57:34.904510+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3413,7 +3412,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5069/5201/photo.12_04_12.316391.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5069/5201/photo.12_04_12.316391.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:15.435800+00:00",
+    "scraped_at": "2026-08-26T03:57:38.718623+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3441,7 +3440,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5070/5202/photo.12_07_10.417725.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5070/5202/photo.12_07_10.417725.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:19.399207+00:00",
+    "scraped_at": "2026-08-26T03:57:43.171454+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3469,7 +3468,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5071/5203/photo.14_10_24.612935.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5071/5203/photo.14_10_24.644227.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:23.254302+00:00",
+    "scraped_at": "2026-08-26T03:57:47.029083+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3497,7 +3496,7 @@
       "https://subastas.scba.gov.ar/Images/no-photo.svg",
       "https://subastas.scba.gov.ar/Images/no-photo.svg"
     ],
-    "scraped_at": "2026-08-25T03:52:27.038644+00:00",
+    "scraped_at": "2026-08-26T03:57:51.056342+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3525,7 +3524,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5073/5210/photo.10_03_22.220575.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5073/5210/photo.10_03_22.236180.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:52:31.207520+00:00",
+    "scraped_at": "2026-08-26T03:57:55.646830+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3553,7 +3552,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5074/5211/photo.10_35_24.181352.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5074/5211/photo.10_35_24.181352.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:35.643067+00:00",
+    "scraped_at": "2026-08-26T03:58:00.237177+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3581,7 +3580,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5076/5213/photo.10_13_22.814085.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5076/5213/photo.10_13_22.814085.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:39.440784+00:00",
+    "scraped_at": "2026-08-26T03:58:04.041512+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3609,7 +3608,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5077/5214/photo.10_22_23.766783.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5077/5214/photo.10_22_23.766783.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:52:44.739520+00:00",
+    "scraped_at": "2026-08-26T03:58:07.885308+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3637,7 +3636,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5078/5215/photo.11_24_29.055215.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5078/5215/photo.11_24_29.055215.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:48.596874+00:00",
+    "scraped_at": "2026-08-26T03:58:11.940295+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3665,7 +3664,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5079/5216/photo.09_25_34.527661.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5079/5216/photo.09_25_34.527661.jpg"
     ],
-    "scraped_at": "2026-08-25T03:52:52.525850+00:00",
+    "scraped_at": "2026-08-26T03:58:15.790701+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3689,7 +3688,7 @@
     "images": [
       "https://subastas.scba.gov.ar/Images/no-photo.svg"
     ],
-    "scraped_at": "2026-08-25T03:52:56.892640+00:00",
+    "scraped_at": "2026-08-26T03:58:21.010024+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3717,7 +3716,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5081/5218/photo.09_26_33.325064.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5081/5218/photo.09_26_33.325064.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:01.715714+00:00",
+    "scraped_at": "2026-08-26T03:58:25.001672+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3745,7 +3744,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5082/5219/photo.10_20_42.273518.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5082/5219/photo.10_20_42.273518.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:05.509890+00:00",
+    "scraped_at": "2026-08-26T03:58:28.825355+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3773,7 +3772,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5083/5220/photo.13_54_04.568256.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5083/5220/photo.13_54_04.568256.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:09.395749+00:00",
+    "scraped_at": "2026-08-26T03:58:32.580894+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3801,7 +3800,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5084/5221/photo.14_27_39.494293.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5084/5221/photo.14_27_39.494293.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:13.906250+00:00",
+    "scraped_at": "2026-08-26T03:58:36.467507+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3829,7 +3828,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5085/5222/photo.09_12_56.486770.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5085/5222/photo.09_12_56.486770.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:17.878538+00:00",
+    "scraped_at": "2026-08-26T03:58:40.349282+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3857,7 +3856,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5086/5223/photo.10_40_55.824337.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5086/5223/photo.10_40_55.824337.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:53:21.822816+00:00",
+    "scraped_at": "2026-08-26T03:58:46.359654+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3885,7 +3884,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5088/5225/photo.11_16_39.263313.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5088/5225/photo.11_16_39.294438.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:25.708548+00:00",
+    "scraped_at": "2026-08-26T03:58:51.029437+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3911,7 +3910,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5089/5226/photo.12_04_55.116175.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5089/5226/photo.12_04_55.116175.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:53:29.819584+00:00",
+    "scraped_at": "2026-08-26T03:58:54.816330+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3938,7 +3937,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5090/5227/photo.12_30_10.796405.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5090/5227/photo.12_30_10.796405.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:33.673665+00:00",
+    "scraped_at": "2026-08-26T03:58:59.095510+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3966,7 +3965,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5091/5228/photo.12_39_11.989047.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5091/5228/photo.12_39_11.989047.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:38.307680+00:00",
+    "scraped_at": "2026-08-26T03:59:03.207027+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -3992,7 +3991,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5092/5229/photo.12_49_06.232782.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5092/5229/photo.12_49_06.232782.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:42.189641+00:00",
+    "scraped_at": "2026-08-26T03:59:07.020856+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4018,7 +4017,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5093/5230/photo.13_11_35.839732.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5093/5230/photo.13_11_35.839732.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:53:47.375209+00:00",
+    "scraped_at": "2026-08-26T03:59:10.777949+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4044,7 +4043,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5094/5231/photo.13_26_21.104368.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5094/5231/photo.13_26_21.104368.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:53:51.547175+00:00",
+    "scraped_at": "2026-08-26T03:59:14.659816+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4072,7 +4071,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5095/5232/photo.13_31_17.017297.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5095/5232/photo.13_31_17.017297.jpg"
     ],
-    "scraped_at": "2026-08-25T03:53:55.432500+00:00",
+    "scraped_at": "2026-08-26T03:59:19.027106+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4098,7 +4097,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5096/5233/photo.13_39_29.523274.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5096/5233/photo.13_39_29.523274.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:53:59.486560+00:00",
+    "scraped_at": "2026-08-26T03:59:22.824794+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4124,7 +4123,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5097/5234/photo.17_57_16.393027.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5097/5234/photo.17_57_16.393027.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:03.235656+00:00",
+    "scraped_at": "2026-08-26T03:59:27.264227+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4150,7 +4149,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5098/5235/photo.16_28_22.401917.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5098/5235/photo.16_28_22.401917.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:07.398758+00:00",
+    "scraped_at": "2026-08-26T03:59:31.119533+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4178,7 +4177,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5099/5236/photo.09_21_07.925409.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5099/5236/photo.09_21_07.925409.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:11.261652+00:00",
+    "scraped_at": "2026-08-26T03:59:34.976630+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4206,7 +4205,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5100/5237/photo.11_35_50.207388.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5100/5237/photo.11_35_50.207388.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:15.764590+00:00",
+    "scraped_at": "2026-08-26T03:59:38.773682+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4234,7 +4233,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5101/5238/photo.10_47_50.342338.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5101/5238/photo.10_47_50.342338.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:54:19.639768+00:00",
+    "scraped_at": "2026-08-26T03:59:42.773138+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4262,7 +4261,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5102/5239/photo.13_30_00.945275.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5102/5239/photo.13_30_00.945275.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:25.361466+00:00",
+    "scraped_at": "2026-08-26T03:59:46.594308+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4289,7 +4288,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5103/5240/photo.09_54_09.562026.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5103/5240/photo.09_54_09.562026.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:54:29.370134+00:00",
+    "scraped_at": "2026-08-26T03:59:52.163437+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4316,7 +4315,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5104/5241/photo.09_56_06.699211.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5104/5241/photo.09_56_06.699211.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:54:33.409558+00:00",
+    "scraped_at": "2026-08-26T03:59:56.016136+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4343,7 +4342,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5105/5242/photo.09_58_16.079612.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5105/5242/photo.09_58_16.079612.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:54:37.904591+00:00",
+    "scraped_at": "2026-08-26T04:00:00.363514+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4368,7 +4367,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5106/5243/photo.09_59_58.954870.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5106/5243/photo.09_59_58.954870.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:54:42.636517+00:00",
+    "scraped_at": "2026-08-26T04:00:04.563858+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4396,7 +4395,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5107/5244/photo.09_22_49.859130.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5107/5244/photo.09_22_49.859130.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:54:46.499458+00:00",
+    "scraped_at": "2026-08-26T04:00:09.013070+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4424,34 +4423,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5108/5245/photo.10_22_23.781867.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5108/5245/photo.10_22_23.781867.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:50.438493+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "scba:5109",
-    "source": "scba",
-    "source_url": "https://subastas.scba.gov.ar/Auctions/Details/5109",
-    "title": "Subasta\n                        MuebleCód.MP575",
-    "description": "\n\n\nDetalle - Portal de Subastas Electrónicas de la Suprema Corte de Justicia de la Pcia. de Buenos Aires\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegistrarme\n/\n\nEntrar\n\n\n/\nBusqueda avanzada\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nLocalidad\n\n\n\n\n\n\nLocalidad\nCód. de subasta\nNro. de expediente\nCarátula\n\n\n\n\n\n\n\n\n\n",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": "2026-08-20T09:00:00",
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://subastas.scba.gov.ar/AuctionImages/5109/5246/photo.12_50_12.980039.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/5109/5246/photo.12_50_12.964419.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/5109/5246/photo.12_50_12.948799.jpg",
-      "https://subastas.scba.gov.ar/AuctionImages/5109/5246/photo.12_50_12.948799.jpg"
-    ],
-    "scraped_at": "2026-08-25T03:54:54.241493+00:00",
+    "scraped_at": "2026-08-26T04:00:12.975940+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4479,7 +4451,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5110/5247/photo.10_23_58.999421.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5110/5247/photo.10_23_58.999421.jpg"
     ],
-    "scraped_at": "2026-08-25T03:54:58.097272+00:00",
+    "scraped_at": "2026-08-26T04:00:22.967936+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4504,7 +4476,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5111/5248/photo.13_24_20.817104.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5111/5248/photo.13_24_20.817104.jpg"
     ],
-    "scraped_at": "2026-08-25T03:55:01.983619+00:00",
+    "scraped_at": "2026-08-26T04:00:26.964474+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4531,7 +4503,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5112/5249/photo.13_29_35.513325.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5112/5249/photo.13_29_35.513325.jpg"
     ],
-    "scraped_at": "2026-08-25T03:55:05.910255+00:00",
+    "scraped_at": "2026-08-26T04:00:31.011692+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4559,7 +4531,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5113/5250/photo.10_02_57.097920.jpeg",
       "https://subastas.scba.gov.ar/AuctionImages/5113/5250/photo.10_02_57.097920.jpeg"
     ],
-    "scraped_at": "2026-08-25T03:55:09.848013+00:00",
+    "scraped_at": "2026-08-26T04:00:35.643392+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4587,7 +4559,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5114/5251/photo.10_06_27.611674.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5114/5251/photo.10_06_27.611674.jpg"
     ],
-    "scraped_at": "2026-08-25T03:55:13.937137+00:00",
+    "scraped_at": "2026-08-26T04:00:39.636534+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4615,7 +4587,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5116/5253/photo.09_30_02.250552.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5116/5253/photo.09_30_02.250552.jpg"
     ],
-    "scraped_at": "2026-08-25T03:55:17.768537+00:00",
+    "scraped_at": "2026-08-26T04:00:45.269407+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4643,7 +4615,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5117/5254/photo.10_42_04.911526.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5117/5254/photo.10_42_04.911526.jpg"
     ],
-    "scraped_at": "2026-08-25T03:55:21.801689+00:00",
+    "scraped_at": "2026-08-26T04:00:49.630390+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -4671,7 +4643,7 @@
       "https://subastas.scba.gov.ar/AuctionImages/5119/5256/photo.13_09_39.037142.jpg",
       "https://subastas.scba.gov.ar/AuctionImages/5119/5256/photo.13_09_39.037142.jpg"
     ],
-    "scraped_at": "2026-08-25T03:55:25.747155+00:00",
+    "scraped_at": "2026-08-26T04:00:54.895815+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

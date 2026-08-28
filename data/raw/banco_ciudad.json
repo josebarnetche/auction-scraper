@@ -1,12 +1,12 @@
 [
   {
-    "id": "banco_ciudad:3941",
+    "id": "banco_ciudad:3938",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3941",
-    "title": "ESMERALDA 853, PISO 3 DTO. 58, UF. 58 - RETIRO - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3938",
+    "title": "JERONIMO SALGUERO 1709/11 - PALERMO - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 32283.83,
+    "base_price": 383258.74,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -16,21 +16,21 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144452/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144449/1"
     ],
-    "scraped_at": "2026-08-27T13:28:29.448373+00:00",
+    "scraped_at": "2026-08-28T14:47:28.598699+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3924",
+    "id": "banco_ciudad:3925",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3924",
-    "title": "SARMIENTO 4502/14, PISO 3 DTO. B, UF. 17 - ALMAGRO - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3925",
+    "title": "HIPOLITO YRIGOYEN 2934/36, PISO 2°, DTO A, UF. 9 - BALVANERA - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 70573.33,
+    "base_price": 52260.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -40,117 +40,21 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144284/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144285/1"
     ],
-    "scraped_at": "2026-08-27T13:29:13.666626+00:00",
+    "scraped_at": "2026-08-28T14:47:37.385246+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3948",
+    "id": "banco_ciudad:3940",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3948",
-    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 2 U.F. 3 - MICROCENTRO - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3940",
+    "title": "AV. ALTE. BROWN 235/85, PISO 11 DTO. D, UF. 590 - LA BOCA - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 348463.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144462/1"
-    ],
-    "scraped_at": "2026-08-27T13:29:20.497978+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3932",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3932",
-    "title": "Proyecto de reconversión con upside alto y riesgo gestionable. Fatima - Partido de Pilar - Prov. Bs. As.",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 12000000.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-04T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144332/1"
-    ],
-    "scraped_at": "2026-08-27T13:29:27.296984+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3949",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3949",
-    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 3 U.F. 4 - MICROCENTRO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 250854.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144463/1"
-    ],
-    "scraped_at": "2026-08-27T13:29:34.237573+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3928",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3928",
-    "title": "MARIO BRAVO 256/58/60 PISO 6°, DTO C, UF. 23 - ALMAGRO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 32720.93,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144288/1"
-    ],
-    "scraped_at": "2026-08-27T13:29:41.142153+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3942",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3942",
-    "title": "EDUARDO SCHIAFFINO 2179/83, PISO 7 DTO. B, UF. 21 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 117000.0,
+    "base_price": 32160.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -160,147 +64,12 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144453/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144451/1"
     ],
-    "scraped_at": "2026-08-27T13:29:48.246619+00:00",
+    "scraped_at": "2026-08-28T14:47:44.740455+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3930",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3930",
-    "title": "AV. SANTA FE 4196/200 ESQ. THAMES 2475/75a/77/79/81/83/85/87/91/93/95, PISO 9°, DPTO H, UF. 81 Y 1/112 AVAS PARTES INDIVISAS UC 1 PISO 1°Y,PISO 2 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 70116.28,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144291/1"
-    ],
-    "scraped_at": "2026-08-27T13:29:54.822757+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3944",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3944",
-    "title": "11 DE ABRIL 250 – UF 7 Y COCHERA (2/24 AVAS PARTES DE UF 13) - BAHIA BLANCA – PCIA. DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 121777.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-01T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144455/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:01.215983+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3947",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3947",
-    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 1 U.F. 15 - MICROCENTRO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 225964.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144461/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:08.550719+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3945",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3945",
-    "title": "PIEZAS DE JOYERIA Y BIJOUTERIE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 15131810.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-15T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144458/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:15.104754+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3945:131",
-        "lot_number": 131,
-        "title": "810,00 \"1275 PIEZAS DE JOYERIA SEGÚN DETALLE: 60 ANILLOS DE PLATA - 24 ANILLO... Dep. en garantía:",
-        "description": "",
-        "base_price": 3026362.0,
-        "currency": "ARS",
-        "base_price_usd": 1946.21,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3945/131"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3945:636",
-        "lot_number": 636,
-        "title": "089,00 \"141 PIEZAS DE BIJOUTERIE SEGÚN DETALLE: 10 ANILLOS ORIGEN SINTETICO -... Dep. en garantía:",
-        "description": "",
-        "base_price": 327217.8,
-        "currency": "ARS",
-        "base_price_usd": 210.43,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3945/636"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 2
   },
   {
     "id": "banco_ciudad:3936",
@@ -321,220 +90,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144401/1"
     ],
-    "scraped_at": "2026-08-27T13:30:22.062226+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3911",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3911",
-    "title": "AUTOMOTORES, CAMIONES, AUTOELEVADORES Y MATERIAL EN DESUSO",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 70000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144212/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:28.994080+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "autoelevador",
-        "min_usd": 6000,
-        "max_usd": 60000,
-        "typical_usd": 15000,
-        "category": "machinery"
-      },
-      "discount_percent": 99.6,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [
-      {
-        "lot_id": "bc:3911:0",
-        "lot_number": 0,
-        "title": "000,00 UN CAMIÓN TRACTOR, USADO, SIN FUNCIONAR, MARCA FIAT, MODELO 697 T, MOT... Dep. en garantía:",
-        "description": "",
-        "base_price": 100000.0,
-        "currency": "ARS",
-        "base_price_usd": 64.31,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:10",
-        "lot_number": 10,
-        "title": "000,00 UNA BICICLETA, USADA, SIN MARCA VISIBLE. POSEE: MANUBRIO, ASIENTO, HOR... Dep. en garantía:",
-        "description": "",
-        "base_price": 1000.0,
-        "currency": "ARS",
-        "base_price_usd": 0.64,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/10"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:70",
-        "lot_number": 70,
-        "title": "000,00 UN ACOPLADO, USADO, SIN MARCA, NUMERACIÓN VISIBLE Y AÑO DE FABRICACIÓN... Dep. en garantía:",
-        "description": "",
-        "base_price": 7000.0,
-        "currency": "ARS",
-        "base_price_usd": 4.5,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/70"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:250",
-        "lot_number": 250,
-        "title": "000,00 RESTOS DE UN CAMIÓN, USADO, MARCA MERCEDES BENZ, MODELO UNIMOG 416, MO... Dep. en garantía:",
-        "description": "",
-        "base_price": 25000.0,
-        "currency": "ARS",
-        "base_price_usd": 16.08,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/250"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:300",
-        "lot_number": 300,
-        "title": "000,00 UN AUTOMÓVIL, USADO, SIN FUNCIONAR, MARCA RENAULT, MODELO RENAULT 19 R... Dep. en garantía:",
-        "description": "",
-        "base_price": 30000.0,
-        "currency": "ARS",
-        "base_price_usd": 19.29,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/300"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:500",
-        "lot_number": 500,
-        "title": "000,00 UN CAMIÓN, USADO, SIN FUNCIONAR, MARCA MERCEDES BENZ, MODELO UNIMOG 41... Dep. en garantía:",
-        "description": "",
-        "base_price": 50000.0,
-        "currency": "ARS",
-        "base_price_usd": 32.15,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/500"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:600",
-        "lot_number": 600,
-        "title": "000,00 UN CAMIÓN TANQUE CISTERNA, USADO, SIN FUNCIONAR, MARCA MERCEDES BENZ, ... Dep. en garantía:",
-        "description": "",
-        "base_price": 60000.0,
-        "currency": "ARS",
-        "base_price_usd": 38.59,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/600"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3911:700",
-        "lot_number": 700,
-        "title": "000,00 UN ACOPLADO PLAYO, USADO, MARCA LEO-COR, MODELO LCC.ED 40 NRO. 663. CH... Dep. en garantía:",
-        "description": "",
-        "base_price": 70000.0,
-        "currency": "ARS",
-        "base_price_usd": 45.02,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/700"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 8
-  },
-  {
-    "id": "banco_ciudad:3939",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3939",
-    "title": "SANTO TOME 5102, esq. CERVANTES - MONTE CASTRO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 83750.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-18T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144450/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:35.582704+00:00",
+    "scraped_at": "2026-08-28T14:47:51.854426+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -558,7 +114,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144465/1"
     ],
-    "scraped_at": "2026-08-27T13:30:42.487002+00:00",
+    "scraped_at": "2026-08-28T14:47:59.046616+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",
@@ -653,228 +209,6 @@
     "lot_count": 4
   },
   {
-    "id": "banco_ciudad:3927",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3927",
-    "title": "AV. SANTA FE 1721/35, PISO 8°, DPTO R, UF. 50 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 119398.01,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144287/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:49.513055+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3943",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3943",
-    "title": "ECUADOR 646/48/50/52/54, PISO 4 DTO. B, UF. 3 - BALVANERA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 63650.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-18T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144454/1"
-    ],
-    "scraped_at": "2026-08-27T13:30:56.147653+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3950",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3950",
-    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 4 U.F. 5 - MICROCENTRO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 264275.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144464/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:02.823540+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3931",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3931",
-    "title": "ELEMENTOS ELECTRONICOS",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 632055.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-27T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144292/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:09.840664+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3931:1",
-        "lot_number": 1,
-        "title": "al 29: Av. Renault 2221, Cordoba, Cordoba Lote 30 al 40: Jose Viscardis N°1250, General Pico, La Pampa La exhibición presencial se llevará a cabo los días 19 y 20 de Agosto de 9 a 12 hs en el domicili",
-        "description": "",
-        "base_price": 632055.0,
-        "currency": "ARS",
-        "base_price_usd": 406.47,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3931/1"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3931:632",
-        "lot_number": 632,
-        "title": "055,00 UNA (01) VIDEO CONSOLA PLAY STATION 5 EDICIÓN DIGITAL- MODELO CFI-2015... Dep. en garantía:",
-        "description": "",
-        "base_price": 126411.0,
-        "currency": "ARS",
-        "base_price_usd": 81.29,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3931/632"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 2
-  },
-  {
-    "id": "banco_ciudad:3937",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3937",
-    "title": "PARLANTES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-10T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144402/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:16.713198+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3937:100",
-        "lot_number": 100,
-        "title": "000,00 UN PARLANTE JBL MOD. CHARGE 5- FUNCIONAMIENTO SIN CONTROLAR - SE VENDE... Dep. en garantía:",
-        "description": "",
-        "base_price": 20000.0,
-        "currency": "ARS",
-        "base_price_usd": 12.86,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3937/100"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3937:300",
-        "lot_number": 300,
-        "title": "000,00 UN PARLANTE JBL BOOMBOX 3- FUNCIONAMIENTO SIN CONTROLAR - SE VENDEN EN... Dep. en garantía:",
-        "description": "",
-        "base_price": 60000.0,
-        "currency": "ARS",
-        "base_price_usd": 38.59,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3937/300"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 2
-  },
-  {
-    "id": "banco_ciudad:3929",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3929",
-    "title": "BILLINGHURST 1941, PISO 7° DTO A, UF. 15 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 44890.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144290/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:24.037664+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "banco_ciudad:3946",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3946",
@@ -893,188 +227,10 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144460/1"
     ],
-    "scraped_at": "2026-08-27T13:31:30.515953+00:00",
+    "scraped_at": "2026-08-28T14:48:05.829451+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3938",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3938",
-    "title": "JERONIMO SALGUERO 1709/11 - PALERMO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 383258.74,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-18T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144449/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:37.169866+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3934",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3934",
-    "title": "LAMINAS DE ACERO AL CARBON",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 240937.2,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-04T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144345/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:44.829116+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3926",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3926",
-    "title": "COCHABAMBA 3502, PISO 1°, DPTO 5, UF. 5 - BOEDO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 31490.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144286/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:51.342460+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3925",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3925",
-    "title": "HIPOLITO YRIGOYEN 2934/36, PISO 2°, DTO A, UF. 9 - BALVANERA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 52260.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-08-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144285/1"
-    ],
-    "scraped_at": "2026-08-27T13:31:57.877899+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3883",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3883",
-    "title": "VOLKSWAGEN – CITROËN – PEUGEOT – FIAT",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 8600000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-16T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144004/1"
-    ],
-    "scraped_at": "2026-08-27T13:32:04.591306+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3883:100",
-        "lot_number": 100,
-        "title": "000,00 UNA CAMIONETA USADA, FUNCIONANDO, MARCA FIAT, MODELO DUCATO MAXICARGO ... Dep. en garantía:",
-        "description": "",
-        "base_price": 1310000.0,
-        "currency": "ARS",
-        "base_price_usd": 842.44,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3883/100"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3883:200",
-        "lot_number": 200,
-        "title": "000,00 UNA CAMIONETA USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PA... Dep. en garantía:",
-        "description": "",
-        "base_price": 620000.0,
-        "currency": "ARS",
-        "base_price_usd": 398.71,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3883/200"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3883:600",
-        "lot_number": 600,
-        "title": "000,00 UN AUTOMOVIL, USADO, FUNCIONANDO, MARCA VOLKSWAGEN, MODELO PASSAT V6 F... Dep. en garantía:",
-        "description": "",
-        "base_price": 860000.0,
-        "currency": "ARS",
-        "base_price_usd": 553.05,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3883/600"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 3
   },
   {
     "id": "banco_ciudad:3935",
@@ -1095,7 +251,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144388/1"
     ],
-    "scraped_at": "2026-08-27T13:32:11.119510+00:00",
+    "scraped_at": "2026-08-28T14:48:12.460786+00:00",
     "extra": {},
     "lots": [
       {
@@ -1216,13 +372,37 @@
     "lot_count": 6
   },
   {
-    "id": "banco_ciudad:3940",
+    "id": "banco_ciudad:3949",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3940",
-    "title": "AV. ALTE. BROWN 235/85, PISO 11 DTO. D, UF. 590 - LA BOCA - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3949",
+    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 3 U.F. 4 - MICROCENTRO - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 32160.0,
+    "base_price": 250854.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144463/1"
+    ],
+    "scraped_at": "2026-08-28T14:48:19.376059+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3939",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3939",
+    "title": "SANTO TOME 5102, esq. CERVANTES - MONTE CASTRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 83750.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -1232,11 +412,768 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144451/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144450/1"
     ],
-    "scraped_at": "2026-08-27T13:32:18.028878+00:00",
+    "scraped_at": "2026-08-28T14:48:26.457487+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3927",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3927",
+    "title": "AV. SANTA FE 1721/35, PISO 8°, DPTO R, UF. 50 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 119398.01,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144287/1"
+    ],
+    "scraped_at": "2026-08-28T14:48:33.503884+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3948",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3948",
+    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 2 U.F. 3 - MICROCENTRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 348463.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144462/1"
+    ],
+    "scraped_at": "2026-08-28T14:48:40.582581+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3911",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3911",
+    "title": "AUTOMOTORES, CAMIONES, AUTOELEVADORES Y MATERIAL EN DESUSO",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 500000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144213/1"
+    ],
+    "scraped_at": "2026-08-28T14:48:47.784774+00:00",
+    "extra": {
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "autoelevador",
+        "min_usd": 6000,
+        "max_usd": 60000,
+        "typical_usd": 15000,
+        "category": "machinery"
+      },
+      "discount_percent": 97.3,
+      "is_opportunity": true,
+      "opportunity_reason": "price_below_market"
+    },
+    "lots": [
+      {
+        "lot_id": "bc:3911:0",
+        "lot_number": 0,
+        "title": "000,00 UN CAMIÓN TRACTOR, USADO, SIN FUNCIONAR, MARCA FIAT, MODELO 697 T, MOT... Dep. en garantía:",
+        "description": "",
+        "base_price": 100000.0,
+        "currency": "ARS",
+        "base_price_usd": 64.31,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:300",
+        "lot_number": 300,
+        "title": "000,00 UN ACOPLADO PLAYO, USADO, MARCA LEO-COR, MODELO LCC.ED 40 NRO. 663. CH... Dep. en garantía:",
+        "description": "",
+        "base_price": 70000.0,
+        "currency": "ARS",
+        "base_price_usd": 45.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/300"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:400",
+        "lot_number": 400,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA ISUZU, MODELO TROOPER 3.1D ... Dep. en garantía:",
+        "description": "",
+        "base_price": 40000.0,
+        "currency": "ARS",
+        "base_price_usd": 25.72,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/400"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:500",
+        "lot_number": 500,
+        "title": "000,00 UN CAMIÓN, USADO, SIN FUNCIONAR, MARCA MERCEDES BENZ, MODELO UNIMOG 41... Dep. en garantía:",
+        "description": "",
+        "base_price": 50000.0,
+        "currency": "ARS",
+        "base_price_usd": 32.15,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/500"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:550",
+        "lot_number": 550,
+        "title": "000,00 RESTOS DE UN CAMIÓN, USADO, MARCA MERCEDES BENZ, MODELO UNIMOG 416, MO... Dep. en garantía:",
+        "description": "",
+        "base_price": 25000.0,
+        "currency": "ARS",
+        "base_price_usd": 16.08,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/550"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:600",
+        "lot_number": 600,
+        "title": "000,00 UN CAMIÓN TANQUE CISTERNA, USADO, SIN FUNCIONAR, MARCA MERCEDES BENZ, ... Dep. en garantía:",
+        "description": "",
+        "base_price": 60000.0,
+        "currency": "ARS",
+        "base_price_usd": 38.59,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/600"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:620",
+        "lot_number": 620,
+        "title": "000,00 UN AUTOMÓVIL, USADO, SIN FUNCIONAR, MARCA RENAULT, MODELO RENAULT 19 R... Dep. en garantía:",
+        "description": "",
+        "base_price": 30000.0,
+        "currency": "ARS",
+        "base_price_usd": 19.29,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/620"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3911:700",
+        "lot_number": 700,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA MERCEDES BENZ, MODELO 230 G... Dep. en garantía:",
+        "description": "",
+        "base_price": 70000.0,
+        "currency": "ARS",
+        "base_price_usd": 45.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3911/700"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 8
+  },
+  {
+    "id": "banco_ciudad:3947",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3947",
+    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 1 U.F. 15 - MICROCENTRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 225964.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144461/1"
+    ],
+    "scraped_at": "2026-08-28T14:48:54.348633+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3934",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3934",
+    "title": "LAMINAS DE ACERO AL CARBON",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 240937.2,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-04T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144345/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:02.010795+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3942",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3942",
+    "title": "EDUARDO SCHIAFFINO 2179/83, PISO 7 DTO. B, UF. 21 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 117000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-18T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144453/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:09.515999+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3930",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3930",
+    "title": "AV. SANTA FE 4196/200 ESQ. THAMES 2475/75a/77/79/81/83/85/87/91/93/95, PISO 9°, DPTO H, UF. 81 Y 1/112 AVAS PARTES INDIVISAS UC 1 PISO 1°Y,PISO 2 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 70116.28,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144291/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:16.567128+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3945",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3945",
+    "title": "PIEZAS DE JOYERIA Y BIJOUTERIE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 15131810.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-15T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144458/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:23.583409+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3945:131",
+        "lot_number": 131,
+        "title": "810,00 \"1275 PIEZAS DE JOYERIA SEGÚN DETALLE: 60 ANILLOS DE PLATA - 24 ANILLO... Dep. en garantía:",
+        "description": "",
+        "base_price": 3026362.0,
+        "currency": "ARS",
+        "base_price_usd": 1946.21,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3945/131"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3945:636",
+        "lot_number": 636,
+        "title": "089,00 \"141 PIEZAS DE BIJOUTERIE SEGÚN DETALLE: 10 ANILLOS ORIGEN SINTETICO -... Dep. en garantía:",
+        "description": "",
+        "base_price": 327217.8,
+        "currency": "ARS",
+        "base_price_usd": 210.43,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3945/636"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 2
+  },
+  {
+    "id": "banco_ciudad:3929",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3929",
+    "title": "BILLINGHURST 1941, PISO 7° DTO A, UF. 15 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 44890.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144290/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:30.709455+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3941",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3941",
+    "title": "ESMERALDA 853, PISO 3 DTO. 58, UF. 58 - RETIRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 32283.83,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-18T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144452/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:37.671170+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3928",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3928",
+    "title": "MARIO BRAVO 256/58/60 PISO 6°, DTO C, UF. 23 - ALMAGRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 32720.93,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144288/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:44.442461+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3943",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3943",
+    "title": "ECUADOR 646/48/50/52/54, PISO 4 DTO. B, UF. 3 - BALVANERA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 63650.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-18T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144454/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:51.750424+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3926",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3926",
+    "title": "COCHABAMBA 3502, PISO 1°, DPTO 5, UF. 5 - BOEDO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 31490.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144286/1"
+    ],
+    "scraped_at": "2026-08-28T14:49:58.862499+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3944",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3944",
+    "title": "11 DE ABRIL 250 – UF 7 Y COCHERA (2/24 AVAS PARTES DE UF 13) - BAHIA BLANCA – PCIA. DE BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 121777.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-01T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144455/1"
+    ],
+    "scraped_at": "2026-08-28T14:50:05.898804+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3932",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3932",
+    "title": "Proyecto de reconversión con upside alto y riesgo gestionable. Fatima - Partido de Pilar - Prov. Bs. As.",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 12000000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-04T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144332/1"
+    ],
+    "scraped_at": "2026-08-28T14:50:13.175764+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3937",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3937",
+    "title": "PARLANTES",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 300000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-10T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144402/1"
+    ],
+    "scraped_at": "2026-08-28T14:50:20.377881+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3937:100",
+        "lot_number": 100,
+        "title": "000,00 UN PARLANTE JBL MOD. CHARGE 5- FUNCIONAMIENTO SIN CONTROLAR - SE VENDE... Dep. en garantía:",
+        "description": "",
+        "base_price": 20000.0,
+        "currency": "ARS",
+        "base_price_usd": 12.86,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3937/100"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3937:300",
+        "lot_number": 300,
+        "title": "000,00 UN PARLANTE JBL BOOMBOX 3- FUNCIONAMIENTO SIN CONTROLAR - SE VENDEN EN... Dep. en garantía:",
+        "description": "",
+        "base_price": 60000.0,
+        "currency": "ARS",
+        "base_price_usd": 38.59,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3937/300"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 2
+  },
+  {
+    "id": "banco_ciudad:3950",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3950",
+    "title": "TTE. GRAL. J. D. PERON 338/46, PISO 4 U.F. 5 - MICROCENTRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 264275.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144464/1"
+    ],
+    "scraped_at": "2026-08-28T14:50:27.566840+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3924",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3924",
+    "title": "SARMIENTO 4502/14, PISO 3 DTO. B, UF. 17 - ALMAGRO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 75000.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-08-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144284/1"
+    ],
+    "scraped_at": "2026-08-28T14:50:34.706256+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3883",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3883",
+    "title": "VOLKSWAGEN – CITROËN – PEUGEOT – FIAT",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 8600000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-16T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144004/1"
+    ],
+    "scraped_at": "2026-08-28T14:50:41.798564+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3883:100",
+        "lot_number": 100,
+        "title": "000,00 UNA CAMIONETA USADA, FUNCIONANDO, MARCA FIAT, MODELO DUCATO MAXICARGO ... Dep. en garantía:",
+        "description": "",
+        "base_price": 1310000.0,
+        "currency": "ARS",
+        "base_price_usd": 842.44,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3883/100"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3883:200",
+        "lot_number": 200,
+        "title": "000,00 UNA CAMIONETA USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PA... Dep. en garantía:",
+        "description": "",
+        "base_price": 620000.0,
+        "currency": "ARS",
+        "base_price_usd": 398.71,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3883/200"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3883:600",
+        "lot_number": 600,
+        "title": "000,00 UN AUTOMOVIL, USADO, FUNCIONANDO, MARCA VOLKSWAGEN, MODELO PASSAT V6 F... Dep. en garantía:",
+        "description": "",
+        "base_price": 860000.0,
+        "currency": "ARS",
+        "base_price_usd": 553.05,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3883/600"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 3
   }
 ]

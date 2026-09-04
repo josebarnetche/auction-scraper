@@ -1,49 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3268",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3268",
-    "title": "GRUPO NEO RODAS MERCO",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-09-03T07:36:25.553747+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3267",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3267",
-    "title": "Servelec S.R.L.",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-09-03T07:36:25.553995+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3271",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3271",
@@ -60,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-03T07:36:25.554190+00:00",
+    "scraped_at": "2026-09-04T07:36:08.685331+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-03T07:36:25.554335+00:00",
+    "scraped_at": "2026-09-04T07:36:08.685512+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,151 +60,51 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-03T07:36:25.554472+00:00",
+    "scraped_at": "2026-09-04T07:36:08.685648+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42381",
+    "id": "global_remates:auction_3273",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42381",
-    "title": "Global Maquinarias CAMIÓN MIXER, MARCA ASTRA HD7 64.38 ...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3273",
+    "title": "Leandro E. Belich",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-09-04T07:36:08.685979+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3274",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3274",
+    "title": "Scania Argentina",
     "description": "",
     "category": "vehicles",
-    "base_price": 20000000.0,
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-09-03T11:01:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3271/42381/3178_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.556616+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42382",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42382",
-    "title": "Global Maquinarias CAMIÓN MIXER, MARCA FIAT IVECO, Año ...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 13500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-03T11:02:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3271/42382/3178_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.557077+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42386",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42386",
-    "title": "Global Maquinarias LOTE DE SILOS FIJOS DE 52 Y 60 M3. M...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 4500000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-03T11:06:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3271/42386/3178_Lote_06.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.557477+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42388",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42388",
-    "title": "Renault Argentina BATERÍAS 12V L3 EFB 70Ah 720A (EN) M... Carlos24",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-03T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3272/42388/3272_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.557860+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42389",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42389",
-    "title": "Renault Argentina BATERÍAS 12V L3 EFB 70Ah 720A (EN) M...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-03T12:02:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3272/42389/3272_lote_01.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.558277+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42390",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42390",
-    "title": "Renault Argentina BATERÍAS 12V L3 EFB 70Ah 720A (EN) M...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-03T12:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3272/42390/3272_lote_01.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.558588+00:00",
+    "images": [],
+    "scraped_at": "2026-09-04T07:36:08.686138+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,31 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
     ],
-    "scraped_at": "2026-09-03T07:36:25.558979+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42417",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42417",
-    "title": "Scania Argentina IMPORTANTE TORNO HORIZONTAL, MARCA W...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 12000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-09-23T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3274/42417/3274_Lote_02.jpg"
-    ],
-    "scraped_at": "2026-09-03T07:36:25.559395+00:00",
+    "scraped_at": "2026-09-04T07:36:08.688458+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +152,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42406/3273_Lote_01.jpg"
     ],
-    "scraped_at": "2026-09-03T07:36:25.559879+00:00",
+    "scraped_at": "2026-09-04T07:36:08.690426+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42417",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42417",
+    "title": "Scania Argentina IMPORTANTE TORNO HORIZONTAL, MARCA W...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 12000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-23T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3274/42417/3274_Lote_02.jpg"
+    ],
+    "scraped_at": "2026-09-04T07:36:08.691030+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42418/3274_Lote_03.jpg"
     ],
-    "scraped_at": "2026-09-03T07:36:25.560392+00:00",
+    "scraped_at": "2026-09-04T07:36:08.692437+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42411/3273_Lote_06.jpg"
     ],
-    "scraped_at": "2026-09-03T07:36:25.560800+00:00",
+    "scraped_at": "2026-09-04T07:36:08.693017+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42413/3273_Lote_08.jpg"
     ],
-    "scraped_at": "2026-09-03T07:36:25.561241+00:00",
+    "scraped_at": "2026-09-04T07:36:08.693570+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

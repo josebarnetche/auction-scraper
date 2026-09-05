@@ -1,49 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3271",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3271",
-    "title": "Global Maquinarias",
-    "description": "",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-09-04T07:36:08.685331+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3272",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3272",
-    "title": "Renault Argentina",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-09-04T07:36:08.685512+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3270",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3270",
@@ -60,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-04T07:36:08.685648+00:00",
+    "scraped_at": "2026-09-05T07:16:58.668377+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-04T07:36:08.685979+00:00",
+    "scraped_at": "2026-09-05T07:16:58.668603+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,31 +60,51 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-04T07:36:08.686138+00:00",
+    "scraped_at": "2026-09-05T07:16:58.668769+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42380",
+    "id": "global_remates:auction_3275",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42380",
-    "title": "Global Rural IMPORTANTE PLANTA DE ACOPIO DE CEREA...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3275",
+    "title": "Servelec S.R.L.",
     "description": "",
-    "category": "real_estate",
-    "base_price": 275000.0,
+    "category": "other",
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-09-04T11:01:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-09-04T07:36:08.688458+00:00",
+    "images": [],
+    "scraped_at": "2026-09-05T07:16:58.668988+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3052",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
+    "title": "Global Maquinarias",
+    "description": "",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-09-05T07:16:58.669162+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42406/3273_Lote_01.jpg"
     ],
-    "scraped_at": "2026-09-04T07:36:08.690426+00:00",
+    "scraped_at": "2026-09-05T07:16:58.671706+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42417/3274_Lote_02.jpg"
     ],
-    "scraped_at": "2026-09-04T07:36:08.691030+00:00",
+    "scraped_at": "2026-09-05T07:16:58.672223+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42418/3274_Lote_03.jpg"
     ],
-    "scraped_at": "2026-09-04T07:36:08.692437+00:00",
+    "scraped_at": "2026-09-05T07:16:58.672690+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42411/3273_Lote_06.jpg"
     ],
-    "scraped_at": "2026-09-04T07:36:08.693017+00:00",
+    "scraped_at": "2026-09-05T07:16:58.673201+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +224,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42413/3273_Lote_08.jpg"
     ],
-    "scraped_at": "2026-09-04T07:36:08.693570+00:00",
+    "scraped_at": "2026-09-05T07:16:58.673688+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42419",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42419",
+    "title": "Servelec S.R.L. PICK AND PLACE- IMPORTANTE MAQUINA I...",
+    "description": "",
+    "category": "machinery",
+    "base_price": 59000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-02T12:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3275/42419/3275_Lote_13.jpg"
+    ],
+    "scraped_at": "2026-09-05T07:16:58.674197+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-09T07:44:36.806390+00:00",
+    "scraped_at": "2026-09-10T07:45:02.653030+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-09T07:44:36.806523+00:00",
+    "scraped_at": "2026-09-10T07:45:02.653118+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-09T07:44:36.806615+00:00",
+    "scraped_at": "2026-09-10T07:45:02.653174+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +82,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-09T07:44:36.806762+00:00",
+    "scraped_at": "2026-09-10T07:45:02.653245+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-09T07:44:36.806885+00:00",
+    "scraped_at": "2026-09-10T07:45:02.653302+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42406/3273_Lote_01.jpg"
     ],
-    "scraped_at": "2026-09-09T07:44:36.808275+00:00",
+    "scraped_at": "2026-09-10T07:45:02.654087+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42417/3274_Lote_02.jpg"
     ],
-    "scraped_at": "2026-09-09T07:44:36.808561+00:00",
+    "scraped_at": "2026-09-10T07:45:02.654268+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42418/3274_Lote_03.jpg"
     ],
-    "scraped_at": "2026-09-09T07:44:36.808822+00:00",
+    "scraped_at": "2026-09-10T07:45:02.654418+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42409",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42409",
+    "title": "Leandro E. Belich LOTE DE ELEMENTOS INFORMÁTICOS- CPUs...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 100000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-23T12:04:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3273/42409/lote_04.jpg"
+    ],
+    "scraped_at": "2026-09-10T07:45:02.654563+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42411/3273_Lote_06.jpg"
     ],
-    "scraped_at": "2026-09-09T07:44:36.809105+00:00",
+    "scraped_at": "2026-09-10T07:45:02.654727+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42413/3273_Lote_08.jpg"
     ],
-    "scraped_at": "2026-09-09T07:44:36.809389+00:00",
+    "scraped_at": "2026-09-10T07:45:02.654890+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3275/42419/3275_Lote_13.jpg"
     ],
-    "scraped_at": "2026-09-09T07:44:36.809654+00:00",
+    "scraped_at": "2026-09-10T07:45:02.655047+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

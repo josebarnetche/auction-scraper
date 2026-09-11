@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3270",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3270",
-    "title": "Global Rural",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-09-10T07:45:02.653030+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3273",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3273",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-10T07:45:02.653118+00:00",
+    "scraped_at": "2026-09-11T07:39:49.633874+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-10T07:45:02.653174+00:00",
+    "scraped_at": "2026-09-11T07:39:49.634243+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3276",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3276",
+    "title": "Renault Argentina",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-09-11T07:39:49.634553+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,18 +82,18 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-10T07:45:02.653245+00:00",
+    "scraped_at": "2026-09-11T07:39:49.634826+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:auction_3052",
+    "id": "global_remates:auction_3270",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3052",
-    "title": "Global Maquinarias",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3270",
+    "title": "Global Rural",
     "description": "",
-    "category": "machinery",
+    "category": "real_estate",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
@@ -104,7 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-09-10T07:45:02.653302+00:00",
+    "scraped_at": "2026-09-11T07:39:49.634953+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42406/3273_Lote_01.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.654087+00:00",
+    "scraped_at": "2026-09-11T07:39:49.638575+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42417/3274_Lote_02.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.654268+00:00",
+    "scraped_at": "2026-09-11T07:39:49.639220+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3274/42418/3274_Lote_03.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.654418+00:00",
+    "scraped_at": "2026-09-11T07:39:49.639744+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42409/lote_04.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.654563+00:00",
+    "scraped_at": "2026-09-11T07:39:49.640315+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42411/3273_Lote_06.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.654727+00:00",
+    "scraped_at": "2026-09-11T07:39:49.640803+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +248,79 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3273/42413/3273_Lote_08.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.654890+00:00",
+    "scraped_at": "2026-09-11T07:39:49.641287+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42420",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42420",
+    "title": "Renault Argentina IMPORTANTE LOTE DE MONOPATINES ELÉCT...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 30000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-23T16:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3276/42420/3276_Lote_25.jpg"
+    ],
+    "scraped_at": "2026-09-11T07:39:49.641921+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42424",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42424",
+    "title": "Renault Argentina IMPORTANTE LOTE DE REPUESTOS NUEVOS ...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 20190000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-23T16:05:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3276/42424/3276_Lote_29.jpg"
+    ],
+    "scraped_at": "2026-09-11T07:39:49.642357+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42426",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42426",
+    "title": "Renault Argentina IMPORTANTE LOTE DE REPUESTOS NUEVOS ...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 51960000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-09-23T16:07:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3276/42426/3276_Lote_31.jpg"
+    ],
+    "scraped_at": "2026-09-11T07:39:49.642748+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +344,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3275/42419/3275_Lote_13.jpg"
     ],
-    "scraped_at": "2026-09-10T07:45:02.655047+00:00",
+    "scraped_at": "2026-09-11T07:39:49.643270+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42380",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42380",
+    "title": "Global Rural IMPORTANTE PLANTA DE ACOPIO DE CEREA...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 275000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-07T11:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-09-11T07:39:49.643663+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

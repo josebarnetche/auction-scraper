@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:53:26.016856+00:00",
+    "scraped_at": "2026-10-06T09:40:59.253188+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4570_condition_report_34225080.pdf",
@@ -32,7 +32,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-maquinaria-vial-y-pesada-camion-con-hidrogrua-acoplado-utilitario-herramientas-y-mas-tfy-s-r-l-4514",
     "title": "Ver subasta",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Crisólogo Larralde 3381, Sarandí, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Crisólogo Larralde 3381, Sarandí, Buenos Aires Fecha y horario de exhibición: Miércoles 07/10 y Jueves 08/10 De 10:00 a 16:00 hs Condiciones generales Descargar",
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
@@ -44,7 +44,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:53:34.101174+00:00",
+    "scraped_at": "2026-10-06T09:41:07.357163+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4514_condition_report_34225080.pdf",
@@ -60,7 +60,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-camiones-volkswagen-e-iveco-y-semirremolques-hermann-aserraderos-y-transportes-avia-terai-s-r-l-4576",
     "title": "Ver subasta",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: 69M5+4G3, González Catán, Buenos Aires Ubicación 2 Ubicación: 93FC+W25, Villa Olivari, Corrientes Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: 69M5+4G3, González Catán, Buenos Aires Fecha y horario de exhibición: Miércoles 07/10 y Jueves 08/10 De 8:30 a 12 y de 14.00 a 16:00 hs. Ubicación 2 Ubicación: 93FC+W25, Villa Olivari, Corrientes Fecha y horario de exhibición: Miércoles 07/10 y Jueves 08/10 De 8:30 a 12 y de 14.00 a 16:00 hs. Condiciones generales Descargar",
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
@@ -72,7 +72,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:53:42.167407+00:00",
+    "scraped_at": "2026-10-06T09:41:15.444501+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4576_condition_report_34225080.pdf",
@@ -84,511 +84,11 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4495",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipos-de-tuneleria-ventilacion-bombas-materiales-y-modulos-ghella-s-p-a-sacde-s-a-consorcio-gs-ut-4495",
-    "title": "Ver subasta",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Calle Reservistas Argentinos 101, C1408 CABA Ubicación 2 Ubicación: 9C33+FF, B1706 Haedo, Buenos Aires Fecha y horario de exhibición: Miércoles 09/09 y Jueves 10/09. De 09:00 a 16:00 hs. Condiciones generales Descargar",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4495/036dc62af115736966e46fcdff4d27a0-desktop.jpg",
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4495/036dc62af115736966e46fcdff4d27a0-mobile.jpg"
-    ],
-    "scraped_at": "2026-10-05T09:53:50.252667+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4495_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4495_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4495_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4495:1",
-        "lot_number": 1,
-        "title": "12 aprox. autorescatadores Dräger, mod. OXI3000 MK11, año 2017., (sin uso).-",
-        "description": "12 aprox. autorescatadores Dräger, mod. OXI3000 MK11, año 2017., (sin uso).-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190559/a896538fc1f29172848a8f10fca83aa3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190559/19cd4af1ad626d1a7b3b9e9d25e1d7c4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190559/478f488d565ba037e8ef715acba9ee96-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:2",
-        "lot_number": 2,
-        "title": "12 aprox. autor rescatadores Dräger, mod. OXI3000 MK11, año 2017 (sin uso).-",
-        "description": "12 aprox. autor rescatadores Dräger, mod. OXI3000 MK11, año 2017 (sin uso).-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190547/a022ae0ac1aec087bd66dcf6cc996f89-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190547/a45dedc78a5e39db3e7cb98b82a37e48-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190547/aca7f8eb4f06addc82a79bd816299346-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:4",
-        "lot_number": 4,
-        "title": "Engrasadora neumática Vulcano, cap. 25 kg., transportable. (sin uso).-",
-        "description": "Engrasadora neumática Vulcano, cap. 25 kg., transportable. (sin uso).-",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38461.54,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190560/987186294df9a309c29b9fdf778c369b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190560/d1311b8d6d65d409c6ae5280d963f5cf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190560/0c3c885a706c4252568b6bb55ece1bac-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190560/3764645aeaaea52f49bdc88c11a8f396-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190560/952c2ae5d6bdfa8fe0d7976e9793d637-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:10",
-        "lot_number": 10,
-        "title": "Lote retirado de la venta.-",
-        "description": "Lote retirado de la venta.-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:12",
-        "lot_number": 12,
-        "title": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "description": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190561/ad6916682a93b17be0f37c128e86a62e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190561/044fbfd1784f9e4f76f44db18dc985e2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190561/23ab555ddb719548893bc3c0c381c15f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190561/06dcbcff68bbc7bf562925b941b6feff-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190561/c146c926def88cf333140b1fe5b0f6b9-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:15",
-        "lot_number": 15,
-        "title": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "description": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190565/7aa2e2a92eb5d74721c1cb460285598d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190565/fbd599523d0024845ccd7e7b75efe64c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190565/ec80eb42a895cb22ac97b9fd8a31824a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190565/4ad88aaf157b02a6eccdb40677dc3f00-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190565/a9031339e608c5cce97285bb75b2e31a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:16",
-        "lot_number": 16,
-        "title": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "description": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190562/eb6c41888c5f654f26ce8362bdd9de38-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190562/aab4c7ae549889c2e6276ba0d3240f0f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190562/013be4d7ff880fda96e718a9f9a5bc9c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190562/fa98bc191f432b3b56f1013818a07d00-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190562/942f08bc90f343830e0ba26b63ffa966-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:17",
-        "lot_number": 17,
-        "title": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "description": "5 Bombas sumergibles en inox., Lowara, mod. 16gs22., cap. Hasta 22 m3/h., altura máx. 49.8 mts., con...",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190549/78d5644d91d9ac321aa85cfcea7d0987-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190549/4005c087bcf8e3f23131442ab29c7b3e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190549/a8e1dcc79f2a348fec37fcf838aff331-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190549/318d6b81e4350b2535da7948eb46bb68-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190549/39c8d8aeada35d30e27c48ed59bb0abd-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:18",
-        "lot_number": 18,
-        "title": "(LOTE RETIRADO DE LA VENTA) (R-24) 12 Aprox. Bombas sumergibles Flyght, mod, 2670, de 18 kw., 20 hp....",
-        "description": "(LOTE RETIRADO DE LA VENTA) (R-24) 12 Aprox. Bombas sumergibles Flyght, mod, 2670, de 18 kw., 20 hp....",
-        "base_price": 200000000.0,
-        "currency": "ARS",
-        "base_price_usd": 128205.13,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190550/1e70ac7c160f9f1ea02dcbe370eb7f8d-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190550/04fc9d96285ac727b866511a4a0439d4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190550/86dc4ca2e409d71199717e5dacd63b28-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190550/6b467e7d98aba93af54abc88d90b8575-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:23",
-        "lot_number": 23,
-        "title": "15 aprox. carreteles de madera.-",
-        "description": "15 aprox. carreteles de madera.-",
-        "base_price": 15000000.0,
-        "currency": "ARS",
-        "base_price_usd": 9615.38,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190551/7c7b91e8cd51990a0ce20422d14cb70e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190551/ba66f4dde7d82ab32bf9eb6121e3ad9e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190551/b5965b0070ba7ce22cacca1bf1cb11d4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190551/665b3e2afe429b71e8050f52652d5c09-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190551/1d1c813dca960a1e8313cd05a7b6d40d-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:28",
-        "lot_number": 28,
-        "title": "(LOTE RETIRADO DE LA VENTA) 25 aprox. Cabreadas reticuladas en hierro de construcción, medidas vs. (...",
-        "description": "(LOTE RETIRADO DE LA VENTA) 25 aprox. Cabreadas reticuladas en hierro de construcción, medidas vs. (...",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38461.54,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190552/1a3776efed3e186c12924ce3b2bf0bb7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190552/5255d6f159233f90f4dd19826b01e0be-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190552/7ecd9674ba2b00ef35756ce188e9f665-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190552/5dba540ec9e1f470203907b962a528db-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:29",
-        "lot_number": 29,
-        "title": "(LOTE RETIRADO DE LA VENTA) 35 aprox. cabreadas metálicas reticuladas, medidas vs.-",
-        "description": "(LOTE RETIRADO DE LA VENTA) 35 aprox. cabreadas metálicas reticuladas, medidas vs.-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190553/80ad686eab71e3d914f85489fa258d42-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190553/ab78c3b5d80608ebeda1f6ef897c2e0c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190553/ea27667628bbf929492bcb150e67890c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:39",
-        "lot_number": 39,
-        "title": "6 autor rescatadores MSA, mod. W65, año 2017, (sin uso).-",
-        "description": "6 autor rescatadores MSA, mod. W65, año 2017, (sin uso).-",
-        "base_price": 60000000.0,
-        "currency": "ARS",
-        "base_price_usd": 38461.54,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190563/330d1338b3321621d01a3806f4629a33-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190563/e296375a05ccf5c67f4ff14b8f69fd4a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190563/d5e5cedd0b32957066b3d550018a52e0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190563/a9b14e407530b9b5b95deed56db4096e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190563/af51195437dd3e0caaffcba64d6f69e7-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:40",
-        "lot_number": 40,
-        "title": "5 pallets, conteniendo mangas de ventilación, (para túnel)., (Villa Luro).-",
-        "description": "5 pallets, conteniendo mangas de ventilación, (para túnel)., (Villa Luro).-",
-        "base_price": 100000000.0,
-        "currency": "ARS",
-        "base_price_usd": 64102.56,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190554/8f41c351293c6edf2d5f71c9cdd4c505-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190554/a6db31113c260374d92a4494a9e9dda1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190554/ce71f73dd17e93d4dc0d64bd2bc36550-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190554/1fab75ef9866990143d5d545370af626-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190554/78c2e92b07f97992b52b2eca68d8d37a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:41",
-        "lot_number": 41,
-        "title": "Sistema de ventilación Zitron, mod. ZVN II 1-14-160/4, año 2009, superficie 37,2 m²/s, presión total",
-        "description": "Sistema de ventilación Zitron, mod. ZVN II 1-14-160/4, año 2009, superficie 37,2 m²/s, presión total",
-        "base_price": 350000000.0,
-        "currency": "ARS",
-        "base_price_usd": 224358.97,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190556/e3839faca2ca2776e73deea7cf92a0f5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190556/7c46fdfb334ef868ac1997a2ca8b9833-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190556/f08735c89e3664e026a770970df69610-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190556/db96a44bd99406a6505cef68cdc46ba7-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190556/814059672602f71551a34757184b281c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:44",
-        "lot_number": 44,
-        "title": "Planta para tratamiento de agua SD Water Management, con 3 bateas metálicas, cap. 20.000 L c/u, tanq",
-        "description": "Planta para tratamiento de agua SD Water Management, con 3 bateas metálicas, cap. 20.000 L c/u, tanq",
-        "base_price": 800000000.0,
-        "currency": "ARS",
-        "base_price_usd": 512820.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190555/a50354a06ade994b97bb5b049d1e827a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190555/544dd2a5d1c1093477b934460815ea4a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190555/61a6a7b064d2900cd3a8c0ac8b82cfae-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190555/9167d3d578c9e9f570011a752f759cd4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190555/86a8bd3d6cc18ba0a4a4102a8b108500-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:45",
-        "lot_number": 45,
-        "title": "LOTE RETIRADO DE LA VENTA. Cantidad de maderas para construcción y recortes varios de chapas.-",
-        "description": "LOTE RETIRADO DE LA VENTA. Cantidad de maderas para construcción y recortes varios de chapas.-",
-        "base_price": 5000000.0,
-        "currency": "ARS",
-        "base_price_usd": 3205.13,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190564/d9e0628b4dfc7343c6ce928beba07cc2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190564/5ce945c8551883a8793c06352be18ccb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190564/6600df5262affbc2288c4e2b58cf97bb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190564/ca2a81ffa1af407132147d07586d2734-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190564/c41fa6c2ae56d4dbdd419550afa7e32f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:46",
-        "lot_number": 46,
-        "title": "LOTE RETIRADO DE LA VENTA. Escritorio Recto de 1.24 x 0.73 x 0.75 mts. de altura con 2 cajones, 4 Mu...",
-        "description": "LOTE RETIRADO DE LA VENTA. Escritorio Recto de 1.24 x 0.73 x 0.75 mts. de altura con 2 cajones, 4 Mu...",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19230.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190567/6df0e40aabbf3e946213070554ae2fca-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190567/91e992e514057651b8365221e072b7d0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190567/570803fc26a1c48cc9014686027ac214-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190567/5cd60e673d09a32be3195babaf017b49-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190567/673ec1c4f855ac3c76ac2a6a9172dae5-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:55",
-        "lot_number": 55,
-        "title": "3 Armarios, medidas 0,72 x 0,35 x 1,80 mts. de altura con 2 puertas de abrir con 2 estantes, 2 Muebl",
-        "description": "3 Armarios, medidas 0,72 x 0,35 x 1,80 mts. de altura con 2 puertas de abrir con 2 estantes, 2 Muebl",
-        "base_price": 30000000.0,
-        "currency": "ARS",
-        "base_price_usd": 19230.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190557/d97d724ca66ad1d1c503257113b116ca-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190557/d553c61f112e44ab5b4dc9a9361d83fd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190557/e1ac4b4f7ee42481b0c2fd74c647b7e5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190557/008d602360958910a05203e343628fe5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190557/634898150f943bab984124a0c6b4fcf3-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:72",
-        "lot_number": 72,
-        "title": "Mesa redonda de 1.20 mts. de diámetro, 2 muebles bajo de 1.60 x 0.45 x 1.95 mts., con alzada y 1.80",
-        "description": "Mesa redonda de 1.20 mts. de diámetro, 2 muebles bajo de 1.60 x 0.45 x 1.95 mts., con alzada y 1.80",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12820.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190558/15ddec94d59b17c111b4a293c25c249b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190558/f53ad3123f7827ed1e1be520b93c1942-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190558/94381f6c3a0f01f27e72df83a4953112-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190558/e578c54596e1453c7364f34c468d43e5-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4495:74",
-        "lot_number": 74,
-        "title": "2 escritorios en L, medidas 1.30 x 1.30 mts. c/u., escritorio recto, medidas 1.24 x 0.72 mts., 2 caj",
-        "description": "2 escritorios en L, medidas 1.30 x 1.30 mts. c/u., escritorio recto, medidas 1.24 x 0.72 mts., 2 caj",
-        "base_price": 20000000.0,
-        "currency": "ARS",
-        "base_price_usd": 12820.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/190566/06fedfc1451669f3ab9ccd32f4aedffb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190566/8fb2e093267085248bdccbe84203e8f0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190566/9cadf0d42c3b351ccee593c0a2d8f185-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190566/65cfc977be4f6330d3ec214452e7bacf-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/190566/774ef32e071fd69b7d2bddd975e7aa69-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 21
-  },
-  {
     "id": "adrian_mercado:4547",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-excavadoras-caterpillar-motoniveladoras-palas-cargadoras-y-acoplados-exavial-s-a-4547",
-    "title": "SUBASTA EN VIVOSubasta de excavadoras Caterpillar, motoniveladoras, palas cargadoras y acoplados - EXAVIAL S.A.Excavadoras Cat 330L y 325BL, motoniveladoras Merex y Siam, palas Michigan, acoplados Petinari y motorhome Ford B600. Buenos Aires.Viernes\n                    9/10/2026A confirmarID 2299",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: , Monteagudo 899-999, Pontevedra, Buenos Aires Ubicación 2 Ubicación: Blas Parera, Tristán Suárez, Buenos Aires Condiciones generales Descargar",
+    "title": "SUBASTA EN VIVOSubasta de excavadoras Caterpillar, motoniveladoras, palas cargadoras y acoplados - EXAVIAL S.A.Excavadoras Cat 330L y 325BL, motoniveladoras Merex y Siam, palas Michigan, acoplados Petinari y motorhome Ford B600. Buenos Aires.Viernes\n                    9/10/202615:40 hID 2299",
+    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Monteagudo 899-999, Pontevedra, Buenos Aires Fecha y horario de exhibición: Miércoles 07/10 Coordinar previamente con nuestra Oficina. Ubicación 2 Ubicación: Blas Parera, Tristán Suárez, Buenos Aires Condiciones generales Descargar",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -603,7 +103,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4547/53fc904ede93f8626c3299164d3aefeb-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4547/53fc904ede93f8626c3299164d3aefeb-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:53:58.344369+00:00",
+    "scraped_at": "2026-10-06T09:41:23.531309+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4547_condition_report_34225080.pdf",
@@ -642,7 +142,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4600/c39a06cbf9f55e4e5580b9c495b899e7-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4600/c39a06cbf9f55e4e5580b9c495b899e7-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:54:06.433070+00:00",
+    "scraped_at": "2026-10-06T09:41:31.620738+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4600_condition_report_34225080.pdf",
@@ -684,7 +184,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4571/de2bf1b2a7a486508c3eeff79910d171-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4571/de2bf1b2a7a486508c3eeff79910d171-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:54:14.505263+00:00",
+    "scraped_at": "2026-10-06T09:41:39.746419+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4571_condition_report_34225080.pdf",
@@ -702,6 +202,45 @@
       },
       "is_opportunity": true,
       "opportunity_reason": "fleet"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4578",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-excavadoras-caterpillar-mixers-mack-camiones-y-maquinaria-vial-vecchio-s-r-l-4578",
+    "title": "SUBASTA EN VIVOSubasta de excavadoras Caterpillar, mixers Mack, camiones y maquinaria vial - VECCHIO S.R.L.Excavadoras y palas Caterpillar, motoniveladoras, mixers Mack 8x4, camiones volcadores Scania y MB, bateas y más. Entre Ríos.Viernes\n                    16/10/2026A confirmarID 2330",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Pte Illia 1154, E3202 Concordia, Entre Ríos Fecha y horario de exhibición: a confirmar a confirmar Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-16T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4578/aa64ec247b04169436ed0f34947db27c-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4578/aa64ec247b04169436ed0f34947db27c-mobile.jpg"
+    ],
+    "scraped_at": "2026-10-06T09:41:47.841933+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4578_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4578_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4578_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "excavadora",
+        "min_usd": 15000,
+        "max_usd": 200000,
+        "typical_usd": 45000,
+        "category": "machinery"
+      }
     },
     "lots": [],
     "lot_count": 0
@@ -726,7 +265,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4582/123fbe26e5c445f302d97c952a54376d-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4582/123fbe26e5c445f302d97c952a54376d-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:54:22.592215+00:00",
+    "scraped_at": "2026-10-06T09:41:55.940675+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4582_condition_report_34225080.pdf",
@@ -750,7 +289,7 @@
         "description": "(Dom. HQV 365) SEDAN 5 PUERTAS PEUGEOT, MOD. 207 COMPACT XS 1.4 5P, AÑO 2008 (144.009 km aprox.) (ch...",
         "base_price": 140000000.0,
         "currency": "ARS",
-        "base_price_usd": 89743.59,
+        "base_price_usd": 90614.89,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -773,7 +312,7 @@
         "description": "(Dom. IVQ 183) Todoterreno HONDA, mod. CR-V Ex, año 2010, transmision automatica (km desconocidos) (...",
         "base_price": 300000000.0,
         "currency": "ARS",
-        "base_price_usd": 192307.69,
+        "base_price_usd": 194174.76,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -796,7 +335,7 @@
         "description": "(Dom. MMP 324) Sedan 5 ptas, RENAULT, mod. CLIO MIO 5P EXPRESSION PACK I, año 2013 (km. 108. 904 seg...",
         "base_price": 250000000.0,
         "currency": "ARS",
-        "base_price_usd": 160256.41,
+        "base_price_usd": 161812.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -819,7 +358,7 @@
         "description": "LOTE RETIRADO DE LA VENTA.-",
         "base_price": 350000000.0,
         "currency": "ARS",
-        "base_price_usd": 224358.97,
+        "base_price_usd": 226537.22,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -836,7 +375,7 @@
         "description": "(Dom. OEN 466) Sedan 5 ptas, FIAT, mod. PALIO ATTRACTIVE 5P 1.4 8V, año 2014, km desconocidos. (rayo",
         "base_price": 200000000.0,
         "currency": "ARS",
-        "base_price_usd": 128205.13,
+        "base_price_usd": 129449.84,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -859,7 +398,7 @@
         "description": "(Dom. ODZ783) rural 5 puertas, FORD, mod. ECOSPORT TITANIUM 1.6L MT N, año 2014.- (problemas en el b...",
         "base_price": 350000000.0,
         "currency": "ARS",
-        "base_price_usd": 224358.97,
+        "base_price_usd": 226537.22,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -882,7 +421,7 @@
         "description": "LOTE RETIRADO DE LA VENTA.-",
         "base_price": 250000000.0,
         "currency": "ARS",
-        "base_price_usd": 160256.41,
+        "base_price_usd": 161812.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -899,7 +438,7 @@
         "description": "(Dom. PHW 231) Rural 5ptas, CHEVROLET, mod. TRACKER FWD LTZ, año 2015 (113.372 KM APROX.) (detalles",
         "base_price": 400000000.0,
         "currency": "ARS",
-        "base_price_usd": 256410.26,
+        "base_price_usd": 258899.68,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -922,7 +461,7 @@
         "description": "(Dom. AA 161 OX) Sedan 3ptas, VOLKSWAGEN, MOD.TAKE UP! 1.0 MPI, AÑO 2016 (124.554 km aprox.) (falta...",
         "base_price": 250000000.0,
         "currency": "ARS",
-        "base_price_usd": 160256.41,
+        "base_price_usd": 161812.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -945,7 +484,7 @@
         "description": "(DOM.AA932EN) SEDAN 5 PUERTS CHEVROLET, MOD. ONIX JOY 5P 1.4 N LS MT+, AÑO FABRICACION 2016, AÑO MOD...",
         "base_price": 250000000.0,
         "currency": "ARS",
-        "base_price_usd": 160256.41,
+        "base_price_usd": 161812.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -968,7 +507,7 @@
         "description": "(Dom. AA 963 VM) Sedan 5 ptas., FIAT, MOD. PALIO (326) ESSENCE 5P 1.6 16V, AÑO fabricación 2016, año...",
         "base_price": 250000000.0,
         "currency": "ARS",
-        "base_price_usd": 160256.41,
+        "base_price_usd": 161812.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -991,7 +530,7 @@
         "description": "(Dom. AB 286 EP) Sedan 5 ptas. CITROEN, MOD. C3 90 FEEL, AÑO 2017 (93.968 km aprox.) ,rayones vs.-",
         "base_price": 250000000.0,
         "currency": "ARS",
-        "base_price_usd": 160256.41,
+        "base_price_usd": 161812.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1014,7 +553,7 @@
         "description": "(Dom. AD789UH) Sedan 5 puertas Peugeot, mod. 208 active 1.6 115, año 2019, (111.055 km. aprox. - ray",
         "base_price": 320000000.0,
         "currency": "ARS",
-        "base_price_usd": 205128.21,
+        "base_price_usd": 207119.74,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1037,7 +576,7 @@
         "description": "(Dom. AE 596 JJ) SEDAN 5 PUERTAS CHEVROLET, MOD. ONIX 1.0T MT PREMIER, AÑO 2020 (rayones vs.) - (89....",
         "base_price": 480000000.0,
         "currency": "ARS",
-        "base_price_usd": 307692.31,
+        "base_price_usd": 310679.61,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1060,7 +599,7 @@
         "description": "(Dom. AB286DH) Suv Renault, mod. Duster ph2 privilege 1.6, año fabricación 2015, año modelo 2016, 1...",
         "base_price": 500000000.0,
         "currency": "ARS",
-        "base_price_usd": 320512.82,
+        "base_price_usd": 323624.6,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1083,7 +622,7 @@
         "description": "LOTE RETIRADO DE LA VENTA.-",
         "base_price": 300000000.0,
         "currency": "ARS",
-        "base_price_usd": 192307.69,
+        "base_price_usd": 194174.76,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1095,6 +634,45 @@
       }
     ],
     "lot_count": 16
+  },
+  {
+    "id": "adrian_mercado:4562",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-vehiculos-minibuses-sprinter-y-repuestos-portuarios-para-gruas-terminal-4-s-a-4562",
+    "title": "SUBASTA EN VIVOSubasta de vehículos, minibuses Sprinter y repuestos portuarios para grúas - TERMINAL 4 S.A.Ford Ranger, Peugeot Partner, MB Sprinter, Ford Kuga, repuestos para grúas Kalmar, cajas reductoras, transformadores ABB, neumáticos y más. CABA.Viernes\n                    23/10/2026A confirmarID 2314",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: CJCG+8C, CABA Condiciones generales Descargar",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-23T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4562/a2af045134f40403dcfcd462ff95c19d-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4562/a2af045134f40403dcfcd462ff95c19d-mobile.jpg"
+    ],
+    "scraped_at": "2026-10-06T09:42:04.035907+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4562_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4562_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4562_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "sprinter",
+        "min_usd": 12000,
+        "max_usd": 50000,
+        "typical_usd": 25000,
+        "category": "vehicles"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
   },
   {
     "id": "adrian_mercado:4581",
@@ -1116,7 +694,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4581/c04037c744e5ebf1a3f29d5a1c3f2a57-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4581/c04037c744e5ebf1a3f29d5a1c3f2a57-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:54:30.664145+00:00",
+    "scraped_at": "2026-10-06T09:42:12.173861+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4581_condition_report_34225080.pdf",
@@ -1131,6 +709,37 @@
         "typical_usd": 30000,
         "category": "vehicles"
       }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4590",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-3-pick-ups-volkswagen-saveiro-cross-cabina-doble-ano-2017-molfino-hnos-s-a-4590",
+    "title": "SUBASTA EN VIVOSubasta de 3 pick-ups Volkswagen Saveiro Cross cabina doble año 2017 - MOLFINO HNOS S.A.3 Pick-ups Volkswagen Saveiro Cross 1.6 cabina doble modelo 2017. Santa Fe.Viernes\n                    23/10/2026A confirmarID 2342",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Lisandro de la Torre 1500, S2300 Rafaela, Santa Fe Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-23T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4590/c417a1a7aa058b91a16a7cbb53407718-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4590/c417a1a7aa058b91a16a7cbb53407718-mobile.jpg"
+    ],
+    "scraped_at": "2026-10-06T09:42:20.271336+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4590_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4590_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4590_condition_report_bbd2b7a8.pdf"
+      ]
     },
     "lots": [],
     "lot_count": 0
@@ -1155,7 +764,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4597/e35ec2fb2813156caf6c8fbbb055e397-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4597/e35ec2fb2813156caf6c8fbbb055e397-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:54:38.753436+00:00",
+    "scraped_at": "2026-10-06T09:42:28.373294+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4597_condition_report_34225080.pdf",
@@ -1186,7 +795,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4607/f737f9fc4468fb65966c07140ff63d5f-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4607/f737f9fc4468fb65966c07140ff63d5f-mobile.jpg"
     ],
-    "scraped_at": "2026-10-05T09:54:46.826708+00:00",
+    "scraped_at": "2026-10-06T09:42:36.469839+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4607_condition_report_34225080.pdf",
@@ -1198,47 +807,11 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4522",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-autoelevadores-mitsubishi-y-toyota-plataformas-de-elevacion-genie-y-jlg-y-apiladores-linde-4522",
-    "title": "Subasta de autoelevadores Mitsubishi y Toyota, plataformas de elevación Genie y JLG, y apiladores Linde",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Colectora Este Panamericana 34745, B1618 Ricardo Rojas, Buenos Aires Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-09T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-10-05T09:54:54.910154+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4522_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4522_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4522_condition_report_bbd2b7a8.pdf"
-      ],
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "autoelevador",
-        "min_usd": 6000,
-        "max_usd": 60000,
-        "typical_usd": 15000,
-        "category": "machinery"
-      }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "adrian_mercado:4551",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-omnibus-minibuses-mercedes-benz-equipamiento-de-taller-y-oficina-mdq-salto-s-a-4551",
     "title": "Subasta de ómnibus, minibuses Mercedes-Benz, equipamiento de taller y oficina - MDQ SALTO S.A.",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Balcarce 4750, Mar del Plata, Buenos Aires Ubicación 2 Ubicación: 4PXH+93, Balcarce, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Balcarce 4750, Mar del Plata, Buenos Aires Fecha y horario de exhibición: Coordinar previamente con nuestra oficina. .. Ubicación 2 Ubicación: 4PXH+93, Balcarce, Buenos Aires Fecha y horario de exhibición: Coordinar previamente con nuestra oficina. .. Condiciones generales Descargar",
     "category": "real_estate",
     "base_price": 0.0,
     "currency": "ARS",
@@ -1250,7 +823,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:02.995987+00:00",
+    "scraped_at": "2026-10-06T09:42:44.573208+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4551_condition_report_34225080.pdf",
@@ -1278,7 +851,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:11.072071+00:00",
+    "scraped_at": "2026-10-06T09:42:52.658514+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4569_condition_report_34225080.pdf",
@@ -1301,6 +874,42 @@
     "lot_count": 0
   },
   {
+    "id": "adrian_mercado:4522",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-autoelevadores-mitsubishi-y-toyota-plataformas-de-elevacion-genie-y-jlg-y-apiladores-linde-4522",
+    "title": "Subasta de autoelevadores Mitsubishi y Toyota, plataformas de elevación Genie y JLG, y apiladores Linde",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Colectora Este Panamericana 34745, B1618 Ricardo Rojas, Buenos Aires Fecha y horario de exhibición: Miércoles 07/10 y Jueves 08/10 De 10:00 a 15:00 hs Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-09T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-10-06T09:43:00.754623+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4522_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4522_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4522_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "autoelevador",
+        "min_usd": 6000,
+        "max_usd": 60000,
+        "typical_usd": 15000,
+        "category": "machinery"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "adrian_mercado:4593",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-124-neumaticos-michelin-pirelli-y-gri-para-suv-autos-camiones-y-tractores-neumaticos-camiletti-s-r-l-4593",
@@ -1317,7 +926,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:19.147489+00:00",
+    "scraped_at": "2026-10-06T09:43:08.842051+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4593_condition_report_34225080.pdf",
@@ -1341,7 +950,7 @@
         "description": "6 Cubiertas Superguider mod QH808, medidas 13.00-24 16pr. (Para motoniveladora - cargadora).-",
         "base_price": 24000000.0,
         "currency": "ARS",
-        "base_price_usd": 15384.62,
+        "base_price_usd": 15533.98,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1363,7 +972,7 @@
         "description": "4 Cubierta Pirelli mod p400 ev, medidas 185/60 r14. (Chevrolet Corsa, Senda, Gol).-",
         "base_price": 4000000.0,
         "currency": "ARS",
-        "base_price_usd": 2564.1,
+        "base_price_usd": 2589.0,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1385,7 +994,7 @@
         "description": "4 Cubiertas Pirelli mod p1 cinturato, medidas 195/55 r16. (Chevrolet Onix, Agile).-",
         "base_price": 7000000.0,
         "currency": "ARS",
-        "base_price_usd": 4487.18,
+        "base_price_usd": 4530.74,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1408,7 +1017,7 @@
         "description": "4 Cubiertas Pirelli mod p1 cinturato, medidas 195/65 r15. (Citroën C4, Renault Fluence, Peugeot).-",
         "base_price": 6000000.0,
         "currency": "ARS",
-        "base_price_usd": 3846.15,
+        "base_price_usd": 3883.5,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1430,7 +1039,7 @@
         "description": "4 Cubiertas Aplus, medidas 205/55 r16. (Toyota Corolla, Peugeot 208, Volkswagen Vento.).-",
         "base_price": 3000000.0,
         "currency": "ARS",
-        "base_price_usd": 1923.08,
+        "base_price_usd": 1941.75,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1453,7 +1062,7 @@
         "description": "4 Cubiertas Michelin mod primacy 4+, medidas 215/55 r17. (Byd Yuan Pro, Chevrolet Montana, Peugeot 5...",
         "base_price": 8000000.0,
         "currency": "ARS",
-        "base_price_usd": 5128.21,
+        "base_price_usd": 5177.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1475,7 +1084,7 @@
         "description": "6 Cubiertas Rodaco mod Vial 12T, medidas 13.00-24. (Para motoniveladora).-",
         "base_price": 25000000.0,
         "currency": "ARS",
-        "base_price_usd": 16025.64,
+        "base_price_usd": 16181.23,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1497,7 +1106,7 @@
         "description": "4 Cubiertas Michelin mod xze 2, medidas 215/75 r17.5. (Mercedes Benz Accelo, Volkswagen Delivery, Iv...",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7692.31,
+        "base_price_usd": 7766.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1519,7 +1128,7 @@
         "description": "4 Cubiertas Michelin mod primacy suv, medidas 225/50 r17. (ALFA ROMEO 159 - BMW SERIE 4, X1 - AUDI S...",
         "base_price": 7000000.0,
         "currency": "ARS",
-        "base_price_usd": 4487.18,
+        "base_price_usd": 4530.74,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1541,7 +1150,7 @@
         "description": "4 Cubiertas Michelin mod primacy 4, medidas 225/55 r18. (Citroën C4 Aircross, Hyundai Tucson, Peugeo...",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7692.31,
+        "base_price_usd": 7766.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1564,7 +1173,7 @@
         "description": "4 Cubiertas Michelin mod primacy suv, medidas 225/65 r17. (Chevrolet Tracker, Fiat Toro, Toyota).-",
         "base_price": 9000000.0,
         "currency": "ARS",
-        "base_price_usd": 5769.23,
+        "base_price_usd": 5825.24,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1586,7 +1195,7 @@
         "description": "4 Cubiertas Michelin mod pilot sport 4 suv, medidas 255/55 r19. (Volkswagen Amarok, Jeep).-",
         "base_price": 15000000.0,
         "currency": "ARS",
-        "base_price_usd": 9615.38,
+        "base_price_usd": 9708.74,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1609,7 +1218,7 @@
         "description": "4 Cubiertas Michelin mod primacy suv, medidas 255/60 r18. (Nissan Frontier 4x4, Land Rover, Volkswag...",
         "base_price": 10000000.0,
         "currency": "ARS",
-        "base_price_usd": 6410.26,
+        "base_price_usd": 6472.49,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1630,7 +1239,7 @@
         "description": "4 Cubierta Pirelli mod s-a/t+, medidas 255/60 r18. (Nissan Frontier 4x4, Land Rover, Volkswagen).-",
         "base_price": 9000000.0,
         "currency": "ARS",
-        "base_price_usd": 5769.23,
+        "base_price_usd": 5825.24,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1650,7 +1259,7 @@
         "description": "4 Cubierta Michelin mod primacy suv, medidas 255/60 r18. (Nissan Frontier 4x4, Land Rover, Volkswage...",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7692.31,
+        "base_price_usd": 7766.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1671,7 +1280,7 @@
         "description": "4 Cubiertas Michelin mod ltx force, medidas 255/70 r16. (Ford Ranger XL, XLS 4x4, Nissan Frontier, R...",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7692.31,
+        "base_price_usd": 7766.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1693,7 +1302,7 @@
         "description": "4 Cubiertas Michelin mod Primacy SUV+, medidas 255/55 R19. (Para Volkswagen Amarok / Jeep).-",
         "base_price": 15000000.0,
         "currency": "ARS",
-        "base_price_usd": 9615.38,
+        "base_price_usd": 9708.74,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1715,7 +1324,7 @@
         "description": "4 Cubiertas Michelin mod primacy suv, medidas 265/60 r18. (Chevrolet S10, Fiat Titano, Ford Ranger,...",
         "base_price": 10000000.0,
         "currency": "ARS",
-        "base_price_usd": 6410.26,
+        "base_price_usd": 6472.49,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1737,7 +1346,7 @@
         "description": "4 Cubiertas Pirelli mod s-a/t+, medidas 265/70 r17. (Toyota, Chevrolet, Ford).-",
         "base_price": 14000000.0,
         "currency": "ARS",
-        "base_price_usd": 8974.36,
+        "base_price_usd": 9061.49,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1760,7 +1369,7 @@
         "description": "4 Cubiertas Michelin mod x works z, medidas 275/80 r22.5. (Camiones para piedra mixta.).-",
         "base_price": 22000000.0,
         "currency": "ARS",
-        "base_price_usd": 14102.56,
+        "base_price_usd": 14239.48,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1783,7 +1392,7 @@
         "description": "4 Cubiertas Pace mod pmb128, medidas 385/65 r22.5. (Autobús, colectivo, bitrenes).-",
         "base_price": 22000000.0,
         "currency": "ARS",
-        "base_price_usd": 14102.56,
+        "base_price_usd": 14239.48,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1805,7 +1414,7 @@
         "description": "4 Cubiertas Gri mod. Green ex ft1 f2 tt, medidas 5.00-15 6pr. (Tractor delantero).-",
         "base_price": 3000000.0,
         "currency": "ARS",
-        "base_price_usd": 1923.08,
+        "base_price_usd": 1941.75,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1828,7 +1437,7 @@
         "description": "4 Cubiertas Gri mod. Green ex ft1 f2 tt, medidas 6.00-16 10pr. (Tractor delantero.-",
         "base_price": 5000000.0,
         "currency": "ARS",
-        "base_price_usd": 3205.13,
+        "base_price_usd": 3236.25,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1851,7 +1460,7 @@
         "description": "4 Cubiertas Superguider mod set qh201, medidas 6.00-9 12pr. (Para autoelevador).-",
         "base_price": 3000000.0,
         "currency": "ARS",
-        "base_price_usd": 1923.08,
+        "base_price_usd": 1941.75,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1873,7 +1482,7 @@
         "description": "4 Cubiertas Gri mod. Lift ex f300 ind set, medidas 7.00-12 14 hdpr. (Para autoelevador).-",
         "base_price": 8000000.0,
         "currency": "ARS",
-        "base_price_usd": 5128.21,
+        "base_price_usd": 5177.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1894,7 +1503,7 @@
         "description": "4 Cubiertas Gri mod lift ex f300 ind set, medidas 7.00-12 14 hdpr. (Para autoelevador).-",
         "base_price": 7000000.0,
         "currency": "ARS",
-        "base_price_usd": 4487.18,
+        "base_price_usd": 4530.74,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1914,7 +1523,7 @@
         "description": "4 Cubiertas Samson mod ob502, medidas 7.00-12 12pr. (Para autoelevador).-",
         "base_price": 6000000.0,
         "currency": "ARS",
-        "base_price_usd": 3846.15,
+        "base_price_usd": 3883.5,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1936,7 +1545,7 @@
         "description": "4 Cubiertas Superguider mod set qh201, medidas 7.00-12 14pr. (Para autoelevador).-",
         "base_price": 4000000.0,
         "currency": "ARS",
-        "base_price_usd": 2564.1,
+        "base_price_usd": 2589.0,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1958,7 +1567,7 @@
         "description": "4 Cubiertas Gri mod Green ex ft1 f2 tl, medidas 7.50-16 8pr. (Autoelevadores).-",
         "base_price": 6000000.0,
         "currency": "ARS",
-        "base_price_usd": 3846.15,
+        "base_price_usd": 3883.5,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1978,7 +1587,7 @@
         "description": "4 Cubiertas Gri mod. Green ex rt100 r1 tt, medidas 8.3-24 8pr. (Autoelevadores).-",
         "base_price": 8000000.0,
         "currency": "ARS",
-        "base_price_usd": 5128.21,
+        "base_price_usd": 5177.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2000,7 +1609,7 @@
         "description": "4 Cubiertas Bf Goodrich mod km3, medidas 37x12.5 r20. (Ford F-150, Ram 1500, 2500, 3500, Toyota Tund...",
         "base_price": 30000000.0,
         "currency": "ARS",
-        "base_price_usd": 19230.77,
+        "base_price_usd": 19417.48,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2035,7 +1644,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:27.222945+00:00",
+    "scraped_at": "2026-10-06T09:43:16.937159+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4554_condition_report_34225080.pdf",
@@ -2063,7 +1672,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:35.299389+00:00",
+    "scraped_at": "2026-10-06T09:43:25.041013+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4555_condition_report_34225080.pdf",
@@ -2099,7 +1708,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:43.432181+00:00",
+    "scraped_at": "2026-10-06T09:43:33.142603+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4565_condition_report_34225080.pdf",
@@ -2135,7 +1744,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:51.528942+00:00",
+    "scraped_at": "2026-10-06T09:43:41.252040+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4559_condition_report_34225080.pdf",
@@ -2163,7 +1772,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:55:59.602419+00:00",
+    "scraped_at": "2026-10-06T09:43:49.410603+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4572_condition_report_34225080.pdf",
@@ -2178,6 +1787,45 @@
         "typical_usd": 35000,
         "category": "machinery"
       }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4545",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-planta-de-hormigon-betonmac-equipos-de-asfalto-contenedores-y-taller-mauricio-waisman-s-r-l-4545",
+    "title": "Subasta de planta de hormigón Betonmac, equipos de asfalto, contenedores y taller - MAURICIO WAISMAN S.R.L.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Carril Rodríguez Peña 2732, M5515 Maipú, Mendoza Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-23T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-10-06T09:43:57.521374+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4545_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4545_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4545_condition_report_bbd2b7a8.pdf"
+      ],
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
     },
     "lots": [],
     "lot_count": 0
@@ -2199,7 +1847,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-05T09:56:07.682716+00:00",
+    "scraped_at": "2026-10-06T09:44:05.622975+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4584_condition_report_34225080.pdf",
@@ -2211,7 +1859,7 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:76222281",
+    "id": "adrian_mercado:49586097",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "DEMAGRO",
@@ -2229,7 +1877,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-10-05T09:53:13.088810+00:00",
+    "scraped_at": "2026-10-06T09:40:46.725731+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",

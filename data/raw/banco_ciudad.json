@@ -18,7 +18,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
     ],
-    "scraped_at": "2026-10-10T09:17:52.361648+00:00",
+    "scraped_at": "2026-10-11T09:34:37.305257+00:00",
     "extra": {},
     "lots": [
       {
@@ -101,190 +101,6 @@
     "lot_count": 4
   },
   {
-    "id": "banco_ciudad:3967",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
-    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 87100.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
-    ],
-    "scraped_at": "2026-10-10T09:18:16.594056+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3968",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
-    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 51590.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
-    ],
-    "scraped_at": "2026-10-10T09:18:38.713634+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3966",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
-    "title": "Embarcación marca Azimut modelo AZ90",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 552000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-22T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
-    ],
-    "scraped_at": "2026-10-10T09:18:45.976872+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3966:0",
-        "lot_number": 0,
-        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
-        "description": "",
-        "base_price": 55200000.0,
-        "currency": "ARS",
-        "base_price_usd": 35844.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:3955",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3955",
-    "title": "POROTO DE SOJA",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 3944500.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-15T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144565/1"
-    ],
-    "scraped_at": "2026-10-10T09:18:53.112782+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3955:944",
-        "lot_number": 944,
-        "title": "500,00 34.300 KGS APROXIMADAMENTE DE GRANOS DE POROTO DE SOJA, ACONDICIONADO... Dep. en garantía:",
-        "description": "",
-        "base_price": 788900.0,
-        "currency": "ARS",
-        "base_price_usd": 512.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3955/944"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:3969",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
-    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 14840.39,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
-    ],
-    "scraped_at": "2026-10-10T09:19:00.461112+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3970",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
-    "title": "TOMAS MANUEL DE ANCHORENA 924/30/32/34, PISO 12° DTO. C, UF. 32 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 97150.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
-    ],
-    "scraped_at": "2026-10-10T09:19:08.144465+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "banco_ciudad:3971",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3971",
@@ -303,7 +119,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
     ],
-    "scraped_at": "2026-10-10T09:19:15.501179+00:00",
+    "scraped_at": "2026-10-11T09:34:47.369914+00:00",
     "extra": {},
     "lots": [
       {
@@ -441,5 +257,189 @@
       }
     ],
     "lot_count": 7
+  },
+  {
+    "id": "banco_ciudad:3966",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
+    "title": "Embarcación marca Azimut modelo AZ90",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 552000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-22T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
+    ],
+    "scraped_at": "2026-10-11T09:34:54.486206+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3966:0",
+        "lot_number": 0,
+        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
+        "description": "",
+        "base_price": 55200000.0,
+        "currency": "ARS",
+        "base_price_usd": 35844.16,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3969",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
+    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 14840.39,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
+    ],
+    "scraped_at": "2026-10-11T09:35:16.836072+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3955",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3955",
+    "title": "POROTO DE SOJA",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 3944500.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-15T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144565/1"
+    ],
+    "scraped_at": "2026-10-11T09:35:24.296133+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3955:944",
+        "lot_number": 944,
+        "title": "500,00 34.300 KGS APROXIMADAMENTE DE GRANOS DE POROTO DE SOJA, ACONDICIONADO... Dep. en garantía:",
+        "description": "",
+        "base_price": 788900.0,
+        "currency": "ARS",
+        "base_price_usd": 512.27,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3955/944"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3968",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
+    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 51590.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
+    ],
+    "scraped_at": "2026-10-11T09:35:32.118061+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3970",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
+    "title": "TOMAS MANUEL DE ANCHORENA 924/30/32/34, PISO 12° DTO. C, UF. 32 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 97150.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
+    ],
+    "scraped_at": "2026-10-11T09:35:42.433999+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3967",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
+    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 87100.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
+    ],
+    "scraped_at": "2026-10-11T09:35:49.828624+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
   }
 ]

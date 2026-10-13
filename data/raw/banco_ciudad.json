@@ -1,53 +1,5 @@
 [
   {
-    "id": "banco_ciudad:3967",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
-    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 87100.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
-    ],
-    "scraped_at": "2026-10-12T10:04:58.833649+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3968",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
-    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 51590.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
-    ],
-    "scraped_at": "2026-10-12T10:05:10.159954+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "banco_ciudad:3933",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3933",
@@ -66,7 +18,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
     ],
-    "scraped_at": "2026-10-12T10:05:17.886299+00:00",
+    "scraped_at": "2026-10-13T09:57:18.431329+00:00",
     "extra": {},
     "lots": [
       {
@@ -167,7 +119,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
     ],
-    "scraped_at": "2026-10-12T10:05:25.326433+00:00",
+    "scraped_at": "2026-10-13T09:57:27.018003+00:00",
     "extra": {},
     "lots": [
       {
@@ -307,74 +259,6 @@
     "lot_count": 7
   },
   {
-    "id": "banco_ciudad:3969",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
-    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 14840.39,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
-    ],
-    "scraped_at": "2026-10-12T10:05:32.697364+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3966",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
-    "title": "Embarcación marca Azimut modelo AZ90",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 552000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-22T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
-    ],
-    "scraped_at": "2026-10-12T10:05:40.008282+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3966:0",
-        "lot_number": 0,
-        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
-        "description": "",
-        "base_price": 55200000.0,
-        "currency": "ARS",
-        "base_price_usd": 35844.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
     "id": "banco_ciudad:3970",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
@@ -393,7 +277,55 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
     ],
-    "scraped_at": "2026-10-12T10:06:03.544749+00:00",
+    "scraped_at": "2026-10-13T09:57:49.900208+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3967",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
+    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 87100.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
+    ],
+    "scraped_at": "2026-10-13T09:57:56.921117+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3968",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
+    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 51590.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
+    ],
+    "scraped_at": "2026-10-13T09:58:03.908333+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -417,7 +349,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144565/1"
     ],
-    "scraped_at": "2026-10-12T10:06:10.990316+00:00",
+    "scraped_at": "2026-10-13T09:58:10.675355+00:00",
     "extra": {},
     "lots": [
       {
@@ -433,6 +365,74 @@
         "ends_at": null,
         "images": [
           "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3955/944"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3969",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
+    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 14840.39,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
+    ],
+    "scraped_at": "2026-10-13T09:58:17.607328+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3966",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
+    "title": "Embarcación marca Azimut modelo AZ90",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 552000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-22T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
+    ],
+    "scraped_at": "2026-10-13T09:58:24.200631+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3966:0",
+        "lot_number": 0,
+        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
+        "description": "",
+        "base_price": 55200000.0,
+        "currency": "ARS",
+        "base_price_usd": 35844.16,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,

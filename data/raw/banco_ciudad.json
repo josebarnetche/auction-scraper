@@ -18,7 +18,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144629/1"
     ],
-    "scraped_at": "2026-10-14T08:17:07.014545+00:00",
+    "scraped_at": "2026-10-15T07:54:17.013929+00:00",
     "extra": {},
     "lots": [
       {
@@ -82,149 +82,28 @@
     "lot_count": 3
   },
   {
-    "id": "banco_ciudad:3933",
+    "id": "banco_ciudad:3968",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3933",
-    "title": "TESOROS MOVILES",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
+    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 360000.0,
-    "currency": "ARS",
+    "base_price": 51590.0,
+    "currency": "USD",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-10-20T00:00:00",
+    "ends_at": "2026-10-30T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
     ],
-    "scraped_at": "2026-10-14T08:17:50.321707+00:00",
+    "scraped_at": "2026-10-15T07:54:25.518983+00:00",
     "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3933:220",
-        "lot_number": 220,
-        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE; IDENTIFICADO CON NÚ... Dep. en garantía:",
-        "description": "",
-        "base_price": 22000.0,
-        "currency": "ARS",
-        "base_price_usd": 14.19,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/220"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3933:250",
-        "lot_number": 250,
-        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, MANUFACTURADO POR LA GUARDIANA S.A., I... Dep. en garantía:",
-        "description": "",
-        "base_price": 25000.0,
-        "currency": "ARS",
-        "base_price_usd": 16.13,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/250"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3933:350",
-        "lot_number": 350,
-        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE, IDENTIFICADO CON NÚ... Dep. en garantía:",
-        "description": "",
-        "base_price": 35000.0,
-        "currency": "ARS",
-        "base_price_usd": 22.58,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/350"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3933:360",
-        "lot_number": 360,
-        "title": "000,00 DOS COFRES USADOS MANUFACTURADOS POR METALÚRGICA HNOS S.A. IDENTIFICA... Dep. en garantía:",
-        "description": "",
-        "base_price": 36000.0,
-        "currency": "ARS",
-        "base_price_usd": 23.23,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/360"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 4
-  },
-  {
-    "id": "banco_ciudad:3966",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
-    "title": "Embarcación marca Azimut modelo AZ90",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 552000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-22T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
-    ],
-    "scraped_at": "2026-10-14T08:17:57.551824+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3966:0",
-        "lot_number": 0,
-        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
-        "description": "",
-        "base_price": 55200000.0,
-        "currency": "ARS",
-        "base_price_usd": 35612.9,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
+    "lots": [],
+    "lot_count": 0
   },
   {
     "id": "banco_ciudad:3955",
@@ -245,7 +124,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144565/1"
     ],
-    "scraped_at": "2026-10-14T08:18:04.842909+00:00",
+    "scraped_at": "2026-10-15T07:54:32.775403+00:00",
     "extra": {},
     "lots": [
       {
@@ -271,54 +150,6 @@
     "lot_count": 1
   },
   {
-    "id": "banco_ciudad:3970",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
-    "title": "TOMAS MANUEL DE ANCHORENA 924/30/32/34, PISO 12° DTO. C, UF. 32 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 97150.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
-    ],
-    "scraped_at": "2026-10-14T08:18:11.945727+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3967",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
-    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 87100.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
-    ],
-    "scraped_at": "2026-10-14T08:18:19.035964+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "banco_ciudad:3971",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3971",
@@ -337,7 +168,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
     ],
-    "scraped_at": "2026-10-14T08:18:26.748738+00:00",
+    "scraped_at": "2026-10-15T07:54:39.818461+00:00",
     "extra": {},
     "lots": [
       {
@@ -477,13 +308,138 @@
     "lot_count": 7
   },
   {
-    "id": "banco_ciudad:3968",
+    "id": "banco_ciudad:3933",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
-    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3933",
+    "title": "TESOROS MOVILES",
     "description": "",
     "category": "real_estate",
-    "base_price": 51590.0,
+    "base_price": 360000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-20T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
+    ],
+    "scraped_at": "2026-10-15T07:54:46.730736+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3933:220",
+        "lot_number": 220,
+        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE; IDENTIFICADO CON NÚ... Dep. en garantía:",
+        "description": "",
+        "base_price": 22000.0,
+        "currency": "ARS",
+        "base_price_usd": 14.19,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/220"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3933:250",
+        "lot_number": 250,
+        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, MANUFACTURADO POR LA GUARDIANA S.A., I... Dep. en garantía:",
+        "description": "",
+        "base_price": 25000.0,
+        "currency": "ARS",
+        "base_price_usd": 16.13,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/250"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3933:350",
+        "lot_number": 350,
+        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE, IDENTIFICADO CON NÚ... Dep. en garantía:",
+        "description": "",
+        "base_price": 35000.0,
+        "currency": "ARS",
+        "base_price_usd": 22.58,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/350"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3933:360",
+        "lot_number": 360,
+        "title": "000,00 DOS COFRES USADOS MANUFACTURADOS POR METALÚRGICA HNOS S.A. IDENTIFICA... Dep. en garantía:",
+        "description": "",
+        "base_price": 36000.0,
+        "currency": "ARS",
+        "base_price_usd": 23.23,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/360"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 4
+  },
+  {
+    "id": "banco_ciudad:3974",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
+    "title": "CASA EN BARRIO PRIVADO - HORIZONTES AL SUR - RUTA 16 KM 1,5 - GUERNICA - PCIA. BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 166884.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
+    ],
+    "scraped_at": "2026-10-15T07:54:53.707056+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3967",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
+    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 87100.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -493,9 +449,33 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
     ],
-    "scraped_at": "2026-10-14T08:18:34.312562+00:00",
+    "scraped_at": "2026-10-15T07:55:30.474509+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3970",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
+    "title": "TOMAS MANUEL DE ANCHORENA 924/30/32/34, PISO 12° DTO. C, UF. 32 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 97150.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
+    ],
+    "scraped_at": "2026-10-15T07:55:38.169954+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -519,9 +499,53 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
     ],
-    "scraped_at": "2026-10-14T08:18:41.433880+00:00",
+    "scraped_at": "2026-10-15T07:55:45.558859+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3966",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
+    "title": "Embarcación marca Azimut modelo AZ90",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 552000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-22T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
+    ],
+    "scraped_at": "2026-10-15T07:55:52.644271+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3966:0",
+        "lot_number": 0,
+        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
+        "description": "",
+        "base_price": 55200000.0,
+        "currency": "ARS",
+        "base_price_usd": 35612.9,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
   }
 ]

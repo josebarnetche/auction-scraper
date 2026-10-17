@@ -1,39 +1,39 @@
 [
   {
-    "id": "banco_ciudad:3971",
+    "id": "banco_ciudad:3933",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3971",
-    "title": "RENAULT – CITROËN – PEUGEOT",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3933",
+    "title": "TESOROS MOVILES",
     "description": "",
-    "category": "vehicles",
-    "base_price": 6000000.0,
+    "category": "real_estate",
+    "base_price": 360000.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-10-23T00:00:00",
+    "ends_at": "2026-10-20T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
     ],
-    "scraped_at": "2026-10-16T07:47:00.989914+00:00",
+    "scraped_at": "2026-10-17T07:25:03.801450+00:00",
     "extra": {},
     "lots": [
       {
-        "lot_id": "bc:3971:0",
-        "lot_number": 0,
-        "title": "000,00 UN AUTOMÓVIL, USADO, FUNCIONANDO, MARCA RENAULT, MODELO LATITUDE PRIVI... Dep. en garantía:",
+        "lot_id": "bc:3933:220",
+        "lot_number": 220,
+        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE; IDENTIFICADO CON NÚ... Dep. en garantía:",
         "description": "",
-        "base_price": 600000.0,
+        "base_price": 22000.0,
         "currency": "ARS",
-        "base_price_usd": 388.35,
+        "base_price_usd": 14.15,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
         "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/0"
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/220"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,
@@ -41,37 +41,18 @@
         "ai_analyzed_at": null
       },
       {
-        "lot_id": "bc:3971:150",
-        "lot_number": 150,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
-        "description": "",
-        "base_price": 215000.0,
-        "currency": "ARS",
-        "base_price_usd": 139.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/150"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:250",
+        "lot_id": "bc:3933:250",
         "lot_number": 250,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
+        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, MANUFACTURADO POR LA GUARDIANA S.A., I... Dep. en garantía:",
         "description": "",
-        "base_price": 225000.0,
+        "base_price": 25000.0,
         "currency": "ARS",
-        "base_price_usd": 145.63,
+        "base_price_usd": 16.08,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
         "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/250"
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/250"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,
@@ -79,37 +60,18 @@
         "ai_analyzed_at": null
       },
       {
-        "lot_id": "bc:3971:300",
-        "lot_number": 300,
-        "title": "000,00 UNA CAMIONETA, USADA, FUNCIONANDO, MARCA PEUGEOT, MODELO PARTNER PATAG... Dep. en garantía:",
-        "description": "",
-        "base_price": 330000.0,
-        "currency": "ARS",
-        "base_price_usd": 213.59,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/300"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:350",
+        "lot_id": "bc:3933:350",
         "lot_number": 350,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
+        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE, IDENTIFICADO CON NÚ... Dep. en garantía:",
         "description": "",
-        "base_price": 235000.0,
+        "base_price": 35000.0,
         "currency": "ARS",
-        "base_price_usd": 152.1,
+        "base_price_usd": 22.51,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
         "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/350"
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/350"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,
@@ -117,37 +79,18 @@
         "ai_analyzed_at": null
       },
       {
-        "lot_id": "bc:3971:600",
-        "lot_number": 600,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA CITROEN, MODELO BERLINGO MU... Dep. en garantía:",
+        "lot_id": "bc:3933:360",
+        "lot_number": 360,
+        "title": "000,00 DOS COFRES USADOS MANUFACTURADOS POR METALÚRGICA HNOS S.A. IDENTIFICA... Dep. en garantía:",
         "description": "",
-        "base_price": 260000.0,
+        "base_price": 36000.0,
         "currency": "ARS",
-        "base_price_usd": 168.28,
+        "base_price_usd": 23.15,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
         "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/600"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:950",
-        "lot_number": 950,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA RENAULT, MODELO KANGOO RT D... Dep. en garantía:",
-        "description": "",
-        "base_price": 195000.0,
-        "currency": "ARS",
-        "base_price_usd": 126.21,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/950"
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/360"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,
@@ -155,7 +98,7 @@
         "ai_analyzed_at": null
       }
     ],
-    "lot_count": 7
+    "lot_count": 4
   },
   {
     "id": "banco_ciudad:3970",
@@ -176,227 +119,10 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
     ],
-    "scraped_at": "2026-10-16T07:47:42.879741+00:00",
+    "scraped_at": "2026-10-17T07:25:45.402465+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3974",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
-    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 166884.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-17T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
-    ],
-    "scraped_at": "2026-10-16T07:47:50.654465+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3967",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
-    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 87100.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
-    ],
-    "scraped_at": "2026-10-16T07:47:57.502870+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3966",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
-    "title": "Embarcación marca Azimut modelo AZ90",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 552000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-22T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
-    ],
-    "scraped_at": "2026-10-16T07:48:04.582831+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3966:0",
-        "lot_number": 0,
-        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
-        "description": "",
-        "base_price": 55200000.0,
-        "currency": "ARS",
-        "base_price_usd": 35728.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:3968",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
-    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 51590.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
-    ],
-    "scraped_at": "2026-10-16T07:48:11.898622+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3933",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3933",
-    "title": "TESOROS MOVILES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 360000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-20T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
-    ],
-    "scraped_at": "2026-10-16T07:48:19.878778+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3933:220",
-        "lot_number": 220,
-        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE; IDENTIFICADO CON NÚ... Dep. en garantía:",
-        "description": "",
-        "base_price": 22000.0,
-        "currency": "ARS",
-        "base_price_usd": 14.24,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/220"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3933:250",
-        "lot_number": 250,
-        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, MANUFACTURADO POR LA GUARDIANA S.A., I... Dep. en garantía:",
-        "description": "",
-        "base_price": 25000.0,
-        "currency": "ARS",
-        "base_price_usd": 16.18,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/250"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3933:350",
-        "lot_number": 350,
-        "title": "000,00 UN COFRE DE SEGURIDAD, USADO, SIN MARCA VISIBLE, IDENTIFICADO CON NÚ... Dep. en garantía:",
-        "description": "",
-        "base_price": 35000.0,
-        "currency": "ARS",
-        "base_price_usd": 22.65,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/350"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3933:360",
-        "lot_number": 360,
-        "title": "000,00 DOS COFRES USADOS MANUFACTURADOS POR METALÚRGICA HNOS S.A. IDENTIFICA... Dep. en garantía:",
-        "description": "",
-        "base_price": 36000.0,
-        "currency": "ARS",
-        "base_price_usd": 23.3,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3933/360"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 4
   },
   {
     "id": "banco_ciudad:3969",
@@ -417,7 +143,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
     ],
-    "scraped_at": "2026-10-16T07:48:27.044864+00:00",
+    "scraped_at": "2026-10-17T07:25:52.587794+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -441,7 +167,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144629/1"
     ],
-    "scraped_at": "2026-10-16T07:48:33.839011+00:00",
+    "scraped_at": "2026-10-17T07:25:59.737778+00:00",
     "extra": {},
     "lots": [
       {
@@ -451,7 +177,7 @@
         "description": "",
         "base_price": 451200.0,
         "currency": "ARS",
-        "base_price_usd": 292.04,
+        "base_price_usd": 290.16,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -470,7 +196,7 @@
         "description": "",
         "base_price": 1687000.0,
         "currency": "ARS",
-        "base_price_usd": 1091.91,
+        "base_price_usd": 1084.89,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -489,7 +215,7 @@
         "description": "",
         "base_price": 1122000.0,
         "currency": "ARS",
-        "base_price_usd": 726.21,
+        "base_price_usd": 721.54,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -503,5 +229,279 @@
       }
     ],
     "lot_count": 3
+  },
+  {
+    "id": "banco_ciudad:3968",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
+    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 51590.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
+    ],
+    "scraped_at": "2026-10-17T07:26:06.949280+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3966",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
+    "title": "Embarcación marca Azimut modelo AZ90",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 552000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-22T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
+    ],
+    "scraped_at": "2026-10-17T07:26:13.718947+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3966:0",
+        "lot_number": 0,
+        "title": "000,00 UNA (01) EMBARCACIÓN MARCA AZIMUT MODELO AZ90 - MATRICULA 721935 - BAN... Dep. en garantía:",
+        "description": "",
+        "base_price": 55200000.0,
+        "currency": "ARS",
+        "base_price_usd": 35498.39,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3966/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3971",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3971",
+    "title": "RENAULT – CITROËN – PEUGEOT",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 6000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-23T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
+    ],
+    "scraped_at": "2026-10-17T07:26:20.728391+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3971:0",
+        "lot_number": 0,
+        "title": "000,00 UN AUTOMÓVIL, USADO, FUNCIONANDO, MARCA RENAULT, MODELO LATITUDE PRIVI... Dep. en garantía:",
+        "description": "",
+        "base_price": 600000.0,
+        "currency": "ARS",
+        "base_price_usd": 385.85,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3971:150",
+        "lot_number": 150,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
+        "description": "",
+        "base_price": 215000.0,
+        "currency": "ARS",
+        "base_price_usd": 138.26,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/150"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3971:250",
+        "lot_number": 250,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
+        "description": "",
+        "base_price": 225000.0,
+        "currency": "ARS",
+        "base_price_usd": 144.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/250"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3971:300",
+        "lot_number": 300,
+        "title": "000,00 UNA CAMIONETA, USADA, FUNCIONANDO, MARCA PEUGEOT, MODELO PARTNER PATAG... Dep. en garantía:",
+        "description": "",
+        "base_price": 330000.0,
+        "currency": "ARS",
+        "base_price_usd": 212.22,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/300"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3971:350",
+        "lot_number": 350,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
+        "description": "",
+        "base_price": 235000.0,
+        "currency": "ARS",
+        "base_price_usd": 151.13,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/350"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3971:600",
+        "lot_number": 600,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA CITROEN, MODELO BERLINGO MU... Dep. en garantía:",
+        "description": "",
+        "base_price": 260000.0,
+        "currency": "ARS",
+        "base_price_usd": 167.2,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/600"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3971:950",
+        "lot_number": 950,
+        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA RENAULT, MODELO KANGOO RT D... Dep. en garantía:",
+        "description": "",
+        "base_price": 195000.0,
+        "currency": "ARS",
+        "base_price_usd": 125.4,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/950"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 7
+  },
+  {
+    "id": "banco_ciudad:3974",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
+    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 166884.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
+    ],
+    "scraped_at": "2026-10-17T07:26:27.960986+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3967",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
+    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 87100.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
+    ],
+    "scraped_at": "2026-10-17T07:26:34.849203+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
   }
 ]

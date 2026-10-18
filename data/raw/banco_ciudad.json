@@ -1,5 +1,77 @@
 [
   {
+    "id": "banco_ciudad:3967",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
+    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 87100.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
+    ],
+    "scraped_at": "2026-10-18T07:39:34.977796+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3970",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
+    "title": "TOMAS MANUEL DE ANCHORENA 924/30/32/34, PISO 12° DTO. C, UF. 32 - RECOLETA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 97150.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
+    ],
+    "scraped_at": "2026-10-18T07:40:17.155352+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3969",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
+    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 14840.39,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
+    ],
+    "scraped_at": "2026-10-18T07:40:24.931313+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "banco_ciudad:3933",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3933",
@@ -18,7 +90,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144333/1"
     ],
-    "scraped_at": "2026-10-17T07:25:03.801450+00:00",
+    "scraped_at": "2026-10-18T07:40:33.090701+00:00",
     "extra": {},
     "lots": [
       {
@@ -101,54 +173,6 @@
     "lot_count": 4
   },
   {
-    "id": "banco_ciudad:3970",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3970",
-    "title": "TOMAS MANUEL DE ANCHORENA 924/30/32/34, PISO 12° DTO. C, UF. 32 - RECOLETA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 97150.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
-    ],
-    "scraped_at": "2026-10-17T07:25:45.402465+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3969",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
-    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 14840.39,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
-    ],
-    "scraped_at": "2026-10-17T07:25:52.587794+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "banco_ciudad:3975",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3975",
@@ -167,7 +191,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144629/1"
     ],
-    "scraped_at": "2026-10-17T07:25:59.737778+00:00",
+    "scraped_at": "2026-10-18T07:40:40.403763+00:00",
     "extra": {},
     "lots": [
       {
@@ -231,30 +255,6 @@
     "lot_count": 3
   },
   {
-    "id": "banco_ciudad:3968",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
-    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 51590.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
-    ],
-    "scraped_at": "2026-10-17T07:26:06.949280+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "banco_ciudad:3966",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3966",
@@ -273,7 +273,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144599/1"
     ],
-    "scraped_at": "2026-10-17T07:26:13.718947+00:00",
+    "scraped_at": "2026-10-18T07:40:47.749137+00:00",
     "extra": {},
     "lots": [
       {
@@ -299,6 +299,30 @@
     "lot_count": 1
   },
   {
+    "id": "banco_ciudad:3974",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
+    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 166884.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
+    ],
+    "scraped_at": "2026-10-18T07:40:55.429341+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "banco_ciudad:3971",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3971",
@@ -317,7 +341,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
     ],
-    "scraped_at": "2026-10-17T07:26:20.728391+00:00",
+    "scraped_at": "2026-10-18T07:41:02.837680+00:00",
     "extra": {},
     "lots": [
       {
@@ -457,37 +481,13 @@
     "lot_count": 7
   },
   {
-    "id": "banco_ciudad:3974",
+    "id": "banco_ciudad:3968",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
-    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
+    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 166884.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-17T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
-    ],
-    "scraped_at": "2026-10-17T07:26:27.960986+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3967",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
-    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 87100.0,
+    "base_price": 51590.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -497,9 +497,9 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
     ],
-    "scraped_at": "2026-10-17T07:26:34.849203+00:00",
+    "scraped_at": "2026-10-18T07:41:10.607684+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

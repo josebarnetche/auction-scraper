@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3280",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3280",
-    "title": "Grupo Peñaflor",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-10-21T08:10:47.616836+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3282",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3282",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-21T08:10:47.616992+00:00",
+    "scraped_at": "2026-10-22T08:11:35.807144+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-21T08:10:47.617129+00:00",
+    "scraped_at": "2026-10-22T08:11:35.807236+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-21T08:10:47.617262+00:00",
+    "scraped_at": "2026-10-22T08:11:35.807316+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,103 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-21T08:10:47.617373+00:00",
+    "scraped_at": "2026-10-22T08:11:35.807372+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42502",
+    "id": "global_remates:auction_3284",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42502",
-    "title": "Global Materiales AUTOELEVADOR 2,5 TN. NAFTERO, MARCA ...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3284",
+    "title": "Renault Argentina",
     "description": "",
     "category": "vehicles",
-    "base_price": 5000000.0,
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-10-21T12:01:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3282/42502/3282_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-10-21T08:10:47.619537+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42504",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42504",
-    "title": "Global Materiales GRUPO ELECTRÓGENO , MARCA GAMMA 7500...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 700000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-21T12:03:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3282/42504/3282_Lote_03.jpg"
-    ],
-    "scraped_at": "2026-10-21T08:10:47.619944+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42511",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42511",
-    "title": "Global Materiales IMPORTANTE LOTE DE ABRAZADERAS, CABL... MetaliBazar",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 3000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-21T12:10:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3282/42511/3282_Lote_10.jpg"
-    ],
-    "scraped_at": "2026-10-21T08:10:47.620289+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42520",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42520",
-    "title": "Global Materiales LOTE DE IMPRESORAS DE PUNTO/ MATRICI...",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-21T12:19:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3282/42520/3282_Lote_19.jpg"
-    ],
-    "scraped_at": "2026-10-21T08:10:47.620578+00:00",
+    "images": [],
+    "scraped_at": "2026-10-22T08:11:35.807420+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3281/42495/3281_lote_38(6).jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.620953+00:00",
+    "scraped_at": "2026-10-22T08:11:35.808367+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3281/42499/3281_lote_42(10).jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.621255+00:00",
+    "scraped_at": "2026-10-22T08:11:35.808530+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3281/42501/3281_Lote_44.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.621560+00:00",
+    "scraped_at": "2026-10-22T08:11:35.808694+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3283/42522/3283_Lote_01.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.621962+00:00",
+    "scraped_at": "2026-10-22T08:11:35.808835+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3283/42526/3283_Lote_05.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.622358+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809022+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3285/42529/3285_Lote_01.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.622711+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809179+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3285/42530/3285_Lote_02.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.623059+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809339+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3284/42528/3284_Lote_33.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.623351+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809474+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -416,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3287/42538/3254_Lote_01.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.623730+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809627+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -440,7 +344,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3287/42543/3254_Lote_07.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.624032+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809776+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -464,7 +368,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3287/42546/3254_Lote_10.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.624326+00:00",
+    "scraped_at": "2026-10-22T08:11:35.809914+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -488,7 +392,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3287/42553/3254_Lote_17.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.624821+00:00",
+    "scraped_at": "2026-10-22T08:11:35.810069+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -512,7 +416,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3287/42561/3254_Lote_26.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.625132+00:00",
+    "scraped_at": "2026-10-22T08:11:35.810225+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -536,7 +440,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3287/42566/3254_Lote_34.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.625444+00:00",
+    "scraped_at": "2026-10-22T08:11:35.810386+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -560,7 +464,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.625780+00:00",
+    "scraped_at": "2026-10-22T08:11:35.810522+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -584,7 +488,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42531/3178_Lote_01.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.626264+00:00",
+    "scraped_at": "2026-10-22T08:11:35.810672+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -608,7 +512,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42532/3178_Lote_02.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.626581+00:00",
+    "scraped_at": "2026-10-22T08:11:35.810811+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -632,7 +536,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42537/3178_Lote_07.jpg"
     ],
-    "scraped_at": "2026-10-21T08:10:47.626951+00:00",
+    "scraped_at": "2026-10-22T08:11:35.811039+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

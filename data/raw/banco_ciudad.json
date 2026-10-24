@@ -1,51 +1,386 @@
 [
   {
-    "id": "banco_ciudad:3967",
+    "id": "banco_ciudad:3985",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
-    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3985",
+    "title": "BCBA - ALHAJAS",
     "description": "",
     "category": "real_estate",
-    "base_price": 87100.0,
-    "currency": "USD",
+    "base_price": 360000.0,
+    "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
+    "ends_at": "2026-11-18T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144706/1"
     ],
-    "scraped_at": "2026-10-23T08:09:47.412282+00:00",
+    "scraped_at": "2026-10-24T07:48:27.630682+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3985:0",
+        "lot_number": 0,
+        "title": "000,00 UN ANILLO REALIZADO EN ORO BLANCO KTE 18 CON BRILLANTE CENTRAL 0.65 AP... Dep. en garantía:",
+        "description": "",
+        "base_price": 600000.0,
+        "currency": "ARS",
+        "base_price_usd": 383.39,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:220",
+        "lot_number": 220,
+        "title": "000,00 UN COLLAR REALIZADO EN ORO KTE 18 PESO 1.7 GRS MEDIDA 46 CM Dep. en garantía:",
+        "description": "",
+        "base_price": 44000.0,
+        "currency": "ARS",
+        "base_price_usd": 28.12,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/220"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:360",
+        "lot_number": 360,
+        "title": "000,00 UN ANILLO REALIZADO EN ORO KTE 18 CON PERLA DE CULTIVO CENTRAL CON DIA... Dep. en garantía:",
+        "description": "",
+        "base_price": 72000.0,
+        "currency": "ARS",
+        "base_price_usd": 46.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/360"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:410",
+        "lot_number": 410,
+        "title": "000,00 UN ANILLO REALIZADO EN PLATINO CON BRILLANTE CENTRAL QTE 0.95 APROX. Y... Dep. en garantía:",
+        "description": "",
+        "base_price": 282000.0,
+        "currency": "ARS",
+        "base_price_usd": 180.19,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/410"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:720",
+        "lot_number": 720,
+        "title": "000,00 UN PAR DE AROS REALIZADOS EN ORO KTE 18 CON BRILLANTES 0.45 TOTAL APRO... Dep. en garantía:",
+        "description": "",
+        "base_price": 144000.0,
+        "currency": "ARS",
+        "base_price_usd": 92.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/720"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:750",
+        "lot_number": 750,
+        "title": "000,00 UN PAR DE AROS REALIZADOS EN ORO KTE 18 CON PERLAS DE CULTIVO Y PERLAS... Dep. en garantía:",
+        "description": "",
+        "base_price": 150000.0,
+        "currency": "ARS",
+        "base_price_usd": 95.85,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/750"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:780",
+        "lot_number": 780,
+        "title": "000,00 UN ANILLO REALIZADO EN PLATINO CON BRILLANTE CENTRAL QTE 0.65 APROX. Y... Dep. en garantía:",
+        "description": "",
+        "base_price": 156000.0,
+        "currency": "ARS",
+        "base_price_usd": 99.68,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/780"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3985:840",
+        "lot_number": 840,
+        "title": "000,00 UN PAR DE ALIANZAS REALIZADAS EN ORO KTE 18 GRABADAS, PESO TOTAL 6.7 G... Dep. en garantía:",
+        "description": "",
+        "base_price": 168000.0,
+        "currency": "ARS",
+        "base_price_usd": 107.35,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3985/840"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 8
+  },
+  {
+    "id": "banco_ciudad:3982",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3982",
+    "title": "CNEL. RAMON L. FALCON 6589/99, PISO4° UF. 14 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 27411.07,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144703/1"
+    ],
+    "scraped_at": "2026-10-24T07:48:52.164958+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3974",
+    "id": "banco_ciudad:3979",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
-    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3979",
+    "title": "AV. RIVADAVIA 2446/60, PISO 4° UF. 12 - BALVANERA - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 166884.0,
+    "base_price": 222105.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-11-17T00:00:00",
+    "ends_at": "2026-11-13T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144701/1"
     ],
-    "scraped_at": "2026-10-23T08:09:56.242774+00:00",
+    "scraped_at": "2026-10-24T07:48:59.250976+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3977",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3977",
+    "title": "AUDIO Y FOTOGRAFIA",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 90000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-12T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144633/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:05.972926+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3977:17",
+        "lot_number": 17,
+        "title": "tributa impuestos internos alícuota 17% NO SE REALIZAN ENVIOS PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 19d 06:10:12",
+        "description": "",
+        "base_price": 90000.0,
+        "currency": "ARS",
+        "base_price_usd": 57.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/17"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3977:50",
+        "lot_number": 50,
+        "title": "000,00 UN (01) AMPLIFICADOR DE SONIDO MARCA STETSOM MODELO VS 400.4 MINI - NU... Dep. en garantía:",
+        "description": "",
+        "base_price": 10000.0,
+        "currency": "ARS",
+        "base_price_usd": 6.39,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/50"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3977:67",
+        "lot_number": 67,
+        "title": "500,00 UN (01) EQUIPO DE AUDIO PORTATIL MARCA LONGSTAR - NUEVO FUNCIONAMIENTO... Dep. en garantía:",
+        "description": "",
+        "base_price": 13500.0,
+        "currency": "ARS",
+        "base_price_usd": 8.63,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/67"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3977:90",
+        "lot_number": 90,
+        "title": "000,00 UN (01) AMPLIFICADOR MARCA ROADSTAR MODELO RS 1500 SL - NUEVO FUNCION... Dep. en garantía:",
+        "description": "",
+        "base_price": 18000.0,
+        "currency": "ARS",
+        "base_price_usd": 11.5,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/90"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3977:95",
+        "lot_number": 95,
+        "title": "000,00 UN (01) AMPLIFICADOR DE CUATRO CANALES MARCA BAK - MODELO BK 4210 GX- ... Dep. en garantía:",
+        "description": "",
+        "base_price": 19000.0,
+        "currency": "ARS",
+        "base_price_usd": 12.14,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/95"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3977:145",
+        "lot_number": 145,
+        "title": "000,00 UN (01) AMPLIFICADOR DE SONIDO MARCA STETSOM MODELO EX 3000 EQ - NUEVO... Dep. en garantía:",
+        "description": "",
+        "base_price": 29000.0,
+        "currency": "ARS",
+        "base_price_usd": 18.53,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/145"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3977:540",
+        "lot_number": 540,
+        "title": "000,00 UNA (01) CONSOLA DE MUSICA - MARCA PIONEER - MODELO DDJ SX2 - NUEVO F... Dep. en garantía:",
+        "description": "",
+        "base_price": 108000.0,
+        "currency": "ARS",
+        "base_price_usd": 69.01,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/540"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 7
   },
   {
     "id": "banco_ciudad:3978",
@@ -66,7 +401,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144650/1"
     ],
-    "scraped_at": "2026-10-23T08:10:03.126325+00:00",
+    "scraped_at": "2026-10-24T07:49:12.321970+00:00",
     "extra": {},
     "lots": [
       {
@@ -149,6 +484,232 @@
     "lot_count": 4
   },
   {
+    "id": "banco_ciudad:3975",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3975",
+    "title": "Bienes Informáticos",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 8435000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-28T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144629/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:18.736335+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3975:256",
+        "lot_number": 256,
+        "title": "000,00 UN LOTE INTEGRADO POR APROXIMADAMENTE CIENTO VEINTE (120) ELEMENTOS Y... Dep. en garantía:",
+        "description": "",
+        "base_price": 451200.0,
+        "currency": "ARS",
+        "base_price_usd": 288.31,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3975/256"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3975:435",
+        "lot_number": 435,
+        "title": "000,00 UN LOTE INTEGRADO POR APROXIMADAMENTE CIENTO VEINTICUATRO (124) ELEMEN... Dep. en garantía:",
+        "description": "",
+        "base_price": 1687000.0,
+        "currency": "ARS",
+        "base_price_usd": 1077.96,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3975/435"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3975:610",
+        "lot_number": 610,
+        "title": "000,00 UN LOTE INTEGRADO POR DOS (2) ANTENAS RFID, MARCA TARVOS, MODELO PRO ... Dep. en garantía:",
+        "description": "",
+        "base_price": 1122000.0,
+        "currency": "ARS",
+        "base_price_usd": 716.93,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3975/610"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 3
+  },
+  {
+    "id": "banco_ciudad:3968",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
+    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 51590.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:24.952905+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3980",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3980",
+    "title": "50% INDIVISO CAPITAN GRAL. RAMON FREIRE 4439/41, PB, UF.3 - SAAVEDRA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 23351.79,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144702/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:31.247421+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3974",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
+    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 166884.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:37.885118+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3969",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
+    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 14840.39,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-10-30T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:44.432314+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3984",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3984",
+    "title": "62,50% INDIVISO CULLEN 5385/99, PISO 4° DTO. C, UF. 26 - VILLA URQUIZA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 53250.82,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144704/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:50.677753+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3981",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3981",
+    "title": "CASTELLI 234/50, PISO 8° DTO. C, UF. 51 - BALVANERA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 32125.08,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144705/1"
+    ],
+    "scraped_at": "2026-10-24T07:49:57.416523+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "banco_ciudad:3973",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3973",
@@ -167,13 +728,13 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144614/1"
     ],
-    "scraped_at": "2026-10-23T08:10:26.995313+00:00",
+    "scraped_at": "2026-10-24T07:50:04.277884+00:00",
     "extra": {},
     "lots": [
       {
         "lot_id": "bc:3973:14",
         "lot_number": 14,
-        "title": "Tributa Impuesto interno 35.14 % sobre el precio de venta. PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 13d 05:48:51",
+        "title": "Tributa Impuesto interno 35.14 % sobre el precio de venta. PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 12d 06:09:13",
         "description": "",
         "base_price": 431640.0,
         "currency": "ARS",
@@ -363,19 +924,19 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144603/1"
     ],
-    "scraped_at": "2026-10-23T08:10:33.661640+00:00",
+    "scraped_at": "2026-10-24T07:50:10.586510+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3969",
+    "id": "banco_ciudad:3967",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3969",
-    "title": "VENEZUELA 468/70/72/74, PISO 1° DTO. 37, UF. 37 - MONSERRAT - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3967",
+    "title": "ESTEVES SAGUI 121 - LINIERS - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 14840.39,
+    "base_price": 87100.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -385,433 +946,11 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144602/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144600/1"
     ],
-    "scraped_at": "2026-10-23T08:10:40.462214+00:00",
+    "scraped_at": "2026-10-24T07:50:16.892529+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3975",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3975",
-    "title": "Bienes Informáticos",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 8435000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-28T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144629/1"
-    ],
-    "scraped_at": "2026-10-23T08:10:47.502387+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3975:256",
-        "lot_number": 256,
-        "title": "000,00 UN LOTE INTEGRADO POR APROXIMADAMENTE CIENTO VEINTE (120) ELEMENTOS Y... Dep. en garantía:",
-        "description": "",
-        "base_price": 451200.0,
-        "currency": "ARS",
-        "base_price_usd": 288.31,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3975/256"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3975:435",
-        "lot_number": 435,
-        "title": "000,00 UN LOTE INTEGRADO POR APROXIMADAMENTE CIENTO VEINTICUATRO (124) ELEMEN... Dep. en garantía:",
-        "description": "",
-        "base_price": 1687000.0,
-        "currency": "ARS",
-        "base_price_usd": 1077.96,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3975/435"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3975:610",
-        "lot_number": 610,
-        "title": "000,00 UN LOTE INTEGRADO POR DOS (2) ANTENAS RFID, MARCA TARVOS, MODELO PRO ... Dep. en garantía:",
-        "description": "",
-        "base_price": 1122000.0,
-        "currency": "ARS",
-        "base_price_usd": 716.93,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3975/610"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 3
-  },
-  {
-    "id": "banco_ciudad:3977",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3977",
-    "title": "AUDIO Y FOTOGRAFIA",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 90000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-12T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144633/1"
-    ],
-    "scraped_at": "2026-10-23T08:10:54.996097+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3977:17",
-        "lot_number": 17,
-        "title": "tributa impuestos internos alícuota 17% NO SE REALIZAN ENVIOS PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 20d 05:48:24",
-        "description": "",
-        "base_price": 90000.0,
-        "currency": "ARS",
-        "base_price_usd": 57.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/17"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3977:50",
-        "lot_number": 50,
-        "title": "000,00 UN (01) AMPLIFICADOR DE SONIDO MARCA STETSOM MODELO VS 400.4 MINI - NU... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 6.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/50"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3977:67",
-        "lot_number": 67,
-        "title": "500,00 UN (01) EQUIPO DE AUDIO PORTATIL MARCA LONGSTAR - NUEVO FUNCIONAMIENTO... Dep. en garantía:",
-        "description": "",
-        "base_price": 13500.0,
-        "currency": "ARS",
-        "base_price_usd": 8.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/67"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3977:90",
-        "lot_number": 90,
-        "title": "000,00 UN (01) AMPLIFICADOR MARCA ROADSTAR MODELO RS 1500 SL - NUEVO FUNCION... Dep. en garantía:",
-        "description": "",
-        "base_price": 18000.0,
-        "currency": "ARS",
-        "base_price_usd": 11.5,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/90"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3977:95",
-        "lot_number": 95,
-        "title": "000,00 UN (01) AMPLIFICADOR DE CUATRO CANALES MARCA BAK - MODELO BK 4210 GX- ... Dep. en garantía:",
-        "description": "",
-        "base_price": 19000.0,
-        "currency": "ARS",
-        "base_price_usd": 12.14,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/95"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3977:145",
-        "lot_number": 145,
-        "title": "000,00 UN (01) AMPLIFICADOR DE SONIDO MARCA STETSOM MODELO EX 3000 EQ - NUEVO... Dep. en garantía:",
-        "description": "",
-        "base_price": 29000.0,
-        "currency": "ARS",
-        "base_price_usd": 18.53,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/145"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3977:540",
-        "lot_number": 540,
-        "title": "000,00 UNA (01) CONSOLA DE MUSICA - MARCA PIONEER - MODELO DDJ SX2 - NUEVO F... Dep. en garantía:",
-        "description": "",
-        "base_price": 108000.0,
-        "currency": "ARS",
-        "base_price_usd": 69.01,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3977/540"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 7
-  },
-  {
-    "id": "banco_ciudad:3968",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3968",
-    "title": "SANTOS DUMONT 2457/59, PISO 4° DTO. D, UF. 33 - PALERMO - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 51590.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144601/1"
-    ],
-    "scraped_at": "2026-10-23T08:11:02.499232+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3971",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3971",
-    "title": "RENAULT – CITROËN – PEUGEOT",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 6000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-23T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144604/1"
-    ],
-    "scraped_at": "2026-10-23T08:11:09.127266+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3971:0",
-        "lot_number": 0,
-        "title": "000,00 UN AUTOMÓVIL, USADO, FUNCIONANDO, MARCA RENAULT, MODELO LATITUDE PRIVI... Dep. en garantía:",
-        "description": "",
-        "base_price": 600000.0,
-        "currency": "ARS",
-        "base_price_usd": 383.39,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:150",
-        "lot_number": 150,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
-        "description": "",
-        "base_price": 215000.0,
-        "currency": "ARS",
-        "base_price_usd": 137.38,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/150"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:250",
-        "lot_number": 250,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
-        "description": "",
-        "base_price": 225000.0,
-        "currency": "ARS",
-        "base_price_usd": 143.77,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/250"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:300",
-        "lot_number": 300,
-        "title": "000,00 UNA CAMIONETA, USADA, FUNCIONANDO, MARCA PEUGEOT, MODELO PARTNER PATAG... Dep. en garantía:",
-        "description": "",
-        "base_price": 330000.0,
-        "currency": "ARS",
-        "base_price_usd": 210.86,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/300"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:350",
-        "lot_number": 350,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA PEUGEOT, MODELO PARTNER PAT... Dep. en garantía:",
-        "description": "",
-        "base_price": 235000.0,
-        "currency": "ARS",
-        "base_price_usd": 150.16,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/350"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:600",
-        "lot_number": 600,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA CITROEN, MODELO BERLINGO MU... Dep. en garantía:",
-        "description": "",
-        "base_price": 260000.0,
-        "currency": "ARS",
-        "base_price_usd": 166.13,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/600"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3971:950",
-        "lot_number": 950,
-        "title": "000,00 UNA CAMIONETA, USADA, SIN FUNCIONAR, MARCA RENAULT, MODELO KANGOO RT D... Dep. en garantía:",
-        "description": "",
-        "base_price": 195000.0,
-        "currency": "ARS",
-        "base_price_usd": 124.6,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3971/950"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 7
   }
 ]

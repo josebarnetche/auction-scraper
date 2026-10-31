@@ -19,7 +19,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4585/3f6936830c994f4f529f8aa0da28f852-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4585/3f6936830c994f4f529f8aa0da28f852-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:24:10.912126+00:00",
+    "scraped_at": "2026-10-31T09:09:56.738196+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4585_condition_report_34225080.pdf",
@@ -834,8 +834,8 @@
       {
         "lot_id": "am:4585:49",
         "lot_number": 49,
-        "title": "(Interno 1368) Dominio NAV389 Tractor de carretera Iveco, mod. 450e33T, año 2013, traccion 4x2, no s",
-        "description": "(Interno 1368) Dominio NAV389 Tractor de carretera Iveco, mod. 450e33T, año 2013, traccion 4x2, no s",
+        "title": "(Interno 1368) Dominio NAV389 Tractor de carretera Iveco, mod. 450e33T, año 2013, tracción 4x2, no s",
+        "description": "(Interno 1368) Dominio NAV389 Tractor de carretera Iveco, mod. 450e33T, año 2013, tracción 4x2, no s",
         "base_price": 1600000000.0,
         "currency": "ARS",
         "base_price_usd": 1022364.22,
@@ -4105,7 +4105,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-37-tractores-scania-y-mercedes-benz-mixers-bateas-salto-y-acoplados-falpat-s-r-l-4615",
     "title": "Ver subasta",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: José Cortejarena 3670, La Reja, Buenos Aires Ubicación 2 Ubicación: F4CG+XQ, Pilar, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: José Cortejarena 3670, La Reja, Buenos Aires Fecha y horario de exhibición: Martes 03/11 y Miércoles 04/11 De 10:00 a 15:00 hs Ubicación 2 Ubicación: F4CG+XQ, Pilar, Buenos Aires Condiciones generales Descargar",
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
@@ -4120,7 +4120,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4615/ecaf4955baf1c8fcf0fb8f18f63bfc28-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4615/ecaf4955baf1c8fcf0fb8f18f63bfc28-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:24:19.062299+00:00",
+    "scraped_at": "2026-10-31T09:10:04.887855+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4615_condition_report_34225080.pdf",
@@ -4151,7 +4151,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4609/c3f18eedfbcd8ce6813ded25727e4f17-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4609/c3f18eedfbcd8ce6813ded25727e4f17-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:24:27.172641+00:00",
+    "scraped_at": "2026-10-31T09:10:12.991746+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4609_condition_report_34225080.pdf",
@@ -4163,42 +4163,11 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4643",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-suv-volkswagen-tiguan-allspace-250-tsi-dsg-2020-arla-foods-ingredientes-s-a-4643",
-    "title": "SUBASTA EN VIVOSubasta de SUV Volkswagen Tiguan Allspace 250 TSI DSG 2020 - ARLA FOODS INGREDIENTES S.A.SUV Volkswagen Tiguan Allspace 250 TSI DSG año 2020 con transmisión automática. Villa Adelina, Buenos Aires.Viernes\n                    30/10/202614:00 hID 2396",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Fondo de la Legua 1380, B1641 Villa Adelina, Buenos Aires Condiciones generales Descargar",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-10-30T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4643/5d7300b52d95a6f01c714364f37c3015-desktop.jpg",
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4643/5d7300b52d95a6f01c714364f37c3015-mobile.jpg"
-    ],
-    "scraped_at": "2026-10-30T09:24:35.273768+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4643_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4643_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4643_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "adrian_mercado:4637",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-rectificadoras-lidkoping-y-gardner-grabadoras-laser-y-equipos-de-ensayo-skf-argentina-s-a-4637",
     "title": "SUBASTA EN VIVOSubasta de rectificadoras Lidkoping y Gardner, grabadoras láser y equipos de ensayo - SKF ARGENTINA S.A.Rectificadoras Lidkoping y Gardner, cargadores Sixcla, grabadoras láser MEZ, túnel de lavado Seiketsu y más. Buenos Aires.Miércoles\n                    4/11/2026A confirmarID 2390",
-    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Ubicación 4 Términos y condiciones Descargar Ubicación Ubicación: , Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Ubicación 2 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Ubicación 3 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Ubicación 4 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Ubicación 4 Términos y condiciones Descargar Ubicación Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 02/11 y Miércoles 03/11 de 9:00 a 12:00 y de 14:00 a 15:30 Ubicación 2 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Ubicación 3 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Ubicación 4 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Condiciones generales Descargar",
     "category": "machinery",
     "base_price": 0.0,
     "currency": "ARS",
@@ -4213,7 +4182,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4637/0aa3a1d0d080d2bec9e9870e1366df1f-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4637/0aa3a1d0d080d2bec9e9870e1366df1f-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:24:43.409376+00:00",
+    "scraped_at": "2026-10-31T09:10:21.267565+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4637_condition_report_34225080.pdf",
@@ -5368,7 +5337,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-grua-sobre-camion-xcmg-qy12-4x4-capacidad-12-tn-rental-s-a-4614",
     "title": "SUBASTA EN VIVOSubasta de grúa sobre camión XCMG QY12 4x4 capacidad 12 TN - RENTAL S.A.Grúa sobre camión XCMG QY12 4x4 año 2012 cap. 12 Tn con pluma de 21 m y plumín de 5.5 m. Mendoza.Jueves\n                    5/11/2026A confirmarID 2367",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Independencia 1005, Mendoza Condiciones generales Descargar",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Independencia 1005, Mendoza Fecha y horario de exhibición: Lunes 02/11 y Martes 03/11 De 08:00 a 16:00 hs Condiciones generales Descargar",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -5383,7 +5352,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4614/aebfbc09c3c456e8a0db911ce20b74fc-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4614/aebfbc09c3c456e8a0db911ce20b74fc-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:24:51.517598+00:00",
+    "scraped_at": "2026-10-31T09:10:29.369803+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4614_condition_report_34225080.pdf",
@@ -5399,7 +5368,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-palas-cargadoras-caterpillar-y-lonking-tractores-john-deere-y-tolvas-bunge-argentina-s-a-4616",
     "title": "SUBASTA EN VIVOSubasta de palas cargadoras Caterpillar y Lonking, tractores John Deere y tolvas - BUNGE ARGENTINA S.A.Palas Lonking y Caterpillar 930, tractores John Deere, tolvas Bombassei , camión Chevrolet 14.000 TD y más. Buenos Aires y La Pampa.Jueves\n                    5/11/2026A confirmarID 2369",
-    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Términos y condiciones Descargar Ubicación Ubicación: X2W9+VQ, Gral. Villegas, Buenos Aires Ubicación 2 Ubicación: RP102, La Pampa Ubicación 3 Ubicación: 7CC5+7R, Oriente, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Términos y condiciones Descargar Ubicación Ubicación: X2W9+VQ, Gral. Villegas, Buenos Aires Ubicación 2 Ubicación: RP102, La Pampa Ubicación 3 Ubicación: 7CC5+7R, Oriente, Buenos Aires Fecha y horario de exhibición: Martes 03-11 De 09 a 16:00 hs Condiciones generales Descargar",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -5414,7 +5383,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4616/2719249c03d58f021ffbe9f92ba8514a-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4616/2719249c03d58f021ffbe9f92ba8514a-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:24:59.686369+00:00",
+    "scraped_at": "2026-10-31T09:10:37.467142+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4616_condition_report_34225080.pdf",
@@ -5453,7 +5422,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4620/183f78f62a0f27f9e7ea9590c849c1e5-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4620/183f78f62a0f27f9e7ea9590c849c1e5-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:07.810418+00:00",
+    "scraped_at": "2026-10-31T09:10:45.573933+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4620_condition_report_34225080.pdf",
@@ -5477,7 +5446,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-3-semirremolques-playo-de-carga-y-base-transportes-chilavert-s-a-4583",
     "title": "SUBASTA EN VIVOSubasta de 3 semirremolques playo, de carga y base - Transportes Chilavert S.A.Semirremolque playo Helvética de 3 ejes, 2 semirremolques Iderol de 3 ejes de carga y base. Ensenada, Buenos Aires.Jueves\n                    5/11/2026A confirmarID 2335",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Ensenada, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Ensenada, Buenos Aires Fecha y horario de exhibición: Martes 03/11 y Miércoles 04/11 De 09:00 a 12:00 y de 15:00 a 17:00 hs Condiciones generales Descargar",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -5492,7 +5461,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4583/27d1a2c4f4dfba197c8e608aae7580ec-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4583/27d1a2c4f4dfba197c8e608aae7580ec-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:15.935635+00:00",
+    "scraped_at": "2026-10-31T09:10:53.684338+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4583_condition_report_34225080.pdf",
@@ -5531,7 +5500,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4595/6dcd0caca7a394044af6af3a7c6a074c-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4595/6dcd0caca7a394044af6af3a7c6a074c-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:24.121830+00:00",
+    "scraped_at": "2026-10-31T09:11:01.779388+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4595_condition_report_34225080.pdf",
@@ -5570,7 +5539,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4613/80a2c4eda05eea3d0614c30e63a055e4-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4613/80a2c4eda05eea3d0614c30e63a055e4-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:32.282311+00:00",
+    "scraped_at": "2026-10-31T09:11:09.907320+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4613_condition_report_34225080.pdf",
@@ -5620,7 +5589,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4619/adf412296d6c084d3f7ce5b004d38a5a-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4619/adf412296d6c084d3f7ce5b004d38a5a-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:40.422616+00:00",
+    "scraped_at": "2026-10-31T09:11:18.024232+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4619_condition_report_34225080.pdf",
@@ -5670,7 +5639,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4621/102d6eacac39cda2f977cc6c02649d79-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4621/102d6eacac39cda2f977cc6c02649d79-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:48.540484+00:00",
+    "scraped_at": "2026-10-31T09:11:26.361022+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4621_condition_report_34225080.pdf",
@@ -5709,7 +5678,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4624/88b5a4d15f78392c91b430d57307f9e3-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4624/88b5a4d15f78392c91b430d57307f9e3-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:25:56.649912+00:00",
+    "scraped_at": "2026-10-31T09:11:34.522500+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4624_condition_report_34225080.pdf",
@@ -5740,7 +5709,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4632/70569e98de0c19432e9dec34a713cefa-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4632/70569e98de0c19432e9dec34a713cefa-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:26:04.768215+00:00",
+    "scraped_at": "2026-10-31T09:11:42.700537+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4632_condition_report_34225080.pdf",
@@ -5779,7 +5748,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4635/4059a110f4a7170fdbd887586f5ba30a-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4635/4059a110f4a7170fdbd887586f5ba30a-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:26:12.889134+00:00",
+    "scraped_at": "2026-10-31T09:11:50.900847+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4635_condition_report_34225080.pdf",
@@ -6123,7 +6092,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4638/e7a2b0741fae17778c4b39fa2e4a757c-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4638/e7a2b0741fae17778c4b39fa2e4a757c-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:26:21.151535+00:00",
+    "scraped_at": "2026-10-31T09:11:59.004899+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4638_condition_report_34225080.pdf",
@@ -6162,7 +6131,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4645/861bcaa5931d662536e953b0b9a2c812-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4645/861bcaa5931d662536e953b0b9a2c812-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:26:29.271774+00:00",
+    "scraped_at": "2026-10-31T09:12:07.106750+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4645_condition_report_34225080.pdf",
@@ -6409,7 +6378,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/3442/65d9e098c4ce22050a69a2900f185026-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/3442/65d9e098c4ce22050a69a2900f185026-mobile.jpg"
     ],
-    "scraped_at": "2026-10-30T09:26:37.401085+00:00",
+    "scraped_at": "2026-10-31T09:12:15.117804+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:3442_condition_report_34225080.pdf",
@@ -6429,11 +6398,694 @@
     "lot_count": 0
   },
   {
+    "id": "adrian_mercado:4651",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-bombas-sumergibles-zenic-motor-electrico-werke-kaiser-de-270-kw-chipeadora-bronco-y-herramientas-de-obra-4651",
+    "title": "Subasta de bombas sumergibles Zenic, motor eléctrico Werke Kaiser de 270 kW, chipeadora Bronco y herramientas de obra",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: B1824 Lanús, Buenos Aires Condiciones generales Descargar",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-04T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-10-31T09:12:23.215768+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4651_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4651_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4651_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [
+      {
+        "lot_id": "am:4651:1",
+        "lot_number": 1,
+        "title": "3 Pistolas neumáticas de impacto Ingersoll Rand, presión máx. 90 psig/6.2 bar.-",
+        "description": "3 Pistolas neumáticas de impacto Ingersoll Rand, presión máx. 90 psig/6.2 bar.-",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196131/fd3c1b73b51575728dd8844ecf294920-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196131/bc1e2204ae7e078e7e351bfc5e16c367-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196131/2909e06793e95b5a795e55ede5b49729-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196131/8935a613615015d81dc2b2b26ffac001-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196131/04419206cda200a8f2fe3134d10fcddf-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:2",
+        "lot_number": 2,
+        "title": "Martillo eléctrico demoledor Hilti, mod. Te3000-avr, con variador de velocidad, inversor de marcha,",
+        "description": "Martillo eléctrico demoledor Hilti, mod. Te3000-avr, con variador de velocidad, inversor de marcha,",
+        "base_price": 200000000.0,
+        "currency": "ARS",
+        "base_price_usd": 127795.53,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196148/13010695965093e8009375b9d29b5f24-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196148/a06ad717644bb420f8bb39b1a7d2ef57-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196148/c6ad290cee4db9e4665811e7b3f0bda7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196148/4d0108fdb65739cdaeb376243bfdb705-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:3",
+        "lot_number": 3,
+        "title": "3 Motobomba centrifuga Nowax, con motor cap. 0.75 kw.-",
+        "description": "3 Motobomba centrifuga Nowax, con motor cap. 0.75 kw.-",
+        "base_price": 32000000.0,
+        "currency": "ARS",
+        "base_price_usd": 20447.28,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196158/5957ddf4300da16cabf4e424a864f288-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196158/a6ea5b0c6129c0403db79f8c7337a331-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196158/0313144e2bd2a5df9d4376bfed6cd380-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196158/41cc7ed964ef3ede3446ee35ec0502d8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196158/078c887c3b134de3716d389031ef163d-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:4",
+        "lot_number": 4,
+        "title": "Bomba Zenic Italia, modelo DRP 1500/2/100 para desagote cloacal pluvial pesado motor de 20 hp., caud",
+        "description": "Bomba Zenic Italia, modelo DRP 1500/2/100 para desagote cloacal pluvial pesado motor de 20 hp., caud",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196132/44023136b66fdd3c749e8ac45a34409a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196132/3fe1da7e223948035be1d3c7d567ca34-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196132/88bf221c42daa3c86f3d34271be31b54-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196132/cd5d7f33c4249e51b1d53a230dc8d495-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196132/973521c1b244239d53cff6a246f38dbd-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:5",
+        "lot_number": 5,
+        "title": "Bomba Zenic Italia, modelo DRP 1500/2/100 para desagote cloacal pluvial pesado motor de 20 hp., caud",
+        "description": "Bomba Zenic Italia, modelo DRP 1500/2/100 para desagote cloacal pluvial pesado motor de 20 hp., caud",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196133/4a369a4b210fbb59b24a2c183bee496a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196133/e13e63097616492cf9fb98707afae351-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196133/9cb92bfc75a2937d50b48c6fba1bfe9d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196133/3437acd4d54a67b5000aa6973cf75af4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196133/68a0bd3f26271929d39da0c0275e7da0-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:6",
+        "lot_number": 6,
+        "title": "Nivel óptico TopCon, mod. AT-G6.-",
+        "description": "Nivel óptico TopCon, mod. AT-G6.-",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196134/f9f2ecad9d8ab38e42d4c6d099c9ae87-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196134/4d31a99795cfee458bbd0752d0034601-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196134/da8c7be610dd33d81bafce9fbab116e0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196134/a9e5c1cc32588c0eb1b2e4689058b634-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:7",
+        "lot_number": 7,
+        "title": "Nivel óptico South, mod. PA2032/NL32, con trípode.-",
+        "description": "Nivel óptico South, mod. PA2032/NL32, con trípode.-",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196149/28e4309aee2f2382c9365a2c608a9af7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196149/e1242743f272f687eae80c90f2df63b9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196149/469c7a52de8f217e091cd76e69e9c185-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196149/1db3269e50ad750e722450497cd84a1f-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:10",
+        "lot_number": 10,
+        "title": "12 aprox. vibradores neumáticos externos Somai, tipo vsp 6623/16, presión 6 bar, consumo de aire 180",
+        "description": "12 aprox. vibradores neumáticos externos Somai, tipo vsp 6623/16, presión 6 bar, consumo de aire 180",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196152/5b14799e587580c637a603f3a5f978f7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196152/396367babaf3e1cd16941492518efdf7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196152/768b86513aff3bdb6a93e8523eedb1d8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196152/fa524c86be4b490b017fde31b93a6c79-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196152/3e7c09ce84b4f696c93a1b000c0ece8b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:12",
+        "lot_number": 12,
+        "title": "Motor electrico Weg de 7,5 hp.-",
+        "description": "Motor electrico Weg de 7,5 hp.-",
+        "base_price": 20000000.0,
+        "currency": "ARS",
+        "base_price_usd": 12779.55,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196136/56ce3da84d7223b56e94cf735ddadd7f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196136/f79f8e0cab9cf94bd62c33043aa34b35-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196136/97813b568990f38b825a24b889d519de-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:13",
+        "lot_number": 13,
+        "title": "Cabezales para compresor de aire, bicilíndrico y tricilíndrico.-",
+        "description": "Cabezales para compresor de aire, bicilíndrico y tricilíndrico.-",
+        "base_price": 32000000.0,
+        "currency": "ARS",
+        "base_price_usd": 20447.28,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196135/c587cb8114a0c90e811163e6adcd41c9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196135/cfe4e3edbf357b26913c70949815cc96-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196135/4aefa6f797785b77fa3dc76efd6edf8e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:14",
+        "lot_number": 14,
+        "title": "Bomba sumergible Abs, tipo afp1041.2 m30/4, cap. 145 m3/h., con motor de 3 kw., alt. máx. 12 mts.-",
+        "description": "Bomba sumergible Abs, tipo afp1041.2 m30/4, cap. 145 m3/h., con motor de 3 kw., alt. máx. 12 mts.-",
+        "base_price": 120000000.0,
+        "currency": "ARS",
+        "base_price_usd": 76677.32,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196137/e4a7e023d7a256cb452d746147eed263-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196137/5b49baa7c1e9b40722b6fd4274ca844b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196137/e4bbb0a50db363d5117abfadba6a3602-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:17",
+        "lot_number": 17,
+        "title": "Amoladora de pie Super eléctrico motor de 1 hp.-",
+        "description": "Amoladora de pie Super eléctrico motor de 1 hp.-",
+        "base_price": 20000000.0,
+        "currency": "ARS",
+        "base_price_usd": 12779.55,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196151/4f6b79e08c811eb062417c8780779ba5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196151/390423e23f1af47765297e361f32134d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196151/c90373373da06f352903f3483ffb372f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196151/53b6ba44827d0445597a4a1fe39db79f-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:18",
+        "lot_number": 18,
+        "title": "Motor electrico cap 20 hp.-",
+        "description": "Motor electrico cap 20 hp.-",
+        "base_price": 120000000.0,
+        "currency": "ARS",
+        "base_price_usd": 76677.32,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196138/1b701009d649a69e907c61b32c59e48b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196138/0bd3e776ab1fec0b9943b00cb8bec9e8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196138/912083ebb132c7840fcbb25938481a99-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196138/567c7d61ea0a90f4b952a4a9bdf8df63-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:19",
+        "lot_number": 19,
+        "title": "Motor electrico cap 20 hp, 1800 rpm.-",
+        "description": "Motor electrico cap 20 hp, 1800 rpm.-",
+        "base_price": 120000000.0,
+        "currency": "ARS",
+        "base_price_usd": 76677.32,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196139/c15dc8fe32a5b0992a4c621b56c25e28-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196139/3c6ce99ab248b524572f3f7a3f7a0617-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196139/5903ddc5259cc049c7a9f8800f368d83-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:20",
+        "lot_number": 20,
+        "title": "2 Bomba neumatica de doble diafragma Indesur mod d75 albxn2, con entrada de 3 pulgada.-",
+        "description": "2 Bomba neumatica de doble diafragma Indesur mod d75 albxn2, con entrada de 3 pulgada.-",
+        "base_price": 44000000.0,
+        "currency": "ARS",
+        "base_price_usd": 28115.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196140/02560a5d2d62bfe520e5925b19c3c3a3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196140/87d8bf89dcf21d9a89922c2fb3bf938e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196140/d9f9fe41e530b0dbeeb271c301791ce9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196140/2e601a88d51879674c61c67b40107b00-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:21",
+        "lot_number": 21,
+        "title": "2 Bomba neumatica de doble diafragma Indesur mod d75 albxn2, con entrada de 3 pulgada.-",
+        "description": "2 Bomba neumatica de doble diafragma Indesur mod d75 albxn2, con entrada de 3 pulgada.-",
+        "base_price": 44000000.0,
+        "currency": "ARS",
+        "base_price_usd": 28115.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196150/97ccc5b07f1857adb9f232c723e373cb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196150/ebad9bfd05ec43d42b56325f0a8600cb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196150/f1401433a68a080031dd2d2a1974269b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196150/2a55731212e736af77f6ff37b2e1eb6b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:23",
+        "lot_number": 23,
+        "title": "Soldadora eléctrica por arco Veróll, mod. srm220max, cap 220 amp., sin torcha ni pinza.-",
+        "description": "Soldadora eléctrica por arco Veróll, mod. srm220max, cap 220 amp., sin torcha ni pinza.-",
+        "base_price": 6000000.0,
+        "currency": "ARS",
+        "base_price_usd": 3833.87,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196141/3d9ed2e2210349e5acde75621023ed7b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196141/459614e664341ca84ed764d91b6ae51a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196141/0767de618636f7d7064aa3658daa004d-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:24",
+        "lot_number": 24,
+        "title": "Soldadora electrica por arco Del Oeste, mod. 250m, cap.250 amp., sin torcha ni pinza (transportable)",
+        "description": "Soldadora electrica por arco Del Oeste, mod. 250m, cap.250 amp., sin torcha ni pinza (transportable)",
+        "base_price": 6000000.0,
+        "currency": "ARS",
+        "base_price_usd": 3833.87,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196142/56a211d66bbde16aeef3ea4364329559-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196142/3f663170cae0c7c591f260993a93c269-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196142/836d359fd63d4eb19f3201e941fbb3a6-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:25",
+        "lot_number": 25,
+        "title": "Soldadora electrica por arco Del Oeste, mod. b300, cap. 300 amp., sin pinza ni torcha.-",
+        "description": "Soldadora electrica por arco Del Oeste, mod. b300, cap. 300 amp., sin pinza ni torcha.-",
+        "base_price": 6000000.0,
+        "currency": "ARS",
+        "base_price_usd": 3833.87,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196143/3259757b25098b635a178b94286030f3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196143/b4118baaa3aaded6b43e8d62938a8ffb-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:26",
+        "lot_number": 26,
+        "title": "Grupo electrogeno, cap. 2 a 3.5 kw.-",
+        "description": "Grupo electrogeno, cap. 2 a 3.5 kw.-",
+        "base_price": 12000000.0,
+        "currency": "ARS",
+        "base_price_usd": 7667.73,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196153/52ad6fd3b075af98b50e61d7dc9e51d5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196153/9bb7609ae6fe75481b4eb4a97eb61d0d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196153/947d3d51544d7f1ec79b4b53ced50449-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196153/63e636e399af2e1da3057e81e300059c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:27",
+        "lot_number": 27,
+        "title": "Bomba de desplazamiento positivo operada por aire Ist (Alemana), cap aprox. 4-15 lts por minuto.-",
+        "description": "Bomba de desplazamiento positivo operada por aire Ist (Alemana), cap aprox. 4-15 lts por minuto.-",
+        "base_price": 52000000.0,
+        "currency": "ARS",
+        "base_price_usd": 33226.84,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196144/aa296caa670133e01b520a8235852bff-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196144/ce0be1e403e09ed6486a0fc71404a3be-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196144/2ad765d8a2d3a09a703118c36892f198-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:28",
+        "lot_number": 28,
+        "title": "Reductor de velocidad indutrisl de angulo recto Boston Gear mod jc-180, con eje de salida, brida de",
+        "description": "Reductor de velocidad indutrisl de angulo recto Boston Gear mod jc-180, con eje de salida, brida de",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196160/287cacbe3a6e0bf0ab40e52a4f8b149a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196160/b1ed1db87c95160e6d8576ca7931c7be-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196160/9a947a72faecf501533d1e0c8f174243-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:29",
+        "lot_number": 29,
+        "title": "Central hidraulica, con bloques de distribucion y multiples valvulas de control direccional.-",
+        "description": "Central hidraulica, con bloques de distribucion y multiples valvulas de control direccional.-",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196156/a60d9fe4e105d0dc63a8cf33c660c0cf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196156/2ca7ef472157dcaa5987c9882adf0505-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196156/43b816c3d0762ae07662820d852ba95e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:30",
+        "lot_number": 30,
+        "title": "Carro para montacarga, cap. aprox. 3 tn., con botonera, cable de acero, motor de 12,5 hp.-",
+        "description": "Carro para montacarga, cap. aprox. 3 tn., con botonera, cable de acero, motor de 12,5 hp.-",
+        "base_price": 400000000.0,
+        "currency": "ARS",
+        "base_price_usd": 255591.05,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196157/d838ed544b18994adece946d861fd331-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196157/ef98fac4ec488d39219cde7e3c5b5874-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196157/62d933907d18585dcd1afb0c9ff221f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196157/5732f0a195e323830ce2bb36b1b8c8cc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196157/c9825299f40eb8b2ea3ca8f47cc752a1-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:31",
+        "lot_number": 31,
+        "title": "Motor Altium, cap.40 hp.-",
+        "description": "Motor Altium, cap.40 hp.-",
+        "base_price": 180000000.0,
+        "currency": "ARS",
+        "base_price_usd": 115015.97,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196155/fba525f81df7de0257a8e090bbb0f68a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196155/f483a0d05fdbeaa766e4a1d5342f89aa-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196155/7253c7cff76f3f7f9148b4aba67f6b27-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196155/5932a85787fded0da6b3c703f4e04cf5-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:32",
+        "lot_number": 32,
+        "title": "Cabezal para compresor de aire a piston pesado de 5 cilindro/doble etapa (alta y baja), presion max.",
+        "description": "Cabezal para compresor de aire a piston pesado de 5 cilindro/doble etapa (alta y baja), presion max.",
+        "base_price": 40000000.0,
+        "currency": "ARS",
+        "base_price_usd": 25559.11,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196145/6532bc83f2b535c347112fd3f437077b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196145/5121bb646c45cfee4cbdfbcbb91495ab-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196145/73b89aa4512599e61570c267d9f5a02a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196145/2648946a55e5220878199044310ed417-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:34",
+        "lot_number": 34,
+        "title": "Chipiadora trituradora de ramas Bronco mod wc120, tritura ramas de 12 cm y 120 cm de diametro, con m",
+        "description": "Chipiadora trituradora de ramas Bronco mod wc120, tritura ramas de 12 cm y 120 cm de diametro, con m",
+        "base_price": 160000000.0,
+        "currency": "ARS",
+        "base_price_usd": 102236.42,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196154/44164d20268ae174973945404117ada9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196154/e049b1dc28a514fd54aecd91db40f1c3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196154/a43205b59cfe6d2cb90b191cd43a3a5f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196154/b410a9abc80345f9d394f9aac58d390b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196154/118f8cc7a1e43ca416d690e0d25275d0-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:40",
+        "lot_number": 40,
+        "title": "Pulmón de aire vertical Zazo, cap.100 litros.-",
+        "description": "Pulmón de aire vertical Zazo, cap.100 litros.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10223.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196159/05dc549c5f332814d8f618989ede74e0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196159/586053b3072ebce11ac3fa5b152d13ec-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:41",
+        "lot_number": 41,
+        "title": "Motor Werke káiser de 270 kw 362 hp., 1500 UM peso aproximado 1600 kg.-",
+        "description": "Motor Werke káiser de 270 kw 362 hp., 1500 UM peso aproximado 1600 kg.-",
+        "base_price": 280000000.0,
+        "currency": "ARS",
+        "base_price_usd": 178913.74,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196146/24e04af75b856156c850a7d322d3ff09-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196146/9ebb3836ac4a28f59eab50bbd788c07b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196146/a9d27818688c25b3b2d31a335cf25828-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4651:42",
+        "lot_number": 42,
+        "title": "Compresor de aire bicilindrico Cavet, con motor de 3 hp.-",
+        "description": "Compresor de aire bicilindrico Cavet, con motor de 3 hp.-",
+        "base_price": 6000000.0,
+        "currency": "ARS",
+        "base_price_usd": 3833.87,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196147/d0311838f46f3f45c5365411c1c5bcd4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196147/1f52075bf9a4928de3d1db49913e25f9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196147/38ec6f6736314c28927596f9c29c01fc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196147/1851990bb8badb3280f3a98701b3ebcf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196147/eb334a8c625085be4b51dab88aefded3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 30
+  },
+  {
     "id": "adrian_mercado:4608",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-vehiculos-de-coleccion-camiones-pesados-flota-utilitaria-embarcaciones-y-buloneria-4608",
     "title": "Subasta de vehículos de colección, camiones pesados, flota utilitaria, embarcaciones y bulonería",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Monseñor Juan Chimento 550, Lomas de Zamora, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Lomas de Zamora Fecha y horario de exhibición: Sábado 31-10 y Lunes 01/11 Coordinar con (Pablo. Tel. 1133319140) Condiciones generales Descargar",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -6445,7 +7097,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:26:45.527386+00:00",
+    "scraped_at": "2026-10-31T09:12:31.319932+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4608_condition_report_34225080.pdf",
@@ -6492,7 +7144,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:26:53.782395+00:00",
+    "scraped_at": "2026-10-31T09:12:39.426145+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4629_condition_report_34225080.pdf",
@@ -6567,7 +7219,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:01.918410+00:00",
+    "scraped_at": "2026-10-31T09:12:47.521694+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4584_condition_report_34225080.pdf",
@@ -6595,7 +7247,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:10.040129+00:00",
+    "scraped_at": "2026-10-31T09:12:55.649880+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4622_condition_report_34225080.pdf",
@@ -6631,15 +7283,1051 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:18.585881+00:00",
+    "scraped_at": "2026-10-31T09:13:04.356260+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4646_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4646_condition_report_67d8caff.pdf"
       ]
     },
-    "lots": [],
-    "lot_count": 0
+    "lots": [
+      {
+        "lot_id": "am:4646:1",
+        "lot_number": 1,
+        "title": "Heladera Patrick de dos puerta con freezer, modelo cíclico, capacidad 350 litros.-",
+        "description": "Heladera Patrick de dos puerta con freezer, modelo cíclico, capacidad 350 litros.-",
+        "base_price": 12000000.0,
+        "currency": "ARS",
+        "base_price_usd": 7667.73,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195961/c63e6343ddb92400ad4c26eb5e137d2c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195961/892617c8e53a1f180d375489aa2777c1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195961/bb8ec52c792c8378b77da5c00940352d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195961/e1f3176d4d0ce05dd3b0b5cda91c7cd1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195961/34db2af109bb06d5a3d390c1ae226033-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:2",
+        "lot_number": 2,
+        "title": "Heladera Patrick color Silver de dos puerta, con freezer y dispenser de agua, modelo nofrost, capaci",
+        "description": "Heladera Patrick color Silver de dos puerta, con freezer y dispenser de agua, modelo nofrost, capaci",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195962/ccf0366f0ba7bf96154d9938e3fdc881-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195962/f2346deda55e9b270550bb2236c6d812-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195962/ad2c91f61c094c4f81de808bc5347b5d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195962/09ff14fa195ead2ea0e552ce9d99b9a4-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:3",
+        "lot_number": 3,
+        "title": "Heladera Patrick color Silver de dos puerta con freezer, modelo nofrost, capacidad 300 litros.-",
+        "description": "Heladera Patrick color Silver de dos puerta con freezer, modelo nofrost, capacidad 300 litros.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195963/196565c3006afab749f7b40009979ba3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195963/5cf78e21877010af0345b663ea7a0879-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195963/0e76ff67e35810a43d8a96e98ee8a5cf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195963/f2c835e8a5b58bc1d2987f08febb3531-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:4",
+        "lot_number": 4,
+        "title": "Aire acondicionado Split Whirlpool, 6to sentido, Frío/calor, 3200 frigorias.-",
+        "description": "Aire acondicionado Split Whirlpool, 6to sentido, Frío/calor, 3200 frigorias.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195964/210d6ed09c41b903302710129eb9f739-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195964/4ee07779b8e11f67399ffdb99e6d3208-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195964/b874b385a841364bbd1aa713b7e2dd60-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:5",
+        "lot_number": 5,
+        "title": "Aire acondicionado Split Whirlpool, 6to sentido, Frío/calor, 3200 frigorias.-",
+        "description": "Aire acondicionado Split Whirlpool, 6to sentido, Frío/calor, 3200 frigorias.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195965/b69b6124173d39aaf259e6bad88805a8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195965/449eb11d31c906f2676b880e73db3b9c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195965/8912eecf83d8a300977bb6a3e5754026-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:6",
+        "lot_number": 6,
+        "title": "Secarropa Eslabón de lujo, digital de 7 kg., altura: 85cm x ancho: 59.5cm x profundidad: 55.5 cm.-",
+        "description": "Secarropa Eslabón de lujo, digital de 7 kg., altura: 85cm x ancho: 59.5cm x profundidad: 55.5 cm.-",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195966/ab7d52dd766e7a9329ba0734fe522ede-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195966/182a45596811527eb2d63f3ac313de7b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195966/3f5416e8ca304d2c24bcc080f865f63e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195966/7fa6336a72ddcd4a6ef1164425ec88f3-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:7",
+        "lot_number": 7,
+        "title": "Cocina Whirlpool Multi Gas, hornallas: 4 Luz, encendido electrónico, puerta de horno con visor. dise",
+        "description": "Cocina Whirlpool Multi Gas, hornallas: 4 Luz, encendido electrónico, puerta de horno con visor. dise",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195967/b262a78230324f11a16555695ae104f7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195967/7e467d83b7bf59e87869fbc1508ed05b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195967/da539cf5092409abdf4121c6c964fa86-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195967/6f8400e720dbd1ce879d9149dc128f6c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:8",
+        "lot_number": 8,
+        "title": "Cocina Whirlpool en acero inoxidable Multi Gas, hornallas: 4, luz: Si, encendido: electrónico, puert",
+        "description": "Cocina Whirlpool en acero inoxidable Multi Gas, hornallas: 4, luz: Si, encendido: electrónico, puert",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195968/78f05b030b077c03520230f9b3b90c33-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195968/c042b60bd1aa4110e1c5ae8889701f9d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195968/4cbcdf8b706bff03cd3eed92d606bba5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195968/aae07eb567dfcb2b8be6b5541651a256-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:9",
+        "lot_number": 9,
+        "title": "Cocina Eslabón de lujo Multigas, hornallas 4, encendido electrónico, luz, rejillas extraíbles, cajón",
+        "description": "Cocina Eslabón de lujo Multigas, hornallas 4, encendido electrónico, luz, rejillas extraíbles, cajón",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195969/32577ec6c6fe8bccf28234bc7288c92a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195969/e6bbc138bcfe6cebe44db69fec099a44-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195969/f968a6a9da72c0391d193d21c4c84838-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195969/92dae1bea511f39c97a8f18442a17c14-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:10",
+        "lot_number": 10,
+        "title": "Cocina Whirlpool con Grill eléctrico y Timer Color Inoxidable Multi Gas, hornallas 4 luz, encendido",
+        "description": "Cocina Whirlpool con Grill eléctrico y Timer Color Inoxidable Multi Gas, hornallas 4 luz, encendido",
+        "base_price": 22000000.0,
+        "currency": "ARS",
+        "base_price_usd": 14057.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195970/8cfc78cde7fb5fc3bcba601b91a6e57f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195970/ceca99a2f99607d286d6be0d7782341b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195970/3ee7a03854cf89db45183f9168cce541-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195970/274440ebd88afea86f063a460c936515-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:11",
+        "lot_number": 11,
+        "title": "Heladera mabe color blanco de dos puerta con freezer . Modelo nofrost . Capacidad 300 litros",
+        "description": "Heladera mabe color blanco de dos puerta con freezer . Modelo nofrost . Capacidad 300 litros",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195971/abcdc65d09221aa42e2fa07dbff3c4b0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195971/31f0ec105f6dfc48d5b1ee39a62e9461-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195971/1cee91946dce42175b55b61a0b230e1a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195971/fa36f48a2902dee3483e540122ecb066-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195971/a4ce1c63144464e462b1e895c74b703b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:12",
+        "lot_number": 12,
+        "title": "Heladera Mabe de dos puerta con freezer, modelo cíclico, capacidad 300 litros.-",
+        "description": "Heladera Mabe de dos puerta con freezer, modelo cíclico, capacidad 300 litros.-",
+        "base_price": 12000000.0,
+        "currency": "ARS",
+        "base_price_usd": 7667.73,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195972/fe56dd7841bb74cb96c84403d137d13b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195972/3a69b95bec63cf17489a24db434c8d4e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195972/276da0fd01fe3f3e49eb87ff6634cca8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195972/2ebebbb37fb50cbe68ee4d5b0c544b8a-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:13",
+        "lot_number": 13,
+        "title": "Heladera Patrick de dos puerta con freezer, modelo cíclico, capacidad 290 litros.-",
+        "description": "Heladera Patrick de dos puerta con freezer, modelo cíclico, capacidad 290 litros.-",
+        "base_price": 10000000.0,
+        "currency": "ARS",
+        "base_price_usd": 6389.78,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195973/a4ae53b4a09a003717c4699160be7af5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195973/eae7f16445f4ee1006c84895015f0637-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195973/99adeed90c405aeacb7da17eb5bff38c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195973/93a9dd3230ef0d4edec5ffba905b8798-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:14",
+        "lot_number": 14,
+        "title": "Heladera Patrick color blanco de dos puerta con freezer, modelo nofrost, capacidad 300 litros.-",
+        "description": "Heladera Patrick color blanco de dos puerta con freezer, modelo nofrost, capacidad 300 litros.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195974/d11fdb7ef5a431befa39dd6a07a39c57-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195974/088a0d20508952ce4cf8ecc2be268a31-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195974/695c510e0a0b526862e8dbbf4f21c362-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195974/f8ee8e5cbec0c661f37723734eb99e7e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:15",
+        "lot_number": 15,
+        "title": "Heladera Patrick de dos puerta con freezer, modelo cíclico, capacidad 290 litros.-",
+        "description": "Heladera Patrick de dos puerta con freezer, modelo cíclico, capacidad 290 litros.-",
+        "base_price": 10000000.0,
+        "currency": "ARS",
+        "base_price_usd": 6389.78,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195975/47ec2ac2968e7fb84204112a68a0194c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195975/50fd8bf0ec3c0d966738faf06c5ee9b1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195975/a19db2d9a370d54e14e2adb16f683703-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:16",
+        "lot_number": 16,
+        "title": "500 unidades Huevera súper resistente de plástico inyectado, A tanto c/u.-",
+        "description": "500 unidades Huevera súper resistente de plástico inyectado, A tanto c/u.-",
+        "base_price": 22000000.0,
+        "currency": "ARS",
+        "base_price_usd": 14057.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195976/b31156c192660b5706081c8fd262b153-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195976/4d7b7c575b8d66d1ddce5e2243135ea0-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:17",
+        "lot_number": 17,
+        "title": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "description": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195977/a55055fc78fc55993e55ce0713fa4e4a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195977/67aa95944f7d55e7cce0d5768204d5c1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195977/3907849cb526b0cb38945a8361c37a2e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195977/7b1480404de208afaafc254a5c78a84b-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:18",
+        "lot_number": 18,
+        "title": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "description": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195978/c66cff8cf403496e26225b455e300239-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195978/ac9a396ec6b44530e2cfb82370d151e5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195978/a8be88ab6906248a6ed97810f51bf447-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195978/75282a6424f04dcb9d87ffaac8ba5c21-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195978/30080877a205940512fe48dd1653d1db-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:19",
+        "lot_number": 19,
+        "title": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "description": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195979/9572582a23f8245ba01128e94c1017b6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195979/1e29d857ccfb6020924d73724d8818b0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195979/df60b3adf74bc83cd671874b889d24b5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195979/8afc7b2f2d71ab80622faaf399bae6ce-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195979/ab3700e733b6bfd695c6440ef9ae5bcb-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:20",
+        "lot_number": 20,
+        "title": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "description": "Aire Acondicionado Portátil Frío/calor 3870 friogorias.-",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195980/5db1b62ca8d5e30d49198dbcbf9c8432-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195980/94e0f5dacb596c01c1513fea72618779-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195980/99268aecf3f769d49028b93dd06c3d4c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195980/c9984d41000250b6bcedb58d60ebbbeb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195980/38ac87e03dbe9729a829987ede2a3921-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:21",
+        "lot_number": 21,
+        "title": "Heladera Patrick color silver de dos puerta con freezer, modelo nofrost, capacidad 300 litros.",
+        "description": "Heladera Patrick color silver de dos puerta con freezer, modelo nofrost, capacidad 300 litros.",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195981/4ead32d8c9f92b2a6b3eeea060fd190f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195981/6211ecaa5dd48f43f009eb63d54f791b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195981/ef1dab1e347778dd0420622f8c9f5efa-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195981/b845fab522a9d8f78867b629d4e9a1be-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:22",
+        "lot_number": 22,
+        "title": "heladera patrick color silver de dos puerta con freezer y dispenser . Modelo nofrost, capacidad 300",
+        "description": "heladera patrick color silver de dos puerta con freezer y dispenser . Modelo nofrost, capacidad 300",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195982/fa7ba04fff57a277a8758e63c7fb3624-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195982/0ae36d676df61e5b8716ed31f6fcce65-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195982/9fdb9ba641a7c09b1a930597555747d2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195982/700a50da55f6fa743d1907dd3e8d00f0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195982/d6884ca09a990f43f96e4514908fca8d-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:23",
+        "lot_number": 23,
+        "title": "Heladera Mabe, capacidad 350 litros.-",
+        "description": "Heladera Mabe, capacidad 350 litros.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195983/63ee0234a1342c11a5c3831f69f059ee-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195983/fbf9a0c4d4846df006069b901cdcd4f0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195983/5b77a035f73837208075e05c24b7ae26-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195983/82399906369b235559c2fa0a122b52a5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195983/0d89e2e29804d91692d8406b7289f958-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:24",
+        "lot_number": 24,
+        "title": "Cocina Eslabón de lujo Multigas, hornallas 4, encendido electrónico, luz, rejillas extraíbles, cajón",
+        "description": "Cocina Eslabón de lujo Multigas, hornallas 4, encendido electrónico, luz, rejillas extraíbles, cajón",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195984/49d1bbb863762f0a9f5b583e61da67cc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195984/dcd038fbe357255bb7989dc1bf7959c2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195984/8aa392e1989c2d6ee2e20019857ad7fd-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:25",
+        "lot_number": 25,
+        "title": "Heladera Color Silver, combi Freezer inferior, cap. 320 litros, medidas 173 X 57.5 X 51.3 cm.-",
+        "description": "Heladera Color Silver, combi Freezer inferior, cap. 320 litros, medidas 173 X 57.5 X 51.3 cm.-",
+        "base_price": 18000000.0,
+        "currency": "ARS",
+        "base_price_usd": 11501.6,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195985/df37ee5811e9c609660f8ed08321386b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195985/445053f8e2cd5f9fa26b99dc275436ea-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195985/a8aea5af4ad6a330ea2605b24e0af632-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195985/31f56bb191f0691fe4fc8692612e46bc-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:26",
+        "lot_number": 26,
+        "title": "Parlante Hokutone HT-P10 9000W inalámbrico.-",
+        "description": "Parlante Hokutone HT-P10 9000W inalámbrico.-",
+        "base_price": 10000000.0,
+        "currency": "ARS",
+        "base_price_usd": 6389.78,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195986/46e0c2578a1de087c1ef63fa5f2f1e5e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195986/020a29c97adaa12a44029f04b994e0b7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195986/57e1e72c782363c7439ece58b3a36c25-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195986/331030f19078020ab6e382b5c213bd5c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:27",
+        "lot_number": 27,
+        "title": "Microondas BGH Quick Chef B120DB9 blanco 20L.-",
+        "description": "Microondas BGH Quick Chef B120DB9 blanco 20L.-",
+        "base_price": 7000000.0,
+        "currency": "ARS",
+        "base_price_usd": 4472.84,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195987/de4e985e8b8e0ac84a72b85f81cdaaa4-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195987/49519d6e3ecede8ac466d7cd6d648995-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195987/0e896526db085763f101db22a8a8305f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195987/dacf6f10c24bd8a6f57a61f8042b64fb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195987/dacab481544d5c805c40b4acb13a8a82-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:28",
+        "lot_number": 28,
+        "title": "Heladera tipo láctea exhibidora, medidas altura 1.40 mts., ancho 0.60 mts., profundidad 0.70 mts.-",
+        "description": "Heladera tipo láctea exhibidora, medidas altura 1.40 mts., ancho 0.60 mts., profundidad 0.70 mts.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195988/6dd550d310fa5276eacd55d19dd595a9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195988/99e383d4ca8ad535fa6954cfd874ea0e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195988/b00ff1cf569491b96d182442e4199cf5-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:29",
+        "lot_number": 29,
+        "title": "Smart TV 32 pulgadas.-",
+        "description": "Smart TV 32 pulgadas.-",
+        "base_price": 7000000.0,
+        "currency": "ARS",
+        "base_price_usd": 4472.84,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195989/42647709130189f63d309423ab70eace-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195989/4b305710b9cd3f62a66e9923662b2477-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195989/3656b300d1c4910c6a23bc89beb77721-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:30",
+        "lot_number": 30,
+        "title": "Puerta Blindex, alto 2.13 mts., ancho 0.91 mts.-",
+        "description": "Puerta Blindex, alto 2.13 mts., ancho 0.91 mts.-",
+        "base_price": 8000000.0,
+        "currency": "ARS",
+        "base_price_usd": 5111.82,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195990/d28ea0be8f46e02b16a05f07a11e83e9-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195990/d9190fb30ebb7e2e38638e0afe84f50f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195990/f608ac648c65a0a65defb4663af9dcae-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:31",
+        "lot_number": 31,
+        "title": "Heladera hixibidora vidrio curvo para Confiteria, con mesada en mármol, en acero inoxidable con cool",
+        "description": "Heladera hixibidora vidrio curvo para Confiteria, con mesada en mármol, en acero inoxidable con cool",
+        "base_price": 60000000.0,
+        "currency": "ARS",
+        "base_price_usd": 38338.66,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195991/42f568094abc6f497b1ce6d5d9da09e2-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195991/370a2c52e880cc972042ddb31a829c6b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195991/08cfcc5cad116a89a0dbec6830fd1e6f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195991/dced0d4a7a7a93c0967ee88c6814d559-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195991/2d3b5edf18a88f7522b11aef88c2a918-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:32",
+        "lot_number": 32,
+        "title": "Heladera hixibidora vidrio curvo para Confiteria, con mesada en mármol, en acero inoxidable con cool",
+        "description": "Heladera hixibidora vidrio curvo para Confiteria, con mesada en mármol, en acero inoxidable con cool",
+        "base_price": 60000000.0,
+        "currency": "ARS",
+        "base_price_usd": 38338.66,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195992/b6a6b154b9b4d729751bff5cd13f26d5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195992/24d341546a0cc44e974d36b97304a414-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195992/943bf198eeaee30a94719e2450430b04-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195992/f751e3f3c18444c985b734c03592ea10-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:33",
+        "lot_number": 33,
+        "title": "Heladera tipo láctea exhibidora, medidas altura 1.40 mts., ancho 0.60 mts., profundidad 0.70 mts.-",
+        "description": "Heladera tipo láctea exhibidora, medidas altura 1.40 mts., ancho 0.60 mts., profundidad 0.70 mts.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195993/7fd71a3a6e82ca022fd1b0c211a44459-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195993/607f31153732daa40c4240ba6d15931e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195993/095f15b00bfbe296be0ea5c047b7f7b6-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:34",
+        "lot_number": 34,
+        "title": "Heladera Columbia de dos puertas con freezer.-",
+        "description": "Heladera Columbia de dos puertas con freezer.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10223.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195994/c5c726af318b80530feb7fa339613fdb-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195994/4314db34ea35759b6270d143a022270a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195994/c8279985f0f0e39b4b99682aa8e2a225-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195994/e51c66a12500bca276b51b79ecca6f14-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:35",
+        "lot_number": 35,
+        "title": "Lavarropa Whirpool, cap. 6 kg.-",
+        "description": "Lavarropa Whirpool, cap. 6 kg.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195995/bd982d8f7a0d028babb2d9d3427c5e04-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195995/89f97b9e9aca186647bc470b36ee369c-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195995/dffbb722b5341d720c0c210ded1ab852-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195995/0f9e9a0066dd6e9c25692e3168c5d064-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:36",
+        "lot_number": 36,
+        "title": "Heladera Patrick, cap. 350 lts.-",
+        "description": "Heladera Patrick, cap. 350 lts.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195996/238c52febe3f6cdd7d9b201ce3eea429-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195996/e55e9b3e3e7373867464fa2fa3a3bf94-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195996/e8c218af61083934d654d6e1d0e83797-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195996/dc3117e9f27a1fc4af9599ff941b3bbe-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:37",
+        "lot_number": 37,
+        "title": "Lavarropa Eslabón de lujo, cap. 6 kg.-",
+        "description": "Lavarropa Eslabón de lujo, cap. 6 kg.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195997/85383d8bbd7e434a6e88972705237fec-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195997/76c763795e52ec4761f14203e0ece140-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195997/65dd6385f614b781a860399cd2cb1255-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195997/2f49dd4c71a3d6d140bacf9319a1a798-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:38",
+        "lot_number": 38,
+        "title": "Heladera Mabe dos puertas, con freezer, cap. 350 lts.-",
+        "description": "Heladera Mabe dos puertas, con freezer, cap. 350 lts.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195998/d4efcb4b3f81c0c98298f23f8cfef2e7-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195998/037dba4b2dd029d8b642e19f15a8a3f3-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195998/941000f4f72156e4e30eba3386edd822-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195998/54e6d4c423eca5e7381a79aec1608cea-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:39",
+        "lot_number": 39,
+        "title": "Lavarropa Drean next, cap. 6 kg.-",
+        "description": "Lavarropa Drean next, cap. 6 kg.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/195999/8584073f6d05fdf90e77bfdf5412cfbf-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195999/e50c4d2084320005423a3b129b208675-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195999/ae9f6b2c214bcf3f8523c79c6dce914b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/195999/01e75933e8cc6c1d0698b9572eff1cce-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:40",
+        "lot_number": 40,
+        "title": "Heladera Eslabón de lujo, cap. 320 litros.-",
+        "description": "Heladera Eslabón de lujo, cap. 320 litros.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10223.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196000/a1b641b90fe41138d5b565133e83e880-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196000/5ec31dedf99a845586522410b9c2b1b6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196000/6477457bc6bee30a220145fe03fcd273-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196000/528ae3d29259fb439b48f204d4f4f055-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:41",
+        "lot_number": 41,
+        "title": "Lavarropa Drean carga superior.-",
+        "description": "Lavarropa Drean carga superior.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196001/fbd13e7319410dabe38d1e63e0006fe1-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196001/934187ac26c7a3e19745266f63679da8-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196001/552b2169ac81258c9918e1f256759872-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196001/9d13cdf7ff07ce30c2e79017a1ae68bd-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196001/8c0254733bd2b7efd8fe6f8c4a5317d1-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:42",
+        "lot_number": 42,
+        "title": "Heladera Patrick dos puertas, con freezer.-",
+        "description": "Heladera Patrick dos puertas, con freezer.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196002/b70e9153255bfcb8508f9d5a6dccf3ca-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196002/933499403f283d1ff0799ebd2f6f3870-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196002/fbfc7621a17ae1a49064c7d04b69f8de-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196002/1e710e96eed99d96deceab4d3700d75c-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:43",
+        "lot_number": 43,
+        "title": "Heladera Patrick dos puertas color Silver, sistema no frost.-",
+        "description": "Heladera Patrick dos puertas color Silver, sistema no frost.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10223.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196003/2d47f27abf2c713ca8ed9552a0dfa96d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196003/26241bdf13cf53f65bfec35006e8004b-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196003/9b2e785a1632ae38e7eb6e80cd7c5c2e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196003/1108112b8f74087cdabb7cc9afd88cc0-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:44",
+        "lot_number": 44,
+        "title": "Heladera Patrick dos puertas, con freezer.-",
+        "description": "Heladera Patrick dos puertas, con freezer.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196004/1544120158621f54ef4b96bf838000e6-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196004/fadef941d71fd5796b565c2e583b4187-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196004/d47221867f7cf2f9291c2b9deeae0cec-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196004/833aa29799c1e21d508a64542212d364-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:45",
+        "lot_number": 45,
+        "title": "Heladera Patrick dos puertas, sistema no frost.-",
+        "description": "Heladera Patrick dos puertas, sistema no frost.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10223.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196005/f0fc544aecf175836a05c0206e205b0a-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196005/d680d9f3c07286df14ad760eb6517abc-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196005/6dd7c74773f86d3cc7115f3e74eba8f0-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196005/5563a0f7c6d1a96a727b35451985485e-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:46",
+        "lot_number": 46,
+        "title": "Lavarropa Eslabón de lujo, carga superior, cap. 6 kg.-",
+        "description": "Lavarropa Eslabón de lujo, carga superior, cap. 6 kg.-",
+        "base_price": 16000000.0,
+        "currency": "ARS",
+        "base_price_usd": 10223.64,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196006/73120b6d10dc6862fe4ef5b6a42fb28d-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196006/565f301fed28262c42d68d66f869150e-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196006/b67608289a5b2233ea7ac4c5cd8906c5-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196006/e3103cae01d48c3ad607c371ce3fde6f-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "am:4646:47",
+        "lot_number": 47,
+        "title": "Heladera Mabe dos puertas, con freezer, cap. 350 lts.-",
+        "description": "Heladera Mabe dos puertas, con freezer, cap. 350 lts.-",
+        "base_price": 14000000.0,
+        "currency": "ARS",
+        "base_price_usd": 8945.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://amercado.azureedge.net/cms/resources/galleries/196007/0b177ef79f87b805f23f23a133b40f7f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196007/06fe7fcde06dd7010b5dba0650a8e596-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196007/f7d235572e45b4854aee293be0fd8f6f-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196007/152771a40bea7bc28ab7ce447a65e048-255x190.jpg",
+          "https://amercado.azureedge.net/cms/resources/galleries/196007/1b60f9b48fc1944628b3ec685b49086a-255x190.jpg"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 47
   },
   {
     "id": "adrian_mercado:4611",
@@ -6658,7 +8346,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:26.699726+00:00",
+    "scraped_at": "2026-10-31T09:13:12.455073+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4611_condition_report_34225080.pdf",
@@ -6694,7 +8382,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:34.815639+00:00",
+    "scraped_at": "2026-10-31T09:13:20.558739+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4627_condition_report_34225080.pdf",
@@ -6730,7 +8418,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:42.926685+00:00",
+    "scraped_at": "2026-10-31T09:13:28.665595+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4618_condition_report_34225080.pdf",
@@ -6766,7 +8454,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:51.048174+00:00",
+    "scraped_at": "2026-10-31T09:13:36.759867+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4628_condition_report_34225080.pdf",
@@ -6802,7 +8490,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:27:59.184642+00:00",
+    "scraped_at": "2026-10-31T09:13:44.866085+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4636_condition_report_34225080.pdf",
@@ -6838,7 +8526,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-10-30T09:28:07.320549+00:00",
+    "scraped_at": "2026-10-31T09:13:52.973050+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4564_condition_report_34225080.pdf",
@@ -6858,7 +8546,54 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:18477833",
+    "id": "adrian_mercado:4625",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-excavadoras-y-palas-cargadoras-caterpillar-autoelevador-doosan-manipulador-manitou-y-camiones-iveco-techint-4625",
+    "title": "Subasta de excavadoras y palas cargadoras Caterpillar, autoelevador Doosan, manipulador Manitou y camiones Iveco - TECHINT",
+    "description": "Descripción general Términos y condiciones Descargar Descripción general EXCAVADORAS Y PALAS CARGADORAS FRONTALES: 2 Excavadoras Hidráulicas sobre Orugas Caterpillar: 1 modelo 349D L (año 2012, balde 2,78 m3, 3.ª línea hidráulica, motor Cat 6 cil. turbo, aprox. 5.961 hs) y 1 modelo 336DL (año 2014, 3.ª línea hidráulica, motor Cat 6 cil. turbo, aprox. 1.954 hs). 6 Palas Cargadoras Frontales Articuladas sobre Neumáticos: 3 Caterpillar: 1 mod. 950 GC (año 2017, con cadenas, aprox. 16.178 hs); 1 mod. 950 GC (año 2017, motor, balde, ruedas y diferenciales desmontados a reparar); 1 mod. 950 H Steel Mill (sin balde); 1 mod. 938 K (motor 6 cil. turbo 160 HP). 1 Hyundai: modelo HL 760-9 (motor Cummins 6 cil. turbo). 1 Ensing: modelo YX638 (año 2021, motor Cummins turbo 97 kW). 1 Robot Cargador Frontal sobre Orugas Docking XLP (Año 2017): Bajo perfil, motor Deutz 4 cil. turbo diésel, control remoto y notebook táctil de comando (aprox. 500 hs). MANIPULADOR, AUTOELEVADOR PESADO E IMÁN DE CHATARRA: 1 Autoelevador Containero Doosan D160 S-P (Año 2018): Capacidad 16 Tn, torre simple (altura máx. 4,00 m), desplazador, cabina y motor 6 cil. turbo. 1 Manipulador Telescópico Manitou MT-X1740SLT (Año 2013): Capacidad 4.000 kg, altura máx. 17 m, motor Perkins 4 cil. turbo, 3ra línea hidráulica y 2 estabilizadores (aprox. 9.581 hs). Incluye balde de 1 m3. 1 Electroimán Voltohm (Año 2022): Diámetro 1.300 mm, con generador Dynaset HMG Pro (15 kW, 220 Vdc) y control 24V. TRANSPORTE PESADO, ACOPLADOS Y FLOTA: Camiones y Tractores de Carretera: 1 camión chasis con cabina Iveco 260E30NCM24 (año 2023, aprox. 12.389 km / 1.795 hs) equipado con bomba de pistón de alta presión Siam J60 y tanque de 10.000 L; 1 tractor de carretera Iveco 720T42T (año 2016, 6x4, cabina dormitorio, plato de enganche, aprox. 89.171 km). Semirremolques y Carretones: 1 carretón de cuello deprimido fijo Salto SRPC (año 2006, 3 ejes, capacidad 45 Tn, medidas 12,50 x 2,60 m + 3 m de cuello, vigía y rampas); 1 semirremolque ",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-27T00:00:00",
+    "location": {
+      "province": "Córdoba",
+      "city": "Altura"
+    },
+    "images": [],
+    "scraped_at": "2026-10-31T09:14:01.064919+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4625_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4625_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4625_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "autoelevador",
+        "min_usd": 6000,
+        "max_usd": 60000,
+        "typical_usd": 15000,
+        "category": "machinery"
+      },
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "fleet",
+        "premium_types": [
+          "fleet"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: fleet"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "fleet"
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:46315627",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "TN CUYANA S.A.",
@@ -6876,7 +8611,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-10-30T09:23:57.618110+00:00",
+    "scraped_at": "2026-10-31T09:09:43.440656+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",

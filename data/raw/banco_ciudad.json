@@ -1,5 +1,29 @@
 [
   {
+    "id": "banco_ciudad:3979",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3979",
+    "title": "AV. RIVADAVIA 2446/60, PISO 4° UF. 12 - BALVANERA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 222105.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144701/1"
+    ],
+    "scraped_at": "2026-11-01T09:57:26.366932+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "banco_ciudad:3999",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3999",
@@ -18,31 +42,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144824/1"
     ],
-    "scraped_at": "2026-10-31T09:10:08.618413+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3982",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3982",
-    "title": "CNEL. RAMON L. FALCON 6589/99, PISO4° UF. 14 - LINIERS - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 27411.07,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-13T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144703/1"
-    ],
-    "scraped_at": "2026-10-31T09:10:19.210545+00:00",
+    "scraped_at": "2026-11-01T09:58:06.620431+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -66,19 +66,67 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144825/1"
     ],
-    "scraped_at": "2026-10-31T09:10:26.260047+00:00",
+    "scraped_at": "2026-11-01T09:58:14.028279+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3996",
+    "id": "banco_ciudad:3989",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3996",
-    "title": "AV. ASAMBLEA 821/27, PISO 8 DTO. B, UF. 28 Y UC. 99 - PARQUE CHACABUCO - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3989",
+    "title": "SPORTARO ENTRE SERNA Y MITRE - EL TRIUNFO - LINCOLN - PCIA. DE BS. AS.",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 4548.49,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-27T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144765/1"
+    ],
+    "scraped_at": "2026-11-01T09:58:21.153515+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3984",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3984",
+    "title": "62,50% INDIVISO CULLEN 5385/99, PISO 4° DTO. C, UF. 26 - VILLA URQUIZA - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 109139.07,
+    "base_price": 53250.82,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144704/1"
+    ],
+    "scraped_at": "2026-11-01T09:58:28.077117+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3995",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3995",
+    "title": "HUSARES 1550 - VILLA TESEI - HURLINGHAM - PCIA. DE BS. AS.",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 26755.85,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -88,9 +136,33 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144772/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144771/1"
     ],
-    "scraped_at": "2026-10-31T09:10:33.955804+00:00",
+    "scraped_at": "2026-11-01T09:58:34.800740+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3982",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3982",
+    "title": "CNEL. RAMON L. FALCON 6589/99, PISO4° UF. 14 - LINIERS - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 27411.07,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-13T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144703/1"
+    ],
+    "scraped_at": "2026-11-01T09:58:42.314273+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -114,79 +186,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144766/1"
     ],
-    "scraped_at": "2026-10-31T09:10:41.261752+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3994",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3994",
-    "title": "PIEDRAS 612 - SALTO - PCIA. DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 16053.51,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-04T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144770/1"
-    ],
-    "scraped_at": "2026-10-31T09:10:48.302492+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3998",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3998",
-    "title": "CALLE 95 NRO. 2191 PISO 5 DPTO. 2 - SAN MARTIN - PROV. BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 39598.66,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-16T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144823/1"
-    ],
-    "scraped_at": "2026-10-31T09:10:55.618842+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3974",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
-    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 166884.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-17T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
-    ],
-    "scraped_at": "2026-10-31T09:11:02.776208+00:00",
+    "scraped_at": "2026-11-01T09:58:49.061596+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -210,13 +210,13 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144614/1"
     ],
-    "scraped_at": "2026-10-31T09:11:10.914509+00:00",
+    "scraped_at": "2026-11-01T09:58:56.306832+00:00",
     "extra": {},
     "lots": [
       {
         "lot_id": "bc:3973:14",
         "lot_number": 14,
-        "title": "Tributa Impuesto interno 35.14 % sobre el precio de venta. PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 5d 04:48:02",
+        "title": "Tributa Impuesto interno 35.14 % sobre el precio de venta. PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 4d 04:00:16",
         "description": "",
         "base_price": 431640.0,
         "currency": "ARS",
@@ -388,81 +388,13 @@
     "lot_count": 9
   },
   {
-    "id": "banco_ciudad:3991",
+    "id": "banco_ciudad:3993",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3991",
-    "title": "FRAY MAMERTO ESQUIU 4567, UF. 6 - CASEROS - PCIA. DE BS. AS.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3993",
+    "title": "AV. HIPOLITO YRIGOYEN 568/74, UF. 74 - QUILMES - PCIA. DE BS. AS.",
     "description": "",
     "category": "real_estate",
-    "base_price": 31170.57,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-27T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144767/1"
-    ],
-    "scraped_at": "2026-10-31T09:11:18.162742+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3976",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3976",
-    "title": "NEUMATICOS FUERA DE USO",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1640847.88,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-26T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144632/1"
-    ],
-    "scraped_at": "2026-10-31T09:11:25.262753+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3976:640",
-        "lot_number": 640,
-        "title": "847,88 7210,94 KGS DE NFU SE VENDEN EN EL ESTADO EN QUE SE ENCUENTRAN Y EXHIB... Dep. en garantía:",
-        "description": "",
-        "base_price": 328169.57,
-        "currency": "ARS",
-        "base_price_usd": 209.69,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3976/640"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:3995",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3995",
-    "title": "HUSARES 1550 - VILLA TESEI - HURLINGHAM - PCIA. DE BS. AS.",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 26755.85,
+    "base_price": 7357.86,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -472,45 +404,21 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144771/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144769/1"
     ],
-    "scraped_at": "2026-10-31T09:11:33.080269+00:00",
+    "scraped_at": "2026-11-01T09:59:03.265074+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3989",
+    "id": "banco_ciudad:3980",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3989",
-    "title": "SPORTARO ENTRE SERNA Y MITRE - EL TRIUNFO - LINCOLN - PCIA. DE BS. AS.",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 4548.49,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-27T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144765/1"
-    ],
-    "scraped_at": "2026-10-31T09:11:40.568214+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3979",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3979",
-    "title": "AV. RIVADAVIA 2446/60, PISO 4° UF. 12 - BALVANERA - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3980",
+    "title": "50% INDIVISO CAPITAN GRAL. RAMON FREIRE 4439/41, PB, UF.3 - SAAVEDRA - C.A.B.A.",
     "description": "",
     "category": "real_estate",
-    "base_price": 222105.0,
+    "base_price": 23351.79,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -520,56 +428,12 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144701/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144702/1"
     ],
-    "scraped_at": "2026-10-31T09:11:47.557051+00:00",
+    "scraped_at": "2026-11-01T09:59:09.948691+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3972",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3972",
-    "title": "BARRAS DE ACERO",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 36406557.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-26T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144612/1"
-    ],
-    "scraped_at": "2026-10-31T09:11:54.608544+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3972:406",
-        "lot_number": 406,
-        "title": "557,00 16023 kg APROXIMADAMENTE DE BARRAS DE ACERO - EXTRUIDAS EN CALIENTE SI... Dep. en garantía:",
-        "description": "",
-        "base_price": 7281311.4,
-        "currency": "ARS",
-        "base_price_usd": 4652.6,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3972/406"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
   },
   {
     "id": "banco_ciudad:3977",
@@ -590,13 +454,13 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144633/1"
     ],
-    "scraped_at": "2026-10-31T09:12:03.628711+00:00",
+    "scraped_at": "2026-11-01T09:59:17.125458+00:00",
     "extra": {},
     "lots": [
       {
         "lot_id": "bc:3977:17",
         "lot_number": 17,
-        "title": "tributa impuestos internos alícuota 17% NO SE REALIZAN ENVIOS PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 12d 04:47:10",
+        "title": "tributa impuestos internos alícuota 17% NO SE REALIZAN ENVIOS PREGUNTAS FRECUENTES Lotes de la Subasta Buscar VER CONDICIONES DE VENTA Comienza en: 11d 03:59:55",
         "description": "",
         "base_price": 90000.0,
         "currency": "ARS",
@@ -730,13 +594,243 @@
     "lot_count": 7
   },
   {
-    "id": "banco_ciudad:3980",
+    "id": "banco_ciudad:3974",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3980",
-    "title": "50% INDIVISO CAPITAN GRAL. RAMON FREIRE 4439/41, PB, UF.3 - SAAVEDRA - C.A.B.A.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3974",
+    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
     "description": "",
     "category": "real_estate",
-    "base_price": 23351.79,
+    "base_price": 166884.0,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144628/1"
+    ],
+    "scraped_at": "2026-11-01T09:59:24.237737+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3996",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3996",
+    "title": "AV. ASAMBLEA 821/27, PISO 8 DTO. B, UF. 28 Y UC. 99 - PARQUE CHACABUCO - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 109139.07,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-04T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144772/1"
+    ],
+    "scraped_at": "2026-11-01T09:59:31.499480+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3994",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3994",
+    "title": "PIEDRAS 612 - SALTO - PCIA. DE BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 16053.51,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-04T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144770/1"
+    ],
+    "scraped_at": "2026-11-01T09:59:38.580726+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3986",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3986",
+    "title": "Transbordador de la Boca: CIEN AÑOS, UN PUENTE",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 462000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144734/1"
+    ],
+    "scraped_at": "2026-11-01T09:59:46.259317+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3986:140",
+        "lot_number": 140,
+        "title": "000,00 \"El sueño del Riachuelo\". Escultura. Técnica mixta sobre tabla. Obra d... Dep. en garantía:",
+        "description": "",
+        "base_price": 114000.0,
+        "currency": "ARS",
+        "base_price_usd": 72.84,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/140"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3986:200",
+        "lot_number": 200,
+        "title": "000,00 \"Puente Led\". Escultura. Técnica mixta sobre tabla. Obra de Carolina A... Dep. en garantía:",
+        "description": "",
+        "base_price": 120000.0,
+        "currency": "ARS",
+        "base_price_usd": 76.68,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/200"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3986:462",
+        "lot_number": 462,
+        "title": "000,00 \"SOStierra\". Escultura. Técnica mixta sobre tabla. Obra de Daniel Acos... Dep. en garantía:",
+        "description": "",
+        "base_price": 46200.0,
+        "currency": "ARS",
+        "base_price_usd": 29.52,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/462"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3986:500",
+        "lot_number": 500,
+        "title": "000,00 \"Puente Porteño\". Escultura. Técnica mixta sobre tabla. Obra de Martin... Dep. en garantía:",
+        "description": "",
+        "base_price": 150000.0,
+        "currency": "ARS",
+        "base_price_usd": 95.85,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/500"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3986:552",
+        "lot_number": 552,
+        "title": "000,00 \"El Puente Transbordador\". Escultura. Técnica mixta sobre tabla. Obra ... Dep. en garantía:",
+        "description": "",
+        "base_price": 55200.0,
+        "currency": "ARS",
+        "base_price_usd": 35.27,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/552"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3986:558",
+        "lot_number": 558,
+        "title": "000,00 \"A la historia de La Boca le falta un tornillo\". Escultura. Técnica mi... Dep. en garantía:",
+        "description": "",
+        "base_price": 55800.0,
+        "currency": "ARS",
+        "base_price_usd": 35.65,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/558"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3986:570",
+        "lot_number": 570,
+        "title": "000,00 \"Mañana es mejor\". Escultura. Técnica mixta sobre tabla. Obra de Diana... Dep. en garantía:",
+        "description": "",
+        "base_price": 57000.0,
+        "currency": "ARS",
+        "base_price_usd": 36.42,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/570"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 7
+  },
+  {
+    "id": "banco_ciudad:3981",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3981",
+    "title": "CASTELLI 234/50, PISO 8° DTO. C, UF. 51 - BALVANERA - C.A.B.A.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 32125.08,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
@@ -746,12 +840,157 @@
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144702/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144705/1"
     ],
-    "scraped_at": "2026-10-31T09:12:11.549108+00:00",
+    "scraped_at": "2026-11-01T09:59:53.071995+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3978",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3978",
+    "title": "BICICLETAS",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1050000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-19T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144650/1"
+    ],
+    "scraped_at": "2026-11-01T09:59:59.729672+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3978:50",
+        "lot_number": 50,
+        "title": "000,00 UNA BICICLETA – MARCA ESPECIALIZED – MODELO DEMO 8 – RODADO 27¨- N.º S... Dep. en garantía:",
+        "description": "",
+        "base_price": 210000.0,
+        "currency": "ARS",
+        "base_price_usd": 134.19,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/50"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3978:255",
+        "lot_number": 255,
+        "title": "000,00 UNA BICICLETA – MARCA TREK – MODELO SKYE SL – RODADO 27 – N.º SERIE WT... Dep. en garantía:",
+        "description": "",
+        "base_price": 51000.0,
+        "currency": "ARS",
+        "base_price_usd": 32.59,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/255"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3978:450",
+        "lot_number": 450,
+        "title": "000,00 UNA BICICLETA – MARCA TREK – MODELO MARLIN 7 – RODADO 29 – N.º SERIE W... Dep. en garantía:",
+        "description": "",
+        "base_price": 90000.0,
+        "currency": "ARS",
+        "base_price_usd": 57.51,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/450"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      },
+      {
+        "lot_id": "bc:3978:900",
+        "lot_number": 900,
+        "title": "000,00 UNA BICICLETA – MARCA TREK – MODELO FUEL EX 5 – RODADO 29 – N.º SERIE ... Dep. en garantía:",
+        "description": "",
+        "base_price": 180000.0,
+        "currency": "ARS",
+        "base_price_usd": 115.02,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/900"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 4
+  },
+  {
+    "id": "banco_ciudad:3976",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3976",
+    "title": "NEUMATICOS FUERA DE USO",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1640847.88,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-26T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144632/1"
+    ],
+    "scraped_at": "2026-11-01T10:00:06.419164+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3976:640",
+        "lot_number": 640,
+        "title": "847,88 7210,94 KGS DE NFU SE VENDEN EN EL ESTADO EN QUE SE ENCUENTRAN Y EXHIB... Dep. en garantía:",
+        "description": "",
+        "base_price": 328169.57,
+        "currency": "ARS",
+        "base_price_usd": 209.69,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3976/640"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
   },
   {
     "id": "banco_ciudad:3985",
@@ -772,7 +1011,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144706/1"
     ],
-    "scraped_at": "2026-10-31T09:12:18.994523+00:00",
+    "scraped_at": "2026-11-01T10:00:13.491904+00:00",
     "extra": {},
     "lots": [
       {
@@ -931,6 +1170,30 @@
     "lot_count": 8
   },
   {
+    "id": "banco_ciudad:3998",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3998",
+    "title": "CALLE 95 NRO. 2191 PISO 5 DPTO. 2 - SAN MARTIN - PROV. BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 39598.66,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-16T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144823/1"
+    ],
+    "scraped_at": "2026-11-01T10:00:20.600521+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "banco_ciudad:3992",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3992",
@@ -949,127 +1212,70 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144768/1"
     ],
-    "scraped_at": "2026-10-31T09:12:25.967221+00:00",
+    "scraped_at": "2026-11-01T10:00:27.298415+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3993",
+    "id": "banco_ciudad:3991",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3993",
-    "title": "AV. HIPOLITO YRIGOYEN 568/74, UF. 74 - QUILMES - PCIA. DE BS. AS.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3991",
+    "title": "FRAY MAMERTO ESQUIU 4567, UF. 6 - CASEROS - PCIA. DE BS. AS.",
     "description": "",
     "category": "real_estate",
-    "base_price": 7357.86,
+    "base_price": 31170.57,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-12-04T00:00:00",
+    "ends_at": "2026-11-27T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144769/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144767/1"
     ],
-    "scraped_at": "2026-10-31T09:12:33.307848+00:00",
+    "scraped_at": "2026-11-01T10:00:34.180831+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3978",
+    "id": "banco_ciudad:3972",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3978",
-    "title": "BICICLETAS",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3972",
+    "title": "BARRAS DE ACERO",
     "description": "",
     "category": "vehicles",
-    "base_price": 1050000.0,
+    "base_price": 36406557.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-11-19T00:00:00",
+    "ends_at": "2026-11-26T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144650/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144612/1"
     ],
-    "scraped_at": "2026-10-31T09:12:40.902929+00:00",
+    "scraped_at": "2026-11-01T10:00:40.871194+00:00",
     "extra": {},
     "lots": [
       {
-        "lot_id": "bc:3978:50",
-        "lot_number": 50,
-        "title": "000,00 UNA BICICLETA – MARCA ESPECIALIZED – MODELO DEMO 8 – RODADO 27¨- N.º S... Dep. en garantía:",
+        "lot_id": "bc:3972:406",
+        "lot_number": 406,
+        "title": "557,00 16023 kg APROXIMADAMENTE DE BARRAS DE ACERO - EXTRUIDAS EN CALIENTE SI... Dep. en garantía:",
         "description": "",
-        "base_price": 210000.0,
+        "base_price": 7281311.4,
         "currency": "ARS",
-        "base_price_usd": 134.19,
+        "base_price_usd": 4652.6,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
         "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/50"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3978:255",
-        "lot_number": 255,
-        "title": "000,00 UNA BICICLETA – MARCA TREK – MODELO SKYE SL – RODADO 27 – N.º SERIE WT... Dep. en garantía:",
-        "description": "",
-        "base_price": 51000.0,
-        "currency": "ARS",
-        "base_price_usd": 32.59,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/255"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3978:450",
-        "lot_number": 450,
-        "title": "000,00 UNA BICICLETA – MARCA TREK – MODELO MARLIN 7 – RODADO 29 – N.º SERIE W... Dep. en garantía:",
-        "description": "",
-        "base_price": 90000.0,
-        "currency": "ARS",
-        "base_price_usd": 57.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/450"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3978:900",
-        "lot_number": 900,
-        "title": "000,00 UNA BICICLETA – MARCA TREK – MODELO FUEL EX 5 – RODADO 29 – N.º SERIE ... Dep. en garantía:",
-        "description": "",
-        "base_price": 180000.0,
-        "currency": "ARS",
-        "base_price_usd": 115.02,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3978/900"
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3972/406"
         ],
         "ai_specs": null,
         "ai_market_value_usd": null,
@@ -1077,212 +1283,6 @@
         "ai_analyzed_at": null
       }
     ],
-    "lot_count": 4
-  },
-  {
-    "id": "banco_ciudad:3986",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3986",
-    "title": "Transbordador de la Boca: CIEN AÑOS, UN PUENTE",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 462000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-17T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144734/1"
-    ],
-    "scraped_at": "2026-10-31T09:12:48.962336+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3986:140",
-        "lot_number": 140,
-        "title": "000,00 \"El sueño del Riachuelo\". Escultura. Técnica mixta sobre tabla. Obra d... Dep. en garantía:",
-        "description": "",
-        "base_price": 114000.0,
-        "currency": "ARS",
-        "base_price_usd": 72.84,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/140"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3986:200",
-        "lot_number": 200,
-        "title": "000,00 \"Puente Led\". Escultura. Técnica mixta sobre tabla. Obra de Carolina A... Dep. en garantía:",
-        "description": "",
-        "base_price": 120000.0,
-        "currency": "ARS",
-        "base_price_usd": 76.68,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/200"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3986:462",
-        "lot_number": 462,
-        "title": "000,00 \"SOStierra\". Escultura. Técnica mixta sobre tabla. Obra de Daniel Acos... Dep. en garantía:",
-        "description": "",
-        "base_price": 46200.0,
-        "currency": "ARS",
-        "base_price_usd": 29.52,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/462"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3986:500",
-        "lot_number": 500,
-        "title": "000,00 \"Puente Porteño\". Escultura. Técnica mixta sobre tabla. Obra de Martin... Dep. en garantía:",
-        "description": "",
-        "base_price": 150000.0,
-        "currency": "ARS",
-        "base_price_usd": 95.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/500"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3986:552",
-        "lot_number": 552,
-        "title": "000,00 \"El Puente Transbordador\". Escultura. Técnica mixta sobre tabla. Obra ... Dep. en garantía:",
-        "description": "",
-        "base_price": 55200.0,
-        "currency": "ARS",
-        "base_price_usd": 35.27,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/552"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3986:558",
-        "lot_number": 558,
-        "title": "000,00 \"A la historia de La Boca le falta un tornillo\". Escultura. Técnica mi... Dep. en garantía:",
-        "description": "",
-        "base_price": 55800.0,
-        "currency": "ARS",
-        "base_price_usd": 35.65,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/558"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:3986:570",
-        "lot_number": 570,
-        "title": "000,00 \"Mañana es mejor\". Escultura. Técnica mixta sobre tabla. Obra de Diana... Dep. en garantía:",
-        "description": "",
-        "base_price": 57000.0,
-        "currency": "ARS",
-        "base_price_usd": 36.42,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3986/570"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 7
-  },
-  {
-    "id": "banco_ciudad:3981",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3981",
-    "title": "CASTELLI 234/50, PISO 8° DTO. C, UF. 51 - BALVANERA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 32125.08,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-13T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144705/1"
-    ],
-    "scraped_at": "2026-10-31T09:12:56.994273+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3984",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3984",
-    "title": "62,50% INDIVISO CULLEN 5385/99, PISO 4° DTO. C, UF. 26 - VILLA URQUIZA - C.A.B.A.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 53250.82,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-13T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144704/1"
-    ],
-    "scraped_at": "2026-10-31T09:13:04.019912+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
+    "lot_count": 1
   }
 ]

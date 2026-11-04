@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3284",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3284",
-    "title": "Renault Argentina",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-03T10:22:25.966814+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3287",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3287",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-03T10:22:25.967023+00:00",
+    "scraped_at": "2026-11-04T10:16:05.002226+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-03T10:22:25.967185+00:00",
+    "scraped_at": "2026-11-04T10:16:05.002293+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-03T10:22:25.967322+00:00",
+    "scraped_at": "2026-11-04T10:16:05.002348+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,151 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-03T10:22:25.967509+00:00",
+    "scraped_at": "2026-11-04T10:16:05.002425+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "global_remates:lot_42538",
+    "id": "global_remates:auction_3286",
     "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42538",
-    "title": "Grupo Peñaflor TANQUE DE RIEGO. CAPACIDAD 8.500 LTS...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 370000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-03T12:01:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3287/42538/3254_Lote_01.jpg"
-    ],
-    "scraped_at": "2026-11-03T10:22:25.970462+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42543",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42543",
-    "title": "Grupo Peñaflor RENAULT MASTER. AÑO 2012. CANT: 1 U.... hma66",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 1900000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-03T12:06:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3287/42543/3254_Lote_07.jpg"
-    ],
-    "scraped_at": "2026-11-03T10:22:25.970964+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42546",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42546",
-    "title": "Grupo Peñaflor LOTE DE EQUIPO DE TRACTOELEVADOR Y B... donatilio",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 1300000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-03T12:09:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3287/42546/3254_Lote_10.jpg"
-    ],
-    "scraped_at": "2026-11-03T10:22:25.971388+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42553",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42553",
-    "title": "Grupo Peñaflor TRACTOR AGRÍCOLA DEUTZ AX 4.60 AÑO 1...",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3286",
+    "title": "Global Maquinarias",
     "description": "",
     "category": "machinery",
-    "base_price": 7200000.0,
+    "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-11-03T12:16:00",
+    "ends_at": null,
     "location": {
       "province": "",
       "city": ""
     },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3287/42553/3254_Lote_17.jpg"
-    ],
-    "scraped_at": "2026-11-03T10:22:25.971848+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42561",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42561",
-    "title": "Grupo Peñaflor TRACTOR AGRÍCOLA DEUTZ . CANT: 1 U. ...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 6000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-03T12:24:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3287/42561/3254_Lote_26.jpg"
-    ],
-    "scraped_at": "2026-11-03T10:22:25.972315+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:lot_42566",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42566",
-    "title": "Grupo Peñaflor EXCAVADORA HIDRÁULICA POCLAIM 888 CA...",
-    "description": "",
-    "category": "machinery",
-    "base_price": 12000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-03T12:29:00",
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://www.globalremates.com.ar/Register/Auctions/3287/42566/3254_Lote_34.jpg"
-    ],
-    "scraped_at": "2026-11-03T10:22:25.972787+00:00",
+    "images": [],
+    "scraped_at": "2026-11-04T10:16:05.002481+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
     ],
-    "scraped_at": "2026-11-03T10:22:25.973242+00:00",
+    "scraped_at": "2026-11-04T10:16:05.003323+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3289/42569/3289_Lote_34.jpg"
     ],
-    "scraped_at": "2026-11-03T10:22:25.973684+00:00",
+    "scraped_at": "2026-11-04T10:16:05.003504+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -320,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3289/42572/3289_lote_37(5).jpg"
     ],
-    "scraped_at": "2026-11-03T10:22:25.974154+00:00",
+    "scraped_at": "2026-11-04T10:16:05.003664+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -344,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42531/3178_Lote_01.jpg"
     ],
-    "scraped_at": "2026-11-03T10:22:25.974606+00:00",
+    "scraped_at": "2026-11-04T10:16:05.003813+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -368,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42532/3178_Lote_02.jpg"
     ],
-    "scraped_at": "2026-11-03T10:22:25.975061+00:00",
+    "scraped_at": "2026-11-04T10:16:05.003958+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -392,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42537/3178_Lote_07.jpg"
     ],
-    "scraped_at": "2026-11-03T10:22:25.975537+00:00",
+    "scraped_at": "2026-11-04T10:16:05.004124+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

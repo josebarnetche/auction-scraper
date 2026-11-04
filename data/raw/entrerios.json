@@ -2,28 +2,6 @@
   {
     "id": "entrerios:0",
     "source": "entrerios",
-    "source_url": "https://subastas.jusentrerios.gob.ar/#listado-categorias",
-    "title": "Subasta #0",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "Entre Rios",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-03T10:24:36.740435+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "entrerios:1",
-    "source": "entrerios",
     "source_url": "https://subastas.jusentrerios.gob.ar",
     "title": "Mostrandoresultados enVigentes",
     "description": "Mostrando resultados en Vigentes",
@@ -38,60 +16,16 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-03T10:24:36.740643+00:00",
+    "scraped_at": "2026-11-04T10:18:14.842298+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "entrerios:2",
-    "source": "entrerios",
-    "source_url": "https://subastas.jusentrerios.gob.ar/registro/persona",
-    "title": "Subasta #2",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "Entre Rios",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-03T10:24:36.741887+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "entrerios:3",
-    "source": "entrerios",
-    "source_url": "https://subastas.jusentrerios.gob.ar",
-    "title": "Subasta #3",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "Entre Rios",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-03T10:24:36.745700+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "entrerios:4",
+    "id": "entrerios:1",
     "source": "entrerios",
     "source_url": "https://mkt.esubasta.ar/quienes-somos/",
-    "title": "Subasta #4",
+    "title": "Subasta #1",
     "description": "Desarrollado por\n                  Subastas Electrónicas. © 2026 mail Contacto de Subastas Electrónicas",
     "category": "general_goods",
     "base_price": 0.0,
@@ -104,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-03T10:24:36.747472+00:00",
+    "scraped_at": "2026-11-04T10:18:14.844202+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

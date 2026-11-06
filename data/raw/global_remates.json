@@ -16,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-05T10:10:16.737927+00:00",
+    "scraped_at": "2026-11-06T10:13:54.410241+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -38,7 +38,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-05T10:10:16.738022+00:00",
+    "scraped_at": "2026-11-06T10:13:54.410310+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3291",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3291",
+    "title": "Kaufmann e Hijos S.R.L",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-11-06T10:13:54.410363+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +82,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-05T10:10:16.738099+00:00",
+    "scraped_at": "2026-11-06T10:13:54.410419+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,29 +104,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-05T10:10:16.738163+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "global_remates:auction_3121",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3121",
-    "title": "TELECENTRO S.A.",
-    "description": "",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-05T10:10:16.738244+00:00",
+    "scraped_at": "2026-11-06T10:13:54.410466+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
     ],
-    "scraped_at": "2026-11-05T10:10:16.739174+00:00",
+    "scraped_at": "2026-11-06T10:13:54.411309+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3289/42569/3289_Lote_34.jpg"
     ],
-    "scraped_at": "2026-11-05T10:10:16.739390+00:00",
+    "scraped_at": "2026-11-06T10:13:54.411479+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,79 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3289/42572/3289_lote_37(5).jpg"
     ],
-    "scraped_at": "2026-11-05T10:10:16.739587+00:00",
+    "scraped_at": "2026-11-06T10:13:54.411641+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42575",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42575",
+    "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB A 25, CANTIDAD: 1...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1600000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-02T12:03:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3291/42575/3195_Lote_03.jpg"
+    ],
+    "scraped_at": "2026-11-06T10:13:54.411814+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42583",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42583",
+    "title": "Kaufmann e Hijos S.R.L TORNO, MARCA TRAUB A 25, CANTIDAD: 1...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1200000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-02T12:11:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3291/42583/3195_Lote_12.jpg"
+    ],
+    "scraped_at": "2026-11-06T10:13:54.411957+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42594",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42594",
+    "title": "Kaufmann e Hijos S.R.L FRESADORA MARCA MOVUNI FVS30, CANTID...",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 1100000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-02T12:22:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3291/42594/3195_Lote_29.jpg"
+    ],
+    "scraped_at": "2026-11-06T10:13:54.412104+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42531/3178_Lote_01.jpg"
     ],
-    "scraped_at": "2026-11-05T10:10:16.739779+00:00",
+    "scraped_at": "2026-11-06T10:13:54.412250+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +296,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42532/3178_Lote_02.jpg"
     ],
-    "scraped_at": "2026-11-05T10:10:16.739961+00:00",
+    "scraped_at": "2026-11-06T10:13:54.412390+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +320,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42537/3178_Lote_07.jpg"
     ],
-    "scraped_at": "2026-11-05T10:10:16.740168+00:00",
+    "scraped_at": "2026-11-06T10:13:54.412546+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

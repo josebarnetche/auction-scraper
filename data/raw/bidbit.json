@@ -1,6 +1,6 @@
 [
   {
-    "id": "bidbit:16990154",
+    "id": "bidbit:92279579",
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/pages/auctioneers",
     "title": "Martilleros Públicos",
@@ -27,22 +27,22 @@
       "https://www.bidbit.ar/booking/images/pages/auctioneers/martilleros-usandizaga.png",
       "https://storage.googleapis.com/bidbit_pages/home/cace.svg"
     ],
-    "scraped_at": "2026-11-13T10:25:13.013366+00:00",
+    "scraped_at": "2026-11-14T09:42:42.533136+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:16990154_pdf_1aebb44c.pdf",
-        "data/documents/bidbit/bidbit:16990154_condition_report_68ca363d.pdf"
+        "data/documents/bidbit/bidbit:92279579_pdf_1aebb44c.pdf",
+        "data/documents/bidbit/bidbit:92279579_condition_report_68ca363d.pdf"
       ]
     },
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "bidbit:58227",
+    "id": "bidbit:58265",
     "source": "bidbit",
-    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58227",
-    "title": "FORD F-4000 D 2008 HEO817",
-    "description": "Unidad Ford F-4000 chasis con cabina que a simple vista presenta un estado general acorde a su uso laboral intensivo. Su carrocería exhibe detalles estéticos y marcas superficiales propias de la actividad, equipando grúa hidráulica y caja de carga trasera. El habitáculo refleja el desgaste esperable para su kilometraje y antigüedad.",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58265",
+    "title": "RENAULT KANGOO EXPRESS 5A 1.6 SCE...",
+    "description": "Unidad que a simple vista presenta un aparente buen estado general de conservación tanto a nivel exterior como en su habitáculo. La carrocería y sus componentes principales lucen alineados y sin deformaciones evidentes a la distancia, exhibiendo suciedad superficial propia del uso. Se percibe una unidad de adecuada presentación estética y funcional dentro de su categoría.",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -54,30 +54,38 @@
       "city": "Google Maps Estado"
     },
     "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_4a79bfd8-fb84-41be-bcb1-6b204cf6c78f.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_141158e9-c023-46f5-bac1-d0fb6cc285c9.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_0d9258a9-bb9f-4231-a9cc-03690cc4d184.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_1b2256ca-e37a-46d2-b6fb-50836fa00759.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_3c229d7b-ae6c-46bc-a43e-1301f1400aa5.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_8497cd7b-6cab-4009-aaeb-61122086c07a.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_0f62ac82-5c40-4ca3-9506-cd6fbf0ee44f.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_d902f017-d0b6-412f-a6e8-5850f1b318f3.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_91f61570-e3bf-4ce3-90ed-abca13c47587.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/large_0b0a3677-c06e-4abf-a156-2824ea22cfe7.webp"
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_e27ea17f-762e-4afa-ab76-e86c4f879c3f.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_795bf46c-d0fa-4ea7-9810-b364505c722f.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_6b624130-7243-4985-8e23-12598863cde8.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_31790dd8-5d76-489a-9cbc-7b511f62b7cc.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_fe35639e-dcd9-4759-9b01-9beff093699e.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_8c175033-6934-4043-a14c-b6cfe61e2234.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_61be2c59-145b-4064-85d2-d4b7414c0f61.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_57535dca-73b8-4cc0-9067-fd41f9627c34.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_c7516296-77ea-4286-b9c0-1c03a9653c40.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58265/large_483b2717-f7a0-4364-9ff5-803674fbc198.webp"
     ],
-    "scraped_at": "2026-11-13T10:25:21.036414+00:00",
+    "scraped_at": "2026-11-14T09:42:51.424156+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:58227_pdf_2f9b3be6.pdf",
-        "data/documents/bidbit/bidbit:58227_pdf_d78e4f80.pdf",
-        "data/documents/bidbit/bidbit:58227_pdf_1aebb44c.pdf"
-      ]
+        "data/documents/bidbit/bidbit:58265_pdf_1e9ee49f.pdf",
+        "data/documents/bidbit/bidbit:58265_pdf_9e4209c7.pdf",
+        "data/documents/bidbit/bidbit:58265_pdf_c89a35ff.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "atego",
+        "min_usd": 25000,
+        "max_usd": 60000,
+        "typical_usd": 40000,
+        "category": "vehicles"
+      }
     },
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "bidbit:4350849",
+    "id": "bidbit:54909557",
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/profile/bidbit/d3c7eb42-6093-4c01-b3a9-d9433a442bf2",
     "title": "El juego es vida",
@@ -101,63 +109,13 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:25:29.039729+00:00",
+    "scraped_at": "2026-11-14T09:42:59.428006+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:4350849_pdf_397fbff0.pdf",
-        "data/documents/bidbit/bidbit:4350849_pdf_35553195.pdf",
-        "data/documents/bidbit/bidbit:4350849_pdf_35553195.pdf"
+        "data/documents/bidbit/bidbit:54909557_pdf_397fbff0.pdf",
+        "data/documents/bidbit/bidbit:54909557_pdf_35553195.pdf",
+        "data/documents/bidbit/bidbit:54909557_pdf_35553195.pdf"
       ]
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "bidbit:1",
-    "source": "bidbit",
-    "source_url": "https://www.bidbit.ar/profile/bidbit/1a9415cf-b3cd-48b3-8463-96fdf1af34e8",
-    "title": "Subasta de PickUp | Renovación de Flota",
-    "description": "🚀 Oferta de Forma Responsable: En BidBit, promovemos subastas transparentes y responsables. Toda oferta realizada es vinculante e irrevocable. El incumplimiento por parte del comprador implica penalidades como la pérdida total de la garantía de cumplimiento y otros pagos realizados, la inhabilitación para futuras subastas, el reporte de la deuda a Veraz y el cobro de los gastos generados. 📝 Participar implica aceptar plenamente los Términos y Condiciones . Gracias por participar.",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-12T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": "Vivo"
-    },
-    "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/57719/medium_2a7251b0-d4ee-423f-a581-5102f6488028.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/57722/medium_4310507e-4b23-4ac1-9eef-05d212635dd0.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/57724/medium_d0012047-b508-4dfd-a84a-e2ddf23a8c44.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/57737/medium_ebfb8e7e-bd85-4967-9801-5997e3563301.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58227/medium_272a1001-1d1e-40fa-bff7-59e498bbdcb5.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58232/medium_e92b5f5d-766a-4dce-9632-446fab139766.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/medium_a1ca9ae2-b2b4-41d9-9589-71415d6683be.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58235/medium_c3004873-f160-48ae-b394-7e82524ed78a.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/medium_1d8a8b8b-29cd-4248-ae87-7e137ce9913f.webp",
-      "https://storage.googleapis.com/bidbit_pages/home/cace.svg"
-    ],
-    "scraped_at": "2026-11-13T10:25:37.043850+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/bidbit/bidbit:1_pdf_2f9b3be6.pdf",
-        "data/documents/bidbit/bidbit:1_pdf_d78e4f80.pdf",
-        "data/documents/bidbit/bidbit:1_pdf_d78e4f80.pdf"
-      ],
-      "is_opportunity": true,
-      "opportunity_reason": "fleet",
-      "premium_info": {
-        "is_premium": true,
-        "premium_type": "fleet",
-        "premium_types": [
-          "fleet"
-        ],
-        "confidence": 0.6,
-        "why_premium": "Detected: fleet"
-      }
     },
     "lots": [],
     "lot_count": 0
@@ -186,7 +144,7 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:25:45.048251+00:00",
+    "scraped_at": "2026-11-14T09:43:07.431440+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:0_pdf_5da38242.pdf",
@@ -225,12 +183,12 @@
       "city": "Vivo"
     },
     "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/medium_b9109c9d-ddc7-4ec3-bf11-420e0900c645.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58837/medium_446d5cab-dd59-4d80-b748-8eea8bed9bcc.webp",
       "https://storage.googleapis.com/bidbit_pages/home/cace.svg",
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:25:53.109646+00:00",
+    "scraped_at": "2026-11-14T09:43:15.436029+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:01_pdf_2fe809a6.pdf",
@@ -271,9 +229,9 @@
     },
     "images": [
       "https://storage.googleapis.com/bidbit-documents/lots/58254/medium_cd3b8414-0853-4370-9d67-7903dffd5ce1.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58838/medium_57966f67-af95-4e24-b8d5-42a10587bb1a.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/54844/medium_ab169c9c-f87e-4d93-b2e8-6f491c5eef45.webp?b=CA9*4D%M4TIT.TocMcxv",
       "https://storage.googleapis.com/bidbit-documents/lots/55555/medium_ef20984d-79ca-4139-8be8-0237c6ab5635.webp?b=C5HoE~00~B_3BE0000?v",
-      "https://storage.googleapis.com/bidbit-documents/lots/54820/medium_835d023d-2110-4aed-ba59-450af208a88d.webp?b=C3DJL@Ou00000URO00~W",
       "https://storage.googleapis.com/bidbit-documents/lots/55899/medium_0f520ef7-f89e-4942-8bdc-696b931ab717.webp?b=C3AJ{30000%$TgDi00~q",
       "https://storage.googleapis.com/bidbit-documents/lots/57684/medium_3b57a365-1d84-4ab4-a47a-1970fa3136ee.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/57767/medium_c36d7bf3-fd9d-4baf-b83f-59be87c04d8a.webp",
@@ -281,7 +239,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/57869/medium_0922482e-1dae-4769-96b5-71a1a1971868.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/55574/medium_54385e91-63bb-476e-b86b-353118ef5e21.webp?b=C7KK=?0000?c000000~q"
     ],
-    "scraped_at": "2026-11-13T10:26:01.112671+00:00",
+    "scraped_at": "2026-11-14T09:43:23.439637+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:7_pdf_1e9ee49f.pdf",
@@ -304,7 +262,7 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:2133231",
+    "id": "bidbit:54786094",
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/profile/bidbit/c6cd61d8-20e4-40c0-8a0e-80025795bdf6",
     "title": "Camion IVECO | Noviembre",
@@ -325,12 +283,12 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:26:09.343338+00:00",
+    "scraped_at": "2026-11-14T09:43:31.443406+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:2133231_pdf_e2db486d.pdf",
-        "data/documents/bidbit/bidbit:2133231_pdf_0111b1d6.pdf",
-        "data/documents/bidbit/bidbit:2133231_pdf_0111b1d6.pdf"
+        "data/documents/bidbit/bidbit:54786094_pdf_e2db486d.pdf",
+        "data/documents/bidbit/bidbit:54786094_pdf_0111b1d6.pdf",
+        "data/documents/bidbit/bidbit:54786094_pdf_0111b1d6.pdf"
       ],
       "market_data": {
         "source": "market_reference",
@@ -345,7 +303,7 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:43792839",
+    "id": "bidbit:55150825",
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/profile/bidbit/ac75c617-65fb-4c75-8b61-f0c4c0faf8a6",
     "title": "Ejecución Prendaria Noviembre Supervielle",
@@ -372,12 +330,12 @@
       "https://storage.googleapis.com/bidbit-documents/lots/57923/medium_cdc29acd-0002-4ed3-903b-ebd8d48ed7d6.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/57688/medium_0851fd82-e0f3-4747-8605-beb0ca6545a4.webp"
     ],
-    "scraped_at": "2026-11-13T10:26:17.373568+00:00",
+    "scraped_at": "2026-11-14T09:43:39.447622+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:43792839_pdf_04f30547.pdf",
-        "data/documents/bidbit/bidbit:43792839_pdf_611d09d9.pdf",
-        "data/documents/bidbit/bidbit:43792839_pdf_611d09d9.pdf"
+        "data/documents/bidbit/bidbit:55150825_pdf_04f30547.pdf",
+        "data/documents/bidbit/bidbit:55150825_pdf_611d09d9.pdf",
+        "data/documents/bidbit/bidbit:55150825_pdf_611d09d9.pdf"
       ],
       "premium_info": {
         "is_premium": true,
@@ -399,7 +357,7 @@
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/profile/bidbit/6ccfbd10-427a-4f08-962b-cdf1ddea23c1",
     "title": "Volkswagen Meteor",
-    "description": "",
+    "description": "🚀 Oferta de Forma Responsable: En BidBit, promovemos subastas transparentes y responsables. Toda oferta realizada es vinculante e irrevocable. El incumplimiento por parte del comprador implica penalidades como la pérdida total de la garantía de cumplimiento y otros pagos realizados, la inhabilitación para futuras subastas, el reporte de la deuda a Veraz y el cobro de los gastos generados. 📝 Participar implica aceptar plenamente los Términos y Condiciones . Gracias por participar.",
     "category": "real_estate",
     "base_price": 0.0,
     "currency": "ARS",
@@ -408,7 +366,7 @@
     "ends_at": null,
     "location": {
       "province": "Buenos Aires",
-      "city": ""
+      "city": "Vivo"
     },
     "images": [
       "https://storage.googleapis.com/bidbit-documents/lots/58298/medium_64c0ecf9-1be0-40b0-abc1-954bf0b51f7d.webp",
@@ -417,13 +375,108 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:26:25.534029+00:00",
+    "scraped_at": "2026-11-14T09:43:47.452022+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:6_pdf_4a7533e6.pdf",
-        "data/documents/bidbit/bidbit:6_pdf_1aebb44c.pdf",
-        "data/documents/bidbit/bidbit:6_condition_report_68ca363d.pdf"
+        "data/documents/bidbit/bidbit:6_pdf_38360ab5.pdf",
+        "data/documents/bidbit/bidbit:6_pdf_38360ab5.pdf"
       ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "bidbit:75117133",
+    "source": "bidbit",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/aed367ae-f26b-4df2-931c-386683b16fcc",
+    "title": "PickUp Hilux y Amarok",
+    "description": "🚀 Oferta de Forma Responsable: En BidBit, promovemos subastas transparentes y responsables.  Toda oferta realizada es vinculante e irrevocable. El incumplimiento por parte del comprador implica penalidades como la pérdida total de la garantía de cumplimiento y otros pagos realizados, la inhabilitación para futuras subastas, el reporte de la deuda a Veraz y el cobro de los gastos generados. 📝 Participar implica aceptar plenamente los Términos y Condiciones . Gracias por participar.",
+    "category": "real_estate",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-18T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://storage.googleapis.com/bidbit-documents/lots/58566/medium_269ca750-2a03-4de2-807b-849eb5c1cb2a.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58568/medium_a93bc55e-acb8-4760-b7e4-f528170d1132.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58575/medium_ed7ed198-837c-4be7-a6a8-9e160d2949d4.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58574/medium_9ed20b23-fc7f-4276-8c32-4eea557d9946.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58567/medium_bac4bd03-e79b-495b-840c-661348d888b0.webp",
+      "https://storage.googleapis.com/bidbit_pages/home/cace.svg",
+      "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
+      "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
+    ],
+    "scraped_at": "2026-11-14T09:43:55.817115+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/bidbit/bidbit:75117133_pdf_ea23bf61.pdf",
+        "data/documents/bidbit/bidbit:75117133_pdf_1aebb44c.pdf",
+        "data/documents/bidbit/bidbit:75117133_condition_report_68ca363d.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "hilux",
+        "min_usd": 15000,
+        "max_usd": 55000,
+        "typical_usd": 30000,
+        "category": "vehicles"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "bidbit:1",
+    "source": "bidbit",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/1a9415cf-b3cd-48b3-8463-96fdf1af34e8",
+    "title": "Subasta de PickUp | Renovación de Flota",
+    "description": "🚀 Oferta de Forma Responsable: En BidBit, promovemos subastas transparentes y responsables. Toda oferta realizada es vinculante e irrevocable. El incumplimiento por parte del comprador implica penalidades como la pérdida total de la garantía de cumplimiento y otros pagos realizados, la inhabilitación para futuras subastas, el reporte de la deuda a Veraz y el cobro de los gastos generados. 📝 Participar implica aceptar plenamente los Términos y Condiciones . Gracias por participar.",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-11-12T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Vivo"
+    },
+    "images": [
+      "https://storage.googleapis.com/bidbit-documents/lots/57719/medium_2a7251b0-d4ee-423f-a581-5102f6488028.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57722/medium_4310507e-4b23-4ac1-9eef-05d212635dd0.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57724/medium_d0012047-b508-4dfd-a84a-e2ddf23a8c44.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57737/medium_ebfb8e7e-bd85-4967-9801-5997e3563301.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58227/medium_272a1001-1d1e-40fa-bff7-59e498bbdcb5.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58232/medium_e92b5f5d-766a-4dce-9632-446fab139766.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58233/medium_a1ca9ae2-b2b4-41d9-9589-71415d6683be.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58235/medium_c3004873-f160-48ae-b394-7e82524ed78a.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58238/medium_1d8a8b8b-29cd-4248-ae87-7e137ce9913f.webp",
+      "https://storage.googleapis.com/bidbit_pages/home/cace.svg"
+    ],
+    "scraped_at": "2026-11-14T09:44:03.821547+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/bidbit/bidbit:1_pdf_2f9b3be6.pdf",
+        "data/documents/bidbit/bidbit:1_pdf_d78e4f80.pdf",
+        "data/documents/bidbit/bidbit:1_pdf_d78e4f80.pdf"
+      ],
+      "is_opportunity": true,
+      "opportunity_reason": "fleet",
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "fleet",
+        "premium_types": [
+          "fleet"
+        ],
+        "confidence": 0.6,
+        "why_premium": "Detected: fleet"
+      }
     },
     "lots": [],
     "lot_count": 0
@@ -451,7 +504,7 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:26:33.538229+00:00",
+    "scraped_at": "2026-11-14T09:44:11.825705+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:2_pdf_89c2fc2b.pdf",
@@ -498,7 +551,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58167/medium_8bf7b98b-02dc-42b1-93bc-ce0869faf2a9.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58133/medium_007bee87-d522-4bc0-9864-cbe1c4145183.webp"
     ],
-    "scraped_at": "2026-11-13T10:26:41.542184+00:00",
+    "scraped_at": "2026-11-14T09:44:19.949154+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:22_pdf_0b9f956e.pdf",
@@ -521,7 +574,7 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:36953393",
+    "id": "bidbit:12497007",
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/profile/bidbit/bcb86621-ba6f-4c84-91ea-d6b334ddd9dd",
     "title": "Ejecución Prendaria Octubre",
@@ -548,12 +601,12 @@
       "https://storage.googleapis.com/bidbit-documents/lots/55577/medium_363916e3-4d09-49d8-8d27-32ded4fd0c01.webp?b=C6F?2~0000t6_N4m8^.9",
       "https://storage.googleapis.com/bidbit-documents/lots/56645/medium_3a290e99-5ef5-4d3f-8cbe-e6e76d6ea403.webp"
     ],
-    "scraped_at": "2026-11-13T10:26:49.546458+00:00",
+    "scraped_at": "2026-11-14T09:44:27.953083+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:36953393_pdf_85669849.pdf",
-        "data/documents/bidbit/bidbit:36953393_pdf_ee8b075d.pdf",
-        "data/documents/bidbit/bidbit:36953393_pdf_ee8b075d.pdf"
+        "data/documents/bidbit/bidbit:12497007_pdf_85669849.pdf",
+        "data/documents/bidbit/bidbit:12497007_pdf_ee8b075d.pdf",
+        "data/documents/bidbit/bidbit:12497007_pdf_ee8b075d.pdf"
       ],
       "premium_info": {
         "is_premium": true,
@@ -571,7 +624,7 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:5757313",
+    "id": "bidbit:96496167",
     "source": "bidbit",
     "source_url": "https://www.bidbit.ar/profile/bidbit/f7a4dafe-f351-43ba-b707-3a2c137f8da5",
     "title": "Motores con corazón: Camisetas que dejan huella",
@@ -595,12 +648,12 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:26:57.617914+00:00",
+    "scraped_at": "2026-11-14T09:44:35.957427+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:5757313_pdf_0e842703.pdf",
-        "data/documents/bidbit/bidbit:5757313_pdf_714fb95f.pdf",
-        "data/documents/bidbit/bidbit:5757313_pdf_714fb95f.pdf"
+        "data/documents/bidbit/bidbit:96496167_pdf_0e842703.pdf",
+        "data/documents/bidbit/bidbit:96496167_pdf_714fb95f.pdf",
+        "data/documents/bidbit/bidbit:96496167_pdf_714fb95f.pdf"
       ]
     },
     "lots": [],
@@ -628,7 +681,7 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:27:05.621361+00:00",
+    "scraped_at": "2026-11-14T09:44:43.962245+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:80_pdf_a34317bb.pdf",
@@ -667,7 +720,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58337/medium_9db955d6-53a2-409e-896b-c10b318a7654.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58339/medium_05bdbdd2-08f4-4cd8-b25d-14a0c9bf6dd5.webp?b=B8DvZh~V00NGkX%g"
     ],
-    "scraped_at": "2026-11-13T10:27:13.624223+00:00",
+    "scraped_at": "2026-11-14T09:44:51.964998+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:69_pdf_59277805.pdf",
@@ -690,11 +743,11 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:58233",
+    "id": "bidbit:58223",
     "source": "bidbit",
-    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58233",
-    "title": "FORD NUEVA RANGER CS 4X4 XL...",
-    "description": "Unidad pick-up que a simple vista evidencia un estado general con marcado desgaste propio de su uso operativo. Su carrocería exhibe detalles estéticos y abolladuras en diversos paneles que ameritan reacondicionamiento. El habitáculo y vano motor se observan completos en su configuración visual básica.",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58223",
+    "title": "FORD ECOSPORT SE 1.5L MT N ...",
+    "description": "Unidad que a simple vista presenta un aparente buen estado general, conservando una adecuada línea visual en su carrocería. El habitáculo exhibe una conservación acorde al uso habitual. Se observan detalles estéticos exteriores y marcas superficiales acordes a su kilometraje y antigüedad.",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -706,30 +759,108 @@
       "city": "Google Maps Estado"
     },
     "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_30fa65d4-67a3-44c9-8b18-d03bee3f90a8.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_0ebbcd37-b5bd-4f86-88cb-d064a28fce58.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_7a5596b0-4330-45a3-9d0c-2db0391ef08f.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_e99f19e9-a7a4-4bc5-9f79-6d4460726c19.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_d1b66883-e376-44d3-96bb-098762e89fa9.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_3f9d04f2-b75a-4ef2-b372-e57e6ea5d999.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_aeeeb869-7142-42ac-bc96-ea69eee7e31d.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_3e3938a7-e252-4027-be57-93b6489baba3.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_e6bac8b5-4a83-46f7-8abd-60a5eb13b6df.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58233/large_5a6dec8d-1b71-46b8-9abf-305a881f0a65.webp"
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_aab614c0-4dac-4c24-9a7c-2208c694f2a5.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_935b0f1e-13aa-470e-9caf-7576257496cc.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_a9495bf2-4075-4252-87f3-2acb83fa7779.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_2095f76d-0932-48d6-aa97-54a44619c2c4.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_6f423669-e226-4003-873d-9ee78f5d6305.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_7fde5766-85fa-4ed8-a91e-b24fdcaf2de8.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_178b933d-5a52-4cd3-b84a-fb2a33a2eafa.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_b9e064d4-6bc9-4f29-96b8-6a1886359c33.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_10f688b8-b3f7-457b-bcb2-1bdd89edab18.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58223/large_b3cd0f31-f45b-45a6-873e-4e8c82c6e7b5.webp"
     ],
-    "scraped_at": "2026-11-13T10:27:21.646197+00:00",
+    "scraped_at": "2026-11-14T09:45:00.232268+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:58233_pdf_2f9b3be6.pdf",
-        "data/documents/bidbit/bidbit:58233_pdf_d78e4f80.pdf",
-        "data/documents/bidbit/bidbit:58233_pdf_1aebb44c.pdf"
+        "data/documents/bidbit/bidbit:58223_pdf_1e9ee49f.pdf",
+        "data/documents/bidbit/bidbit:58223_pdf_9e4209c7.pdf",
+        "data/documents/bidbit/bidbit:58223_pdf_50b4cea0.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "bidbit:58102",
+    "source": "bidbit",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58102",
+    "title": "FIAT CRONOS DRIVE 1.3 GSE B...",
+    "description": "Unidad que a simple vista presenta una línea general en aparente adecuada conservación visual. Su carrocería exhibe detalles estéticos leves y suciedad compatibles con el uso habitual. El habitáculo se aprecia completo y en aparente buen estado general de presentación.",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Google Maps Estado"
+    },
+    "images": [
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_b290d46c-04b5-4a2b-817b-354e9c824887.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_c6cb13a9-20ef-44bb-a525-f997772a9e3f.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_55f1fbf5-e813-4193-9462-ec7412c631b2.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_aca748fb-a2e3-468b-b352-d18639bf610f.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_1d28ee10-30ef-4bc5-8c2e-6c4ba3c55989.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_b93f9993-ecbd-4296-ab4e-0ae0d9bfb65b.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_49c074e5-2e6d-4923-9d9b-d4601a5a942e.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_51d364d7-778b-4f6d-8aec-ee7a96c84686.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_606f6019-0289-4539-940d-e00dff51e8a4.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/58102/large_70d45818-52b9-4190-ba13-14a774e54577.webp"
+    ],
+    "scraped_at": "2026-11-14T09:45:08.485697+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/bidbit/bidbit:58102_pdf_1e9ee49f.pdf",
+        "data/documents/bidbit/bidbit:58102_pdf_9e4209c7.pdf",
+        "data/documents/bidbit/bidbit:58102_pdf_1c056155.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "bidbit:58621",
+    "source": "bidbit",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58621",
+    "title": "VOLKSWAGEN AMAROK DC 2.0L T...",
+    "description": "Pick-up que presenta un estado general de conservación acorde a su uso y kilometraje. La carrocería exhibe detalles estéticos de pintura y abolladuras en diferentes paneles, sumado a daño en un retrovisor.",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "Buenos Aires",
+      "city": "Google Maps Estado"
+    },
+    "images": [
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_db4de4e5-ffc1-49b3-9c16-9043f6e46793.webp?b=C5Cj30I8009F00xu~pn$",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_6da4cc61-c681-46fe-8c1d-14310e241a4c.webp?b=C9BM}ao$~p8_-=01-:a}",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_491a9f1d-2c61-44b9-a2ef-34143e1a8fd2.webp?b=CFDvf$00-o.9~p00~q9F",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_926aef42-129a-4e2b-a74d-aed3f43b9358.webp?b=C4B:st4.00bX~U4.4nIU",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_3f180575-2920-4cba-ab8b-4faec1923144.webp?b=C6BWiC.A4:0000t8tm?b",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_001f0224-8372-443a-a779-1075c1df2bac.webp?b=CNE3PL_4xa-;Mwwas7Rj",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_feff1b84-5ce2-4d94-b03f-7523127a7b31.webp?b=CWE3F]~p-;t84n9FM{t7",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_effec550-fd03-4f5d-96e4-e3022dc3dce9.webp?b=C9D,Ax01?G4TnK4._NNG",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_c255ecb6-72f9-4ac9-94f3-7b4da9cee737.webp?b=CBG+O5~p$~~px^IT$%Ri",
+      "https://storage.googleapis.com/bidbit-documents/lots/58621/large_02c6281c-8a63-49d3-8eab-134bdc31aea2.webp?b=ChFY+D~q%MWCM_t7%Mt7"
+    ],
+    "scraped_at": "2026-11-14T09:45:16.763565+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/bidbit/bidbit:58621_pdf_1e9ee49f.pdf",
+        "data/documents/bidbit/bidbit:58621_pdf_9e4209c7.pdf",
+        "data/documents/bidbit/bidbit:58621_pdf_78c56ef7.pdf"
       ],
       "market_data": {
         "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
+        "keyword_match": "amarok",
+        "min_usd": 18000,
+        "max_usd": 55000,
+        "typical_usd": 32000,
         "category": "vehicles"
       }
     },
@@ -737,45 +868,12 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:58236",
+    "id": "bidbit:57993",
     "source": "bidbit",
-    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58236",
-    "title": "FORD NUEVA RANGER CS 4X4 XL...",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/58236/medium_9e6a212a-cb02-48e6-97e9-7a45b194c0e9.webp"
-    ],
-    "scraped_at": "2026-11-13T10:25:01.550082+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
-        "category": "vehicles"
-      }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "bidbit:58238",
-    "source": "bidbit",
-    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58238",
-    "title": "FORD RANGER DC 4X4 XL 2.2L ...",
-    "description": "Unidad que a simple vista presenta un aparente buen estado general de conservación, con líneas exteriores e interiores acordes a su uso. Se aprecian detalles estéticos menores en paneles de carrocería y marcas de trabajo en la caja de carga. Una pick-up que visualmente conserva una presencia adecuada y funcional para su segmento.",
-    "category": "vehicles",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/57993",
+    "title": "PEUGEOT 208 ALLURE MT AM26 ...",
+    "description": "Unidad que a simple vista presenta un aparente buen estado estético general y adecuada conservación de carrocería. Los paneles exteriores exhiben una correcta alineación visual, observándose únicamente un detalle localizado en la tulipa trasera derecha. El vano motor y el compartimiento de auxilio se aprecian completos y en adecuado orden preliminar.",
+    "category": "real_estate",
     "base_price": 0.0,
     "currency": "ARS",
     "status": "published",
@@ -786,30 +884,30 @@
       "city": "Google Maps Estado"
     },
     "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_692d6e9d-717e-4274-ac8a-9f9c964f4cac.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_e170a510-8c70-40c1-b47c-c4458dcb7ff7.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_ab53a63e-8587-4a59-820b-b20c7d5429ce.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_1c7dd9b8-54ab-4bae-814e-f48365dba5c6.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_ef2cd9fb-0689-4f4c-a560-547f586a494e.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_b9a9af50-ce63-4712-9757-4c75cccde873.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_3e3123be-d924-4d40-84ae-ba0d3b2d089a.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_11a68457-53d1-4c8b-8c57-f978b9408e43.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_cb44fd6a-9ff8-47be-aaa0-96a001be0f9e.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58238/large_e94faeee-1afc-406c-b09a-6f6746d0f4be.webp"
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_cf2e992d-ce2a-45e8-a14e-d00958d0d94e.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_4cd8f8ab-987d-4cea-a721-d4f1671dede1.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_0de37553-00c7-4ddc-a936-879ef53bc601.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_78399bfb-65f1-4c25-8413-a981da770c36.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_fceb70b3-3c20-4b49-9bcf-900cdc198ac6.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_eff3d662-4a85-4113-9a20-e0ee96428e8b.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_26135840-5251-40c6-8c72-ae5aeb4c2def.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_5da5b8fb-e0c4-4cab-96ac-362700fd9ff7.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_1b7f5603-7535-4f64-a131-be2646fdb769.webp",
+      "https://storage.googleapis.com/bidbit-documents/lots/57993/large_2bbabc68-0d2c-42a3-a949-7eb201cb8c74.webp"
     ],
-    "scraped_at": "2026-11-13T10:27:32.001645+00:00",
+    "scraped_at": "2026-11-14T09:45:25.035258+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:58238_pdf_2f9b3be6.pdf",
-        "data/documents/bidbit/bidbit:58238_pdf_d78e4f80.pdf",
-        "data/documents/bidbit/bidbit:58238_pdf_1aebb44c.pdf"
+        "data/documents/bidbit/bidbit:57993_pdf_1e9ee49f.pdf",
+        "data/documents/bidbit/bidbit:57993_pdf_9e4209c7.pdf",
+        "data/documents/bidbit/bidbit:57993_pdf_82decf70.pdf"
       ],
       "market_data": {
         "source": "market_reference",
-        "keyword_match": "ranger",
-        "min_usd": 12000,
-        "max_usd": 50000,
-        "typical_usd": 28000,
+        "keyword_match": "208",
+        "min_usd": 8000,
+        "max_usd": 25000,
+        "typical_usd": 14000,
         "category": "vehicles"
       }
     },
@@ -817,11 +915,11 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:58667",
+    "id": "bidbit:56281",
     "source": "bidbit",
-    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/58667",
-    "title": "FOTON AUMAN ESTM 270 2024 A...",
-    "description": "Unidad que a simple vista exhibe una línea general y cabina en aparente adecuado estado de conservación. Se aprecian detalles estéticos y signos de desgaste superficial acordes a su uso, principalmente en plásticos interiores y componentes del chasis. El conjunto mecánico y estructural se observa visualmente alineado y sin deformaciones mayores evidentes en los registros disponibles.",
+    "source_url": "https://www.bidbit.ar/profile/bidbit/lots/view/56281",
+    "title": "JEEP RENEGADE LONGITUDE T27...",
+    "description": "El vehículo presenta un estado exterior homogéneo y bien conservado en todas sus vistas. La carrocería, pintura, paneles y llantas no exhiben abolladuras ni deterioros evidentes. Los componentes ópticos y las superficies vidriadas se observan íntegros y en buenas condiciones.",
     "category": "vehicles",
     "base_price": 0.0,
     "currency": "ARS",
@@ -833,23 +931,23 @@
       "city": "Google Maps Estado"
     },
     "images": [
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_fc8f35b0-9dee-4bb1-b8ec-c00a4f2bfa7c.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_2d4bcc00-8d97-46f3-b3b8-25064263150a.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_3ac55ca6-e7cc-404f-a7d9-7393c11a92e6.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_1f519996-b6d6-459a-a62a-bb2510bf61f6.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_6fc21ccd-d3d1-4f5d-b65e-5993640097cd.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_aaa2a481-8b08-47f2-9d2b-39fd4dde761f.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_98cf90f5-115a-4347-a0e9-0b5fbe790d0a.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_9f9c2bee-a87c-4a88-814e-3744564bfae2.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_f174bc55-6101-4517-8691-e9ebfae52458.webp",
-      "https://storage.googleapis.com/bidbit-documents/lots/58667/large_6e0f34e4-64fe-402d-9ce1-c76256daa833.webp"
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_553dbf9a-7a25-40cf-b0ab-143444ecec51.webp?b=CFEx#B9a~C%19~%2IoIo",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_098d2621-c636-4258-91f8-2a59c28f77da.webp?b=CRF=L0E1~Vxb-=t7NHt7",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_7626b1dd-208c-4fd9-b78a-1127e3fdf1da.webp?b=CFCiUN9F=|%M_4M_E2%M",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_3d13a398-bbf2-48ee-9586-4a342d16225b.webp?b=CNFF5ER%^+%3~XRjWXxb",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_2d07fa53-5518-4920-8f4f-30245ab04ea2.webp?b=CPC$Zi%2~W%2-=WAt7of",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_f2d65b30-1c54-4460-a241-0bfd283c2613.webp?b=COE_]u-p~VjZ?cNGI:Rk",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_f25082dc-2375-452d-a879-141339e17e83.webp?b=CLFOfk?H~CoftTogNGxa",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_5d345e6b-fcc7-4193-bc2e-fccf2ba451a6.webp?b=CBE_]wjG~WxuA2xuxbof",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_3f2e8e2c-9d54-4f0f-9797-a0e4acfcc83a.webp?b=C8Eefd=}aexu~XIoWBt7",
+      "https://storage.googleapis.com/bidbit-documents/lots/56281/large_b7a0e42c-9980-4d86-9a49-1b67732330a4.webp?b=COF#wR00~Wt8Ipxtogof"
     ],
-    "scraped_at": "2026-11-13T10:27:40.020561+00:00",
+    "scraped_at": "2026-11-14T09:45:33.284969+00:00",
     "extra": {
       "documents": [
-        "data/documents/bidbit/bidbit:58667_pdf_2fe809a6.pdf",
-        "data/documents/bidbit/bidbit:58667_pdf_37b0e4df.pdf",
-        "data/documents/bidbit/bidbit:58667_pdf_1aebb44c.pdf"
+        "data/documents/bidbit/bidbit:56281_pdf_1e9ee49f.pdf",
+        "data/documents/bidbit/bidbit:56281_pdf_9e4209c7.pdf",
+        "data/documents/bidbit/bidbit:56281_pdf_4b3251af.pdf"
       ]
     },
     "lots": [],
@@ -883,12 +981,12 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58298/large_5d36522c-b6e1-4c4b-a66d-719f8d17823b.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58298/large_d8395864-815e-41df-b89f-7ac5013701b6.webp"
     ],
-    "scraped_at": "2026-11-13T10:27:48.190041+00:00",
+    "scraped_at": "2026-11-14T09:45:41.563716+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58298_pdf_4a7533e6.pdf",
-        "data/documents/bidbit/bidbit:58298_pdf_1aebb44c.pdf",
-        "data/documents/bidbit/bidbit:58298_condition_report_68ca363d.pdf"
+        "data/documents/bidbit/bidbit:58298_pdf_38360ab5.pdf",
+        "data/documents/bidbit/bidbit:58298_pdf_d49ad539.pdf"
       ]
     },
     "lots": [],
@@ -922,12 +1020,12 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58299/large_60d2485e-744d-425a-b531-41e41581b51d.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58299/large_e1c7b550-2aba-4256-85d6-e1c08d9e96fa.webp"
     ],
-    "scraped_at": "2026-11-13T10:27:56.364778+00:00",
+    "scraped_at": "2026-11-14T09:45:49.812930+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58299_pdf_4a7533e6.pdf",
-        "data/documents/bidbit/bidbit:58299_pdf_1aebb44c.pdf",
-        "data/documents/bidbit/bidbit:58299_condition_report_68ca363d.pdf"
+        "data/documents/bidbit/bidbit:58299_pdf_38360ab5.pdf",
+        "data/documents/bidbit/bidbit:58299_pdf_45917d59.pdf"
       ],
       "market_data": {
         "source": "market_reference",
@@ -969,7 +1067,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58770/large_9959b5d9-a2a0-4fcc-9e4b-4dd07e6c8fe4.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58770/large_6cfdfd18-5ee0-4e0b-a6df-4bfc37425cdc.webp"
     ],
-    "scraped_at": "2026-11-13T10:28:04.559395+00:00",
+    "scraped_at": "2026-11-14T09:45:58.074602+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58770_pdf_e2db486d.pdf",
@@ -1016,7 +1114,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58664/large_74aa18f7-2910-4f93-8f76-d92799f26a08.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58664/large_bea263f3-22cc-4f31-b3ee-a31a9d5c47a9.webp"
     ],
-    "scraped_at": "2026-11-13T10:28:12.581694+00:00",
+    "scraped_at": "2026-11-14T09:46:06.111465+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58664_pdf_5da38242.pdf",
@@ -1055,7 +1153,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58764/large_ff51e707-52e3-4566-a627-d025b43824bd.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58764/large_aaaf1559-db21-4b68-be46-d022e257e46d.webp"
     ],
-    "scraped_at": "2026-11-13T10:28:20.602556+00:00",
+    "scraped_at": "2026-11-14T09:46:14.143825+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58764_pdf_5da38242.pdf",
@@ -1094,7 +1192,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58765/large_b5cb936a-2f06-4d82-a542-58640d509f55.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58765/large_913edaaa-cd78-4908-bb1b-204607d63257.webp"
     ],
-    "scraped_at": "2026-11-13T10:28:28.620613+00:00",
+    "scraped_at": "2026-11-14T09:46:22.176491+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58765_pdf_5da38242.pdf",
@@ -1133,7 +1231,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58179/sq_small_a6bdfa63-3719-4ee4-afab-00e3b0487c49.webp",
       "https://storage.googleapis.com/bidbit_pages/home/cace.svg"
     ],
-    "scraped_at": "2026-11-13T10:28:36.641333+00:00",
+    "scraped_at": "2026-11-14T09:46:30.210645+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58177_pdf_0e842703.pdf",
@@ -1172,7 +1270,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58179/sq_small_9ec5275e-6a3d-40d2-b885-6e2eb7880cd2.webp",
       "https://storage.googleapis.com/bidbit-documents/lots/58179/sq_small_8507cfa4-b661-4023-8541-a5ac33c9886a.webp"
     ],
-    "scraped_at": "2026-11-13T10:28:44.659522+00:00",
+    "scraped_at": "2026-11-14T09:46:38.244455+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58179_pdf_0e842703.pdf",
@@ -1211,7 +1309,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58415/sq_small_5fc4a27c-0a9d-4bba-87c7-9359910a9aa5.webp",
       "https://storage.googleapis.com/bidbit-documents/categorized/auctioneers/5ebacbd4-5104-43ae-9f87-da2a3355e006/sq_small_f09645d3-c7e7-4191-aec1-6b7d9d00f0a2.webp?b=UNHL6W$}56SiRfbI%MjY_MocwvoLNFWXn+af"
     ],
-    "scraped_at": "2026-11-13T10:28:52.679353+00:00",
+    "scraped_at": "2026-11-14T09:46:46.278194+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58415_pdf_397fbff0.pdf",
@@ -1250,7 +1348,7 @@
       "https://storage.googleapis.com/bidbit-documents/lots/58418/sq_small_de1aeb88-3151-4a97-9805-17bff53ab954.webp",
       "https://storage.googleapis.com/bidbit_pages/home/cace.svg"
     ],
-    "scraped_at": "2026-11-13T10:29:00.699719+00:00",
+    "scraped_at": "2026-11-14T09:46:54.313487+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58416_pdf_397fbff0.pdf",
@@ -1289,7 +1387,7 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:29:08.721522+00:00",
+    "scraped_at": "2026-11-14T09:47:02.349088+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58417_pdf_397fbff0.pdf",
@@ -1328,7 +1426,7 @@
       "https://storage.googleapis.com/bidbit_pages/home/afip-data-fiscal.jpg",
       "https://storage.googleapis.com/bidbit_pages/home/sellos_iram.png"
     ],
-    "scraped_at": "2026-11-13T10:29:16.741980+00:00",
+    "scraped_at": "2026-11-14T09:47:10.382094+00:00",
     "extra": {
       "documents": [
         "data/documents/bidbit/bidbit:58418_pdf_397fbff0.pdf",
@@ -1340,7 +1438,7 @@
     "lot_count": 0
   },
   {
-    "id": "bidbit:18029145",
+    "id": "bidbit:15079637",
     "source": "bidbit",
     "source_url": "https://maps.app.goo.gl/LgvQdJLBn33eHnNd6",
     "title": "Avellaneda",
@@ -1358,13 +1456,13 @@
     "images": [
       "https://storage.googleapis.com/bidbit_pages/deposits/picture_avellaneda.jpg"
     ],
-    "scraped_at": "2026-11-13T10:29:19.519782+00:00",
+    "scraped_at": "2026-11-14T09:47:13.317821+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "bidbit:40307861",
+    "id": "bidbit:56106061",
     "source": "bidbit",
     "source_url": "https://maps.app.goo.gl/Cs9Z592dpQNUaxgj9",
     "title": "Córdoba",
@@ -1382,13 +1480,13 @@
     "images": [
       "https://storage.googleapis.com/bidbit_pages/deposits/picture_cordoba.jpg"
     ],
-    "scraped_at": "2026-11-13T10:29:21.766480+00:00",
+    "scraped_at": "2026-11-14T09:47:15.572732+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "bidbit:73383480",
+    "id": "bidbit:37232837",
     "source": "bidbit",
     "source_url": "https://maps.app.goo.gl/ABLcr2zynGdYiceA7",
     "title": "Río Negro",
@@ -1406,7 +1504,7 @@
     "images": [
       "https://storage.googleapis.com/bidbit_pages/deposits/picture_rn.png"
     ],
-    "scraped_at": "2026-11-13T10:29:24.046854+00:00",
+    "scraped_at": "2026-11-14T09:47:17.844662+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

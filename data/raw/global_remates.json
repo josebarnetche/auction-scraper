@@ -1,27 +1,5 @@
 [
   {
-    "id": "global_remates:auction_3270",
-    "source": "global_remates",
-    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3270",
-    "title": "Global Rural",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": null,
-    "location": {
-      "province": "",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-18T10:58:57.283854+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
     "id": "global_remates:auction_3289",
     "source": "global_remates",
     "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3289",
@@ -38,7 +16,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-18T10:58:57.283931+00:00",
+    "scraped_at": "2026-11-19T10:59:41.907324+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -60,7 +38,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-18T10:58:57.283997+00:00",
+    "scraped_at": "2026-11-19T10:59:41.907452+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -82,7 +60,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-18T10:58:57.284063+00:00",
+    "scraped_at": "2026-11-19T10:59:41.907599+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -104,7 +82,29 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-18T10:58:57.284124+00:00",
+    "scraped_at": "2026-11-19T10:59:41.907739+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:auction_3121",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/AuctionDetails.aspx?id=3121",
+    "title": "TELECENTRO S.A.",
+    "description": "",
+    "category": "other",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": null,
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-11-19T10:59:41.907872+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -128,7 +128,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3289/42569/3289_Lote_34.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.285071+00:00",
+    "scraped_at": "2026-11-19T10:59:41.909652+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -152,7 +152,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3289/42572/3289_lote_37(5).jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.285267+00:00",
+    "scraped_at": "2026-11-19T10:59:41.909938+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -176,7 +176,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3291/42575/3195_Lote_03.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.285453+00:00",
+    "scraped_at": "2026-11-19T10:59:41.910168+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -200,7 +200,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3291/42583/3195_Lote_12.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.285648+00:00",
+    "scraped_at": "2026-11-19T10:59:41.910375+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -224,7 +224,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3291/42594/3195_Lote_29.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.285833+00:00",
+    "scraped_at": "2026-11-19T10:59:41.910605+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -248,7 +248,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42531/3178_Lote_01.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.286012+00:00",
+    "scraped_at": "2026-11-19T10:59:41.910810+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -272,7 +272,7 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42532/3178_Lote_02.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.286188+00:00",
+    "scraped_at": "2026-11-19T10:59:41.911008+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -296,7 +296,31 @@
     "images": [
       "https://www.globalremates.com.ar/Register/Auctions/3286/42537/3178_Lote_07.jpg"
     ],
-    "scraped_at": "2026-11-18T10:58:57.286375+00:00",
+    "scraped_at": "2026-11-19T10:59:41.911216+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "global_remates:lot_42380",
+    "source": "global_remates",
+    "source_url": "https://www.globalremates.com.ar/LotDetails.aspx?id=42380",
+    "title": "Global Rural IMPORTANTE PLANTA DE ACOPIO DE CEREA...",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 275000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-23T11:01:00",
+    "location": {
+      "province": "",
+      "city": ""
+    },
+    "images": [
+      "https://www.globalremates.com.ar/Register/Auctions/3270/42380/3257_Lote_01.jpg"
+    ],
+    "scraped_at": "2026-11-19T10:59:41.911393+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0

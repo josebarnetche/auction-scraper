@@ -4,7 +4,7 @@
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-excavadoras-y-palas-cargadoras-caterpillar-autoelevador-doosan-manipulador-manitou-y-camiones-iveco-techint-4625",
     "title": "Ver subasta",
-    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Av. Gral. Juan Domingo Perón 4304, Benavidez, Buenos Aires Ubicación 2 Ubicación: Av. Savio 2900, 2900 San Nicolás de Los Arroyos, Buenos Aires Condiciones generales Descargar",
+    "description": "Ubicación 1 Ubicación 2 Términos y condiciones Descargar Ubicación Ubicación: Av. Gral. Juan Domingo Perón 4304, Benavidez, Buenos Aires Fecha y horario de exhibición: Miércoles 25/11 y Jueves 26/11. (deberán presentarse con zapatos de seguridad, casco, lentes, y vestimenta adecuada para una visita a un predio industrial). Miércoles 25/11: de 9:00 a 12:00 hs. y de 13:00 a 16:00 hs., Jueves 26/11: de 9:00 a 12:00 hs. Puesta en marcha Jueves 26/11: de 14:00 a 16:00 hs. Ubicación 2 Ubicación: Av. Savio 2900, 2900 San Nicolás de Los Arroyos, Buenos Aires Condiciones generales Descargar",
     "category": "other",
     "base_price": 0.0,
     "currency": "ARS",
@@ -19,13 +19,24 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4625/4e5c7a54c4f57c6ba485eb70c43ff9d1-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4625/4e5c7a54c4f57c6ba485eb70c43ff9d1-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:48:07.135396+00:00",
+    "scraped_at": "2026-11-21T10:31:30.199153+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4625_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4625_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4625_condition_report_bbd2b7a8.pdf"
-      ]
+      ],
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
     },
     "lots": [],
     "lot_count": 0
@@ -47,7 +58,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:48:15.232014+00:00",
+    "scraped_at": "2026-11-21T10:31:38.282888+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4649_condition_report_34225080.pdf",
@@ -59,479 +70,10 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:4645",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-pick-ups-ford-ranger-y-chevrolet-s-10-furgones-y-autos-telecom-argentina-s-a-4645",
-    "title": "Ver subasta",
-    "description": "Ubicación 1 Ubicación 2 Ubicación 3 Ubicación 4 Ubicación 5 Ubicación 6 Ubicación 7 Ubicación 8 Ubicación 9 Ubicación 10 Ubicación 11 Ubicación 12 Ubicación 13 Ubicación 14 Términos y condiciones Descargar Ubicación Ubicación: Sin Exhibición Fecha y horario de exhibición: .. .. Ubicación 2 Ubicación: Buenos Aires 661, T4000 San Miguel de Tucumán, Tucumán Ubicación 3 Ubicación: Gral. Manuel Belgrano 760, T4105 Manantial, Tucumán Ubicación 4 Ubicación: Diag. Lisandro de la Torre 2460, T4001 San Miguel de Tucumán, Tucumán Ubicación 5 Ubicación: Leyria, B7300 Azul, Buenos Aires Ubicación 6 Ubicación: Alsina, B7400 Olavarría, Buenos Aires Ubicación 7 Ubicación: Alvear, B6740 Chacabuco, Buenos Aires Ubicación 8 Ubicación: C. 42, B2720 Colón, Buenos Aires Ubicación 9 Ubicación: 883V+HGH, San Pedro, Buenos Aires Ubicación 10 Ubicación: Avellaneda 760, B6550 San Carlos de Bolivar, Buenos Aires Ubicación 11 Ubicación: C. 70, B7630 Necochea, Buenos Aires Ubicación 12 Ubicación: Gral. Bartolomé Mitre, San Andrés de Giles, Buenos Aires Ubicación 13 Ubicación: Garibaldi, B2900 San Nicolás de Los Arroyos, Buenos Aires Ubicación 14 Ubicación: Av. Dr. Benito de Miguel 432, B6000 Junín, Buenos Aires Condiciones generales Descargar",
-    "category": "other",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-19T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4645/861bcaa5931d662536e953b0b9a2c812-desktop.jpg",
-      "https://amercado.azureedge.net/cms/resources/images/subastas/4645/861bcaa5931d662536e953b0b9a2c812-mobile.jpg"
-    ],
-    "scraped_at": "2026-11-20T10:48:23.362931+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4645_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4645_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4645_condition_report_bbd2b7a8.pdf"
-      ]
-    },
-    "lots": [
-      {
-        "lot_id": "am:4645:83",
-        "lot_number": 83,
-        "title": "(Dom: ELW088) Furgón cerrado Fiat, mod. Fiorino 1.3, año 2004, (km. 82.437 según odómetro al momento",
-        "description": "(Dom: ELW088) Furgón cerrado Fiat, mod. Fiorino 1.3, año 2004, (km. 82.437 según odómetro al momento",
-        "base_price": 56000000.0,
-        "currency": "ARS",
-        "base_price_usd": 34146.34,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195952/ae39fb02b10919789f24e30f3aa034c9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195952/c51baf611b430b7de0381a1734dc1f4e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195952/0fcb7e8d99dc504e4cd9988ae49a4e46-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195952/21da4b41cc454446f858d99db4288b7f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195952/593e1dbe5ae3cbe62ef0c436c76df650-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:106",
-        "lot_number": 106,
-        "title": "Dom: KLJ889 Automóvil sedan 3 puertas Volkswagen, mod. Gol 1.4L, año 2011, km. 186.930 (según odómet",
-        "description": "Dom: KLJ889 Automóvil sedan 3 puertas Volkswagen, mod. Gol 1.4L, año 2011, km. 186.930 (según odómet",
-        "base_price": 308000000.0,
-        "currency": "ARS",
-        "base_price_usd": 187804.88,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195945/e137b4aa57d661b29042f09f6b1bd6c8-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195945/ae8d46584a6776424ffbb3f0b7b33474-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195945/6872b972e095255a32b89e3e2a18a7dd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195945/3894535f6f993c640057d8327a9f6751-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195945/2894346a980697eac1b30541682b5dfa-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:110",
-        "lot_number": 110,
-        "title": "Dom: KZQ427 Automóvil sedan 3 puertas Fiat, mod. Uno van fire MPI 8v, año 2012, km. 164.510 (aportad",
-        "description": "Dom: KZQ427 Automóvil sedan 3 puertas Fiat, mod. Uno van fire MPI 8v, año 2012, km. 164.510 (aportad",
-        "base_price": 210000000.0,
-        "currency": "ARS",
-        "base_price_usd": 128048.78,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195946/e313d2093f673c47340b3333119392df-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195946/4570d182747cc270f86efbc61ece684c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195946/5c87cfa6e6947b9c1cdaeee488991e4a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195946/46af7daedc9e2e0d7a02e1ec9963bb21-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195946/71b97b7177449fb42f3bc35e100b67e0-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:112",
-        "lot_number": 112,
-        "title": "Dom: KOS257 Furgón Citroën, mod. Berlingo 1.4I Full, año 2011, km. 167. 602 (según odómetro al momen",
-        "description": "Dom: KOS257 Furgón Citroën, mod. Berlingo 1.4I Full, año 2011, km. 167. 602 (según odómetro al momen",
-        "base_price": 385000000.0,
-        "currency": "ARS",
-        "base_price_usd": 234756.1,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195947/ee0f0c8a9c0887e21d560c7e9ea2a512-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195947/027869eae954b27d63a0c0caa67df475-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195947/c97fc2794162775c74f3a821b8d689b0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195947/28dd517c7b6051fc4e27ae45862f3318-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195947/3413e6de66ef1a81fd6d7f08e1c0a300-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:118",
-        "lot_number": 118,
-        "title": "Dom: EWU965 Pick-up Ford, mod. Ranger CS 4x2 F-Truck 2.8L D, año 2005, km. 335.927 (según odómetro a",
-        "description": "Dom: EWU965 Pick-up Ford, mod. Ranger CS 4x2 F-Truck 2.8L D, año 2005, km. 335.927 (según odómetro a",
-        "base_price": 280000000.0,
-        "currency": "ARS",
-        "base_price_usd": 170731.71,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195948/0dce7e967891c474ab187e27a0dc4f55-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195948/5a2ee79c4024225fe1b37dd6ccdd2a50-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195948/1f157af55c5d942632cb42d5f8cefaf4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195948/e00bb45fbcc14f8f4032a63133dac79a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195948/78c033b0ad40b5fcbaf23dd11defc831-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:124",
-        "lot_number": 124,
-        "title": "Dom: HSU807 Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0 L D, año 2008, km. 186.222 (aportados por l",
-        "description": "Dom: HSU807 Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0 L D, año 2008, km. 186.222 (aportados por l",
-        "base_price": 329000000.0,
-        "currency": "ARS",
-        "base_price_usd": 200609.76,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195949/10311e3d067452807c535b84ae6b94ce-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195949/797f55d9511fe051e1478459f602c067-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195949/47482c5d00bf9dab0a006399c854b0f5-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195949/ec6ba33e1083e211073c11cd1fff4a53-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195949/58452c0b98e1405135f29fec83f394b1-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:134",
-        "lot_number": 134,
-        "title": "Dom: FIK980 Pick-up Chevrolet, mod. S-10 2.8 T.I. cabina simple, año 2005, km. 416.627 (aportados po",
-        "description": "Dom: FIK980 Pick-up Chevrolet, mod. S-10 2.8 T.I. cabina simple, año 2005, km. 416.627 (aportados po",
-        "base_price": 280000000.0,
-        "currency": "ARS",
-        "base_price_usd": 170731.71,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195950/3b1b8d39346cae19d7f32ae5304e3a15-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195950/e441732d6f1174d4a7095dbaaa853647-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195950/971b50795d3bf9442214983c38aab3b6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195950/75f24d908a4403fafaf8126d641bdf97-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195950/af3160016aaf814c72853d590999ae05-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:144",
-        "lot_number": 144,
-        "title": "Dom: HMQ876 Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0 L D, año 2008, km. 285.985 (aportados por l",
-        "description": "Dom: HMQ876 Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0 L D, año 2008, km. 285.985 (aportados por l",
-        "base_price": 350000000.0,
-        "currency": "ARS",
-        "base_price_usd": 213414.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195954/3c61a65ead0ae673e21961c342ba48f2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195954/d7d1cb68526b76a0d8898471162e16f6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195954/60cb1b82dc75ccb42f75f4145ce3c21c-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195954/404cd35aac028cc9bd1a9f92db4191cb-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195954/bd164ad3d51cdfafdfb80e4726bec72c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:146",
-        "lot_number": 146,
-        "title": "Dom: HOM163 Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0 L D, año 2008, km. 252.022 (aportados por l",
-        "description": "Dom: HOM163 Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0 L D, año 2008, km. 252.022 (aportados por l",
-        "base_price": 350000000.0,
-        "currency": "ARS",
-        "base_price_usd": 213414.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195951/9cc6134c65b0a7291b220f34005fdfb6-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195951/4cc8faf3b3b97c75a51f72b19eefd7da-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195951/7b90cc321126c2fa209261a4d5325bbd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195951/f346d785cc078ae9d798429d54ef7a61-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195951/bd5797b83dc43a41f4c76c56ed131317-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:151",
-        "lot_number": 151,
-        "title": "(Dom. GTQ219) Furgón Renault, mod. Kangoo exp generique 1.9d, año 2007, (km. desconocidos).-",
-        "description": "(Dom. GTQ219) Furgón Renault, mod. Kangoo exp generique 1.9d, año 2007, (km. desconocidos).-",
-        "base_price": 280000000.0,
-        "currency": "ARS",
-        "base_price_usd": 170731.71,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/195953/24add73984d3cb19c4d42f0feb7b7c04-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195953/b2645656aefebe1e1ecfb956bcc8c3da-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195953/ee039a7ab6b74e37b818714f3c4504a1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195953/bd601755daaa2c06c624434202623d1b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/195953/9aee8cebcd4e144c72be8f12b66f1f0e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:175",
-        "lot_number": 175,
-        "title": "(Dom. FCQ775) Furgón Fiat, mod. Ducato maxicargo 2.8 id td, año 2005 (km. desconocidos).-",
-        "description": "(Dom. FCQ775) Furgón Fiat, mod. Ducato maxicargo 2.8 id td, año 2005 (km. desconocidos).-",
-        "base_price": 273000000.0,
-        "currency": "ARS",
-        "base_price_usd": 166463.41,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196124/fa1419f4b0985ccb0469425c21eb29bd-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196124/cabcd1a7919913f8772969367a29f991-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196124/2ae23cd93e56614d4ee5f88c72bbe286-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196124/8a5ddd3eb32a86241ca4e45f4f74786a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196124/034807040459ee8c5b053bacb179597e-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:176",
-        "lot_number": 176,
-        "title": "(Dom. HRD277) Furgón Renault, mod. Kangoo confort 1.5 dci cd da svt 1p, año 2008 (km. desconocidos)....",
-        "description": "(Dom. HRD277) Furgón Renault, mod. Kangoo confort 1.5 dci cd da svt 1p, año 2008 (km. desconocidos)....",
-        "base_price": 227500000.0,
-        "currency": "ARS",
-        "base_price_usd": 138719.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196125/631d5eb202338030e9d5a5301f0a56aa-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196125/431af238a932ac2b664ae5f9abb5a6a4-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196125/eefd83a37887834ca58445d3cf84a2c9-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196125/0271e7a3e931e58c65eca5bc2334d51b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196125/271422c27ad3735e91117cc90c1ddc40-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:177",
-        "lot_number": 177,
-        "title": "(Dom. OYW477) Sedán Volkswagen, mod. Gol Trend 1.6, año 2015 (km. desconocidos).-",
-        "description": "(Dom. OYW477) Sedán Volkswagen, mod. Gol Trend 1.6, año 2015 (km. desconocidos).-",
-        "base_price": 45500000.0,
-        "currency": "ARS",
-        "base_price_usd": 27743.9,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196126/9c021fd3727f2a8bea8e167b5e04fb22-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196126/f342180ffbf31ea76e60401eaba2cd98-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196126/6fc8b96fed30c117d045126002fbe0e0-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196126/d626adad012b4ad780bcabf4bb4eb124-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196126/b3094e27535102d49c2c5f4d67dc0517-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:178",
-        "lot_number": 178,
-        "title": "(Dom. IFW193) Furgón Citroën, mod. Berlingo furgon 1.9d plc, año 2009 (km. desconocidos).-",
-        "description": "(Dom. IFW193) Furgón Citroën, mod. Berlingo furgon 1.9d plc, año 2009 (km. desconocidos).-",
-        "base_price": 318500000.0,
-        "currency": "ARS",
-        "base_price_usd": 194207.32,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196127/761ab90e578d028d0ba70c9435b55e82-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196127/83b4831237ccc4ac5b26aa2ee7d15a06-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196127/8250683ea3bd34560d8859fe20d88978-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196127/152cd9506b46fe8e5b09a26c71bb9ed2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196127/dc61b237af7d93b456b54d43977d7c2a-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:179",
-        "lot_number": 179,
-        "title": "(Dom. KOE146) Sedán Volkswagen, mod. Gol 1.4 l, año 2011 (km. desconocidos).-",
-        "description": "(Dom. KOE146) Sedán Volkswagen, mod. Gol 1.4 l, año 2011 (km. desconocidos).-",
-        "base_price": 109200000.0,
-        "currency": "ARS",
-        "base_price_usd": 66585.37,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196128/d13e7e657b25f6e5d8b8176bb081db3b-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196128/8d1256dcdd5da91761f716de48214f1a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196128/e42f46f7b60d034accf159e0c53e8461-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196128/05f826bd2f6def4b4b1297390bedbc92-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196128/7484637af5e04a578aaa429f272bb58c-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:180",
-        "lot_number": 180,
-        "title": "(Dom. JRV323) RENAULT, Mod. KANGOO CONFORT 1.6 CD AA DA SVT1PL, año 2011, (km desconocidos).-",
-        "description": "(Dom. JRV323) RENAULT, Mod. KANGOO CONFORT 1.6 CD AA DA SVT1PL, año 2011, (km desconocidos).-",
-        "base_price": 350000000.0,
-        "currency": "ARS",
-        "base_price_usd": 213414.63,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196228/52dc8ad605a4645bab9c4f6255307960-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196228/1e429e524b2fb634342f9fb61173cb8e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196228/4d9aab2fba40163d85dc4f1693f12e62-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196228/bb8da0b107cb022c775fbe03f82bd59f-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196228/1c8b623eab1ae864f156d1a965016bf8-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:181",
-        "lot_number": 181,
-        "title": "(Dom. HKO711) Renault, mod. Kangoo Confort 1.5 dCi CD DA SVT 1P, año 2008. km 94.069.-",
-        "description": "(Dom. HKO711) Renault, mod. Kangoo Confort 1.5 dCi CD DA SVT 1P, año 2008. km 94.069.-",
-        "base_price": 227500000.0,
-        "currency": "ARS",
-        "base_price_usd": 138719.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196231/c86746f1fae1d55777091ec7f9082bd1-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196231/356cd052545527618eac6c2cbaaafac2-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196231/79c63dfc3bde224f26d74d26f438df85-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196231/6adf2c3fcc30dc029dbb84ca48efd370-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196231/c3b0fd65ef4bd89c8c563b579d4a29b6-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:182",
-        "lot_number": 182,
-        "title": "(Dom. HSG162) Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0L D, año 2008 (km. desconocidos).-",
-        "description": "(Dom. HSG162) Pick-up Ford, mod. Ranger CS 4x2 XL Plus 3.0L D, año 2008 (km. desconocidos).-",
-        "base_price": 280000000.0,
-        "currency": "ARS",
-        "base_price_usd": 170731.71,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196232/4c5b90411ec981aff4a63125b3ca4c9a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196232/c2ab86e742333bad185f5ec2f9858e0e-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196232/09a6d7affd952d463bdc7bb9fdc7778a-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196232/7d3a2b168d95baa21e63c2d17d3ed299-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196232/62836aa6eb2de192c903e9e916ed774f-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "am:4645:183",
-        "lot_number": 183,
-        "title": "(Dom. AA076MS) Furgón Peugeot, mod. Partner Confort 1.4, año 2016 (km. desconocidos).-",
-        "description": "(Dom. AA076MS) Furgón Peugeot, mod. Partner Confort 1.4, año 2016 (km. desconocidos).-",
-        "base_price": 455000000.0,
-        "currency": "ARS",
-        "base_price_usd": 277439.02,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://amercado.azureedge.net/cms/resources/galleries/196233/208ec83aab74e58f4a51defa5ab6be14-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196233/9bdc795187fbe2fe227cd18b32545975-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196233/104dc0508f659d76b163a2993bc27ed3-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196233/ccb24dd1b152d96380d6b590d904b254-255x190.jpg",
-          "https://amercado.azureedge.net/cms/resources/galleries/196233/11032cd6af06607b67cd8ea9961dc650-255x190.jpg"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 19
-  },
-  {
     "id": "adrian_mercado:4660",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipos-de-inspeccion-y-ensayo-laseres-ipg-tunel-de-lavado-seiketsu-apilador-yale-y-racks-portapallets-skf-argentina-s-a-4660",
-    "title": "SUBASTA EN VIVOSubasta de equipos de inspección y ensayo, láseres IPG, túnel de lavado Seiketsu, apilador Yale y racks portapallets - SKF ARGENTINA S.A.Equipos de inspección DMI, láseres IPG, túnel de lavado Seiketsu, apilador Yale, racks portapallets AP Metal y más. Buenos Aires.Jueves\n                    26/11/2026A confirmarID 2413",
+    "title": "SUBASTA EN VIVOSubasta de equipos de inspección y ensayo, láseres IPG, túnel de lavado Seiketsu, apilador Yale y racks portapallets - SKF ARGENTINA S.A.Equipos de inspección DMI, láseres IPG, túnel de lavado Seiketsu, apilador Yale, racks portapallets AP Metal y más. Buenos Aires.Jueves\n                    26/11/202614:30 hID 2413",
     "description": "Ubicación 1 Ubicación 2 Ubicación 3 Ubicación 4 Términos y condiciones Descargar Ubicación Ubicación: , Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Ubicación 2 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Lunes 02-11 y Martes 03-11 de 9 a 12 y de 14 a 15:30 Ubicación 3 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Ubicación 4 Ubicación: Av. Olivos 4109, Area de Promoción El Triángulo, Buenos Aires Fecha y horario de exhibición: Martes 13-10 y Miércoles 14-10 de 9 a 12 y de 14 a 15:30 Condiciones generales Descargar",
     "category": "machinery",
     "base_price": 0.0,
@@ -547,7 +89,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4660/0aa3a1d0d080d2bec9e9870e1366df1f-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4660/0aa3a1d0d080d2bec9e9870e1366df1f-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:48:31.465364+00:00",
+    "scraped_at": "2026-11-21T10:31:46.414009+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4660_condition_report_34225080.pdf",
@@ -571,7 +113,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Impresora 3D Colido 3D Printer, mod. Colido X3045, año 2018, medidas de...",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7317.07,
+        "base_price_usd": 7164.18,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -594,7 +136,7 @@
         "description": "10 Aprox. Tambores en pvc de 200 lts. c/u., conteniendo Polímero AR-Flock 2081.-",
         "base_price": 14000000.0,
         "currency": "ARS",
-        "base_price_usd": 8536.59,
+        "base_price_usd": 8358.21,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -616,7 +158,7 @@
         "description": "5 Tambores en pvc de 200 lts. c/u., conteniendo bactericidas Briac cap, mod. Ruptor AR-FLOC-225.-",
         "base_price": 2000000.0,
         "currency": "ARS",
-        "base_price_usd": 1219.51,
+        "base_price_usd": 1194.03,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -639,7 +181,7 @@
         "description": "2 Bines plásticos de carga superior y descarga inferior con racks metálico de transporte, cap. 1.000",
         "base_price": 18000000.0,
         "currency": "ARS",
-        "base_price_usd": 10975.61,
+        "base_price_usd": 10746.27,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -661,7 +203,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Int: 000729 Grabadora laser con accionamientos electroneumaticos MEZ, mo...",
         "base_price": 120000000.0,
         "currency": "ARS",
-        "base_price_usd": 73170.73,
+        "base_price_usd": 71641.79,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -684,7 +226,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Int: C02.MO Grabadora laser con accionamientos electroneumaticos MEZ, mo...",
         "base_price": 120000000.0,
         "currency": "ARS",
-        "base_price_usd": 73170.73,
+        "base_price_usd": 71641.79,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -707,7 +249,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Int: C06.MO Grabadora laser con accionamientos electroneumaticos MEZ, mo...",
         "base_price": 120000000.0,
         "currency": "ARS",
-        "base_price_usd": 73170.73,
+        "base_price_usd": 71641.79,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -730,7 +272,7 @@
         "description": "Equipo para control de calidad por cámara (inspección y selección de piezas) Visión Device, mod. Lin",
         "base_price": 160000000.0,
         "currency": "ARS",
-        "base_price_usd": 97560.98,
+        "base_price_usd": 95522.39,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -753,7 +295,7 @@
         "description": "Equipo para control de calidad por cámara (inspección y selección de piezas) Visión Device con accio",
         "base_price": 160000000.0,
         "currency": "ARS",
-        "base_price_usd": 97560.98,
+        "base_price_usd": 95522.39,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -776,7 +318,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Grabadora laser trifásica Infion,mod. ILM-CNV-20.-",
         "base_price": 112000000.0,
         "currency": "ARS",
-        "base_price_usd": 68292.68,
+        "base_price_usd": 66865.67,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -799,7 +341,7 @@
         "description": "Maquina de inspección DMI, año 2017.-",
         "base_price": 80000000.0,
         "currency": "ARS",
-        "base_price_usd": 48780.49,
+        "base_price_usd": 47761.19,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -822,7 +364,7 @@
         "description": "Túnel en inox. para lavado de piezas Seiketsu, mod. CH87, con resistencias eléctricas, cinta transpo",
         "base_price": 120000000.0,
         "currency": "ARS",
-        "base_price_usd": 73170.73,
+        "base_price_usd": 71641.79,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -845,7 +387,7 @@
         "description": "Maquina de prueba de lodo pesado Xinchang, para control de calidad de piezas, año 2019, con motores,",
         "base_price": 96000000.0,
         "currency": "ARS",
-        "base_price_usd": 58536.59,
+        "base_price_usd": 57313.43,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -868,7 +410,7 @@
         "description": "Banco de prueba para control de calidad de correas dentadas y poleas, con motor eléctrico trifásico",
         "base_price": 140000000.0,
         "currency": "ARS",
-        "base_price_usd": 85365.85,
+        "base_price_usd": 83582.09,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -891,7 +433,7 @@
         "description": "Banco de prueba térmico para correas dentadas, con motor eléctrico trifásico de 4 hp., con tablero e",
         "base_price": 140000000.0,
         "currency": "ARS",
-        "base_price_usd": 85365.85,
+        "base_price_usd": 83582.09,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -914,7 +456,7 @@
         "description": "Banco de prueba térmico para rodillos y tensores fijos con prensa neumática, motor eléctrico trifási",
         "base_price": 140000000.0,
         "currency": "ARS",
-        "base_price_usd": 85365.85,
+        "base_price_usd": 83582.09,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -937,7 +479,7 @@
         "description": "Banco de prueba para control de tracción y magnetismo, con motor eléctrico de 3 hp. Y tablero eléctr",
         "base_price": 120000000.0,
         "currency": "ARS",
-        "base_price_usd": 73170.73,
+        "base_price_usd": 71641.79,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -959,7 +501,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Rectificadora Centerlest, mod. CL46 LIDKOPIN, con motor eléctrico trifás...",
         "base_price": 200000000.0,
         "currency": "ARS",
-        "base_price_usd": 121951.22,
+        "base_price_usd": 119402.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -982,7 +524,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Cargador automático de piezas, con jaula, escalera y cargador rotativo S...",
         "base_price": 60000000.0,
         "currency": "ARS",
-        "base_price_usd": 36585.37,
+        "base_price_usd": 35820.9,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1005,7 +547,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Cargador automático de piezas, con jaula, escalera y cargador rotativo S...",
         "base_price": 60000000.0,
         "currency": "ARS",
-        "base_price_usd": 36585.37,
+        "base_price_usd": 35820.9,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1028,7 +570,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Rectificadora de superficies planas Gardner, mod. SDG630, con 2 motores...",
         "base_price": 160000000.0,
         "currency": "ARS",
-        "base_price_usd": 97560.98,
+        "base_price_usd": 95522.39,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1051,7 +593,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Cargador automático de piezas, con jaula, escalera y cargador rotativo S...",
         "base_price": 55000000.0,
         "currency": "ARS",
-        "base_price_usd": 33536.59,
+        "base_price_usd": 32835.82,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1074,7 +616,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Rectificadora Centerlest, mod. CL46 LIDKOPIN, con motor eléctrico trifás...",
         "base_price": 240000000.0,
         "currency": "ARS",
-        "base_price_usd": 146341.46,
+        "base_price_usd": 143283.58,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1097,7 +639,7 @@
         "description": "(LOTE RETIRADO DE LA VENTA) Cargador automático de piezas, con jaula, escalera y cargador rotativo S...",
         "base_price": 60000000.0,
         "currency": "ARS",
-        "base_price_usd": 36585.37,
+        "base_price_usd": 35820.9,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1120,7 +662,7 @@
         "description": "3 Equipos Desmagnetizadores tipo tunel Braillon, tipo T1, medidas interior: 185 x 185 x 200 mm profu",
         "base_price": 68000000.0,
         "currency": "ARS",
-        "base_price_usd": 41463.41,
+        "base_price_usd": 40597.01,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1143,7 +685,7 @@
         "description": "10 aprox. Interruptores/final de carrera para valvulas Stromag AG, tipo 5 NE-484 1V, (230v - 1,5 amp",
         "base_price": 48000000.0,
         "currency": "ARS",
-        "base_price_usd": 29268.29,
+        "base_price_usd": 28656.72,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1166,7 +708,7 @@
         "description": "6 Bolsas de tierra de diatomite Imerys Hyflo, aprox. 130 kg. Total.-",
         "base_price": 20000000.0,
         "currency": "ARS",
-        "base_price_usd": 12195.12,
+        "base_price_usd": 11940.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1187,7 +729,7 @@
         "description": "6 Cajas conteniendo cantidad de burletes vs. En pvc.-",
         "base_price": 24000000.0,
         "currency": "ARS",
-        "base_price_usd": 14634.15,
+        "base_price_usd": 14328.36,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1208,7 +750,7 @@
         "description": "10 Variadores de velocidad de alta frecuencia Siemens y Yaskawa (como se encuentran y exhiben).-",
         "base_price": 90000000.0,
         "currency": "ARS",
-        "base_price_usd": 54878.05,
+        "base_price_usd": 53731.34,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1231,7 +773,7 @@
         "description": "2 Tambores metálicos conteniendo aceite protectivo Fuchs, tipo. Anticorit 03W-C, cap. 205 lts c/u. (",
         "base_price": 70000000.0,
         "currency": "ARS",
-        "base_price_usd": 42682.93,
+        "base_price_usd": 41791.04,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1254,7 +796,7 @@
         "description": "4 Tinas para lavado de piezas (3 en inox y 1 en hierro), como se encuentran y exhiben.-",
         "base_price": 24000000.0,
         "currency": "ARS",
-        "base_price_usd": 14634.15,
+        "base_price_usd": 14328.36,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1277,7 +819,7 @@
         "description": "3 Tinas para lavado de piezas (1 en inox, con motorreductor y 2 en hierro), como se encuentran y ex",
         "base_price": 20000000.0,
         "currency": "ARS",
-        "base_price_usd": 12195.12,
+        "base_price_usd": 11940.3,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1316,7 +858,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4630/c392e4b5f3a380d380487fdb221e8288-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4630/c392e4b5f3a380d380487fdb221e8288-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:48:39.634243+00:00",
+    "scraped_at": "2026-11-21T10:31:54.510847+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4630_condition_report_34225080.pdf",
@@ -1366,7 +908,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4640/c10f91a796891a9f21e67cc7414b496e-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4640/c10f91a796891a9f21e67cc7414b496e-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:48:47.711509+00:00",
+    "scraped_at": "2026-11-21T10:32:02.598639+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4640_condition_report_34225080.pdf",
@@ -1405,7 +947,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4641/1cb334911b66ecb1046ca7f0d46fc1d9-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4641/1cb334911b66ecb1046ca7f0d46fc1d9-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:48:55.868809+00:00",
+    "scraped_at": "2026-11-21T10:32:10.671465+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4641_condition_report_34225080.pdf",
@@ -1444,7 +986,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4644/d49a95840f5c01ef428b1c4ed9f24ac9-desktop.png",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4644/d49a95840f5c01ef428b1c4ed9f24ac9-mobile.png"
     ],
-    "scraped_at": "2026-11-20T10:49:03.949351+00:00",
+    "scraped_at": "2026-11-21T10:32:18.754955+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4644_condition_report_34225080.pdf",
@@ -1460,7 +1002,7 @@
         "description": "Inmueble comercial e institucional sobre lote propio ubicado sobre la calle Santa Fe N.° 1274/80, en...",
         "base_price": 54800000.0,
         "currency": "ARS",
-        "base_price_usd": 33414.63,
+        "base_price_usd": 32716.42,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1496,7 +1038,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4654/fb12939b65dbb684de4e4bc530eef4b0-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4654/fb12939b65dbb684de4e4bc530eef4b0-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:49:12.037152+00:00",
+    "scraped_at": "2026-11-21T10:32:26.840673+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4654_condition_report_34225080.pdf",
@@ -1535,7 +1077,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4655/1fcdbf82f9e98ba8e9a14f2210932db7-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4655/1fcdbf82f9e98ba8e9a14f2210932db7-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:49:20.162399+00:00",
+    "scraped_at": "2026-11-21T10:32:34.940141+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4655_condition_report_34225080.pdf",
@@ -1574,7 +1116,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4656/3b3ca8ce9009042020e8ff87965517ee-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4656/3b3ca8ce9009042020e8ff87965517ee-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:49:28.331743+00:00",
+    "scraped_at": "2026-11-21T10:32:43.011273+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4656_condition_report_34225080.pdf",
@@ -1601,7 +1143,7 @@
         "description": "Predio industrial en block compuesto por tres parcelas unificadas ubicado sobre la Avenida Sarmiento...",
         "base_price": 35842300.0,
         "currency": "ARS",
-        "base_price_usd": 21855.06,
+        "base_price_usd": 21398.39,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1640,7 +1182,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4663/099d8d7207fa5746b2fe1e5f0eb81f3b-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4663/099d8d7207fa5746b2fe1e5f0eb81f3b-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:49:36.413676+00:00",
+    "scraped_at": "2026-11-21T10:32:51.176426+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4663_condition_report_34225080.pdf",
@@ -1664,7 +1206,7 @@
         "description": "Dominio (EFL-208) - Chasis con cabina Volkswagen, mod. 13.180, año 2003, km 322.894 segun odometro,",
         "base_price": 1000000000.0,
         "currency": "ARS",
-        "base_price_usd": 609756.1,
+        "base_price_usd": 597014.93,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1687,7 +1229,7 @@
         "description": "Dominio (HNU-275) - Chasis con cabina Mercedes Benz, mod. Accelo 915C, año 2008, km 369.381 segun od",
         "base_price": 960000000.0,
         "currency": "ARS",
-        "base_price_usd": 585365.85,
+        "base_price_usd": 573134.33,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1710,7 +1252,7 @@
         "description": "Dominio (HRZ-425) - Chasis con cabina Iveco, mod. 230E22 MLC, año 2008, km 394.457 segun odometro, c",
         "base_price": 1200000000.0,
         "currency": "ARS",
-        "base_price_usd": 731707.32,
+        "base_price_usd": 716417.91,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1733,7 +1275,7 @@
         "description": "Dominio (HRZ-424) - Chasis con cabina Iveco, mod. 230E22 MLC, año 2008, km 329.066 segun odometro, c",
         "base_price": 1200000000.0,
         "currency": "ARS",
-        "base_price_usd": 731707.32,
+        "base_price_usd": 716417.91,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1772,7 +1314,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4634/7f27e4b851d415f353e70ff5372b71d1-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4634/7f27e4b851d415f353e70ff5372b71d1-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:49:44.557240+00:00",
+    "scraped_at": "2026-11-21T10:32:59.282779+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4634_condition_report_34225080.pdf",
@@ -1787,6 +1329,48 @@
         "typical_usd": 12000,
         "category": "machinery"
       }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4259",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-racks-industriales-selectivos-y-de-picking-4259",
+    "title": "SUBASTA EN VIVOSubasta de racks industriales selectivos y de pickingMás de 50 líneas de racks Acrow y sistema picking, con 300 bastidores y 1.100 travesaños. Buenos Aires.Miércoles\n                    2/12/2026A confirmarID 2008",
+    "description": "Ubicación Ubicación Ubicación: Malvinas 2476, Libertad, Buenos Aires",
+    "category": "vehicles",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-02T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4259/9308d2aef215cc2fb531ce57cea6df84-desktop.jpg",
+      "https://amercado.azureedge.net/cms/resources/images/subastas/4259/9308d2aef215cc2fb531ce57cea6df84-mobile.jpg"
+    ],
+    "scraped_at": "2026-11-21T10:33:07.295620+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4259_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4259_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4259_condition_report_34225080.pdf"
+      ],
+      "premium_info": {
+        "is_premium": true,
+        "premium_type": "factory",
+        "premium_types": [
+          "factory"
+        ],
+        "confidence": 0.3,
+        "why_premium": "Detected: factory"
+      },
+      "is_opportunity": true,
+      "opportunity_reason": "factory"
     },
     "lots": [],
     "lot_count": 0
@@ -1811,7 +1395,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4665/1f03b90f5cf5635ce9070aee5e4a13b3-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4665/1f03b90f5cf5635ce9070aee5e4a13b3-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:49:52.634149+00:00",
+    "scraped_at": "2026-11-21T10:33:15.367488+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4665_condition_report_34225080.pdf",
@@ -1827,7 +1411,7 @@
         "description": "Inmueble en block sobre lote propio en esquina, ubicado en la Avenida 23 (Av. Mitre) N.° 1501 esquin...",
         "base_price": 21000000.0,
         "currency": "ARS",
-        "base_price_usd": 12804.88,
+        "base_price_usd": 12537.31,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -1866,7 +1450,7 @@
       "https://amercado.azureedge.net/cms/resources/images/subastas/4666/notfound-desktop.jpg",
       "https://amercado.azureedge.net/cms/resources/images/subastas/4666/notfound-mobile.jpg"
     ],
-    "scraped_at": "2026-11-20T10:50:00.721989+00:00",
+    "scraped_at": "2026-11-21T10:33:23.444949+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4666_condition_report_34225080.pdf",
@@ -1894,7 +1478,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:50:08.832638+00:00",
+    "scraped_at": "2026-11-21T10:33:31.592909+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4647_condition_report_34225080.pdf",
@@ -1909,34 +1493,6 @@
         "typical_usd": 8000,
         "category": "machinery"
       }
-    },
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "adrian_mercado:4648",
-    "source": "adrian_mercado",
-    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-maquinaria-para-carpinteria-de-madera-y-aluminio-scm-y-tecnomax-vidrios-y-maderas-nobles-distribuidora-avh-s-r-l-4648",
-    "title": "Subasta de maquinaria para carpintería de madera y aluminio SCM y Tecnomax, vidrios y maderas nobles - DISTRIBUIDORA AVH S.R.L.",
-    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Remedios de Escalada de San Martín 4173, B1823 Valentín Alsina, Buenos Aires Condiciones generales Descargar",
-    "category": "machinery",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-26T00:00:00",
-    "location": {
-      "province": "Buenos Aires",
-      "city": ""
-    },
-    "images": [],
-    "scraped_at": "2026-11-20T10:50:16.918013+00:00",
-    "extra": {
-      "documents": [
-        "data/documents/adrian_mercado/adrian_mercado:4648_condition_report_34225080.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4648_condition_report_67d8caff.pdf",
-        "data/documents/adrian_mercado/adrian_mercado:4648_condition_report_bbd2b7a8.pdf"
-      ]
     },
     "lots": [],
     "lot_count": 0
@@ -1958,7 +1514,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:50:25.033274+00:00",
+    "scraped_at": "2026-11-21T10:33:39.665320+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4650_condition_report_34225080.pdf",
@@ -1994,7 +1550,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:50:33.134941+00:00",
+    "scraped_at": "2026-11-21T10:33:47.738854+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4668_condition_report_34225080.pdf",
@@ -2030,7 +1586,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:50:41.213930+00:00",
+    "scraped_at": "2026-11-21T10:33:55.821448+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4675_condition_report_34225080.pdf",
@@ -2046,7 +1602,7 @@
         "description": "Tinglado de DOS AGUA de 10x20 con estructuras de perfiles ¨C¨ de 120x50 de 1,6mm y de 80x50 de 1,6mm",
         "base_price": 700000000.0,
         "currency": "ARS",
-        "base_price_usd": 426829.27,
+        "base_price_usd": 417910.45,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2069,7 +1625,7 @@
         "description": "Tinglado de DOS AGUA de 10x30 con estructuras de perfiles ¨C¨ de 120x50 de 1,6mm y de 80x50 de 1,6mm",
         "base_price": 800000000.0,
         "currency": "ARS",
-        "base_price_usd": 487804.88,
+        "base_price_usd": 477611.94,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2089,6 +1645,42 @@
     "lot_count": 2
   },
   {
+    "id": "adrian_mercado:4670",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-prensa-hidraulica-de-600-tn-linea-de-concertina-y-maquinaria-metalurgica-metalurgica-atex-s-r-l-4670",
+    "title": "Subasta de prensa hidráulica de 600 Tn, línea de concertina y maquinaria metalúrgica - Metalúrgica Atex S.R.L.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: San Roque 1385, B1765 Isidro Casanova, Buenos Aires Condiciones generales Descargar",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-02T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-11-21T10:34:03.906850+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4670_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4670_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4670_condition_report_bbd2b7a8.pdf"
+      ],
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "prensa",
+        "min_usd": 3000,
+        "max_usd": 60000,
+        "typical_usd": 12000,
+        "category": "machinery"
+      }
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
     "id": "adrian_mercado:4669",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-equipos-de-geotecnia-gps-rtk-south-y-allynav-estaciones-totales-drone-autel-y-plotters-canon-mc-ingenieria-en-servicios-s-r-l-4669",
@@ -2105,7 +1697,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:50:49.370256+00:00",
+    "scraped_at": "2026-11-21T10:34:11.980348+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4669_condition_report_34225080.pdf",
@@ -2121,7 +1713,7 @@
         "description": "Implemento para cargadora, mod. TDI275, año de fabricación 2016, alcance 4.2 mts, balde 40 cm con de",
         "base_price": 400000000.0,
         "currency": "ARS",
-        "base_price_usd": 243902.44,
+        "base_price_usd": 238805.97,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2143,7 +1735,7 @@
         "description": "Chipeadora Dowel con motor 16 hp, año de fabricación 2024, sin uso .-",
         "base_price": 68000000.0,
         "currency": "ARS",
-        "base_price_usd": 41463.41,
+        "base_price_usd": 40597.01,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2166,7 +1758,7 @@
         "description": "Tanque de agua en acero, cap. 1.500 lts., con abertura superior y drenaje lateral .-",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7317.07,
+        "base_price_usd": 7164.18,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2185,7 +1777,7 @@
         "description": "Tanque de PVC Rotoplas, capacidad 1.500 lts., (sin uso).-",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7317.07,
+        "base_price_usd": 7164.18,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2205,7 +1797,7 @@
         "description": "Tanque en PVC, cap. 2.500 lts., (sin uso) .-",
         "base_price": 48000000.0,
         "currency": "ARS",
-        "base_price_usd": 29268.29,
+        "base_price_usd": 28656.72,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2224,7 +1816,7 @@
         "description": "Drone Evo, mod. II Pro V3, con cámara Hasselblad de 1 pulg. y 20 megapíxeles, para videos de hasta 6",
         "base_price": 180000000.0,
         "currency": "ARS",
-        "base_price_usd": 109756.1,
+        "base_price_usd": 107462.69,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2246,7 +1838,7 @@
         "description": "Plotter HP mod. DesignJet, impresora de gran formato por inyección térmica de tinta HP a 4 colores,...",
         "base_price": 70000000.0,
         "currency": "ARS",
-        "base_price_usd": 42682.93,
+        "base_price_usd": 41791.04,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2269,7 +1861,7 @@
         "description": "Plotter Canon mod. Image Prograf TM-340 de 36\", 5 colores, panel de control de 4,3\" (sin uso) .-",
         "base_price": 150000000.0,
         "currency": "ARS",
-        "base_price_usd": 91463.41,
+        "base_price_usd": 89552.24,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2292,7 +1884,7 @@
         "description": "Prensa Instrom cap. 150 tn., para ensayo de rocas .-",
         "base_price": 500000000.0,
         "currency": "ARS",
-        "base_price_usd": 304878.05,
+        "base_price_usd": 298507.46,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2311,7 +1903,7 @@
         "description": "Equipo Proctor (completo), para ensayo de suelos .-",
         "base_price": 60000000.0,
         "currency": "ARS",
-        "base_price_usd": 36585.37,
+        "base_price_usd": 35820.9,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2330,7 +1922,7 @@
         "description": "Equipo CBR (Geotecnia) .-",
         "base_price": 70000000.0,
         "currency": "ARS",
-        "base_price_usd": 42682.93,
+        "base_price_usd": 41791.04,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2350,7 +1942,7 @@
         "description": "Estación total South 7, equipo topográfico de alta precisión, tecnología óptica avanzada con el ento...",
         "base_price": 100000000.0,
         "currency": "ARS",
-        "base_price_usd": 60975.61,
+        "base_price_usd": 59701.49,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2373,7 +1965,7 @@
         "description": "Estación Total DTM-822R es un instrumento topográfico electrónico de medición angular y de distancia...",
         "base_price": 100000000.0,
         "currency": "ARS",
-        "base_price_usd": 60975.61,
+        "base_price_usd": 59701.49,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2394,7 +1986,7 @@
         "description": "GPS GNSS de la serie South Galaxy son equipos de alta precisión diseñados para trabajos de topografí...",
         "base_price": 160000000.0,
         "currency": "ARS",
-        "base_price_usd": 97560.98,
+        "base_price_usd": 95522.39,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2416,7 +2008,7 @@
         "description": "GPS AllyNav GNSS R26 / R26 Pro es un sistema receptor GNSS RTK de alta precisión diseñado para traba...",
         "base_price": 160000000.0,
         "currency": "ARS",
-        "base_price_usd": 97560.98,
+        "base_price_usd": 95522.39,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2439,7 +2031,7 @@
         "description": "Nivel Leica NA300 es un nivel óptico automático. Precisión: hasta ±1.8 mm por kilómetro de doble niv...",
         "base_price": 34000000.0,
         "currency": "ARS",
-        "base_price_usd": 20731.71,
+        "base_price_usd": 20298.51,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2461,7 +2053,7 @@
         "description": "Nivel Automático BOIF AL-128 es un instrumento óptico de alta precisión diseñado para trabajos de to...",
         "base_price": 24000000.0,
         "currency": "ARS",
-        "base_price_usd": 14634.15,
+        "base_price_usd": 14328.36,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2483,7 +2075,7 @@
         "description": "Nivel Simai -32 es un nivel óptico automático de precisión de 32 aumentos, Aumento óptico de 32X, Co...",
         "base_price": 24000000.0,
         "currency": "ARS",
-        "base_price_usd": 14634.15,
+        "base_price_usd": 14328.36,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2505,7 +2097,7 @@
         "description": "Nivel South DSZ2 es un nivel óptico automático de alta precisión diseñado para trabajos de ingenierí...",
         "base_price": 24000000.0,
         "currency": "ARS",
-        "base_price_usd": 14634.15,
+        "base_price_usd": 14328.36,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2528,7 +2120,7 @@
         "description": "2 Ruedas completas para Ford 4000 Pirelli 215/75 R17.5 y cubierta de camión Pirelli 315/80 R22.5 (si...",
         "base_price": 28000000.0,
         "currency": "ARS",
-        "base_price_usd": 17073.17,
+        "base_price_usd": 16716.42,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2548,7 +2140,7 @@
         "description": "Grupo Electrógeno Honda mod. CXS6500, cap. 5500w, motores nafteros de 4 tiempos., (sin uso).-",
         "base_price": 180000000.0,
         "currency": "ARS",
-        "base_price_usd": 109756.1,
+        "base_price_usd": 107462.69,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2568,7 +2160,7 @@
         "description": "Equipo de corte para suelo., (completo) .-",
         "base_price": 68000000.0,
         "currency": "ARS",
-        "base_price_usd": 41463.41,
+        "base_price_usd": 40597.01,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2588,7 +2180,7 @@
         "description": "Prensa de geotecnia, cap. 5tn.-",
         "base_price": 12000000.0,
         "currency": "ARS",
-        "base_price_usd": 7317.07,
+        "base_price_usd": 7164.18,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -2620,12 +2212,40 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:50:57.451405+00:00",
+    "scraped_at": "2026-11-21T10:34:20.051143+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4584_condition_report_34225080.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4584_condition_report_67d8caff.pdf",
         "data/documents/adrian_mercado/adrian_mercado:4584_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:4648",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-maquinaria-para-carpinteria-de-madera-y-aluminio-scm-y-tecnomax-vidrios-y-maderas-nobles-distribuidora-avh-s-r-l-4648",
+    "title": "Subasta de maquinaria para carpintería de madera y aluminio SCM y Tecnomax, vidrios y maderas nobles - DISTRIBUIDORA AVH S.R.L.",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: Av. Remedios de Escalada de San Martín 4173, B1823 Valentín Alsina, Buenos Aires Condiciones generales Descargar",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-10T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-11-21T10:34:28.130171+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4648_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4648_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4648_condition_report_bbd2b7a8.pdf"
       ]
     },
     "lots": [],
@@ -2648,7 +2268,7 @@
       "city": ""
     },
     "images": [],
-    "scraped_at": "2026-11-20T10:51:05.580966+00:00",
+    "scraped_at": "2026-11-21T10:34:36.224538+00:00",
     "extra": {
       "documents": [
         "data/documents/adrian_mercado/adrian_mercado:4633_condition_report_34225080.pdf",
@@ -2668,7 +2288,35 @@
     "lot_count": 0
   },
   {
-    "id": "adrian_mercado:89095221",
+    "id": "adrian_mercado:4667",
+    "source": "adrian_mercado",
+    "source_url": "https://www.adrianmercado.com.ar/subastas/subasta-de-sembradoras-pulverizadora-y-equipamiento-para-labranza-y-riego-4667",
+    "title": "Subasta de sembradoras, pulverizadora y equipamiento para labranza y riego",
+    "description": "Ubicación Términos y condiciones Descargar Ubicación Ubicación: QX6V+7RF, La Ballenera, Buenos Aires Condiciones generales Descargar",
+    "category": "machinery",
+    "base_price": 0.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-11T00:00:00",
+    "location": {
+      "province": "Buenos Aires",
+      "city": ""
+    },
+    "images": [],
+    "scraped_at": "2026-11-21T10:34:44.302608+00:00",
+    "extra": {
+      "documents": [
+        "data/documents/adrian_mercado/adrian_mercado:4667_condition_report_34225080.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4667_condition_report_67d8caff.pdf",
+        "data/documents/adrian_mercado/adrian_mercado:4667_condition_report_bbd2b7a8.pdf"
+      ]
+    },
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "adrian_mercado:81014626",
     "source": "adrian_mercado",
     "source_url": "https://www.adrianmercado.com.ar/tel:+541139847400",
     "title": "TECHINT",
@@ -2686,7 +2334,7 @@
     "images": [
       "https://www.adrianmercado.com.ar/images/logo_grupo_2022_02.svg"
     ],
-    "scraped_at": "2026-11-20T10:47:54.409396+00:00",
+    "scraped_at": "2026-11-21T10:31:17.377279+00:00",
     "extra": {
       "market_data": {
         "source": "market_reference",

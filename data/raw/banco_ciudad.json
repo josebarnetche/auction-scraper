@@ -1,250 +1,5 @@
 [
   {
-    "id": "banco_ciudad:4014",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/4014",
-    "title": "PIEZAS DE COLECCIÓN - SUBASTA A BENEFICIO DE LA UBA",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 0.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-26T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145274/1"
-    ],
-    "scraped_at": "2026-11-27T11:39:51.859929+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:4014:153",
-        "lot_number": 153,
-        "title": "969,00 Armónica firmada por Ciro, cantante de Ciro y los Persas y voz históri... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/153"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:205",
-        "lot_number": 205,
-        "title": "000,00 Camiseta de River Plate autografiada por los campeones del mundo del c... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/205"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:350",
-        "lot_number": 350,
-        "title": "000,00 Lali dona un vinilo y un CD firmados de No Vayas a Atender Cuando el D... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/350"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:450",
-        "lot_number": 450,
-        "title": "000,00 Lote de dos piezas: un sombrero y un par de anteojos donados por Abel ... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/450"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:550",
-        "lot_number": 550,
-        "title": "912,00 Camiseta titular de Boca Juniors, azul y oro, autografiada. Donada por... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/550"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:551",
-        "lot_number": 551,
-        "title": "000,00 El chaleco es una pieza única diseñada y confeccionada por Red Jaus, d... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/551"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:650",
-        "lot_number": 650,
-        "title": "000,00 Camiseta de la Selección Argentina campeona de la Copa América 1993, d... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/650"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      },
-      {
-        "lot_id": "bc:4014:852",
-        "lot_number": 852,
-        "title": "000,00 Este parlante Mondo es una pieza donada por Bizarrap para la subasta d... Dep. en garantía:",
-        "description": "",
-        "base_price": 10000.0,
-        "currency": "ARS",
-        "base_price_usd": 5.85,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4014/852"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 8
-  },
-  {
-    "id": "banco_ciudad:4000",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/4000",
-    "title": "Calle 471 Nro. 1309, U.F. 1 esquina 8, de la localidad de City Bell, Partido de La Plata, Provincia de Buenos Aires.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 28762.54,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-16T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144825/1"
-    ],
-    "scraped_at": "2026-11-27T11:40:00.544778+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:4010",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/4010",
-    "title": "AUTOMOVILES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 20000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-01T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145113/1"
-    ],
-    "scraped_at": "2026-11-27T11:40:07.768535+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:4010:0",
-        "lot_number": 0,
-        "title": "000,00 UNA CAMIONETA USADA SIN FUNCIONAR, MARCA RENAULT, MODELO MASTER 2.3DCI... Dep. en garantía:",
-        "description": "",
-        "base_price": 4000000.0,
-        "currency": "ARS",
-        "base_price_usd": 2339.18,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4010/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
     "id": "banco_ciudad:3993",
     "source": "banco_ciudad",
     "source_url": "https://subastas.bancociudad.com.ar/subasta/3993",
@@ -263,7 +18,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144769/1"
     ],
-    "scraped_at": "2026-11-27T11:40:14.386148+00:00",
+    "scraped_at": "2026-11-28T11:15:02.060971+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -287,7 +42,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144771/1"
     ],
-    "scraped_at": "2026-11-27T11:40:20.911338+00:00",
+    "scraped_at": "2026-11-28T11:15:44.159032+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -311,7 +66,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144826/1"
     ],
-    "scraped_at": "2026-11-27T11:40:28.085809+00:00",
+    "scraped_at": "2026-11-28T11:15:51.456030+00:00",
     "extra": {},
     "lots": [
       {
@@ -321,7 +76,7 @@
         "description": "",
         "base_price": 341250.0,
         "currency": "ARS",
-        "base_price_usd": 199.56,
+        "base_price_usd": 201.33,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -340,7 +95,7 @@
         "description": "",
         "base_price": 41000.0,
         "currency": "ARS",
-        "base_price_usd": 23.98,
+        "base_price_usd": 24.19,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -359,7 +114,7 @@
         "description": "",
         "base_price": 68250.0,
         "currency": "ARS",
-        "base_price_usd": 39.91,
+        "base_price_usd": 40.27,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -373,54 +128,6 @@
       }
     ],
     "lot_count": 3
-  },
-  {
-    "id": "banco_ciudad:3991",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3991",
-    "title": "FRAY MAMERTO ESQUIU 4567, UF. 6 - CASEROS - PCIA. DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 31170.57,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-27T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144767/1"
-    ],
-    "scraped_at": "2026-11-27T11:40:35.115854+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3998",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3998",
-    "title": "CALLE 95 NRO. 2191 PISO 5 DPTO. 2 - SAN MARTIN - PROV. BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 39598.66,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-16T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144823/1"
-    ],
-    "scraped_at": "2026-11-27T11:40:42.125335+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
   },
   {
     "id": "banco_ciudad:4011",
@@ -441,7 +148,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145159/1"
     ],
-    "scraped_at": "2026-11-27T11:40:49.379698+00:00",
+    "scraped_at": "2026-11-28T11:15:58.721061+00:00",
     "extra": {},
     "lots": [
       {
@@ -451,7 +158,7 @@
         "description": "",
         "base_price": 16000.0,
         "currency": "ARS",
-        "base_price_usd": 9.36,
+        "base_price_usd": 9.44,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -470,7 +177,7 @@
         "description": "",
         "base_price": 18000.0,
         "currency": "ARS",
-        "base_price_usd": 10.53,
+        "base_price_usd": 10.62,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -489,7 +196,7 @@
         "description": "",
         "base_price": 20000.0,
         "currency": "ARS",
-        "base_price_usd": 11.7,
+        "base_price_usd": 11.8,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -508,7 +215,7 @@
         "description": "",
         "base_price": 30000.0,
         "currency": "ARS",
-        "base_price_usd": 17.54,
+        "base_price_usd": 17.7,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -527,7 +234,7 @@
         "description": "",
         "base_price": 68600.0,
         "currency": "ARS",
-        "base_price_usd": 40.12,
+        "base_price_usd": 40.47,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -546,7 +253,7 @@
         "description": "",
         "base_price": 80000.0,
         "currency": "ARS",
-        "base_price_usd": 46.78,
+        "base_price_usd": 47.2,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -565,7 +272,7 @@
         "description": "",
         "base_price": 300000.0,
         "currency": "ARS",
-        "base_price_usd": 175.44,
+        "base_price_usd": 176.99,
         "deposit_required": 0.0,
         "starts_at": null,
         "ends_at": null,
@@ -581,217 +288,25 @@
     "lot_count": 7
   },
   {
-    "id": "banco_ciudad:3992",
+    "id": "banco_ciudad:4000",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3992",
-    "title": "CALLE 75 N°826 ENTRE 11 Y 12 - LA PLATA - PCIA. DE BS. AS.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/4000",
+    "title": "Calle 471 Nro. 1309, U.F. 1 esquina 8, de la localidad de City Bell, Partido de La Plata, Provincia de Buenos Aires.",
     "description": "",
     "category": "real_estate",
-    "base_price": 28093.65,
+    "base_price": 28762.54,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-11-27T00:00:00",
+    "ends_at": "2026-12-16T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144768/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144825/1"
     ],
-    "scraped_at": "2026-11-27T11:40:56.477917+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:3997",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3997",
-    "title": "CONSOLAS - PS5",
-    "description": "",
-    "category": "vehicles",
-    "base_price": 341250.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-11T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144773/1"
-    ],
-    "scraped_at": "2026-11-27T11:41:03.622846+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:3997:341",
-        "lot_number": 341,
-        "title": "250,00 CONSOLA PLAYSTATION 5 DIGITAL EDITION SONY – 1TB –CONSOLA SIN LECTO... Dep. en garantía:",
-        "description": "",
-        "base_price": 68250.0,
-        "currency": "ARS",
-        "base_price_usd": 39.91,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3997/341"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:4012",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/4012",
-    "title": "TOYOTA COROLLA XEI PACK 1.8",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 12000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-17T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145267/1"
-    ],
-    "scraped_at": "2026-11-27T11:41:10.985815+00:00",
-    "extra": {
-      "market_data": {
-        "source": "market_reference",
-        "keyword_match": "corolla",
-        "min_usd": 8000,
-        "max_usd": 35000,
-        "typical_usd": 18000,
-        "category": "vehicles"
-      },
-      "discount_percent": 46.7,
-      "is_opportunity": true,
-      "opportunity_reason": "price_below_market"
-    },
-    "lots": [
-      {
-        "lot_id": "bc:4012:0",
-        "lot_number": 0,
-        "title": "000,00 UN AUTOMÓVIL USADO, FUNCIONANDO, MARCA TOYOTA, MODELO COROLLA XEI PACK... Dep. en garantía:",
-        "description": "",
-        "base_price": 2400000.0,
-        "currency": "ARS",
-        "base_price_usd": 1403.51,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4012/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:4015",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/4015",
-    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 166884.0,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-18T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145297/1"
-    ],
-    "scraped_at": "2026-11-27T11:41:17.409439+00:00",
-    "extra": {},
-    "lots": [],
-    "lot_count": 0
-  },
-  {
-    "id": "banco_ciudad:4009",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/4009",
-    "title": "MOTOCOMPRESORES",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 10000000.0,
-    "currency": "ARS",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-12-03T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145073/1"
-    ],
-    "scraped_at": "2026-11-27T11:41:24.722552+00:00",
-    "extra": {},
-    "lots": [
-      {
-        "lot_id": "bc:4009:0",
-        "lot_number": 0,
-        "title": "000,00 UN MOTOCOMPRESOR, MARCA CETEC, MODELO DTR175, SERIE NRO 5746, PRESIÓN ... Dep. en garantía:",
-        "description": "",
-        "base_price": 2000000.0,
-        "currency": "ARS",
-        "base_price_usd": 1169.59,
-        "deposit_required": 0.0,
-        "starts_at": null,
-        "ends_at": null,
-        "images": [
-          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4009/0"
-        ],
-        "ai_specs": null,
-        "ai_market_value_usd": null,
-        "ai_opportunity_score": null,
-        "ai_analyzed_at": null
-      }
-    ],
-    "lot_count": 1
-  },
-  {
-    "id": "banco_ciudad:3990",
-    "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3990",
-    "title": "AV. MITRE 5754, UF. 2 - CASEROS - PCIA. DE BS. AS.",
-    "description": "",
-    "category": "real_estate",
-    "base_price": 22408.03,
-    "currency": "USD",
-    "status": "published",
-    "starts_at": null,
-    "ends_at": "2026-11-27T00:00:00",
-    "location": {
-      "province": "CABA",
-      "city": "Buenos Aires"
-    },
-    "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144766/1"
-    ],
-    "scraped_at": "2026-11-27T11:41:31.219484+00:00",
+    "scraped_at": "2026-11-28T11:16:05.155725+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
@@ -815,10 +330,66 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144824/1"
     ],
-    "scraped_at": "2026-11-27T11:41:37.631101+00:00",
+    "scraped_at": "2026-11-28T11:16:11.763954+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:4012",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/4012",
+    "title": "TOYOTA COROLLA XEI PACK 1.8",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 12000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-17T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145267/1"
+    ],
+    "scraped_at": "2026-11-28T11:16:18.082117+00:00",
+    "extra": {
+      "market_data": {
+        "source": "market_reference",
+        "keyword_match": "corolla",
+        "min_usd": 8000,
+        "max_usd": 35000,
+        "typical_usd": 18000,
+        "category": "vehicles"
+      },
+      "discount_percent": 46.7,
+      "is_opportunity": true,
+      "opportunity_reason": "price_below_market"
+    },
+    "lots": [
+      {
+        "lot_id": "bc:4012:0",
+        "lot_number": 0,
+        "title": "000,00 UN AUTOMÓVIL USADO, FUNCIONANDO, MARCA TOYOTA, MODELO COROLLA XEI PACK... Dep. en garantía:",
+        "description": "",
+        "base_price": 2400000.0,
+        "currency": "ARS",
+        "base_price_usd": 1415.93,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4012/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
   },
   {
     "id": "banco_ciudad:3996",
@@ -839,34 +410,190 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144772/1"
     ],
-    "scraped_at": "2026-11-27T11:41:44.062643+00:00",
+    "scraped_at": "2026-11-28T11:16:25.013883+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
   },
   {
-    "id": "banco_ciudad:3989",
+    "id": "banco_ciudad:4015",
     "source": "banco_ciudad",
-    "source_url": "https://subastas.bancociudad.com.ar/subasta/3989",
-    "title": "SPORTARO ENTRE SERNA Y MITRE - EL TRIUNFO - LINCOLN - PCIA. DE BS. AS.",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/4015",
+    "title": "DERECHOS FIDUCIARIOS SOBRE LA U.F. 381, BARRIO HORIZONTES AL SUR RUTA 16, KM 1,5, entre AV. NESTOR KIRCHNER Y R.P. 58 GUERNICA, PROVINCIA DE BS. AS.",
     "description": "",
     "category": "real_estate",
-    "base_price": 4548.49,
+    "base_price": 166884.0,
     "currency": "USD",
     "status": "published",
     "starts_at": null,
-    "ends_at": "2026-11-27T00:00:00",
+    "ends_at": "2026-12-18T00:00:00",
     "location": {
       "province": "CABA",
       "city": "Buenos Aires"
     },
     "images": [
-      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144765/1"
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145297/1"
     ],
-    "scraped_at": "2026-11-27T11:41:50.442105+00:00",
+    "scraped_at": "2026-11-28T11:16:31.409568+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:4009",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/4009",
+    "title": "MOTOCOMPRESORES",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 10000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-03T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145073/1"
+    ],
+    "scraped_at": "2026-11-28T11:16:38.731545+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:4009:0",
+        "lot_number": 0,
+        "title": "000,00 UN MOTOCOMPRESOR, MARCA CETEC, MODELO DTR175, SERIE NRO 5746, PRESIÓN ... Dep. en garantía:",
+        "description": "",
+        "base_price": 2000000.0,
+        "currency": "ARS",
+        "base_price_usd": 1179.94,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4009/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:4010",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/4010",
+    "title": "AUTOMOVILES",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 20000000.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-01T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/145113/1"
+    ],
+    "scraped_at": "2026-11-28T11:16:45.484867+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:4010:0",
+        "lot_number": 0,
+        "title": "000,00 UNA CAMIONETA USADA SIN FUNCIONAR, MARCA RENAULT, MODELO MASTER 2.3DCI... Dep. en garantía:",
+        "description": "",
+        "base_price": 4000000.0,
+        "currency": "ARS",
+        "base_price_usd": 2359.88,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/4010/0"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
+  },
+  {
+    "id": "banco_ciudad:3998",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3998",
+    "title": "CALLE 95 NRO. 2191 PISO 5 DPTO. 2 - SAN MARTIN - PROV. BS. AS.",
+    "description": "",
+    "category": "real_estate",
+    "base_price": 39598.66,
+    "currency": "USD",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-16T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144823/1"
+    ],
+    "scraped_at": "2026-11-28T11:16:51.969675+00:00",
+    "extra": {},
+    "lots": [],
+    "lot_count": 0
+  },
+  {
+    "id": "banco_ciudad:3997",
+    "source": "banco_ciudad",
+    "source_url": "https://subastas.bancociudad.com.ar/subasta/3997",
+    "title": "CONSOLAS - PS5",
+    "description": "",
+    "category": "vehicles",
+    "base_price": 341250.0,
+    "currency": "ARS",
+    "status": "published",
+    "starts_at": null,
+    "ends_at": "2026-12-11T00:00:00",
+    "location": {
+      "province": "CABA",
+      "city": "Buenos Aires"
+    },
+    "images": [
+      "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144773/1"
+    ],
+    "scraped_at": "2026-11-28T11:16:58.405294+00:00",
+    "extra": {},
+    "lots": [
+      {
+        "lot_id": "bc:3997:341",
+        "lot_number": 341,
+        "title": "250,00 CONSOLA PLAYSTATION 5 DIGITAL EDITION SONY – 1TB –CONSOLA SIN LECTO... Dep. en garantía:",
+        "description": "",
+        "base_price": 68250.0,
+        "currency": "ARS",
+        "base_price_usd": 40.27,
+        "deposit_required": 0.0,
+        "starts_at": null,
+        "ends_at": null,
+        "images": [
+          "https://subastas.bancociudad.com.ar/subastas_rest/subastas/imagen/3997/341"
+        ],
+        "ai_specs": null,
+        "ai_market_value_usd": null,
+        "ai_opportunity_score": null,
+        "ai_analyzed_at": null
+      }
+    ],
+    "lot_count": 1
   },
   {
     "id": "banco_ciudad:3994",
@@ -887,7 +614,7 @@
     "images": [
       "https://subastas.bancociudad.com.ar/subastas_rest/lotes/imagen/144770/1"
     ],
-    "scraped_at": "2026-11-27T11:41:57.591691+00:00",
+    "scraped_at": "2026-11-28T11:17:04.830647+00:00",
     "extra": {},
     "lots": [],
     "lot_count": 0
